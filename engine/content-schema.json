@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Three-Question Engine Content Pack",
+  "description": "Content schema for the Three-Question Learning Engine. Each file defines one exam/course with multiple modules.",
+  "type": "object",
+  "required": ["id", "name", "modules"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique content pack ID, e.g. 'ai100', 's100'"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name, e.g. 'iPAS AI 應用規劃師'"
+    },
+    "brandMark": {
+      "type": "string",
+      "description": "Short brand mark for top-bar, e.g. 'iP', 'AI'"
+    },
+    "description": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "object",
+      "description": "首頁 hero 文案（optional）。未提供則用引擎預設。",
+      "properties": {
+        "title": { "type": "string", "description": "hero 大標，允許 <em>/<br> HTML" },
+        "lede": { "type": "string", "description": "hero 副標說明" }
+      }
+    },
+    "moduleListIntro": {
+      "type": "string",
+      "description": "學習模組區塊的介紹句（optional）。未提供則用引擎預設。"
+    },
+    "levels": {
+      "type": "array",
+      "description": "Level definitions for module grouping",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "requiresLogin": { "type": "boolean", "default": false },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "apiProxy": {
+      "type": "string",
+      "description": "URL of the API proxy for AI generation, e.g. 'https://api.cooperation.tw'"
+    },
+    "firebase": {
+      "type": "object",
+      "description": "Firebase config (optional, for progress tracking)",
+      "properties": {
+        "apiKey": { "type": "string" },
+        "authDomain": { "type": "string" },
+        "databaseURL": { "type": "string" },
+        "projectId": { "type": "string" }
+      }
+    },
+    "teacherEmail": {
+      "type": "string",
+      "description": "Email for teacher dashboard access (optional)"
+    },
+    "theme": {
+      "type": "object",
+      "description": "CSS theme color overrides (optional). Keys: primary, primaryLt, navy, green, gold, red, purple",
+      "properties": {
+        "primary": { "type": "string", "description": "Maps to --blue CSS variable" },
+        "primaryLt": { "type": "string", "description": "Maps to --blue-lt CSS variable" },
+        "navy": { "type": "string", "description": "Maps to --navy CSS variable" }
+      }
+    },
+    "terminology": {
+      "type": "object",
+      "description": "Custom terminology (optional). Keys: framework, exam, practice, level1-4",
+      "properties": {
+        "framework": { "type": "string", "default": "心智模型" },
+        "exam": { "type": "string", "default": "模擬考" },
+        "practice": { "type": "string", "default": "弱項練習" },
+        "level1": { "type": "string", "default": "基礎概念" },
+        "level2": { "type": "string", "default": "雙概念混合" },
+        "level3": { "type": "string", "default": "企業情境" },
+        "level4": { "type": "string", "default": "陷阱題" }
+      }
+    },
+    "questionStyle": {
+      "type": "object",
+      "description": "AI question generation style constraints",
+      "properties": {
+        "optionLength": {
+          "type": "array",
+          "items": { "type": "integer" },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "[min, max] chars per option"
+        },
+        "diffMax": { "type": "integer", "description": "Max char difference between options" },
+        "stemMin": { "type": "integer", "description": "Min stem length in chars" }
+      }
+    },
+    "subjects": {
+      "type": "array",
+      "description": "Exam subjects (for mock exam by subject instead of by module)",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "level", "modules"],
+        "properties": {
+          "id": { "type": "string", "description": "e.g. 'S1'" },
+          "name": { "type": "string", "description": "e.g. '科目一：基礎概論'" },
+          "level": { "type": "string", "description": "References levels[].id" },
+          "modules": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Module IDs in this subject"
+          },
+          "duration": { "type": "integer", "description": "Exam duration in minutes" },
+          "total": { "type": "integer", "description": "Total questions in exam" }
+        }
+      }
+    },
+    "examInfo": {
+      "type": "object",
+      "description": "Exam metadata for prompt context",
+      "properties": {
+        "name": { "type": "string" },
+        "duration": { "type": "string" },
+        "questions": { "type": "integer" },
+        "passScore": { "type": "integer" },
+        "trends": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "modules": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/module" }
+    }
+  },
+  "$defs": {
+    "module": {
+      "type": "object",
+      "required": ["id", "name", "frameworks", "debates", "questions"],
+      "properties": {
+        "id": { "type": "string", "description": "e.g. 'M01', 'L111'" },
+        "name": { "type": "string" },
+        "level": { "type": "string", "description": "References levels[].id" },
+        "examSubject": {
+          "type": "object",
+          "properties": {
+            "code": { "type": "string" },
+            "name": { "type": "string" }
+          }
+        },
+        "lectureBaseUrl": {
+          "type": "string",
+          "description": "Base URL for lecture links, e.g. '/lectures/'"
+        },
+        "recall": {
+          "type": "object",
+          "description": "Phase 0: post-class recall prompts",
+          "properties": {
+            "prompts": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "frameworks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/framework" }
+        },
+        "debates": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/debate" }
+        },
+        "questions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/question" }
+        },
+        "reinforcement": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/question" }
+        }
+      }
+    },
+    "framework": {
+      "type": "object",
+      "required": ["id", "name", "desc"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "desc": { "type": "string" },
+        "analogy": { "type": "string" },
+        "covers": { "type": "array", "items": { "type": "string" } },
+        "lectures": {
+          "type": "array",
+          "description": "Related lecture links for wrong-answer guidance",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "title": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "debate": {
+      "type": "object",
+      "required": ["id", "title", "scenario", "sideA", "sideB", "insight"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "scenario": { "type": "string" },
+        "sideA": {
+          "type": "object",
+          "properties": {
+            "label": { "type": "string" },
+            "args": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "sideB": {
+          "type": "object",
+          "properties": {
+            "label": { "type": "string" },
+            "args": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "insight": { "type": "string" },
+        "framework": { "type": "string", "description": "Framework ID this debate relates to" }
+      }
+    },
+    "question": {
+      "type": "object",
+      "required": ["id", "stem", "options", "correct"],
+      "properties": {
+        "id": { "type": "string" },
+        "stem": { "type": "string", "minLength": 20 },
+        "options": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": ["key", "text"],
+            "properties": {
+              "key": { "type": "string", "enum": ["A", "B", "C", "D"] },
+              "text": { "type": "string", "minLength": 10 },
+              "depth": { "type": "integer", "minimum": 1, "maximum": 4 }
+            }
+          }
+        },
+        "correct": { "type": "string", "enum": ["A", "B", "C", "D"] },
+        "explanation": { "type": "string" },
+        "framework": { "type": "string", "description": "Framework ID this question tests" },
+        "diagnosis": {
+          "type": "object",
+          "description": "Per wrong-answer feedback",
+          "patternProperties": {
+            "^[A-D]$": {
+              "type": "object",
+              "properties": {
+                "gap": { "type": "string" },
+                "followup": { "type": "string" }
+              }
+            }
+          }
+        },
+        "lectureRefs": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Lecture IDs to recommend when wrong"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WELL AP 健康建築認證專家 — 教師分析後台</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+</head>
+<body>
+<script>
+window.ANALYTICS_CONFIG = {
+  packId: 'wellap',
+  title: 'WELL AP 健康建築認證專家',
+  firebaseConfig: {},
+  teacherEmail: 'alan.chen75@gmail.com',
+  moduleNames: {
+    M01: '空氣 Air',
+    M02: '水 Water',
+    M03: '飲食 Nourishment',
+    M04: '光 Light',
+    M05: '運動 Movement',
+    M06: '熱舒適 Thermal Comfort',
+    M07: '聲音 Sound',
+    M08: '材料 Materials',
+    M09: '心理 Mind',
+    M10: '社區 Community',
+    M11: 'WELL 認證與 Portfolio'
+  },
+  subjectNames: {},
+  learnUrl: 'index.html'
+};
+</script>
+<script>
+// Load analytics template inline (self-contained)
+// In production, this would be the analytics-template.html content
+// For local dev, we fetch and inject it
+(function(){
+  var tpl = document.createElement('iframe');
+  // Direct include approach: copy style + body + script from template
+  // For simplicity, redirect to template with config
+  var base = 'engine/analytics-template.html';
+  // Pass config via sessionStorage
+  sessionStorage.setItem('ANALYTICS_CONFIG', JSON.stringify(window.ANALYTICS_CONFIG));
+  window.location.href = base + '?pack=wellap';
+})();
+</script>
+</body>
+</html>

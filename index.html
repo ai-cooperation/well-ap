@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WELL AP 健康建築認證專家 · 三問法學習系統</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;900&family=Noto+Serif+TC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="engine/learn.css">
+</head>
+<body>
+
+<header class="tqe-top-bar" id="tqeTopNav">
+  <div class="tqe-top-bar-inner">
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div class="brand-mark" id="tqeBrandMark">WA</div>
+      <div><div class="brand-name" id="tqeBrandName">WELL AP 健康建築認證專家</div></div>
+    </div>
+    <nav class="nav-links" id="tqeNavLinks"></nav>
+    <div class="nav-spacer"></div>
+    <div id="tqeAuthSection">
+      <button class="btn btn-outline btn-sm" id="tqeBtnGoogleLogin" onclick="ThreeQuestionEngine.googleLogin()" style="gap:6px;">
+        <svg width="16" height="16" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+        登入
+      </button>
+      <span id="tqeAuthStatus" style="font-size:12px;color:var(--text-mute);margin-left:8px;"></span>
+    </div>
+    <div class="avatar" id="tqeUserAvatar" style="display:none"></div>
+    <a id="tqeTeacherLink" href="#" style="display:none;font-size:13px;color:var(--forest-700);font-weight:600;">講師後台</a>
+  </div>
+</header>
+
+<!-- Screen: Entry (Home Dashboard) -->
+<div class="tqe-screen active" id="tqeScreenEntry">
+  <div id="tqeEntryArea"></div>
+</div>
+
+<!-- Screen: Learn (3-tab view) -->
+<div class="tqe-screen" id="tqeScreenLearn">
+  <div class="learn-shell">
+    <aside class="learn-side-left">
+      <div id="tqeLearnTOC"></div>
+      <div id="tqeLearnProgress"></div>
+    </aside>
+    <main>
+      <div id="tqeLearnHead"></div>
+      <div class="three-q" id="tqeThreeQTabs"></div>
+      <div id="tqeLearnContent"></div>
+      <div class="learn-footer" id="tqeLearnFooter"></div>
+    </main>
+    <aside class="learn-side-right">
+      <div id="tqeConceptMap"></div>
+    </aside>
+  </div>
+</div>
+
+<!-- Screen: Phase 1-4 -->
+<div class="tqe-screen" id="tqeScreenPhase1"><div class="tqe-container" id="tqePhase1Area"></div></div>
+<div class="tqe-screen" id="tqeScreenPhase2"><div class="tqe-container" id="tqePhase2Area"></div></div>
+<div class="tqe-screen" id="tqeScreenPhase3"><div class="tqe-container" id="tqePhase3Area"></div></div>
+<div class="tqe-screen" id="tqeScreenPhase4"><div class="tqe-container" id="tqePhase4Area"></div></div>
+
+<!-- Screen: Layer 2 -->
+<div class="tqe-screen" id="tqeScreenLayer2">
+  <div class="tqe-container">
+    <div class="phase-header"><div class="phase-tag" style="background:var(--plum,var(--purple));">弱項練習</div><h2 id="tqeL2Title">弱項練習</h2><p id="tqeL2Subtitle"></p></div>
+    <div id="tqeL2Info" class="info purple"></div>
+    <div id="tqeL2LevelBar"></div>
+    <div id="tqeL2Progress"></div>
+    <div id="tqeL2QuizArea"></div>
+  </div>
+</div>
+
+<!-- Screen: Exam -->
+<div class="tqe-screen" id="tqeScreenExam">
+  <div class="tqe-container">
+    <div style="text-align:center;margin-bottom:1rem;"><span style="font-size:2rem;font-weight:900;" id="tqeExamTimer">120:00</span></div>
+    <div id="tqeExamLoadProgress" style="text-align:center;color:var(--text-mute);"></div>
+    <div id="tqeExamArea"></div>
+  </div>
+</div>
+
+<!-- Screen: Stats (成績總覽) -->
+<div class="tqe-screen" id="tqeScreenStats">
+  <div class="tqe-container" id="tqeStatsArea"></div>
+</div>
+
+<!-- Screen: Exam Result -->
+<div class="tqe-screen" id="tqeScreenExamResult">
+  <div class="result-shell" id="tqeExamResultArea"></div>
+</div>
+
+<!-- Firebase 8.x (compat) -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
+<!-- Engine -->
+<script src="engine/learn-engine.js"></script>
+<script src="engine/learn-ui.js"></script>
+<script src="engine/learn-layer2.js"></script>
+
+<!-- WELL AP Content Pack -->
+<script src="content.js"></script>
+
+<!-- Init -->
+<script>
+  ThreeQuestionEngine.init({
+    contentPack: WELLAP_CONTENT,
+    apiProxy: WELLAP_CONTENT.apiProxy,
+    firebase: WELLAP_CONTENT.firebase,
+    teacherEmail: WELLAP_CONTENT.teacherEmail
+  });
+  TQE_UI.renderEntry();
+  ThreeQuestionEngine.initFirebase(function(user) {
+    TQE_UI.renderEntry();
+    var loginBtn = document.getElementById('tqeBtnGoogleLogin');
+    var avatar = document.getElementById('tqeUserAvatar');
+    if (user) {
+      if (loginBtn) loginBtn.style.display = 'none';
+      if (avatar) { avatar.style.display = 'grid'; avatar.textContent = (user.displayName || user.email || '').charAt(0); avatar.onclick = function(){ if(confirm('登出？')) ThreeQuestionEngine.googleLogout(); }; }
+    } else {
+      if (loginBtn) loginBtn.style.display = 'inline-flex';
+      if (avatar) avatar.style.display = 'none';
+    }
+  });
+</script>
+
+</body>
+</html>
