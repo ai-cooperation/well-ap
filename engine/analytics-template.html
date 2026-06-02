@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>三問法學習系統 — 教師分析後台</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+:root{--white:#FFF;--off:#F8F9FA;--g50:#F1F3F4;--g100:#E8EAED;--g200:#DADCE0;--g400:#9AA0A6;--g600:#5F6368;--g800:#3C4043;--g900:#202124;--blue:#1A73E8;--blue-lt:#E8F0FE;--green:#0F9D8A;--green-lt:#E6F4F1;--gold:#F9AB00;--gold-lt:#FEF7E0;--red:#D93025;--red-lt:#FCE8E6;--purple:#7C3AED;--purple-lt:#F3E8FF;--navy:#0B3C5D;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Noto Sans TC',sans-serif;color:var(--g900);background:var(--off);min-height:100vh;}
+
+.login-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:2rem;}
+.login-screen h1{font-size:1.8rem;color:var(--navy);margin-bottom:1rem;}
+
+.dashboard{display:none;max-width:1100px;margin:0 auto;padding:1rem;}
+.dashboard.active{display:block;}
+
+.top-bar{background:var(--navy);color:#fff;padding:.8rem 1.5rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:50;flex-wrap:wrap;gap:.5rem;}
+.top-bar h1{font-size:1.1rem;font-weight:700;}
+.top-bar .user-info{font-size:.85rem;opacity:.8;}
+
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0;}
+.stat-card{background:var(--white);border-radius:16px;padding:1.2rem;border:2px solid var(--g100);text-align:center;}
+.stat-card .num{font-size:2.5rem;font-weight:900;line-height:1.2;}
+.stat-card .label{font-size:.85rem;color:var(--g600);margin-top:.3rem;}
+
+.section{background:var(--white);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;border:2px solid var(--g100);}
+.section h2{font-size:1.2rem;font-weight:700;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--g100);}
+
+.data-table{width:100%;border-collapse:collapse;font-size:.9rem;}
+.data-table th{text-align:left;padding:.6rem .8rem;background:var(--g50);font-weight:700;border-bottom:2px solid var(--g200);}
+.data-table td{padding:.6rem .8rem;border-bottom:1px solid var(--g100);}
+.data-table tr:hover{background:var(--blue-lt);}
+
+.bar-bg{background:var(--g100);border-radius:4px;height:8px;flex:1;}
+.bar-fill{height:100%;border-radius:4px;transition:width .3s;}
+
+.tabs{display:flex;gap:.5rem;margin-bottom:1rem;flex-wrap:wrap;}
+.tab{padding:.4rem 1rem;border:2px solid var(--g200);border-radius:8px;cursor:pointer;font-size:.85rem;font-weight:700;background:var(--white);}
+.tab.active{border-color:var(--blue);background:var(--blue-lt);color:var(--blue);}
+
+.chart-wrap{max-width:500px;margin:1rem auto;}
+
+.loading{text-align:center;padding:3rem;color:var(--g400);}
+
+.btn{display:inline-block;padding:.7rem 1.8rem;border:none;border-radius:12px;font-size:1rem;font-weight:700;font-family:inherit;cursor:pointer;}
+.btn-primary{background:var(--blue);color:#fff;}
+
+@media(max-width:600px){
+  .stats-row{grid-template-columns:1fr 1fr;}
+  .stat-card .num{font-size:1.8rem;}
+  .dashboard{padding:.5rem;}
+  .section{padding:1rem;}
+  .data-table{font-size:.8rem;}
+  .data-table th,.data-table td{padding:.4rem .5rem;}
+}
+</style>
+</head>
+<body>
+
+<!-- LOGIN SCREEN -->
+<div class="login-screen" id="loginScreen">
+  <h1 id="analyticsTitle">教師分析後台</h1>
+  <p style="color:var(--g600);margin-bottom:1.5rem;">僅限授權教師帳號登入</p>
+  <button class="btn btn-primary" onclick="teacherLogin()" style="display:flex;align-items:center;gap:.5rem;">
+    <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+    Google 登入
+  </button>
+  <p id="loginMsg" style="margin-top:1rem;font-size:.9rem;"></p>
+  <a href="#" id="backToLearn" style="margin-top:2rem;font-size:.85rem;color:var(--g400);">← 返回學習系統</a>
+</div>
+
+<!-- TOP BAR -->
+<div class="top-bar" id="topBar" style="display:none;">
+  <h1 id="topBarTitle">三問法 — 教師分析後台</h1>
+  <div>
+    <span class="user-info" id="userInfo"></span>
+    <a href="#" onclick="firebase.auth().signOut();return false;" style="color:var(--gold);margin-left:1rem;font-size:.85rem;">登出</a>
+    <a href="#" id="topBarBack" style="color:#fff;margin-left:1rem;font-size:.85rem;opacity:.7;">← 學習系統</a>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div class="dashboard" id="dashboard">
+
+  <!-- Overview Stats -->
+  <div class="stats-row" id="overviewStats">
+    <div class="stat-card"><div class="num" id="statTotalUsers">-</div><div class="label">註冊學員</div></div>
+    <div class="stat-card"><div class="num" id="statTotalAnon">-</div><div class="label">匿名使用</div></div>
+    <div class="stat-card"><div class="num" id="statTotalAnswers">-</div><div class="label">總答題數</div></div>
+    <div class="stat-card"><div class="num" id="statAvgAccuracy">-</div><div class="label">平均正確率</div></div>
+  </div>
+
+  <!-- Module Tabs -->
+  <div class="tabs" id="moduleTabs"></div>
+
+  <!-- Exam Stats -->
+  <div class="section">
+    <h2>模擬考統計</h2>
+    <table class="data-table" id="examStatsTable">
+      <thead><tr><th>考科</th><th>考試人次</th><th>平均分</th><th>通過率</th></tr></thead>
+      <tbody id="examStatsBody"><tr><td colspan="4" class="loading">載入中...</td></tr></tbody>
+    </table>
+  </div>
+
+  <!-- Knowledge Gap Analysis -->
+  <div class="section">
+    <h2>集體知識缺口（全體學員最常錯的框架）</h2>
+    <div id="gapChart" class="chart-wrap"><canvas id="gapCanvas"></canvas></div>
+    <table class="data-table" id="gapTable">
+      <thead><tr><th>模組</th><th>框架</th><th>錯誤次數</th><th>常見盲區</th></tr></thead>
+      <tbody id="gapBody"><tr><td colspan="4" class="loading">載入中...</td></tr></tbody>
+    </table>
+  </div>
+
+  <!-- Question Error Rate -->
+  <div class="section">
+    <h2>題目錯誤率排行（最難的題目）</h2>
+    <table class="data-table" id="questionTable">
+      <thead><tr><th>模組</th><th>題號</th><th>作答數</th><th>正確率</th><th>最常選錯</th></tr></thead>
+      <tbody id="questionBody"><tr><td colspan="5" class="loading">載入中...</td></tr></tbody>
+    </table>
+  </div>
+
+  <!-- Registered Users Progress -->
+  <div class="section">
+    <h2>Google 登入學員</h2>
+    <table class="data-table" id="userTable">
+      <thead><tr><th>學員</th><th>Email</th><th>學習模組</th><th>正確率</th><th>模擬考</th><th>弱項</th><th>最後活躍</th></tr></thead>
+      <tbody id="userBody"><tr><td colspan="7" class="loading">載入中...</td></tr></tbody>
+    </table>
+  </div>
+
+  <!-- Anonymous Sessions -->
+  <div class="section">
+    <h2>匿名學習 Session</h2>
+    <p style="font-size:.85rem;color:var(--g400);margin-bottom:.8rem;">未登入的學習紀錄</p>
+    <table class="data-table" id="anonTable">
+      <thead><tr><th>暱稱</th><th>模組</th><th>進度</th><th>Phase 3 答題數</th><th>時間</th></tr></thead>
+      <tbody id="anonBody"><tr><td colspan="5" class="loading">載入中...</td></tr></tbody>
+    </table>
+  </div>
+
+  <!-- Module Completion -->
+  <div class="section">
+    <h2>各模組使用量</h2>
+    <div id="moduleChart" class="chart-wrap"><canvas id="moduleCanvas"></canvas></div>
+  </div>
+
+  <!-- Reports (flagged questions) -->
+  <div class="section">
+    <h2>題目回報</h2>
+    <table class="data-table" id="reportTable">
+      <thead><tr><th>題號</th><th>原因</th><th>回報人</th><th>時間</th></tr></thead>
+      <tbody id="reportBody"><tr><td colspan="4" class="loading">載入中...</td></tr></tbody>
+    </table>
+  </div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script>
+// ═══════════════════════════════════════════════════════
+//  CONFIG — set by each content pack's analytics page
+// ═══════════════════════════════════════════════════════
+// These globals must be set before this script runs:
+//   ANALYTICS_CONFIG.packId        — content pack ID (e.g. 's100')
+//   ANALYTICS_CONFIG.firebaseConfig — Firebase config object
+//   ANALYTICS_CONFIG.teacherEmail  — authorized email
+//   ANALYTICS_CONFIG.moduleNames   — { M01:'模組名', M02:'...', ... }
+//   ANALYTICS_CONFIG.subjectNames  — { S1:'科目一', ... } (optional)
+//   ANALYTICS_CONFIG.learnUrl      — relative URL back to learn page
+
+// Read config: from window global, or from sessionStorage (set by pack's analytics.html redirect)
+if (!window.ANALYTICS_CONFIG && sessionStorage.getItem('ANALYTICS_CONFIG')) {
+  try { window.ANALYTICS_CONFIG = JSON.parse(sessionStorage.getItem('ANALYTICS_CONFIG')); } catch(e) {}
+}
+var ANALYTICS_CONFIG = window.ANALYTICS_CONFIG || {};
+var PACK_ID = ANALYTICS_CONFIG.packId || 'learn';
+var TEACHER_EMAIL = ANALYTICS_CONFIG.teacherEmail || '';
+var MODULE_NAMES = ANALYTICS_CONFIG.moduleNames || {};
+var SUBJECT_NAMES = ANALYTICS_CONFIG.subjectNames || {};
+var LEARN_URL = ANALYTICS_CONFIG.learnUrl || 'index.html';
+
+// Apply config to UI
+document.getElementById('backToLearn').href = LEARN_URL;
+document.getElementById('topBarBack').href = LEARN_URL;
+if (ANALYTICS_CONFIG.title) {
+  document.title = ANALYTICS_CONFIG.title + ' — 教師分析後台';
+  document.getElementById('analyticsTitle').textContent = ANALYTICS_CONFIG.title + ' — 教師後台';
+  document.getElementById('topBarTitle').textContent = ANALYTICS_CONFIG.title + ' — 教師後台';
+}
+
+// Init Firebase
+firebase.initializeApp(ANALYTICS_CONFIG.firebaseConfig || {});
+var db = firebase.database();
+
+function esc(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+
+// Auth
+firebase.auth().onAuthStateChanged(function(user){
+  if(user && user.email === TEACHER_EMAIL){
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('topBar').style.display = 'flex';
+    document.getElementById('dashboard').classList.add('active');
+    document.getElementById('userInfo').textContent = user.displayName || user.email;
+    loadAllData();
+  } else if(user){
+    document.getElementById('loginMsg').innerHTML = '<span style="color:var(--red);">此帳號無權限存取分析後台</span>';
+    firebase.auth().signOut();
+  } else {
+    document.getElementById('loginScreen').style.display = 'flex';
+    document.getElementById('topBar').style.display = 'none';
+    document.getElementById('dashboard').classList.remove('active');
+  }
+});
+
+// Mobile: redirect fallback
+firebase.auth().getRedirectResult().catch(function(){});
+
+function teacherLogin(){
+  var provider = new firebase.auth.GoogleAuthProvider();
+  if(/iPhone|iPad|Android/i.test(navigator.userAgent)){
+    firebase.auth().signInWithRedirect(provider);
+  } else {
+    firebase.auth().signInWithPopup(provider).catch(function(e){
+      document.getElementById('loginMsg').innerHTML = '<span style="color:var(--red);">' + esc(e.message) + '</span>';
+    });
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  DATA LOADING
+// ═══════════════════════════════════════════════════════
+var _selectedModule = 'ALL';
+
+function loadAllData(){
+  loadOverviewStats();
+  loadExamStats();
+  loadFrameworkGaps();
+  loadQuestionStats();
+  loadRegisteredUsers();
+  loadAnonymousSessions();
+  loadModuleStats();
+  loadReports();
+  renderModuleTabs();
+}
+
+function renderModuleTabs(){
+  var wrap = document.getElementById('moduleTabs');
+  var mods = ['ALL'].concat(Object.keys(MODULE_NAMES));
+  wrap.innerHTML = mods.map(function(m){
+    var label = m === 'ALL' ? '全部' : m;
+    var cls = m === _selectedModule ? 'tab active' : 'tab';
+    return '<div class="' + cls + '" onclick="filterModule(\'' + m + '\')">' + label + '</div>';
+  }).join('');
+}
+
+function filterModule(m){
+  _selectedModule = m;
+  renderModuleTabs();
+  loadFrameworkGaps();
+  loadQuestionStats();
+}
+
+// Overview Stats
+function loadOverviewStats(){
+  // Google Auth users
+  db.ref(PACK_ID + '/users_auth').once('value').then(function(snap){
+    document.getElementById('statTotalUsers').textContent = snap.numChildren();
+  });
+
+  // Anonymous sessions
+  db.ref(PACK_ID).once('value').then(function(snap){
+    var data = snap.val() || {};
+    var reserved = {'analytics':1, 'users':1, 'users_auth':1, 'question_pool':1};
+    var anonCount = 0;
+    Object.keys(data).forEach(function(k){ if(!reserved[k]) anonCount++; });
+    document.getElementById('statTotalAnon').textContent = anonCount;
+  });
+
+  // Total answers
+  db.ref(PACK_ID + '/analytics/questions').once('value').then(function(snap){
+    var data = snap.val() || {};
+    var totalAttempts = 0, totalCorrect = 0;
+    Object.keys(data).forEach(function(mod){
+      Object.keys(data[mod] || {}).forEach(function(qid){
+        var q = data[mod][qid];
+        totalAttempts += q.attempts || 0;
+        totalCorrect += q.correct || 0;
+      });
+    });
+    document.getElementById('statTotalAnswers').textContent = totalAttempts;
+    var pct = totalAttempts > 0 ? Math.round(totalCorrect / totalAttempts * 100) : 0;
+    var el = document.getElementById('statAvgAccuracy');
+    el.textContent = pct + '%';
+    el.style.color = pct >= 70 ? 'var(--green)' : pct >= 40 ? 'var(--gold)' : 'var(--red)';
+  });
+}
+
+// Exam Stats (per subject)
+function loadExamStats(){
+  db.ref(PACK_ID + '/analytics/exams').once('value', function(snap){
+    var data = snap.val() || {};
+    var tbody = document.getElementById('examStatsBody');
+    var rows = [];
+    Object.keys(data).forEach(function(subjectId){
+      var s = data[subjectId];
+      var name = SUBJECT_NAMES[subjectId] || subjectId;
+      var count = s.count || 0;
+      var avgScore = count > 0 ? Math.round((s.totalScore || 0) / count) : 0;
+      var passRate = count > 0 ? Math.round((s.passCount || 0) / count * 100) : 0;
+      rows.push({ name:name, count:count, avgScore:avgScore, passRate:passRate });
+    });
+    if(rows.length === 0){
+      tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--g400);">尚無模擬考數據</td></tr>';
+    } else {
+      tbody.innerHTML = rows.map(function(r){
+        var scoreColor = r.avgScore >= 70 ? 'var(--green)' : r.avgScore >= 50 ? 'var(--gold)' : 'var(--red)';
+        var passColor = r.passRate >= 50 ? 'var(--green)' : 'var(--red)';
+        return '<tr><td>' + esc(r.name) + '</td><td>' + r.count + '</td>' +
+          '<td style="font-weight:700;color:' + scoreColor + ';">' + r.avgScore + '</td>' +
+          '<td style="font-weight:700;color:' + passColor + ';">' + r.passRate + '%</td></tr>';
+      }).join('');
+    }
+  });
+}
+
+// Framework Knowledge Gaps
+function loadFrameworkGaps(){
+  db.ref(PACK_ID + '/analytics/frameworks').once('value', function(snap){
+    var data = snap.val() || {};
+    var rows = [];
+    Object.keys(data).forEach(function(mod){
+      if(_selectedModule !== 'ALL' && mod !== _selectedModule) return;
+      Object.keys(data[mod] || {}).forEach(function(fwId){
+        var fw = data[mod][fwId];
+        var topGap = '', maxCount = 0;
+        if(fw.gaps){
+          Object.keys(fw.gaps).forEach(function(g){
+            if(fw.gaps[g] > maxCount){ maxCount = fw.gaps[g]; topGap = g; }
+          });
+        }
+        rows.push({ mod:mod, fwId:fwId, fwName:fw.name||fwId, totalWrong:fw.total_wrong||0, topGap:topGap });
+      });
+    });
+    rows.sort(function(a,b){ return b.totalWrong - a.totalWrong; });
+
+    var tbody = document.getElementById('gapBody');
+    if(rows.length === 0){
+      tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--g400);">尚無數據</td></tr>';
+    } else {
+      tbody.innerHTML = rows.slice(0, 20).map(function(r){
+        return '<tr><td>' + esc(r.mod) + '</td><td>' + esc(r.fwId + ' ' + r.fwName) + '</td>' +
+          '<td style="font-weight:700;color:var(--red);">' + r.totalWrong + '</td>' +
+          '<td style="font-size:.85rem;color:var(--g600);">' + esc(r.topGap) + '</td></tr>';
+      }).join('');
+    }
+    renderGapChart(rows.slice(0, 10));
+  });
+}
+
+function renderGapChart(rows){
+  var ctx = document.getElementById('gapCanvas').getContext('2d');
+  if(window._gapChart) window._gapChart.destroy();
+  window._gapChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: rows.map(function(r){ return r.fwId; }),
+      datasets: [{ label: '錯誤次數', data: rows.map(function(r){ return r.totalWrong; }), backgroundColor: 'rgba(217,48,37,0.7)', borderRadius: 6 }]
+    },
+    options: { indexAxis: 'y', responsive: true, plugins: { legend: { display: false } }, scales: { x: { beginAtZero: true } } }
+  });
+}
+
+// Question Error Rate
+function loadQuestionStats(){
+  db.ref(PACK_ID + '/analytics/questions').once('value', function(snap){
+    var data = snap.val() || {};
+    var rows = [];
+    Object.keys(data).forEach(function(mod){
+      if(_selectedModule !== 'ALL' && mod !== _selectedModule) return;
+      Object.keys(data[mod] || {}).forEach(function(qid){
+        var q = data[mod][qid];
+        var attempts = q.attempts || 0;
+        var correct = q.correct || 0;
+        var accuracy = attempts > 0 ? correct / attempts : 0;
+        var topWrong = '', maxW = 0;
+        if(q.wrong_choices){
+          Object.keys(q.wrong_choices).forEach(function(c){
+            if(q.wrong_choices[c] > maxW){ maxW = q.wrong_choices[c]; topWrong = c + ' (' + q.wrong_choices[c] + '次)'; }
+          });
+        }
+        rows.push({ mod:mod, qid:qid, attempts:attempts, accuracy:accuracy, topWrong:topWrong });
+      });
+    });
+    rows.sort(function(a,b){ return a.accuracy - b.accuracy; });
+
+    var tbody = document.getElementById('questionBody');
+    if(rows.length === 0){
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--g400);">尚無數據</td></tr>';
+    } else {
+      tbody.innerHTML = rows.slice(0, 30).map(function(r){
+        var pct = Math.round(r.accuracy * 100);
+        var color = pct >= 70 ? 'var(--green)' : pct >= 40 ? 'var(--gold)' : 'var(--red)';
+        return '<tr><td>' + esc(r.mod) + '</td><td>' + esc(r.qid) + '</td>' +
+          '<td>' + r.attempts + '</td>' +
+          '<td><span style="font-weight:700;color:' + color + ';">' + pct + '%</span>' +
+          '<div style="display:flex;align-items:center;gap:.3rem;margin-top:.2rem;"><div class="bar-bg"><div class="bar-fill" style="width:' + pct + '%;background:' + color + ';"></div></div></div></td>' +
+          '<td style="font-size:.85rem;color:var(--g600);">' + esc(r.topWrong) + '</td></tr>';
+      }).join('');
+    }
+  });
+}
+
+// Registered Users
+function loadRegisteredUsers(){
+  db.ref(PACK_ID + '/users_auth').once('value', function(snap){
+    var data = snap.val() || {};
+    var rows = [];
+    Object.keys(data).forEach(function(uid){
+      var u = data[uid];
+      if(!u.email) return;
+      var modules = u.modules || {};
+      var moduleList = Object.keys(modules);
+      var avgAcc = 0;
+      var weakList = [];
+      var latestTs = u.lastActive || 0;
+      moduleList.forEach(function(mid){
+        var m = modules[mid];
+        if(m.accuracy != null) avgAcc += m.accuracy;
+        if(m.weakFws && m.weakFws.length > 0) weakList = weakList.concat(m.weakFws);
+      });
+      if(moduleList.length > 0) avgAcc = avgAcc / moduleList.length;
+
+      // Exam summary
+      var examSummary = u.examSummary || {};
+      var examCount = examSummary.count || 0;
+      var examBest = examSummary.best || 0;
+
+      rows.push({
+        name: u.name || '-',
+        email: u.email,
+        modules: moduleList.join(', '),
+        accuracy: avgAcc,
+        examCount: examCount,
+        examBest: examBest,
+        weak: weakList.slice(0, 5).join(', '),
+        ts: latestTs
+      });
+    });
+    rows.sort(function(a,b){ return (b.ts||0) - (a.ts||0); });
+
+    var tbody = document.getElementById('userBody');
+    if(rows.length === 0){
+      tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:var(--g400);">尚無註冊學員</td></tr>';
+    } else {
+      tbody.innerHTML = rows.map(function(r){
+        var pct = Math.round(r.accuracy * 100);
+        var color = pct >= 70 ? 'var(--green)' : pct >= 40 ? 'var(--gold)' : 'var(--red)';
+        var ts = r.ts ? new Date(r.ts).toLocaleDateString('zh-TW') : '-';
+        var examText = r.examCount > 0 ? r.examCount + '次 / 最高' + r.examBest : '-';
+        return '<tr><td>' + esc(r.name) + '</td>' +
+          '<td style="font-size:.85rem;">' + esc(r.email) + '</td>' +
+          '<td>' + esc(r.modules || '-') + '</td>' +
+          '<td style="font-weight:700;color:' + color + ';">' + pct + '%</td>' +
+          '<td style="font-size:.85rem;">' + examText + '</td>' +
+          '<td style="font-size:.85rem;color:var(--red);">' + esc(r.weak || '-') + '</td>' +
+          '<td style="font-size:.85rem;color:var(--g400);">' + ts + '</td></tr>';
+      }).join('');
+    }
+  });
+}
+
+// Anonymous Sessions
+function loadAnonymousSessions(){
+  var reserved = {'analytics':1, 'users':1, 'users_auth':1, 'question_pool':1};
+  db.ref(PACK_ID).once('value', function(snap){
+    var data = snap.val() || {};
+    var rows = [];
+    Object.keys(data).forEach(function(k){
+      if(reserved[k]) return;
+      var s = data[k];
+      if(!s || typeof s !== 'object' || !s.module) return;
+      var p3answers = s.phase3_answers || {};
+      rows.push({
+        name: s.name || '匿名',
+        module: s.module || '-',
+        milestone: s.milestone || '-',
+        p3count: Object.keys(p3answers).length,
+        ts: s.ts || 0
+      });
+    });
+    rows.sort(function(a,b){ return (b.ts||0) - (a.ts||0); });
+
+    var tbody = document.getElementById('anonBody');
+    if(rows.length === 0){
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--g400);">尚無匿名學習紀錄</td></tr>';
+    } else {
+      tbody.innerHTML = rows.slice(0, 100).map(function(r){
+        var ts = r.ts ? new Date(r.ts).toLocaleDateString('zh-TW') + ' ' + new Date(r.ts).toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit'}) : '-';
+        var milestoneLabel = {'phase1_complete':'Phase 1','phase2_complete':'Phase 2','phase3_complete':'Phase 3'}[r.milestone] || r.milestone;
+        return '<tr><td>' + esc(r.name) + '</td><td>' + esc(r.module) + '</td><td>' + milestoneLabel + '</td><td>' + r.p3count + ' 題</td><td style="font-size:.85rem;color:var(--g400);">' + ts + '</td></tr>';
+      }).join('');
+    }
+  });
+}
+
+// Module Completion Stats
+function loadModuleStats(){
+  db.ref(PACK_ID + '/analytics/modules').once('value', function(snap){
+    var data = snap.val() || {};
+    var labels = [], counts = [];
+    Object.keys(MODULE_NAMES).forEach(function(mid){
+      labels.push(mid);
+      var m = data[mid] || {};
+      counts.push(m.total_students || 0);
+    });
+
+    var ctx = document.getElementById('moduleCanvas').getContext('2d');
+    if(window._modChart) window._modChart.destroy();
+    window._modChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{ label: '完成人數', data: counts, backgroundColor: 'rgba(15,157,138,0.7)', borderRadius: 6 }]
+      },
+      options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } } }
+    });
+  });
+}
+
+// Reports (flagged questions)
+function loadReports(){
+  db.ref(PACK_ID + '/analytics/reports').orderByChild('ts').limitToLast(50).once('value', function(snap){
+    var data = snap.val() || {};
+    var rows = [];
+    Object.keys(data).forEach(function(k){
+      var r = data[k];
+      rows.push({ qid: r.questionId || '-', reason: r.reason || '-', user: r.userName || '匿名', ts: r.ts || 0 });
+    });
+    rows.sort(function(a,b){ return b.ts - a.ts; });
+
+    var tbody = document.getElementById('reportBody');
+    if(rows.length === 0){
+      tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--g400);">尚無回報</td></tr>';
+    } else {
+      tbody.innerHTML = rows.map(function(r){
+        var ts = r.ts ? new Date(r.ts).toLocaleDateString('zh-TW') + ' ' + new Date(r.ts).toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit'}) : '-';
+        return '<tr><td>' + esc(r.qid) + '</td><td>' + esc(r.reason) + '</td><td>' + esc(r.user) + '</td><td style="font-size:.85rem;color:var(--g400);">' + ts + '</td></tr>';
+      }).join('');
+    }
+  });
+}
+</script>
+
+<!--
+  USAGE:
+  Create your analytics page (e.g. examples/s100/analytics.html):
+
+  <script>
+    window.ANALYTICS_CONFIG = {
+      packId: 's100',
+      title: 'iPAS 淨零碳規劃管理師',
+      firebaseConfig: {
+        apiKey: '...',
+        authDomain: '...',
+        databaseURL: '...',
+        projectId: '...'
+      },
+      teacherEmail: 'alan.chen75@gmail.com',
+      moduleNames: { L111:'國際氣候治理歷程', L112:'溫室氣體管理', ... },
+      subjectNames: { S1:'科目一：基礎概論', S2:'科目二：實務應用', ... },
+      learnUrl: 'index.html'
+    };
+  </script>
+  Then include this template's content (copy or use server-side include).
+-->
+
+</body>
+</html>
