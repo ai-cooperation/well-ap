@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M06_Q01",
+    "stem": "Feature T05: Radiant Thermal Comfort can be achieved through the use of radiant heating and cooling elements, independent of ventilation systems, in which two space types?",
+    "framework": "M06_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lobbies and offices",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Conference rooms and teleconference rooms",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Offices and conference rooms",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Stairways and lobbies",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature T05 Radiant Thermal Comfort - Part 1 Implement Radiant Heating 與 Part 2 Implement Radiant Cooling 在目前 WELL v2 標準中要求至少 50% of regularly occupied project area 採用 radiant ceilings, walls, floors 或符合面積條件的 radiant panels。標準文字未把達成範圍限定為兩種特定 space types，因此此題的舊式表述需要保留疑點。",
+    "diagnosis": {
+      "B": {
+        "gap": "把會議用途空間誤認為 T05 指定範圍。",
+        "followup": "T05 Part 1/Part 2 寫的是特定房間類型，還是 regularly occupied project area 的百分比？"
+      },
+      "C": {
+        "gap": "抓到 regularly occupied 空間，但錯把範圍限成兩類。",
+        "followup": "若 T05 要求至少 50% project area，是否只鎖定 offices 與 conference rooms？"
+      },
+      "D": {
+        "gap": "混淆通行空間與 regularly occupied area 的適用邏輯。",
+        "followup": "Stairways 通常是否屬於 T05 計算的 regularly occupied project area？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Provided WELL v2 text states at least 50% of regularly occupied project area, not specific pair of space types."
+    }
+  },
+  {
+    "id": "M06_Q02",
+    "stem": "According to the WELL Thermal Comfort concept the human body maintains a stable internal body temperature using what process?",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Poikilothermy",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Homeothermy",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Kleptothermy",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Heterothermy",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "Homeothermy 指人體透過熱取得與熱散失的平衡維持核心體溫穩定；這是 T01 Thermal Performance - Part 1 Provide Acceptable Thermal Environment 所處理的熱舒適生理基礎。T01 的 requirement 以 PMV range、operative temperature、humidity 等條件建立可接受熱環境，但提供的標準文字未直接列出 homeothermy 一詞。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤把變溫動物體溫策略套到人體熱平衡。",
+        "followup": "T01 關注人體在室內維持穩定 comfort，這比較接近恆溫還是隨環境變溫？"
+      },
+      "C": {
+        "gap": "選到非 WELL 熱舒適脈絡中的生物學概念。",
+        "followup": "題目問人體穩定 internal body temperature，這和竊取外部熱源的概念相同嗎？"
+      },
+      "D": {
+        "gap": "混淆間歇性體溫變化與一般人體恆溫機制。",
+        "followup": "在 T01 的 thermal comfort 條件下，人體核心體溫是長期穩定還是週期性大幅變動？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Homeothermy is biologically correct, but the provided WELL v2 standard text does not directly state this term."
+    }
+  },
+  {
+    "id": "M06_Q03",
+    "stem": "In order to achieve Feature T05: Radiant Thermal Comfort, what minimum percentage of floor area in all offices and other regularly occupied spaces must meet the requirements set for in the ASHRAE Standard 55-2013 for thermal comfort through the use of hydronic radiant heating and/or cooling systems or along with electric radiant systems?",
+    "framework": "M06_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "40%",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "20%",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "30%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "50%",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature T05 Radiant Thermal Comfort - Part 1 Implement Radiant Heating 要求至少 50% of regularly occupied project area 由 radiant ceilings, walls, floors 或合格 radiant panels 供暖；Part 2 Implement Radiant Cooling 對 cooling 也使用相同的 50% 門檻。這個最低比例是判斷 radiant thermal comfort 覆蓋範圍的關鍵。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 T05 radiant 系統覆蓋面積門檻。",
+        "followup": "T05 Part 1/Part 2 對 regularly occupied project area 的最低覆蓋比例是否達一半？"
+      },
+      "B": {
+        "gap": "把少量示範性安裝誤當成 T05 合規比例。",
+        "followup": "如果只有五分之一面積採 radiant system，能否代表主要 occupied area 的熱舒適策略？"
+      },
+      "C": {
+        "gap": "將其他 WELL 比例要求誤套到 radiant coverage。",
+        "followup": "T05 的 radiant heating/cooling 覆蓋比例，是 30% 還是標準明列的 50%？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q04",
+    "stem": "An open office with large west-facing windows has 29 identical workstations, 10 of which are located next to the exterior windows. According to Feature T04: Individual Thermal Control, which of the following allows occupants to work in a space with their desired temperature?",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Curtains/blinds",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Tinted windows",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Thermostat",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Personal heating and cooling options",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature T04 Individual Thermal Control - Part 1 Provide Personal Cooling Options 與 Part 2 Provide Personal Heating Options 要求 all regular occupants 能透過個人 cooling/heating solution 調整自己的 thermal environment，例如 desk fan、heated chair、footwarmers 或能在 15 minutes 內造成 PMV +/-0.5 change 的方案。開放辦公室中的個人化設備比只處理窗邊日射更符合此 feature。",
+    "diagnosis": {
+      "A": {
+        "gap": "把遮陽控制誤認為個人冷暖設備要求。",
+        "followup": "Curtains/blinds 能否讓每位 regular occupant 分別達到 T04 的 personal cooling/heating control？"
+      },
+      "B": {
+        "gap": "混淆外窗熱負荷處理與個人熱舒適控制。",
+        "followup": "Tinted windows 改變的是立面日射，是否提供每位 occupant 自己的 PMV 調整？"
+      },
+      "C": {
+        "gap": "忽略共享 thermal zone 中 thermostat 不能代表個人控制。",
+        "followup": "T04 允許 thermostat 時，該 room or thermal zone 是否可由多人 regularly occupied？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q05",
+    "stem": "In the WELL Thermal Comfort concept which of the following is NOT a benefit of radiant temperature systems?",
+    "framework": "M06_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Higher relative humidity in winter.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Lower dust transportation.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Saved floor space.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Higher mean radiant temperature.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature T05 Radiant Thermal Comfort - Part 1 Implement Radiant Heating and Part 2 Implement Radiant Cooling 的 intent 是 maximize volume of the space、reduce dust transmission、improve ventilation control and increase thermal comfort。Mean radiant temperature 是六個 core thermal comfort parameters 之一，radiant systems 會影響它，但標準沒有把「提高」它本身列為 benefit。",
+    "diagnosis": {
+      "A": {
+        "gap": "把冬季濕度效果與 T05 明列利益混在一起。",
+        "followup": "T05 intent 明列哪些 benefit？其中是否直接寫到 higher relative humidity in winter？"
+      },
+      "B": {
+        "gap": "忽略 radiant systems 減少 forced-air allergens circulation。",
+        "followup": "T05 Solutions 說 radiant heating/cooling 不用 forced air 分配，這會如何影響 dust/allergens？"
+      },
+      "C": {
+        "gap": "未連結 T05 intent 中 maximize volume 的空間效益。",
+        "followup": "若 radiant system 可整合於 floors、walls、ceilings，T05 的 maximize volume 指向什麼效益？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q06",
+    "stem": "According to the Thermal Comfort concept, how many of the office buildings surveyed in the U.S. provided thermal environments that met generally accepted goals of occupant satisfaction?",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "11%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "5%",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "27%",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature T02 Verified Thermal Comfort - Part 1 Survey for Thermal Comfort 的 Issue 指出，U.S. surveyed office buildings 中只有 11% provide thermal environments that meet generally accepted goals of human satisfaction。這也支撐 T02 使用 occupant survey 並以 80% 或 90% satisfaction thresholds 給分。",
+    "diagnosis": {
+      "A": {
+        "gap": "把低滿意建築比例放大成約五分之一。",
+        "followup": "T02 Issue 提到的 U.S. office buildings 比例，是 11% 還是接近 20%？"
+      },
+      "C": {
+        "gap": "過度低估符合 occupant satisfaction 目標的建築比例。",
+        "followup": "T02 背景數據是否低到 5%，或其實是略高於十分之一？"
+      },
+      "D": {
+        "gap": "混入其他滿意度或健康研究百分比而非此調查值。",
+        "followup": "題目問 surveyed office buildings，T02 Issue 中該數字是否接近四分之一？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q07",
+    "stem": "In the WELL Thermal Comfort concept how many primary personal and environmental variables contribute to an occupant's thermal comfort?",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "6",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "4",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "7",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "5",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature T01 Thermal Performance - Part 1 Provide Acceptable Thermal Environment 的 Solutions 說 mechanically conditioned spaces 以 six core parameters 預測熱舒適：air temperature、humidity、air movement、mean radiant temperature、metabolic rate、clothing insulation。這六項構成熱舒適的主要個人與環境變數。",
+    "diagnosis": {
+      "B": {
+        "gap": "只記得環境參數，漏掉 metabolic rate 與 clothing。",
+        "followup": "T01 的 six core parameters 是否同時包含 personal variables 與 environmental variables？"
+      },
+      "C": {
+        "gap": "把 secondary factors 誤加入 primary factors 數量。",
+        "followup": "T04 提到 age、sex 等 secondary factors，是否會增加 T01 的 primary parameter 數量？"
+      },
+      "D": {
+        "gap": "漏算 mean radiant temperature 或 clothing insulation 等核心項。",
+        "followup": "T01 列出 air temperature、humidity、air movement 後，還有哪些項目補足六個？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q08",
+    "stem": "In the Thermal Comfort concept, which of the following ASHRAE Standard aims to provide a thermal environment, where at least 80% of people will perceive the thermal environment as acceptable.",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "ASHRAE Standard 60",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "ASHRAE Standard 55",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "ASHRAE Standard 30",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "ASHRAE Standard 45",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature T04 Individual Thermal Control - Part 1 Provide Personal Cooling Options 的 Issue 明確指出 many thermal comfort standards such as ASHRAE 55 aim to provide a thermal environment where minimum 80% of people perceive it as acceptable。T01 Thermal Performance 也引用 ASHRAE 55-2013 作為 thermal comfort conditions 的依據。",
+    "diagnosis": {
+      "A": {
+        "gap": "把非熱舒適標準號碼誤認為 ASHRAE thermal comfort。",
+        "followup": "T01 references 中列出的 thermal environmental conditions standard 是哪個 ASHRAE 編號？"
+      },
+      "C": {
+        "gap": "選到不存在於 WELL 熱舒適要求的 ASHRAE 編號。",
+        "followup": "T04 Issue 說至少 80% 可接受時，括號中舉的是 ASHRAE 55 還是 30？"
+      },
+      "D": {
+        "gap": "混淆標準編號，未對上 WELL 引用的 ASHRAE 55。",
+        "followup": "T01 Part 1 的 mechanically conditioned comfort condition 引用哪個 ASHRAE standard？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q09",
+    "stem": "Which of the following best describes homeothermy from the Thermal Comfort concept?",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maintaining body core heat through internal means and regulated by the cerebellum.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Stabling of external body temperature regardless of internal influence and regulated by the amygdala.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "The balancing of heat gains and losses to maintain the body's core temperature within its narrow range, 36-38 degrees C [97-100 degrees F], and regulated by the hypothalamus.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Controlling body core temperature through internal means and regulated by the thalamus.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "Homeothermy 的核心是 balancing heat gains and losses to maintain core temperature，這與 T01 Thermal Performance - Part 1 Provide Acceptable Thermal Environment 以 thermal comfort parameters 控制人體熱交換環境的邏輯一致。提供的 WELL v2 標準文字可佐證 thermal comfort 生理背景與 PMV/temperature requirements，但未直接列出 36-38 degrees C 或 hypothalamus 這些細節。",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到核心體溫但誤判為 cerebellum 調節。",
+        "followup": "題目描述 homeothermy 時，除了 core temperature，還要辨認哪個腦部調節中樞？"
+      },
+      "B": {
+        "gap": "誤把外部體表溫度穩定當作 homeothermy 定義。",
+        "followup": "Homeothermy 關注的是 external body temperature，還是 body core temperature 的窄範圍？"
+      },
+      "D": {
+        "gap": "把 thalamus 與 hypothalamus 的體溫調節角色混淆。",
+        "followup": "若 T01 關注人體熱平衡，生理調節核心通常會指向 thalamus 還是 hypothalamus？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The biological description is correct, but the provided WELL v2 text does not directly state 36-38 degrees C or hypothalamus."
+    }
+  },
+  {
+    "id": "M06_Q10",
+    "stem": "To achieve Part 1: Survey for Thermal Comfort of Feature T02: Verified Thermal Comfort, a post-occupancy survey should be administered how many times per year and in what months?",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Once at the beginning of the year.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "At least twice a year, including once in June, July or August and once in December, January or February, at least six months after occupancy.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "3 times per year in January, April and August.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "4 times per year, once in each fiscal quarter.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature T02 Verified Thermal Comfort - Part 1 Survey for Thermal Comfort 要求 post-occupancy survey at least twice a year，且至少入住 six months 後執行；時間需包含一次 June, July or August，以及一次 December, January or February。這是用來捕捉冷暖季 occupant satisfaction 的固定要求。",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略 T02 需要冷暖季各一次的調查頻率。",
+        "followup": "T02 Part 1 是否允許一年只調查一次，還是要求夏季與冬季各涵蓋一次？"
+      },
+      "C": {
+        "gap": "加入不必要月份，未對準 T02 指定季節窗口。",
+        "followup": "T02 指定的是 January、April、August，還是 June-August 加 December-February？"
+      },
+      "D": {
+        "gap": "把季度管理節奏誤當成 WELL survey requirement。",
+        "followup": "T02 Part 1 要的是每季一次，還是至少兩次且落在指定夏冬月份？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q11",
+    "stem": "Salesforce just occupied new office space in Chicago, Illinois. The office has 900 occupants that regularly report to this location. What is the minimum response rate needed for the surveys conducted at least twice a year for Part 1: Survey for Thermal Comfort of Feature T02: Verified Thermal Comfort?",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "80%",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "75%",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "35%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "25%",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature T02 Verified Thermal Comfort - Part 1 Survey for Thermal Comfort 的 response table 規定，regular occupants more than 45 時，minimum number of responses 是 35% of those regular occupants。900 occupants 超過 45，因此採 35% response rate，而不是小樣本門檻。",
+    "diagnosis": {
+      "A": {
+        "gap": "把少於二十人的 80% 門檻誤套到大型辦公室。",
+        "followup": "T02 response table 中 80% 適用於 less than 20 occupants，900 人應看哪一列？"
+      },
+      "B": {
+        "gap": "誤以為大型樣本仍需接近全員回覆。",
+        "followup": "More than 45 regular occupants 時，T02 是否要求 75%，還是明列較低比例？"
+      },
+      "D": {
+        "gap": "低估 T02 對大型專案 survey responses 的最低比例。",
+        "followup": "900 occupants 屬於 more than 45，表格中的 minimum response rate 是否只有 25%？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q12",
+    "stem": "If a project is able to exceed the thermal comfort satisfaction thresholds by 90% or more, how many points is the project awarded for Feature T02: Verified Thermal Comfort?",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "1",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "2",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "3",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "4",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature T02 Verified Thermal Comfort - Part 1 Survey for Thermal Comfort 的 satisfaction thresholds table 將 80% of regular occupants 對應 2 points，90% of regular occupants 對應 3 points。題目中的 90% or more 落在最高列出的 T02 門檻。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 T02 90% satisfaction threshold 的給分。",
+        "followup": "T02 表格中 90% regular occupants satisfied 對應幾點，而不是最低點數？"
+      },
+      "B": {
+        "gap": "把 80% threshold 的分數誤用到 90% threshold。",
+        "followup": "T02 Part 1 中 80% 與 90% satisfaction thresholds 各自對應幾點？"
+      },
+      "D": {
+        "gap": "超出 T02 Verified Thermal Comfort 此 feature 可得點數。",
+        "followup": "T02 的 satisfaction thresholds table 最高列出幾點，是否有 4 points？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q13",
+    "stem": "Projects seeking Feature T03: Thermal Zoning compliance should provide control over temperature in the space through thermostat being present in the thermal zone , or...",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Supplied personal Fans and Space Heaters",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "A lax dress-code and company-issued coats and blankets.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Work stations being located near operable windows",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "A digital interface accessible to occupants on a computer or phone",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature T03 Thermal Zoning - Part 1 Provide Thermostat Control 要求至少 90% of regularly occupied spaces 透過兩種方式之一提供 temperature control：thermostats present within the thermal zone，或 occupants 可用 computer or phone 存取的 digital interface。這是 zoning 控制，不是個人風扇或 dress code。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 T03 thermal zoning 與 T04 個人冷暖設備。",
+        "followup": "T03 Part 1 要求 thermostat 或 digital interface，personal fans 更像哪個 feature 的策略？"
+      },
+      "B": {
+        "gap": "把 T04 flexible dress code 誤當成 T03 zoning 控制。",
+        "followup": "Dress code 在 T04 Part 3 出現，是否能替代 T03 的 thermal zone control？"
+      },
+      "C": {
+        "gap": "誤把 operable windows 位置當作 thermostat control。",
+        "followup": "T03 Part 1 的 control over temperature 是否以 workstation 靠窗來認定？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q14",
+    "stem": "With the exception of high-humidity areas, the mechanical system has the capability of maintaining relative humidity at all times by what methods covered in Feature T07: Humidity Control.",
+    "framework": "M06_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adding or removing moisture from the air.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Reclaiming Water.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Air circulation.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "All of the above.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature T07 Humidity Control - Part 1 Manage Relative Humidity, Option 1 Mechanical humidity control 要求 all regularly occupied areas except high-humidity areas 的 mechanical system 能在 all times 維持 relative humidity between 30% and 60%。達成方法明列為 adding or removing moisture from the air。",
+    "diagnosis": {
+      "B": {
+        "gap": "把水資源回收誤認為 humidity control 機制。",
+        "followup": "T07 Part 1 說 mechanical system 控制 relative humidity，是處理空氣含濕量還是 reclaiming water？"
+      },
+      "C": {
+        "gap": "把空氣流動誤當成可直接加減濕的要求。",
+        "followup": "Air circulation 能移動空氣，但 T07 Option 1 要求的是 adding/removing 哪個成分？"
+      },
+      "D": {
+        "gap": "未辨認 T07 只列出單一加濕除濕方法。",
+        "followup": "T07 Part 1 的文字是否同時列出 water reclaiming、air circulation 與加減濕？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q15",
+    "stem": "According to Feature T09 β: Outdoor Thermal Comfort, at least 50% of what areas must be shaded for more than half of the daylight hours each day by tree canopies, awnings, or other structures?",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Plazas, seating areas and other outdoor areas of congregation",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Parking spaces",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Pedestrian pathways and building entrances",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "All of the above",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature T09β Outdoor Thermal Comfort - Part 1 Manage Outdoor Heat, Option 1 Outdoor shading 要求 at least 50% of pedestrian pathways and building entrances 在每天超過一半 daylight hours 有 tree canopies、awnings 或其他 structures 遮蔭。Parking spaces 是 at least 25%，plazas/seating/congregation areas 則是 between 25% and 75%。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 congregation areas 的 25%-75% 範圍誤當 50% 題目門檻。",
+        "followup": "T09β Part 1 對 plazas and seating areas 寫的是固定 50%，還是 25% 到 75%？"
+      },
+      "B": {
+        "gap": "混淆 parking spaces 的 25% shading 門檻。",
+        "followup": "T09β Outdoor shading 中 parking spaces 的最低遮蔭比例是多少，是否達 50%？"
+      },
+      "D": {
+        "gap": "忽略 T09β 對不同 outdoor areas 設定不同百分比。",
+        "followup": "如果三類 outdoor areas 門檻不同，為什麼不能把 50% 套用到 all of the above？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q16",
+    "stem": "Projects seeking points in Part 1: Provide Windows with Multiple Opening Modes of Feature T08 B: Enhanced Operable Windows will provide instructions for window operation through signage or other communications that indicate which of the following:",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Windows are not to be opened when mechanical cooling is in operation (not required if no mechanical cooling is present or if mechanical cooling system is configured to disengage automatically when windows are open).",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Windows with high openings (if present) are to be used in cold weather.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Windows with low openings are to be used during mild and/or warm weather.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "All the above.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature T08β Enhanced Operable Windows - Part 1 Provide Windows with Multiple Opening Modes, Option 2 Window operation 要求 signage or communications 指出三件事：low openings 用於 mild and/or warm weather、mechanical cooling 運轉時不開窗、high openings 如存在則用於 cold weather。三項都是同一 Part 的 operation instructions。",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到機械冷房限制，漏掉高低開口使用情境。",
+        "followup": "T08β Part 1 Option 2 是否只要求 cooling 時不要開窗，還有其他 opening-mode 指示？"
+      },
+      "B": {
+        "gap": "只記得 cold weather 高開口，漏掉其餘 signage。",
+        "followup": "除了 high openings in cold weather，T08β 還要求說明 low openings 與 mechanical cooling 嗎？"
+      },
+      "C": {
+        "gap": "只記得暖和天氣低開口，未完整列出指示。",
+        "followup": "T08β Window operation 的 instructions 是否還包含 mechanical cooling 與 high openings？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q17",
+    "stem": "For Commercial Kitchen Spaces, the maximum operative temperature cannot exceed what degrees F° (C° ) per Part 1: Provide Acceptable Thermal Comfort of Feature T01: Thermal Performance?",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "80 ° F (27 ° C).",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "75 ° F (24 ° C).",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "70 ° F (21 ° C).",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "65 ° F (18 ° C).",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature T01 Thermal Performance - Part 1 Provide Acceptable Thermal Environment 在 Commercial Kitchen Spaces 段落明列 operative temperature in the kitchen does not exceed 80 °F (27 °C)。這是 commercial kitchen 的專屬上限，與一般 regularly occupied spaces 的 PMV 或 adaptive model 條件分開處理。",
+    "diagnosis": {
+      "B": {
+        "gap": "把較舒適室溫範圍誤作 commercial kitchen 上限。",
+        "followup": "T01 對 commercial kitchen 是採一般辦公室舒適溫度，還是明列 80 °F 上限？"
+      },
+      "C": {
+        "gap": "誤用一般室內低端溫度而非廚房最高操作溫度。",
+        "followup": "Part 1 問 maximum operative temperature，70 °F 是上限還是太低的舒適值？"
+      },
+      "D": {
+        "gap": "把偏冷溫度當成高熱廚房的允許上限。",
+        "followup": "Commercial kitchen 的溫度限制是否會低到 65 °F，還是標準給較高 ceiling？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q18",
+    "stem": "In Part 2: Achieve Thermal Comfort of Feature T02: Enhanced Thermal Performance, a post-occupancy survey is administered twice a year. What specific months must the surveys be administered?",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "March, April or May and December, January or February",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "June, July or August and December, January or February",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "June, July or August and March, April, or May",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "May and once in November",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature T02 Verified Thermal Comfort - Part 1 Survey for Thermal Comfort 要求 post-occupancy survey 至少 twice a year，包含一次 June, July or August，以及一次 December, January or February，且需 at least six months after occupancy。題幹使用的 feature/part 名稱與目前 WELL v2 文字不完全一致，但月份要求相同。",
+    "diagnosis": {
+      "A": {
+        "gap": "把春季調查誤當成 T02 指定暖季窗口。",
+        "followup": "T02 survey 要求 warm-season window 是 March-May，還是 June-August？"
+      },
+      "C": {
+        "gap": "保留夏季但漏掉冬季指定月份。",
+        "followup": "T02 是否要求一次 December、January or February，以捕捉 cold-season satisfaction？"
+      },
+      "D": {
+        "gap": "使用任意月份，未符合 T02 夏冬季窗口。",
+        "followup": "May 與 November 是否出現在 T02 Part 1 指定的兩個 survey month groups 中？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Month pair matches current T02 requirement, but current WELL v2 names it T02 Verified Thermal Comfort Part 1, not Enhanced Thermal Performance Part 2."
+    }
+  },
+  {
+    "id": "M06_Q19",
+    "stem": "With Feature T01: Thermal Performance projects, when conducting ongoing monitoring, the number and location of sampling points must comply with the requirements outlined where?",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thermal Comfort Index",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Performance Guidelines Index",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Thermal Parameters Glossary",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Performance Verification Guidebook",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature T01 Thermal Performance - Part 2 Monitor Thermal Parameters, Option 1 Annual testing 要求 dry-bulb temperature、relative humidity、air speed（如使用 elevated air speed）與 mean radiant temperature 每年至少兩次監測。其 number and location of sampling points 必須 comply with requirements outlined in the Performance Verification Guidebook。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為有 Thermal Comfort Index 作為採樣規範來源。",
+        "followup": "T01 Part 2 提到 sampling points 時，引用的是 index 還是 WELL Performance Verification Guidebook？"
+      },
+      "B": {
+        "gap": "把一般 performance guideline 名稱誤當正式文件。",
+        "followup": "標準文字中的 sampling points 文件名稱是否包含 Verification，而非 Guidelines Index？"
+      },
+      "C": {
+        "gap": "把術語表誤認為測點數量與位置的規範。",
+        "followup": "Thermal parameters glossary 能定義名詞，但 T01 採樣點要求實際在哪份 guidebook？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q20",
+    "stem": "For Feature T01: Thermal Performance compliance, if a project's measurements are undertaken by a WELL Performance Testing Agent in compliance with the Performance Verification Guidebook, where are the results submitted to for recertification purposes?",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "USGBC",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "GBCI",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "IWBI",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "AIA",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature T01 Thermal Performance - Part 2 Monitor Thermal Parameters 的 note 說，若 measurements 由 WELL Performance Testing Agent 依 Performance Verification Guidebook 執行，each year and test location 的 results submitted to GBCI 可 averaged and utilized for recertification purposes。這裡指定的是認證審查結果提交對象。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 LEED 常見機構與 WELL recertification 提交對象。",
+        "followup": "T01 Part 2 note 中，results submitted to 哪個機構才可用於 recertification averaging？"
+      },
+      "C": {
+        "gap": "把 WELL 擁有方誤認為測試結果提交機構。",
+        "followup": "IWBI 與 GBCI 在 WELL 流程中角色不同，T01 note 明確寫哪一個？"
+      },
+      "D": {
+        "gap": "把建築師協會誤當 WELL performance results 接收方。",
+        "followup": "AIA 是否出現在 T01 recertification measurement note 的提交流程中？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q21",
+    "stem": "When seeking Feature T03: Thermal Zoning compliance, the maximum size of each thermal zone is:",
+    "framework": "M06_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "650 ft² or 10 occupants, whichever is larger",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "750 ft² or 10 occupants, whichever is larger",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "850 ft² or 20 occupants, whichever is larger",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "650 ft² or 5 occupants, whichever is larger",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature T03 Thermal Zoning - Part 1 Provide Thermostat Control 要求至少 90% of regularly occupied spaces 具備 temperature control，且 maximum size of each thermal zone 是 650 ft² (60 m²) or 10 occupants, whichever is larger。更細的 one per 320 ft² or 5 occupants 是較高點數路徑，不是基本最大 zone size。",
+    "diagnosis": {
+      "B": {
+        "gap": "記對十人條件但把面積上限放寬到 750 ft²。",
+        "followup": "T03 Part 1 的基本 zone size 面積是 650 ft²，還是更大的 750 ft²？"
+      },
+      "C": {
+        "gap": "同時放寬面積與 occupants，低估 zoning 細緻度。",
+        "followup": "T03 是否允許每 zone 到 850 ft² 或 20 occupants，還是要求更小？"
+      },
+      "D": {
+        "gap": "混淆基本門檻與較高點數的五人細分要求。",
+        "followup": "T03 表格中 one per 5 occupants 對應哪個較高點數路徑，而非 maximum size？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q22",
+    "stem": "Feature T05: Radiant Thermal Comfort requires projects:",
+    "framework": "M06_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "To use independently controlled ventilation systems.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "To use radiant systems and privately controlled ventilation systems.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "To use radiant systems and independently controlled ventilation systems.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "To use radiant systems and privately controlled ventilation systems.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature T05 Radiant Thermal Comfort 的 Summary 明確要求 projects use radiant systems and independently controlled ventilation systems。Part 1 Implement Radiant Heating 與 Part 2 Implement Radiant Cooling 進一步用至少 50% of regularly occupied project area 的 radiant coverage 來落實該策略。",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到 ventilation control，漏掉 radiant systems 本體。",
+        "followup": "T05 Summary 是否只要求 independently controlled ventilation，還必須搭配 radiant systems？"
+      },
+      "B": {
+        "gap": "把 independently controlled 誤讀成 privately controlled。",
+        "followup": "T05 的 ventilation system 是強調 independent from heating/cooling，還是 private control？"
+      },
+      "D": {
+        "gap": "重複 private ventilation 誤解，未使用標準正確措辭。",
+        "followup": "標準 Summary 中的關鍵詞是 independently controlled ventilation systems，還是 privately controlled？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q23",
+    "stem": "Which WELL Thermal Comfort feature requires projects to check thermal comfort parameters in their buildings that can be used as feedback for building managers and users to take appropriate actions.",
+    "framework": "M06_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "T01 Thermal Peformance",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "T02 Verified Thermal Comfort",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "T05 Radiant Thermal Comfort",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "T06 Thermal Comfort Monitoring",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature T06 Thermal Comfort Monitoring - Part 1 Monitor Thermal Environment 要求 projects monitor dry-bulb temperature and relative humidity，至少 one sensor per 3,500 ft² of occupiable floor area，且 measurements 至少 every 15 minutes。其 Summary 說 sensors 的資料可作為 building managers and users 採取 appropriate actions 的 feedback。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 T01 performance compliance 與 T06 monitoring feedback。",
+        "followup": "T01 可要求監測，但哪個 feature 的 Summary 專門談 sensors 作為 managers/users feedback？"
+      },
+      "B": {
+        "gap": "把 occupant survey 驗證誤認為即時參數監測。",
+        "followup": "T02 是 survey satisfaction，還是用 sensors 持續 check thermal comfort parameters？"
+      },
+      "C": {
+        "gap": "把 radiant system strategy 誤當 thermal monitoring feature。",
+        "followup": "T05 重點是 radiant heating/cooling，哪個 feature 才要求 monitor dry-bulb temperature and RH？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q24",
+    "stem": "This WELL Thermal Comfort feature requires projects to design outdoor spaces to avoid excessive wind and manage elevated temperatures through shading or other strategies.",
+    "framework": "M06_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "T09 β Outdoor Thermal Comfort",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "T03 Thermal Zoning",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "T02 Verified Thermal Comfort",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "T01 Thermal Performance",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature T09β Outdoor Thermal Comfort 的 Summary 說 projects design outdoor spaces to avoid excessive wind and manage elevated temperatures through shading or other strategies。具體要求分在 Part 1 Manage Outdoor Heat 的 shading/modeling，以及 Part 2 Avoid Excessive Wind 的 wind-speed thresholds。",
+    "diagnosis": {
+      "B": {
+        "gap": "把室內 thermal zones 控制誤認為戶外熱舒適。",
+        "followup": "T03 Part 1 是否處理 outdoor shading and wind，還是處理 indoor thermal zone control？"
+      },
+      "C": {
+        "gap": "把 occupant survey 滿意度驗證誤當戶外設計策略。",
+        "followup": "T02 Verified Thermal Comfort 主要透過 survey，是否包含 outdoor heat and wind modeling？"
+      },
+      "D": {
+        "gap": "把室內 thermal performance baseline 誤認為 outdoor feature。",
+        "followup": "T01 Part 1 聚焦 indoor acceptable thermal environment，哪個 feature 名稱直接指 outdoor thermal comfort？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M06_Q25",
+    "stem": "In Part 1: Manage Relative Humidity of Feature T07: Humidity Control , the mechanical system must have the capability of maintaining relative humidity in what range?",
+    "framework": "M06_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "0% to 40%",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "30% to 60%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "15% to 30%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "40% to 70%",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature T07 Humidity Control - Part 1 Manage Relative Humidity, Option 1 Mechanical humidity control 要求 all regularly occupied areas except high-humidity areas 的 mechanical system 能 at all times 維持 relative humidity between 30% and 60%。Option 2 modeling 與 Option 3 long-term data 也使用 30% to 60% 作為 98% business hours 或六個月資料的判準。",
+    "diagnosis": {
+      "A": {
+        "gap": "把過低濕度範圍誤認為健康舒適區間。",
+        "followup": "T07 為避免乾燥刺激與病原問題，是否允許 relative humidity 低到 0%？"
+      },
+      "C": {
+        "gap": "只抓到下限附近，漏掉 T07 需要到 60% 上限。",
+        "followup": "T07 Part 1 的 lower bound 是 30%，但 upper bound 是否也停在 30%？"
+      },
+      "D": {
+        "gap": "把濕度範圍整體上移，超過 T07 60% 上限。",
+        "followup": "T07 為限制 mold/pathogen growth，relative humidity 上限是 60% 還是 70%？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

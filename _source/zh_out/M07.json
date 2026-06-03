@@ -1,0 +1,105 @@
+[
+  {
+    "code": "S01",
+    "zh_name": "聲音分區圖",
+    "zh_summary": "要求專案先辨識並標示可能造成 acoustic disturbance 的噪音來源與空間類型，作為後續聲學設計的基礎。重點是把 Loud zones、Quiet zones 與 Mixed zones 清楚放進平面圖或類似圖面，並提出管理 acoustic comfort、background noise、speech privacy、reverberation time 或 impact noise 的策略。",
+    "zh_specs": [
+      "For All Spaces：提交 annotated document，並提供給 occupants 查看。",
+      "平面圖或類似 schematic document 需標示 Loud zones、Quiet zones、Mixed zones。",
+      "Loud zones 包含 loud equipment or activities，例如 mechanical rooms、kitchens、fitness rooms、social spaces、recreational rooms、music rooms。",
+      "Quiet zones 包含 concentration、wellness、rest、study and/or privacy 空間，例如 restorative spaces、lactation rooms、nap rooms。",
+      "提供 acoustic design plan，說明 acoustical solutions 與 timeline for implementation。",
+      "也可提供 professional in acoustics 的 detailed report，描述 existing conditions、recommended solutions and measurement results。"
+    ]
+  },
+  {
+    "code": "S02",
+    "zh_name": "最大噪音等級",
+    "zh_summary": "設定 ambient background noise 的上限，避免 HVAC、外部噪音滲入或其他噪音來源影響 occupant health and well-being。考點是依空間使用型態分 Category，並以短時間量測確認 average sound pressure levels 不超過適用門檻。",
+    "zh_specs": [
+      "WELL Certification: 3 Pt | WELL Core: 1.5 Pt。",
+      "適用 For All Spaces except Dwelling Units, Commercial Kitchen Spaces & Industrial。",
+      "Category 1：Areas for conferencing, learning or speaking。",
+      "Category 2：Enclosed areas for concentration。",
+      "Category 3：Open areas for concentration, spaces with PA systems, and areas for dining。",
+      "Background noise levels 需 measured over a period of five minutes，且 average sound pressure levels 不超過適用的 Sound Pressure Level (SPL) thresholds。"
+    ]
+  },
+  {
+    "code": "S03",
+    "zh_name": "隔音屏障",
+    "zh_summary": "透過牆體與門的 sound isolation 設計，提高 enclosed spaces 之間的隔音與 speech privacy。此 feature 同時看設計階段的 STC/Rw 要求，以及現場或牆體性能的 NIC/Dw 表現。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "Interior walls 需符合 sound transmission class (STC) 或 weighted sound reduction (Rw) 值。",
+      "若 interior wall 同時符合多個類別，採用最高、較嚴格的 STC/Rw value。",
+      "Between Loud zones and other occupiable spaces：Minimum STC or Rw 60。",
+      "Part 2：WELL Certification: 2 Pt | WELL Core: 2 Pt。",
+      "Walls that separate regularly occupied spaces 需符合 minimum Noise Isolation Class (NIC) 或 Weighted Difference Level (Dw)，且多類別時採最高 NIC/Dw value。"
+    ]
+  },
+  {
+    "code": "S04",
+    "zh_name": "混響時間",
+    "zh_summary": "依空間功能控制 reverberation time，讓語音清晰度、說話費力程度與專注環境更舒適。此 feature 強調當特定空間類型占用面積達一定比例時，需依空間體積套用相對應的 reverberation time thresholds。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "Option 1：Reverberation time, design。",
+      "適用於 listed space types cumulatively make up at least 10% of occupiable project area 的 projects。",
+      "依 Space Type 與 Space Volume, v (cubic meters) 判定 Reverberation Time, t (seconds)。",
+      "表格包含 v < 10,000 ft3(280 m 3) 的 space volume 分類。"
+    ]
+  },
+  {
+    "code": "S05",
+    "zh_name": "降噪表面",
+    "zh_summary": "要求使用吸音或阻隔聲音的 acoustic materials，降低 speech 或其他 unwanted sound 的累積。重點是依空間類型，在天花或其他可用表面達到指定的 sound reducing surface 指標，以支持 concentration 並減少 reverberation。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "適用於 listed space types cumulatively make up at least 10% of occupiable project area 的 projects。",
+      "依 Space Type 與 Metric 判定 1 Point(0.5 Points) 或 2 Points(1 Point)。",
+      "Minimum NRC/aw：1 Point(0.5 Points) 需 0.75 for at least 75% of available ceiling area。",
+      "Minimum NRC/aw：2 Points(1 Point) 需 0.90 for all available ceiling area。",
+      "表格適用空間包含 Open workspaces。"
+    ]
+  },
+  {
+    "code": "S06",
+    "zh_name": "最低背景聲",
+    "zh_summary": "透過 dedicated artificial sound 提高 occupied spaces 內外的 acoustical privacy，尤其是 Quiet zones 與 circulation 相關空間。此 feature 要求 sound masking system 的頻譜、音壓上限與專業驗證，並可結合 S03 或 S05 達成 enhanced speech reduction。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 2 Pt，適用 For Office Spaces。",
+      "Sound masking system 安裝於 open areas with Quiet zones、Circulation zones，以及 enclosed rooms labeled as Quiet zones。",
+      "系統需 produces a 1/3 octave band adjustable output signal，frequency spectrum of 100 Hz to 5 kHz。",
+      "Open areas with Quiet zones and/or Circulation zones：sound pressure levels 不超過 48 dBA。",
+      "Enclosed rooms labeled as Quiet zones：sound pressure levels 不超過 42 dBA。",
+      "Part 2 需 Achieve two points in either Feature S03 Part 2 - Achieve Sound Isolation at Walls or Feature S05 Part 1 – Implement Sound Reducing Surfaces，並達成 Feature S06 Part 1 – Provide Minimum Background Sound。"
+    ]
+  },
+  {
+    "code": "S07",
+    "zh_name": "衝擊噪音管理",
+    "zh_summary": "透過 resilient floors 與 floor-ceiling construction 設計，降低腳步、撞擊等 impact noise 傳遞。考點是以實驗室測試或現場量測證明 IIC 或 NISR 達到表格要求，並可使用 LnTw 作為 equivalent metric。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "指定 space types 的 floor-ceiling construction 需符合 minimum Impact Insulation Class (IIC) ratings。",
+      "材料測試需 accordance with ASTM E492-09, ISO 717.2 or equivalent。",
+      "LnTw may be used as an equivalent metric，equivalent values may be determined by subtracting the IIC values listed below from 105。",
+      "Part 2：WELL Certification: 2 Pt | WELL Core: 3 Pt。",
+      "Normalized Impact Sound Ratings (NISR) 需 on-site measured，accordance with ASTM E1007-19, ISO 16283 or equivalent，並由 professional in acoustics 執行；LnTw 可作為 equivalent metric，equivalent values may be determined by subtracting the NISR values listed below from 105。"
+    ]
+  },
+  {
+    "code": "S08",
+    "zh_name": "加強音訊設備",
+    "zh_summary": "透過高性能 audio technology 與組織政策提升 speech intelligibility 與 hearing accessibility。此 feature 聚焦 conferencing、distance learning、public address 等情境的設備委託與調校，並要求至少採取多項措施支持個別 acoustic comfort needs。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "Option 1：Install & Commission Audio Systems。",
+      "Telecommunication and AV systems 需使用 speech enhancement technology，例如 active digital signal processing、noise cancellation。",
+      "所有用於 conferencing、distance learning 或 similar remote communications 的 rooms 需提供上述系統，並由 professional in audio engineering commissioning。",
+      "Public address systems 需由 professional in audio engineering commissioned in accordance with NFPA 72 (Annex D) or equivalent。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；project 需透過 at least three listed strategies 支持 individual acoustical needs，例如 audio devices 由 qualified professional 管理、允許 alternative workplace arrangements、排定 a minimum of one daily quiet hour 並設 signage。"
+    ]
+  }
+]

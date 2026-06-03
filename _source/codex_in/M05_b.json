@@ -1,0 +1,680 @@
+{
+  "module": "M05",
+  "frameworks": [
+    {
+      "id": "M05_F1",
+      "name": "主動建築與動線設計",
+      "desc": "V01 Active Buildings and Communities、V03 Circulation Network 與 V05 Site Planning and Selection 用 staircase visibility、walkability、site amenities 促進日常 movement。",
+      "covers": [
+        "V01 Active Buildings and Communities",
+        "V03 Circulation Network",
+        "V05 Site Planning and Selection",
+        "stair use",
+        "walkability"
+      ]
+    },
+    {
+      "id": "M05_F2",
+      "name": "人體工學工作站",
+      "desc": "V02 Ergonomic Workstation Design 要降低 physical strain，WELL v2 範例提到 V02 Part 1 requires adjustable height workstations for at least 25% of all workstations。",
+      "covers": [
+        "V02 Ergonomic Workstation Design",
+        "adjustable height workstations",
+        "at least 25% of all workstations",
+        "neutral posture",
+        "ergonomics"
+      ]
+    },
+    {
+      "id": "M05_F3",
+      "name": "主動通勤與活動設施",
+      "desc": "V04 Facilities for Active Occupants、V08 Physical Activity Spaces and Equipment 與 V06 Physical Activity Opportunities 用 bike storage、showers、activity spaces 與 no-cost activity opportunities 支援 active occupants。",
+      "covers": [
+        "V04 Facilities for Active Occupants",
+        "V06 Physical Activity Opportunities",
+        "V08 Physical Activity Spaces and Equipment",
+        "bike storage",
+        "showers"
+      ]
+    },
+    {
+      "id": "M05_F4",
+      "name": "久坐中斷與行為回饋",
+      "desc": "V07 Active Furnishings、V09 Physical Activity Promotion 與 V10 Self-Monitoring 對應 sit-stand furnishings、physical activity incentives 與 wearable technology。",
+      "covers": [
+        "V07 Active Furnishings",
+        "V09 Physical Activity Promotion",
+        "V10 Self-Monitoring",
+        "sit-stand workstation",
+        "wearable technology"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M05_Q26",
+      "stem": "Studies have shown that an ergonomics program can reduce claims by up to 45% and provide an ROI of?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3:1"
+        },
+        {
+          "key": "B",
+          "text": "10:1"
+        },
+        {
+          "key": "C",
+          "text": "6:1"
+        },
+        {
+          "key": "D",
+          "text": "12:1"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q27",
+      "stem": "Which of the following is NOT a contributor to growing physical inactivity rates around the world?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Modern transportation."
+        },
+        {
+          "key": "B",
+          "text": "Labor Saving Devices."
+        },
+        {
+          "key": "C",
+          "text": "Longer lifespans."
+        },
+        {
+          "key": "D",
+          "text": "Sedentary jobs."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Modern transportation, labor-saving conveniences, and sedentary jobs have created \nan environment in which millions of people fail to achieve the minimum level of \nactivity necessary to help prevent type 2 diabetes, metabolic syndrome, obesity, \nheart disease, and other chronic conditions.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q28",
+      "stem": "A project team has decided to pursue V07: Active Furnishings with several desk-top height adjustment stands. To what other WELLv2 feature could this contribute?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature V06: Physical Activity Opportunitites"
+        },
+        {
+          "key": "B",
+          "text": "Feature V04: Facilities for Active Occupants"
+        },
+        {
+          "key": "C",
+          "text": "Feature V02: Ergonomic Workstation Design"
+        },
+        {
+          "key": "D",
+          "text": "Feature V03: Circulation Network"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F4"
+    },
+    {
+      "id": "M05_Q29",
+      "stem": "The average adult is reported to be sedentary about how many hours every day?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1-3 Hours per day."
+        },
+        {
+          "key": "B",
+          "text": "6-14 Hours per day."
+        },
+        {
+          "key": "C",
+          "text": "3-9 Hours per day."
+        },
+        {
+          "key": "D",
+          "text": "2-5 Hours per day."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Review overview of Movement Concept: \n\"...in 2011, self-reported time spent sitting ranged from 3-9 hours per day among \nadults, globally.“ WELL Building Standard",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q30",
+      "stem": "Which of the following is NOT considered sedentary behavior?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Driving a car."
+        },
+        {
+          "key": "B",
+          "text": "Playing fast-paced games at a computer."
+        },
+        {
+          "key": "C",
+          "text": "Waiting in line."
+        },
+        {
+          "key": "D",
+          "text": "Sitting at a desk."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q31",
+      "stem": "Which of the following is NOT mentioned as an active furnishing according to Feature V07: Active Furnishings?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adjustable height standing desk"
+        },
+        {
+          "key": "B",
+          "text": "Treadmill desk"
+        },
+        {
+          "key": "C",
+          "text": "Wellness ball chair"
+        },
+        {
+          "key": "D",
+          "text": "Portable desk pedal"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "This is not mentioned as an example of active furnishing in Feature VO7.",
+      "framework_hint": "M05_F4"
+    },
+    {
+      "id": "M05_Q32",
+      "stem": "Two types of exercise equipment should be provided in a quantity that would allow use by what percentage of regular building occupants in Part 1: Provide Indoor Activity Spaces of Feature V08: Physical Activity Spaces and Equipment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "7%"
+        },
+        {
+          "key": "B",
+          "text": "5%"
+        },
+        {
+          "key": "C",
+          "text": "3%"
+        },
+        {
+          "key": "D",
+          "text": "1%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Equipment may be provided in the interior fitness space free of charge, or in a shared \ngym or similar physical activity space located within 200 m [650 ft] of the WELL \nproject boundary.",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q33",
+      "stem": "A project may provide access to off-site fitness facilities in Part 1: Provide Indoor Activity Spaces of Feature V08: Physical Activity Spaces and Equipment. What distance from the project boundary is acceptable for an off-site fitness facility?",
+      "options": [
+        {
+          "key": "A",
+          "text": "150 m (495 ft)"
+        },
+        {
+          "key": "B",
+          "text": "200 m (650 ft)"
+        },
+        {
+          "key": "C",
+          "text": "250 m (825 ft)"
+        },
+        {
+          "key": "D",
+          "text": "100 m (330 ft)"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q34",
+      "stem": "To earn points for Part 1: Design Aesthetic Staircases of Feature V03: Circulation Network, a project team would use what to promote the use of stairs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fire alarms located in the stairwells."
+        },
+        {
+          "key": "B",
+          "text": "Air fresheners in the stairwells."
+        },
+        {
+          "key": "C",
+          "text": "Limit elevator operating hours."
+        },
+        {
+          "key": "D",
+          "text": "Adding plants and artwork."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "At least one staircase is open to regular occupants, services all floors of the project \nand is aesthetically designed through the inclusion of at least two of the following on \neach floor: \na. Music. \nb. Artwork. \nc. Light levels of at least 215 lux(20fc) when in use.7,18. \nd. Windows or skylights that provide access to daylight. \ne. Natural design elements (e.g., plants, water features, images of nature). \nf. Gamification.",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q35",
+      "stem": "At an office building, occupants are discouraged by high gym member fees. According to Feature V09: Physical Activity Promotion, what should be offered to building occupants to encourage participation in fitness programs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reductions in health care premiums based on physical activity engagement."
+        },
+        {
+          "key": "B",
+          "text": "Free fitness education courses each quarter."
+        },
+        {
+          "key": "C",
+          "text": "Treadmill desks for every employee."
+        },
+        {
+          "key": "D",
+          "text": "The option of a standing bike desk or treadmill desk for each employee."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M05_F4"
+    },
+    {
+      "id": "M05_Q36",
+      "stem": "Which of the following is an indirect benefit of regular physical activity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Improved job performance."
+        },
+        {
+          "key": "B",
+          "text": "Weight management."
+        },
+        {
+          "key": "C",
+          "text": "Chronic disease prevention."
+        },
+        {
+          "key": "D",
+          "text": "Fitness maintenance."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q37",
+      "stem": "What is the estimated price of physical inactivity on the healthcare system globally?",
+      "options": [
+        {
+          "key": "A",
+          "text": "$34 Billion"
+        },
+        {
+          "key": "B",
+          "text": "$34 Million"
+        },
+        {
+          "key": "C",
+          "text": "$54 Million"
+        },
+        {
+          "key": "D",
+          "text": "$54 Billion"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q38",
+      "stem": "Which one of these is considered an environmental barrier to physical activity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Injury"
+        },
+        {
+          "key": "B",
+          "text": "Cost"
+        },
+        {
+          "key": "C",
+          "text": "Travel conditions."
+        },
+        {
+          "key": "D",
+          "text": "Lack of bike lanes."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q39",
+      "stem": "A company wants to encourage its staff to use fitness trackers. Which of the following would help them earn 1 point under Feature V10: Self-Monitoring?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Offering a choice of colors to employees."
+        },
+        {
+          "key": "B",
+          "text": "Subsidizing part of the cost of any such device."
+        },
+        {
+          "key": "C",
+          "text": "Making the device free to employees."
+        },
+        {
+          "key": "D",
+          "text": "Making individual fitness data available to all staff."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F4"
+    },
+    {
+      "id": "M05_Q40",
+      "stem": "A new office building's main entrance is located on a wide, well-used sidewalk. What other design elements should the building incorporate under Part 1: Select Sites with Pedestrian-friendly Streets of Feature V05: Site Planning and Selection?",
+      "options": [
+        {
+          "key": "A",
+          "text": "All weather seating."
+        },
+        {
+          "key": "B",
+          "text": "Community bulletin board."
+        },
+        {
+          "key": "C",
+          "text": "Bike Racks."
+        },
+        {
+          "key": "D",
+          "text": "Planters."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q41",
+      "stem": "Beth is a new employee at a company in a WELL building. Which of the following is Beth likely to see at her new workstation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A chair without adjustable arms."
+        },
+        {
+          "key": "B",
+          "text": "An adjustable height desk."
+        },
+        {
+          "key": "C",
+          "text": "A welcome letter from the CEO."
+        },
+        {
+          "key": "D",
+          "text": "Recycled notebooks and pens."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q42",
+      "stem": "Besides safety issues, what other 2 reasons are given for not choosing to bike to work?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bad weather and no bike parking."
+        },
+        {
+          "key": "B",
+          "text": "No bike parking and no changing facilities."
+        },
+        {
+          "key": "C",
+          "text": "No changing facilities and too expensive."
+        },
+        {
+          "key": "D",
+          "text": "Bad weather and poor road conditions."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q43",
+      "stem": "A new construction project will have 3 floors with stairwells servicing all floors. According to Part 2: Integrate Point-of-Decision Signage of Feature V03: Circulation Network, which one of these is not the best area to place signage to encourage stair use?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Near the elevator."
+        },
+        {
+          "key": "B",
+          "text": "Near the front door."
+        },
+        {
+          "key": "C",
+          "text": "Near the parking deck."
+        },
+        {
+          "key": "D",
+          "text": "Near the base of each stairwell."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q44",
+      "stem": "How close must the shower and changing facilities be to the project boundary under Part 2: Provide Showers, Lockers and Changing Facilities of Feature V04: Facilities for Active Occupants?",
+      "options": [
+        {
+          "key": "A",
+          "text": "450 ft walk distance."
+        },
+        {
+          "key": "B",
+          "text": "1,000 ft walk distance."
+        },
+        {
+          "key": "C",
+          "text": "650 ft walk distance."
+        },
+        {
+          "key": "D",
+          "text": "750 ft walk distance."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q45",
+      "stem": "Which of the following is NOT a design-based optimization to satisfy Feature V01: Active Buildings and Communities?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature V03: Circulation Network"
+        },
+        {
+          "key": "B",
+          "text": "Feature V05: Site Planning and Selection"
+        },
+        {
+          "key": "C",
+          "text": "Feature V08: Physical Activity Spaces and Equipment"
+        },
+        {
+          "key": "D",
+          "text": "Feature V09: Physical Activity Promotion."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q46",
+      "stem": "Gamification is...",
+      "options": [
+        {
+          "key": "A",
+          "text": "A way to improve morale."
+        },
+        {
+          "key": "B",
+          "text": "A way to encourage healthy behaviors."
+        },
+        {
+          "key": "C",
+          "text": "A way to lessen productivity."
+        },
+        {
+          "key": "D",
+          "text": "A way to have fun in the workplace."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q47",
+      "stem": "Which is not a good way to calculate the number of peak visitors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Actual figures."
+        },
+        {
+          "key": "B",
+          "text": "Requiring visitors badges."
+        },
+        {
+          "key": "C",
+          "text": "Institutional knowledge."
+        },
+        {
+          "key": "D",
+          "text": "Using default occupancy assumptions."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q48",
+      "stem": "When is a smartphone app considered a self monitoring device according to Feature V10: Self-Monitoring?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the smart phone is supplied by the company."
+        },
+        {
+          "key": "B",
+          "text": "When the app is supplied by the company's insurance provider."
+        },
+        {
+          "key": "C",
+          "text": "When both the app and the monitoring device are subsidized by the company."
+        },
+        {
+          "key": "D",
+          "text": "A smart phone app is never acceptable for Feature V10."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F4"
+    },
+    {
+      "id": "M05_Q49",
+      "stem": "One of the top drivers of global disability in 2016 is?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Air Pollution."
+        },
+        {
+          "key": "B",
+          "text": "Vitamin Deficiency."
+        },
+        {
+          "key": "C",
+          "text": "Cardiovascular disease."
+        },
+        {
+          "key": "D",
+          "text": "Musculoskeletal disorders."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q50",
+      "stem": "To support remote work ergonomics, a company can do any of the following except?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pre-approve Direct Purchases."
+        },
+        {
+          "key": "B",
+          "text": "Subsidize Purchases."
+        },
+        {
+          "key": "C",
+          "text": "Offer employee reimbursement."
+        },
+        {
+          "key": "D",
+          "text": "Ask for an inspection of the home office area."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    }
+  ]
+}

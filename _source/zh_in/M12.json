@@ -1,0 +1,71 @@
+{
+  "module": "M12",
+  "name": "創新 Innovation",
+  "features": [
+    {
+      "code": "I01",
+      "name": "Innovate Well",
+      "type": "optimization",
+      "intent": "To promote the continuous evolution of WELL, by encouraging projects to propose a new intervention that addresses health and well-being in a novel way.",
+      "summary": "As the scientific understanding of health continues to evolve, so too does the ability to address the complex issue of promoting health and well-being through building design and operations. WELL Innovation features embrace novel approaches to promoting the creation of healthier spaces that go above and beyond features in WELL v2.",
+      "parts": [
+        {
+          "title": "Part 1 Propose Innovations",
+          "body": "WELL Certification: 10 Pt | WELL Core: 10 Pt For All Spaces: The project submits a proposal that meets the following requirements:    a. Positively impacts project occupants by supporting health and well-being in a novel way that is not covered in       WELL v2.    b. Substantiated by existing scientific, medical and/or industry research.    c. Consistent with applicable laws and regulations and leading practices in building design and operations."
+        }
+      ]
+    },
+    {
+      "code": "I02",
+      "name": "Well Accredited Professional (Well Ap)",
+      "type": "optimization",
+      "intent": "To recognize projects that engage a WELL AP to support the WELL certification process.",
+      "summary": "The WELL Accredited Professional (WELL AP) credential denotes expertise in WELL and a commitment to advancing human health and well-being in buildings and communities. The presence of a WELL AP on a project team can benefit project planning and achievement efforts by streamlining the WELL application and certification process.",
+      "parts": [
+        {
+          "title": "Part 1 Achieve WELL AP",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: At least one member of the project team:    a. Has achieved the WELL Accredited Professional credential.    b. Maintains accreditation until project’s initial certification is achieved."
+        }
+      ]
+    },
+    {
+      "code": "I03",
+      "name": "Experience Well Certification",
+      "type": "optimization",
+      "intent": "To promote on-going education about WELL, by encouraging projects to offer building tours and educational components highlighting WELL features pursued for certification.",
+      "summary": "Increasing awareness about health and well-being solutions in buildings is a central part of WELL’s mission. Education on WELL is best showcased by inviting individuals into the physical project space and highlighting the WELL features pursued. To receive credit for this Innovation, projects must provide tours of the space, as well as implement education strategies that enable building occupants and visitors to learn more about the impact of built spaces on their health and well-being.",
+      "parts": [
+        {
+          "title": "Part 1 Offer WELL Educational Tours",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: The project provides free, public tours of the WELL Certified space. Tours are offered on a pre-determined schedule or upon request and meet the following requirements:    a. Offered at least six times per year.    b. Attended by at least 50 people per year.    c. Listed in the public directory of tours for WELL Certified spaces.    d. Include at least one destination per WELL concept.    e. Advertised through at least one publicly accessible channel (e.g., project website, signage, social media)."
+        }
+      ]
+    },
+    {
+      "code": "I04",
+      "name": "Gateways To Wellness",
+      "type": "optimization",
+      "intent": "To recognize projects that have taken meaningful steps toward deeper commitments to health and well- being.",
+      "summary": "Organizations build a culture of health in different ways. For some, it starts at the top, with a commitment from leadership to enact change. For others, it is borne out of grassroots initiatives, gaining momentum from the ground up. While every organization travels a different path, there are a variety of third-party programs and initiatives on offer to support an organization’s journey. IWBI awards an Innovation point to projects that participate in wellness programs that act as gateways to deeper commitments.",
+      "parts": [
+        {
+          "title": "Part 1 Complete Health and Wellness Programs",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: The following requirement is met:    a. Within the last three years, the project has completed an independent health and wellness program, or an       initiative approved by IWBI and listed on IWBI's website (Reference)."
+        }
+      ]
+    },
+    {
+      "code": "I05",
+      "name": "Green Building Rating Systems",
+      "type": "optimization",
+      "intent": "To recognize projects that have achieved certification under leading green building rating systems.",
+      "summary": "WELL aligns with leading green building rating systems and recognizes projects that balance a commitment to environmental sustainability with a commitment to human health. Policies that reduce the environmental impact of buildings contribute to the advancement of human health at the building and community scale. The environment itself can act as a mechanism to promote and reinforce health by providing fresh air, clean water, affordable and accessible food and green spaces for physical activity and social connection. By balancing sustainability and human health considerations, both people and planet can thrive.",
+      "parts": [
+        {
+          "title": "Part 1 Achieve Green Building Certification",
+          "body": "WELL Certification: 5 Pt | WELL Core: 5 Pt For All Spaces: The following requirement is met:    a. The project is certified in a green building rating system approved by IWBI and listed on IWBI's website       (Reference).   Note: Projects receive the full five points in Innovation for pursuing a green building rating system. Projects cannot receive   more than five points for pursuing additional green building rating programs. APPENDIX 1: VERIFICATION METHODS: Features of the WELL Building Standard™ (WELL) describe which design, policy or environmental conditions must be present in a WELL Certified space. In other words, WELL features describe the characteristics or quality of the spaces in"
+        }
+      ]
+    }
+  ]
+}

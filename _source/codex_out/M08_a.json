@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M08_Q01",
+    "stem": "According to Part 3: Restrict Lead of Feature X01: Material Restrictions, what is the allowable limit for added lead in drinking water pipes, fittings, and solder intended for drinking water distribution and delivery?",
+    "framework": "M08_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 ppm; there is no acceptable limit for added lead in newly-installed building materials",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "0.25% weighted wetted average for products",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "0.05% weighted wetted average for products",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Products can contain no more than 300 ppm (0.3%) of lead by weight",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "X01 Material Restrictions – Part 3 Restrict Lead 規定飲用水 distribution and delivery 的 pipes、fixtures、fittings 與 solder，需由政府或授權機構核准，或具第三方驗證的 weighted wetted average lead 不超過 0.25%，也可標示 ANSI/NSF 372-compliant。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為 drinking water fittings 必須完全零 lead。",
+        "followup": "X01 Part 3 對飲用水管件採用的是 no added lead，還是 weighted wetted average 的門檻？"
+      },
+      "C": {
+        "gap": "把 0.25% 門檻錯記成更嚴格的 0.05%。",
+        "followup": "X01 Part 3 的 ANSI/NSF 372-compliant 對 lead weighted wetted average 寫的是哪個百分比？"
+      },
+      "D": {
+        "gap": "混淆 lead by weight 與 wetted average 兩種規則。",
+        "followup": "飲用水 pipes/fittings/solder 的 lead 要看 by weight，還是接觸水面的 weighted wetted average？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q02",
+    "stem": "In order to comply with Part 3: Restrict Lead of Feature X01: Material Restrictions, what is the allowable limit of lead in all newly installed fire alarms, meters, sensors, relays, thermostats, and load break switches?",
+    "framework": "M08_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 ppm; there is no acceptable limit for added lead in newly-installed building materials",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "0.25% weighted wetted average for products",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "0.05% weighted wetted average for products",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Products can contain no more than 100 ppm (0.1%) of lead by weight",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X01 Material Restrictions – Part 3 Restrict Lead 要求 newly installed fire alarms、meters、sensors、relays、thermostats 與 load break switches 符合 RoHS restrictions，或產品 lead by weight 不超過 0.01%（100 ppm）。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤把電子設備 lead 限制理解成絕對零添加。",
+        "followup": "X01 Part 3 對這些 electronics 是否允許 RoHS 或 100 ppm by weight 作為合規路徑？"
+      },
+      "B": {
+        "gap": "把飲用水管件的 0.25% 規則套到電子產品。",
+        "followup": "X01 Part 3 中 drinking water products 與 fire alarms/meters 的 lead 評估單位有何不同？"
+      },
+      "C": {
+        "gap": "記得是百分比限制，但把 0.01% 誤成 0.05%。",
+        "followup": "若標準同時寫 0.01% 與 ppm，換算後 X01 Part 3 對 electronics 是多少 ppm？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q03",
+    "stem": "According to Part 1: Restrict Asbestos of Feature X01: Material Restrictions, what is the allowable limit of asbestos for acoustic treatments, joint protection, and ceiling product categories?",
+    "framework": "M08_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 ppm; there is no acceptable limit for added asbestos in newly-installed or applied products within the project boundary",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "0.25% weighted wetted average for all product categories",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "0.05% weighted wetted average for all products categories",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Product categories cannot contain over 1,000 ppm of asbestos by weight or area",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X01 Material Restrictions – Part 1 Restrict Asbestos 規定 newly installed or applied products 中，acoustic treatments、joint protection、ceilings 等列名 product categories 的 asbestos 不得超過 1,000 ppm by weight or area。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 asbestos 限制誤解成所有新產品完全零容忍。",
+        "followup": "X01 Part 1 的 product categories 清單後面接的是 no asbestos，還是 not over 1,000 ppm？"
+      },
+      "B": {
+        "gap": "混入 lead plumbing 的 weighted average 概念。",
+        "followup": "Asbestos 的限制是 weighted wetted average，還是依 product category 的 by weight or area ppm？"
+      },
+      "C": {
+        "gap": "同時混淆 weighted average 與 asbestos 門檻數值。",
+        "followup": "X01 Part 1 用來判定 acoustic treatments 的單位，是百分比 weighted average 還是 ppm by weight or area？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q04",
+    "stem": "To comply with Part 2: Restrict Mercury of Feature X01: Material Restrictions, what is the allowable limit of mercury for newly installed fire alarms, meters, sensors, relays, thermostats, and load break switches?",
+    "framework": "M08_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 ppm; there is no acceptable limit for added mercury in newly-installed building materials",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Products contain no more than 0.1% (1000 ppm) of mercury by weight",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "0.05% weighted wetted average for all products categories",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "0.25% weighted wetted average for all product categories",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "X01 Material Restrictions – Part 2 Restrict Mercury 要求 newly installed fire alarms、meters、sensors、relays、thermostats 與 load break switches 符合 RoHS restrictions，或 mercury by weight 不超過 0.1%（1000 ppm）。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤認 mercury 在這些設備中完全不得檢出。",
+        "followup": "X01 Part 2 對 fire alarms/meters 是寫 no mercury，還是允許 RoHS 或 0.1% by weight？"
+      },
+      "C": {
+        "gap": "把 lead wetted average 的錯誤百分比套到 mercury。",
+        "followup": "X01 Part 2 的 mercury 限制是 weighted wetted average，還是產品重量百分比？"
+      },
+      "D": {
+        "gap": "把 drinking water lead 的 0.25% 門檻混用到 mercury。",
+        "followup": "同在 X01 中，Part 2 mercury 與 Part 3 drinking water lead 的百分比門檻分別是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q05",
+    "stem": "To comply with Feature X02: Interior Hazardous Materials Management, a project manager who is overseeing a museum renovation needs to manage exposure risks for asbestos and lead. What other hazardous material must be managed if it is present in the building?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mercury",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "PVC (polyvinyl chloride)",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "PCB (polychlorinated biphenyl)",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Formaldehyde",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "X02 Interior Hazardous Materials Management 的 Summary 指明此 Feature 管理 hazardous building materials 的 exposure risks，包括 asbestos、lead 與 polychlorinated biphenyls（PCBs）。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 X01 的 mercury restriction 誤放進 X02 管理範圍。",
+        "followup": "X02 Summary 列出的三類 legacy hazardous building materials，除了 asbestos 與 lead 還有哪一類？"
+      },
+      "B": {
+        "gap": "把一般材料健康疑慮 PVC 誤認為 X02 指定危害。",
+        "followup": "X02 是針對既有建築的 asbestos、lead、PCBs，還是所有塑膠材料類別？"
+      },
+      "D": {
+        "gap": "混淆 formaldehyde/VOC 風險與 X02 legacy hazards。",
+        "followup": "Formaldehyde 更常出現在 VOC 或材料排放要求中；X02 Part 3 管的是哪種舊建材污染物？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q06",
+    "stem": "To comply with Part 1: Manage Asbestos Hazards of Feature X02: Interior Hazardous Materials Management, an investigation of the project space must be conducted by an inspector certified under local regulation or a qualified professional with demonstrable experience where no local regulations apply. At a minimum, what discovery from the investigation must they provide?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confirmation of the presence of asbestos is performed through Polarized Light Microscopy (PLM) or Transmission Electron Microscopy (TEM) testing.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "MSDS sheet listing potential hazards",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "A list of locations where mercury and formaldehyde are located",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "A building permit waiver from the local municipality for the limited use of asbestos",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "X02 Interior Hazardous Materials Management – Part 1 Manage Asbestos Hazards 規定 asbestos investigation 至少需列出 PACM locations，並以 Polarized Light Microscopy（PLM）或 Transmission Electron Microscopy（TEM）確認 asbestos presence；材料超過 1% asbestos 視為 ACM。",
+    "diagnosis": {
+      "B": {
+        "gap": "把一般 SDS 文件誤當成 asbestos 現場調查證據。",
+        "followup": "X02 Part 1 要求 inspector 調查時，是否需要實驗方法確認 PACM，而不只是 MSDS？"
+      },
+      "C": {
+        "gap": "把 mercury/formaldehyde 清單錯當 asbestos hazard 調查。",
+        "followup": "X02 Part 1 的調查對象是 asbestos-containing materials，需列出的是哪些 presumed material locations？"
+      },
+      "D": {
+        "gap": "誤以為可用許可豁免取代 asbestos 調查與確認。",
+        "followup": "X02 Part 1 允許用 municipal waiver 合規，還是要求 certified inspector/qualified professional 調查？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q07",
+    "stem": "To comply with Part 1: Manage Pests of Feature X10: Pest Management and Pesticide Use, which of these elements must be included with a management plan for pest control that is based on integrated pest management (IPM) principles?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Records of pest monitoring data, pest events, pesticide applications, control actions and emergency responses",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Records of pest tolerance thresholds with data supporting pesticide application",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Pest management flow chart accessible to all occupants",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "List of identified pests accessible to all occupants",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "X10 Pest Management and Pesticide Use – Part 1 Manage Pests 要求 IPM management plan 包含 roles/responsibilities、objectives、prevention measures、pest tolerance thresholds/control strategies，以及 pest monitoring data、pest events、pesticide applications、control actions 與 emergency responses 的 records。",
+    "diagnosis": {
+      "B": {
+        "gap": "只抓到 tolerance thresholds，漏掉完整 IPM records 要求。",
+        "followup": "X10 Part 1 的 plan records 是否只支持 pesticide application，還要涵蓋 pest events 與 emergency responses？"
+      },
+      "C": {
+        "gap": "把公開流程圖誤認為標準列明的 IPM plan 元素。",
+        "followup": "X10 Part 1 明列的 occupant-facing 要求是 notification/SDS 可得，還是 flow chart accessible？"
+      },
+      "D": {
+        "gap": "只想到 pest identification，忽略 plan records 與控制策略。",
+        "followup": "X10 Part 1 的 objectives 包含 pest identification，但 plan 還要求哪些 monitoring 與 application records？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q08",
+    "stem": "According to Part 3: Manage Polychlorinated Biphenyl (PCB) Hazards of Feature X02: Interior Hazardous Materials Management, if the caulk is to be disturbed or removed, analysis of the presumably PCB-containing material must follow protocols. How are the protocols mandated?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "A verified letter of assurance",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "A verified technical document",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "By state legislative representatives or by specific US EPA or ISO testing methods",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "By local laws or, in absence of local laws, by any applicable US EPA or ISO testing methods",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X02 Interior Hazardous Materials Management – Part 3 Manage Polychlorinated Biphenyl（PCB）Hazards 規定若 caulk 將被 disturbed or removed，presumably PCB-containing material 的分析須遵循 local laws mandated protocols；若無 local laws，則採 applicable US EPA 或 ISO testing methods。",
+    "diagnosis": {
+      "A": {
+        "gap": "把合規文件 assurance letter 誤當 PCB testing protocol。",
+        "followup": "X02 Part 3 針對 caulk 分析要求的是驗證信，還是由 local laws/EPA/ISO 定義的測試方法？"
+      },
+      "B": {
+        "gap": "以 technical document 取代實際 mandated testing protocols。",
+        "followup": "PCB-containing caulk 的分析是否只需技術文件，或必須按照 X02 Part 3 指定的 protocol 來源？"
+      },
+      "C": {
+        "gap": "知道 EPA/ISO，卻誤加入 state representatives 來源。",
+        "followup": "X02 Part 3 對 protocol 的第一順位是 state representatives，還是 local laws？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q09",
+    "stem": "According to Part 1: Manage Exterior CCA H azards of Feature X03: CCA and Lead Management, if the exterior of a structure was built before laws instituting restrictions on the use of CCA (Chromium Copper Arsenate) and it's found, what can the project team do to comply?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide a verified letter of assurance so wood structures containing CCA can be left in place",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Dispose of CCA-containing woods following applicable laws, without incinerating nor wood chipping",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Replace all wood structures containing CCA in accordance with the United States Environmental Protection Agency (EPA)",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Project team can choose to remediate only CCA infused materials that are within the project boundary where human presence is expected",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "X03 CCA and Lead Management – Part 1 Manage Exterior CCA Hazards 要求識別 CCA-containing wood 後，以兩種方式之一處理：依 applicable laws disposal，且不得 incinerating 或 wood chipping；或定期使用 penetrating, oil-based, semi-transparent stains 防止 arsenic leaching。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為 assurance letter 可讓 CCA wood 原樣保留。",
+        "followup": "X03 Part 1 在 identify CCA 後，是否允許只靠 letter，還是要 disposal 或 protective stain treatment？"
+      },
+      "C": {
+        "gap": "把必須全部替換誤當成唯一合規處置方式。",
+        "followup": "X03 Part 1 Address CCA-containing woods 明列的兩條路徑中，除了 disposal 還有哪一種 treatment？"
+      },
+      "D": {
+        "gap": "忽略 Part 1 已限定 project boundary 與 expected human presence。",
+        "followup": "X03 Part 1 的適用範圍是否已包含 human presence 條件，處置時還能自行只挑部分材料嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q10",
+    "stem": "According Feature X03: CCA and Lead Management, when is a lead assessment not applicable for a project undergoing WELL v2 Certification??",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Project has accounted for heat island effect.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Project does not have artificial turf.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Project has loose-fill rubber from recycled tires present on playgrounds.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Project has paint peeling on existing playground equipment.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "X03 CCA and Lead Management – Part 2 Manage Lead Hazards 針對 outdoor bare soil、artificial turf fibers、loose-fill rubber from recycled tires 與 existing playground equipment paint 進行評估；若專案沒有 artificial turf，就不適用 synthetic turf fibers 的 lead assessment。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 heat island effect 與 lead hazard assessment 混淆。",
+        "followup": "X03 Part 2 的 lead hazards 清單是否包含 heat island effect，還是 soil、turf、rubber 與 playground paint？"
+      },
+      "C": {
+        "gap": "loose-fill recycled rubber 仍屬需評估的 lead hazard。",
+        "followup": "X03 Part 2 對 recycled tire loose-fill rubber 設了什麼 lead testing/remediation 條件？"
+      },
+      "D": {
+        "gap": "peeling playground paint 正是需取樣評估的情境。",
+        "followup": "X03 Part 2 對 cracked、peeled 或 chipped playground equipment paint 要求做什麼 lead analysis？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q11",
+    "stem": "A project has conducted a wipe test for lead loadings of synthetic turf fibers, if found what is the µg/ft2 limit for lead that will make this remediated according to Part 2: Manage Lead Hazards of Feature X03: CCA and Lead Management?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "No wipe testing is necessary",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "If the wipe-testing results show lead loadings greater than 40 µg/ft2 replace with turf containing lead concentrations less than 136 mg/kg it must be remediated",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "If the wipe-testing results show lead loadings greater than 140 µg/ft2 replace with turf containing lead concentrations less than 136 mg/kg it must be remediated",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "If the wipe-testing results show lead loadings greater than 80 µg/ft2 replace with turf containing lead concentrations less than 300 mg/kg it must be remediated",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "X03 CCA and Lead Management – Part 2 Manage Lead Hazards 規定 synthetic turf fibers 若 total lead concentration 超過 136 mg/lb（300 mg/kg），需做 dust-wipe testing；若 surface dust-lead loading 超過 40 µg/ft2（430 µg/m2），則更換為 lead concentration 低於 136 mg/lb（300 mg/kg）的 turf。",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略 synthetic turf lead 未知或超標時需 wipe testing。",
+        "followup": "X03 Part 2 在 turf fibers lead concentration 超過 136 mg/lb 後，下一步是否要做 dust-wipe testing？"
+      },
+      "C": {
+        "gap": "把 dust wipe threshold 誤記為 140 µg/ft2。",
+        "followup": "X03 Part 2 對 surface dust-lead loading 的觸發值是 40 還是 140 µg/ft2？"
+      },
+      "D": {
+        "gap": "同時錯記 wipe threshold 與 replacement turf 濃度。",
+        "followup": "X03 Part 2 要求 replacement turf 的 lead concentration 低於 136 mg/lb，這與 300 mg/kg 如何對應？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q12",
+    "stem": "A WELL project is assessing the paint on existing playground equipment. What percentage of lead, if found, will require the abatement process?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "30 ppm",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "60 ppm",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "90 ppm",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "120 ppm",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "X03 CCA and Lead Management – Part 2 Manage Lead Hazards 要求 cracked、peeled 或 chipped 的 existing playground equipment paint 取樣做 lead laboratory analysis；若 sample lead concentration over 90 ppm，需 remove or encapsulate paint。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 playground paint 的 lead trigger 大幅低估。",
+        "followup": "X03 Part 2 對 playground equipment paint 的 removal/encapsulation 門檻，是不是明寫 over 90 ppm？"
+      },
+      "B": {
+        "gap": "接近但仍低於標準列出的 90 ppm 門檻。",
+        "followup": "如果樣本是 60 ppm，依 X03 Part 2 是否已達 remove or encapsulate 的觸發值？"
+      },
+      "D": {
+        "gap": "把門檻放得過高，會漏掉 90 ppm 以上危害。",
+        "followup": "X03 Part 2 使用 over 90 ppm 作為觸發值，若等到 120 ppm 才處理會少涵蓋哪些情況？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "題幹問 percentage，但選項與 WELL v2 標準為 ppm；marked correct 對應 over 90 ppm。"
+    }
+  },
+  {
+    "id": "M08_Q13",
+    "stem": "Lead is an existing external hazard that must be identified and remediated on a project. Where may lead be present on a project site?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Furniture placed in the offices.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Flooring used in a commercial kitchen.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Paints used on outdoor structures and playgrounds.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "LED lighting used throughout a project.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "X03 CCA and Lead Management 的 Issue 指出 existing external hazards 中 lead may be present in paints used on outdoor structures and playgrounds；Part 2 Manage Lead Hazards 也要求評估 existing playground equipment paint、soil、artificial turf 與 loose-fill rubber。",
+    "diagnosis": {
+      "A": {
+        "gap": "把室內 furniture 誤當 X03 exterior lead hazard。",
+        "followup": "X03 的 lead hazards 是室內家具材料，還是 project site 的 outdoor structures、playgrounds、soil 與 turf？"
+      },
+      "B": {
+        "gap": "把室內 commercial kitchen flooring 與外部 lead hazard 混淆。",
+        "followup": "X03 Part 2 對 flooring 是否有 lead paint assessment，還是聚焦 outdoor bare soil 與 playground equipment？"
+      },
+      "D": {
+        "gap": "把 lighting 系統誤認為外部 lead paint 來源。",
+        "followup": "X03 Issue 提到 lead 可能存在於哪些 outdoor structures 或 playground materials，而非 LED lighting？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q14",
+    "stem": "The requirement for managing product emissions of newly applied adhesives, sealants, paints, and coatings to meet the California Department of Public Health (CDPH) Standard Method v1.2 can be found in which WELL Feature?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature: X06 VOC Restrictions",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Feature: X02 Interior Hazardous Materials Management",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature: X11 Cleaning Products and Protocols",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Feature: X01 Material Restrictions",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "X06 VOC Restrictions – Part 1 Limit VOCs from Wet-Applied Products 要求 newly installed interior paints、coatings、adhesives、sealants 與 finished poured floorings 的 VOC emissions，至少 75% of products by surface area or volume 需符合 CDPH Standard Method v1.2、AgBB 或 EU LCI/EN 16516 等標準。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 hazardous legacy materials 管理誤認為 VOC emissions。",
+        "followup": "CDPH Standard Method v1.2 在 WELL v2 中是 X02 的 asbestos/lead/PCB 管理，還是 X06 的 VOC emissions？"
+      },
+      "C": {
+        "gap": "把 cleaning protocols 與 wet-applied product emissions 混淆。",
+        "followup": "X11 管 cleaning products/protocols；新塗料與 sealants 的 CDPH emissions 要回到哪個 Feature？"
+      },
+      "D": {
+        "gap": "把 X01 材料成分限制誤當低 VOC 排放要求。",
+        "followup": "X01 restricts asbestos、mercury、lead；CDPH Method v1.2 是限制這些元素，還是評估 VOC emissions？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q15",
+    "stem": "In Feature X06: VOC Restrictions, if a project is in full compliance of both product categories, by Cost or Surface Area, how many points could they achieve?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "0",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "1",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "2",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "3",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "X06 VOC Restrictions – Part 2 Restrict VOC Emissions from Furniture, Architectural and Interior Products 的 Table 2 規定 one compliant product category 得 1 point，at least two compliant product categories 得 2 points；題目說 both product categories full compliance，因此可取得 2 points。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為 VOC category compliance 不給分。",
+        "followup": "X06 Part 2 Table 2 中，一個 compliant product category 是否已能取得 1 point？"
+      },
+      "B": {
+        "gap": "只計入一個 compliant product category 的分數。",
+        "followup": "題幹說 both product categories full compliance，X06 Part 2 對 at least two categories 給幾分？"
+      },
+      "D": {
+        "gap": "高估 Part 2 product category compliance 的最高分。",
+        "followup": "X06 Part 2 Table 2 的 product category 達成分數上限是 2 points 還是 3 points？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q16",
+    "stem": "Which of the following standards establishes limits for the VOC content of furniture for Feature X06: VOC Restrictions?  CDPH  ANSI/BIFMA  SCAQMD  SMACNA",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 only",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "1 and 2",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "1, 3, and 4",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "2 and 3",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "X06 VOC Restrictions – Part 2 Restrict VOC Emissions from Furniture, Architectural and Interior Products 列出 compliance methods，包括 CDPH Standard Method v1.2、AgBB、EU LCI/EN 16516，以及 furniture 專用的 ANSI/BIFMA e3-2014 sections 7.6.1 or 7.6.2；SCAQMD 是 Part 1 wet-applied VOC content，SMACNA 不在此清單。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 SCAQMD wet-applied content 標準誤當家具 VOC emissions。",
+        "followup": "X06 Part 2 的 furniture compliance 清單中，有 SCAQMD Rule 1168，還是它出現在 Part 1？"
+      },
+      "C": {
+        "gap": "混入 SCAQMD 與 SMACNA，漏掉 ANSI/BIFMA。",
+        "followup": "題幹問 furniture VOC content/emissions；X06 Part 2 是否列出 SMACNA，或列出 ANSI/BIFMA e3-2014？"
+      },
+      "D": {
+        "gap": "知道 ANSI/BIFMA，卻錯把 SCAQMD 也列為家具標準。",
+        "followup": "SCAQMD Rule 1168 在 X06 是用於 adhesives/sealants 的 VOC content，還是 furniture category？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q17",
+    "stem": "A Fortune 500 company is leasing 5 floors of an existing building. The Business Manager has approved new desks and chairs for 62 employees on one of the floors. The VOC content of at least what percentage (by cost) of the new desks and chairs must meet ANSI/BIFMA e3-2014?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "30%",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "50%",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "75%",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X06 VOC Restrictions – Part 2 Restrict VOC Emissions from Furniture, Architectural and Interior Products 的 Table 1 對 Furniture, millwork and fixtures 設定 threshold for compliance 為 75% by cost，且可用 ANSI/BIFMA e3-2014 sections 7.6.1 or 7.6.2 作為測試方法。",
+    "diagnosis": {
+      "A": {
+        "gap": "大幅低估 furniture by cost 的 VOC compliance threshold。",
+        "followup": "X06 Part 2 Table 1 對 furniture, millwork and fixtures 的 threshold 是 10% 還是 75% by cost？"
+      },
+      "B": {
+        "gap": "把材料比例門檻誤記為較低的 30%。",
+        "followup": "若只有 30% desks and chairs 符合 ANSI/BIFMA，是否達到 X06 Part 2 的 furniture threshold？"
+      },
+      "C": {
+        "gap": "把 50% 常見採購門檻誤套到 VOC furniture。",
+        "followup": "X06 Part 2 Table 1 中，furniture, millwork and fixtures 是 50% by cost 還是 75% by cost？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q18",
+    "stem": "The presence of pests in indoor environments can have negative health implications for humans. While pesticides can manage insects and rodents, they also bring with them inherent toxicity. What childhood disease have studies shown an increase as a result of pesticide exposure?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chronic Obstructive Pulmonary Disease in children.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Fatigue in children.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Asthma in children.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Cancer in children.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X10 Pest Management and Pesticide Use 的 Issue 指出 exposure to specific pesticides may present danger to human health，研究顯示 increased likelihood of cancer in children、breast cancer，以及 maternal exposure 相關 birth defects。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 pesticide exposure 影響誤連到兒童 COPD。",
+        "followup": "X10 Issue 舉例的 pesticide health evidence 是 childhood COPD，還是 increased likelihood of cancer in children？"
+      },
+      "B": {
+        "gap": "將一般不適疲勞誤當標準明列疾病。",
+        "followup": "X10 Issue 中 studies shown increase 的 childhood outcome 是 fatigue，還是更嚴重的 cancer risk？"
+      },
+      "C": {
+        "gap": "把常見室內環境疾病 asthma 誤當 pesticide evidence。",
+        "followup": "雖然 pests 與室內環境可影響健康，X10 Issue 具體提到 pesticide exposure 增加哪種 childhood disease？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q19",
+    "stem": "An integrated pest management plan (IPM) is a way to limit the use of pesticides in and around buildings. If there is any pesticide application within the project, what must be available to occupants and owners?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Photographs of pests",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Safety Data Sheets (SDSs) of pesticides",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Data sheets on pests",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Scientific name of pests",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "X10 Pest Management and Pesticide Use – Part 1 Manage Pests 規定若有 pesticide application，plan provisions 包括 occupant notification；並且 plan、implementation records、Safety Data Sheets（SDSs）of pesticides 與 inspection results 都必須 available to occupants and owners。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 pest evidence 照片誤認為 occupants/owners 可得文件。",
+        "followup": "X10 Part 1 要向 occupants and owners 提供的是 pest photos，還是 pesticide SDSs 與 plan records？"
+      },
+      "C": {
+        "gap": "混淆 pests 資訊與 pesticide 安全資料要求。",
+        "followup": "如果有 pesticide application，X10 Part 1 要求可取得的是 pests data sheets 還是 Safety Data Sheets？"
+      },
+      "D": {
+        "gap": "把 pest identification 細節誤當 pesticide disclosure。",
+        "followup": "X10 Part 1 的 notification 要包含 pesticide name、registration number 等；scientific name of pests 是否足夠？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q20",
+    "stem": "The phthalates (plasticizers) DEHP, DBP, BBP, DINP, DIDP, and DNOP are limited to 0.01% (100 ppm) in flooring and wall coverings according to which of the following features?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature X08: Materials Optimization",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature X06: VOC Restrictions",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature X02: Interior Hazardous Materials Management",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Feature X05: Enhanced Material Restrictions",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X05 Enhanced Material Restrictions – Part 2 Select Compliant Architectural and Interior Products 規定至少 50% by cost 的指定產品類別中，flooring products 的 HFR、PFAS 與 orthophthalates，以及 ceiling/wall panels 的 HFR 與 orthophthalates，需為 100 ppm（0.01%）by weight or less。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 optimization 類第三方化學評估誤當 restrictions。",
+        "followup": "100 ppm orthophthalates 限制是在 X05 Part 2 的產品成分類門檻，還是 X08 Materials Optimization？"
+      },
+      "B": {
+        "gap": "把 plasticizer 成分限制誤認為 VOC emissions/content。",
+        "followup": "X06 管 VOC emissions；DEHP、DBP、BBP 等 phthalates 的 100 ppm limit 是哪個 X05 Part？"
+      },
+      "C": {
+        "gap": "把既有 hazardous materials 管理誤放到新產品限制。",
+        "followup": "X02 管 asbestos、lead、PCBs 既有風險；flooring/wall covering phthalates threshold 是否屬 X05？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q21",
+    "stem": "Part 1: Select Compliant Interior Furnishings of Feature X05: Enhanced Material Restrictions gives 1 point if, at minimum, 50% by cost of newly installed furniture, millwork, and fixtures contain halogenated flame retardants at less than _____?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 ppm",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "100 ppm",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "1000 ppm",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "2000 ppm",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "X05 Enhanced Material Restrictions – Part 1 Select Compliant Interior Furnishings 規定至少 50% by cost 的 newly installed furniture, millwork and fixtures，其 textiles 與 plastics 中 halogenated flame retardants（HFR）等列名化學類別需為 100 ppm（0.01%）by weight or less。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 HFR threshold 誤記得比標準更嚴格。",
+        "followup": "X05 Part 1 對 textiles/plastics 的 HFR threshold 是 10 ppm，還是 100 ppm by weight？"
+      },
+      "C": {
+        "gap": "把 100 ppm 門檻放寬成 1000 ppm。",
+        "followup": "若 HFR 為 1000 ppm，是否仍符合 X05 Part 1 的 100 ppm（0.01%）要求？"
+      },
+      "D": {
+        "gap": "大幅放寬 HFR 限值，忽略 0.01% 要求。",
+        "followup": "X05 Part 1 將 HFR 限在 0.01% by weight，這換算為多少 ppm？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q22",
+    "stem": "Feature X05: Enhanced Material Restrictions highlights the concerns of orthophthlates, halogenated flame retardants and ______?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Per-fluorinated compounds (PFCs)",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Lead",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Chromated copper arsenate",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Nitrate",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "X05 Enhanced Material Restrictions 的 Issue 說明本 Feature 關注 orthophthalates、halogenated flame retardants（HFR）以及 per-fluorinated compounds（PFCs）等材料中具健康疑慮的 chemical classes；Part 1/2 進一步以 100 ppm（0.01%）門檻限制 HFR、PFAS/相關 fluorinated compounds 等。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 X01/X03 的 lead hazard 混入 X05 主要化學類別。",
+        "followup": "X05 Issue 提到 orthophthalates、HFR 與哪一類 fluorinated compounds，而不是 lead？"
+      },
+      "C": {
+        "gap": "把 CCA legacy exterior wood hazard 誤當 X05 化學關注。",
+        "followup": "CCA 是 X03 的 existing wood structures 風險；X05 關注的新產品 chemical classes 包含什麼？"
+      },
+      "D": {
+        "gap": "將 water/營養相關 nitrate 誤認為材料限制化學。",
+        "followup": "X05 Issue 列的是 building products 中的 chemical classes，nitrate 是否出現在這個清單？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q23",
+    "stem": "Part 1: Select Compliant Interior Furnishings of Feature X05: Enhanced Material Restrictions sets a standard for textiles and plastics in furniture. We also see a standard set for electrical and electronic products. What must newly installed electrical and electronic products must be compliant to?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "ASHRAE 55",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "SCAQMD Rule 1168",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "RoHS restrictions",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Cradle to Cradle",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "X05 Enhanced Material Restrictions – Part 1 Select Compliant Interior Furnishings 的 Option 2 Electrical and electronic products 要求 Appendix X1 指定的 all newly installed electrical and electronic products compliant with RoHS restrictions。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 thermal comfort 標準 ASHRAE 55 誤用於 electronics。",
+        "followup": "X05 Part 1 Option 2 管 electrical/electronic products，是否會引用 ASHRAE 55？"
+      },
+      "B": {
+        "gap": "把 adhesive/sealant VOC content 標準誤套到電子產品。",
+        "followup": "SCAQMD Rule 1168 在 X06 wet-applied products 中使用；X05 electronics 要符合哪個 restrictions？"
+      },
+      "D": {
+        "gap": "混淆材料健康認證與指定 electronics restriction。",
+        "followup": "X05 Part 1 對 newly installed electrical and electronic products 是要求 Cradle to Cradle，還是 RoHS restrictions？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q24",
+    "stem": "Which of the following chemicals found in Textiles and Plastics must be limited to a maximum of 100 ppm in newly installed furniture, millwork, and fixtures, according to Feature X05: Enhanced Material Restrictions?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Asbestos",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Pesticides",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Halogenated Flame Retardants (HFR)",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Formaldehyde",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "X05 Enhanced Material Restrictions – Part 1 Select Compliant Interior Furnishings 規定至少 50% by cost 的 newly installed furniture, millwork and fixtures，其 textiles 與 plastics 中 halogenated flame retardants（HFR）、PFAS、lead、cadmium、mercury 等需為 100 ppm（0.01%）by weight or less。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 X01 asbestos restriction 混入 X05 textiles/plastics 清單。",
+        "followup": "X05 Part 1 對 furniture textiles/plastics 的 100 ppm 清單是否包含 asbestos？"
+      },
+      "B": {
+        "gap": "把 X10 pesticide 管理誤認為 furniture chemical threshold。",
+        "followup": "Pesticides 屬 X10 pest management；X05 Part 1 中 textiles/plastics 明列哪些 restricted chemical classes？"
+      },
+      "D": {
+        "gap": "把 formaldehyde 材料排放議題誤當 X05 100 ppm 項目。",
+        "followup": "X05 Part 1 的 100 ppm list 包含 HFR、PFAS 與重金屬；formaldehyde 是否在這個 list？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q25",
+    "stem": "Which of the following is NOT an acceptable third-party verification that demonstrates Part 3: Select Products with Third-Party Verified Ingredients of Feature X07: Materials Transparency?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cradle to Cradle™ Material Health Certificate",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "GreenScreen® Benchmark",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "A Health Product Declaration (HPD)",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Declare Label: Living Building Challenge",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "X07 Materials Transparency – Part 3 Select Products with Third-Party Verified Ingredients 要求至少 15 distinct permanently installed products/furniture 的 ingredients 透過 Declare label、HPD Public Repository、Cradle-to-Cradle Gold/Platinum Material Health、Product Lens Certification 或 Product Health Declaration 等方式 disclosed，且 ingredient disclosure 需由第三方 verified；GreenScreen Benchmark 不在 Part 3 的可接受 disclosure 清單。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤排除 Part 3 明列的 Cradle-to-Cradle Material Health。",
+        "followup": "X07 Part 3 是否列出 Cradle-to-Cradle Gold/Platinum Material Health Certificate 作為 disclosure 路徑？"
+      },
+      "C": {
+        "gap": "誤以為 HPD 不是可接受的 ingredient disclosure。",
+        "followup": "X07 Part 3 對 HPD 的要求是 published in HPD Public Repository，這是否列在可接受清單？"
+      },
+      "D": {
+        "gap": "把 Declare Label 錯排除，忽略 ILFI disclosure 路徑。",
+        "followup": "X07 Part 3 的第一項是否就是 International Living Future Institute operated Declare label？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

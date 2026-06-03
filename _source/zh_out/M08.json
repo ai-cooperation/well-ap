@@ -1,0 +1,157 @@
+[
+  {
+    "code": "X01",
+    "zh_name": "材料限制",
+    "zh_summary": "限制新安裝或新施作建材中的已知危害物質，重點是 asbestos、mercury 與 lead。此 precondition 針對常見材料與設備設定含量上限或要求符合 RoHS restrictions，降低使用者暴露於危害建材的風險。",
+    "zh_specs": [
+      "適用 For All Spaces；WELL Core Guidance: Meet these requirements for the extent of developer buildout。",
+      "新安裝或新施作產品中，指定產品類別不得 contain over 1,000 ppm of asbestos by weight or area。",
+      "asbestos 限制涵蓋 thermal protection、acoustic treatments、sheathing、roofing and siding、fire and smoke protection、joint protection、plaster and gypsum board、ceilings、resilient flooring。",
+      "Newly installed fluorescent and sodium lamps 如存在，需符合 RoHS restrictions 或原文 mercury content 規格；Compact, integral ballast 最高 3.5 mg，Compact, no-integral ballast 最高 3.5 mg，T-5, circular 最高 9 mg。",
+      "新安裝 fire alarms、meters、sensors、relays、thermostats、load break switches 需符合 RoHS restrictions，或 lead by weight 不超過 0.01% (100 ppm)。",
+      "新施作 paints 作為 finishes 時，需 lead concentration of 100 ppm (0.01%) by weight or below，或 no added lead carbonates and lead sulfates，或由 ISO 14024-compliant (Type 1) 判定 free of lead/no added lead。"
+    ]
+  },
+  {
+    "code": "X02",
+    "zh_name": "室內危害材料管理",
+    "zh_summary": "管理既有建築中常見的 hazardous building materials 暴露風險，特別是 asbestos、lead paint 與 polychlorinated biphenyls (PCBs)。考點不是新材料採購，而是既有或翻修空間中如何調查、合法證明、風險評估與避免施工擾動造成暴露。",
+    "zh_specs": [
+      "適用 For All Spaces。",
+      "Part 1: 針對 asbestos-containing materials 禁用法規生效前建造或最後翻修的 existing buildings，或所在地無 local asbestos phase-out regulation 者，需提出 prior renovation 已移除 asbestos 且 occupancy legally allowed，或由合格人員進行 asbestos risk assessment。",
+      "Part 2: 針對 lead-containing paints 禁用法規生效前建造或翻修的 existing buildings，需以 legal documentation 證明風險已處理，或執行 on-site investigation 判定 paint、dust、soil 中的 lead-based hazards。",
+      "Part 3: 針對 PCBs 禁止或限制法規建立前建造或最後翻修的 buildings，或翻修會 disturb 可能含 PCBs 的 caulking、fluorescent light ballasts、capacitors 等材料者，需實施 PCB-related risks inspection strategy。",
+      "PCB inspection strategy 需包含判定可能被 disturb 的含 PCBs 材料位置；如 caulk 將被 disturb or removed，需分析 presumably PCB-containing material。"
+    ]
+  },
+  {
+    "code": "X03",
+    "zh_name": "CCA 與鉛管理",
+    "zh_summary": "處理 existing wood structures 中 chromate copper arsenate (CCA) 與戶外裸土等環境中的 lead hazards。此 precondition 聚焦專案邊界內、建築外殼外且有人可能接觸的戶外材料與土壤，要求先辨識危害，再採取處理或替換措施。",
+    "zh_specs": [
+      "適用 For All Spaces。",
+      "Part 1: 針對 CCA 禁用法規生效前安裝、位於 building envelope 外但在 project boundary 內且預期有人活動的 existing wood structures，需管理 exterior CCA hazards。",
+      "CCA-containing wood 可透過 inspection of purchase records、determination of whether legal bans for CCA apply，或 testing for the presence of arsenic in the wood or the soil bearing the wooden structures 進行辨識。",
+      "Part 2: all existing outdoor bare soil 的 top 0.6 in(1.5 cm) layer 需 tested for lead；每個 continuous area of bare soil 至少 sampled at least once。",
+      "若任一樣本 lead concentration surpasses 400 ppm by weight，需在 6 in(15 cm), 12 in(30 cm), 18 in(45 cm) and 24 in(60 cm) deep 進行第二組採樣。",
+      "若深層 samples above 400 ppm by weight，需以其他來源 soil 替換。"
+    ]
+  },
+  {
+    "code": "X04",
+    "zh_name": "場址整治",
+    "zh_summary": "針對可能受污染的開發場址進行 site assessment、testing 與 remediation，讓過去或現在的工業使用風險在開發前被辨識與處理。此 optimization 的重點是對土壤或地下水污染風險採用法規或 ASTM Phase I site assessments 等方法進行評估，必要時建立 monitoring and remediation plan。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "適用 For All Spaces。",
+      "適用於 project sites used for past or present industrial activities，例如 hazardous waste storage、fuel station、manufacturing plant、on-site dry cleaners、automotive repair or brownfields。",
+      "Option 1: Environmental site assessment 需評估 soil or underground water 受 past uses or surrounding conditions 污染的可能性。",
+      "評估可使用 local applicable regulation for environmental site assessments。",
+      "也可使用 ASTM E1527-05 (Phase I site assessments)；若 site investigation 顯示風險，需進入 Option 2: Monitoring and remediation plan。"
+    ]
+  },
+  {
+    "code": "X05",
+    "zh_name": "強化材料限制",
+    "zh_summary": "進一步限制建築中常見產品的特定化學物質，降低使用者接觸有害 compound 或 chemical class 的機會。此 optimization 以採購比例為核心，要求家具、固定裝修與建築室內產品在成本占比與最少產品數上達標，並符合 100 ppm (0.01%) by weight or less 等限制。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 1 Pt；適用 For All Spaces。",
+      "Part 1 Option 1: At least 50% by cost of newly installed furniture, millwork and fixtures，且 minimum 10 distinct products，需符合要求。",
+      "textiles（含 upholstery fabrics）與 plastics 中指定 compounds and chemical classes 需 100 ppm (0.01%) by weight or less，除非 local codes 要求更高含量。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 1 Pt；適用 For All Spaces。",
+      "Part 2 要求 At least 50% by cost of newly installed products，且 minimum 10 distinct products，符合 Appendix X1 產品類別限制。",
+      "Flooring products 中 Halogenated flame retardants (HFR)、Per- and polyfluoroalkyl substances (PFAS)、Orthophthalates 需 100 ppm (0.01%) by weight or less；Insulation products 中 HFR 需 100 ppm (0.01%) by weight or less。"
+    ]
+  },
+  {
+    "code": "X06",
+    "zh_name": "VOC 限制",
+    "zh_summary": "控制建築外殼內材料與產品的 VOC content 與 VOC emissions，降低 volatile organic compounds 對 indoor air quality 的影響。此 optimization 分成 wet-applied products 與家具/建築室內產品兩類，要求第三方測試或符合指定產品類別門檻。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 2 Pt | WELL Core: 2 Pt；適用 For All Spaces。",
+      "Part 1 適用 newly installed interior wet-applied paints, coatings, adhesives, sealants and finished poured floorings used inside the building envelope，門檻為 minimum 10 distinct products or applied to at least 10% of project area。",
+      "所有 Part 1 產品需由 third-party laboratory 測試，並符合 VOC content 的 testing methods and thresholds，例如 SCAQMD Rule 1168 (Adhesives and Sealants, 2017)、GB 33372-2020 (Adhesives)、2019 CARB SCM for Architectural Coatings 等原文列出的 standards and/or regulations。",
+      "Part 2: WELL Certification: 2 Pt | WELL Core: 2 Pt；適用 For All Spaces。",
+      "Part 2 Table 1 threshold: Flooring 需 90% of cost or surface area。",
+      "Part 2 Table 1 threshold: Furniture, millwork and fixtures 需 75% by cost；Insulation, ceiling and wall panels 需 75% by cost or surface area。"
+    ]
+  },
+  {
+    "code": "X07",
+    "zh_name": "材料透明",
+    "zh_summary": "促進 building material and product supply chain 的成分透明度，要求產品描述、ingredients disclosure 與第三方或公開平台揭露。此 optimization 的考點是揭露比例、最少產品數、100 ppm 深度，以及 Declare、HPD、Cradle-to-Cradle Certified™ 等透明化路徑。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 1 Pt；適用 For All Spaces。",
+      "Part 1 要求 for at least 50% by count or 25 distinct, permanently installed products and furniture，ingredients 由 manufacturer、disclosure organization 或 third party 揭露。",
+      "Part 1 揭露路徑包含 Declare label、Health Product Declaration (HPD) in the HPD Public Repository、Cradle-to-Cradle Certified™ product with a Gold or Platinum level in the Material Health Category。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 1 Pt；for at least 15 distinct permanently installed products and furniture，all ingredients are disclosed down to 100 ppm，且需 publicly disclosed。",
+      "Part 3: WELL Certification: 1 Pt | WELL Core: 1 Pt；for at least 15 distinct permanently installed products and furniture，all ingredients 需透過指定管道揭露。",
+      "Part 3 揭露管道包含 Declare label、Health Product Declaration (HPD) in the HPD Public Repository、Cradle-to-Cradle Certified™ product with a Gold or Platinum level in the Material Health Category。"
+    ]
+  },
+  {
+    "code": "X08",
+    "zh_name": "材料優化",
+    "zh_summary": "鼓勵選用已經過 ingredient screening、labeling 或第三方 program 稽核的產品，降低材料對 human and environmental health 的影響。此 optimization 不只要求揭露成分，也要求符合化學限制或取得 Cradle to Cradle、Living Product Challenge 等認證。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 1 Pt；適用 For All Spaces。",
+      "Part 1 Option 1 要求 For at least 25 distinct permanently installed products and furniture，ingredients inventoried to 100 ppm。",
+      "Part 1 產品需符合下列之一：free of compounds listed in the Living Building Challenge’s Red List v.4.0、meet the chemical thresholds in the Cradle to Cradle Basic Level Restricted Substances List, version 4、或不含原文列出的 REACH Restriction 相關 compounds。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 1 Pt；適用 For All Spaces。",
+      "Part 2 要求 At least 15 distinct products（furniture, flooring, insulation, wet-applied products, ceiling and wall assemblies and systems）取得指定 program 認證。",
+      "合格 program 包含 Cradle to Cradle Certified™ products with a Silver, Gold or Platinum level in the Material Health category，或 Silver, Gold or Platinum level Material Health Certificate；也包含 Living Product Challenge, Materials and Health & Happiness Petals or Living Product Certification。"
+    ]
+  },
+  {
+    "code": "X09",
+    "zh_name": "廢棄物管理",
+    "zh_summary": "針對含有 hazardous chemicals 的常見廢棄物建立 waste management plan，降低環境污染與後續暴露風險。此 optimization 聚焦 building operations 期間可能出現的 batteries、pesticides、含 mercury 燈具與設備，以及 electrical and electronic equipment 的收集、減量與責任分工。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "適用 For All Spaces。",
+      "需針對 project during the building operations 中 present or expected to be present 的 batteries、pesticides、lamps that may contain mercury、other mercury-containing equipment、electrical and electronic equipment 建立並實施 waste management plan。",
+      "計畫需 Identification of roles, responsibilities and vendors for implementing the plan。",
+      "計畫需 Identification of the sources of waste, estimation of rates of generation and strategies to minimize waste generation。",
+      "計畫需包含 Strategies for waste collection，且 categorized wastes 需有對應收集策略。"
+    ]
+  },
+  {
+    "code": "X10",
+    "zh_name": "蟲害與農藥管理",
+    "zh_summary": "以 integrated pest management (IPM) principles 管理室內外蟲害，優先採取設計、營運與非毒性控制方式，降低 pesticide 使用。當必須使用農藥時，需偏向低危害產品並在施用地點提供 pesticide information signage。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "適用 For All Spaces。",
+      "需針對 all indoor and outdoor spaces 實施 pest control management plan based on integrated pest management (IPM) principles。",
+      "計畫需包含 roles and responsibilities for program development, implementation, maintenance and education。",
+      "計畫需設定 pest management objectives，包括 protocols for identification of pests and metrics of progress。",
+      "計畫需納入 design and operational measures to prevent conditions that may attract pests，以及 pest tolerance thresholds and control strategies。"
+    ]
+  },
+  {
+    "code": "X11",
+    "zh_name": "清潔產品與程序",
+    "zh_summary": "透過 cleaning plan、cleaning schedule、staff training 與較低危害產品選用，提升清潔、消毒與除菌的有效性並降低化學暴露。此 optimization 同時要求清潔實務被文件化，也要求 cleaning, disinfection and sanitization products 符合 low-hazard/safer 或 SDS 成分揭露與危害分類條件。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 0.5 Pt；適用 For All Spaces。",
+      "Cleaning plan 需說明 extent and frequency of cleaning、cleaning responsibilities of building occupants and cleaning staff、cleaning supplies available to building occupants and where they can be accessed、process to evaluate and document adherence to the cleaning plan。",
+      "Cleaning plan 需辨識 surfaces that require disinfection（例如 high-touch surfaces）與 frequency and/or other thresholds（例如 number of hours、number users of a space、results from testing）。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 0.5 Pt；適用 For All Spaces。",
+      "所有 cleaning, disinfection and sanitization products 需 specified in the cleaning plan，並符合其中一項要求。",
+      "合格方式包含產品由 ISO Reference 或 local government recognized third-party certification 標示為 ‘low-hazard’ or ‘safer’；或每項產品 SDS 依 EU Regulation 2015/83015 (CLP) 或 California State Bill No. 25816 揭露 ingredients，且 Section 3 中成分不屬於原文列出的高危害分類。"
+    ]
+  },
+  {
+    "code": "X12",
+    "zh_name": "接觸降低",
+    "zh_summary": "以設計與政策策略降低使用者接觸 respiratory particles 與可能帶有 pathogens 的 surfaces。此 optimization 分成呼吸粒子暴露降低與手部觸碰表面管理，重點是在人流互動高或疾病風險較高時採取 distancing、screens、hands-free operation 等措施。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 1 Pt；適用 For All Spaces except Dwelling Units。",
+      "在 higher incidence of respiratory disease is likely 的期間，需實施 Part 1 要求。",
+      "Part 1 至少需採用 at least one distancing strategy，例如 queuing marks to increase distance between people while waiting in line，或 screens/protective furnishings/engineering controls to reduce particle exchange。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 1 Pt；適用 For All Spaces except Dwelling Units。",
+      "Part 2 Option 1: Surface touch management 要求 project offers hands-free operation（through foot, voice, sensor or personal electronic device）或其他 design strategies。",
+      "hands-free/design strategies 需避免 hand operation for at least three 項目，例如 pedestrian entry doors、elevators、water bottle fillers/water faucets/soap and paper towel dispensers、window blinds and indoor lighting switches/controllers、trash/recycling/reuse bins lids。"
+    ]
+  }
+]

@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M05_Q01",
+    "stem": "Approximately how much of the adult population is estimated to be physically inactive?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "50%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "25%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "35%",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "15%",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Movement Concept background 與 Feature V01 Active Buildings and Communities - Part 1 Design Active Buildings and Communities 的 Issue 都指出，2016 global estimates 顯示 nearly a quarter，即約 23% adult population physically inactive。題目問 approximately，最接近的比例是四分之一。",
+    "diagnosis": {
+      "A": {
+        "gap": "高估成人身體不活動比例，混入其他族群數據。",
+        "followup": "Movement 背景說成人約四分之一，哪個百分比最接近 23%？"
+      },
+      "C": {
+        "gap": "把 developed countries 或概略風險數字誤當全球成人值。",
+        "followup": "V01 Issue 的 global estimates 是比較 23%、29%、15%，題目問全球成人時應抓哪一個？"
+      },
+      "D": {
+        "gap": "誤用開發中國家約十五趴的不活動估計比例。",
+        "followup": "Movement 背景中 15% 對應哪類國家，而非全球成人？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q02",
+    "stem": "An existing four-story building recently underwent a major renovation to convert its layout from 8 separate suites into one large headquarters for a corporate tenant. The new tenant is interested in open staircases to connect all four floors and promote walkability visually. According to Part 3: Promote Visible Stairs of Feature V03: Circulation Network, where should at least one of the staircases be located?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Before the elevator or escalator",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Close to the restrooms",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "In view of the reception area",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Near the parking area",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature V03 Circulation Network - Part 3 Promote Visible Stairs 要求至少一座開放給 regular occupants、服務 project all floors 的 staircase，從 main point of entry 量測時需 physically and/or visibly before elevators/escalators。這是為了讓樓梯在電梯或 escalator 前先被看見或到達。",
+    "diagnosis": {
+      "B": {
+        "gap": "把便利性位置誤認為 V03 visible stairs 核心要求。",
+        "followup": "V03 Part 3 從主入口量測時，樓梯相對電梯應在何處？"
+      },
+      "C": {
+        "gap": "只抓到 reception visibility，忽略電梯前置順序。",
+        "followup": "即使接待區看得到樓梯，V03 Part 3 是否仍要求在電梯前？"
+      },
+      "D": {
+        "gap": "混淆停車動線與主要入口後的樓梯可見性要求。",
+        "followup": "V03 Part 3 的測量起點是停車區，還是建築主入口位置？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q03",
+    "stem": "In a lobby on the way to their offices, what design elements should included in the staircase that is available to regular occupants to meet the requirements of Part 1: Design Aesthetic Staircases of Feature V03: Circulation Network?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Point-of-decision signage directing them to the staircase.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "No-smoking signage.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Natural design elements (ex. indoor plants).",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "A lounge with moveable chairs and tables.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V03 Circulation Network - Part 1 Design Aesthetic Staircases 要求至少一座開放給 regular occupants 且服務 all floors 的 staircase，每層包含至少兩項 aesthetic strategies；清單包含 natural design elements，例如 plants、water features 或 images of nature。Point-of-decision signage 屬於 Part 2，不是 Part 1 的 aesthetic list。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 V03 美學樓梯與決策點 signage 要求。",
+        "followup": "V03 的決策點 signage 屬哪個 Part，是否列入美學清單？"
+      },
+      "B": {
+        "gap": "把一般安全標示誤當成促進 stair use 的美學策略。",
+        "followup": "V03 Part 1 的 aesthetic 清單中，是否包含 no-smoking signage？"
+      },
+      "D": {
+        "gap": "把休憩家具誤認為樓梯間美學強化策略之一。",
+        "followup": "Part 1 要求樓梯每層美學策略時，活動家具是否在清單內？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q04",
+    "stem": "The lobby and central staircase of a building includes several large paintings. What other component of the staircase would qualify this project, according to Part 1: Design Aesthetic Staircases of Feature V03: Circulation Network?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Music.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Signage to encourage stair use.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Staircase with a minimum width of 1.4m [56 inches].",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "A drinking fountain.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature V03 Circulation Network - Part 1 Design Aesthetic Staircases 要求每層至少兩個 independent strategies；artwork 已算一項，music 也是清單中的合格 strategy。Signage 是 Part 2 Integrate Point-of-Decision Signage，不能補足 Part 1 的兩項美學策略。",
+    "diagnosis": {
+      "B": {
+        "gap": "把鼓勵走樓梯 signage 誤放進 Part 1 美學清單。",
+        "followup": "已有 artwork 時，第二項須從美學清單選；signage 屬哪個 Part？"
+      },
+      "C": {
+        "gap": "把樓梯尺寸規格誤認為 WELL aesthetic strategy。",
+        "followup": "V03 Part 1 是要求寬度門檻，還是 music、artwork、lighting 等策略？"
+      },
+      "D": {
+        "gap": "把飲水便利設施誤當成樓梯美學促動策略之一。",
+        "followup": "drinking fountain 能算 V03 Part 1 每層兩項美學策略嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q05",
+    "stem": "Which of the following incentive strategies should an employer implement to help meet the requirements of Part 1: Incentives for Eligible Employees of Feature V09: Physical Activity Promotion?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Award a $50 subsidy per month to occupants who engage in alternative transportation at least 3 days per week.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Offer an extra discount in the cafeteria.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Provide company sponsored safety equipment such as helmets and lights.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Flexible work hours to accommodate physical activity.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V09 Physical Activity Promotion - Part 1 Offer Physical Activity Incentives, Option 1 要求 eligible employees 至少提供兩種 physical activity promotion programs；清單明列 flexible work hours to accommodate physical activity。補助必須是 physical activity costs，例如 membership fees 或 group fitness classes，而非泛稱 alternative transportation。",
+    "diagnosis": {
+      "A": {
+        "gap": "把替代通勤補助誤等同身體活動成本補助項。",
+        "followup": "V09 補助範例是會員費與團課時，通勤補助是否有被明確列出？"
+      },
+      "B": {
+        "gap": "把餐飲折扣誤認為符合標準的身體活動誘因。",
+        "followup": "cafeteria discount 是否連到活動參與、成本或保費減免？"
+      },
+      "C": {
+        "gap": "把安全設備支援誤當成 V09 incentive program。",
+        "followup": "helmets and lights 較像通勤支援；V09 incentive 有哪些類型？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q06",
+    "stem": "A team of 15 employees are training for a city marathon. Each employee has participated in various events throughout the year. Assuming their employer has a policy that meets Part 1: Offer Physical Activity Incentives of Feature V09: Physical Activity Promotion, which of the following is each employee entitled to?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "A subsidy to cover the costs of participation in sports events (races, sports teams, team fitness events).",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "50% reimbursement for software or wearable technology that tracks physical activity and eating habits.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Monthly on-site training programs by certified personal trainers.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Reductions in health care premiums based on physical activity engagement.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V09 Physical Activity Promotion - Part 1 Offer Physical Activity Incentives, Option 1 的合格 programs 包含 reductions in health care premiums based on physical activity engagement，並要求至少提供兩項 incentives。題幹的「entitled to」比標準語氣更強；標準是 project offers programs to eligible employees。",
+    "diagnosis": {
+      "A": {
+        "gap": "把活動賽事費用補助視為標準明列 entitlement。",
+        "followup": "V09 補助範例是會員費或團課，sports event 是否明列？"
+      },
+      "B": {
+        "gap": "混淆 V10 穿戴裝置補助與 V09 活動誘因。",
+        "followup": "50% wearable subsidy 出現在 V10，還是 V09 activity incentives？"
+      },
+      "C": {
+        "gap": "把活動機會課程誤當成 V09 incentive entitlement。",
+        "followup": "monthly trainer programs 較接近 V06；V09 incentive 清單有這項嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Marked option is a listed V09 incentive, but the stem says each employee is entitled to it; V09 only requires offering at least two programs, not that every listed benefit is guaranteed."
+    }
+  },
+  {
+    "id": "M05_Q07",
+    "stem": "A company is ordering new chairs for its 100 office workers. What feature is not required for the chairs to qualify under Part 3: Provide Chair Adjustability of Feature V02: Ergonomic Workstation Design?",
+    "framework": "M05_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adjustable seat height.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Lumbar support.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Adjustable seat depth.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Removable wheels.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V02 Ergonomic Workstation Design - Part 3 Provide Chair Adjustability 要求 all seating at workstations 可調整 seat height、seat depth，並再加一項 backrest/lumbar、backrest angle 或 armrest adjustability。removable wheels 不在要求清單中。",
+    "diagnosis": {
+      "A": {
+        "gap": "漏看座椅高度是所有工作站座椅必要調整項。",
+        "followup": "V02 Part 3 對所有座椅列出的前兩個基本調整項，是 seat height 和哪一項？"
+      },
+      "B": {
+        "gap": "忽略腰部支撐可作為額外座椅調整選項之一。",
+        "followup": "V02 Part 3 的 additional adjustability 是否包含 lumbar support？"
+      },
+      "C": {
+        "gap": "漏看 seat depth 與 seat height 同屬必備調整。",
+        "followup": "Part 3 說 all seating 必須可調哪些基礎項目，seat depth 是否列在其中？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q08",
+    "stem": "What is the minimum Walk Score needed to meet the requirements of Part 1: Select Sites with Pedestrian-friendly Streets of Feature V05: Site Planning and Selection?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "80",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "50",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "70",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "40",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V05 Site Planning and Selection - Part 1 Select Sites with Pedestrian-friendly Streets, Option 1 要求至少一個 functional building entrance 開向 pedestrian network，且 project 所在 zip/postal code 的 Walk Score 最低為 70。此門檻是 pedestrian-friendly streets 的量化路徑之一。",
+    "diagnosis": {
+      "A": {
+        "gap": "把更高 walkability 評級誤當 WELL 最低門檻。",
+        "followup": "V05 Part 1 Option 1 寫的是 minimum Walk Score 多少，而不是理想高分多少？"
+      },
+      "B": {
+        "gap": "混淆 V04 Bike Score 50 與 V05 Walk Score。",
+        "followup": "V04 的 Bike Score 是 50；V05 的 Walk Score 是否相同？"
+      },
+      "D": {
+        "gap": "低估行人友善街道的 Walk Score 最低要求。",
+        "followup": "V05 Part 1 的 zip/postal code 路徑是否允許 Walk Score 40，還是要求更高分數？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q09",
+    "stem": "In order to achieve the WELL Precondition Feature V01: Active Buildings and Communities, the project must earn at least one point from a design-based optimization. Which optimization feature is acceptable to achieve this point?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature V02: Ergonomic Workstation Design.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Feature V08: Physical Activity Spaces & Equipment.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Feature V06: Physical Activity Opportunities.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Feature V10: Self Monitoring.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V01 Active Buildings and Communities - Part 1 Design Active Buildings and Communities 要求 project 至少在 V03 Circulation Network、V04 Facilities for Active Occupants、V05 Site Planning and Selection 或 V08 Physical Activity Spaces and Equipment 中取得一點。V08 是清單中的 design-based optimization。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 V02 人體工學前提誤列為 V01 設計優化。",
+        "followup": "V01 Part 1 明列的是 V03、V04、V05、V08；V02 是否出現在這個清單？"
+      },
+      "C": {
+        "gap": "把活動課程機會誤作 V01 指定的設計優化。",
+        "followup": "V06 提供免費活動課程；V01 的設計優化清單包含 V06 嗎？"
+      },
+      "D": {
+        "gap": "把 self-monitoring wearable 策略誤認為建築設計優化。",
+        "followup": "V10 是穿戴監測；V01 Part 1 的建築與場地清單包含它嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q10",
+    "stem": "A new employee at an office building has opted to ride their bike to work every day to avoid driving. Which of the following is required for Feature V04: Facilities for Active Occupants?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Employees are provided bicycle locks and a yearly reimbursement of $175 for alternative transportation.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Tire pumps and a monthly reimbursement of $15.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Complimentary shaded bicycle racks with private locks for every occupant.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Bicycle maintenance tools (tire pumps, patch kits, and hex keys) are available.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V04 Facilities for Active Occupants - Part 1 Provide Cycling Infrastructure, Option 2 Bike parking 要求提供 basic bike maintenance tools，例如 bike pump and patch kit，並與 long-term bike parking co-located，或提供 quarterly on-site bike maintenance services。補助或每人 private locks 不是此 Part 的必要條件。",
+    "diagnosis": {
+      "A": {
+        "gap": "把通勤報銷與車鎖誤作 V04 bike infrastructure 要求。",
+        "followup": "V04 Part 1 Option 2 要求 bike parking 與工具，有提年度補助嗎？"
+      },
+      "B": {
+        "gap": "抓到 tire pump 但混入不存在的月補助要求。",
+        "followup": "若有 tire pump，V04 還要 patch kit 或維修；月補助有列入嗎？"
+      },
+      "C": {
+        "gap": "誤以為每位 occupant 都需專屬遮蔭車位與鎖。",
+        "followup": "V04 長期 bike parking 是 5% regular occupants，還是每人一個？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q11",
+    "stem": "To achieve Part 2: Provide Outdoor Physical Activity Space of Feature V08: Physical Activity Spaces, which of the following might be available to building occupants at a property that has achieved WELL Certification?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Walking trails with benches, 1.6 km (1.0 mi) from the building.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Outdoor track facility at a local college, accessible by regular shuttle to and from the building.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "A fitness zone with all-weather fitness equipment.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Tennis courts 1 km (0.6 mi) from the building.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V08 Physical Activity Spaces and Equipment - Part 2 Provide Outdoor Physical Activity Space 要求至少一種 outdoor physical activity space 在 project boundary 0.25 mi(400 m) walk distance 內、且 regular occupants 可免費使用；清單包含 fitness zone with all-weather fitness equipment。距離 1 km 或 1.6 km 的設施超出門檻。",
+    "diagnosis": {
+      "A": {
+        "gap": "認得 walking trail 類型，卻忽略 400 m 距離上限。",
+        "followup": "V08 Part 2 允許 trail，但 walk distance 可達 1.6 km 嗎？"
+      },
+      "B": {
+        "gap": "把接駁車可達誤當成 0.25 mi 步行距離。",
+        "followup": "Part 2 要求 0.25 mi 步行距離，regular shuttle 能取代嗎？"
+      },
+      "D": {
+        "gap": "認得 recreational court 類型，卻忽略 400 m 範圍。",
+        "followup": "tennis court 可算球場，但 1 km 是否符合 V08 的 0.25 mi？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q12",
+    "stem": "To encourage alternative transportation and daily fitness, a property manager recently installed showers and changing rooms at an urban property. The new area contains 1 shower and changing room for the first 100 regular building occupants, plus an additional shower for every 150 regular building occupants thereafter. What other additional onsite facility must be present in order to qualify this property for Part 2: Provide Showers, Lockers and Changing Facilities of Feature V04: Facilities for Active Occupants?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Two lockers for every shower.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Five lockers for every shower.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Treadmills for every 10 regular building occupants.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Treadmills for every 5 regular building occupants.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V04 Facilities for Active Occupants - Part 2 Provide Showers, Lockers and Changing Facilities 要求 showers with changing facilities 在 650 ft(200 m) walk distance 內，並且每個 shower 至少提供 five lockers，且 lockers co-located with shower facilities。treadmills 屬於 fitness equipment，不是此 Part 的 locker 要求。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 locker-to-shower ratio 的五比一要求。",
+        "followup": "V04 Part 2 要每個 shower 至少五個 lockers，兩個足夠嗎？"
+      },
+      "C": {
+        "gap": "把 V08 健身器材誤放到 V04 淋浴更衣設施。",
+        "followup": "題目已滿足 shower 數量後，V04 Part 2 還缺 lockers，還是 treadmills？"
+      },
+      "D": {
+        "gap": "混淆 active occupant 支援設施與室內健身器材配置。",
+        "followup": "V04 Part 2 缺的是 locker storage；treadmill ratio 有出現嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q13",
+    "stem": "An employee has access to her building's gym and regularly uses the treadmill. In combination with the treadmill, what additional amenity should she be able to use according to Part 1: Provide Indoor Activity Spaces of Feature V08: Physical Activity Spaces and Equipment?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Elliptical Machine.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Water Refilling Station.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Free Weights.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Rowing machine.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V08 Physical Activity Spaces and Equipment - Part 1 Provide Indoor Activity Spaces, Option 1 要求 dedicated fitness facility 免費提供，且至少包含 two types of exercise equipment；標準範例直接列出 free weights 與 treadmill。treadmill 屬 cardio，free weights 可補足另一種 exercise equipment type。",
+    "diagnosis": {
+      "A": {
+        "gap": "把另一台 cardio equipment 誤當成不同訓練類型。",
+        "followup": "V08 範例用 treadmill 與 free weights，哪個補足另一種器材？"
+      },
+      "B": {
+        "gap": "把補水設施誤認為 exercise equipment type。",
+        "followup": "water station 可支援使用者，但是否算 V08 exercise equipment？"
+      },
+      "D": {
+        "gap": "把相近 cardio 器材誤認為標準範例的第二類型。",
+        "followup": "rower 雖是器材，但搭配 treadmill 時哪個更符合 V08 範例？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q14",
+    "stem": "After finishing a workout at an onsite fitness facility, what would an employee have access to in a building which meets Part 2: Provide Showers, Lockers and Changing Facilities of Feature V04: Facilities for Active Occupants?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Post-workout stretching equipment.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Both a shower and access to a locker.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Refreshment station with fruit and a water re-fill station.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Post-workout stretching equipment and access to a locker.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V04 Facilities for Active Occupants - Part 2 Provide Showers, Lockers and Changing Facilities 要求 showers with changing facilities 於 650 ft(200 m) walk distance 內提供，且每個 shower 至少 five lockers 並 co-located。標準沒有要求 post-workout equipment 或 refreshment station。",
+    "diagnosis": {
+      "A": {
+        "gap": "把健身後伸展器材誤作 V04 shower/locker 設施。",
+        "followup": "V04 Part 2 是淋浴、locker、更衣；包含 stretching equipment 嗎？"
+      },
+      "C": {
+        "gap": "把營養補水 amenities 誤當 active occupant 必要設施。",
+        "followup": "fruit 或 refill station 有助舒適；V04 是否要求 shower 和 locker？"
+      },
+      "D": {
+        "gap": "抓到 locker 但混入未要求的 stretching equipment。",
+        "followup": "若建築已符合 V04 Part 2，員工必須能使用 shower；這個選項是否漏掉 shower？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q15",
+    "stem": "A company with 300 employees offers individual workstations to each employee in its office. Which of the following active furnishings could be offered to earn 1 point for Feature V07: Active Furnishing?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "100 treadmill desks.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "150 adjustable height standing desks and 150 desk-top height adjustment stands.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "150 desk-top height adjustment stands.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "50 treadmill desks.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V07 Active Furnishings - Part 1 Provide Active Workstations 要求 active workstations 至少達 50% of workstations 可得 1 point，且 supplemental desktop solutions 可算合格 active workstation。300 個 workstations 中 150 個正好達到 50%。",
+    "diagnosis": {
+      "A": {
+        "gap": "選了合格類型但數量只達三分之一，不足 50%。",
+        "followup": "300 個工位要達 V07 一點的 50% 門檻，至少需多少 active workstations？"
+      },
+      "B": {
+        "gap": "忽略 100% active workstations 超過一點門檻。",
+        "followup": "若 300 個全是 active workstations，V07 90% 門檻會給幾點？"
+      },
+      "D": {
+        "gap": "同時低估數量門檻，50 個遠低於 50%。",
+        "followup": "treadmill desks 是合格類型，但 50/300 是否能達到 V07 的 at least 50% 要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q16",
+    "stem": "A small office building has 10 employees. Five workspaces each have one standard desk and one side table for storage. To reduce prolonged sitting, what should 3 of the other 5 workstations include according to Part 2: Provide Height-Adjustable Work Surfaces of Feature V02: Ergonomic Design?",
+    "framework": "M05_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "A balance ball chair.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "A treadmill desk.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "An adjustable-height work surface.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "A workstation chair with adjustable height .",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V02 Ergonomic Workstation Design - Part 2 Provide Height-Adjustable Work Surfaces 要求 at least 25% of all workstations 可由 user 調整到 seated and standing work，透過 manual/electric height-adjustable work surfaces 或 supplemental solutions。10 個 workstations 中提供 3 個已超過 25% threshold。",
+    "diagnosis": {
+      "A": {
+        "gap": "把替代坐具誤認為可坐站調整的工作桌面要求。",
+        "followup": "V02 Part 2 調整的是 work surface，balance ball chair 能調桌面高度嗎？"
+      },
+      "B": {
+        "gap": "混淆 V07 主動工位類型與 V02 可調工作面。",
+        "followup": "treadmill desk 可屬 V07；V02 Part 2 要哪種可調工作面？"
+      },
+      "D": {
+        "gap": "把 chair adjustability 誤作高度可調工作面要求。",
+        "followup": "adjustable chair 屬 V02 Part 3；Part 2 重點是椅子還是工作面？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q17",
+    "stem": "A building has recently renovated its gym according to Part 1: Provide Indoor Activity Spaces of Feature V08: Physical Activity Spaces and Equipment. Building occupants may see which of the following resistance training equipment?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stability Ball",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Yoga mats",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Stair Climbers",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Free Weights",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V08 Physical Activity Spaces and Equipment - Part 1 Provide Indoor Activity Spaces 要求 dedicated fitness facility 至少提供 two types of exercise equipment，標準範例包含 free weights 和 treadmill。free weights 是典型 resistance training equipment。",
+    "diagnosis": {
+      "A": {
+        "gap": "把核心穩定輔具誤認為主要 resistance equipment。",
+        "followup": "V08 範例列出哪種 resistance equipment，與 treadmill 搭配？"
+      },
+      "B": {
+        "gap": "把瑜伽墊這類活動輔助用品誤當阻力訓練器材。",
+        "followup": "yoga mats 可支援活動，但是否等同 free weights 這種器材？"
+      },
+      "C": {
+        "gap": "把 stair climber cardio 器材誤認為阻力訓練。",
+        "followup": "題目問阻力訓練器材，stair climber 與 free weights 哪個更符合？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q18",
+    "stem": "A 5-story office building includes stairs located within 7.5 m (25 ft) of the main entrance. Which of the following design features would NOT promote the use of stairs and discourage reliance on elevators?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Light levels of at least 108 lux (10 fc).",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Windows with views to the outdoors.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Plants in decorative urns.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Music",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature V03 Circulation Network - Part 1 Design Aesthetic Staircases 的合格 lighting strategy 要求 light levels of at least 215 lux(20 fc) when in use。108 lux(10 fc) 低於此 threshold，因此不符合該 stair-use promotion strategy。",
+    "diagnosis": {
+      "B": {
+        "gap": "誤判 daylight/views；windows 屬 V03 美學策略。",
+        "followup": "V03 Part 1 清單是否包含 windows 或 skylights 提供 daylight？"
+      },
+      "C": {
+        "gap": "誤判 plants；natural design elements 是合格策略。",
+        "followup": "plants 是否符合 V03 Part 1 的 natural design elements 清單？"
+      },
+      "D": {
+        "gap": "誤判 music；它明列於樓梯美學策略清單。",
+        "followup": "V03 Part 1 第一項美學策略是什麼，music 是否能促進 stair use？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q19",
+    "stem": "The Movement Concept states that if physical inactivity were reduced by 25%, approximately how many deaths could be averted globally?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "750,000.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "500,000.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "1,000,000.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "850,000.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "Movement Concept background 與 Feature V01 Active Buildings and Communities - Part 1 Design Active Buildings and Communities 的 Solutions 說明，如果 physical inactivity reduced by 25%，globally 可避免 over one million deaths。10% reduction 對應的是 more than half a million deaths。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 25% reduction 對全球死亡避免量的描述。",
+        "followup": "Movement 將 25% reduction 連到 over one million，750,000 接近嗎？"
+      },
+      "B": {
+        "gap": "把 10% reduction 的 half million 誤套到 25%。",
+        "followup": "背景中 half million 對應 10% reduction；25% reduction 對應多少？"
+      },
+      "D": {
+        "gap": "選了中間估計，忽略 over one million 的明確敘述。",
+        "followup": "V01 對 25% inactivity reduction 的用詞是 over one million 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q20",
+    "stem": "Which of the following is NOT considered a key deterrent of physical activity?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Time.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Healthcare costs.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Motivation.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Poor weather.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V06 Physical Activity Opportunities - Part 1 Offer Physical Activity Opportunities 的 Issue 列出 key determinants/barriers，包括 time、convenience、motivation、self-efficacy、weather conditions、travel/family obligations、fear of injury、lack of social support 等。healthcare costs 是 inactivity 的經濟影響之一，不是該清單中的 key deterrent。",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略時間明列為身體活動行為的決定因素之一。",
+        "followup": "V06 Issue 的 determinants 是否包含 time，課程如何降低此障礙？"
+      },
+      "C": {
+        "gap": "忽略 motivation 是身體活動參與的核心阻礙。",
+        "followup": "V06 同時列出 motivation 與 self-efficacy，哪個選項才不是阻礙？"
+      },
+      "D": {
+        "gap": "忽略 weather conditions 明列為活動阻礙因素。",
+        "followup": "V06 Issue 是否把 weather conditions 列為活動 determinant？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q21",
+    "stem": "According to WELL v2™, gamification can be used to encourage building occupants to do which of the following?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Get up and take occasional walks.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Be more productive.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Bike to work.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Take the stairs.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V03 Circulation Network - Part 1 Design Aesthetic Staircases 將 gamification 列為 staircase aesthetic strategy；V03 Solutions 也說 game elements 可鼓勵 desired behaviors，例如 stairclimbing。這裡的 gamification 是用於提高 stair use，而不是 productivity。",
+    "diagnosis": {
+      "A": {
+        "gap": "把一般移動提醒誤作 V03 遊戲化樓梯焦點。",
+        "followup": "V03 gamification 位於樓梯 feature，舉例是 walks 還是 stairclimbing？"
+      },
+      "B": {
+        "gap": "把遊戲化誤解成提升工作效率的工具與目標。",
+        "followup": "V03 談 gamification 時，目標是 productivity 還是 stairclimbing？"
+      },
+      "C": {
+        "gap": "混淆 V04 騎行支援與 V03 樓梯遊戲化策略。",
+        "followup": "bike to work 由 V04 支援；gamification 在 V03 哪個樓梯 Part 出現？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q22",
+    "stem": "Which of the following does NOT provide support at standing workstations, according to Part 4: Provide Support at Standing Workstations of Feature V02: Ergonomic Workstation Design?",
+    "framework": "M05_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "A footrest.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Frequent paid breaks.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "A leaning chair.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Antifatigue mat.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V02 Ergonomic Workstation Design - Part 4 Provide Support at Standing Workstations 要求 regularly standing 50% or more working hours 的 workstations 至少納入兩項支持策略，例如 anti-fatigue mats、recessed toe space、footrest/footrail 或 leaning chair。frequent paid breaks 不在此清單中。",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略 footrest/footrail 是 V02 Part 4 合格支持項。",
+        "followup": "V02 Part 4 是否明列 footrest 或 footrail 作為站立工位支持？"
+      },
+      "C": {
+        "gap": "忽略 leaning chair 是站立工位支持策略之一。",
+        "followup": "若員工站立超過 50% working hours，leaning chair 是否可算 Part 4 的兩項支持之一？"
+      },
+      "D": {
+        "gap": "忽略 anti-fatigue mat 是標準明列支持策略。",
+        "followup": "Part 4 第一類是否包含 anti-fatigue mats 或減衝地面？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q23",
+    "stem": "To meet the space and equipment requirements for Part 1: Provide Indoor Activity Spaces for V08: Physical Activity Spaces, what percentage of the building's occupants should be able to use the dedicated fitness facility at any time?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "5%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "3%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "2%",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V08 Physical Activity Spaces and Equipment - Part 1 Provide Indoor Activity Spaces, Option 1 要求 dedicated fitness facility 至少有 two types of exercise equipment，且 equipment quantities allow use by at least 5% of regular occupants at any time。這是以同時可使用比例衡量的 sizing path。",
+    "diagnosis": {
+      "A": {
+        "gap": "把更高同時使用率誤認為 WELL 最低要求。",
+        "followup": "V08 Part 1 Option 1 寫 at least 5% occupants，10% 是門檻嗎？"
+      },
+      "C": {
+        "gap": "低估室內活動空間的器材同時使用容量要求。",
+        "followup": "若 fitness facility 只支援 3% occupants，是否達到 V08 的 5%？"
+      },
+      "D": {
+        "gap": "把極低容量誤當作 V08 允許的最低比例。",
+        "followup": "V08 要求 at any time 可供多少 regular occupants 使用，2% 與標準差距多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q24",
+    "stem": "Proximity, connectivity, density, safety, and aesthetic are core design themes central to?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Walkable communities.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Healthy communities.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Green communities.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Desirable Communities.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature V05 Site Planning and Selection - Part 1 Select Sites with Pedestrian-friendly Streets 的 Solutions 說明，walkable neighborhoods 的設計主題集中在 proximity、connectivity、density、safety and aesthetics。這些主題支撐 pedestrian-friendly streets 與 walkability。",
+    "diagnosis": {
+      "B": {
+        "gap": "把較廣健康成果誤當作步行性專門術語使用。",
+        "followup": "V05 將這些 themes 連到步行街區，是否叫 healthy communities？"
+      },
+      "C": {
+        "gap": "把環境綠化概念誤認為步行社區的設計主題。",
+        "followup": "proximity、connectivity、density 是描述綠社區，還是步行社區？"
+      },
+      "D": {
+        "gap": "選了主觀吸引力詞，未對應 V05 條文用語。",
+        "followup": "V05 Part 1 聚焦 walkability；是否稱為 desirable communities？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q25",
+    "stem": "According to a 2016 study, it is estimated that what percentage of people use a wearable or app to track their health and fitness?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "13%",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "25%",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "33%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "41%",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V10 Self-Monitoring - Part 1 Provide Self-Monitoring Tools 的 Solutions 引用 2016 estimates，指出 16 countries、20,000 individuals 中有 33% used a wearable or app to track physical activity and health parameters。Part 1 進一步要求 devices 至少 50% subsidy 或免費，並可追蹤 activity metrics 與 health behavior。",
+    "diagnosis": {
+      "A": {
+        "gap": "大幅低估 V10 引用的 wearable/app 使用率。",
+        "followup": "V10 的 2016 estimate 是 33%；13% 是否在 wearable 描述中？"
+      },
+      "B": {
+        "gap": "把四分之一概念誤套到 self-monitoring adoption。",
+        "followup": "nearly a quarter 是 inactivity；V10 wearable/app 比例是多少？"
+      },
+      "D": {
+        "gap": "把雇主使用 wearables 規劃比例誤當個人使用率。",
+        "followup": "V10 另提 employers 約 44.5%；題目問 people use wearable/app 是哪個數字？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

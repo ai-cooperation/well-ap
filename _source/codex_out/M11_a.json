@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M11_Q01",
+    "stem": "What is the minimum points per concept that an existing two-story retail building must earn in the Mind Concept to qualify for WELL Platinum certification?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "3",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "4",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "5",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL Platinum 需各 concept 至少 3 分（即 minimum points per concept = 3），這是各等級中對單一 concept 最高的下限要求。",
+    "framework": "M11_F2",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Platinum 的每概念下限記太低",
+        "followup": "Silver 是每概念 1 分，Platinum 對單一 concept 的下限會只到 2 嗎？"
+      },
+      "C": {
+        "gap": "高估每概念下限",
+        "followup": "各等級每概念下限最高就是 3，4 是否超出規則？"
+      },
+      "D": {
+        "gap": "高估每概念下限",
+        "followup": "5 分是否為任何等級的每概念下限？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q02",
+    "stem": "The WELL Building Standard was pioneered by which group?",
+    "options": [
+      {
+        "key": "A",
+        "text": "USGBC",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Cleveland Clinic",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Delos",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "International WELL Building Institute (IWBI)",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL Building Standard 由 Delos 開創，後續由 IWBI 管理、GBCI 認證。",
+    "framework": "M11_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "USGBC 負責 LEED 而非開創 WELL",
+        "followup": "USGBC 主導的是哪個評級系統？WELL 的開創者是誰？"
+      },
+      "B": {
+        "gap": "Cleveland Clinic 是醫學夥伴非開創者",
+        "followup": "Cleveland Clinic 在 WELL 中扮演研究角色，開創 WELL 的公司是哪間？"
+      },
+      "D": {
+        "gap": "IWBI 是管理機構而非最初開創者",
+        "followup": "IWBI 負責管理 WELL，但最早『pioneer』WELL 的是哪間公司？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q03",
+    "stem": "For a new office building project, failure to meet the requirements of which feature would prevent the project from earning WELL certification?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature A07.1 Provide Operable windows",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Feature W02.1 Meet Chemical Thresholds",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Feature T05.2 Implement Radiant Cooling",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Feature C08.1 Offer New Parent Leave’",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "preconditions 是強制門檻；W02.1 Meet Chemical Thresholds 屬 precondition，未達即無法取得認證。",
+    "framework": "M11_F2",
+    "diagnosis": {
+      "A": {
+        "gap": "A07 Operable Windows 屬 optimization 非 precondition",
+        "followup": "operable windows 是加分項還是強制門檻？"
+      },
+      "C": {
+        "gap": "T05 Radiant Cooling 為 optimization",
+        "followup": "radiant cooling 未達會直接擋掉認證嗎？"
+      },
+      "D": {
+        "gap": "C08 New Parent Leave 為 optimization",
+        "followup": "new parent leave 是 precondition 還是 optimization？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q04",
+    "stem": "What percentage of the total building floor must be available for performance testing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.5%",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "5%",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "25%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "50%",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Performance testing 需可涵蓋至少 2.5% 的 total building floor area 供抽測。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "B": {
+        "gap": "把抽測比例記成 5%",
+        "followup": "performance testing 的可測面積下限是 2.5% 還是 5%？"
+      },
+      "C": {
+        "gap": "嚴重高估抽測面積比例",
+        "followup": "25% 是否為 performance test 的面積要求？"
+      },
+      "D": {
+        "gap": "把抽測面積誤當半棟樓",
+        "followup": "50% 顯然超出 performance testing 的面積規定吧？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q05",
+    "stem": "Who is responsible for completing a test after occupancy that confirms the project meets minimum air quality requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "General Contractor",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Commissioning Authority",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "WELL Assessor",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "MEP Engineer",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "occupancy 後由 WELL Assessor（屬 GBCI 的 Performance Testing Agent）執行測試，確認達到最低空氣品質要求。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "General Contractor 不負責認證測試",
+        "followup": "施工總包與認證 performance test 是同一角色嗎？"
+      },
+      "B": {
+        "gap": "Commissioning Authority 負責系統調適非 WELL 測試",
+        "followup": "Cx Authority 做的 commissioning 與 WELL Assessor 的測試有何不同？"
+      },
+      "D": {
+        "gap": "MEP Engineer 設計系統而非執行認證測試",
+        "followup": "MEP 工程師設計系統，但 WELL 認證測試由誰執行？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q06",
+    "stem": "Projects must achieve all preconditions. How many points per concept must a project achieve to reach Silver Certification?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "4",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "8",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "12",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "達 Silver 須通過所有 preconditions，並每個 concept 至少 1 分。",
+    "framework": "M11_F2",
+    "diagnosis": {
+      "B": {
+        "gap": "把每概念下限記太高",
+        "followup": "Silver 的每概念下限是 1 還是 4？"
+      },
+      "C": {
+        "gap": "高估每概念下限",
+        "followup": "8 分是否為 Silver 的每概念要求？"
+      },
+      "D": {
+        "gap": "嚴重高估每概念下限",
+        "followup": "12 是否可能是任何等級的每概念下限？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q07",
+    "stem": "How many preconditions are there that a project must meet?",
+    "options": [
+      {
+        "key": "A",
+        "text": "18",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "24",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "48",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "52",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL v2 共有 24 個 preconditions 必須全數達成。",
+    "framework": "M11_F2",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 precondition 數量",
+        "followup": "preconditions 是 18 還是 24？"
+      },
+      "C": {
+        "gap": "把 precondition 與其他總數混淆",
+        "followup": "48 較接近哪個總數（如 optimizations）而非 preconditions？"
+      },
+      "D": {
+        "gap": "高估 precondition 數量",
+        "followup": "52 是否為 preconditions 的數目？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q08",
+    "stem": "To verify that the building continues to perform in accordance with the WELL Building Standard, New and Existing Building projects must apply for recertification how often?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Every 3 years",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Every 5 years",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Every 4 years",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Re-certification is not applicable",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "New and Existing Building 專案須每 3 年申請 recertification，以確認持續符合標準。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "B": {
+        "gap": "把週期記成 5 年",
+        "followup": "recertification 週期是 3 年還是 5 年？"
+      },
+      "C": {
+        "gap": "把週期記成 4 年",
+        "followup": "標準規定的是 3 年還是 4 年？"
+      },
+      "D": {
+        "gap": "誤以為不需 recertification",
+        "followup": "WELL 是否有持續性的 recertification 要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q09",
+    "stem": "A project team is anticipating that their project will earn a score of 60. What award level does this score correspond to?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Silver",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Platinum",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Gold",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Bronze",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "score 60 對應 WELL Gold（Bronze 40 / Silver 50 / Gold 60 / Platinum 80）。",
+    "framework": "M11_F2",
+    "diagnosis": {
+      "A": {
+        "gap": "把 60 分誤判為 Silver",
+        "followup": "Silver 的門檻是 50，60 分跨過了哪一級？"
+      },
+      "B": {
+        "gap": "把 60 分誤判為 Platinum",
+        "followup": "Platinum 需 80 分，60 分達得到嗎？"
+      },
+      "D": {
+        "gap": "把 60 分誤判為 Bronze",
+        "followup": "Bronze 是 40 分級距，60 分仍停在 Bronze 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q10",
+    "stem": "Tobacco Cessation is a feature in which category?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nourishment",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Air",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Mind",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Community",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "Tobacco Cessation（戒菸支持）屬 Mind concept。",
+    "framework": "M11_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "與 Nourishment 混淆",
+        "followup": "戒菸支持是飲食議題還是心理/行為健康議題？"
+      },
+      "B": {
+        "gap": "與 Air 的 Smoke-Free 混淆",
+        "followup": "Air 的 A02 處理二手菸環境，個人戒菸『行為』支持屬哪個 concept？"
+      },
+      "D": {
+        "gap": "與 Community 混淆",
+        "followup": "tobacco cessation 偏向個人心理行為，較屬 Mind 還是 Community？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q11",
+    "stem": "How many WELL concept advisors participated in creating WELL v2?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50+",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "112+",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "150+",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "275+",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 由 150+ WELL concept advisors 參與制定。",
+    "framework": "M11_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "低估顧問人數",
+        "followup": "參與顧問是 50+ 還是 150+？"
+      },
+      "B": {
+        "gap": "接近但非標準引用數",
+        "followup": "112 較接近 features 數，advisors 是多少？"
+      },
+      "D": {
+        "gap": "高估顧問人數",
+        "followup": "275+ 是否為制定 WELL v2 的 advisor 數？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q12",
+    "stem": "How many possible points may a project pursue in the Innovation Concept?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "5",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "10",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "18",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Innovation concept 最多可爭取 10 分。",
+    "framework": "M11_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "把單一 feature 分數誤當總上限",
+        "followup": "I02 只 1 分，但整個 Innovation concept 上限是多少？"
+      },
+      "B": {
+        "gap": "把 I05 的 5 分誤當總上限",
+        "followup": "I05 green building 最多 5 分，但 Innovation 總上限是多少？"
+      },
+      "D": {
+        "gap": "高估 Innovation 上限",
+        "followup": "18 是否為 Innovation concept 的分數上限？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q13",
+    "stem": "How many concepts are there in WELL v2?",
+    "options": [
+      {
+        "key": "A",
+        "text": "7",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "8",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "10",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "11",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 共有 10 個 concepts（Air…Community 加上 Innovation）。",
+    "framework": "M11_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "把 WELL v1 的 7 concepts 沿用",
+        "followup": "7 是 WELL v1 的數字，v2 擴充到幾個 concept？"
+      },
+      "B": {
+        "gap": "少算一個 concept",
+        "followup": "WELL v2 是 8 個還是 10 個 concept？"
+      },
+      "D": {
+        "gap": "把 11 Knowledge Domains 誤當 concept 數",
+        "followup": "11 是 AP 考試的 Knowledge Domains，WELL v2 的 concept 數是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q14",
+    "stem": "From the date of registration, how long do projects teams utilizing WELL have to complete documentation submission and schedule Performance Verification?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 years from the date of registration",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "3 years from the date of registration",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "2 years from the date of the on-site Performance Verification",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "3 years from the date of the on-site Performance Verification",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "自 registration 起，專案有 5 年完成文件提交並安排 Performance Verification。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "B": {
+        "gap": "把期限記成 3 年",
+        "followup": "完成文件與安排驗證的期限是 3 年還是 5 年？"
+      },
+      "C": {
+        "gap": "把基準點與年限都記錯",
+        "followup": "期限是從 registration 起算，還是從 on-site verification 起算？"
+      },
+      "D": {
+        "gap": "基準點錯誤",
+        "followup": "5 年是從哪個事件起算？是 registration 還是 verification？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q15",
+    "stem": "Which of the following is NOT a type of licensed professional that can sign a Letter of Assurance for a WELL Feature?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Architects",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Contractors",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Property Managers",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Engineers",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "Letter of Assurance 須由具執照的專業（如 architects、engineers、contractors）簽署；Property Managers 非此類 licensed professional。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "Architects 其實可簽 LoA",
+        "followup": "architect 是否屬可簽 LoA 的 licensed professional？"
+      },
+      "B": {
+        "gap": "Contractors 其實可簽 LoA",
+        "followup": "contractor 是否在可簽 LoA 的專業之列？"
+      },
+      "D": {
+        "gap": "Engineers 其實可簽 LoA",
+        "followup": "engineer 是否可簽 Letter of Assurance？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q16",
+    "stem": "Which of the following are types of annotated documents that must be turned in for a WELL certification application?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Floor plans and lighting specifications",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Lighting drawings and floor plans",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Design drawings and operations schedules",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Furniture plans and equipment schedules",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL 申請需提交的 annotated documents 類型包含 design drawings 與 operations schedules。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "只列局部文件類型",
+        "followup": "floor plans/lighting spec 是子集，標準列的文件大類是什麼？"
+      },
+      "B": {
+        "gap": "只列局部文件類型",
+        "followup": "lighting drawings/floor plans 屬細項，annotated documents 的大類為何？"
+      },
+      "D": {
+        "gap": "列出非核心的文件類型",
+        "followup": "furniture/equipment schedule 是否為 WELL 要求的核心 annotated document？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q17",
+    "stem": "An existing building is ready to begin the WELL certification process. They have registered the project and are gathering project documentation. At what point should the project team schedule the Performance Verification?",
+    "options": [
+      {
+        "key": "A",
+        "text": "As soon as possible",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "After the Documentation Review phase is marked approved in WELL Online",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Once the project has 12 months of 100% occupied data",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "As soon as the WELL Assessor has been assigned to the project",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "既有建築應在 Documentation Review 於 WELL Online 標記為 approved 後，才安排 Performance Verification。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "過早安排，未待文件核准",
+        "followup": "在文件審查通過前安排驗證，可能造成什麼問題？"
+      },
+      "C": {
+        "gap": "把占用數據門檻誤當排程條件",
+        "followup": "12 個月 100% 占用數據是哪類專案的條件？此處的前提是什麼？"
+      },
+      "D": {
+        "gap": "把指派 Assessor 誤當排程前提",
+        "followup": "WELL Assessor 被指派，與 documentation 被核准，哪個才是排程驗證的前提？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q18",
+    "stem": "Which of the following conditions must be met for a new building project team to schedule the WELL Performance Verification?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 months since the spaces certificate of occupancy was issued and 50% occupancy achieved.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Commissioning complete and documentation submitted.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Documentation approved, at least one month since certificate of occupancy issued, and 50% occupancy achieved.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "One month since the certificate of occupancy issued and commissioning complete.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "新建專案須在 documentation 核准、取得使用執照滿一個月、且達 50% occupancy 後，方可安排 Performance Verification。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "占用門檻與時限數值錯誤",
+        "followup": "是『4 個月+50%』還是『1 個月+50%+文件核准』？"
+      },
+      "B": {
+        "gap": "條件不完整，缺占用與時限",
+        "followup": "commissioning 完成是否足以排程？還缺哪些 occupancy 條件？"
+      },
+      "D": {
+        "gap": "缺文件核准與占用率",
+        "followup": "1 個月+commissioning 是否涵蓋 documentation approved 與 50% occupancy？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q19",
+    "stem": "If a project is so expansive that a single WELL Assessor cannot complete the Performance Verification in a reasonable amount of time, what alternative path is available to the WELL Assessors?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Add up to 1 additional WELL Assessor",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Request 1 additional WELL Assessor for every 9,300 m2 (100,100 ft2) of project area",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Employ a pre-qualified testing organization that the WELL Assessor oversees",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Extend the time that the assigned WELL Assessor is scheduled to perform the Performance Verification",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "專案過大時，WELL Assessor 可雇用其督導下的 pre-qualified testing organization 協助 Performance Verification。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "增派 Assessor 非標準替代路徑",
+        "followup": "標準允許的是『加派 Assessor』還是『委由受督導的測試機構』？"
+      },
+      "B": {
+        "gap": "把按面積加派 Assessor 當解法",
+        "followup": "按面積加派 Assessor 是否為標準提供的替代路徑？"
+      },
+      "D": {
+        "gap": "延長工期非替代路徑",
+        "followup": "單純延長 Assessor 排程是否解決『單人無法完成』的問題？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q20",
+    "stem": "At which website should a project team register their WELL Building project?",
+    "options": [
+      {
+        "key": "A",
+        "text": "projects.wellcertified.com",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "wellcertified.com",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "wellbuilding.com",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "wellcertified.com/well",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL 專案於 projects.wellcertified.com 進行 registration。",
+    "framework": "M11_F1",
+    "diagnosis": {
+      "B": {
+        "gap": "主站非專案註冊入口",
+        "followup": "wellcertified.com 是資訊主站，專案註冊的子網域是什麼？"
+      },
+      "C": {
+        "gap": "網域名稱錯誤",
+        "followup": "wellbuilding.com 是否為官方註冊網址？"
+      },
+      "D": {
+        "gap": "路徑錯誤",
+        "followup": "註冊是用 projects 子網域，還是 wellcertified.com/well 路徑？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q21",
+    "stem": "What are the WELL certification levels a project can be awarded?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bronze, Silver, or Gold",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Bronze or Silver",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Silver or Gold",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Bronze, Silver, Gold, or Platinum",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL 認證等級為 Bronze、Silver、Gold、Platinum 四級。",
+    "framework": "M11_F2",
+    "diagnosis": {
+      "A": {
+        "gap": "漏列 Platinum",
+        "followup": "WELL 最高等級是 Gold 還是 Platinum？"
+      },
+      "B": {
+        "gap": "只列兩級",
+        "followup": "WELL 是否只有 Bronze/Silver 兩級？"
+      },
+      "C": {
+        "gap": "漏列 Bronze 與 Platinum",
+        "followup": "Silver/Gold 之外，還有哪兩個等級？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q22",
+    "stem": "All preconditions are required to be met for WELL v2. How many features is that?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "18",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "24",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "28",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "所有 preconditions 須達成，對應 24 個 features。",
+    "framework": "M11_F2",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 precondition feature 數",
+        "followup": "preconditions 對應 12 還是 24 個 feature？"
+      },
+      "B": {
+        "gap": "接近但低於正確數",
+        "followup": "18 與 24 哪個是 precondition 數？"
+      },
+      "D": {
+        "gap": "高估 precondition 數",
+        "followup": "28 是否為 precondition 的數目？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q23",
+    "stem": "After the WELL certification award, which of the following would a project team NOT be required to provide reports on to maintain its status as a WELL Certified project?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Results of occupancy surveys.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Proof of maintenance (e.g., logs of cleaning schedules and filter replacement).",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "New tenant move-in drawings.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Ongoing monitoring of environmental parameters (e.g., air and water quality).",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "維持認證需持續回報 occupancy survey、維護紀錄、環境參數監測等；『新租戶 move-in drawings』非維持認證的回報項。",
+    "framework": "M11_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "occupancy survey 其實是維持回報項",
+        "followup": "occupancy survey 結果是否屬維持認證的回報？"
+      },
+      "B": {
+        "gap": "維護紀錄其實是維持回報項",
+        "followup": "cleaning/filter 維護紀錄是否需持續提供？"
+      },
+      "D": {
+        "gap": "環境監測其實是維持回報項",
+        "followup": "air/water 環境參數監測是否屬持續回報？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q24",
+    "stem": "Which WELL concept requires that in addition to proper HVAC system design, mechanically ventilated projects perform regular system maintenance since inadequate maintenance is associated with reduced ventilation performance and a deterioration in indoor air quality and thermal conditions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thermal Comfort",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Air",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Movement",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Sound",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Air concept 強調機械通風專案除良好 HVAC 設計外，還須定期系統維護以維持通風效能與室內空氣品質。",
+    "framework": "M11_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "與 Thermal Comfort 混淆",
+        "followup": "HVAC 維護與通風效能的論述屬 Air 還是 Thermal Comfort？"
+      },
+      "C": {
+        "gap": "與 Movement 無關",
+        "followup": "通風與 IAQ 的維護論述與 Movement concept 有關嗎？"
+      },
+      "D": {
+        "gap": "與 Sound 無關",
+        "followup": "機械通風維護的論述屬 Air 還是 Sound？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M11_Q25",
+    "stem": "How many optimizations are available for a WELL v2 project?",
+    "options": [
+      {
+        "key": "A",
+        "text": "76",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "86",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "98",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "115",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 提供 98 個 optimizations 供專案選擇。",
+    "framework": "M11_F2",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 optimization 數",
+        "followup": "optimizations 是 76 還是 98？"
+      },
+      "B": {
+        "gap": "接近但低於正確數",
+        "followup": "86 與 98 哪個是 optimization 總數？"
+      },
+      "D": {
+        "gap": "高估 optimization 數",
+        "followup": "115 是否為 optimization 的數目？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

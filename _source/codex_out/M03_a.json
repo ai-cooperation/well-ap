@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M03_Q01",
+    "stem": "A café located in an office building has recently altered its menu to incorporate more nutritious food options. The daily menu currently offers: Ham sandwich Grilled cheese sandwich Hamburger Fried fish Spaghetti Chicken and rice Oranges Apple slices Dried cherries What additional food item(s) should this cafeteria sell to meet the requirements of Feature N01: Fruits and Vegetables?",
+    "framework": "M03_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fried green tomatoes.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Nothing, the requirements are already met.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Fruit cups with no added sugar.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Carrot and celery sticks.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N01 Fruits and Vegetables 的 Part 1 Provide Fruits and Vegetables 要求非 commercial dining spaces 至少提供 two varieties of fruits with no added sugar 和 two varieties of non-fried vegetables。題目已有足夠水果，但缺少第二種 non-fried vegetable，因此需要補上非油炸蔬菜選項。",
+    "diagnosis": {
+      "A": {
+        "gap": "把蔬菜種類數量與 non-fried 限制混淆。",
+        "followup": "N01 Part 1 要求的是 non-fried vegetables；fried green tomatoes 在這個門檻下還能算合格蔬菜嗎？"
+      },
+      "B": {
+        "gap": "只計算水果，忽略還需兩種非油炸蔬菜。",
+        "followup": "現有菜單中哪些項目能明確算作 non-fried vegetables？數量是否已達 N01 Part 1 的 two varieties？"
+      },
+      "C": {
+        "gap": "看到 no added sugar 就忽略題目缺的是蔬菜。",
+        "followup": "N01 Part 1 同時要求水果與 non-fried vegetables；若水果已足夠，下一個缺口應補哪一類？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q02",
+    "stem": "A building owner is overhauling a building’s cafeteria menu to meet the requirements of Feature N03: Refined Ingredients. Which of the following is required of the new cafeteria?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Partially-hydrogenated oil may be included in a maximum of 50% of the food options.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "No beverages may contain more than 25g of sugar.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Wheat flour is banned as the primary ingredient in any food option.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "All foods containing common allergens must be served in separate vending machines.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "N03 Refined Ingredients 的 Part 1 Limit Total Sugars 要求所有每日販售或提供的 beverages 不得超過 25 g sugar per container or serving。此 feature 還要求至少 25% beverages 無糖或免費提供 drinking water，並限制非飲料食品糖量。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 artificial ingredient 限制誤放到 N03 糖量規範。",
+        "followup": "Partially hydrogenated oil 出現在 N05 的人工成分表；N03 Part 1 實際限制的是哪個 sugar threshold？"
+      },
+      "C": {
+        "gap": "把 whole grain 推廣誤解成全面禁止 wheat flour。",
+        "followup": "N03 Part 2 要求 50% grain-based foods 以 whole grain 為第一成分，這等同禁止 wheat flour 嗎？"
+      },
+      "D": {
+        "gap": "把 allergen 管理誤認為 refined ingredients 要求。",
+        "followup": "若題目問 common allergens，應回到 N02 或 N09；N03 Part 1 的核心門檻是什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q03",
+    "stem": "A project owner has decided to limit the amount of all highly processed beverages, snacks, and meals. Which of the following ingredient restrictions must be true of all foods, beverages, snacks, and meals sold or distributed for N05: Artificial Ingredients?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "No individually sold, single-serving, non-beverage food items containing more than 40 g of sugar.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "50% of foods must contain no High Fructose Corn syrup and/or another artificial sweetener.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Specific colorings (Blue 1, Blue 2, Green 3, Orange B, Citrus Red 2, Red 3, Red 40, Yellow 5, Yellow 6, carmine, cochineal, caramel coloring) are phased out over a maximum of three years.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Contains no artificial dyes, or flavorings",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "N05 Artificial Ingredients 的 Part 1 Limit Artificial Ingredients 允許 Option 1 Artificial ingredient phase out，要求最多三年內 phase out 表列人工成分，其中 colorings 包含 Blue 1、Red 40、Yellow 5、carmine、caramel coloring 等。標準還涵蓋 sweeteners、preservatives 及 fats and oils，並要求標示是否含有表列成分。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 N03 的 sugar 限制誤套到 N05 人工成分。",
+        "followup": "N05 Part 1 的表格列的是 colorings、sweeteners、preservatives 與 fats and oils，是否有 40 g sugar 門檻？"
+      },
+      "B": {
+        "gap": "誤以為 N05 只要求一半食品避開甜味劑。",
+        "followup": "N05 Part 1 是 phase out 或 restriction；它對表列 artificial sweeteners 的比例要求是 50% 還是全產品線？"
+      },
+      "D": {
+        "gap": "只抓到 dyes，漏看 preservatives、sweeteners 與 oils。",
+        "followup": "若只禁止 artificial dyes 或 flavorings，是否覆蓋 N05 Part 1 表格中的 sodium nitrite、BHA、BVO 等項目？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q04",
+    "stem": "Insufficient fruit and vegetable intake is attributed to ___________ deaths worldwide in 2013, according to Feature N01: Fruits and Vegetables.",
+    "framework": "M03_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.2 million deaths",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "52 million deaths",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "502 million deaths",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "52 thousand deaths",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "N01 Fruits and Vegetables 的 Issue 段落指出，insufficient fruit and vegetable intake 在 2013 年歸因於 5.2 million deaths worldwide。Part 1 Provide Fruits and Vegetables 因此設定每日供餐情境下的水果與非油炸蔬菜供應門檻。",
+    "diagnosis": {
+      "B": {
+        "gap": "將 5.2 million 誤放大十倍成 52 million。",
+        "followup": "N01 Issue 的死亡數字是用小數點表示；你如何區分 5.2 million 與 52 million 的量級？"
+      },
+      "C": {
+        "gap": "把全球死亡歸因數量級嚴重誇大。",
+        "followup": "N01 的數字用來說明飲食風險，但是否可能達到數億 deaths worldwide 的規模？"
+      },
+      "D": {
+        "gap": "將 million 誤讀為 thousand，低估健康影響。",
+        "followup": "N01 Issue 同時列出 gastrointestinal cancer、heart disease、stroke 歸因比例；這種背景下應是 thousand 還是 million？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q05",
+    "stem": "Where should the property manager ensure food allergens are clearly labeled for all foods sold/distributed at a WELL Certified property?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "At point-of-decision on packaging, menus, or signage",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Only on food packaging.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "On takeout menus.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "On employee information cards.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "N09 Special Diets 的 Part 2 Label Food Allergens 要求 foods and beverages 在 point-of-decision 透過 packaging、menus 或 signage 清楚標示是否含有 common food allergens。這比只放在包裝或內部卡片更廣，並直接對應使用者做選擇的時點。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 point-of-decision 誤縮小成只有包裝。",
+        "followup": "N09 Part 2 同時列出 packaging、menus 與 signage；若餐點沒有包裝，還能怎麼標示 allergens？"
+      },
+      "C": {
+        "gap": "只想到菜單形式，忽略現場決策點標示。",
+        "followup": "N09 Part 2 要求在 point-of-decision；takeout menus 是否足以覆蓋現場購買與取餐情境？"
+      },
+      "D": {
+        "gap": "把對顧客可見的 allergen label 誤作內部文件。",
+        "followup": "allergen labeling 的目的在於協助購買者避開風險；employee information cards 是否在決策點可見？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q06",
+    "stem": "What is required for Part 1: Provide Meal Support of N10: Food Preparation for Commercial Kitchen Spaces in primary and secondary schools?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pots, pans, knives and cutting boards.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Equipment to serve pre-prepared meals.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Equipment to reheat food.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "The space contains the proper kitchen equipment and infrastructure to prepare and serve meals on-site and on school days, at least one meal is prepared and served on-site",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N10 Food Preparation 的 Part 1 Provide Meal Support 對 Commercial Kitchen Spaces in primary and secondary schools 要求具備 proper kitchen equipment and infrastructure to prepare and serve meals on-site。標準同時要求在 school days 至少一餐 prepared and served on-site。",
+    "diagnosis": {
+      "A": {
+        "gap": "只列工具，未涵蓋完整 kitchen infrastructure 與供餐。",
+        "followup": "N10 Part 1 對學校 commercial kitchen 不只要器具；還要求哪個 on-site meal service 行為？"
+      },
+      "B": {
+        "gap": "誤以為服務預製餐即可，忽略現場製備。",
+        "followup": "若只是 serve pre-prepared meals，是否符合 N10 Part 1 的 prepare and serve meals on-site？"
+      },
+      "C": {
+        "gap": "把一般員工餐食支援誤套到學校商用廚房。",
+        "followup": "N10 Part 1 對一般空間有 reheating device，但 primary and secondary schools 的 Commercial Kitchen Spaces 要求有何不同？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q07",
+    "stem": "For commercial dining spaces selling or providing food on a daily basis, in order to fulfill the requirement for Feature N01: Fruits and Vegetables, what fruit and vegetable promotion strategies are employed?",
+    "framework": "M03_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Digitally highlighted using avatars and comic stars.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Listed on a board at the cash register.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Visually highlighted through icons, different colors and bolding.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Printed on posters and posted around the space.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "N01 Fruits and Vegetables 的 Part 2 Promote Fruit and Vegetable Visibility 在 Commercial Dining Spaces 要求 menus and menu boards 至少採用三種 healthy menu design 策略。可用策略包含以 icons、different colors 或 bolding 視覺凸顯水果與蔬菜。",
+    "diagnosis": {
+      "A": {
+        "gap": "把數位呈現誤認為標準列明的 menu design 策略。",
+        "followup": "N01 Part 2 有提到 digital menus，但列出的視覺凸顯方式是 avatars 還是 icons、colors、bolding？"
+      },
+      "B": {
+        "gap": "只抓到接近購買點，未符合菜單設計策略。",
+        "followup": "Commercial Dining Spaces 的 N01 Part 2 是要求 menus and menu boards 上的哪些 promotion strategies？"
+      },
+      "D": {
+        "gap": "把一般海報宣傳誤當成菜單與 menu board 要求。",
+        "followup": "若只把 poster 貼在空間中，是否等同於 N01 Part 2 對 menus and menu boards 的呈現要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q08",
+    "stem": "What is the intent of Feature N05: Artificial Ingredients?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "To help building occupants avoid colors, flavors, sweeteners and preservatives in food and beverages.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "To eliminate artificial ingredients from all foods and beverages sold or distributed on property.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "To help building occupants avoid refined gluten and chemically rendered oils in food and beverages.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "To help building occupants follow a paleo diet plan.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "N05 Artificial Ingredients 的 Intent 是協助 occupants avoid artificial colors, flavors, sweeteners and preservatives in foods and beverages。Part 1 Limit Artificial Ingredients 透過最多三年的 phase out 或每日供應食品飲料不得含表列 artificial ingredients 來落實。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 intent 誇大成所有場域立即全面消除。",
+        "followup": "N05 Part 1 提供 phase out 與 restriction 兩條路徑；intent 是否等同所有物業立即 eliminate？"
+      },
+      "C": {
+        "gap": "混淆 refined ingredients 與 artificial ingredients 的範圍。",
+        "followup": "refined grains 與 sugar 屬於 N03；N05 Part 1 表列的 artificial ingredients 有哪些類別？"
+      },
+      "D": {
+        "gap": "把 WELL feature intent 誤解成特定流行飲食法。",
+        "followup": "N05 的目標是控制表列人工添加物，標準有要求 occupants follow paleo diet plan 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q09",
+    "stem": "Which of the following body systems contain the largest reservoir of bacteria, which can play a role in immune health?",
+    "framework": "M03_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Circulatory system",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Integumentary system",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Digestive system",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Cardiovascular system",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 Nutrition 條文未把 largest reservoir of bacteria 作為可得分門檻；較接近 N07 Nutrition Education 的 Part 1 Provide Nutrition Education，要求至少 quarterly 免費提供 nutrition/dietary education 來提升 food literacy。從健康知識上，此概念通常連到 gut 與 digestive health，但題目本身不是標準中的明確 threshold。",
+    "diagnosis": {
+      "A": {
+        "gap": "把血液循環與免疫關聯誤當成菌群主要棲地。",
+        "followup": "若回到 food literacy，營養與 microbiome 常連到消化吸收；circulatory system 是否是 bacteria reservoir 的核心？"
+      },
+      "B": {
+        "gap": "把皮膚表面菌群誤認為最大菌群儲庫。",
+        "followup": "integumentary system 確有皮膚 microbiota，但題目說 largest reservoir；與 digestive tract 相比如何判斷？"
+      },
+      "D": {
+        "gap": "混淆 cardiovascular 與 digestive health 的概念。",
+        "followup": "Nourishment 背景提到 diet-related health；若題目關注 bacteria reservoir，應優先思考哪個消化相關系統？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "WELL v2 standard text searched here does not state this body-system bacteria fact as a feature requirement."
+    }
+  },
+  {
+    "id": "M03_Q10",
+    "stem": "A building manager is hosting a lunch for the occupants, and has asked the cafeteria to prepare meals with signage clearly declaring the presence of common allergens. Which of the following does NOT need to be declared in Feature N09: Special Diets?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fish",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Caffeine",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Soy",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Egg",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "N09 Special Diets 的 Part 2 Label Food Allergens 要求標示 peanut、fish、shellfish、soy、milk、egg、wheat、tree nuts 和 gluten。caffeine 不在 common food allergens 清單內，因此不是此 Part 的必標項目。",
+    "diagnosis": {
+      "A": {
+        "gap": "漏記 fish 是 N09 common food allergens 之一。",
+        "followup": "N09 Part 2 的 allergen 清單是否明列 fish 與 shellfish？這兩者和 caffeine 有何不同？"
+      },
+      "C": {
+        "gap": "忽略 soy 在標準 allergen label 清單中。",
+        "followup": "若 signage 要符合 N09 Part 2，soy 是否需要在 point-of-decision 被標示？"
+      },
+      "D": {
+        "gap": "未辨識 egg 是需揭露的 common allergen。",
+        "followup": "N09 Part 2 同時列 egg、milk、wheat 等 allergens；哪個選項不屬於這份清單？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q11",
+    "stem": "A building occupant purchases a prepared lunch and pre-packed snack from the cafeteria. According to Feature N02: Nutritional Transparency, which of the following is NOT a required label for these foods?",
+    "framework": "M03_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Total Calories",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Macronutrient and micronutrient content",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Sugar content",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "If the item contains GMOs (genetically modified organisms)",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N02 Nutritional Transparency 的 Part 1 Provide Nutritional Information 要求 point-of-decision 顯示 calories、macronutrient content 與 total sugar content；Commercial Dining Spaces 也要求 standard menu items 顯示 calories，其他營養資訊可 upon request。GMO status 不是此 Part 的 required label。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤把核心 calorie labeling 當成非必填資訊。",
+        "followup": "N02 Part 1 對 packaged foods 和 standard menu items 都如何處理 calories？它是 optional 還是 required？"
+      },
+      "B": {
+        "gap": "抓到 micronutrients 不必標，但忽略 macronutrients 必須揭露。",
+        "followup": "N02 Part 1 明列 total protein、fat、carbohydrate；若選項同時寫 macro 與 micro，哪一部分才是標準要求？"
+      },
+      "C": {
+        "gap": "未辨識 total sugar content 是必需透明資訊。",
+        "followup": "N02 Part 1 和 Part 3 都涉及 sugar；標準是否要求揭露 total sugar content？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Option B also includes micronutrient content, which is not required by N02 Part 1, making the single-answer wording ambiguous."
+    }
+  },
+  {
+    "id": "M03_Q12",
+    "stem": "A building’s cafeteria recently renovated its signage according to Feature N04: Food Advertising. What foods and beverages are not to be advertised or promoted?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deep-fried food options.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Unsweetened beverages with a high sugar content (e.g. apple juice).",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Foods with common allergens.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Non-locally sourced foods.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "N04 Food Advertising 的 Part 1 Optimize Food Advertising 要求 sugar-sweetened beverages 不得被 advertised or promoted，並且 deep-fried food options 不得被 advertised or promoted，也不得 displayed under heat lamps。題目問 foods，對應的是 deep-fried food options。",
+    "diagnosis": {
+      "B": {
+        "gap": "混淆 high sugar 與 sugar-sweetened beverages 的定義。",
+        "followup": "N04 Part 1 禁止 promotion 的飲料類別是 sugar-sweetened；unsweetened apple juice 是否屬於同一類？"
+      },
+      "C": {
+        "gap": "把 allergen labeling 要求誤認為 advertising 禁令。",
+        "followup": "common allergens 在 N09 Part 2 要標示；N04 Part 1 的 advertising 禁止項目有哪些？"
+      },
+      "D": {
+        "gap": "把 local sourcing 透明度誤當成食物廣告限制。",
+        "followup": "N11 會處理 local farms 或 certified products labeling；N04 是否禁止 non-locally sourced foods 宣傳？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q13",
+    "stem": "Which of the following is a goal of Feature N02: Food Advertising?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fully implement only natural, whole food advertising.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Discourage purchases of sugary and caffeine-laden drinks.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Discourage building occupants from any foods with added sugars.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Encourage occupants to select and consume healthier food choices.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL v2 中 Food Advertising 是 N04，而 N04 Food Advertising 的 Intent 是透過 advertising and messaging 鼓勵 selection and consumption of healthier food choices。Part 1 Optimize Food Advertising 具體要求不促銷 sugar-sweetened beverages 與 deep-fried food options，並在 eating areas 或 points of sale 放置至少兩則水果蔬菜或飲水 messaging。",
+    "diagnosis": {
+      "A": {
+        "gap": "把健康廣告目標過度收窄成只允許天然全食物。",
+        "followup": "N04 的 intent 是鼓勵 healthier food choices；Part 1 是否要求所有 advertising 只能是 natural whole foods？"
+      },
+      "B": {
+        "gap": "抓到 sugary drinks 但加入 caffeine 這個非標準限制。",
+        "followup": "N04 Part 1 明列 sugar-sweetened beverages；標準是否也提到 caffeine-laden drinks？"
+      },
+      "C": {
+        "gap": "把不促銷特定項目誤解為禁止所有 added sugars。",
+        "followup": "N04 的 advertising 限制與 N03 sugar threshold 不同；它是否要求 occupants 避開所有 added sugars？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Stem says N02, but WELL v2 Food Advertising is N04. The marked answer matches N04 intent."
+    }
+  },
+  {
+    "id": "M03_Q14",
+    "stem": "In order to meet the requirements in Part 1: Promote Healthy Portions of Feature N06: Portion Sizes, non-circular plates cannot exceed the following size in a Secondary School setting?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "The total surface area of the plate must not exceed 69 in^2 (445 cm^2).",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "The total surface area of the plate must not exceed 70 in^2 (450 cm^2).",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "The total surface area of the plate must not exceed 79 in^2 (507 cm^2).",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "The total surface area of the plate must not exceed 80 in^2 (516 cm^2).",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "N06 Portion Sizes 的 Part 1 Promote Healthy Portions 在 self-serve food 情境限制 dishware sizes。表格中 Secondary School Students 的 non-circular plates surface area 上限是 79 in2 (507 cm2)。",
+    "diagnosis": {
+      "A": {
+        "gap": "選到接近但非 secondary school 的盤面尺寸。",
+        "followup": "N06 Part 1 表格分 Primary School、Secondary School、Adults；49、79 in2 分別對應哪個族群？"
+      },
+      "B": {
+        "gap": "以近似數值取代標準表格的精確門檻。",
+        "followup": "N06 的 dishware table 給的是精確 surface area；Secondary School 的 non-circular plate 是 70 還是 79 in2？"
+      },
+      "D": {
+        "gap": "把 79 in2 四捨五入成不符合標準的 80 in2。",
+        "followup": "WELL threshold 是上限值；若標準寫 79 in2，使用 80 in2 是否仍能說 cannot exceed？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q15",
+    "stem": "In order to meet the requirements of Feature N06: Portion Sizes, what must be true of all bowls served to customers?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bowls, for adults, must be no larger than 16 oz (473 mL).",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Customers have the option of a 8 oz (237 mL) or 16 oz (473 mL) (costs vary).",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Bowls must be no larger than 8 oz (237 mL).",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Customers have the option of a 16 oz (473 mL) or 20 oz (591 mL) (costs vary).",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "N06 Portion Sizes 的 Part 1 Promote Healthy Portions 要求 self-serve dishware 不超過各 occupant type 的表格上限。Adults 的 bowls volume 上限是 16 fl oz (473 mL)，而 primary school 與 secondary school 分別是 8 fl oz 與 12 fl oz。",
+    "diagnosis": {
+      "B": {
+        "gap": "把選擇性杯碗尺寸誤作所有 bowls 的上限規範。",
+        "followup": "N06 Part 1 是要求 dishware does not exceed 表格尺寸，還是只需提供兩種 bowl options？"
+      },
+      "C": {
+        "gap": "把 primary school bowl 尺寸誤套到成人顧客。",
+        "followup": "N06 dishware table 中，8 fl oz 是哪個 occupant type 的 bowl 上限？成人上限是多少？"
+      },
+      "D": {
+        "gap": "允許超過 adult bowl 上限，且誤以選項取代限制。",
+        "followup": "若提供 20 oz bowl，是否已超過 N06 Part 1 對 adults 的 16 fl oz maximum？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q16",
+    "stem": "In order to meet the requirements of Feature N06: Serving Sizes, what must be true of all non-circular plates served to students in Secondary School?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "The total surface area of the plate must not exceed 69 in2 (445 cm2).",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "The total surface area of the plate must not exceed 70 in2 (450 cm2).",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "The total surface area of the plate must not exceed 79 in2 (507 cm2).",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "The total surface area of the plate must not exceed 80 in2 (516 cm2).",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "N06 Portion Sizes 的 Part 1 Promote Healthy Portions 在 self-serve 情境對 dishware 設定尺寸表。Secondary School Students 的 non-circular plates 上限為 79 in2 (507 cm2)，不得以近似值替代。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤選非 secondary school 的過小 plate threshold。",
+        "followup": "N06 表格中 primary school 與 secondary school 的 non-circular plates 面積是否相同？"
+      },
+      "B": {
+        "gap": "用接近數字取代 WELL 表格明列值。",
+        "followup": "Secondary School Students 的 row 對 non-circular plates 寫的是 70 in2 還是 79 in2？"
+      },
+      "D": {
+        "gap": "將 79 in2 上限誤放寬為 80 in2。",
+        "followup": "N06 的語句是 does not exceed；若 plate 是 80 in2，是否超出 79 in2 上限？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q17",
+    "stem": "The owner of a building has asked the cafeteria to focus on healthy options for the building occupants. In order to reduce the likelihood of unintended overeating and to encourage healthier eating habits, what should the maximum cup size be for beverages served on a daily basis?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "296 mL (10 oz)",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "240 mL (8 oz)",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "480 mL (16 oz)",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "355 mL (12 oz)",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "N06 Portion Sizes 的 Part 1 Promote Healthy Portions 要求 self-serve dishware 不超過表格尺寸；Adults 的 cups volume 上限是 16 fl oz (473 mL)。題目選項以 480 mL 表示 16 oz，對應 adult cup maximum 的近似換算。",
+    "diagnosis": {
+      "A": {
+        "gap": "選到非標準表格中的中間容量數字。",
+        "followup": "N06 dishware table 對 adult cups 是否列出 10 oz，或是列出 16 fl oz (473 mL)？"
+      },
+      "B": {
+        "gap": "把 primary school cup 上限誤套到成人餐廳。",
+        "followup": "8 fl oz 是 N06 表格中哪一類 occupant 的 cup limit？題目是否指 building occupants adults？"
+      },
+      "D": {
+        "gap": "把 secondary school cup 上限誤用於成人顧客。",
+        "followup": "12 fl oz 在 N06 表格對應 Secondary School Students；adult cups 的上限是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q18",
+    "stem": "In order to meet the requirements of Feature N09: Special Diets, what must be true of a catered event?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prior to the catering event, employees and clients must submit all dietary preferences.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Main dish options must be available that do not contain the common food allergies.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "All religious dietary restrictions must be adhered to.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "All food must be labeled for the most common food allergies.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "N09 Special Diets 的 Part 1 Accommodate Special Diets 要求 meals sold or provided 包含 main dish options，且分別能避開 peanut、gluten、dairy、egg、animal/seafood/dairy products，以及 animal or seafood products except eggs and dairy。這是 meal alternatives 的供應要求，與 Part 2 的 allergen labeling 不同。",
+    "diagnosis": {
+      "A": {
+        "gap": "把使用者事前申報誤認為標準要求。",
+        "followup": "N09 Part 1 是要求 occupants 先提交偏好，還是要求 meals 本身提供哪些 alternative main dish options？"
+      },
+      "C": {
+        "gap": "把廣泛宗教飲食限制誤作 WELL 明列清單。",
+        "followup": "N09 Part 1 明列的是 peanut、gluten、dairy、egg 與 vegan/vegetarian 類條件；是否列出所有 religious diets？"
+      },
+      "D": {
+        "gap": "混淆 special diet alternatives 與 allergen labeling。",
+        "followup": "N09 有 Part 1 meal alternatives 與 Part 2 labeling；題目問 catered event 必須有哪類 main dish options？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q19",
+    "stem": "An employee with a food allergy or dietary restriction in a WELL Certified building can request to have any of the following food options according to Feature N09: Special Diets except:",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gluten-free option",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Sugar-free option",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Vegan option",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Egg-free option",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "N09 Special Diets 的 Part 1 Accommodate Special Diets 要求 main dish options 不含 peanut、gluten、dairy、egg，並提供不含 animal、seafood 或 dairy products 的選項，以及 vegetarian 類選項。sugar-free option 不在這個 special diets 清單中；糖量限制屬於 N03 或 N02 的範圍。",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略 gluten-free 是 N09 明列 special diet option。",
+        "followup": "N09 Part 1 是否要求 main dish options do not contain gluten？這與 sugar-free 有何不同？"
+      },
+      "C": {
+        "gap": "未辨識 vegan 類選項屬於 animal product 排除要求。",
+        "followup": "N09 Part 1 的 animal, seafood or dairy products 排除條件，是否可對應 vegan option？"
+      },
+      "D": {
+        "gap": "漏看 egg-free 是 N09 Part 1 明列要求。",
+        "followup": "N09 Part 1 明列 do not contain egg；因此 egg-free 與 sugar-free 哪個才不是該 Part 要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q20",
+    "stem": "In order to meet the requirements of Feature N11: Responsible Food Production, which of the following must be true about produce sold or distributed on-site on a daily basis?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Must have 50% of total produce and 25% of total meat certified organic.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Must be color coded per food labeling laws.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Must be labeled with the USDA organic label (country-equivalent) and Free-trade label (country-equivalent).",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Must be labeled to indicate the presence of GMOs (genetically modified organisms).",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 的 feature name 是 N11 Responsible Food Sourcing。其 Part 1 Implement Responsible Sourcing 的 Option 1 Sustainable sourcing 要求至少 50% total produce line certified organic，且至少 25% total animal product line certified organic、Certified Humane 或 GSSI-recognized Seafood Certification Scheme。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 responsible sourcing 誤解成一般食品標籤顏色規範。",
+        "followup": "N11 Part 1 的 Sustainable sourcing 是看 certified organic/humane 比例，是否提到 color coding laws？"
+      },
+      "C": {
+        "gap": "混淆 organic 與 fair trade label，且忽略比例門檻。",
+        "followup": "N11 Option 1 要求 produce 與 animal product line 的比例；Option 2 才談 point-of-decision labeling，兩者差在哪？"
+      },
+      "D": {
+        "gap": "把 GMO 揭露誤認為 WELL responsible sourcing 要求。",
+        "followup": "N11 Part 1 明列 certified organic、Certified Humane 與 seafood scheme；是否要求 GMO presence label？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Stem uses Responsible Food Production, but WELL v2 N11 is Responsible Food Sourcing. The marked answer captures the 50% produce threshold, though the animal-product wording is narrower than the standard."
+    }
+  },
+  {
+    "id": "M03_Q21",
+    "stem": "Which of the following labels for all meat, egg, and dairy products sold or distributed on-site are required by Feature N11: Responsible Food Production?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Federally Certified Organic and Fair Trade certified",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Fair Trade Certified only",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Federally Certified Organic and Humane Certified",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Humane Certified only",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 的 N11 Responsible Food Sourcing 在 Part 1 Implement Responsible Sourcing 要求至少 25% total animal product line，包括 meat、seafood、egg and dairy products，為 certified organic、Certified Humane 或 GSSI-recognized Seafood Certification Scheme。對 meat、egg and dairy 的核心是 organic 或 humane certification，而非 Fair Trade。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Fair Trade 誤加入 animal product certification 要求。",
+        "followup": "N11 Part 1 對 meat、egg、dairy 明列 Certified Humane；Fair Trade 是否出現在 animal product line 條件？"
+      },
+      "B": {
+        "gap": "只選 Fair Trade，完全偏離 N11 動物產品標準。",
+        "followup": "若只用 Fair Trade Certified，是否能證明 animal welfare 或 organic status 符合 N11 Part 1？"
+      },
+      "D": {
+        "gap": "只抓到 humane certification，漏看 organic 也可適用。",
+        "followup": "N11 Part 1 對 animal products 使用 certified organic、Certified Humane 或 seafood scheme；為何只寫 Humane 不完整？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Stem uses Responsible Food Production, but WELL v2 N11 is Responsible Food Sourcing. The question overstates 'all' and 'and'; the standard uses at least 25% animal product line and organic/Humane/seafood certification pathways."
+    }
+  },
+  {
+    "id": "M03_Q22",
+    "stem": "For a project to comply with Feature N12: Food Production, garden space or greenhouse of what size and location must be provided for all building occupants?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 ft2 (0.1 m2) per occupant within 0.25 mi (0.4 km) of the project boundary",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "3 ft2 (0.3 m2) per occupant within 0.25 mi (0.4 km) of the project boundary",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "5 ft2 (0.5 m2) per occupant within 1 mi (1.6 km) of the project boundary",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "2 ft2 (0.2 m2) per occupant within 1.5 mi (2.4 km) of the project boundary",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "N12 Food Production 的 Part 1 Provide Gardening Space 要求 food production space 位於 project boundary 的 0.25 mi (400 m) walk distance 內。For All Spaces except Dwelling Units，growing area 至少 1 ft2 (0.09 m2) per regular occupant 或 0.5 ft2 per student，且有最大與最小面積限制。",
+    "diagnosis": {
+      "B": {
+        "gap": "距離正確但把每人面積門檻誤放大三倍。",
+        "followup": "N12 Part 1 的 growing area 是 1 ft2 per regular occupant，還是 3 ft2？標準如何處理 student？"
+      },
+      "C": {
+        "gap": "同時誤用過大面積與較遠距離。",
+        "followup": "N12 Part 1 對 location 寫的是 0.25 mi walk distance；1 mi 是否仍符合 project boundary 要求？"
+      },
+      "D": {
+        "gap": "把 food production space 的距離與面積都記錯。",
+        "followup": "如果 garden 位於 1.5 mi 外，是否仍在 N12 Part 1 要求的 0.25 mi walk distance 內？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q23",
+    "stem": "According to Feature N12: Food Production, which of the following is NOT provided to grow and maintain a garden space?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Planting medium",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Gardening tools",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Exterior lighting",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Irrigation",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "N12 Food Production 的 Part 1 Provide Gardening Space 要求 planting supplies，包括 planting medium、watering system、lighting for interior spaces only、plants and gardening tools。標準限定 lighting 只適用於 interior spaces，未要求 exterior lighting。",
+    "diagnosis": {
+      "A": {
+        "gap": "把明列 planting supplies 誤當成非必要項目。",
+        "followup": "N12 Part 1 的 planting supplies 清單是否明列 planting medium？它和 exterior lighting 的地位相同嗎？"
+      },
+      "B": {
+        "gap": "漏看 gardening tools 是維護種植空間的必需供應。",
+        "followup": "N12 Part 1 要求提供哪些 tools 或 supplies 來維持 food-bearing plants？"
+      },
+      "D": {
+        "gap": "用 irrigation 近義詞誤判 watering system 需求。",
+        "followup": "N12 Part 1 寫的是 watering system；irrigation 是否可被理解為同一類供水設備？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q24",
+    "stem": "Which of the following WELL Concepts intends to enable people to make more informed choices?",
+    "framework": "M03_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Movement",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Nourishment",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Nourishment & Light",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Light",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL Nourishment concept 明確要求 fruits and vegetables availability 與 nutritional transparency，並透過 N02 Nutritional Transparency 的 Part 1 Provide Nutritional Information 在 point-of-decision 提供 calories、macronutrients 與 total sugar content。這些要求直接支援 occupants make informed food choices。",
+    "diagnosis": {
+      "A": {
+        "gap": "把身體活動概念誤當成食物資訊透明目標。",
+        "followup": "若題目提到 informed food choices，應回到哪個 concept 及 N02 Part 1 的營養資訊要求？"
+      },
+      "C": {
+        "gap": "加入 Light 概念，混淆飲食選擇與照明環境。",
+        "followup": "N02 Nutritional Transparency 屬於 Nourishment；Light concept 是否處理 food labeling 或 sugar content？"
+      },
+      "D": {
+        "gap": "誤將照明健康目標連到營養決策資訊。",
+        "followup": "Light concept 關注 visual/circadian lighting；哪個 concept 才要求 fruits、vegetables 與 nutritional transparency？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q25",
+    "stem": "What must be true for at least half of the entrée items in a building cafeteria’s menu to meet the requirements of Feature N06: Portion Sizes?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "A version of an entrée that is 650 calories or less with a lower cost than the larger, regular version.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "A version of an entrée that is 550 calories or less with a lower cost than the larger, regular version.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "A version of an entrée that is 575 calories or less and vegetarian.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "A version of an entrée that is 425 calories or less and vegetarian.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "N06 Portion Sizes 的 Part 1 Promote Healthy Portions 要求所有 standard menu items 不超過 650 Cal，或對至少 50% 超過 650 Cal 的 standard menu items 提供 smaller size and lower cost 的版本。此要求針對 portion size 與 cost，不要求 vegetarian。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 650 Cal 門檻誤降為 550 Cal。",
+        "followup": "N06 Part 1 對 standard menu items 的 calorie threshold 是 650 Cal 還是 550 Cal？"
+      },
+      "C": {
+        "gap": "加入 vegetarian 條件並錯記 calorie threshold。",
+        "followup": "vegetarian options 屬於 N09 special diets；N06 Part 1 是否要求 smaller entrée version 必須 vegetarian？"
+      },
+      "D": {
+        "gap": "同時誤用過低 calorie 門檻與特殊飲食條件。",
+        "followup": "N06 的目的在 healthy portions；它要求 425 Cal vegetarian，還是 650 Cal 以下或 smaller lower-cost version？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

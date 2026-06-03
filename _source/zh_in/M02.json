@@ -1,0 +1,151 @@
+{
+  "module": "M02",
+  "name": "水 Water",
+  "features": [
+    {
+      "code": "W01",
+      "name": "Water Quality Indicators",
+      "type": "precondition",
+      "intent": "Verify the quality of water for human contact through easy-to-test parameters.",
+      "summary": "This WELL feature requires the provision of water that meets thresholds for turbidity and coliforms for all water likely to come in contact with building occupants and verifies performance using on-site tests.",
+      "parts": [
+        {
+          "title": "Part 1 Verify Water Quality Indicators",
+          "body": "For All Spaces: Water delivered to the project and intended for human contact (e.g., drinking, cooking and dishwashing, handwashing, showering or bathing) meets the following thresholds:    a. Turbidity is less than or equal to 1.0 NTU, FTU or FNU (nephelometric turbidity, formazin turbidity or formazin       nephelometric units, respectively).    b. Coliforms are not detected in any 100 ml sample.   Note: Multifamily residential projects may achieve WELL Certification at the Bronze or Silver level without testing in   dwelling units, but cannot achieve Gold or Platinum without testing in dwelling units. See Sampling Rates for Multifamily   Residential in the WELL Performance Verification Gu"
+        }
+      ]
+    },
+    {
+      "code": "W02",
+      "name": "Drinking Water Quality",
+      "type": "precondition",
+      "intent": "Provide access to drinking water that complies with health-based limits on chemical composition.",
+      "summary": "This WELL feature requires projects to provide drinking water that meets thresholds on chemicals as published by research and regulatory organizations.",
+      "parts": [
+        {
+          "title": "Part 1 Meet Chemical Thresholds",
+          "body": "For All Spaces: The following requirements are met:    a. The project provides at least one drinking water dispenser, plus one drinking water dispenser per dwelling unit.    b. All drinking water dispensers provide water that meets the following parameters:1           1. Arsenic ≤ 0.01 mg/L.           2. Cadmium ≤ 0.003 mg/L.           3. Chromium (total) ≤ 0.05 mg/L.           4. Copper ≤ 2 mg/L.           5. Fluoride ≤ 1.5 mg/L.           6. Lead ≤ 0.01 mg/L.           7. Mercury (total) ≤ 0.006 mg/L.           8. Nickel ≤ 0.07 mg/L.           9. Nitrate ≤ 50 mg/L as Nitrate (11 mg/L as Nitrogen).         10. Nitrite ≤ 3 mg/L as Nitrite (0.9 mg/L as Nitrogen).          11. Total chlorine ≤"
+        },
+        {
+          "title": "Part 2 Meet Thresholds for Organics and Pesticides",
+          "body": "For All Spaces: Option 1: Drinking water quality report The following requirements are met:    a. A municipal water quality report issued not more than one year before project registration covers at least two of       the pesticides below. All reported pesticides comply with the following thresholds:1           1. Aldrin and Dieldrin (combined): 0.00003 mg/L or less.           2. Atrazine: 0.1 mg/L or less.           3. Carbofuran: 0.007 mg/L or less.           4. Chlordane: 0.0002 mg/L or less.           5. 2,4-Dichlorophenoxyacetic acid (2,4-D): 0.03 mg/L or less.           6. Dichlorodiphenyltrichloroethane (DDT) and metabolites: 0.001 mg/L or less.           7. Lindane: 0.002 mg/L or les"
+        }
+      ]
+    },
+    {
+      "code": "W03",
+      "name": "Basic Water Management",
+      "type": "precondition",
+      "intent": "Implement protocols to reduce risk of water quality loss and Legionella colonization",
+      "summary": "This WELL feature requires projects to proactively test drinking water and to manage recirculating hot water systems against Legionella colonization.",
+      "parts": [
+        {
+          "title": "Part 1 Monitor Chemical and Biological Water Quality",
+          "body": "For All Spaces: Option 1: Drinking water quality report The following requirements are met:    a. The following water parameters are sampled at intervals of no less than once per year:           1. Turbidity.           2. pH.           3. Residual (free) chlorine.           4. Total coliforms, only if residual chlorine is below detection limits.           5. Any other water parameter found at 80% or above its threshold listed in W02 Part 1, as stated in the Final              WELL Report or in subsequent annual sampling. Testing occurs only at the locations where parameters              were found to be at 80% or above its threshold and testing takes place at least annually until the sample "
+        },
+        {
+          "title": "Part 2 Implement Legionella Management Plan",
+          "body": "For All Spaces: Option 1: Legionella plan development The project provides a Legionella management plan that meets the following requirements:    a. Addresses hot water systems, cooling towers, decorative fountains and any other devices or spaces under       control of the project where water is recirculated and aerosolized.    b. Includes the items listed below:3           1. Determination of roles for Legionella management in the building, distinguishing those under project              control from those that may be the responsibility of building management or other parties.           2. Water system inventory and process flow diagrams of systems within the project boundary.           3. "
+        }
+      ]
+    },
+    {
+      "code": "W04",
+      "name": "Enhanced Water Quality",
+      "type": "optimization",
+      "intent": "Provide access to drinking water without unpleasant taste, odor and appearance.",
+      "summary": "This WELL feature requires projects to provide drinking water that meets thresholds on chemicals that affect aesthetics and taste concerns.",
+      "parts": [
+        {
+          "title": "Part 1 Meet Thresholds for Drinking Water Taste",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Water delivered to the project for human consumption meets the following thresholds:    a. Aluminum ≤ 0.2 mg/L.2    b. Chloride ≤ 250 mg/L.2    c. Copper ≤ 1 mg/L.2    d. Manganese ≤ 0.05 mg/L.    e. Iron ≤ 0.3 mg/L.2     f. Silver≤ 0.1 mg/L.2    g. Sodium ≤ 270 mg/L.3    h. Sulfate ≤ 250 mg/L.2     i. Sulfide ≤ 0.05 mg/L.3     j. Zinc ≤5 mg/L.2    k. Total Dissolved Solids (TDS) ≤ 500 mg/L.2     l. Free Chlorine ≤ 1.25 mg/L.4   WELL Core Guidance: Meet these requirements in the whole building. Water will be sampled from non-leased spaces and   the project must either:      1. Confirm that the same water treatment system (if applicab"
+        }
+      ]
+    },
+    {
+      "code": "W05",
+      "name": "Drinking Water Quality Management",
+      "type": "optimization",
+      "intent": "Maintain and display consistent high quality of drinking water.",
+      "summary": "This WELL feature requires pre-testing of water quality parameters to determine treatment needs, monitoring at a more frequent interval and disclosure of water results.",
+      "parts": [
+        {
+          "title": "Part 1 Assess and Maintain Drinking Water Quality",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Water quality pre-test For first-time registered projects, the following requirements are met:    a. The project pre-tests water at least one month before Performance Verification for the parameters below:           1. Turbidity.           2. Coliforms.           3. pH.           4. Total Dissolved Solids (TDS).           5. Total Chlorine.           6. Residual (free) chlorine.           7. Arsenic.           8. Lead.           9. Copper.         10. Nitrate          11. Benzene.    b. Sampling occurs at the following locations (with filters or other water treatment devices removed, if present):           1. The water disp"
+        },
+        {
+          "title": "Part 2 Promote Drinking Water Transparency",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: The following information is prominently displayed near sources of drinking water (or on a website available to occupants):    a. Water quality results from the most recent sampling, including date of testing and compliance with WELL       thresholds.    b. If filters or other treatment units are in use, information about the treatment technologies and most recent date       of device maintenance and/or filter cartridge replacement.   WELL Core Guidance:   Meet these requirements in non-leased spaces. Data displays must be placed in tenant-accessible areas or otherwise be   made available to tenants.Meet these requirements in non-lea"
+        }
+      ]
+    },
+    {
+      "code": "W06",
+      "name": "Drinking Water Promotion",
+      "type": "optimization",
+      "intent": "Promote proper hydration through the consumption of drinking water over less healthy alternatives by promoting access to drinking water of verified quality.",
+      "summary": "This WELL feature requires readily available and maintained dispensers for drinking water.",
+      "parts": [
+        {
+          "title": "Part 1 Ensure Drinking Water Access",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces except Dwelling Units: Option 1: Dispenser availability The following requirements are met:    a. At least one drinking water dispenser (minimum one per floor) is located within a 100 ft(30 m) walk distance of       all regularly occupied floor area and in all dining areas.    b. Water delivered by the dispensers is directly piped through the building’s water supply or is stored in containers       designed for refilling.    c. All newly installed drinking water fountains are designed for water bottle-refilling. Option 2: Dispenser maintenance All drinking water dispensers meet the following requirement:    a. The mouthpieces/outlets,"
+        }
+      ]
+    },
+    {
+      "code": "W07",
+      "name": "Moisture Management",
+      "type": "optimization",
+      "intent": "Limit the potential for bacteria and mold growth within buildings from water infiltration, condensation and internal leaks.",
+      "summary": "This WELL feature requires projects to develop strategies to minimize the presence of unintentional water and, when unavoidable, to manage it through material selection and inspections.",
+      "parts": [
+        {
+          "title": "Part 1 Design Envelope for Moisture Protection",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: The building envelope aims to minimize moisture intrusion and accumulation through the following:3    a. For a project where construction occurs after registration, verification of site drainage and storm water       management during building construction phase.    b. Air tightness testing to assess water vapor transfer.    c. Adverse vapor pressure differentials that may cause condensation on interstitially hidden materials.    d. Entryway design that considers at least three strategies to minimize the ingress or permeation of water into the       building.    e. Installation of a continuous drainage plane (e.g., a weather-resistan"
+        },
+        {
+          "title": "Part 2 Design Interiors for Moisture Management",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Condensation and liquid water management The project implements measures to manage moisture in interior spaces that address, at a minimum, the following:3    a. Protection of moisture-sensitive building materials and selection of moisture-resistant materials or finishes in       surfaces likely to be exposed to liquid water (e.g., finished floors) or that may absorb moisture such as interior       sheathing in basements, areas at or below grade, bathrooms, janitorial rooms or kitchens.    b. Condensation on cold surfaces such as basements, slab-on-grade floors, the inside of exterior walls and glazing. Option 2: Water leak "
+        },
+        {
+          "title": "Part 3 Implement Mold and Moisture Management Plan",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Operational moisture management The project implements a moisture management plan for building operations that contains the following:    a. A schedule of periodic inspections for signs and potential sources of water damage or pooling, discoloration and       mold on ceilings, walls, floors and HVAC equipment.3    b. A system or inspection protocol to periodically assess water pipe leaks.    c. A system for occupants and tenants to notify building management about mold or water damage. Option 2: Leaks and mold inspections The following requirement is met:    a. Results of inspections for mold and leaks (including any mold t"
+        }
+      ]
+    },
+    {
+      "code": "W08",
+      "name": "Hygiene Support",
+      "type": "optimization",
+      "intent": "Ensure availability of bathrooms and support hygienic hand washing and toilet use practices for all individuals.",
+      "summary": "This WELL feature requires projects to provide bathrooms that accommodate users with diverse needs and to improve hygiene by offering large sinks, soap containers, hand drying support and reduced touch points.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Bathroom and Handwashing Accommodations",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt For All Spaces except Dwelling Units: Option 1: Bathroom Accommodations The following requirements are met:      a. All bathrooms meet the following requirements:           1. Provide trash receptacles in stalls (in women’s and single-user bathrooms). If toilet paper cannot be flushed              down toilets, trash receptacles must be placed in all bathroom stalls.           2. Provide sanitary pads, tampons and/or other menstrual products at no cost or subsidized by at least 50% (in              women’s and single-user bathrooms).           3. Provide a hook, shelf or equivalent storage support in each toilet stall.      b. All occupants have acc"
+        },
+        {
+          "title": "Part 2 Enhance Bathroom Accommodations",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces except Dwelling Units: All bathrooms meet the following:    a. Toilets are equipped with hands-free flushing.    b. Contactless soap dispensers and hand drying.    c. Users can exit the bathroom hands-free.    d. Faucets meet the following:           1. Sensor-activated.           2. Equipped with a programmable line-purge system.           3. If mixing is used, hot- and cold-water lines are mixed at the point of use.   WELL Core Guidance: Meet these requirements for the extent of developer buildout."
+        },
+        {
+          "title": "Part 3 Support Effective Handwashing",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: All sinks where handwashing is expected (e.g., kitchens, bathrooms, break rooms and wellness rooms), meet the following requirements:    a. The faucet design prevents the water column from flowing directly into the drain or a sink drain stopper is       installed.6,19    b. Water does not splash outside the sink when the faucet is fully open.    c. Newly installed sinks meet the following design parameters:           1. The sink basin is at least 9 inches(23 cm) in width and length.           2. The water column from the sink to the basin is at least 6 inches(15 cm) in length (measured along flow of              water, even if at an "
+        }
+      ]
+    },
+    {
+      "code": "W09",
+      "name": "Onsite Non-Potable Water Reuse",
+      "type": "optimization",
+      "intent": "Conserve water through non-potable water systems without compromising the health of the building occupants.",
+      "summary": "Efficient water management is an ever-growing need for supporting and sustaining human existence. The rise of extreme droughts and subsequent long-term water scarcity are requiring changes in how humans think about and use water. Conversely, severe rain events can overload wastewater treatment plants with storm- and rainwater, potentially resulting in combined sewer overflows (CSOs), in which untreated water is released to natural bodies of water and beaches downstream. Buildings can reduce the pressure on city-wide water infrastructure by supporting efficient allocation of resources, such as minimizing the use of municipally sourced water for applications that do not require potability (e.g., irrigation, flushing toilets). However, without proper design and operations management, there is a risk of contamination of potable water lines or oral or respiratory exposure to non-potable water.",
+      "parts": [
+        {
+          "title": "Part 1 Implement Safety Plan for Non-Potable Water Capture and Reuse",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt For All Spaces: The following requirements are met:    a. The project implements a safety plan that contains the following:           1. A list of key team roles for design, operations, maintenance and third-party inspection of the non-potable              water system capture, treatment and use.           2. A list of all applicable codes and regulations in the jurisdiction where the non-potable water reuse system is              being installed and that govern the design, commissioning, and approval of operation of the system.           3. A process flow diagram that displays the non-potable water sources, conveyances, storage units, treatment    "
+        }
+      ]
+    }
+  ]
+}

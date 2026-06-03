@@ -1,0 +1,35 @@
+You are enriching WELL AP v2 practice questions into a learning-engine content pack.
+
+INPUT FILE: _source/codex_in/{TAG}.json
+  - module: the module id (e.g. M01)
+  - frameworks: this module's frameworks (id, name, desc, covers) — you MUST pick framework ids only from this list
+  - questions: array of {id, stem, options[{key,text}], correct, source_explanation, framework_hint}
+
+GROUNDING (read as needed, do NOT trust memory):
+  - _source/wellv2-standard.txt  = full WELL v2 standard (feature codes Axx/Wxx/.../Ixx, Parts, thresholds). Grep it to verify facts.
+
+TASK: For EACH question, output an enriched object. Keep `id`, `stem`, each option's `text`, and `correct` VERBATIM — do not reword them.
+
+Add/produce these fields per question:
+1. "framework": single best-fit framework id from this module's frameworks list (use framework_hint if it fits; otherwise choose the most relevant).
+2. "options": same 4 options, but add integer "depth" (1-4) to each:
+   - the correct option = depth 4
+   - a strong/near-miss distractor = depth 3
+   - a plausible distractor = depth 2
+   - an obviously wrong distractor = depth 1
+   Exactly one option (the correct one) has depth 4. Vary 1-3 across the three distractors; do not give all distractors the same depth.
+3. "explanation": 1-3 sentences, 繁體中文 with English technical terms kept in English. Ground it in the WELL v2 standard: cite the feature code + Part name + the specific threshold/requirement that makes the correct answer right. If source_explanation is present and accurate, refine it; otherwise write fresh. Do NOT reveal the letter of the answer inside the explanation (no "答案是 C").
+4. "diagnosis": object whose keys are EXACTLY the 3 non-correct option keys (omit the correct key). Each value = {"gap": "...", "followup": "..."}:
+   - gap: 繁體中文, 20-40 字, name the specific misconception that picking this option reflects.
+   - followup: 繁體中文, 30-60 字, a Socratic follow-up question that references the question's concrete concept (feature/threshold/Part) to guide the learner.
+5. "verify": {"verdict": "ok" | "suspect", "note": "...", "corrected_correct": "A-D (only if verdict=suspect and you believe the source answer is wrong)"}.
+   - Cross-check the marked `correct` against the WELL v2 standard. If it matches, verdict="ok", note="".
+   - If the source question/options look internally inconsistent or the marked answer contradicts the standard, verdict="suspect" with a short note. NEVER silently change `correct`; flag it instead.
+
+OUTPUT: Write ONLY a JSON array (start with [) of the enriched question objects to _source/codex_out/{TAG}.json. No prose, no markdown fences. Every input question must appear exactly once. Ensure the file is valid JSON.
+
+QUALITY BARS (a downstream validator will reject violations):
+- diagnosis has exactly 3 keys = the non-correct option keys.
+- every option has a depth in 1..4; the correct option's depth is 4.
+- explanation is non-empty and does not contain the answer letter.
+- output is parseable JSON with the same number of objects as the input.

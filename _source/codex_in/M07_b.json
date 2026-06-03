@@ -1,0 +1,680 @@
+{
+  "module": "M07",
+  "frameworks": [
+    {
+      "id": "M07_F1",
+      "name": "聲學分區與聲音地圖",
+      "desc": "S01 Sound Mapping 要識別 noise sources、quiet zones、mixed zones 與 acoustic zone labels，作為後續隔音、吸音與背景聲策略的基礎。",
+      "covers": [
+        "S01 Sound Mapping",
+        "acoustical plan",
+        "acoustic zone labels",
+        "quiet zones",
+        "mixed zones"
+      ]
+    },
+    {
+      "id": "M07_F2",
+      "name": "背景噪音與聲音干擾",
+      "desc": "S02 Maximum Noise Levels 與 S06 Minimum Background Sound 分別處理 ambient background noise 的上限與 speech privacy 所需的 dedicated artificial sound。",
+      "covers": [
+        "S02 Maximum Noise Levels",
+        "S06 Minimum Background Sound",
+        "ambient background noise",
+        "speech privacy",
+        "background sound"
+      ]
+    },
+    {
+      "id": "M07_F3",
+      "name": "隔音與語音私密",
+      "desc": "S03 Sound Barriers 關注 enclosed spaces 之間的 sound isolation 與 speech privacy，牆與門需達到最低 acoustic separation。",
+      "covers": [
+        "S03 Sound Barriers",
+        "sound isolation",
+        "speech privacy",
+        "Sound Transmission Class",
+        "STC"
+      ]
+    },
+    {
+      "id": "M07_F4",
+      "name": "混響與吸音材料",
+      "desc": "S04 Reverberation Time 與 S05 Sound Reducing Surfaces 要用 reverberation time thresholds、sound reducing surfaces 與 acoustic materials 支援 speech intelligibility。",
+      "covers": [
+        "S04 Reverberation Time",
+        "S05 Sound Reducing Surfaces",
+        "reverberation time thresholds",
+        "speech intelligibility",
+        "acoustic materials"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M07_Q26",
+      "stem": "A new learning center is looking for a way to improve the reverberation time within their classrooms. Which of the following options will assist in achieving this goal?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reduce reflected sound energy, increased reflective surfaces and add absorptive surfaces."
+        },
+        {
+          "key": "B",
+          "text": "Add absorptive surfaces, alter room geometry and increase reflective surfaces."
+        },
+        {
+          "key": "C",
+          "text": "Reduce reflected sound energy, alter room geometry and add absorptive surfaces."
+        },
+        {
+          "key": "D",
+          "text": "Reduce reflective surfaces, alter room geometry and add absorptive surfaces."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature S04: Reverberation Time states that Reverberation time can be controlled by \nadding absorptive surface finishes at ceilings, walls and furniture. Projects that can \nalter room geometry can change layouts and room dimensions to support optimal \nreverberation times, as needed. Reducing reflective surfaces, such as glass, drywall, \nstone or similar, will also reduce reflected sound energy, which increases \nreverberation time. Reducing reverberation time also allows audio equipment for \ntelecommunication/AV, speech reinforcement or public address to operate with \nhigher speech intelligibility performance.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q27",
+      "stem": "A solution in Feature S02: Sound Reducing Surfaces that minimizes reverberation, significantly reduces sound across human speech frequencies and can greatly reduce unwanted buildup of reflected sound is called?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acoustical comfort"
+        },
+        {
+          "key": "B",
+          "text": "Acoustical treatment"
+        },
+        {
+          "key": "C",
+          "text": "Speech intelligibility"
+        },
+        {
+          "key": "D",
+          "text": "Reverberation time"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Providing acoustical treatment that significantly reduces sound across human speech \nfrequencies can greatly reduce unwanted buildup of reflected sound. Ceilings \ntypically provide the greatest area of coverage where highly absorptive materials can \noffer the best performance in reducing reverberation and controlling speech \nintelligibility and occupied noise levels.",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q28",
+      "stem": "What area of a room typically provides the greatest area of coverage where extremely absorptive materials can offer the best outcome to reducing reverberation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Floor"
+        },
+        {
+          "key": "B",
+          "text": "Ceilings"
+        },
+        {
+          "key": "C",
+          "text": "Walls"
+        },
+        {
+          "key": "D",
+          "text": "Furniture"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature S05: Sound Reducing Surfaces states that ceilings typically provide the \ngreatest area of coverage where highly absorptive materials can offer the best \nperformance in reducing reverberation and controlling speech intelligibility and \noccupied noise levels.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q29",
+      "stem": "A new project that includes a designated dining hall is looking to reduce sound by adding absorptive surfaces. If they are looking to earn 2 points, what is the minimum NRC/aw for ceilings?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.80 on at least 75% of available ceiling area"
+        },
+        {
+          "key": "B",
+          "text": "0.70 for all available ceiling area"
+        },
+        {
+          "key": "C",
+          "text": "0.90 for all available ceiling area"
+        },
+        {
+          "key": "D",
+          "text": "0.60 on at least 50% of available ceiling area"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Part 1: Implement Sound Reducing Surfaces of Feature S05: Sound Reducing Surfaces \nrequires areas for dining be a minimum NRC/aw at ceilings of 0.90 for all available \nceiling area.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q30",
+      "stem": "What is the intent of Feature S03: Sound Barriers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase the level of speech privacy between horizontally adjacent enclosures and highlight design constraints that may hinder acoustical comfort."
+        },
+        {
+          "key": "B",
+          "text": "To decrease the level of speech privacy between horizontally adjacent enclosures and highlight design constraints that may hinder acoustical comfort."
+        },
+        {
+          "key": "C",
+          "text": "To increase the level of speech privacy between vertically adjacent enclosures and highlight design constraints that may hinder acoustical comfort."
+        },
+        {
+          "key": "D",
+          "text": "To increase the level of speech privacy between horizontally adjacent enclosures and highlight design constraints that may hinder thermal comfort."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M07_F3"
+    },
+    {
+      "id": "M07_Q31",
+      "stem": "A WELL project is working on obtaining 1 point for Part 1: Enhanced Speed Reduction Feature S06: Minimum Background Sound. Which features must the project meet in order to earn this point?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Part 1: Achieve Reverberation Time Thresholds of Feature S04: Reverberation Time"
+        },
+        {
+          "key": "B",
+          "text": "Part 1: Provide Minimum Background of Feature S06: Minimum Background Sound"
+        },
+        {
+          "key": "C",
+          "text": "Part 1: Label Acoustic Zones of Feature S01: Sound Mapping"
+        },
+        {
+          "key": "D",
+          "text": "Part 1: Design for Sound Isolation at Walls and Doors of Feature S03: Sound Barriers"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "The project achieves the following features and parts: \na. Achieve two points in either Feature S03 Part 2 - Achieve Sound Isolation at Walls \nor Feature S05 Part 1 – Implement Sound Reducing Surfaces. \nb. Feature S06 Part 1 – Provide Minimum Background Sound.",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q32",
+      "stem": "According to the Feature S07: Impact Noise Management, impact noise travels through what structures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Floors, columns, ceilings, doors"
+        },
+        {
+          "key": "B",
+          "text": "Doors, walls, floors, rafters"
+        },
+        {
+          "key": "C",
+          "text": "Rafters, ceilings, piping, walls"
+        },
+        {
+          "key": "D",
+          "text": "Walls, floors, columns, piping"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Impact noise travels through structures (e.g., walls, floors, columns, piping) as \nvibrations that are then radiated as airborne noise to a listener",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q33",
+      "stem": "According to Feature S05: Sound Reducing Surfaces of the WELL Building Standard™ (WELL™), ceilings provide the ________ area of coverage where highly absorptive materials can offer the best performance in reducing reverberation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Least"
+        },
+        {
+          "key": "B",
+          "text": "Best"
+        },
+        {
+          "key": "C",
+          "text": "Greatest"
+        },
+        {
+          "key": "D",
+          "text": "Worst"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Read the overview of Feature S05: Sound Reducing Surfaces.",
+      "framework_hint": "M07_F4"
+    },
+    {
+      "id": "M07_Q34",
+      "stem": "To meet the thresholds for Part 2: Meet Thresholds for Impact Noise Rating of Feature S07: Impact Noise Management, which ASTM and ISO standards (or equivalent) must be followed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ASTM E1007-19, ISO 16283"
+        },
+        {
+          "key": "B",
+          "text": "ASTM E492-09, ISO 717.2"
+        },
+        {
+          "key": "C",
+          "text": "ASTM 1573-18, ISO 717.2"
+        },
+        {
+          "key": "D",
+          "text": "ASTM 1573-18, ISO 16283"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "For the following space types, the floor-ceiling construction achieves the following \nNormalized Impact Sound Ratings (NISR), as measured on-site, in accordance with \nASTM E1007-19, ISO 16283 or equivalent, by a professional in acoustics",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q35",
+      "stem": "A new WELL Certified building that is offering a dining hall for its employees wants to earn the max points for Feature S07: Impact Noise Management for impact noise rating. In order to achieve this, what is the minimum Normalized Impact Sound Ratings (NISR) level needed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "42"
+        },
+        {
+          "key": "B",
+          "text": "47"
+        },
+        {
+          "key": "C",
+          "text": "52"
+        },
+        {
+          "key": "D",
+          "text": "50"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Areas for Retail and Dining (If space is within the project boundary) must have a \nminimum NISR of 47 to achieve 2 points.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q36",
+      "stem": "Depending on the type of surface materials, reverberation time and reflected sound energy has the potential of creating uncomfortable environments. In schools, where spaces need to be conducive to learning, what must the reverberation time support?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Surface finishes"
+        },
+        {
+          "key": "B",
+          "text": "Reflected sound"
+        },
+        {
+          "key": "C",
+          "text": "Privacy"
+        },
+        {
+          "key": "D",
+          "text": "Speech intelligibility"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Read overview of Feature S04: Sound Absorption.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q37",
+      "stem": "According to Part 2: Prioritize Audio Devices and Policies of Feature S07: Enhanced Audio Designs, which of the following does NOT aid in the support of individual acoustical needs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Employees must purchase any specialized accessories they will need to utilize sound enhancement technology."
+        },
+        {
+          "key": "B",
+          "text": "A minimum of one daily quiet hour is scheduled and signage is used to indicate both the location and intended activities of Quiet and Mixed Zones."
+        },
+        {
+          "key": "C",
+          "text": "All audio devices are managed internally by a qualified professional."
+        },
+        {
+          "key": "D",
+          "text": "Eligible employees can request alternative workplace arrangements to meet their individual acoustic comfort needs."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "ALL eligible employees and distance learners are provided telecommunication \naccessories upon request.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q38",
+      "stem": "The effects of exterior noise from transportation have been shown to impact health and well-being in different ways. What health concern do both men and women share from spending time in spaces that are close to busy highways or airports?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stress levels"
+        },
+        {
+          "key": "B",
+          "text": "Myocardial infarction"
+        },
+        {
+          "key": "C",
+          "text": "Hypertension"
+        },
+        {
+          "key": "D",
+          "text": "Sleep deprivation"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Read overview of Sound Concept.  \"In one study taken from a sample size of 4,115 \nparticipants, it was found that the risk for myocardial infarction was elevated in men \nfrom road traffic noise at night and in women by air traffic noise at night.\"",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q39",
+      "stem": "Improving speech intelligibility in classrooms by implementing audio systems can help support participation for deaf and hard-of-hearing students, which is linked to what areas of improvement, according to WELL Feature S08: Enhanced Audio Devices?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mental health"
+        },
+        {
+          "key": "B",
+          "text": "Social contact with peers"
+        },
+        {
+          "key": "C",
+          "text": "Quality of life"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Read the overview for Feature S08: Enhanced Audio Devices.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q40",
+      "stem": "What does NISR stand for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "National Institute for Sound Ratings"
+        },
+        {
+          "key": "B",
+          "text": "Normalized Impact Sound Ratings"
+        },
+        {
+          "key": "C",
+          "text": "Normalized Industrial Sound Ratings"
+        },
+        {
+          "key": "D",
+          "text": "Normalized Impact Sound Reverberation"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature S07: Impact Noise Management.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q41",
+      "stem": "For all spaces except dwelling units, commercial kitchen spaces, and industrial buildings; category 2 represents what type of area?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Large conference rooms"
+        },
+        {
+          "key": "B",
+          "text": "Dining areas"
+        },
+        {
+          "key": "C",
+          "text": "Small meeting rooms"
+        },
+        {
+          "key": "D",
+          "text": "Personal offices"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Part 1: Limit Background Noise Levels of Feature S02: Maximum Noise Levels.  Note: \nCategory 1 - Areas for conferencing, learning or speaking.  Category 2 - Enclosed \nareas for concentration,  Category 3 - Open areas for concentration, spaces with PA \nsystems, and areas for dining",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q42",
+      "stem": "For dwelling units, what is the maximum average background noise level allowed over a 12-hour period?",
+      "options": [
+        {
+          "key": "A",
+          "text": "35 dBA"
+        },
+        {
+          "key": "B",
+          "text": "40 dBA"
+        },
+        {
+          "key": "C",
+          "text": "65 dBA"
+        },
+        {
+          "key": "D",
+          "text": "70 Dba"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Part 1: Limit Background Noise Levels of Feature S02: Maximum Noise Levels. \nFor dwelling units, the following requirements are met: \na. Average background noise levels in bedrooms, when measured over a 12-hour \nminimum time period (which \nmust include the hours of 10 pm to 7 am), do not exceed 35 dBA",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q43",
+      "stem": "What is the intent of Feature S06: Minimum Background Sound?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To decrease acoustical privacy within and between occupied spaces."
+        },
+        {
+          "key": "B",
+          "text": "To design spaces with sound reducing surfaces."
+        },
+        {
+          "key": "C",
+          "text": "To increase acoustical privacy within and between occupied spaces."
+        },
+        {
+          "key": "D",
+          "text": "To increase the level of sound isolation and speech privacy."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q44",
+      "stem": "According to Feature S02: Maximum Noise Levels, exterior noise can be controlled best by?",
+      "options": [
+        {
+          "key": "A",
+          "text": "With inexpensive building materials."
+        },
+        {
+          "key": "B",
+          "text": "During the construction phase."
+        },
+        {
+          "key": "C",
+          "text": "Considering at the earliest possible stages of design"
+        },
+        {
+          "key": "D",
+          "text": "Once a noise baseline has been determined."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q45",
+      "stem": "According to Part 1: Provide Enhanced Speech Intelligibility of Feature S08: Enhanced Audio Devices, public address systems must be commissioned by an audio engineer in accordance with NFPA 72 (Annex D) or equivalent. What does NFPA stand for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "North Freeman Parts Authority"
+        },
+        {
+          "key": "B",
+          "text": "National Frequency Process Assembly"
+        },
+        {
+          "key": "C",
+          "text": "Noise & Frequency Process Algorithm"
+        },
+        {
+          "key": "D",
+          "text": "National Fire Protection Association"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q46",
+      "stem": "The human response to mechanical vibrations through a medium is known as",
+      "options": [
+        {
+          "key": "A",
+          "text": "Waves"
+        },
+        {
+          "key": "B",
+          "text": "Echo"
+        },
+        {
+          "key": "C",
+          "text": "Sound"
+        },
+        {
+          "key": "D",
+          "text": "Sonar"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Read the overview for the Sound Concept.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q47",
+      "stem": "It is best to consult an audio engineering professional when...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Preparing to launch a company podcast."
+        },
+        {
+          "key": "B",
+          "text": "Noise causes a productivity issue."
+        },
+        {
+          "key": "C",
+          "text": "Choosing sound dampening material."
+        },
+        {
+          "key": "D",
+          "text": "Implementing audio systems to improve speech intelligibility."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Read overview for Feature S08: Enhanced Audio Devices. \n\"To provide the best possible outcomes for users, systems should be commissioned \nby a professional in audio engineering in order to meet diverse occupant needs and \ncreate more accessible spaces.\"",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q48",
+      "stem": "What feature in the Sound Concept of the WELL Building Standard focuses on achieving desired ambient noise levels?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature S05: Sound Reducing Surfaces"
+        },
+        {
+          "key": "B",
+          "text": "Feature S01: Sound Mapping"
+        },
+        {
+          "key": "C",
+          "text": "700 Feature S08: Enhanced Audio Devices"
+        },
+        {
+          "key": "D",
+          "text": "Feature S02: Maximum Noise Levels"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q49",
+      "stem": "How many preconditions are there for the WELL Sound Concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q50",
+      "stem": "If your project would like to receive points from Part 2: Provide Enhanced Speed Reduction of Feature SO6: Minimum Background Sound, what other feature or part can be used to achieve points?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature S06 Part 1 – Provide Minimum Background Sound"
+        },
+        {
+          "key": "B",
+          "text": "Achieve one point in Feature S03 Part 2 - Achieve Sound Isolation"
+        },
+        {
+          "key": "C",
+          "text": "Achieve one point in Feature S05 Part 1 – Implement Sound Reducing Surfaces"
+        },
+        {
+          "key": "D",
+          "text": "Achieve two points in Feature S04 Part 1 – Achieve Reverberation Time Thresholds"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Part 2 Provide Enhanced Speech Reduction \nWELL Certification: 1 Pt | WELL Core: 2 Pt \nFor All Spaces: \nThe project achieves the following features and parts: \na. Achieve two points in either Feature S03 Part 2 - Achieve Sound Isolation at Walls \nor Feature S05 Part 1 – \nImplement Sound Reducing Surfaces. \nb. Feature S06 Part 1 – Provide Minimum Background Sound. \nNote: Documents submitted for S05 Part 1 during Precertification may be used to \nmeet requirements for S06 Part 2.",
+      "framework_hint": ""
+    }
+  ]
+}

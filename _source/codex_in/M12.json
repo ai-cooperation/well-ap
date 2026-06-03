@@ -1,0 +1,355 @@
+{
+  "module": "M12",
+  "frameworks": [
+    {
+      "id": "M12_F1",
+      "name": "創新提案路徑",
+      "desc": "理解 Feature I01: Innovate WELL 如何讓專案提出 WELL v2 尚未涵蓋的新介入策略，提案須以 novel way 正向影響 occupants、有 scientific/medical/industry research 佐證，並符合法規與 leading practices。",
+      "covers": [
+        "I01 Innovate WELL",
+        "Propose Innovations",
+        "novel intervention",
+        "scientific substantiation",
+        "up to 10 points"
+      ]
+    },
+    {
+      "id": "M12_F2",
+      "name": "專業參與與教育推廣",
+      "desc": "掌握 Feature I02: WELL Accredited Professional 與 Feature I03: Experience WELL Certification：專案團隊至少一人取得並維持 WELL AP 認證至 initial certification，並透過 public tours 與教育策略推廣 WELL。",
+      "covers": [
+        "I02 WELL Accredited Professional",
+        "I03 Experience WELL Certification",
+        "maintain accreditation",
+        "public tours",
+        "educational strategies"
+      ]
+    },
+    {
+      "id": "M12_F3",
+      "name": "既有計畫等同加分",
+      "desc": "理解 Feature I04: Gateways to Wellness 與 Feature I05: Green Building Rating Systems：以三年內完成的 health and wellness program、或取得 IWBI 認可的 green building rating（如 LEED）換取創新分，I05 最多 5 分且不可疊加。",
+      "covers": [
+        "I04 Gateways to Wellness",
+        "I05 Green Building Rating Systems",
+        "health and wellness program",
+        "green building certification",
+        "5 point cap"
+      ]
+    },
+    {
+      "id": "M12_F4",
+      "name": "創新計分與驗證",
+      "desc": "Innovation concept 全部為 optimization，專案最多取得 10 分；各 Innovation feature 的 verification method（technical document、letter of assurance 等）與計分上限是常見考點。",
+      "covers": [
+        "Innovation scoring",
+        "optimization",
+        "verification method",
+        "10 point maximum",
+        "pre-approved strategies"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M12_Q01",
+      "stem": "How long does the WELL Accredited Professional (WELL AP™) need to maintain their accreditation to be earn the innovation point for Feature I02: WELL Accredited Professional WELL AP?",
+      "options": [
+        {
+          "key": "A",
+          "text": "For three years after initial certification."
+        },
+        {
+          "key": "B",
+          "text": "Until the project's initial certification is achieved."
+        },
+        {
+          "key": "C",
+          "text": "Until materials for initial certification have been submitted."
+        },
+        {
+          "key": "D",
+          "text": "For six months after initial certification."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q02",
+      "stem": "How is the innovation point for Feature I02 verified?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Professional narrative."
+        },
+        {
+          "key": "B",
+          "text": "Examination by certification authority."
+        },
+        {
+          "key": "C",
+          "text": "Technical Document"
+        },
+        {
+          "key": "D",
+          "text": "Third party review."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q03",
+      "stem": "A project can earn an innovation point for spreading awareness of WELL Certification by providing free, public tours of the WELL Certified space. How often are tours offered to the public?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Annually"
+        },
+        {
+          "key": "B",
+          "text": "Bi Annually"
+        },
+        {
+          "key": "C",
+          "text": "Quarterly"
+        },
+        {
+          "key": "D",
+          "text": "At least six times per year."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Part 1: Offer Educational Tours of Feature I03: Experience WELL Certification.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q04",
+      "stem": "An office building in Houston is looking for innovation points for Feature I05: Green Building Rating Systems. What is an example of a Green Building Rating System that is approved by IWBI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "LEED (USGBC)."
+        },
+        {
+          "key": "B",
+          "text": "BREATHE."
+        },
+        {
+          "key": "C",
+          "text": "Leaf Certification."
+        },
+        {
+          "key": "D",
+          "text": "Green Houses."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Please read the following: \nhttps://v2.wellcertified.com/resources/preapproved-programs",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q05",
+      "stem": "In order to earn the 5 points available for Feature I05: Green Building Rating Systems, what must be done?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The project must have already applied for LEED Certification"
+        },
+        {
+          "key": "B",
+          "text": "The project must certify in a green building rating system approved by IWBI"
+        },
+        {
+          "key": "C",
+          "text": "The project must apply for atleast 5 different Green Building Certifications"
+        },
+        {
+          "key": "D",
+          "text": "All Of the Above"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q06",
+      "stem": "Which of the following is NOT a requirement for Part 2: Propose Innovation of Feature I01: Innovate WELL?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Must be consistent with applicable laws and regulations and leading practices in building design and operations."
+        },
+        {
+          "key": "B",
+          "text": "Must demonstrate existing scientific, medical and/or industry research."
+        },
+        {
+          "key": "C",
+          "text": "Must submit the outline of time and cost of innovation and its overall impact on the project."
+        },
+        {
+          "key": "D",
+          "text": "Positively impacts project occupants by supporting health and well-being in a novel way that is not covered in WELL v2."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "As the scientific understanding of health continues to evolve, so too does the ability \nto address the complex issue of promoting health and well-being through building \ndesign and operations. WELL Innovation features embrace novel approaches to \npromoting the creation of healthier spaces that go above and beyond features in \nWELL v2.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q07",
+      "stem": "What are some ways a project team can earn an innovation point for Feature I04: Gateway to Wellness?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Complete an independent health and wellness program within the last three years."
+        },
+        {
+          "key": "B",
+          "text": "Conduct an annual wellness survey."
+        },
+        {
+          "key": "C",
+          "text": "Hire a WELL AP to create a wellness program."
+        },
+        {
+          "key": "D",
+          "text": "Annual health and wellness program."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q08",
+      "stem": "What is the primary reason that IWBI aligned with Green Building Rating Systems such as LEED and BREEAM?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To be more attractive to the market."
+        },
+        {
+          "key": "B",
+          "text": "To help reduce overall costs to the project."
+        },
+        {
+          "key": "C",
+          "text": "To balance sustainability and human health considerations."
+        },
+        {
+          "key": "D",
+          "text": "To help reduce greenhouse gasses."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Read overview of Feature I05: Green Building Rating Systems.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q09",
+      "stem": "A project team wants to receive an innovation point for their WELL Certified Building. What are some of the ways they can do this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Offer a public tour that is listed in the WELL Certified spaces directory."
+        },
+        {
+          "key": "B",
+          "text": "They can advertise WELL Features and Benefits in the community."
+        },
+        {
+          "key": "C",
+          "text": "Offer a public tour three times per year."
+        },
+        {
+          "key": "D",
+          "text": "Offer tours on the buildings website up to 6 times per year."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature I03: Experience WELL Certification",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q10",
+      "stem": "What feature should a project use to submit innovation proposals?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature I03: Experience WELL Certification"
+        },
+        {
+          "key": "B",
+          "text": "Feature I01: Innovate WELL"
+        },
+        {
+          "key": "C",
+          "text": "You do not need to use a feature in order to submit an innovation proposal."
+        },
+        {
+          "key": "D",
+          "text": "Innovation proposals are submitted via email to IWBI."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q11",
+      "stem": "How many innovation points can a project receive?",
+      "options": [
+        {
+          "key": "A",
+          "text": "up to 3 points."
+        },
+        {
+          "key": "B",
+          "text": "up to 8 points."
+        },
+        {
+          "key": "C",
+          "text": "up to 10 points."
+        },
+        {
+          "key": "D",
+          "text": "up to 15 points."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Read the overview for the Innovation Concept.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M12_Q12",
+      "stem": "What is the intent of the Innovation Concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "to pave the way for projects to do what they want."
+        },
+        {
+          "key": "B",
+          "text": "to pave the way for projects to represent different strategies."
+        },
+        {
+          "key": "C",
+          "text": "to pave the way for projects to create wellness movements in their facilities."
+        },
+        {
+          "key": "D",
+          "text": "to pave the way for projects to develop unique strategies for creating healthy environments."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    }
+  ]
+}

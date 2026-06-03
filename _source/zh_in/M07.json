@@ -1,0 +1,130 @@
+{
+  "module": "M07",
+  "name": "聲音 Sound",
+  "features": [
+    {
+      "code": "S01",
+      "name": "Sound Mapping",
+      "type": "precondition",
+      "intent": "Incorporate strategic planning required to prevent issues of acoustic disturbance from various sources of noise.",
+      "summary": "This WELL feature requires projects to strategize an acoustical plan that identifies sources of noise that can negatively impact interior spaces.",
+      "parts": [
+        {
+          "title": "Part 1 Label Acoustic Zones",
+          "body": "For All Spaces: The following requirements are met:    a. An annotated document is submitted and made available to occupants showing labeled zones throughout the       project floor plan or similar schematic document as follows:           1. Loud zones: includes areas intended for loud equipment or activities (e.g., mechanical rooms, kitchens,              fitness rooms, social spaces, recreational rooms, music rooms)           2. Quiet zones: includes areas intended for concentration, wellness, rest, study and/or privacy (e.g.,              restorative spaces, lactation rooms, nap rooms).           3. Mixed zones: includes areas intended for learning, collaboration and/or presentation (e.g."
+        },
+        {
+          "title": "Part 2 Provide Acoustic Design Plan",
+          "body": "For All Spaces: The project provides one of the following:    a. A plan developed by the project team and/or project owner that outlines acoustical solutions and a timeline for       implementation with a focus on managing acoustical comfort, background noise, speech privacy, reverberation       time and/or impact noise within the project boundary.    b. A detailed report from a professional in acoustics that describes existing conditions, recommended solutions and       measurement results with a focus on managing background noise, speech privacy, reverberation time and/or       impact noise within the project boundary. These measurements are not required to adhere to the Performance       "
+        }
+      ]
+    },
+    {
+      "code": "S02",
+      "name": "Maximum Noise Levels",
+      "type": "optimization",
+      "intent": "Achieve desired ambient noise levels such that HVAC, exterior noise intrusion or other noise sources do not impact occupant health and well-being.",
+      "summary": "This WELL feature prescribes maximum thresholds for ambient background noise that correspond to optimal levels of interior and exterior noise exposure.",
+      "parts": [
+        {
+          "title": "Part 1 Limit Background Noise Levels",
+          "body": "WELL Certification: 3 Pt | WELL Core: 1.5 Pt For All Spaces except Dwelling Units, Commercial Kitchen Spaces & Industrial:   Note: Category 1 - Areas for conferencing, learning or speakingCategory 2 - Enclosed areas for concentrationCategory 3 -   Open areas for concentration, spaces with PA systems, and areas for dining. The following requirements are met:    a. Background noise levels are measured over a period of five minutes and average sound pressure levels do not       exceed the following thresholds, as applicable:            Sound Pressure Level                                           Category 3 Category 2 Category 1 Points                   (SPL)                                   "
+        }
+      ]
+    },
+    {
+      "code": "S03",
+      "name": "Sound Barriers",
+      "type": "optimization",
+      "intent": "Increase the level of sound isolation and speech privacy between enclosed spaces.",
+      "summary": "This WELL feature requires that walls and doors meet a minimum degree of acoustical separation to provide adequate sound isolation and improve speech privacy.",
+      "parts": [
+        {
+          "title": "Part 1 Design for Sound Isolation at Walls and Doors",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: The following requirements are met:    a. Interior walls meet the following sound transmission class (STC) or weighted sound reduction (Rw) values. If an       interior wall meets multiple categories listed, use the highest (i.e., more stringent) STC/Rw value listed.         Interior Wall Type                                                                            Minimum STC or                                                                                                            Rw         Between Loud zones and other occupiable spaces.                                                      60         Between areas for conferen"
+        },
+        {
+          "title": "Part 2 Achieve Sound Isolation at Walls",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Noise isolation class For walls that separate regularly occupied spaces the following requirements are met:    a. The project meets the following minimum Noise Isolation Class (NIC) or Weighted Difference Level (Dw) for each       wall type, as applicable. If an interior wall meets multiple categories listed, use the highest NIC/Dw value listed.         Interior Wall Type                                                                           Minimum NIC or                                                                                                                Dw         Between Loud zones and other occupiable space"
+        }
+      ]
+    },
+    {
+      "code": "S04",
+      "name": "Reverberation Time",
+      "type": "optimization",
+      "intent": "Design spaces in accordance with comfortable reverberation times that support speech intelligibility, vocal effort and are conducive to concentration.",
+      "summary": "This WELL feature requires that steps be taken to address acoustical comfort, by controlling reverberation time based on room functionality.",
+      "parts": [
+        {
+          "title": "Part 1 Achieve Reverberation Time Thresholds",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Reverberation time, design For projects in which the space types listed in the table cumulatively make up at least 10% of occupiable project area, the following requirements are met:    a.                                                                                                        Reverberation Time, t         Space Type                                                  Space Volume, v (cubic meters)                                                                                                             (seconds)                                                                           v < 10,000 ft3(280 m 3)   "
+        }
+      ]
+    },
+    {
+      "code": "S05",
+      "name": "Sound Reducing Surfaces",
+      "type": "optimization",
+      "intent": "Design spaces with sound reducing surfaces to minimize the buildup of speech or other unwanted sound.",
+      "summary": "This WELL feature requires the use of acoustic materials that absorb and/or block sound to support concentration and reduce reverberation.",
+      "parts": [
+        {
+          "title": "Part 1 Implement Sound Reducing Surfaces",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: For projects in which the space types listed in the table cumulatively make up at least 10% of occupiable project area, the following requirements are met:    a.         Space Type        Metric              1 Point(0.5           2 Points(1 Point)                                               Points)                                               0.75 for at least                           Minimum                                               75% of available      0.90 for all available ceiling area1,18                           NRC/aw                                               ceiling area         Open         workspaces        Mi"
+        }
+      ]
+    },
+    {
+      "code": "S06",
+      "name": "Minimum Background Sound",
+      "type": "optimization",
+      "intent": "Increase acoustical privacy within and between occupied spaces.",
+      "summary": "This WELL feature requires the use of dedicated artificial sound to uniformly increase speech privacy between occupied spaces.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Minimum Background Sound",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For Office Spaces: The following requirements are met:    a. A sound masking system is installed in open areas with Quiet zones, Circulation zones and enclosed rooms       labeled as Quiet zones and produces a 1/3 octave band adjustable output signal and frequency spectrum of 100       Hz to 5 kHz.    b. The sound masking system is commissioned such that the following sound pressure levels are not exceeded:           1. Open areas with Quiet zones and/or Circulation zones: 48 dBA.           2. Enclosed rooms labeled as Quiet zones: 42 dBA.    c. The sound masking system is verified by a professional sound masking system installer in accordance with "
+        },
+        {
+          "title": "Part 2 Provide Enhanced Speech Reduction",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: The project achieves the following features and parts:    a. Achieve two points in either Feature S03 Part 2 - Achieve Sound Isolation at Walls or Feature S05 Part 1 –       Implement Sound Reducing Surfaces.    b. Feature S06 Part 1 – Provide Minimum Background Sound.   Note: Documents submitted for S05 Part 1 during Precertification may be used to meet requirements for S06 Part 2.   WELL Core Guidance: Meet these requirements in non-leased spaces. To earn and additional point, also meet these   requirements in leased spaces. References    1. Banbury SP, Berry DC. Office noise and employee concentration: Identifying causes of disrup"
+        }
+      ]
+    },
+    {
+      "code": "S07",
+      "name": "Impact Noise Management",
+      "type": "optimization",
+      "intent": "Reduce the level of impact noise radiation by designing resilient floors.",
+      "summary": "This WELL feature requires projects to manage background noise levels by demonstrating compliance with impact noise mitigation techniques.",
+      "parts": [
+        {
+          "title": "Part 1 Specify Impact Noise Reducing Flooring",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: The following requirements are met:    a. For the following space types, the floor-ceiling construction meets the following minimum Impact Insulation       Class (IIC) ratings with materials tested in accordance with ASTM E492-09, ISO 717.2 or equivalent (LnTw may be       used as an equivalent metric and equivalent values may be determined by subtracting the IIC values listed below       from 105):         Space Type                                                   Location of Applicable Floor-   Minimum Impact Insulation                                                                            Ceiling Assembly                Clas"
+        },
+        {
+          "title": "Part 2 Meet Thresholds for Impact Noise Rating",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces: The following requirements are met:    a. For the following space types, the floor-ceiling construction achieves the following Normalized Impact Sound       Ratings (NISR), as measured on-site, in accordance with ASTM E1007-19, ISO 16283 or equivalent, by a        professional in acoustics (LnTw may be used as an equivalent metric and equivalent values may be determined by        subtracting the NISR values listed below from 105):         Space Type                                                     Location of Applicable Floor-   Minimum     Minimum                                                                              Ceilin"
+        }
+      ]
+    },
+    {
+      "code": "S08",
+      "name": "Enhanced Audio Devices",
+      "type": "optimization",
+      "intent": "Improve speech intelligibility and accessibility by providing dedicated, high-performance audio technology.",
+      "summary": "This WELL feature requires projects to implement organizational policies and provide occupants with devices that support enhanced speech intelligibility and bolster hearing accessibility in spaces intended for telecommunicating, instruction and public address.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Enhanced Speech Intelligibility",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Install & Commission Audio Systems The following requirements are met, as applicable:    a. Telecommunication and AV systems, which utilize speech enhancement technology (e.g., active digital signal       processing, noise cancellation) are provided in all rooms used for conferencing, distance learning or similar       remote communications and commissioned by a professional in audio engineering.    b. Public address systems meet the following:           1. All public address systems are commissioned by a professional in audio engineering in accordance with              NFPA 72 (Annex D) or equivalent.27           2. A co"
+        },
+        {
+          "title": "Part 2 Prioritize Audio Devices and Policies",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: The project supports individual acoustical needs through at least three of the following:    a. All audio devices are managed internally by a qualified professional (e.g., IT department, mobile device        management) and expectations for use are covered in the employee handbook and/or during on-boarding of        new staff.31,32    b. Eligible employees can request alternative workplace arrangements to meet their individual acoustic comfort       needs (e.g., the option to work remotely, different workstation location).33,34    c. A minimum of one daily quiet hour is scheduled and signage is used to indicate both the location an"
+        }
+      ]
+    }
+  ]
+}

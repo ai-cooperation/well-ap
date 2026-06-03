@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M07_Q01",
+    "stem": "In Part 1: Label Acoustic Zones of Feature S01: Sound Mapping, a new office project labels what acoustic zones as part of its sound mapping plan?",
+    "framework": "M07_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Noisy, Mixed, Equipment and Quiet zones",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Noisy, Quiet, Mixed and Circulation zones",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Loud, Quiet, Mixed and Circulation zones",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Loud, Quiet, Equipment and Circulation zones",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "S01 Sound Mapping – Part 1 Label Acoustic Zones 要求在樓層圖或示意文件標示 Loud zones、Quiet zones、Mixed zones 與 Circulation zones；若 Loud zones 直接鄰接 Quiet zones，還要提出重新配置或降低 sound transmission 的計畫。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Loud zones 誤換成 Noisy zones，且多放了 Equipment 類別。",
+        "followup": "回到 S01 Part 1 的四種 acoustic zone labels，哪些是正式 zone，哪些只是 Loud zones 的例子？"
+      },
+      "B": {
+        "gap": "知道 Quiet、Mixed、Circulation，卻漏掉正式的 Loud zones 名稱。",
+        "followup": "S01 Part 1 如何描述 loud equipment 或 activities，它使用的是 Noisy 還是 Loud 這個標籤？"
+      },
+      "D": {
+        "gap": "混淆 Loud zones 範圍，把 Equipment 當成獨立 acoustic zone。",
+        "followup": "若 mechanical rooms 屬於 loud equipment，S01 Part 1 是把它列為哪一類 zone 的例子？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q02",
+    "stem": "A cafeteria, a Category 3 space, is part of the build-out. What is the maximum sound pressure level (SPL) in dBAs for this space if you want to achieve the maximum number of points according to Part 1: Limit Background Noise Levels of Feature SO2: Maximum Noise Levels.",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "50 dBA",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "45 dBA",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "55 dBA",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "60 Dba",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "S02 Maximum Noise Levels – Part 1 Limit Background Noise Levels 的 3-point 表格中，Category 3 的 Max SPL (LMax) dBA 門檻是不超過 55 dBA；Category 3 包含 open areas for concentration、PA spaces 與 dining areas。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Category 3 的 1-point Average SPL 誤當成最高得分 Max SPL。",
+        "followup": "題目問 maximum number of points 與 maximum SPL，S02 Part 1 表格中 Category 3 的 Max SPL 是哪一列？"
+      },
+      "B": {
+        "gap": "把 Category 3 餐飲區誤套用更嚴格的 3-point Average SPL。",
+        "followup": "在 S02 Part 1 中，45 dBA 對 Category 3 是 Average SPL 還是 Max SPL？題目要求哪一種？"
+      },
+      "D": {
+        "gap": "選到 1-point 的 Category 3 Max SPL，忽略最高得分要求。",
+        "followup": "若要 maximum number of points，S02 Part 1 應看 3-point 還是 1-point 門檻？兩者差多少 dBA？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q03",
+    "stem": "According to Part 2: Achieve Sound Isolation at Walls of Feature S03: Sound Barriers, what is the minimum Noise Isolation Class (NIC) or Weighted Difference Level (Dw) between rooms for concentration and other regularly occupied spaces?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "10",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "40",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "55",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "60",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "S03 Sound Barriers – Part 2 Achieve Sound Isolation at Walls 的 Option 1: Noise isolation class 表格規定，rooms for concentration 與 other regularly occupied spaces 之間的 minimum NIC 或 Dw 為 40。",
+    "diagnosis": {
+      "A": {
+        "gap": "嚴重低估 concentration room 隔音需求，未對應 NIC/Dw 表。",
+        "followup": "S03 Part 2 Option 1 的表格中，concentration rooms 這一列的 minimum NIC/Dw 是多少？"
+      },
+      "C": {
+        "gap": "把 Loud zones 或更高隔音類型的門檻套到 concentration rooms。",
+        "followup": "S03 Part 2 為什麼要按 wall type 分級？concentration rooms 與 Loud zones 的 NIC/Dw 是否相同？"
+      },
+      "D": {
+        "gap": "把 STC/Rw 或 Loud zones 的較高數值誤當作 concentration NIC/Dw。",
+        "followup": "題目問的是 NIC 或 Dw，不是 STC/Rw；S03 Part 2 Option 1 對 concentration rooms 列的是哪個值？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q04",
+    "stem": "According to Part 1: Design for Sound Isolation at Walls and Doors of Feature S03: Sound Barriers, what minimums are required for the doors that connect two occupiable rooms and doors to mechanical equipment rooms?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Doors must have a non-hollow core, a minimum STC/Rw of 40 and seals at the head, jamb and base.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Doors must have a non-hollow core and seals at the head, jamb and base.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Doors must have a non-hollow core, a minimum STC/Rw of 30 and seals at the head, jamb and base.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Doors must have a non-hollow core, a minimum STC/Rw of 35 and seals at the head, jamb and base.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "S03 Sound Barriers – Part 1 Design for Sound Isolation at Walls and Doors 要求連接兩個 occupiable rooms 的門與 mechanical equipment rooms 的門需為 non-hollow core、minimum STC/Rw 30，並在 head、jamb、base 設 seals。",
+    "diagnosis": {
+      "A": {
+        "gap": "掌握門扇與密封要求，但把 STC/Rw 門檻提高到 40。",
+        "followup": "S03 Part 1 對 doors 的 minimum STC/Rw 是獨立列出，是否與部分牆體 40 或 45 門檻相同？"
+      },
+      "B": {
+        "gap": "只記得 non-hollow core 和 seals，漏掉 minimum STC/Rw 數值。",
+        "followup": "除了 head、jamb、base seals，S03 Part 1 對 doors 還要求哪個 STC/Rw 最低值？"
+      },
+      "D": {
+        "gap": "知道需要 STC/Rw 門檻，但記成標準中未列的 35。",
+        "followup": "S03 Part 1 的 doors 條文列出的是 30、35 還是 40？請對照 door requirement 原文。"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q05",
+    "stem": "The WELL Sound concept aims to bolster which of the following?",
+    "framework": "M07_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Calmness and occupant productivity",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Social interaction and fitness",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Occupant Health and well-being",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Occupant satisfaction and profitability",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL Sound concept introduction 明定目標是透過辨識與緩解 acoustical comfort parameters 來 bolster occupant health and well-being；S01 Sound Mapping – Part 2 Provide Acoustic Design Plan 也要求規劃 background noise、speech privacy、reverberation time 等舒適策略。",
+    "diagnosis": {
+      "A": {
+        "gap": "把可能效益縮小為 calmness 與 productivity，漏掉健康福祉核心。",
+        "followup": "Sound concept 的開頭用哪個總目標描述 acoustical comfort，是否只限工作效率？"
+      },
+      "B": {
+        "gap": "把 Sound concept 與健身、社交目標混淆，偏離聲學舒適。",
+        "followup": "S01/S02/S04 關注 noise、privacy 與 reverberation，這些要求主要支援哪類 occupant outcome？"
+      },
+      "D": {
+        "gap": "把 WELL 目標商業化為 profitability，忽略 health and well-being。",
+        "followup": "WELL Sound concept 說要改善 occupant experience，但最終要 bolster 的是滿意度利潤還是健康福祉？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q06",
+    "stem": "In Feature S02: Maximum Noise Levels studies have shown exposure to traffic noise can lead to an increased risk of what health issues?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anxiety and headaches",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Hypertension and anxiety",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Diabetes, strokes and hypertension",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Chronic stress and heart attacks",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "S02 Maximum Noise Levels – Part 1 Limit Background Noise Levels 設定 ambient background noise 上限；其 Issue 說明 traffic noise exposure 研究顯示會增加 cardiovascular system issues、diabetes、hypertension、stroke、depression 與 high blood pressure 風險。",
+    "diagnosis": {
+      "A": {
+        "gap": "把交通噪音健康風險簡化成短期不適，漏掉慢性疾病。",
+        "followup": "S02 Issue 列出的 traffic noise 風險是 headaches，還是 diabetes、stroke、hypertension 等慢性問題？"
+      },
+      "B": {
+        "gap": "抓到 hypertension 但混入 anxiety，未完整對應標準列舉。",
+        "followup": "S02 Issue 在 hypertension 之外還列出哪些 metabolic 或 cerebrovascular 風險？"
+      },
+      "D": {
+        "gap": "以一般壓力與心臟病表述替代標準列出的具體疾病組合。",
+        "followup": "請比較 myocardial 或 chronic stress 說法，S02 Issue 原文實際列出的三個關鍵病症是哪些？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q07",
+    "stem": "One solution for interior noise as specified in Feature S02: Maximum Noise Levels is?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Insulating the equipment room.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Selecting HVAC equipment with lower sound ratings.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Providing occupants with noise reducing headphones.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Using sound reducing windows.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "S02 Maximum Noise Levels – Part 1 Limit Background Noise Levels 控制 interior/exterior ambient noise；Solutions 明確指出 interior noise sources 可透過 selecting HVAC equipment with lower sound ratings 與降低 ducts 內聲音來控制。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 equipment room 隔音當成主要解法，未抓到 HVAC 選型要求。",
+        "followup": "S02 Solutions 對 interior noise 是先談 equipment room insulation，還是 HVAC equipment sound ratings？"
+      },
+      "C": {
+        "gap": "把責任轉給使用者配戴耳機，非 WELL 的建築系統控制策略。",
+        "followup": "S02 Part 1 是要讓空間背景噪音達標，提供耳機能否改變 HVAC 或 ducts 的 noise source？"
+      },
+      "D": {
+        "gap": "混淆 interior noise 與 exterior noise，選到 facade/windows 策略。",
+        "followup": "S02 Solutions 如何區分 interior sources 與 exterior sources？windows 是處理哪一側的 noise？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q08",
+    "stem": "In order to meet the minimum requirements of Part 1: Implement Sound Reducing Surfaces of Feature S05: Sound Reducing Surfaces, open workspaces must meet which of the following minimum NRC/aw at ceiling values?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.90 for all available ceiling area",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "0.75 for at least 50% of available ceiling area",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "0.75 for at least 75% of available ceiling area",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "0.75 for all available ceiling area",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "S05 Sound Reducing Surfaces – Part 1 Implement Sound Reducing Surfaces 的 open workspaces 表格規定，1 point 最低 ceiling 要達 Minimum NRC/aw 0.75，且覆蓋 at least 75% of available ceiling area。",
+    "diagnosis": {
+      "A": {
+        "gap": "選到 2-point 的高性能天花要求，不是 minimum requirement。",
+        "followup": "S05 Part 1 open workspaces 表格中，0.90 for all ceiling area 對應幾分？題目問 minimum 嗎？"
+      },
+      "B": {
+        "gap": "記得 NRC/aw 0.75，但把 open workspaces 覆蓋率誤用成 50%。",
+        "followup": "S05 Part 1 中 50% available ceiling area 是哪類空間？open workspaces 的比例是多少？"
+      },
+      "D": {
+        "gap": "把 0.75 材料要求過度擴大為全部天花面積。",
+        "followup": "open workspaces 的 1-point 門檻要求 all available ceiling area，還是 at least 75%？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q09",
+    "stem": "Which WELL feature requires projects to strategize an acoustical plan that identifies sources of noise that can negatively impact interior spaces?",
+    "framework": "M07_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Part 2: Provide Acoustic Design Plan",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature S01: Acoustical Plan",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature S01: Sound Mapping",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Feature S01: Sound Planning",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "S01 Sound Mapping – Summary 說此 feature 要求 projects strategize an acoustical plan，辨識可能 negatively impact interior spaces 的 noise sources；Part 2 Provide Acoustic Design Plan 進一步要求提出 acoustical solutions 與 implementation timeline。",
+    "diagnosis": {
+      "A": {
+        "gap": "引用了 Part 2 名稱，但漏掉題目問的是 WELL feature 名稱。",
+        "followup": "題目問 which WELL feature；S01 的 feature name 是 Sound Mapping，還是 Part 2 的 Acoustic Design Plan？"
+      },
+      "B": {
+        "gap": "把 acoustical plan 當成 feature 名稱，未使用標準正式名稱。",
+        "followup": "S01 Summary 提到 acoustical plan，但頁首 feature code 後面的正式名稱是什麼？"
+      },
+      "D": {
+        "gap": "以近似詞 Sound Planning 代替 WELL v2 中不存在的 feature name。",
+        "followup": "在 WELL Sound 章節中，S01 的正式標題是否出現 Sound Planning 這個名稱？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q10",
+    "stem": "According to Part 1: Limit Background Noise Levels of Feature S02: Maximum Noise Levels, to earn 3 Points, what is the maximum Sound Pressure Level (SPL) dBA measurement of an open dining area (a Category 3 space)?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "55 dBA",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "45 dBA",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "60 dBC",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "50 dbc",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "S02 Maximum Noise Levels – Part 1 Limit Background Noise Levels 的 3-point 門檻中，Category 3 的 Max SPL (LMax) dBA 不得超過 55 dBA；open dining area 屬於 dining areas 的 Category 3。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 Category 3 的 Max SPL 誤套用成更低的 Average SPL 或其他類別。",
+        "followup": "S02 Part 1 表格裡 Category 3、3-point、Max SPL dBA 三個條件交會在哪個數值？"
+      },
+      "C": {
+        "gap": "混用 dBC 與 dBA，且 60 dBC 不是該列門檻。",
+        "followup": "題目指定 dBA measurement；S02 Part 1 同列的 dBA 與 dBC 門檻能否互換？"
+      },
+      "D": {
+        "gap": "單位與大小寫混亂，且 50 dBC 不是 Category 3 Max SPL。",
+        "followup": "S02 表格中 Category 3 的 Max SPL 要看 dBA 還是 dBC？dBA 數值是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q11",
+    "stem": "Feature S04: Reverberation Time states that reverberation time is the length of time taken for a sound to decay by __ dB from an initial impulse level.",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "55 dB",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "60 dB",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "50 dB",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "45 Db",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "S04 Reverberation Time – Part 1 Achieve Reverberation Time Thresholds 以 reverberation time seconds 設計/驗證；其 Issue 定義 reverberation time 是聲音從 initial impulse level 衰減 60 dB 所需時間。",
+    "diagnosis": {
+      "A": {
+        "gap": "接近但少記 5 dB，未掌握 reverberation time 的標準定義。",
+        "followup": "S04 Issue 對 reverberation time 的定義固定使用多少 dB decay，而不是近似值？"
+      },
+      "C": {
+        "gap": "把 60 dB 衰減定義誤記為 50 dB。",
+        "followup": "若 Part 1 表格用 seconds 表示 t，前面的 Issue 如何定義這個 t 的 dB 衰減基準？"
+      },
+      "D": {
+        "gap": "選到更低且大小寫錯誤的 dB 值，偏離標準定義。",
+        "followup": "S04 的 reverberation time 是測聲音衰減到 45 dB，還是衰減 60 dB 的時間？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q12",
+    "stem": "A new WELL project is concerned with having the proper sound barriers to protect the privacy of the buildings occupants. If choosing Option 2: Speech privacy in Part 2: Achieve Sound Isolation at Walls of Feature S03: Sound Barriers, what is the minimum NIC + NC or Dw + LAeq for an enclosed office?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "90",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "80",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "70",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "20",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "S03 Sound Barriers – Part 2 Achieve Sound Isolation at Walls 的 Option 2: Speech privacy 表格規定，Enclosed Quiet zones 到 enclosed offices 或 areas for conferencing, learning or sleep 的 minimum NIC + NC 或 Dw + LAeq 為 80。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 80 誤提高到 90，超出 Speech privacy 表格列值。",
+        "followup": "S03 Part 2 Option 2 中，enclosed office 對應的 minimum sum 是 80、85 還是 90？"
+      },
+      "C": {
+        "gap": "套用到 open areas 或 circulation 的較低 speech privacy 門檻。",
+        "followup": "接收空間若是 enclosed office，是否能使用 open concentration 或 circulation 的 70 門檻？"
+      },
+      "D": {
+        "gap": "未理解 NIC+NC/Dw+LAeq 是總和門檻，數值低到不符合表格。",
+        "followup": "S03 Option 2 的 speech privacy 是單一背景噪音值，還是隔音量與背景聲等級的總和？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q13",
+    "stem": "In Feature S04: Reverberation Time, a solution to reduce reverberation time is?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use furniture that is made of wood.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Purchase telecommunication/AV equipment that enhances speech intelligibility.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Add reflective surfaces such as glass or stone.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Add absorptive surface finishes at ceiling and walls.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S04 Reverberation Time – Part 1 Achieve Reverberation Time Thresholds 要按 space type 達成 t 的秒數範圍；Solutions 說可在 ceilings、walls 與 furniture 加入 absorptive surface finishes，並減少 glass、drywall、stone 等 reflective surfaces。",
+    "diagnosis": {
+      "A": {
+        "gap": "把木製家具視為吸音策略，但材料本身未必提供足夠 absorption。",
+        "followup": "S04 Solutions 強調 absorptive surface finishes；wood furniture 與 acoustic absorptive treatment 是否等同？"
+      },
+      "B": {
+        "gap": "混淆 AV speech intelligibility 設備與降低 reverberation time 的材料策略。",
+        "followup": "S04 提到 AV equipment 的改善，是在降低 reverberation 後提升效果，還是購買設備本身即可達標？"
+      },
+      "C": {
+        "gap": "選到會增加 reflected sound energy 的硬反射表面。",
+        "followup": "S04 Solutions 說 glass 或 stone 會如何影響 reflected sound energy 與 reverberation time？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q14",
+    "stem": "To achieve points for Option 1: Reverberation time, design in Part 1: Achieve Reverberation Time Thresholds of Feature S04: Reverberation Time, what is the maximum reverberation time in areas for speech?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 ≤ t ≤ 0.8^9",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "0.6 ≤ t ≤ 1.0^9",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "0.8 ≤ t ≤ 1.0^9",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "1.0 ≤ t ≤ 1.4^9",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "S04 Reverberation Time – Part 1 Achieve Reverberation Time Thresholds 的 Option 1: Reverberation time, design 表格中，Areas for speech 的 reverberation time t 要介於 0.8 到 1.0 seconds。",
+    "diagnosis": {
+      "A": {
+        "gap": "套用到中等體積 learning/conferencing 的範圍，非 speech areas。",
+        "followup": "S04 Part 1 表格中 Areas for speech 是 N/A volume；哪個 t range 專屬這一列？"
+      },
+      "B": {
+        "gap": "把大型 learning/conferencing 的 0.6-1.0 誤當 speech areas 門檻。",
+        "followup": "Areas for speech 不按 volume 分級；與 v > 20,000 ft3 的 learning/conferencing 有何不同？"
+      },
+      "D": {
+        "gap": "選到偏長的 reverberation range，可能混到 fitness 或 music 類型。",
+        "followup": "S04 Part 1 中 speech intelligibility 相關空間是否允許 1.4 seconds 的 reverberation time？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q15",
+    "stem": "A number of studies have indicated that ________________________________ is a major cause of complaint and results in occupant dissatisfaction.",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bad tasting water",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Internally generated noise",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Not enough parking",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Not enough bathrooms",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL Sound concept introduction 說多項研究指出 internally generated noise 是 major cause of complaint，並會造成 occupant dissatisfaction；S02 Maximum Noise Levels – Part 1 Limit Background Noise Levels 因此設定 HVAC、exterior intrusion 等 ambient background noise 上限。",
+    "diagnosis": {
+      "A": {
+        "gap": "把問題轉到 Water 概念，未對應 Sound 章節的內部噪音。",
+        "followup": "這題出自 Sound concept，原文說 major cause of complaint 是 water taste 還是 internally generated noise？"
+      },
+      "C": {
+        "gap": "把一般設施抱怨誤認為聲學舒適的核心問題。",
+        "followup": "WELL Sound introduction 討論 HVAC、occupants 與 appliances 產生的聲音，與 parking 數量有何關聯？"
+      },
+      "D": {
+        "gap": "把空間配置不足混入題目，未抓住 occupant dissatisfaction 的聲學來源。",
+        "followup": "在 Sound concept 中，occupant dissatisfaction 是由 bathrooms 不足，還是內部產生的 noise 引發？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q16",
+    "stem": "In Part 1: Provide Minimum Background Sound of Feature S06: Minimum Background Sound, a sound masking system must be commissioned so that the sound pressure levels (SPL) do not exceed ______ in enclosed rooms labeled as Quiet zones.",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "42 dBA.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "38 dBA.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "48 dBA.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "46 dBA.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "S06 Minimum Background Sound – Part 1 Provide Minimum Background Sound 要求 sound masking system 經 commissioning 後，enclosed rooms labeled as Quiet zones 的 SPL 不得超過 42 dBA；open areas with Quiet/Circulation zones 則是不超過 48 dBA。",
+    "diagnosis": {
+      "B": {
+        "gap": "選到過低且未列於 S06 的 38 dBA，誤把上限當更嚴格越好。",
+        "followup": "S06 Part 1 對 enclosed Quiet zones 的 commissioned SPL 上限明列多少，而不是任意降低？"
+      },
+      "C": {
+        "gap": "把 open areas 的 48 dBA 上限套到 enclosed Quiet rooms。",
+        "followup": "S06 Part 1 分別列出 open areas 與 enclosed Quiet zones；兩者的 SPL 上限是否相同？"
+      },
+      "D": {
+        "gap": "選到標準未列的中間值，未區分 42 與 48 dBA 場景。",
+        "followup": "若房間是 enclosed 且 labeled as Quiet zones，S06 表格該看 42 dBA 還是 open-area 的較高上限？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q17",
+    "stem": "Interior walls must have a minimum Sound Transmission Class (STC) between adjacent Quiet zones per Part 1: Design for Sound Isolation at Walls and Doors of Feature: SO3 Sound Barriers?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "50",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "45",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "60",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "40",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "S03 Sound Barriers – Part 1 Design for Sound Isolation at Walls and Doors 的 interior wall 表格規定，Between adjacent Quiet zones 的 minimum STC 或 Rw 為 50；若同時符合多類型，採用較嚴格值。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 rooms for concentration 的 45 STC/Rw 誤套到 adjacent Quiet zones。",
+        "followup": "S03 Part 1 中 adjacent Quiet zones 與 rooms for concentration 的 minimum STC/Rw 是否不同？"
+      },
+      "C": {
+        "gap": "把 Loud zones 與其他 occupiable spaces 的最高牆體門檻套錯。",
+        "followup": "S03 Part 1 哪一類 interior wall 需要 60 STC/Rw？adjacent Quiet zones 是否屬於那一類？"
+      },
+      "D": {
+        "gap": "選到 circulation 與 regularly occupied spaces 的最低牆體門檻。",
+        "followup": "若牆體在兩個 Quiet zones 之間，能否只用 circulation zone 的 40 STC/Rw？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q18",
+    "stem": "When noise from internal or external sources is increased in a space, occupants have been found to be?",
+    "framework": "M07_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Easily distracted, hearing impaired and less collaborative.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Easily distracted, less productive and susceptible to burnout.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Less productive, less collaborative and depressed.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Anxious, less productive and depressed.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "S01 Sound Mapping – Issue 說明 internal or external noise 增加時，occupants 會 easily distracted、less productive 且 susceptible to burnout；Part 1 Label Acoustic Zones 正是用 Loud、Quiet、Mixed、Circulation 分區來預防 acoustic disturbance。",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到 distraction，但加入 hearing impaired 與 collaboration 表述，非原文組合。",
+        "followup": "S01 Issue 直接列出的三個 occupant outcomes 是 distraction、productivity 與哪個 burnout 相關表述？"
+      },
+      "C": {
+        "gap": "混入 collaboration 與 depression，未對應 S01 Issue 的精確結果。",
+        "followup": "S01 Issue 是否說高噪音讓人 depressed，還是 susceptible to burnout？請核對原文。"
+      },
+      "D": {
+        "gap": "以焦慮與憂鬱概括噪音影響，漏掉 productivity 與 burnout。",
+        "followup": "題目問 increased noise in a space；S01 Issue 用哪三個短語描述 occupants 的反應？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q19",
+    "stem": "A 10-story office building in downtown New York City is aiming for WELL Certification. Due to the location, they are worried about the noise levels from the streets that could travel into the building's interior spaces. To help with this issue, the project team needs to design the floor plans with intent and use in mind. For example, a typical office can be categorized into what four key types of programming?",
+    "framework": "M07_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Concentration, collaboration, socialization, learning",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Collaboration, concentration, socialization and teaching",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Concentration, socialization, teaching and break rooms",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Break rooms, teaching, collaboration and socialization",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "S01 Sound Mapping – Solutions 說 office floor plans 應依 intent and use 設計，典型 office 可分為 concentration、collaboration、socialization 與 learning 四種 programming；Part 1 再把這些用途轉為 acoustic zone labels。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 learning 誤換成 teaching，接近但不是標準列舉的 programming。",
+        "followup": "S01 Solutions 原文列出的第四種 office programming 是 learning 還是 teaching？兩者在 WELL wording 中有差別嗎？"
+      },
+      "C": {
+        "gap": "漏掉 collaboration，且把 break rooms 當成四大 programming 類型。",
+        "followup": "S01 Solutions 的四類 programming 是否包含 break rooms，還是以 collaboration 作為核心辦公活動？"
+      },
+      "D": {
+        "gap": "以 break rooms、teaching 取代 concentration 與 learning，偏離 floor plan intent 分類。",
+        "followup": "若目標是減少社交空間干擾專注空間，S01 Solutions 為何必須保留 concentration 類別？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q20",
+    "stem": "A suggested solution to exterior noise as specified in Feature S02: Maximum Noise Levels is?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Insulating the equipment room.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Selecting HVAC equipment with lower sound ratings.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Providing occupants with noise reducing headphones.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Using sound reducing windows.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S02 Maximum Noise Levels – Part 1 Limit Background Noise Levels 控制 exterior noise intrusion 等 ambient background noise；Solutions 指出 exterior noise 可透過 building facade、windows 與 exterior penetrations 的 sound reduction 控制。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 mechanical equipment room 的內部噪音處理誤當 exterior noise 策略。",
+        "followup": "S02 Solutions 說 exterior sources 是透過 facade/windows，還是 equipment room insulation 來控制？"
+      },
+      "B": {
+        "gap": "選到 interior HVAC noise 的正確策略，但題目問 exterior noise。",
+        "followup": "lower sound ratings 的 HVAC equipment 對應 S02 的 interior sources；外部街道噪音應看哪個 building element？"
+      },
+      "C": {
+        "gap": "把個人防護用品當成建築聲學解法，不能降低 exterior intrusion。",
+        "followup": "S02 Part 1 要使背景噪音達標，noise reducing headphones 是否能改變 facade 或 windows 的隔音性能？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q21",
+    "stem": "In Part 1: Limit Background Noise Levels of Feature S02: Maximum Noise Levels, a new apartment complex must test the background noise levels in the bedrooms to make sure they do not exceed an average of 35 dBA. What minimum period of time must the background noise be measured?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 hour period at any given time of the day",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "12 hour period that includes the hours from 10 pm to 7 am",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "24 hour period",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Testing must occur for 12 hours between 8 pm to 8 am",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "S02 Maximum Noise Levels – Part 1 Limit Background Noise Levels 對 dwelling units 規定，bedrooms 的 average background noise levels 不得超過 35 dBA (Leq)，且必須在至少 12-hour minimum time period 測量，並包含 10 pm 到 7 am。",
+    "diagnosis": {
+      "A": {
+        "gap": "測量時長不足，且未涵蓋夜間睡眠時段要求。",
+        "followup": "S02 Part 1 對 dwelling bedroom 的 35 dBA Leq，是 6 小時即可，還是至少 12 小時且含夜間？"
+      },
+      "C": {
+        "gap": "把最低 12 小時誤解為必須 24 小時，過度擴大要求。",
+        "followup": "S02 Part 1 使用 minimum time period；它要求 24 hours，還是只要求包含 10 pm to 7 am？"
+      },
+      "D": {
+        "gap": "時長接近但夜間時段錯誤，未包含標準指定 10 pm to 7 am。",
+        "followup": "若測量 8 pm 到 8 am，是否必然符合 S02 指定包含 10 pm 到 7 am？題目選項如何精確表述？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q22",
+    "stem": "In Feature S03: Sound Barriers, there is evidence that links noise annoyance in multi-story housing to what health issues?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Depression and anxiety",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Poor mental health and perceived stress",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Memory loss and depression",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Anxiety and perceived stress",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "S03 Sound Barriers – Part 1 Design for Sound Isolation at Walls and Doors 與 Part 2 Achieve Sound Isolation at Walls 都是為了提高 sound isolation；其 Issue 明確指出 multi-story housing 的 noise annoyance 與 poor mental health 及 perceived stress 有關。",
+    "diagnosis": {
+      "A": {
+        "gap": "以 depression 和 anxiety 替代標準中的 mental health 與 stress 表述。",
+        "followup": "S03 Issue 對 multi-story housing 的健康連結，使用的是 depression/anxiety 還是 poor mental health/perceived stress？"
+      },
+      "C": {
+        "gap": "加入 memory loss，偏離 Sound Barriers 針對 housing annoyance 的證據。",
+        "followup": "memory retention 常出現在 reverberation/classroom 脈絡；S03 Sound Barriers 的 housing evidence 提到什麼？"
+      },
+      "D": {
+        "gap": "抓到 perceived stress，但把 poor mental health 誤換成 anxiety。",
+        "followup": "S03 Issue 的第二個結果是 perceived stress；第一個結果是否更廣義地寫作 poor mental health？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q23",
+    "stem": "An area mapped as part of the project includes a conference room for collaboration. For this area to comply with Part 1: Design for Sound Isolation at Walls and Doors of Feature S03: Sound Barriers, what is the minimum STC or RW requirement of the conference room?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "45",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "50",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "60",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "55",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S03 Sound Barriers – Part 1 Design for Sound Isolation at Walls and Doors 的 interior wall 表格規定，areas for conferencing、learning or sleeping 與 other regularly occupied spaces 之間的 minimum STC 或 Rw 為 55；conference room 屬於 conferencing area。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 concentration room 的 45 STC/Rw 門檻誤用於 conference room。",
+        "followup": "S03 Part 1 中 conferencing areas 是否與 concentration rooms 同列？conference room 應對哪個 minimum STC/Rw？"
+      },
+      "B": {
+        "gap": "把 adjacent Quiet zones 的 50 STC/Rw 套到 conferencing 空間。",
+        "followup": "conference room for collaboration 是 Quiet zones 之間，還是 areas for conferencing 與其他 regularly occupied spaces？"
+      },
+      "C": {
+        "gap": "套用 Loud zones 的 60 STC/Rw，雖較嚴但不是 conference room 最低值。",
+        "followup": "S03 Part 1 哪一列才需要 60 STC/Rw？conference room 是否屬於 Loud zone？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q24",
+    "stem": "The length of reverberation time is a function of what?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sound absorbing properties, room height and number of doors",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Room height, surface areas and sound absorbing properties of surface finishes",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Room size, surface areas and sound absorbing properties of surface finishes",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Room size, surface areas and number of doors",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "S04 Reverberation Time – Part 1 Achieve Reverberation Time Thresholds 依空間用途設定 t 的秒數；其 Issue 說 reverberation time 長短是 room size、surface area 以及 surface finishes 的 sound-absorbing properties 的函數。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 room size 誤換成 room height，並加入 doors 數量。",
+        "followup": "S04 Issue 說 reverberation time 是 room size 還是只看 room height？doors 是否列為主要函數？"
+      },
+      "B": {
+        "gap": "抓到 surface areas 與吸音性，但把 room size 縮成 room height。",
+        "followup": "若只看 height，是否能代表 S04 Issue 中 room size 的整體 volume/scale 概念？"
+      },
+      "D": {
+        "gap": "包含 room size 與 surface areas，但把吸音性錯換成門數。",
+        "followup": "S04 Issue 的第三個因素是 doors number，還是 surface finishes 的 sound-absorbing properties？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q25",
+    "stem": "Feature S04: Reverberation Time review studies showing high reverberation times in classrooms can link to many negative effects. Which of the following is not one of the many effects?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loss of hearing",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Reduce cognition",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Reduce memory retention",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Reduces speech intelligibility among hard of hearing a non-native speaking populations",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "S04 Reverberation Time – Part 1 Achieve Reverberation Time Thresholds 旨在支援 speech intelligibility；其 Issue 說 classroom 高 reverberation times 會增加 auditory workload，降低 cognition、memory retention、concentration，並降低 hard of hearing 與 non-native speaking populations 的 speech intelligibility，未列出 hearing loss。",
+    "diagnosis": {
+      "B": {
+        "gap": "把標準明列的 reduced cognition 誤認為非負面效果。",
+        "followup": "S04 Issue 對 classrooms 的 high reverberation times 是否明確提到 reduce cognition？"
+      },
+      "C": {
+        "gap": "忽略 memory retention 是高混響在 classroom 的列舉影響。",
+        "followup": "S04 Issue 中 cognition 旁邊還列了 memory retention 與 concentration；這些是否都是負面效果？"
+      },
+      "D": {
+        "gap": "把 speech intelligibility 影響誤排除，未注意特定族群描述。",
+        "followup": "S04 Issue 是否說 high reverberation 會降低 hard of hearing 與 non-native speakers 的 speech intelligibility？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

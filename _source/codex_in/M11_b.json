@@ -1,0 +1,693 @@
+{
+  "module": "M11",
+  "frameworks": [
+    {
+      "id": "M11_F1",
+      "name": "認證流程與角色分工",
+      "desc": "掌握 WELL Certification 的 registration process、eligibility criteria、timeline、WELL project administrator、owner、WELL AP 與 WELL Coaching support team 的角色責任。",
+      "covers": [
+        "WELL Certification",
+        "registration process",
+        "eligibility criteria",
+        "WELL project administrator",
+        "WELL Coaching support team"
+      ]
+    },
+    {
+      "id": "M11_F2",
+      "name": "計分等級與必備門檻",
+      "desc": "WELL v2 是 points-based system，每個 project scorecard 有 110 points available；certification levels 包含 WELL Bronze 40 pts、WELL Silver 50 pts、WELL Gold 60 pts、WELL Platinum 80 pts。",
+      "covers": [
+        "110 points available",
+        "WELL Bronze 40 pts",
+        "WELL Silver 50 pts",
+        "WELL Gold 60 pts",
+        "WELL Platinum 80 pts"
+      ]
+    },
+    {
+      "id": "M11_F3",
+      "name": "文件、Performance Verification 與補救",
+      "desc": "認證管理要能處理 WELL digital platform submissions、Performance Verification、non-passing performance verification results 與 corrective actions。",
+      "covers": [
+        "WELL digital platform",
+        "Performance Verification",
+        "WELL Performance Testing Agent",
+        "corrective actions",
+        "documentation process"
+      ]
+    },
+    {
+      "id": "M11_F4",
+      "name": "AAP、等同性與 Innovation",
+      "desc": "考試會測 Alternative Adherence Paths (AAP)、equivalencies、precertification、recertification 及 Innovation；WELL v2 另可在 Innovation concept 追求 additional ten points，I01-I05 包含 Innovate WELL 與 WELL AP。",
+      "covers": [
+        "Alternative Adherence Paths",
+        "equivalencies",
+        "precertification",
+        "recertification",
+        "I01 Innovate WELL",
+        "I02 WELL Accredited Professional"
+      ]
+    },
+    {
+      "id": "M11_F5",
+      "name": "WELL Portfolio 範疇與評分",
+      "desc": "WELL Portfolio Program 要理解 portfolio scope、eligibility requirements、scales of documentation、review process 與 factors that influence the WELL Portfolio score。",
+      "covers": [
+        "WELL Portfolio",
+        "portfolio scope",
+        "eligibility requirements",
+        "scales of documentation",
+        "WELL Portfolio score"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M11_Q26",
+      "stem": "Which WELL concept includes a Feature that takes into account characteristics such as color rendering and flicker?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mind"
+        },
+        {
+          "key": "B",
+          "text": "Innovation"
+        },
+        {
+          "key": "C",
+          "text": "Movement"
+        },
+        {
+          "key": "D",
+          "text": "Light"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature L08 Electric Light Quality of the WELL Light concept requires projects to take \ninto account characteristics of electric light used in the space, such as color rendering \nand flicker.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q27",
+      "stem": "A project team for an existing building is considering the addition of artwork to the central stairway, which already includes view windows to the exterior. Which WELL concept includes a Feature that rewards combinations of windows and artwork like this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mind"
+        },
+        {
+          "key": "B",
+          "text": "Thermal Comfort"
+        },
+        {
+          "key": "C",
+          "text": "Movement"
+        },
+        {
+          "key": "D",
+          "text": "Light"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "In Part 1 - Design Aesthetic Staircases of Feature V03: Circulation Network within the \nWELL Movement concept, At least one staircase is open to regular occupants, \nservices all floors of the project and is aesthetically designed through the inclusion of \nat least two independent strategies from the following list on each floor: \na. Music \nb. Artwork \nc. Light levels of at least 215 lux when in use \nd. Windows or skylights that provide access to daylight \ne. Natural design elements (e.g., plants, water features, images of nature) \nf. Gamification",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q28",
+      "stem": "Which WELL concept promotes the implementation of design, policy and programmatic strategies that support cognitive and emotional health through a variety of prevention and treatment efforts?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nourishment"
+        },
+        {
+          "key": "B",
+          "text": "Mind"
+        },
+        {
+          "key": "C",
+          "text": "Movement"
+        },
+        {
+          "key": "D",
+          "text": "Innovation"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "The WELL Mind concept promotes implementation of design, policy and \nprogrammatic strategies that support cognitive and emotional health through a \nvariety of prevention and treatment efforts. In combination, these interventions have \nthe potential to positively impact the short- and long-term mental health and \nwell-being of individuals of diverse backgrounds throughout a community.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q29",
+      "stem": "At a non-profit with 200 employees, annual Occupant Indoor Environmental Quality surveys are administered to a representative sample of 30% of the employees. Which WELL Concept requires that the survey results are delivered to IWBI within 30 days?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Community"
+        },
+        {
+          "key": "B",
+          "text": "Thermal Comfort"
+        },
+        {
+          "key": "C",
+          "text": "Movement"
+        },
+        {
+          "key": "D",
+          "text": "Air"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Aggregate results from surveys within the WELL Community concept are reported \nwithin 30 days to the following groups: \na. Building owners and managers. \nb. Building occupants (upon request). \nc. The International WELL Building Institute.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q30",
+      "stem": "What WELL concept aims to reduce circadian phase disruption, improve sleep quality and positively impact mood, and productivity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Movement"
+        },
+        {
+          "key": "B",
+          "text": "Light"
+        },
+        {
+          "key": "C",
+          "text": "Thermal Comfort"
+        },
+        {
+          "key": "D",
+          "text": "Nourishment"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "The WELL Light concept aims to provide a lighting environment that reduces \ncircadian phase disruption, improves sleep quality and positively impacts mood and \nproductivity.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q31",
+      "stem": "Which of the following organizations is a public benefit corporation whose mission is to improve human health and well-being through the built environment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Green Business Certification Inc (GBCI)"
+        },
+        {
+          "key": "B",
+          "text": "Delos Living LLC"
+        },
+        {
+          "key": "C",
+          "text": "International WELL Building Institute (IWBI)"
+        },
+        {
+          "key": "D",
+          "text": "U.S. Green Building Council (USGBC)"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "International WELL Building Institute (IWBI) is a public benefit corporation whose \nmission is to improve human health and well-being through the built environment. \nPublic benefit corporations like IWBI are an emerging U.S. structure for corporations \ncommitted to balancing public benefits with profitability – harnessing the power of \nprivate capital for the greater good.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q32",
+      "stem": "IWBI was established pursuant to which of the following commitments?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clinton Global Initiative"
+        },
+        {
+          "key": "B",
+          "text": "COP21"
+        },
+        {
+          "key": "C",
+          "text": "Montreal Protocol"
+        },
+        {
+          "key": "D",
+          "text": "Kyoto Protocol"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "IWBI was established by Delos in 2013 pursuant to a Clinton Global Initiative \ncommitment to improve the way people live by developing spaces that enhance \noccupant health and quality of life by sharing the WELL Building Standard globally.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q33",
+      "stem": "Projects must achieve all preconditions. How many more points must a project achieve to reach Silver Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "12"
+        },
+        {
+          "key": "C",
+          "text": "14"
+        },
+        {
+          "key": "D",
+          "text": "16"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "For WELL Bronze certification a project needs to achieve 40 total points, for a WELL \nSilver certification a project needs to achieve 50 total points, for a WELL Gold \ncertification a project needs to achieve 60 total points, and for a WELL Platinum \ncertification, a project needs to achieve 80 total points. From Bronze to Silver a \nproject needs to achieve 10 more points.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q34",
+      "stem": "What percent of WELL preconditions must be met in order to achieve Silver Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "75%"
+        },
+        {
+          "key": "B",
+          "text": "90%"
+        },
+        {
+          "key": "C",
+          "text": "95%"
+        },
+        {
+          "key": "D",
+          "text": "100%"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Projects must achieve all preconditions, as well as a certain number of points \ntowards different levels of WELL Certification.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q35",
+      "stem": "Projects must achieve all preconditions, as well as a certain number of points towards different levels of WELL Certification. How many more points must a project achieve to reach Gold Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "25"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "For WELL Bronze certification a project needs to achieve 40 total points, for a WELL \nSilver certification a project needs to achieve 50 total points, for a WELL Gold \ncertification a project needs to achieve 60 total points, and for a WELL Platinum \ncertification a project needs to achieve 80 total points. From Bronze to Gold a project \nneeds to achieve 20 more points.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q36",
+      "stem": "Projects must achieve all preconditions, as well as a certain number of points towards different levels of WELL Certification. How many more points must a project achieve to reach Platinum Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20"
+        },
+        {
+          "key": "B",
+          "text": "25"
+        },
+        {
+          "key": "C",
+          "text": "40"
+        },
+        {
+          "key": "D",
+          "text": "35"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "For WELL Bronze certification a project needs to achieve 40 total points, for a WELL \nSilver certification a project needs to achieve 50 total points, for a WELL Gold \ncertification a project needs to achieve 60 total points, and for a WELL Platinum \ncertification, a project needs to achieve 80 total points. From Bronze to Platinum a \nproject needs to achieve 40 more points.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q37",
+      "stem": "How many optimizations are required for WELL Bronze Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "40% of applicable optimizations"
+        },
+        {
+          "key": "B",
+          "text": "One per Concept"
+        },
+        {
+          "key": "C",
+          "text": "80% of applicable optimizations"
+        },
+        {
+          "key": "D",
+          "text": "None"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Optimizations are optional pathways for projects to meet certification requirements \nin WELL. Project teams may select which optimizations to pursue and which parts to \nfocus on within each optimization.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q38",
+      "stem": "What are the minimum points per concept required for WELL Silver Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zero"
+        },
+        {
+          "key": "B",
+          "text": "One per Concept"
+        },
+        {
+          "key": "C",
+          "text": "Two per Concept"
+        },
+        {
+          "key": "D",
+          "text": "Three per Concept"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "The minimum points per concept for a WELL Bronze certification is zero, a WELL \nSilver certification is one, a WELL Gold certification is two, and a WELL Platinum \ncertification is three.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q39",
+      "stem": "What are the minimum points per concept required for WELL Gold Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zero"
+        },
+        {
+          "key": "B",
+          "text": "One per Concept"
+        },
+        {
+          "key": "C",
+          "text": "Two per Concept"
+        },
+        {
+          "key": "D",
+          "text": "Three per Concept"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "The minimum points per concept for a WELL Bronze certification is zero, a WELL \nSilver certification is one, a WELL Gold certification is two, and a WELL Platinum \ncertification is three.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q40",
+      "stem": "What are the minimum points per concept required for a WELL Platinum Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zero"
+        },
+        {
+          "key": "B",
+          "text": "One per Concept"
+        },
+        {
+          "key": "C",
+          "text": "Two per Concept"
+        },
+        {
+          "key": "D",
+          "text": "Three per Concept"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "The minimum points per concept for a WELL Bronze certification is zero, a WELL \nSilver certification is one, a WELL Gold certification is two, and a WELL Platinum \ncertification is three.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q41",
+      "stem": "What are the two main groups that WELL v2 projects fall into?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Owner-occupied and WELL Core"
+        },
+        {
+          "key": "B",
+          "text": "WELL Core and WELL Portfolio"
+        },
+        {
+          "key": "C",
+          "text": "WELL Portfolio and LEED Gold"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "WELL v2 projects fall into one of two main groups, determined primarily by \nownership type:",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q42",
+      "stem": "What is the WELL Portfolio?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A program that enables organizations to improve well-being at scale."
+        },
+        {
+          "key": "B",
+          "text": "A program that enables organizations to enhance the places where people spend time."
+        },
+        {
+          "key": "C",
+          "text": "Both A & B"
+        },
+        {
+          "key": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q43",
+      "stem": "What does it mean for a company to enroll in the WELL Portfolio?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Signifies an owner's intent to use the Health-Safety Rating."
+        },
+        {
+          "key": "B",
+          "text": "Signifies a project managers intent to become a WELL AP ."
+        },
+        {
+          "key": "C",
+          "text": "Signifies portfolio owner's intent to engage in the WELL Portfolio program."
+        },
+        {
+          "key": "D",
+          "text": "Signifies a buildings intent to be accredited."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q44",
+      "stem": "How long is the enrollment period for WELL Portfolio?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Twelve months"
+        },
+        {
+          "key": "B",
+          "text": "Three months"
+        },
+        {
+          "key": "C",
+          "text": "Nine months"
+        },
+        {
+          "key": "D",
+          "text": "Six months"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q45",
+      "stem": "Can the enrollment period for WELL Portfolio be extended?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, by an additional six months, up to one year ."
+        },
+        {
+          "key": "B",
+          "text": "Yes, by an additional 12 months."
+        },
+        {
+          "key": "C",
+          "text": "Yes, by an additional 2 months."
+        },
+        {
+          "key": "D",
+          "text": "No, the enrollment period may not be extended."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q46",
+      "stem": "What is the minimum commitment for the WELL Portfolio?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Three-year subscription"
+        },
+        {
+          "key": "B",
+          "text": "Five-year subscription"
+        },
+        {
+          "key": "C",
+          "text": "One review cycle"
+        },
+        {
+          "key": "D",
+          "text": "There is no minimum commitment."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q47",
+      "stem": "What is the role of a portfolio administrator in the WELL Portfolio program?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that the project stays on its timeline."
+        },
+        {
+          "key": "B",
+          "text": "To oversee the program and delegate project responsibilities for the defined portfolio."
+        },
+        {
+          "key": "C",
+          "text": "To oversee the program process and and coordination of documentation for the defined portfolio."
+        },
+        {
+          "key": "D",
+          "text": "To oversee the program process and report back to GBCI."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "The portfolio administrator oversees the WELL Portfolio program process and \ncoordination of documentation for the defined portfolio. The portfolio administrator \nis the primary point of contact and will be copied on all correspondence with IWBI \nand the WELL Reviewer.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q48",
+      "stem": "A defined portfolio must contain at least how many projects, and if the member's total global portfolio contains fewer than this number of projects, what is the minimum then?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A minimum of 10 projects, unless unless the member’s total global portfolio contains fewer than 10 projects, in which case the minimum project count is two."
+        },
+        {
+          "key": "B",
+          "text": "A minimum of 20 projects, unless unless the member’s total global portfolio contains fewer than 20 projects, in which case the minimum project count is 10."
+        },
+        {
+          "key": "C",
+          "text": "A minimum of 8 projects, unless unless the member’s total global portfolio contains fewer than 8 projects, in which case the minimum project count is 4."
+        },
+        {
+          "key": "D",
+          "text": "A minimum of 4 projects, unless unless the member’s total global portfolio contains fewer than 4 projects, in which case the minimum project count is 2."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "A defined portfolio must contain at least 10 projects unless the member’s total global \nportfolio contains fewer than 10 projects, in which case the minimum project count \nis two.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q49",
+      "stem": "What scales of documentation can WELL Portfolio members utilize?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Photographs, Letters of Assurance, and Project Guidelines."
+        },
+        {
+          "key": "B",
+          "text": "Individual-scale Documents, Shareable Documents and Guideline Documents."
+        },
+        {
+          "key": "C",
+          "text": "Streamlined Documents, Modeling Reports and Document Libraries."
+        },
+        {
+          "key": "D",
+          "text": "There are no scales of documentation."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "The WELL Portfolio program provides opportunities to submit documentation at \nscale to provide efficiencies in the documentation process. The scales are \nIndividual-scale Documents, Shareable Documents and Guideline Documents.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q50",
+      "stem": "What agency trains and approves WELL Performance Testing Agents for the WELL Portfolio program?",
+      "options": [
+        {
+          "key": "A",
+          "text": "BREEAM"
+        },
+        {
+          "key": "B",
+          "text": "IWBI"
+        },
+        {
+          "key": "C",
+          "text": "GBCI"
+        },
+        {
+          "key": "D",
+          "text": "LEED"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "A WELL Performance Testing Agent is trained and qualified to conduct performance \ntesting for WELL. These agents are trained and approved by GBCI.",
+      "framework_hint": ""
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "module": "M06",
+  "frameworks": [
+    {
+      "id": "M06_F1",
+      "name": "熱舒適參數與基準",
+      "desc": "T01 Thermal Performance 以 mechanically conditioned 與 naturally conditioned spaces 的 thermal comfort 條件為基礎，並引用 ASHRAE 55-2013 等 thermal comfort standards。",
+      "covers": [
+        "T01 Thermal Performance",
+        "ASHRAE 55-2013",
+        "adaptive thermal comfort",
+        "air temperature",
+        "mean radiant temperature"
+      ]
+    },
+    {
+      "id": "M06_F2",
+      "name": "驗證、分區與個人控制",
+      "desc": "T02 Verified Thermal Comfort、T03 Thermal Zoning 與 T04 Individual Thermal Control 要用 occupant satisfaction、thermal zoning、personal thermal comfort devices 與 flexible dress codes 提升舒適。",
+      "covers": [
+        "T02 Verified Thermal Comfort",
+        "T03 Thermal Zoning",
+        "T04 Individual Thermal Control",
+        "personal thermal comfort devices",
+        "flexible dress codes"
+      ]
+    },
+    {
+      "id": "M06_F3",
+      "name": "輻射系統與濕度控制",
+      "desc": "T05 Radiant Thermal Comfort 與 T07 Humidity Control 關注 radiant systems、independently controlled ventilation、relative humidity、off-gassing 與 pathogen growth。",
+      "covers": [
+        "T05 Radiant Thermal Comfort",
+        "T07 Humidity Control",
+        "radiant systems",
+        "relative humidity",
+        "pathogen growth"
+      ]
+    },
+    {
+      "id": "M06_F4",
+      "name": "熱舒適監測與回饋",
+      "desc": "T06 Thermal Comfort Monitoring 要用 sensors 與 displays 持續監測 thermal comfort parameters，讓管理者與使用者能辨識偏差並回應。",
+      "covers": [
+        "T06 Thermal Comfort Monitoring",
+        "sensors",
+        "displays",
+        "Performance Verification Guidebook",
+        "thermal comfort parameters"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M06_Q01",
+      "stem": "Feature T05: Radiant Thermal Comfort can be achieved through the use of radiant heating and cooling elements, independent of ventilation systems, in which two space types?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lobbies and offices"
+        },
+        {
+          "key": "B",
+          "text": "Conference rooms and teleconference rooms"
+        },
+        {
+          "key": "C",
+          "text": "Offices and conference rooms"
+        },
+        {
+          "key": "D",
+          "text": "Stairways and lobbies"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Lobbies and offices",
+      "framework_hint": "M06_F3"
+    },
+    {
+      "id": "M06_Q02",
+      "stem": "According to the WELL Thermal Comfort concept the human body maintains a stable internal body temperature using what process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Poikilothermy"
+        },
+        {
+          "key": "B",
+          "text": "Homeothermy"
+        },
+        {
+          "key": "C",
+          "text": "Kleptothermy"
+        },
+        {
+          "key": "D",
+          "text": "Heterothermy"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Homeothermy is the balancing of heat gains and losses to maintain the bodys core \ntemperature within a narrow range.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q03",
+      "stem": "In order to achieve Feature T05: Radiant Thermal Comfort, what minimum percentage of floor area in all offices and other regularly occupied spaces must meet the requirements set for in the ASHRAE Standard 55-2013 for thermal comfort through the use of hydronic radiant heating and/or cooling systems or along with electric radiant systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "40%"
+        },
+        {
+          "key": "B",
+          "text": "20%"
+        },
+        {
+          "key": "C",
+          "text": "30%"
+        },
+        {
+          "key": "D",
+          "text": "50%"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M06_F3"
+    },
+    {
+      "id": "M06_Q04",
+      "stem": "An open office with large west-facing windows has 29 identical workstations, 10 of which are located next to the exterior windows. According to Feature T04: Individual Thermal Control, which of the following allows occupants to work in a space with their desired temperature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Curtains/blinds"
+        },
+        {
+          "key": "B",
+          "text": "Tinted windows"
+        },
+        {
+          "key": "C",
+          "text": "Thermostat"
+        },
+        {
+          "key": "D",
+          "text": "Personal heating and cooling options"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q05",
+      "stem": "In the WELL Thermal Comfort concept which of the following is NOT a benefit of radiant temperature systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Higher relative humidity in winter."
+        },
+        {
+          "key": "B",
+          "text": "Lower dust transportation."
+        },
+        {
+          "key": "C",
+          "text": "Saved floor space."
+        },
+        {
+          "key": "D",
+          "text": "Higher mean radiant temperature."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature T05:Radiant Thermal Comfort.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q06",
+      "stem": "According to the Thermal Comfort concept, how many of the office buildings surveyed in the U.S. provided thermal environments that met generally accepted goals of occupant satisfaction?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20%"
+        },
+        {
+          "key": "B",
+          "text": "11%"
+        },
+        {
+          "key": "C",
+          "text": "5%"
+        },
+        {
+          "key": "D",
+          "text": "27%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Overview of Feature T02 Enhanced Thermal Performance.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q07",
+      "stem": "In the WELL Thermal Comfort concept how many primary personal and environmental variables contribute to an occupant's thermal comfort?",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Overview of Feature T01: Thermal Performance.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q08",
+      "stem": "In the Thermal Comfort concept, which of the following ASHRAE Standard aims to provide a thermal environment, where at least 80% of people will perceive the thermal environment as acceptable.",
+      "options": [
+        {
+          "key": "A",
+          "text": "ASHRAE Standard 60"
+        },
+        {
+          "key": "B",
+          "text": "ASHRAE Standard 55"
+        },
+        {
+          "key": "C",
+          "text": "ASHRAE Standard 30"
+        },
+        {
+          "key": "D",
+          "text": "ASHRAE Standard 45"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature T01: Thermal Performance.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q09",
+      "stem": "Which of the following best describes homeothermy from the Thermal Comfort concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maintaining body core heat through internal means and regulated by the cerebellum."
+        },
+        {
+          "key": "B",
+          "text": "Stabling of external body temperature regardless of internal influence and regulated by the amygdala."
+        },
+        {
+          "key": "C",
+          "text": "The balancing of heat gains and losses to maintain the body's core temperature within its narrow range, 36-38 degrees C [97-100 degrees F], and regulated by the hypothalamus."
+        },
+        {
+          "key": "D",
+          "text": "Controlling body core temperature through internal means and regulated by the thalamus."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q10",
+      "stem": "To achieve Part 1: Survey for Thermal Comfort of Feature T02: Verified Thermal Comfort, a post-occupancy survey should be administered how many times per year and in what months?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Once at the beginning of the year."
+        },
+        {
+          "key": "B",
+          "text": "At least twice a year, including once in June, July or August and once in December, January or February, at least six months after occupancy."
+        },
+        {
+          "key": "C",
+          "text": "3 times per year in January, April and August."
+        },
+        {
+          "key": "D",
+          "text": "4 times per year, once in each fiscal quarter."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "A post-occupancy survey should be administered at least twice a year, including once \nin June, July or August and once in \nDecember, January or February, at least six months after occupancy.",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q11",
+      "stem": "Salesforce just occupied new office space in Chicago, Illinois. The office has 900 occupants that regularly report to this location. What is the minimum response rate needed for the surveys conducted at least twice a year for Part 1: Survey for Thermal Comfort of Feature T02: Verified Thermal Comfort?",
+      "options": [
+        {
+          "key": "A",
+          "text": "80%"
+        },
+        {
+          "key": "B",
+          "text": "75%"
+        },
+        {
+          "key": "C",
+          "text": "35%"
+        },
+        {
+          "key": "D",
+          "text": "25%"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q12",
+      "stem": "If a project is able to exceed the thermal comfort satisfaction thresholds by 90% or more, how many points is the project awarded for Feature T02: Verified Thermal Comfort?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q13",
+      "stem": "Projects seeking Feature T03: Thermal Zoning compliance should provide control over temperature in the space through thermostat being present in the thermal zone , or...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Supplied personal Fans and Space Heaters"
+        },
+        {
+          "key": "B",
+          "text": "A lax dress-code and company-issued coats and blankets."
+        },
+        {
+          "key": "C",
+          "text": "Work stations being located near operable windows"
+        },
+        {
+          "key": "D",
+          "text": "A digital interface accessible to occupants on a computer or phone"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q14",
+      "stem": "With the exception of high-humidity areas, the mechanical system has the capability of maintaining relative humidity at all times by what methods covered in Feature T07: Humidity Control.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding or removing moisture from the air."
+        },
+        {
+          "key": "B",
+          "text": "Reclaiming Water."
+        },
+        {
+          "key": "C",
+          "text": "Air circulation."
+        },
+        {
+          "key": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M06_F3"
+    },
+    {
+      "id": "M06_Q15",
+      "stem": "According to Feature T09 β: Outdoor Thermal Comfort, at least 50% of what areas must be shaded for more than half of the daylight hours each day by tree canopies, awnings, or other structures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Plazas, seating areas and other outdoor areas of congregation"
+        },
+        {
+          "key": "B",
+          "text": "Parking spaces"
+        },
+        {
+          "key": "C",
+          "text": "Pedestrian pathways and building entrances"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q16",
+      "stem": "Projects seeking points in Part 1: Provide Windows with Multiple Opening Modes of Feature T08 B: Enhanced Operable Windows will provide instructions for window operation through signage or other communications that indicate which of the following:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Windows are not to be opened when mechanical cooling is in operation (not required if no mechanical cooling is present or if mechanical cooling system is configured to disengage automatically when windows are open)."
+        },
+        {
+          "key": "B",
+          "text": "Windows with high openings (if present) are to be used in cold weather."
+        },
+        {
+          "key": "C",
+          "text": "Windows with low openings are to be used during mild and/or warm weather."
+        },
+        {
+          "key": "D",
+          "text": "All the above."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Instructions for window operation are provided through signage or other \ncommunications to regular building \noccupants to indicate the following: \na. Windows with low openings are to be used during mild and/or warm weather. \nb. Windows are not to be opened when mechanical cooling is in operation (not \nrequired if no mechanical cooling is \npresent or if mechanical cooling system is configured to disengage automatically \nwhen windows are open). \nc. Windows with high openings (if present) are to be used in cold weather.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q17",
+      "stem": "For Commercial Kitchen Spaces, the maximum operative temperature cannot exceed what degrees F° (C° ) per Part 1: Provide Acceptable Thermal Comfort of Feature T01: Thermal Performance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "80 ° F (27 ° C)."
+        },
+        {
+          "key": "B",
+          "text": "75 ° F (24 ° C)."
+        },
+        {
+          "key": "C",
+          "text": "70 ° F (21 ° C)."
+        },
+        {
+          "key": "D",
+          "text": "65 ° F (18 ° C)."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "For Commercial Kitchen Spaces, the operative temperature in the kitchen cannot \nexceed 80 ° F(27 ° C).",
+      "framework_hint": "M06_F1"
+    },
+    {
+      "id": "M06_Q18",
+      "stem": "In Part 2: Achieve Thermal Comfort of Feature T02: Enhanced Thermal Performance, a post-occupancy survey is administered twice a year. What specific months must the surveys be administered?",
+      "options": [
+        {
+          "key": "A",
+          "text": "March, April or May and December, January or February"
+        },
+        {
+          "key": "B",
+          "text": "June, July or August and December, January or February"
+        },
+        {
+          "key": "C",
+          "text": "June, July or August and March, April, or May"
+        },
+        {
+          "key": "D",
+          "text": "May and once in November"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q19",
+      "stem": "With Feature T01: Thermal Performance projects, when conducting ongoing monitoring, the number and location of sampling points must comply with the requirements outlined where?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thermal Comfort Index"
+        },
+        {
+          "key": "B",
+          "text": "Performance Guidelines Index"
+        },
+        {
+          "key": "C",
+          "text": "Thermal Parameters Glossary"
+        },
+        {
+          "key": "D",
+          "text": "Performance Verification Guidebook"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M06_F1"
+    },
+    {
+      "id": "M06_Q20",
+      "stem": "For Feature T01: Thermal Performance compliance, if a project's measurements are undertaken by a WELL Performance Testing Agent in compliance with the Performance Verification Guidebook, where are the results submitted to for recertification purposes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "USGBC"
+        },
+        {
+          "key": "B",
+          "text": "GBCI"
+        },
+        {
+          "key": "C",
+          "text": "IWBI"
+        },
+        {
+          "key": "D",
+          "text": "AIA"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "GBCI - Green Business Certification Inc.",
+      "framework_hint": "M06_F1"
+    },
+    {
+      "id": "M06_Q21",
+      "stem": "When seeking Feature T03: Thermal Zoning compliance, the maximum size of each thermal zone is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "650 ft² or 10 occupants, whichever is larger"
+        },
+        {
+          "key": "B",
+          "text": "750 ft² or 10 occupants, whichever is larger"
+        },
+        {
+          "key": "C",
+          "text": "850 ft² or 20 occupants, whichever is larger"
+        },
+        {
+          "key": "D",
+          "text": "650 ft² or 5 occupants, whichever is larger"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q22",
+      "stem": "Feature T05: Radiant Thermal Comfort requires projects:",
+      "options": [
+        {
+          "key": "A",
+          "text": "To use independently controlled ventilation systems."
+        },
+        {
+          "key": "B",
+          "text": "To use radiant systems and privately controlled ventilation systems."
+        },
+        {
+          "key": "C",
+          "text": "To use radiant systems and independently controlled ventilation systems."
+        },
+        {
+          "key": "D",
+          "text": "To use radiant systems and privately controlled ventilation systems."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M06_F3"
+    },
+    {
+      "id": "M06_Q23",
+      "stem": "Which WELL Thermal Comfort feature requires projects to check thermal comfort parameters in their buildings that can be used as feedback for building managers and users to take appropriate actions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "T01 Thermal Peformance"
+        },
+        {
+          "key": "B",
+          "text": "T02 Verified Thermal Comfort"
+        },
+        {
+          "key": "C",
+          "text": "T05 Radiant Thermal Comfort"
+        },
+        {
+          "key": "D",
+          "text": "T06 Thermal Comfort Monitoring"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q24",
+      "stem": "This WELL Thermal Comfort feature requires projects to design outdoor spaces to avoid excessive wind and manage elevated temperatures through shading or other strategies.",
+      "options": [
+        {
+          "key": "A",
+          "text": "T09 β Outdoor Thermal Comfort"
+        },
+        {
+          "key": "B",
+          "text": "T03 Thermal Zoning"
+        },
+        {
+          "key": "C",
+          "text": "T02 Verified Thermal Comfort"
+        },
+        {
+          "key": "D",
+          "text": "T01 Thermal Performance"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q25",
+      "stem": "In Part 1: Manage Relative Humidity of Feature T07: Humidity Control , the mechanical system must have the capability of maintaining relative humidity in what range?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0% to 40%"
+        },
+        {
+          "key": "B",
+          "text": "30% to 60%"
+        },
+        {
+          "key": "C",
+          "text": "15% to 30%"
+        },
+        {
+          "key": "D",
+          "text": "40% to 70%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M06_F3"
+    }
+  ]
+}

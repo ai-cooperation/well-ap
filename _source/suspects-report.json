@@ -1,0 +1,268 @@
+[
+  {
+    "id": "M01_Q06",
+    "module": "M01",
+    "note": "Marked concept is carbon monoxide, but the option unit contradicts the standard: it should be 10 mg/m³ [9 ppm], not 10 ug/m.",
+    "corrected_correct": "",
+    "stem": "An office building's air quality test has met the minimum requirement for ozone in Part 3: Inorganic Gases of Feature A01: Air Quality. What other minimum standard is also required in Part 3 of that feature for WELL Certification?"
+  },
+  {
+    "id": "M01_Q30",
+    "module": "M01",
+    "note": "A08 requires annual submission through the WELL digital platform, but the standard text does not state analysis for regularly occupied hours for this feature.",
+    "corrected_correct": "",
+    "stem": "Which of the following are ongoing requirements for indoor air monitoring in Feature A08: Air Quality Monitoring and Awareness?"
+  },
+  {
+    "id": "M02_Q03",
+    "module": "M02",
+    "note": "Stem is vague; for W01 turbidity limits the standard points to on-site performance testing, not an ongoing data report.",
+    "corrected_correct": "A",
+    "stem": "Which of the following building systems deal with turbidity limits?"
+  },
+  {
+    "id": "M02_Q19",
+    "module": "M02",
+    "note": "W02 supports RO/carbon for capturing contaminants, but microbial control is more directly supported by UV in W01 Solutions.",
+    "corrected_correct": "D",
+    "stem": "A software company is building a new 100,000 sq ft office building in San Francisco. The client is concerned with microbial growth in the building's internal water supply. Which of the following filtration system would help prevent microbial growth in the potable water according to Feature W02: Drinking Water Quality?"
+  },
+  {
+    "id": "M02_Q46",
+    "module": "M02",
+    "note": "提供的 wellv2-standard.txt 未包含 cold water fixture 採樣溫度程序，無法用指定 grounding 驗證。",
+    "corrected_correct": "",
+    "stem": "When testing the water quality, what temperature should the water be when tested?"
+  },
+  {
+    "id": "M02_Q47",
+    "module": "M02",
+    "note": "提供的 wellv2-standard.txt 未包含 run water 30 seconds 的採樣程序，無法用指定 grounding 驗證。",
+    "corrected_correct": "",
+    "stem": "A WELL Certified office building is testing the building's water supply for levels of disinfectants. In order to obtain a proper sample, how long must the water be running before gathering a sample?"
+  },
+  {
+    "id": "M03_Q09",
+    "module": "M03",
+    "note": "WELL v2 standard text searched here does not state this body-system bacteria fact as a feature requirement.",
+    "corrected_correct": "",
+    "stem": "Which of the following body systems contain the largest reservoir of bacteria, which can play a role in immune health?"
+  },
+  {
+    "id": "M03_Q11",
+    "module": "M03",
+    "note": "Option B also includes micronutrient content, which is not required by N02 Part 1, making the single-answer wording ambiguous.",
+    "corrected_correct": "",
+    "stem": "A building occupant purchases a prepared lunch and pre-packed snack from the cafeteria. According to Feature N02: Nutritional Transparency, which of the following is NOT a required label for these foods?"
+  },
+  {
+    "id": "M03_Q13",
+    "module": "M03",
+    "note": "Stem says N02, but WELL v2 Food Advertising is N04. The marked answer matches N04 intent.",
+    "corrected_correct": "",
+    "stem": "Which of the following is a goal of Feature N02: Food Advertising?"
+  },
+  {
+    "id": "M03_Q20",
+    "module": "M03",
+    "note": "Stem uses Responsible Food Production, but WELL v2 N11 is Responsible Food Sourcing. The marked answer captures the 50% produce threshold, though the animal-product wording is narrower than the standard.",
+    "corrected_correct": "",
+    "stem": "In order to meet the requirements of Feature N11: Responsible Food Production, which of the following must be true about produce sold or distributed on-site on a daily basis?"
+  },
+  {
+    "id": "M03_Q21",
+    "module": "M03",
+    "note": "Stem uses Responsible Food Production, but WELL v2 N11 is Responsible Food Sourcing. The question overstates 'all' and 'and'; the standard uses at least 25% animal product line and organic/Humane/seafood certification pathways.",
+    "corrected_correct": "",
+    "stem": "Which of the following labels for all meat, egg, and dairy products sold or distributed on-site are required by Feature N11: Responsible Food Production?"
+  },
+  {
+    "id": "M03_Q27",
+    "module": "M03",
+    "note": "Provided WELL v2 text verifies N08 spatial requirements but does not specify IWBI verification method; cannot confirm C from the standard excerpt.",
+    "corrected_correct": "",
+    "stem": "Feature N08: Mindful Eating dictates that spaces must have a dedicated eating space and that eligible employees must be provided with daily meal breaks. What verification method is required to submit the documentation for the dedicated eating space to IWBI?"
+  },
+  {
+    "id": "M03_Q48",
+    "module": "M03",
+    "note": "Stem says Feature N10: Food Production, but N10 is Food Preparation; 650 ft matches N10 Part 1 Provide Meal Support.",
+    "corrected_correct": "",
+    "stem": "A library in Seattle will be providing one dedicated eating area. In order to fulfill the requirements of Feature N10: Food Production, the dedicated eating area must be provided within what distance of the project boundary?"
+  },
+  {
+    "id": "M04_Q43",
+    "module": "M04",
+    "note": "題幹寫 L01 且稱 2 points，但 L01 是 precondition；所列 2-point threshold 屬於 L06 Part 1。",
+    "corrected_correct": "",
+    "stem": "A new corporate headquarters building is being constructed in a dense urban area. During the design phase, lighting simulations demonstrate that 40% of regularly occupied space receives at least 300 lux (28fc) for over 50% of operating hours each year. What should the designers change to earn 2 points in Feature L01: Light Exposure?"
+  },
+  {
+    "id": "M04_Q48",
+    "module": "M04",
+    "note": "提供的 WELL v2 standard text 未直接定義 AAP；答案符合 WELL 認證常用術語，但非本 Light 章條文。",
+    "corrected_correct": "",
+    "stem": "What is an AAP?"
+  },
+  {
+    "id": "M05_Q06",
+    "module": "M05",
+    "note": "Marked option is a listed V09 incentive, but the stem says each employee is entitled to it; V09 only requires offering at least two programs, not that every listed benefit is guaranteed.",
+    "corrected_correct": "",
+    "stem": "A team of 15 employees are training for a city marathon. Each employee has participated in various events throughout the year. Assuming their employer has a policy that meets Part 1: Offer Physical Activity Incentives of Feature V09: Physical Activity Promotion, which of the following is each employee entitled to?"
+  },
+  {
+    "id": "M06_Q01",
+    "module": "M06",
+    "note": "Provided WELL v2 text states at least 50% of regularly occupied project area, not specific pair of space types.",
+    "corrected_correct": "",
+    "stem": "Feature T05: Radiant Thermal Comfort can be achieved through the use of radiant heating and cooling elements, independent of ventilation systems, in which two space types?"
+  },
+  {
+    "id": "M06_Q02",
+    "module": "M06",
+    "note": "Homeothermy is biologically correct, but the provided WELL v2 standard text does not directly state this term.",
+    "corrected_correct": "",
+    "stem": "According to the WELL Thermal Comfort concept the human body maintains a stable internal body temperature using what process?"
+  },
+  {
+    "id": "M06_Q09",
+    "module": "M06",
+    "note": "The biological description is correct, but the provided WELL v2 text does not directly state 36-38 degrees C or hypothalamus.",
+    "corrected_correct": "",
+    "stem": "Which of the following best describes homeothermy from the Thermal Comfort concept?"
+  },
+  {
+    "id": "M06_Q18",
+    "module": "M06",
+    "note": "Month pair matches current T02 requirement, but current WELL v2 names it T02 Verified Thermal Comfort Part 1, not Enhanced Thermal Performance Part 2.",
+    "corrected_correct": "",
+    "stem": "In Part 2: Achieve Thermal Comfort of Feature T02: Enhanced Thermal Performance, a post-occupancy survey is administered twice a year. What specific months must the surveys be administered?"
+  },
+  {
+    "id": "M07_Q27",
+    "module": "M07",
+    "note": "Stem cites Feature S02, but Sound Reducing Surfaces and acoustical treatment are in Feature S05.",
+    "corrected_correct": "",
+    "stem": "A solution in Feature S02: Sound Reducing Surfaces that minimizes reverberation, significantly reduces sound across human speech frequencies and can greatly reduce unwanted buildup of reflected sound is called?"
+  },
+  {
+    "id": "M07_Q31",
+    "module": "M07",
+    "note": "S06 Part 2 also requires two points in S03 Part 2 or S05 Part 1; option B is necessary but not sufficient.",
+    "corrected_correct": "",
+    "stem": "A WELL project is working on obtaining 1 point for Part 1: Enhanced Speed Reduction Feature S06: Minimum Background Sound. Which features must the project meet in order to earn this point?"
+  },
+  {
+    "id": "M07_Q37",
+    "module": "M07",
+    "note": "Stem says Feature S07 Enhanced Audio Designs, but the requirement is Feature S08 Enhanced Audio Devices Part 2.",
+    "corrected_correct": "",
+    "stem": "According to Part 2: Prioritize Audio Devices and Policies of Feature S07: Enhanced Audio Designs, which of the following does NOT aid in the support of individual acoustical needs?"
+  },
+  {
+    "id": "M08_Q12",
+    "module": "M08",
+    "note": "題幹問 percentage，但選項與 WELL v2 標準為 ppm；marked correct 對應 over 90 ppm。",
+    "corrected_correct": "",
+    "stem": "A WELL project is assessing the paint on existing playground equipment. What percentage of lead, if found, will require the abatement process?"
+  },
+  {
+    "id": "M08_Q28",
+    "module": "M08",
+    "note": "WELL v2 standard names X05 as Enhanced Material Restrictions, not Enhanced Material Precaution; the independently verified hazard-free concept aligns more closely with X08, which is not offered.",
+    "corrected_correct": "",
+    "stem": "Which of the following WELL features promotes the use of products that have been independently verified to be free of many suspected hazards?"
+  },
+  {
+    "id": "M08_Q32",
+    "module": "M08",
+    "note": "The marked option is closest to X11 Part 2 but overstates the standard: WELL restricts specific GHS Category 1/1A/1B hazard codes for cleaning, disinfection and sanitization products; it does not broadly ban all GHS-classified ingredients or include soaps/shampoos as written.",
+    "corrected_correct": "",
+    "stem": "A janitorial company is beginning work at a WELL Certified building, and several requirements related to the WELL Building Standard are written into the contract. Since the project has achieved Feature X11: Cleaning Products and Protocols, which of the following requirements must be met?"
+  },
+  {
+    "id": "M08_Q34",
+    "module": "M08",
+    "note": "The provided WELL v2 text confirms X07 Part 3 ingredient disclosure and third-party verification requirements, but does not list IWBI verification method in the excerpt; C is plausible but not directly cross-checkable from the supplied standard text.",
+    "corrected_correct": "",
+    "stem": "Feature X07: Material Transparency includes Part 3: Select Products with Third-Party Verified Ingredients. What verification method is required through IWBI?"
+  },
+  {
+    "id": "M08_Q43",
+    "module": "M08",
+    "note": "The supplied WELL v2 text confirms X02 Part 2 prior remediation/legal documentation requirements, but does not specify the IWBI verification method; C cannot be directly confirmed from the provided standard text.",
+    "corrected_correct": "",
+    "stem": "During a renovation of a project in Sarasota, FL, is demonstration prior remediation of lead paint in the building. What does Feature X02: Interior Hazardous Materials Management require to verify this prior remediation?"
+  },
+  {
+    "id": "M08_Q46",
+    "module": "M08",
+    "note": "The WELL v2 text names local environmental site assessment regulation, ASTM E1527-05 Phase I, and if contaminants are indicated ASTM E1903-97 Phase II; it does not name the Soil Quality Guidance option, so 'Both A and B' is not supported.",
+    "corrected_correct": "B",
+    "stem": "A team in Sarasota is renovating an old Fuel Station into a WELL Certified farm-to-table restaurant. What standard must be used for the site assessment, prior to construction?"
+  },
+  {
+    "id": "M08_Q49",
+    "module": "M08",
+    "note": "The supplied WELL v2 text confirms X03 Part 1 applicability to exterior CCA wood structures but does not list the IWBI verification method for documenting non-applicability; D is plausible but not directly cross-checkable from the excerpt.",
+    "corrected_correct": "",
+    "stem": "An office building in Jacksonville does not include exterior areas, bare soil, artificial turf, playgrounds, or surfaces containing loose-fill rubber within the project boundary. What verification method would the project team use to document compliance with Part 1: Manage Exterior CCA Hazards of Feature X03: CCA and Lead Management?"
+  },
+  {
+    "id": "M08_Q50",
+    "module": "M08",
+    "note": "The supplied WELL v2 text confirms X04 technical assessment, testing and remediation requirements, but does not explicitly list the IWBI verification method; A is plausible but not directly cross-checkable from the excerpt.",
+    "corrected_correct": "",
+    "stem": "WELL Feature X04: Site Remediation requires site assessment, testing, and remediation for the development of contaminated sites. What verification method is required to satisfy the requirements of this feature?"
+  },
+  {
+    "id": "M09_Q26",
+    "module": "M09",
+    "note": "Stem says alcohol and drug use, but the 32% figure in the standard applies to mental health and substance use conditions collectively, as years lived with disability.",
+    "corrected_correct": "",
+    "stem": "Alcohol and drug use contribute to the global burden of disease. What is the estimated percentage of people living with disability?"
+  },
+  {
+    "id": "M09_Q43",
+    "module": "M09",
+    "note": "Full standard text confirms a 30-minute nap/rest break allowance but does not explicitly state that scheduling specific times fails the feature requirement.",
+    "corrected_correct": "",
+    "stem": "An office building that includes a customer service call center is trying to achieve WELL Certification. In order to receive credit for Part 2: Provide Nap Policy and Space of Feature M06: Restorative Opportunities, can the customer service call center schedule nap and/or rest breaks for a specific time per employee in order to ensure proper coverage in calls?"
+  },
+  {
+    "id": "M10_Q29",
+    "module": "M10",
+    "note": "The marked concept matches C12 living wage language, but the scenario gives no actual wage or local living-wage benchmark to prove non-compliance.",
+    "corrected_correct": "",
+    "stem": "XYZ Corp has offices across the United States. They ask a long-time employee from their Atlanta office to relocate to Los Angeles to help establish their new outfit. They plan to pay for the employee's relocation and provided a $ 1,000.00 increase in pay. The employee has family on the West Coast they will live with upon arriving and expressed how excited they are for this new adventure. Is XYZ Corp in compliance with the standards set forth in Feature C12: Diversity and Inclusion?"
+  },
+  {
+    "id": "M10_Q37",
+    "module": "M10",
+    "note": "The drill requirement appears under C03 Emergency Preparedness, not C14 Part 1; the marked answer is directionally reasonable but the cited feature is wrong.",
+    "corrected_correct": "",
+    "stem": "Feature C14: Emergency Resources provides resources, personnel and training to help organizations respond to diverse emergency situations. In Part 1: Promote Emergency Resources, are project owners required to make tenants participate in practice drills for emergency preparedness and response?"
+  },
+  {
+    "id": "M10_Q38",
+    "module": "M10",
+    "note": "No post-occupancy survey deadline is visible in C15 Part 3 of the provided WELL v2 standard; only consultation prior to and just after re-entry is specified.",
+    "corrected_correct": "",
+    "stem": "Feature C15 β: Emergency Resilience and Recovery seeks assist organizations to maintain business function, during and after emergencies. In the case of extended remote work, office closures, or other extreme events requiring a delayed and/or staggered return to the office, how long do projects have to implement the post-occupancy survey?"
+  },
+  {
+    "id": "M10_Q39",
+    "module": "M10",
+    "note": "The standard does require at least one dedicated lactation room, plus quantity based on current and anticipated demand; option D overstates “no specific requirements.”",
+    "corrected_correct": "A",
+    "stem": "How many lactation rooms are needed for a project to comply with Feature C09: New Mother Support?"
+  },
+  {
+    "id": "M10_Q47",
+    "module": "M10",
+    "note": "A, B and C are all true C09 Part 2 requirements; the item is not uniquely answerable as a single-correct question.",
+    "corrected_correct": "",
+    "stem": "Feature C09: New Mother support requires that a project must provide at least one dedicated lactation room for employees that:"
+  }
+]

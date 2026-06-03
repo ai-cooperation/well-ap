@@ -1,0 +1,680 @@
+{
+  "module": "M05",
+  "frameworks": [
+    {
+      "id": "M05_F1",
+      "name": "主動建築與動線設計",
+      "desc": "V01 Active Buildings and Communities、V03 Circulation Network 與 V05 Site Planning and Selection 用 staircase visibility、walkability、site amenities 促進日常 movement。",
+      "covers": [
+        "V01 Active Buildings and Communities",
+        "V03 Circulation Network",
+        "V05 Site Planning and Selection",
+        "stair use",
+        "walkability"
+      ]
+    },
+    {
+      "id": "M05_F2",
+      "name": "人體工學工作站",
+      "desc": "V02 Ergonomic Workstation Design 要降低 physical strain，WELL v2 範例提到 V02 Part 1 requires adjustable height workstations for at least 25% of all workstations。",
+      "covers": [
+        "V02 Ergonomic Workstation Design",
+        "adjustable height workstations",
+        "at least 25% of all workstations",
+        "neutral posture",
+        "ergonomics"
+      ]
+    },
+    {
+      "id": "M05_F3",
+      "name": "主動通勤與活動設施",
+      "desc": "V04 Facilities for Active Occupants、V08 Physical Activity Spaces and Equipment 與 V06 Physical Activity Opportunities 用 bike storage、showers、activity spaces 與 no-cost activity opportunities 支援 active occupants。",
+      "covers": [
+        "V04 Facilities for Active Occupants",
+        "V06 Physical Activity Opportunities",
+        "V08 Physical Activity Spaces and Equipment",
+        "bike storage",
+        "showers"
+      ]
+    },
+    {
+      "id": "M05_F4",
+      "name": "久坐中斷與行為回饋",
+      "desc": "V07 Active Furnishings、V09 Physical Activity Promotion 與 V10 Self-Monitoring 對應 sit-stand furnishings、physical activity incentives 與 wearable technology。",
+      "covers": [
+        "V07 Active Furnishings",
+        "V09 Physical Activity Promotion",
+        "V10 Self-Monitoring",
+        "sit-stand workstation",
+        "wearable technology"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M05_Q01",
+      "stem": "Approximately how much of the adult population is estimated to be physically inactive?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50%"
+        },
+        {
+          "key": "B",
+          "text": "25%"
+        },
+        {
+          "key": "C",
+          "text": "35%"
+        },
+        {
+          "key": "D",
+          "text": "15%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Review the Movement Concept, Background.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q02",
+      "stem": "An existing four-story building recently underwent a major renovation to convert its layout from 8 separate suites into one large headquarters for a corporate tenant. The new tenant is interested in open staircases to connect all four floors and promote walkability visually. According to Part 3: Promote Visible Stairs of Feature V03: Circulation Network, where should at least one of the staircases be located?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Before the elevator or escalator"
+        },
+        {
+          "key": "B",
+          "text": "Close to the restrooms"
+        },
+        {
+          "key": "C",
+          "text": "In view of the reception area"
+        },
+        {
+          "key": "D",
+          "text": "Near the parking area"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "At least one staircase is open to regular occupants, services all floors of the project \nand meets the following \nrequirement: \na. Located physically and/or visibly before elevators/escalators as measured from the \nmain point of entry to the building. \nNote: Interiors projects may count base building stairs, which connect the project to \nthe ground floor or lobby towards \nfeature requirements, even if base building stairs are outside of the project \nboundary.",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q03",
+      "stem": "In a lobby on the way to their offices, what design elements should included in the staircase that is available to regular occupants to meet the requirements of Part 1: Design Aesthetic Staircases of Feature V03: Circulation Network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Point-of-decision signage directing them to the staircase."
+        },
+        {
+          "key": "B",
+          "text": "No-smoking signage."
+        },
+        {
+          "key": "C",
+          "text": "Natural design elements (ex. indoor plants)."
+        },
+        {
+          "key": "D",
+          "text": "A lounge with moveable chairs and tables."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "At least one staircase is open to regular occupants, services all floors of the project \nand is aesthetically designed through the inclusion of at least two independent \nstrategies from the following list on each floor: \nMusic, Artwork, Light levels of at least 215 lux when in use, Windows or skylights \nthat provide access to daylight, Natural design elements (e.g., plants, water features, \nimages of nature), Gamification.",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q04",
+      "stem": "The lobby and central staircase of a building includes several large paintings. What other component of the staircase would qualify this project, according to Part 1: Design Aesthetic Staircases of Feature V03: Circulation Network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Music."
+        },
+        {
+          "key": "B",
+          "text": "Signage to encourage stair use."
+        },
+        {
+          "key": "C",
+          "text": "Staircase with a minimum width of 1.4m [56 inches]."
+        },
+        {
+          "key": "D",
+          "text": "A drinking fountain."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "According to Feature VO3: Circulation Network, at least one staircase is open to \nregular occupants, services all floors of the project, and is aesthetically designed \nthrough the inclusion of at least two of the following on each floor: \na. Music \nb. Artwork. \nc. Light levels of at least 215 lux when in use \nd. Windows or skylights that provide access to daylight \ne. Natural design elements (e.g., plants, water features, images of nature). \nf. Gamification.",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q05",
+      "stem": "Which of the following incentive strategies should an employer implement to help meet the requirements of Part 1: Incentives for Eligible Employees of Feature V09: Physical Activity Promotion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Award a $50 subsidy per month to occupants who engage in alternative transportation at least 3 days per week."
+        },
+        {
+          "key": "B",
+          "text": "Offer an extra discount in the cafeteria."
+        },
+        {
+          "key": "C",
+          "text": "Provide company sponsored safety equipment such as helmets and lights."
+        },
+        {
+          "key": "D",
+          "text": "Flexible work hours to accommodate physical activity."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "According to Part 1: Incentives for Eligible Employees, the project must offer at least \ntwo of the following physical activity promotion programs to eligible employees: \na. Rewards for physical activity engagement (e.g., prizes, financial rewards). \nb. A subsidy towards physical activity costs incurred by employees (e.g., membership \nfees or group fitness classes), including those incurred during business travel. \nc. Reductions in health care premiums based on physical activity engagement. \nd. Flexible work hours to accommodate physical activity. \ne. Paid time off for physical activity with a minimum of four days per calendar year. \nDays must be used towards physical activity engagement or recovery and may not be \ndeducted from regular paid time off or other employer-provided time off from work \n(e.g., sick leave, standard paid holidays).",
+      "framework_hint": "M05_F4"
+    },
+    {
+      "id": "M05_Q06",
+      "stem": "A team of 15 employees are training for a city marathon. Each employee has participated in various events throughout the year. Assuming their employer has a policy that meets Part 1: Offer Physical Activity Incentives of Feature V09: Physical Activity Promotion, which of the following is each employee entitled to?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A subsidy to cover the costs of participation in sports events (races, sports teams, team fitness events)."
+        },
+        {
+          "key": "B",
+          "text": "50% reimbursement for software or wearable technology that tracks physical activity and eating habits."
+        },
+        {
+          "key": "C",
+          "text": "Monthly on-site training programs by certified personal trainers."
+        },
+        {
+          "key": "D",
+          "text": "Reductions in health care premiums based on physical activity engagement."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "According to Part1: Offer Physical Activity Incentives of Feature V09 Physical Activity \nPromotion, 2 of the following programs must be offered to achieve 1: Incentives for \neligible employees. \nRewards for physical activity engagement (e.g., prizes, financial rewards). \nA subsidy towards physical activity costs incurred by employees (e.g., membership \nfees or group fitness classes), including those incurred during business travel. \nReductions in health care premiums based on physical activity engagement. \nFlexible work hours to accommodate physical activity. \nPaid time off for physical activity with a minimum of four days per calendar year. \nDays must be used towards physical activity engagement or recovery and may not be \ndeducted from regular paid time off or other employer-provided time off from work \nNo cost fitness opportunities that 30% of occupants participated in weekly over six \nmonth",
+      "framework_hint": "M05_F4"
+    },
+    {
+      "id": "M05_Q07",
+      "stem": "A company is ordering new chairs for its 100 office workers. What feature is not required for the chairs to qualify under Part 3: Provide Chair Adjustability of Feature V02: Ergonomic Workstation Design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adjustable seat height."
+        },
+        {
+          "key": "B",
+          "text": "Lumbar support."
+        },
+        {
+          "key": "C",
+          "text": "Adjustable seat depth."
+        },
+        {
+          "key": "D",
+          "text": "Removable wheels."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Wheels are not mentioned in Part 3: Provide Chair Adjustability of Feature V02 \nErgonomic Workstation Design.",
+      "framework_hint": "M05_F2"
+    },
+    {
+      "id": "M05_Q08",
+      "stem": "What is the minimum Walk Score needed to meet the requirements of Part 1: Select Sites with Pedestrian-friendly Streets of Feature V05: Site Planning and Selection?",
+      "options": [
+        {
+          "key": "A",
+          "text": "80"
+        },
+        {
+          "key": "B",
+          "text": "50"
+        },
+        {
+          "key": "C",
+          "text": "70"
+        },
+        {
+          "key": "D",
+          "text": "40"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q09",
+      "stem": "In order to achieve the WELL Precondition Feature V01: Active Buildings and Communities, the project must earn at least one point from a design-based optimization. Which optimization feature is acceptable to achieve this point?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature V02: Ergonomic Workstation Design."
+        },
+        {
+          "key": "B",
+          "text": "Feature V08: Physical Activity Spaces & Equipment."
+        },
+        {
+          "key": "C",
+          "text": "Feature V06: Physical Activity Opportunities."
+        },
+        {
+          "key": "D",
+          "text": "Feature V10: Self Monitoring."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "The project much achieve at least one point in one of the following features: \nFeature V03:  Circulation Network  \nFeature V04:  Facilities for Active Occupants  \nFeature V05:  Site Planning and Selection  \nFeature V08:  Physical Activity Spaces and Equipment",
+      "framework_hint": "M05_F1"
+    },
+    {
+      "id": "M05_Q10",
+      "stem": "A new employee at an office building has opted to ride their bike to work every day to avoid driving. Which of the following is required for Feature V04: Facilities for Active Occupants?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Employees are provided bicycle locks and a yearly reimbursement of $175 for alternative transportation."
+        },
+        {
+          "key": "B",
+          "text": "Tire pumps and a monthly reimbursement of $15."
+        },
+        {
+          "key": "C",
+          "text": "Complimentary shaded bicycle racks with private locks for every occupant."
+        },
+        {
+          "key": "D",
+          "text": "Bicycle maintenance tools (tire pumps, patch kits, and hex keys) are available."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q11",
+      "stem": "To achieve Part 2: Provide Outdoor Physical Activity Space of Feature V08: Physical Activity Spaces, which of the following might be available to building occupants at a property that has achieved WELL Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Walking trails with benches, 1.6 km (1.0 mi) from the building."
+        },
+        {
+          "key": "B",
+          "text": "Outdoor track facility at a local college, accessible by regular shuttle to and from the building."
+        },
+        {
+          "key": "C",
+          "text": "A fitness zone with all-weather fitness equipment."
+        },
+        {
+          "key": "D",
+          "text": "Tennis courts 1 km (0.6 mi) from the building."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q12",
+      "stem": "To encourage alternative transportation and daily fitness, a property manager recently installed showers and changing rooms at an urban property. The new area contains 1 shower and changing room for the first 100 regular building occupants, plus an additional shower for every 150 regular building occupants thereafter. What other additional onsite facility must be present in order to qualify this property for Part 2: Provide Showers, Lockers and Changing Facilities of Feature V04: Facilities for Active Occupants?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two lockers for every shower."
+        },
+        {
+          "key": "B",
+          "text": "Five lockers for every shower."
+        },
+        {
+          "key": "C",
+          "text": "Treadmills for every 10 regular building occupants."
+        },
+        {
+          "key": "D",
+          "text": "Treadmills for every 5 regular building occupants."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q13",
+      "stem": "An employee has access to her building's gym and regularly uses the treadmill. In combination with the treadmill, what additional amenity should she be able to use according to Part 1: Provide Indoor Activity Spaces of Feature V08: Physical Activity Spaces and Equipment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Elliptical Machine."
+        },
+        {
+          "key": "B",
+          "text": "Water Refilling Station."
+        },
+        {
+          "key": "C",
+          "text": "Free Weights."
+        },
+        {
+          "key": "D",
+          "text": "Rowing machine."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q14",
+      "stem": "After finishing a workout at an onsite fitness facility, what would an employee have access to in a building which meets Part 2: Provide Showers, Lockers and Changing Facilities of Feature V04: Facilities for Active Occupants?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Post-workout stretching equipment."
+        },
+        {
+          "key": "B",
+          "text": "Both a shower and access to a locker."
+        },
+        {
+          "key": "C",
+          "text": "Refreshment station with fruit and a water re-fill station."
+        },
+        {
+          "key": "D",
+          "text": "Post-workout stretching equipment and access to a locker."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "V04 requires that shower stations and Locker storage are provided within a 650 ft walk of the project \nboundary.",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q15",
+      "stem": "A company with 300 employees offers individual workstations to each employee in its office. Which of the following active furnishings could be offered to earn 1 point for Feature V07: Active Furnishing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "100 treadmill desks."
+        },
+        {
+          "key": "B",
+          "text": "150 adjustable height standing desks and 150 desk-top height adjustment stands."
+        },
+        {
+          "key": "C",
+          "text": "150 desk-top height adjustment stands."
+        },
+        {
+          "key": "D",
+          "text": "50 treadmill desks."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F4"
+    },
+    {
+      "id": "M05_Q16",
+      "stem": "A small office building has 10 employees. Five workspaces each have one standard desk and one side table for storage. To reduce prolonged sitting, what should 3 of the other 5 workstations include according to Part 2: Provide Height-Adjustable Work Surfaces of Feature V02: Ergonomic Design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A balance ball chair."
+        },
+        {
+          "key": "B",
+          "text": "A treadmill desk."
+        },
+        {
+          "key": "C",
+          "text": "An adjustable-height work surface."
+        },
+        {
+          "key": "D",
+          "text": "A workstation chair with adjustable height ."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M05_F2"
+    },
+    {
+      "id": "M05_Q17",
+      "stem": "A building has recently renovated its gym according to Part 1: Provide Indoor Activity Spaces of Feature V08: Physical Activity Spaces and Equipment. Building occupants may see which of the following resistance training equipment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stability Ball"
+        },
+        {
+          "key": "B",
+          "text": "Yoga mats"
+        },
+        {
+          "key": "C",
+          "text": "Stair Climbers"
+        },
+        {
+          "key": "D",
+          "text": "Free Weights"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "In addition, project teams may utilize a shared gym or similar physical activity space \nlocated within 200 m [650 ft] of the WELL project boundary.",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q18",
+      "stem": "A 5-story office building includes stairs located within 7.5 m (25 ft) of the main entrance. Which of the following design features would NOT promote the use of stairs and discourage reliance on elevators?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Light levels of at least 108 lux (10 fc)."
+        },
+        {
+          "key": "B",
+          "text": "Windows with views to the outdoors."
+        },
+        {
+          "key": "C",
+          "text": "Plants in decorative urns."
+        },
+        {
+          "key": "D",
+          "text": "Music"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Light levels must be at least 215 lux (20 fc) when the stairs are in use.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q19",
+      "stem": "The Movement Concept states that if physical inactivity were reduced by 25%, approximately how many deaths could be averted globally?",
+      "options": [
+        {
+          "key": "A",
+          "text": "750,000."
+        },
+        {
+          "key": "B",
+          "text": "500,000."
+        },
+        {
+          "key": "C",
+          "text": "1,000,000."
+        },
+        {
+          "key": "D",
+          "text": "850,000."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "The WELL Movement concept aims to promote movement, foster physical activity \nand active living and discourage sedentary behavior, by creating and enhancing \nopportunities through the spaces where we spend our lives. The impact of changing \nthe global physical activity narrative is substantial. Worldwide, if physical inactivity \nwere reduced by 10%, more than half a million deaths could be averted, while over \none million deaths could be averted, if physical inactivity was reduced by 25%. \nFurthermore, the elimination of physical inactivity has been predicted to increase the \nglobal lifespan by an average of 0.68 years.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q20",
+      "stem": "Which of the following is NOT considered a key deterrent of physical activity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Time."
+        },
+        {
+          "key": "B",
+          "text": "Healthcare costs."
+        },
+        {
+          "key": "C",
+          "text": "Motivation."
+        },
+        {
+          "key": "D",
+          "text": "Poor weather."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q21",
+      "stem": "According to WELL v2™, gamification can be used to encourage building occupants to do which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Get up and take occasional walks."
+        },
+        {
+          "key": "B",
+          "text": "Be more productive."
+        },
+        {
+          "key": "C",
+          "text": "Bike to work."
+        },
+        {
+          "key": "D",
+          "text": "Take the stairs."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q22",
+      "stem": "Which of the following does NOT provide support at standing workstations, according to Part 4: Provide Support at Standing Workstations of Feature V02: Ergonomic Workstation Design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A footrest."
+        },
+        {
+          "key": "B",
+          "text": "Frequent paid breaks."
+        },
+        {
+          "key": "C",
+          "text": "A leaning chair."
+        },
+        {
+          "key": "D",
+          "text": "Antifatigue mat."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "While helpful, paid breaks are not listed in V02 as a means of ergonomic support.",
+      "framework_hint": "M05_F2"
+    },
+    {
+      "id": "M05_Q23",
+      "stem": "To meet the space and equipment requirements for Part 1: Provide Indoor Activity Spaces for V08: Physical Activity Spaces, what percentage of the building's occupants should be able to use the dedicated fitness facility at any time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10%"
+        },
+        {
+          "key": "B",
+          "text": "5%"
+        },
+        {
+          "key": "C",
+          "text": "3%"
+        },
+        {
+          "key": "D",
+          "text": "2%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Review Feature V08: Physical Activity Spaces, Part 1 Option 1: The space includes at \nleast two types of exercise equipment (e.g., free weights, treadmill) in quantities that \nallow use by at least 5% of regular occupants at any time.",
+      "framework_hint": "M05_F3"
+    },
+    {
+      "id": "M05_Q24",
+      "stem": "Proximity, connectivity, density, safety, and aesthetic are core design themes central to?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Walkable communities."
+        },
+        {
+          "key": "B",
+          "text": "Healthy communities."
+        },
+        {
+          "key": "C",
+          "text": "Green communities."
+        },
+        {
+          "key": "D",
+          "text": "Desirable Communities."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M05_Q25",
+      "stem": "According to a 2016 study, it is estimated that what percentage of people use a wearable or app to track their health and fitness?",
+      "options": [
+        {
+          "key": "A",
+          "text": "13%"
+        },
+        {
+          "key": "B",
+          "text": "25%"
+        },
+        {
+          "key": "C",
+          "text": "33%"
+        },
+        {
+          "key": "D",
+          "text": "41%"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Refer to Feature V10: Self-Monitoring",
+      "framework_hint": ""
+    }
+  ]
+}

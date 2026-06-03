@@ -1,0 +1,21 @@
+You are producing Traditional-Chinese (繁體中文) quick-study summaries for WELL v2 features, for Taiwanese learners preparing the WELL AP exam.
+
+INPUT FILE: _source/zh_in/{TAG}.json
+  { module, name, features:[{code, name, type(precondition|optimization), intent, summary, parts:[{title, body}]}] }
+The English fields are verbatim from the WELL v2 standard. Treat them as the ground truth.
+
+TASK: For EACH feature, output a Chinese study object:
+{
+  "code": "<same code, verbatim>",
+  "zh_name": "<繁體中文 feature 名稱>",          // e.g. "空氣品質"、"無菸環境". Keep it concise; this is the Chinese half of the EN/ZH name pair.
+  "zh_summary": "<繁體中文 2-3 句重點摘要>",       // 這個 feature 要求什麼、為何重要。繁中為主、WELL 英文術語保留（如 PM2.5, VOC, performance test）。不要逐字翻譯，要抓重點，給快速學習用。
+  "zh_specs": ["<規格/門檻/應條件 1>", "..."]      // 條列 3-6 條關鍵規格數據與達標條件。每條繁中精簡，數字與單位必須與英文原文一致逐字保留（如 "PM2.5 ≤ 15 µg/m³"、"primary caregiver 至少 12 週 paid leave"、"performance test"）。沒有明確數字的 feature 就條列關鍵 Part 要求。
+}
+
+RULES:
+- 數字、單位、門檻值一律從英文原文照抄，**嚴禁自行推算或杜撰數字**。若英文沒給數字，zh_specs 就寫該 Part 的質性要求（如 "提供 operable windows 並可開啟"）。
+- 繁體中文（台灣用語），不是簡體。WELL 專有名詞、feature 名引用、verification method（performance test / technical document 等）保留英文。
+- 不要寫客套話、不要 meta（不要說「本摘要…」）。直接給內容。
+- zh_summary 不可洩漏成是非題答案語氣，就是中性的知識摘要。
+
+OUTPUT: Write ONLY a JSON array (start with [) of the objects to _source/zh_out/{TAG}.json. One object per input feature, same order, same count. Valid JSON, no markdown fences, no prose outside the array.

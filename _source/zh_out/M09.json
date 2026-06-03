@@ -1,0 +1,142 @@
+[
+  {
+    "code": "M01",
+    "zh_name": "心理健康促進",
+    "zh_summary": "要求專案提供支持 occupant mental health 的 programs、policies 與 resources，讓員工與學生能低門檻取得心理健康支持。重點是至少提供多種免費資源，並涵蓋教育、訓練或恢復性活動等可持續措施。",
+    "zh_specs": [
+      "For All Spaces：至少 two of the following available to all employees and students at no cost。",
+      "Education or awareness efforts on mental health and well-being offered quarterly，可 in-person 或 virtually。",
+      "Trainings or courses related to mental health and well-being offered annually，可 in-person 或 virtually。",
+      "Mindfulness or restorative programming offered weekly，可 in-person 或 virtually。"
+    ]
+  },
+  {
+    "code": "M02",
+    "zh_name": "自然與地方感",
+    "zh_summary": "要求專案把自然元素整合進日常可見、可使用的空間，同時透過設計呈現文化、地方與藝術連結。這個 feature 強調 biophilic design 不只是放植物，也包含自然材料、景觀、水元素與能讓使用者產生 human delight 的場所感。",
+    "zh_specs": [
+      "For All Spaces：自然元素需整合於 common circulation routes、shared seating areas and rooms、workstations 等空間。",
+      "需納入 natural materials, patterns, shapes, colors, images or sounds。",
+      "至少 one of the following：Plants、Water 或 Nature views。",
+      "Part 2 需以設計元素回應 Celebration of culture、Celebration of place、Integration of art、Human delight。",
+      "WELL Core Guidance：Meet these requirements in non-leased spaces。"
+    ]
+  },
+  {
+    "code": "M03",
+    "zh_name": "心理健康服務",
+    "zh_summary": "要求專案提供心理健康篩檢、服務與職場支持，協助 occupants 辨識常見心理健康狀況並取得後續資源。此 feature 同時涵蓋 confidential screening、治療與藥物保障、工作調整，以及創傷事件後的 recovery resources。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；clinical screening 或 self-assessment screening tool 需 at no cost 提供給 all employees and students。",
+      "Screening 至少 addresses stress, depression, anxiety and substance use，並 confidentially 提供。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；mental health services 需 at no cost or subsidized，至少包含 clinical screening/referral、inpatient treatment、outpatient treatment including telemental health services、prescription medication coverage。",
+      "Part 3：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；supportive workplace accommodations 需 clearly described，且 employees 不需 disclose underlying health reason。",
+      "Part 4 β：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；traumatic event recovery resources 需 at no cost or subsidized，on-site、in-person within 0.25 mi(400 m) of the project boundary 或 virtually。",
+      "Part 4 β 需 including at least three of the following，例如 crisis counseling、PFA training、bereavement counseling、benefits information。"
+    ]
+  },
+  {
+    "code": "M04",
+    "zh_name": "心理健康教育",
+    "zh_summary": "要求專案定期提供 mental health education，幫助 occupants 理解自我照顧、常見心理健康議題與支持他人的方式。對 managers 另有年度訓練要求，重點在辨識 workplace stress、常見 mental health conditions，以及如何支持員工。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "Trainings 需 offered at least twice per year to regular occupants，可為 education seminars、workshops or classes。",
+      "Part 1 需 address at least two topics，例如 managing personal mental health and well-being、common mental health conditions or concerns。",
+      "Common mental health conditions or concerns 至少涵蓋 depression, anxiety, substance use, stress, and burnout, and loneliness and social isolation。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；All managers undergo annual mental health training。",
+      "Manager training 需 addresses at least three topics，包括 workplace stress-related issues、recognizing common mental health conditions or concerns、supporting employee mental health。"
+    ]
+  },
+  {
+    "code": "M05",
+    "zh_name": "壓力管理",
+    "zh_summary": "要求專案先評估組織或專案層級的壓力來源，再建立 stress management plan。考點是用具體 workplace metrics 找出壓力風險，並提出減輕或調整壓力來源的機會。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "需 develop a stress management plan。",
+      "需 assess at least three of the organization- or project-wide metrics。",
+      "可評估 frequency of employees working more than 48 hours per seven-day period。",
+      "可評估 absenteeism、use of sick days and personal days or leave due to disability or illness、unused paid time off、performance issues、employee retention and turnover rates、employee survey responses。",
+      "需 identify opportunities to address employee stress。"
+    ]
+  },
+  {
+    "code": "M06",
+    "zh_name": "恢復性機會",
+    "zh_summary": "要求專案支持工作外的恢復時間與工作中的休息機會，降低長工時與疲勞對 well-being 的影響。此 feature 聚焦 healthy working hours、shift work 通知，以及 nap policy 或 nap space 的設置。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "Option 1 Working hours：all employees 需有 A minimum of 11 consecutive hours off from work per 24-hour period。",
+      "all employees 需有 A minimum of 24 consecutive hours off from work per 7-day period。",
+      "Shift work employees：work and communications only for duration of the employee's shift，且 shift changes 需 minimum 48-hour advance notice。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；Option 1 Nap policy 允許 at least one nap or rest break of at least 30 minutes during the workday。",
+      "Option 2 Nap space：需 at least one acoustically and visually separated environment in a designated quiet zone，且 at least one fully reclining furniture option for every 100 eligible employees。"
+    ]
+  },
+  {
+    "code": "M07",
+    "zh_name": "恢復性空間",
+    "zh_summary": "要求專案提供 designated restorative space，讓 regular occupants 能在非工作用途的空間中放鬆與恢復。空間可在室內或室外，也可由多個空間組成，但需達到面積與 restorative environment 的設計條件。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "至少 one designated restorative space available to all regular occupants。",
+      "空間 may be indoor or outdoor，且 may be made up of a single space or multiple spaces。",
+      "空間需 designated for relaxation and restoration；may be multi-purpose but is not to be used for work。",
+      "總面積至少 75 ft²(7 m²) plus 1 ft²(0.1 m²) per regular occupant，up to a maximum of 2,000 ft²(186 m²)。",
+      "需 provides a restorative environment that considers at least five elements，例如 Lighting、Sound。"
+    ]
+  },
+  {
+    "code": "M08",
+    "zh_name": "恢復性活動",
+    "zh_summary": "要求專案提供持續性的 relaxation、restoration 或 mindfulness programming，讓 eligible employees 能以可負擔方式參與恢復性活動。重點是至少提供多項方案，且 mindfulness training 需由 qualified mindfulness instructor 以 live 形式進行。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "At least two of the following 需 offered to all eligible employees at no cost or subsidized by at least 50%。",
+      "Mindfulness training course 可為 eight-week mindfulness-based stress reduction course (MBSR)。",
+      "Mindfulness training course 需 offered live, either in-person or virtually, by a qualified mindfulness instructor at least twice a year。",
+      "課程需 defines mindfulness and its component parts。",
+      "課程需 covers relevant research on mindfulness，並 teaches both formal practices and informal practices。"
+    ]
+  },
+  {
+    "code": "M09",
+    "zh_name": "加強自然接觸",
+    "zh_summary": "要求專案在 M02 的基礎上進一步提高 occupants 接觸自然的機會，包含室內自然元素、戶外自然空間與附近 green/blue spaces。此 feature 的考點是自然元素與座位、工作站的可視與距離條件，以及戶外或附近自然空間的面積與步行距離門檻。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "室內需提供 indoor plants、water feature(s) and/or view(s) of natural areas，例如 green spaces 或 blue spaces。",
+      "自然元素需 within direct line of sight of at least 75% of all workstations and seats within conference rooms, lecture halls or classrooms。",
+      "自然元素需 within 33 ft(10 m) of all workstations and seats within conference rooms, lecture halls or classrooms。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 2 Pt；Option 1 Outdoor nature 需 outdoor space of an area of at least 5% of the project interior area accessible to all regular occupants。",
+      "At least 70% of the accessible outdoor space as viewed from above must include plants or natural elements；或 at least one green space or blue space within a 650 ft(200 m) walk distance from the project boundary。"
+    ]
+  },
+  {
+    "code": "M10",
+    "zh_name": "戒菸支持",
+    "zh_summary": "要求專案提供 tobacco cessation 支援，並在零售情境中限制 tobacco products 的販售與行銷。此 feature 同時看員工是否能取得戒菸誘因或資源，以及 building site 是否避免推廣含 e-cigarettes 的菸草產品。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "Option 1 Incentive program：tobacco cessation program 需提供給 all eligible employees。",
+      "Incentive program 需 focused on increasing or improving motivation or action to quit, or maintaining quit effort。",
+      "Incentive program 需 includes incentives or rewards for participation in quit effort or success in abstaining from tobacco use。",
+      "Option 2 Individual cessation resources：Tobacco cessation resources available to all eligible employees at no cost or are subsidized。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 1 Pt；For Retail Spaces，sale of tobacco products (including e-cigarettes) is prohibited within the building site，且 tobacco products (including e-cigarettes) are not marketed or promoted。"
+    ]
+  },
+  {
+    "code": "M11",
+    "zh_name": "物質使用服務",
+    "zh_summary": "要求專案以政策、教育與服務支持 substance use and addiction 的預防與照護。重點是清楚溝通 alcohol and legal, recreational drugs 的 on-site policy，並讓 eligible employees 能取得 substance use and addiction services。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "Option 1 Substance use policy：需有 policy regarding the use of alcohol and legal, recreational drugs on-site，並 clearly communicated to all regular occupants。",
+      "Option 2 Substance use education：Trainings offered at least once per year to regular occupants。",
+      "Substance use education 需 address management of personal substance use，至少 covering safe substance use habits、signs of dependency or addiction、short- and long-term health risks。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；substance use and addiction services available at no cost or subsidized for all eligible employees。",
+      "Services 至少包含 clinical screening and referral、counseling services including telemental health services、outpatient treatment、inpatient treatment、medication-assisted treatment。"
+    ]
+  }
+]

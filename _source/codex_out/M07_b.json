@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M07_Q26",
+    "stem": "A new learning center is looking for a way to improve the reverberation time within their classrooms. Which of the following options will assist in achieving this goal?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reduce reflected sound energy, increased reflective surfaces and add absorptive surfaces.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Add absorptive surfaces, alter room geometry and increase reflective surfaces.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Reduce reflected sound energy, alter room geometry and add absorptive surfaces.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Reduce reflective surfaces, alter room geometry and add absorptive surfaces.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S04 Reverberation Time, Part 1: Achieve Reverberation Time Thresholds 要控制 classroom 等 learning spaces 的 reverberation time；WELL 說可透過減少 reflective surfaces、調整 room geometry、增加 absorptive surface finishes 來降低 reflected sound energy 並支援 speech intelligibility。",
+    "diagnosis": {
+      "A": {
+        "gap": "把增加反射面誤認為能降低 reverberation time。",
+        "followup": "若 S04 的目標是減少 reflected sound energy，為什麼增加 reflective surfaces 會讓 classroom 更難控制混響？"
+      },
+      "B": {
+        "gap": "忽略 reflective surfaces 會延長聲音衰減。",
+        "followup": "S04 說 room geometry 與 absorptive finishes 有幫助，那 reflective surfaces 在 reverberation time 中扮演什麼反向角色？"
+      },
+      "C": {
+        "gap": "只說降低反射能量，未指出要減少反射面。",
+        "followup": "在實際設計中，若要減少 reflected sound energy，你會如何把這個目標轉成 surface material 選擇？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q27",
+    "stem": "A solution in Feature S02: Sound Reducing Surfaces that minimizes reverberation, significantly reduces sound across human speech frequencies and can greatly reduce unwanted buildup of reflected sound is called?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Acoustical comfort",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Acoustical treatment",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Speech intelligibility",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Reverberation time",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "S05 Sound Reducing Surfaces, Part 1: Implement Sound Reducing Surfaces 說明 acoustical treatment 可在 human speech frequencies 顯著降低聲音，減少 reflected sound 的 buildup，並支援 reverberation 與 speech intelligibility 控制。",
+    "diagnosis": {
+      "A": {
+        "gap": "把整體舒適結果誤當成具體處理方案。",
+        "followup": "S05 Part 1 要求的是哪一類 acoustic material 或 treatment，而不是最後感受到的 acoustical comfort？"
+      },
+      "C": {
+        "gap": "把 speech intelligibility 誤認為材料處理名稱。",
+        "followup": "若 speech intelligibility 是改善後的 performance outcome，S05 用什麼 treatment 來降低 speech frequencies 的反射？"
+      },
+      "D": {
+        "gap": "把 reverberation time 指標誤當成解決方案。",
+        "followup": "S05 是用 acoustical treatment 影響 reverberation time；兩者哪一個是策略，哪一個是量測結果？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Stem cites Feature S02, but Sound Reducing Surfaces and acoustical treatment are in Feature S05."
+    }
+  },
+  {
+    "id": "M07_Q28",
+    "stem": "What area of a room typically provides the greatest area of coverage where extremely absorptive materials can offer the best outcome to reducing reverberation?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Floor",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Ceilings",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Walls",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Furniture",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "S05 Sound Reducing Surfaces, Part 1: Implement Sound Reducing Surfaces 指出 ceilings typically provide the greatest area of coverage；高吸音材料用在 ceiling area 通常最能降低 reverberation 並控制 speech intelligibility 與 occupied noise levels。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為地板是吸音覆蓋面積最大的位置。",
+        "followup": "S05 為什麼特別指出 ceiling area，而不是 floor，通常提供最大可用 absorptive coverage？"
+      },
+      "C": {
+        "gap": "混淆牆面處理與最大覆蓋面積來源。",
+        "followup": "S05 也提到 wall treatment，但若題目問 greatest area of coverage，哪個 room surface 更符合原文？"
+      },
+      "D": {
+        "gap": "把家具吸音輔助誤當主要覆蓋面。",
+        "followup": "Furniture 可吸收部分聲音，但在 S05 的 coverage 邏輯中，它和 ceiling 的面積優勢有何差別？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q29",
+    "stem": "A new project that includes a designated dining hall is looking to reduce sound by adding absorptive surfaces. If they are looking to earn 2 points, what is the minimum NRC/aw for ceilings?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.80 on at least 75% of available ceiling area",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "0.70 for all available ceiling area",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "0.90 for all available ceiling area",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "0.60 on at least 50% of available ceiling area",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "S05 Sound Reducing Surfaces, Part 1: Implement Sound Reducing Surfaces 的 dining areas 表格要求 2 points 時，ceilings 的 minimum NRC/aw 為 0.90 for all available ceiling area；1 point 才是 0.75 on at least 50% of available ceiling area。",
+    "diagnosis": {
+      "A": {
+        "gap": "把較高覆蓋率與較低 NRC 門檻混在一起。",
+        "followup": "S05 dining areas 的 2 points 同時要求 NRC/aw 數值與 ceiling area，哪一個數字必須達到 0.90？"
+      },
+      "B": {
+        "gap": "低估 2 points 對 dining ceiling 的吸音係數。",
+        "followup": "若 dining hall 要拿 S05 Part 1 的 2 points，為什麼 all available ceiling area 還不夠，NRC/aw 也要更高？"
+      },
+      "D": {
+        "gap": "把最低覆蓋與低 NRC 誤認為最高得分門檻。",
+        "followup": "S05 表格中 dining areas 的 1 point 是多少覆蓋與 NRC/aw？它和 2 points 差在哪裡？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q30",
+    "stem": "What is the intent of Feature S03: Sound Barriers?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "To increase the level of speech privacy between horizontally adjacent enclosures and highlight design constraints that may hinder acoustical comfort.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "To decrease the level of speech privacy between horizontally adjacent enclosures and highlight design constraints that may hinder acoustical comfort.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "To increase the level of speech privacy between vertically adjacent enclosures and highlight design constraints that may hinder acoustical comfort.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "To increase the level of speech privacy between horizontally adjacent enclosures and highlight design constraints that may hinder thermal comfort.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "S03 Sound Barriers, Part 1: Design for Sound Isolation at Walls and Doors 的 intent 是增加 enclosed spaces 之間的 sound isolation 與 speech privacy；牆體與門需達最低 acoustical separation，例如門須 non-hollow core、minimum STC/Rw 30 並有 seals。",
+    "diagnosis": {
+      "B": {
+        "gap": "把提升 speech privacy 誤解成降低隱私。",
+        "followup": "S03 的牆與門要求是為了增加還是降低 enclosed spaces 之間的 speech privacy？"
+      },
+      "C": {
+        "gap": "把 horizontal adjacency 誤換成垂直相鄰空間。",
+        "followup": "S03 Sound Barriers 的核心是 enclosed spaces 間的牆與門，題幹提到的 adjacent enclosures 是哪種相鄰關係？"
+      },
+      "D": {
+        "gap": "把 acoustical comfort 誤換成 thermal comfort。",
+        "followup": "S03 的 STC/Rw 與 door seals 是 acoustic separation 工具，這和 thermal comfort 有什麼不同？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q31",
+    "stem": "A WELL project is working on obtaining 1 point for Part 1: Enhanced Speed Reduction Feature S06: Minimum Background Sound. Which features must the project meet in order to earn this point?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Part 1: Achieve Reverberation Time Thresholds of Feature S04: Reverberation Time",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Part 1: Provide Minimum Background of Feature S06: Minimum Background Sound",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Part 1: Label Acoustic Zones of Feature S01: Sound Mapping",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Part 1: Design for Sound Isolation at Walls and Doors of Feature S03: Sound Barriers",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "S06 Minimum Background Sound, Part 2: Provide Enhanced Speech Reduction 要求先達成 S06 Part 1: Provide Minimum Background Sound，且還需在 S03 Part 2 或 S05 Part 1 取得 two points；因此只列出 S06 Part 1 只能代表其中一項必要條件。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 reverberation time 門檻誤當 S06 背景聲要求。",
+        "followup": "S06 Part 2 要連動的是 speech reduction 與 background sound，S04 reverberation time 在條件清單中出現了嗎？"
+      },
+      "C": {
+        "gap": "誤把 S01 acoustic zone labeling 當作得分條件。",
+        "followup": "S01 labels 可支援聲學規劃，但 S06 Part 2 的明文 prerequisite 是否要求 Label Acoustic Zones？"
+      },
+      "D": {
+        "gap": "混淆 S03 Part 1 設計要求與 Part 2 得分要求。",
+        "followup": "S06 Part 2 指定的是 S03 Part 2 的 two points，為什麼 S03 Part 1 walls and doors 不足以替代？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "S06 Part 2 also requires two points in S03 Part 2 or S05 Part 1; option B is necessary but not sufficient."
+    }
+  },
+  {
+    "id": "M07_Q32",
+    "stem": "According to the Feature S07: Impact Noise Management, impact noise travels through what structures?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Floors, columns, ceilings, doors",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Doors, walls, floors, rafters",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Rafters, ceilings, piping, walls",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Walls, floors, columns, piping",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S07 Impact Noise Management, Part 2: Meet Thresholds for Impact Noise Rating 說明 impact noise travels through structures as vibrations，例如 walls, floors, columns, piping，之後再以 airborne noise 形式傳到 listener。",
+    "diagnosis": {
+      "A": {
+        "gap": "加入 doors，漏掉 piping 這個結構傳振例子。",
+        "followup": "S07 描述 impact noise 的 vibration path 時，除了 walls、floors、columns，還明確列出哪個 building service element？"
+      },
+      "B": {
+        "gap": "把 rafters 與 doors 誤當標準列舉結構。",
+        "followup": "S07 的例子是否包含 rafters 或 doors？impact noise 更常沿哪些 structural elements 傳遞？"
+      },
+      "C": {
+        "gap": "漏掉 floors 與 columns，混入未列舉 rafters。",
+        "followup": "若 impact noise 源自 footfall 或 gym equipment，為什麼 S07 會特別列出 floors 和 columns？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q33",
+    "stem": "According to Feature S05: Sound Reducing Surfaces of the WELL Building Standard™ (WELL™), ceilings provide the ________ area of coverage where highly absorptive materials can offer the best performance in reducing reverberation.",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Least",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Best",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Greatest",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Worst",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "S05 Sound Reducing Surfaces, Part 1: Implement Sound Reducing Surfaces 的 solutions 說 ceilings typically provide the greatest area of coverage，讓 highly absorptive materials 在降低 reverberation 上有最佳表現。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 greatest 完全反向理解成 least。",
+        "followup": "S05 為何說 ceiling area 對 absorptive materials 特別有利？若是 least，會如何影響 reverberation 控制？"
+      },
+      "B": {
+        "gap": "把性能評價 best 誤當面積描述。",
+        "followup": "題幹問的是 area of coverage 的大小，而不是材料 performance；S05 原文使用哪個 coverage 形容詞？"
+      },
+      "D": {
+        "gap": "把正向覆蓋優勢誤判為最差位置。",
+        "followup": "若 ceiling 是 worst coverage，S05 為何還會把 ceiling NRC/aw 列為 Part 1 的主要門檻？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q34",
+    "stem": "To meet the thresholds for Part 2: Meet Thresholds for Impact Noise Rating of Feature S07: Impact Noise Management, which ASTM and ISO standards (or equivalent) must be followed?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "ASTM E1007-19, ISO 16283",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "ASTM E492-09, ISO 717.2",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "ASTM 1573-18, ISO 717.2",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "ASTM 1573-18, ISO 16283",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "S07 Impact Noise Management, Part 2: Meet Thresholds for Impact Noise Rating 要求 NISR 以 on-site measurement 執行，並依 ASTM E1007-19、ISO 16283 或 equivalent，由 acoustics professional 測量。",
+    "diagnosis": {
+      "B": {
+        "gap": "混用 Part 1 IIC 材料測試標準與 Part 2 現場 NISR。",
+        "followup": "S07 Part 1 的 IIC ratings 使用 ASTM E492-09/ISO 717.2；Part 2 的 NISR on-site measurement 改用哪些標準？"
+      },
+      "C": {
+        "gap": "把 ASTM 1573 sound masking 標準誤用到 impact noise。",
+        "followup": "ASTM 1573-18 在 S06 sound masking 驗證出現；S07 Part 2 的 impact noise rating 是否使用同一標準？"
+      },
+      "D": {
+        "gap": "只抓到 ISO 16283，卻搭配錯誤 ASTM。",
+        "followup": "S07 Part 2 同時列出 ASTM 與 ISO；若 ISO 16283 正確，對應的 ASTM 編號是什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q35",
+    "stem": "A new WELL Certified building that is offering a dining hall for its employees wants to earn the max points for Feature S07: Impact Noise Management for impact noise rating. In order to achieve this, what is the minimum Normalized Impact Sound Ratings (NISR) level needed?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "42",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "47",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "52",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "50",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "S07 Impact Noise Management, Part 2: Meet Thresholds for Impact Noise Rating 的 table 中，Areas for Retail and Dining 在 2 points 時要求 floor-ceiling assembly 位於 below，minimum NISR 為 47；1 point 才是 42。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 dining 的 1 point NISR 誤認為 max points。",
+        "followup": "S07 Part 2 的 dining row 中，1 point 與 2 points 的 NISR 分別是多少？"
+      },
+      "C": {
+        "gap": "套用了 fitness 或 enclosed concentration 的 2 points 門檻。",
+        "followup": "S07 Part 2 不同 space type 的 NISR 不同；dining 是否和 fitness 共用 52 的 2 points 門檻？"
+      },
+      "D": {
+        "gap": "使用了表格中不存在的中間數值。",
+        "followup": "若 WELL table 只列 42 與 47 給 retail and dining，50 這個 NISR 從哪個 requirement 推得出？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q36",
+    "stem": "Depending on the type of surface materials, reverberation time and reflected sound energy has the potential of creating uncomfortable environments. In schools, where spaces need to be conducive to learning, what must the reverberation time support?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surface finishes",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Reflected sound",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Privacy",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Speech intelligibility",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S04 Reverberation Time, Part 1: Achieve Reverberation Time Thresholds 的 intent 要設計 comfortable reverberation times，以支援 speech intelligibility、vocal effort 與 concentration；在 learning spaces 中，高 reverberation 會降低學生理解與記憶。",
+    "diagnosis": {
+      "A": {
+        "gap": "把控制手段 surface finishes 誤當學習結果。",
+        "followup": "S04 可以透過 absorptive surface finishes 控制 reverberation，但學校空間最終要支援哪種 speech outcome？"
+      },
+      "B": {
+        "gap": "把需降低的 reflected sound 誤當支持目標。",
+        "followup": "S04 說 reducing reflected sound energy 可改善 reverberation；它是要被增加還是被控制？"
+      },
+      "C": {
+        "gap": "把 speech privacy 與 classroom intelligibility 混淆。",
+        "followup": "在 classroom 中，S04 強調聽懂教學內容；這和 S03/S06 的 speech privacy 目標有何不同？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q37",
+    "stem": "According to Part 2: Prioritize Audio Devices and Policies of Feature S07: Enhanced Audio Designs, which of the following does NOT aid in the support of individual acoustical needs?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Employees must purchase any specialized accessories they will need to utilize sound enhancement technology.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "A minimum of one daily quiet hour is scheduled and signage is used to indicate both the location and intended activities of Quiet and Mixed Zones.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "All audio devices are managed internally by a qualified professional.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Eligible employees can request alternative workplace arrangements to meet their individual acoustic comfort needs.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "S08 Enhanced Audio Devices, Part 2: Prioritize Audio Devices and Policies 要求至少三項支持 individual acoustical needs，其中 telecommunication accessories 應 upon request 提供，且 at no cost 或 subsidized by at least 50%；要求員工自行購買不符合此 requirement。",
+    "diagnosis": {
+      "B": {
+        "gap": "誤把 quiet hour 與 signage 視為不支援個人需求。",
+        "followup": "S08 Part 2 明列 daily quiet hour 與 Quiet/Mixed Zones signage，這如何幫助 individual acoustic comfort？"
+      },
+      "C": {
+        "gap": "忽略 qualified professional 管理 audio devices 是合格策略。",
+        "followup": "S08 Part 2 為什麼要求 audio devices 由 qualified professional 或 IT 管理，而不是視為無關措施？"
+      },
+      "D": {
+        "gap": "忽略 alternative workplace arrangements 是明列支持措施。",
+        "followup": "若員工因 acoustic comfort 需要調整工作安排，S08 Part 2 是否把這列為可採取的支持方式？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Stem says Feature S07 Enhanced Audio Designs, but the requirement is Feature S08 Enhanced Audio Devices Part 2."
+    }
+  },
+  {
+    "id": "M07_Q38",
+    "stem": "The effects of exterior noise from transportation have been shown to impact health and well-being in different ways. What health concern do both men and women share from spending time in spaces that are close to busy highways or airports?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stress levels",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Myocardial infarction",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Hypertension",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Sleep deprivation",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL Sound concept overview notes that transportation noise near roads and airports is linked to health impacts and specifically reports elevated myocardial infarction risk in men from nighttime road traffic noise and in women from nighttime air traffic noise. S02 Maximum Noise Levels, Part 1: Limit Background Noise Levels operationalizes this concern by setting ambient noise thresholds such as Category 1 Average SPL 35 dBA for 3 points.",
+    "diagnosis": {
+      "A": {
+        "gap": "把一般壓力反應誤當該研究的共同疾病結果。",
+        "followup": "題幹問 busy highways 或 airports 相關研究中男女共同提到的 health concern，是否只是 stress levels？"
+      },
+      "C": {
+        "gap": "抓到交通噪音相關疾病，卻非題目引述的共同結果。",
+        "followup": "Sound overview 確實提到 hypertension，但那段 4,115 人研究指出男女風險升高的是哪一項？"
+      },
+      "D": {
+        "gap": "把睡眠干擾誤當該研究的共同心血管結果。",
+        "followup": "交通噪音可能造成 sleep disturbance，但題幹問男女在道路與航空夜間噪音中共享的哪個風險？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q39",
+    "stem": "Improving speech intelligibility in classrooms by implementing audio systems can help support participation for deaf and hard-of-hearing students, which is linked to what areas of improvement, according to WELL Feature S08: Enhanced Audio Devices?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mental health",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Social contact with peers",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Quality of life",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "All of the above",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S08 Enhanced Audio Devices, Part 1: Provide Enhanced Speech Intelligibility 的 issue 說提升 classroom speech intelligibility 可支持 deaf and hard-of-hearing students 的 participation，並連結到 quality of life、social contact with peers 與 mental health 的改善。",
+    "diagnosis": {
+      "A": {
+        "gap": "只記到 mental health，漏掉另外兩項改善。",
+        "followup": "S08 的 classroom participation 效益除了 mental health，還列出哪些與同儕和生活品質有關的結果？"
+      },
+      "B": {
+        "gap": "只抓到 social contact，忽略完整三項效益。",
+        "followup": "若題幹問 linked to what areas of improvement，S08 是否只提到 peer contact 一個面向？"
+      },
+      "C": {
+        "gap": "只記到 quality of life，漏掉心理與社交面。",
+        "followup": "S08 把 speech intelligibility 對 deaf and hard-of-hearing students 的效益列成幾個面向？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q40",
+    "stem": "What does NISR stand for?",
+    "framework": "M07_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "National Institute for Sound Ratings",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Normalized Impact Sound Ratings",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Normalized Industrial Sound Ratings",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Normalized Impact Sound Reverberation",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "S07 Impact Noise Management, Part 2: Meet Thresholds for Impact Noise Rating 使用 Normalized Impact Sound Ratings (NISR) 作為現場量測 metric，並以不同 space type 的 minimum NISR 門檻判定得分。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 NISR 誤認為機構名稱而非聲學指標。",
+        "followup": "S07 Part 2 的 table 把 NISR 放在 minimum rating 欄位，這比較像 organization 還是 acoustic metric？"
+      },
+      "C": {
+        "gap": "把 Impact 誤換成 Industrial，偏離 impact noise 主題。",
+        "followup": "S07 處理 footfall、gym equipment 等 impact noise，縮寫中的 I 應對應哪個詞？"
+      },
+      "D": {
+        "gap": "混入 reverberation，誤解 NISR 的 rating 對象。",
+        "followup": "Reverberation time 屬 S04；S07 的 NISR 是衡量 impact sound rating 還是 reverberation？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q41",
+    "stem": "For all spaces except dwelling units, commercial kitchen spaces, and industrial buildings; category 2 represents what type of area?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Large conference rooms",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Dining areas",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Small meeting rooms",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Personal offices",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S02 Maximum Noise Levels, Part 1: Limit Background Noise Levels 的 note 將 Category 2 定義為 enclosed areas for concentration；personal offices 屬於此類，背景噪音 3 points 時 Average SPL 門檻為 40 dBA、Max SPL 為 50 dBA。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 conferencing 或 speaking spaces 誤歸 Category 2。",
+        "followup": "S02 note 中 Category 1 是 conferencing、learning 或 speaking；large conference rooms 應更接近哪一類？"
+      },
+      "B": {
+        "gap": "把 dining areas 誤歸 enclosed concentration。",
+        "followup": "S02 Part 1 note 明列 dining areas 在 Category 3，為什麼它不屬於 Category 2？"
+      },
+      "C": {
+        "gap": "把 meeting room 的協作性誤當個人專注空間。",
+        "followup": "Small meeting rooms 通常用於 conferencing；S02 的 Category 2 是否描述這種用途？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q42",
+    "stem": "For dwelling units, what is the maximum average background noise level allowed over a 12-hour period?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "35 dBA",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "40 dBA",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "65 dBA",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "70 Dba",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "S02 Maximum Noise Levels, Part 1: Limit Background Noise Levels 對 dwelling units 要求 bedrooms 的 average background noise levels，在至少 12-hour measurement period 且包含 10 pm 到 7 am 時，不得超過 35 dBA (Leq)。",
+    "diagnosis": {
+      "B": {
+        "gap": "把非住宅 Category 1 平均值誤套到 dwelling bedroom。",
+        "followup": "S02 對 dwelling units 是單獨列 bedroom 12-hour requirement，為什麼不能直接用其他 category 的 40 dBA？"
+      },
+      "C": {
+        "gap": "把 dBC 或較高噪音上限誤當 bedroom 平均 dBA。",
+        "followup": "題目問 average background noise over 12 hours；S02 dwelling unit 條文指定的是 dBA 還是 dBC？"
+      },
+      "D": {
+        "gap": "把最大噪音或 dBC 高值誤當允許平均值。",
+        "followup": "若 bedroom 夜間平均達 70 dBA，會如何違反 S02 Part 1 對睡眠時段的 35 dBA Leq 要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q43",
+    "stem": "What is the intent of Feature S06: Minimum Background Sound?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "To decrease acoustical privacy within and between occupied spaces.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "To design spaces with sound reducing surfaces.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "To increase acoustical privacy within and between occupied spaces.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "To increase the level of sound isolation and speech privacy.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "S06 Minimum Background Sound, Part 1: Provide Minimum Background Sound 的 intent 是 increase acoustical privacy within and between occupied spaces；它透過 dedicated artificial sound 與 sound masking system 改善 speech privacy。",
+    "diagnosis": {
+      "A": {
+        "gap": "把增加 acoustic privacy 完全反向理解成降低。",
+        "followup": "S06 使用 sound masking 增加 signal-to-noise ratio 時，目標是讓 speech privacy 上升還是下降？"
+      },
+      "B": {
+        "gap": "把 S05 sound reducing surfaces 誤當 S06 intent。",
+        "followup": "設計吸音表面是 S05 的核心；S06 的 dedicated artificial sound 要解決哪種 privacy 問題？"
+      },
+      "D": {
+        "gap": "混淆 S03 sound isolation 與 S06 background sound。",
+        "followup": "S03 用 walls and doors 增加 isolation；S06 是用什麼系統在 occupied spaces 間增加 privacy？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q44",
+    "stem": "According to Feature S02: Maximum Noise Levels, exterior noise can be controlled best by?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "With inexpensive building materials.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "During the construction phase.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Considering at the earliest possible stages of design",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Once a noise baseline has been determined.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "S02 Maximum Noise Levels, Part 1: Limit Background Noise Levels 的 solutions 指出 exterior noise 可由 façade、windows 與 exterior penetrations 的 sound reduction 控制，且這些 sources 在 earliest possible stages of design 被考量時最容易控制。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為材料便宜即可控制 exterior noise。",
+        "followup": "S02 強調 façade、windows 和 penetrations 的 sound reduction，是否把 inexpensive materials 當成主要判準？"
+      },
+      "B": {
+        "gap": "把施工階段當成最佳控制時點，晚於設計整合。",
+        "followup": "若 exterior noise 到 construction phase 才處理，S02 說比 earliest design stage 更容易還是更困難？"
+      },
+      "D": {
+        "gap": "把量測 baseline 誤當噪音控制最佳時機。",
+        "followup": "noise baseline 有助了解現況，但 S02 的 solutions 說控制 exterior sources 應從哪個階段開始？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q45",
+    "stem": "According to Part 1: Provide Enhanced Speech Intelligibility of Feature S08: Enhanced Audio Devices, public address systems must be commissioned by an audio engineer in accordance with NFPA 72 (Annex D) or equivalent. What does NFPA stand for?",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "North Freeman Parts Authority",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "National Frequency Process Assembly",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Noise & Frequency Process Algorithm",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "National Fire Protection Association",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S08 Enhanced Audio Devices, Part 1: Provide Enhanced Speech Intelligibility 要求 public address systems 由 audio engineer 依 NFPA 72 (Annex D) 或 equivalent commissioning；NFPA 指 National Fire Protection Association。",
+    "diagnosis": {
+      "A": {
+        "gap": "把正式標準組織誤解成不存在的零件機構。",
+        "followup": "S08 Part 1 引用 NFPA 72 作為 public address commissioning 依據，這種引用通常是正式 code organization 嗎？"
+      },
+      "B": {
+        "gap": "把 fire protection code 誤解成 frequency process。",
+        "followup": "NFPA 72 常見於 fire alarm 與 public address commissioning；哪個詞能對應 fire protection？"
+      },
+      "C": {
+        "gap": "把協會名稱誤判成噪音演算法。",
+        "followup": "S08 要求 audio engineer 依 NFPA 72 commissioning，這比較像 algorithm 還是標準制定協會？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q46",
+    "stem": "The human response to mechanical vibrations through a medium is known as",
+    "framework": "M07_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Waves",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Echo",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Sound",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Sonar",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL Sound concept overview 將 sound 定義為 human response to mechanical vibrations through a medium, such as air；S01 Sound Mapping, Part 1: Label Acoustic Zones 進一步把這些 noise experiences 轉成 Loud、Quiet、Mixed 與 Circulation zones 的 planning requirement。",
+    "diagnosis": {
+      "A": {
+        "gap": "把物理振動形式誤當人類感知結果。",
+        "followup": "Sound overview 強調 human response；waves 是媒介中的振動形式，和 occupant perception 有何差別？"
+      },
+      "B": {
+        "gap": "把特定反射現象 echo 誤當 sound 定義。",
+        "followup": "Echo 是聲音反射後的現象；題幹問 mechanical vibrations through a medium 的人類反應，範圍是否更廣？"
+      },
+      "D": {
+        "gap": "把聲納技術誤認為基本聲音概念。",
+        "followup": "Sonar 是利用聲波的技術；WELL Sound concept 定義的是技術工具還是人對振動的感知？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q47",
+    "stem": "It is best to consult an audio engineering professional when...",
+    "framework": "M07_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Preparing to launch a company podcast.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Noise causes a productivity issue.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Choosing sound dampening material.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Implementing audio systems to improve speech intelligibility.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S08 Enhanced Audio Devices, Part 1: Provide Enhanced Speech Intelligibility 說 telecommunication、speech reinforcement 與 public address systems 應由 professional in audio engineering commissioning，以改善 speech intelligibility 並滿足多元 occupant needs。",
+    "diagnosis": {
+      "A": {
+        "gap": "把一般媒體製作誤當 WELL audio system commissioning。",
+        "followup": "S08 關注的是 building occupants 的 speech intelligibility；company podcast launch 是否屬於這個 WELL requirement？"
+      },
+      "B": {
+        "gap": "把噪音造成生產力問題泛化成 audio engineering 情境。",
+        "followup": "Noise productivity issue 可能涉及 S02 或 S05；S08 特別何時需要 audio engineering professional？"
+      },
+      "C": {
+        "gap": "把材料吸音選型與 audio system commissioning 混淆。",
+        "followup": "Choosing sound dampening material 比較接近 S05 acoustical treatment；S08 的 professional 主要負責哪種系統？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q48",
+    "stem": "What feature in the Sound Concept of the WELL Building Standard focuses on achieving desired ambient noise levels?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature S05: Sound Reducing Surfaces",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Feature S01: Sound Mapping",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "700 Feature S08: Enhanced Audio Devices",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Feature S02: Maximum Noise Levels",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "S02 Maximum Noise Levels, Part 1: Limit Background Noise Levels 的 intent 是達成 desired ambient noise levels，避免 HVAC、exterior noise intrusion 或其他 noise sources 影響 occupant health and well-being；其表格設定各 category 的 Average SPL 與 Max SPL thresholds。",
+    "diagnosis": {
+      "A": {
+        "gap": "把吸音表面策略誤當 ambient noise levels 功能。",
+        "followup": "S05 主要處理 reflected sound buildup；若題目問 maximum ambient background noise thresholds，應回到哪個 feature？"
+      },
+      "B": {
+        "gap": "把 acoustic zoning planning 誤當噪音上限控制。",
+        "followup": "S01 Label Acoustic Zones 是聲學規劃基礎，但 desired ambient noise levels 的 dBA/dBC 門檻在哪個 feature？"
+      },
+      "C": {
+        "gap": "被錯字與 audio devices 混淆，偏離背景噪音。",
+        "followup": "Enhanced Audio Devices 支援 speech intelligibility；它是否設定 HVAC 或 exterior noise intrusion 的 background SPL thresholds？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q49",
+    "stem": "How many preconditions are there for the WELL Sound Concept?",
+    "framework": "M07_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "1",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "2",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "3",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "4",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL Sound concept 的 feature list 中只有 S01 Sound Mapping 標示為 precondition；S01 包含 Part 1: Label Acoustic Zones 與 Part 2: Provide Acoustic Design Plan，作為 Sound concept 的 mandatory foundation。",
+    "diagnosis": {
+      "B": {
+        "gap": "把部分 optimization 誤算成 precondition。",
+        "followup": "Sound feature list 中 S02 到 S06 多數標為 optimization；你能指出除了 S01 還有哪個標 P 嗎？"
+      },
+      "C": {
+        "gap": "把多個聲學主題都誤認為 mandatory precondition。",
+        "followup": "WELL precondition 是所有專案必做；Sound concept 裡哪些 feature code 旁邊實際標示為 P？"
+      },
+      "D": {
+        "gap": "把 Sound concept 的 feature 數量誤當 precondition 數量。",
+        "followup": "S01 到 S06 都是 Sound features，但 feature 數量和 precondition 數量是否相同？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M07_Q50",
+    "stem": "If your project would like to receive points from Part 2: Provide Enhanced Speed Reduction of Feature SO6: Minimum Background Sound, what other feature or part can be used to achieve points?",
+    "framework": "M07_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature S06 Part 1 – Provide Minimum Background Sound",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Achieve one point in Feature S03 Part 2 - Achieve Sound Isolation",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Achieve one point in Feature S05 Part 1 – Implement Sound Reducing Surfaces",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Achieve two points in Feature S04 Part 1 – Achieve Reverberation Time Thresholds",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "S06 Minimum Background Sound, Part 2: Provide Enhanced Speech Reduction 要求達成 S06 Part 1: Provide Minimum Background Sound，並另外在 S03 Part 2 或 S05 Part 1 取得 two points；B 與 C 的 one point 敘述低於 requirement。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 S03 Part 2 所需 two points 誤記為 one point。",
+        "followup": "S06 Part 2 明文要求 Achieve two points in S03 Part 2；若只有 one point，是否滿足條件？"
+      },
+      "C": {
+        "gap": "把 S05 Part 1 所需 two points 誤記為 one point。",
+        "followup": "S06 Part 2 可用 S05 Part 1，但要求幾個 points？和選項中的 one point 有何差異？"
+      },
+      "D": {
+        "gap": "把 S04 reverberation time 誤當 S06 Part 2 連動條件。",
+        "followup": "S06 Part 2 的替代條件列出 S03 或 S05；S04 reverberation time 是否在該條文中出現？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

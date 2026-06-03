@@ -1,0 +1,680 @@
+{
+  "module": "M06",
+  "frameworks": [
+    {
+      "id": "M06_F1",
+      "name": "熱舒適參數與基準",
+      "desc": "T01 Thermal Performance 以 mechanically conditioned 與 naturally conditioned spaces 的 thermal comfort 條件為基礎，並引用 ASHRAE 55-2013 等 thermal comfort standards。",
+      "covers": [
+        "T01 Thermal Performance",
+        "ASHRAE 55-2013",
+        "adaptive thermal comfort",
+        "air temperature",
+        "mean radiant temperature"
+      ]
+    },
+    {
+      "id": "M06_F2",
+      "name": "驗證、分區與個人控制",
+      "desc": "T02 Verified Thermal Comfort、T03 Thermal Zoning 與 T04 Individual Thermal Control 要用 occupant satisfaction、thermal zoning、personal thermal comfort devices 與 flexible dress codes 提升舒適。",
+      "covers": [
+        "T02 Verified Thermal Comfort",
+        "T03 Thermal Zoning",
+        "T04 Individual Thermal Control",
+        "personal thermal comfort devices",
+        "flexible dress codes"
+      ]
+    },
+    {
+      "id": "M06_F3",
+      "name": "輻射系統與濕度控制",
+      "desc": "T05 Radiant Thermal Comfort 與 T07 Humidity Control 關注 radiant systems、independently controlled ventilation、relative humidity、off-gassing 與 pathogen growth。",
+      "covers": [
+        "T05 Radiant Thermal Comfort",
+        "T07 Humidity Control",
+        "radiant systems",
+        "relative humidity",
+        "pathogen growth"
+      ]
+    },
+    {
+      "id": "M06_F4",
+      "name": "熱舒適監測與回饋",
+      "desc": "T06 Thermal Comfort Monitoring 要用 sensors 與 displays 持續監測 thermal comfort parameters，讓管理者與使用者能辨識偏差並回應。",
+      "covers": [
+        "T06 Thermal Comfort Monitoring",
+        "sensors",
+        "displays",
+        "Performance Verification Guidebook",
+        "thermal comfort parameters"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M06_Q26",
+      "stem": "When determining occupant satisfaction, this WELL Thermal Comfort feature requires projects provide a high level of thermal comfort?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature T01: Thermal Performance"
+        },
+        {
+          "key": "B",
+          "text": "Feature T02: Verified Thermal Comfort"
+        },
+        {
+          "key": "C",
+          "text": "Feature T03: Thermal Zoning"
+        },
+        {
+          "key": "D",
+          "text": "Feature T06: Thermal Comfort Monitoring"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q27",
+      "stem": "This WELL Thermal Comfort feature requires projects to create indoor thermal environments that provide comfortable thermal conditions to the majority of people in support of their health, well-being and productivity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature T01: Thermal Performance"
+        },
+        {
+          "key": "B",
+          "text": "Feature T03: Thermal Zoning"
+        },
+        {
+          "key": "C",
+          "text": "Feature T04: Individual Thermal Control"
+        },
+        {
+          "key": "D",
+          "text": "Feature T06: Thermal Comfort Monitoring"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q28",
+      "stem": "In Part 1: Manage Outdoor Heat of Feature T09 β: Outdoor Thermal Comfort at least ___ of pedestrian pathways and building entrances must be shaded for more than half of the daylight hours each day by tree canopies, awnings, or other structures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "25%"
+        },
+        {
+          "key": "B",
+          "text": "50%"
+        },
+        {
+          "key": "C",
+          "text": "75%"
+        },
+        {
+          "key": "D",
+          "text": "80%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q29",
+      "stem": "For Feature T08 β: Enhanced Operable Windows compliance, projects must design windows with:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Controls for window operation are positioned higher than 1.7 m (5.6 ft) above the finished floor."
+        },
+        {
+          "key": "B",
+          "text": "Controls for window operation are positioned 1.7 m (5.6 ft) above the finished floor."
+        },
+        {
+          "key": "C",
+          "text": "Controls for window operation are positioned less than 1.7 m (5.6 ft) above the finished floor."
+        },
+        {
+          "key": "D",
+          "text": "Controls for window operation are positioned not more than 1.7 m (5.6 ft) above the finished floor."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q30",
+      "stem": "For a project to achieve Feature 01: Thermal Performance, there are two options to choose from: Annual testing and Continuous Monitoring. If the project chooses Annual testing, what verification method is required to be submitted to IWBI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "On-going report"
+        },
+        {
+          "key": "B",
+          "text": "Technical Document"
+        },
+        {
+          "key": "C",
+          "text": "On-site Photographs"
+        },
+        {
+          "key": "D",
+          "text": "Architectural Drawings"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q31",
+      "stem": "A project team is anxious to complete the project and earn their WELL Certification. For Feature T02: Verified Thermal Comfort, what time period must the project team wait to conduct the survey of tenants?",
+      "options": [
+        {
+          "key": "A",
+          "text": "At completion of project."
+        },
+        {
+          "key": "B",
+          "text": "At six months post occupancy."
+        },
+        {
+          "key": "C",
+          "text": "At three months post occupancy."
+        },
+        {
+          "key": "D",
+          "text": "At end of first year of occupancy."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q32",
+      "stem": "The intent of Feature T04: Individual Thermal Control is to maximize and personalize thermal comfort among all individuals. Personal Cooling Options for all regular occupants may include:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hand-held fan with spritzer."
+        },
+        {
+          "key": "B",
+          "text": "A cooling mat for their feet."
+        },
+        {
+          "key": "C",
+          "text": "Chair with mechanical cooling system."
+        },
+        {
+          "key": "D",
+          "text": "A cooling keyboard."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q33",
+      "stem": "A law firm in Cincinnati would like to allow for thermal zones in their open office space. How can this company earn the most points for Feature T03: Thermal Zoning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By providing one zone per 10 occupants."
+        },
+        {
+          "key": "B",
+          "text": "By providing one zone per 200 ft2."
+        },
+        {
+          "key": "C",
+          "text": "By providing one zone per 2 occupants."
+        },
+        {
+          "key": "D",
+          "text": "By providing one zone per 5 occupants."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q34",
+      "stem": "Part 1: Provide Acceptable Thermal Environment of Feature T01: Thermal Performance has a verification method requirement for submitting materials to IWBI. What is the verification method for this option?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Letter of Assurance - Engineer, Performance Test, Technical Document"
+        },
+        {
+          "key": "B",
+          "text": "Letter of Assurance - Architect"
+        },
+        {
+          "key": "C",
+          "text": "Policy and/or Operations Schedule"
+        },
+        {
+          "key": "D",
+          "text": "On-going Report"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M06_F1"
+    },
+    {
+      "id": "M06_Q35",
+      "stem": "Humidity plays a big role in indoor air quality and keeping occupants healthy inside of buildings. In order to manage long-term humidity data for Feature T07: Humidity Control, what relative humidity is required for at least the pervious six months?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Between 40% and 60% for at least 98% of all business hours of the year ."
+        },
+        {
+          "key": "B",
+          "text": "Between 30% and 60% for at least 98% of all business hours of the year ."
+        },
+        {
+          "key": "C",
+          "text": "Between 25% and 55% for at least 93% of all business hours of the year ."
+        },
+        {
+          "key": "D",
+          "text": "Between 30% and 60% for at least 92% of all business hours of the year ."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M06_F3"
+    },
+    {
+      "id": "M06_Q36",
+      "stem": "As part of Feature T04: Individual Thermal Control, occupants can warm their individual environments. What is an example of an approved personal heating option?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Electric Heating pads."
+        },
+        {
+          "key": "B",
+          "text": "Electric space heater."
+        },
+        {
+          "key": "C",
+          "text": "Electric parabolic space heater."
+        },
+        {
+          "key": "D",
+          "text": "Electric blankets."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M06_F2"
+    },
+    {
+      "id": "M06_Q37",
+      "stem": "For performance verified environmental conditions in Feature T01: Thermal Performance, what is one of the PMV ranges of the thermal comfort conditions for mechanically conditioned regularly occupied spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "+/- 0.2"
+        },
+        {
+          "key": "B",
+          "text": "+/- 0.4"
+        },
+        {
+          "key": "C",
+          "text": "+/- 1.0"
+        },
+        {
+          "key": "D",
+          "text": "+/- 1.5"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M06_F1"
+    },
+    {
+      "id": "M06_Q38",
+      "stem": "How many preconditions are there for the Thermal Comfort Concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q39",
+      "stem": "What other features must Feature T09: Outdoor Thermal Comfort part 3 Support Outdoor Nature Access achieve to satisfy the feature requirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Part 1: Manage Outdoor Heat or Part 2: Avoid Excessive Wind of Feature T09: β Outdoor Thermal Comfort and Part 2: Provide Nature Access Outdoors of Feature M09: Enhanced Access to Nature."
+        },
+        {
+          "key": "B",
+          "text": "Feature T07: Humidity Control and Feature T09: Enhanced Operable Windows"
+        },
+        {
+          "key": "C",
+          "text": "Part 1: Provide Acceptable Thermal Environment and Part 2: Monitor Thermal Parameters of Feature T01: Thermal Performance."
+        },
+        {
+          "key": "D",
+          "text": "Feature M02: Nature and Place."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q40",
+      "stem": "According to the overview of the Thermal Comfort concept in the WELL Building StandardTM, what percentage of office workers have expressed dissatisfaction with their thermal environment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "25%"
+        },
+        {
+          "key": "B",
+          "text": "41%"
+        },
+        {
+          "key": "C",
+          "text": "52%"
+        },
+        {
+          "key": "D",
+          "text": "81%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q41",
+      "stem": "Thermal comfort greatly influences our experiences in the places we live and work and is one of the highest contributing factors including__________?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Overall human satisfaction."
+        },
+        {
+          "key": "B",
+          "text": "Overall better wellbeing in occupants."
+        },
+        {
+          "key": "C",
+          "text": "Overall human satisfaction in buildings."
+        },
+        {
+          "key": "D",
+          "text": "Happiness in building ratings."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Located in the Overview section of the Thermal Comfort concept.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q42",
+      "stem": "This WELL Thermal Comfort feature requires projects to increase thermal control of the space, by allowing control of either the conditions of a thermal zone or movement between thermal zones.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature T02: Verified Thermal Comfort"
+        },
+        {
+          "key": "B",
+          "text": "Feature T03: Thermal Zoning"
+        },
+        {
+          "key": "C",
+          "text": "Feature T04: Individual Thermal Control"
+        },
+        {
+          "key": "D",
+          "text": "Feature T05: Radiant Thermal Comfort"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q43",
+      "stem": "This WELL Thermal Comfort feature requires projects to improve thermal comfort of people in the space through the provision of personal thermal comfort devices and flexible dress codes that support individual thermal preferences.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature T01: Thermal Performance"
+        },
+        {
+          "key": "B",
+          "text": "Feature T02: Verified Thermal Comfort"
+        },
+        {
+          "key": "C",
+          "text": "Feature T03: Thermal Zoning"
+        },
+        {
+          "key": "D",
+          "text": "Feature T04: Individual Thermal Control"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q44",
+      "stem": "This WELL Thermal Comfort feature requires projects to maintain optimum relative humidity levels that are conducive to human health and well-being.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature T07: Humidity Control"
+        },
+        {
+          "key": "B",
+          "text": "Feature T06: Thermal Comfort Monitoring"
+        },
+        {
+          "key": "C",
+          "text": "Feature T05: Radiant Thermal Comfort"
+        },
+        {
+          "key": "D",
+          "text": "Feature T04: Individual Thermal Control"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q45",
+      "stem": "FeatureT08 β: Enhanced Operable Windows requires windows that can be opened at different elevations to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Restrict air flow at different outdoor temperaturs"
+        },
+        {
+          "key": "B",
+          "text": "Maintain air flow at different outdoor temperatures"
+        },
+        {
+          "key": "C",
+          "text": "Provide desired air flow at different outdoor temperatures"
+        },
+        {
+          "key": "D",
+          "text": "Provide limited air flow at different outdoor temperatures"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q46",
+      "stem": "According to Feature T09 β: Outdoor Thermal Comfort, heat island effects can greatly impact outdoor temperatures and make outdoor spaces too warm for building occupants to enjoy. Adverse health effects include heat-related illness, fatigue and increased heart rate. What is an example of a mitigation strategy to improve outdoor thermal comfort in a heat island?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding vegetation, including trees."
+        },
+        {
+          "key": "B",
+          "text": "Only using native plants."
+        },
+        {
+          "key": "C",
+          "text": "Adding more structures, like metal sculptures."
+        },
+        {
+          "key": "D",
+          "text": "Using sand to cover areas of concrete."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q47",
+      "stem": "According to Feature T06: Thermal Comfort Monitoring, what can cause the buildings occupants to experience itchy eyes, headache and throat irritation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cold temperatures, dry air, poor ventilation."
+        },
+        {
+          "key": "B",
+          "text": "High levels of heat, humidity, poor ventilation."
+        },
+        {
+          "key": "C",
+          "text": "High levels of outdoor pollen, poor ventilations, unfavorable outdoor weather."
+        },
+        {
+          "key": "D",
+          "text": "All of the Above."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M06_F4"
+    },
+    {
+      "id": "M06_Q48",
+      "stem": "Outdoor weather, indoor occupancy and building physics and performance all have a direct impact on human perceptions of what WELL Concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Air"
+        },
+        {
+          "key": "B",
+          "text": "Thermal Comfort"
+        },
+        {
+          "key": "C",
+          "text": "Light"
+        },
+        {
+          "key": "D",
+          "text": "Sound"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Outdoor weather, indoor occupancy and building physics and performance, including \nventilation rates, are highly variable and have a direct impact on human perceptions \nof thermal comfort.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q49",
+      "stem": "A new office building in San Diego is being designed for optimal Thermal Comfort for it's employees. To give employee's a little more control of their environment the building is adding operable windows. According to Part 1: Provide Windows with Multiple Opening modes of Feature T08 β: Enhanced Operable Windows, what percent of operable windows may be opened so that at least half of the opening is not more than 5.9 ft above the finished floor and opening is at least 1 ft in the smallest dimension?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20%"
+        },
+        {
+          "key": "B",
+          "text": "50%"
+        },
+        {
+          "key": "C",
+          "text": "70%"
+        },
+        {
+          "key": "D",
+          "text": "90%"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "At least 70% of operable windows may be opened such that at least half of the \nopening is not more than 5.9 ft above the finished floor and opening is at least 1 ft in \nthe smallest dimension. At least one such window is present in each room with \noperable windows.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M06_Q50",
+      "stem": "According to Part 1: Provide Thermostat Control of Feature T03: Thermal Zoning, for optimal performance, temperature sensors should be placed at least how many feet away from exterior walls, windows and doors, direct sunlight, air supply diffusers, mechanical fans, and heaters?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.5 ft"
+        },
+        {
+          "key": "B",
+          "text": "4.2 ft"
+        },
+        {
+          "key": "C",
+          "text": "3.3 ft"
+        },
+        {
+          "key": "D",
+          "text": "2.8 ft"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Temperature sensors are positioned at least 3.3 ft away from exterior walls, windows \nand doors, direct sunlight, air supply diffusers, mechanical fans, heaters or any other \nsignificant sources of heat or cold.",
+      "framework_hint": "M06_F2"
+    }
+  ]
+}

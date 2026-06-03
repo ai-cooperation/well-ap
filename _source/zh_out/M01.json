@@ -1,0 +1,184 @@
+[
+  {
+    "code": "A01",
+    "zh_name": "空氣品質",
+    "zh_summary": "建立室內空氣品質的基本底線，確認 occupiable spaces 中的 particulate matter、VOC、inorganic gases 與 radon 達到健康主管機關可接受水準。重點是以門檻值與定期監測維持基本 IAQ，並把結果透過 WELL digital platform 持續追蹤。",
+    "zh_specs": [
+      "Particulate Matter Option 1：PM2.5: 15 µg/m3 or lower；PM10: 50 µg/m3 or lower。",
+      "污染區域 modified thresholds：annual average outdoor PM2.5 level is 35 µg/m3 or higher 時，PM2.5: 25 µg/m3 or lower；PM10: 50 µg/m3 or lower，且 Certification level limited to Gold。",
+      "Laboratory-based VOC tests：Benzene (CAS 71-43-2): 10 µg/m³ or lower；Formaldehyde (CAS 50-00-0): 50 µg/m³ or lower；Toluene (CAS 108-88-3): 300 µg/m³ or lower。",
+      "VOC monitoring：total VOC 至少 once per hour；accuracy 20 µg/m³ + 20% of reading at values between 150 and 2000 µg/m³；至少 one per every 3,500 ft2(325 m2)；前一個月資料顯示 total VOC levels of 500 µg/m³ or lower for at least 90% of regularly occupied hours。",
+      "Inorganic gases：一般空間 Carbon monoxide: 10 mg/m³ [9 ppm] or lower、Ozone: 100 µg/m³ [51 ppb] or lower；Commercial Kitchen Spaces & Industrial 的 Carbon monoxide: 34 mg/m³ [30 ppm] or lower。",
+      "Radon：at or below grade 的 regularly occupied spaces 需 radon is 0.15 Bq/L [4 pCi/L] or lower，並 one test per 25,000 ft2(2300 m2)；Parts 1-3 pollutants 至少 once per year 監測並 annual submission。"
+    ]
+  },
+  {
+    "code": "A02",
+    "zh_name": "無菸環境",
+    "zh_summary": "透過禁止室內吸菸與限制室外吸菸，降低 occupants 暴露於 secondhand smoke 與 e-cigarettes 污染的機會。考點是 project boundary 內的室內全面禁止，以及 entrances、operable windows、air intakes 周邊與高架戶外可使用區的禁菸規範。",
+    "zh_specs": [
+      "Interior spaces within the project boundary 禁止 smoking and the use of e-cigarettes。",
+      "WELL Core Guidance：indoor smoking ban 需 meet in the whole building。",
+      "Outdoor ground level：所有 entrances、operable windows and building air intakes 周邊 within 25 ft(7.5 m) 禁止 smoking and the use of e-cigarettes，或依 local codes 最大允許範圍。",
+      "禁菸區需 signage present to clearly communicate the ban。",
+      "若 project boundary 內有允許吸菸的 outdoor areas，walkways 上 signs 間距 not more than 100 ft(30 m)，並描述 hazards of smoking。",
+      "Decks, patios, balconies, rooftops and other occupiable outdoor areas above ground level 禁止 smoking and the use of e-cigarettes。"
+    ]
+  },
+  {
+    "code": "A03",
+    "zh_name": "通風設計",
+    "zh_summary": "確保建築以 mechanical 或 natural ventilation 引入足夠 outdoor air，稀釋人體活動與產品產生的 indoor pollutants。此 precondition 的核心是 ventilation rates 有明確依據，且新裝 ventilation systems 在 occupancy 後安排 tested and balanced。",
+    "zh_specs": [
+      "Mechanically ventilated projects 需符合 one of the following requirements。",
+      "Newly installed ventilation systems 需 meet supply and exhaust rates set in ventilation guidelines，且 guidelines must describe ventilation rates for at least 90% of the project area。",
+      "Ventilation system is scheduled to be tested and balanced after project occupancy。",
+      "可採 ASHRAE 62.1-2010 or any more recent versions (Ventilation Rate Procedure or IAQ Procedure)。",
+      "可採 ASHRAE 62.2-2016。",
+      "可採 EN 16798-1 (for Category IV buildings) 或 AS 1668.2-2012。"
+    ]
+  },
+  {
+    "code": "A04",
+    "zh_name": "施工污染管理",
+    "zh_summary": "在 project registration 後的施工或翻修期間，透過 ducts 保護、filter replacement、moisture and dust management 等策略，避免施工污染進入室內空氣。重點是保護通風系統與建材，並在 occupancy 前完成必要清潔與濾網更換。",
+    "zh_specs": [
+      "適用於 construction occurring after project registration。",
+      "Ducts 需 sealed and protected from possible contamination during construction，或 cleaned prior to installing registers, grills and diffusers。",
+      "若 permanently installed ventilation system 在施工期間運轉，return air 需使用 media filters with a PM10 removal rating of at least 70% (e.g., MERV 8)。",
+      "All filters are replaced prior to occupancy。",
+      "Project 需執行 moisture and dust management practices。",
+      "目的在於 minimize construction-related pollutants、remediate construction-related indoor air contamination，並 protect building products from degradation。"
+    ]
+  },
+  {
+    "code": "A05",
+    "zh_name": "加強空氣品質",
+    "zh_summary": "在 A01 基本門檻之上，要求更嚴格的 particulate matter、organic gases 與 inorganic gases 水準，以支持健康與表現。這是 optimization，考點是不同污染物的 enhanced thresholds 與可取得的 WELL points。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 2 Pt | WELL Core: 2 Pt。",
+      "Particulate Matter 1 point：PM2.5: 12 µg/m³ or lower；PM10: 30 µg/m³ or lower。",
+      "Particulate Matter 2 points：PM2.5: 10 µg/m³ or lower；PM10: 20 µg/m³ or lower。",
+      "Organic gases：Acetaldehyde: 140 µg/m³ or lower；Acrylonitrile: 5 µg/m³ or lower；Benzene: 3 µg/m³ or lower；Caprolactam: 2.2 µg/m³ or lower。",
+      "Organic gases：Formaldehyde: 9 µg/m³ or lower；Naphthalene: 9 µg/m³ or lower；Toluene: 300 µg/m³ or lower。",
+      "Inorganic gases：Carbon monoxide: 7 mg/m³ [6 ppm] or lower；Nitrogen dioxide: 40 µg/m³ [21 ppb] or lower；WELL Core testing 需 access to at least 10% of leased space。"
+    ]
+  },
+  {
+    "code": "A06",
+    "zh_name": "加強通風設計",
+    "zh_summary": "透過提高 outdoor air supply 或改善 ventilation effectiveness，把室內產生的 pollutants 更有效排出 breathing zone。此 optimization 連結健康與 productivity，重點是 increased air supply、demand control ventilation、displacement ventilation 與 personalized ventilation。",
+    "zh_specs": [
+      "Part 1 Increase Outdoor Air Supply：WELL Certification: 2 Pt | WELL Core: 3 Pt。",
+      "Mechanically ventilated projects 可透過 Increased air supply，超過 ASHRAE 62.1-2010 的 outdoor air supply rates。",
+      "Thresholds：30% 可得 1(2)；60% 可得 2(3)。",
+      "Part 1 也可採 Demand control ventilation。",
+      "Part 2 Improve Ventilation Effectiveness：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Displacement ventilation system 需用於 at least 90% of regularly occupied spaces；Personalized ventilation system 需涵蓋 at least 50% of workstations，airspeed no greater than 50 fpm(0.25 m/s) at the occupant's head。"
+    ]
+  },
+  {
+    "code": "A07",
+    "zh_name": "可開啟窗戶",
+    "zh_summary": "鼓勵在 outdoor air quality acceptable 時使用 operable windows，引入高品質 outdoor air 並增加與戶外環境的連結。考點是 operable windows 的覆蓋率，以及用 PM2.5、temperature、humidity 監測或 indicator lights 管理開窗時機。",
+    "zh_specs": [
+      "Part 1 Provide Operable Windows：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Average outdoor PM2.5 level is 35 µg/m³ or higher 的 projects，Part 1 需搭配 Part 2: Manage Window Use 才可取得。",
+      "至少 At least 75% of the regularly occupied spaces have operable windows that provide access to outdoor air。",
+      "Part 2 Manage Window Use：WELL Certification: 1 Pt | WELL Core: 2 Pt，且 may only achieve this part if Part 1 is also achieved。",
+      "Outdoor air measurement：PM2.5, temperature and humidity 至少 once per hour 監測，data-gathering station 位於 within 2.5 mi(4 km) of the building。",
+      "Window operation：每個有窗房間 at least one indicator light；適合開窗條件包含 PM2.5: 15 µg/m³ or lower。"
+    ]
+  },
+  {
+    "code": "A08",
+    "zh_name": "空氣品質監測與意識",
+    "zh_summary": "要求持續量測 indoor air quality 並把資料公開給 occupants，讓使用者理解所在環境品質。重點是 monitor 至少三項污染或環境參數，並透過 display、website 或 phone application 提供可近用資訊。",
+    "zh_specs": [
+      "Part 1 Install Indoor Air Monitors：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "Monitors 需 measure at least three parameters：PM2.5 or PM10、Carbon dioxide、Carbon monoxide、Ozone、Nitrogen dioxide、Total VOCs、Formaldehyde。",
+      "Sensor accuracy：PM2.5 or PM10 accuracy 25% at 50 µg/m³；Carbon dioxide accuracy 10% at 750 ppm；Carbon monoxide accuracy 1 ppm at values between 0 and 10 ppm。",
+      "Sensor accuracy：Ozone accuracy 10 ppb at values between 0 and 100 ppb；Nitrogen dioxide accuracy 20 ppb at values between 0 and 100 ppb；Total VOCs accuracy 25% at 500 µg/m³；Formaldehyde accuracy 20 ppb at values between 0 and 100 ppb。",
+      "Part 2 Promote Air Quality Awareness：WELL Certification: 1 Pt | WELL Core: 1 Pt，且 only receive points if Part 1 is also achieved。",
+      "Data display：display screens 高度 3.6–5.6 ft(1.1–1.7 m)，至少 one display per 3500 ft2(325 m2)；或 website/phone application，並至少 one sign per 3500 ft2(325 m2) 指示資料位置。"
+    ]
+  },
+  {
+    "code": "A09",
+    "zh_name": "污染滲入管理",
+    "zh_summary": "降低室外空氣與污染物經由 building envelope 與 entrances 進入室內的機會。此 optimization 聚焦健康入口設計與 envelope commissioning，讓入口減少污染帶入，並在設計施工階段管理 air infiltration and leakage。",
+    "zh_specs": [
+      "Part 1 Design Healthy Entryways：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "所有 regularly used entrances opening to a pedestrian network 需設 entryway system，由 grilles, grates, slots or rollout mats or removable carpet tiles 組成。",
+      "Entryway system 至少 entrance width，且 primary direction of travel 長度 10 ft(3 m)，可合計 indoor and outdoor length。",
+      "需有措施減緩 outdoor-to-indoor air movement：building entry vestibule with two typically closed doorways 或 revolving entrance doors。",
+      "Part 2 Perform Envelope Commissioning：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Design and construction projects 需 façade engineer 定義 building envelope performance metrics，並在 Basis of Design 與 commissioning plan 中納入 envelope commissioning for air infiltration and leakage。"
+    ]
+  },
+  {
+    "code": "A10",
+    "zh_name": "燃燒最小化",
+    "zh_summary": "減少 occupants 暴露於 heating 與 transportation 相關的 combustion-related air pollution。WELL 鼓勵移除燃燒設備，或使用低排放 combustion sources 以降低室內外污染來源。",
+    "zh_specs": [
+      "Part 1 Manage Combustion：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "適用於 All Spaces except Commercial Kitchen Spaces。",
+      "Option 1：occupiable spaces 不使用 combustion-based fireplaces, stoves, space heaters, ranges and ovens。",
+      "Option 2：heating, cooling, water heating, process heating or power generation 使用的 equipment 需符合 low-emission combustion sources 要求。",
+      "Back-up equipment 若 used for more than 200 hours per year，也納入 equipment requirements。",
+      "Low-emission combustion sources 可包含 comply with California’s South Coast Air Quality Management District emission rules for pollution。"
+    ]
+  },
+  {
+    "code": "A11",
+    "zh_name": "污染源隔離",
+    "zh_summary": "透過隔離與排風管理 odors、germs、pollution 或 humidity 的室內來源，維持 indoor air quality 與 olfactory comfort。考點是 bathrooms、kitchens、cleaning and chemical storage rooms、高用量 printers/copiers 與 high-humidity areas 的門、負壓與 exhaust。",
+    "zh_specs": [
+      "Part 1 Manage Pollution and Exhaust：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "適用於 All Spaces except Dwelling Units 的 bathrooms, kitchens, rooms for cleaning and chemical storage, rooms with high-volume printers and copiers and high-humidity areas。",
+      "這些空間需與 adjacent regularly occupied spaces 以 self-closing doors and/or vestibules 分隔，或 negatively pressurized compared with adjacent regularly occupied spaces。",
+      "需 utilize exhaust fans，使 return air is vented outdoors and not recirculated。",
+      "Commercial Kitchen Spaces 需符合獨立要求。",
+      "Commercial Kitchen Spaces 的 canopy hoods 需納入 source separation 與 exhaust 管理。"
+    ]
+  },
+  {
+    "code": "A12",
+    "zh_name": "空氣過濾",
+    "zh_summary": "透過 air filtration 降低室內與室外 airborne contaminants。Mechanically ventilated spaces 需依 outdoor PM2.5 年平均濃度配置足夠 media filters，自然通風空間則著重 outdoor air quality standards。",
+    "zh_specs": [
+      "Part 1 Implement Particle Filtration：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Option 1 Filtration levels：ventilation system 使用 media filters 過濾 supplied to the space 的 outdoor air。",
+      "Annual Average Outdoor PM 2.5Threshold 23 µg/m³ or less：Minimum Air Filtration Level (PM2.5 removal) ≥80% (e.g., MERV 12 or M6)。",
+      "Annual Average Outdoor PM 2.5Threshold 24–39 µg/m³：Minimum Air Filtration Level (PM2.5 removal) ≥90% (e.g., MERV 14 or F8)。",
+      "Naturally ventilated spaces 需符合 outdoor air quality standards。",
+      "此 feature 同時要求 mechanically ventilated spaces 記錄 installed filters 的 maintenance protocol。"
+    ]
+  },
+  {
+    "code": "A13",
+    "zh_name": "加強送風",
+    "zh_summary": "降低 indoor contamination 與 pollution sources 的風險，包含 infectious disease particles 與 VOC。此 feature 要求 supply air 不再循環，或在再循環前經 activated carbon filter、media filter、UVGI 或空間內 air purification/cleaning devices 處理。",
+    "zh_specs": [
+      "Part 1 Improve Supply Air：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Option 1 Air supply requirements：All occupiable spaces utilize one of the listed strategies。",
+      "策略 a：100% outdoor air，也就是 supply air has not recirculated from within the building。",
+      "策略 b：Partially recirculated air 需 treated with Activated carbon filter。",
+      "策略 b 另需至少一項：Media filter with PM2.5 removal of ≥90% (e.g., MERV 14 or F8)、UVGI within the ducts to treat the moving air、或 upper-room UVGI。",
+      "策略 c：Partially recirculated air 並 include air purification/cleaning devices within the space。"
+    ]
+  },
+  {
+    "code": "A14",
+    "zh_name": "微生物與黴菌控制",
+    "zh_summary": "降低 building mechanical system 中 mold 與 bacteria 生長，特別是 cooling coils 與 drain pans。此 optimization 透過 UVGI 系統設計，或 UV lamps 的維護與定期檢查，控制冷卻系統組件上的微生物風險。",
+    "zh_specs": [
+      "Part 1 Implement Ultraviolet Air Treatment：WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Option 1 UV system design：All central air handling units 使用 ultraviolet lamps irradiate the surfaces of the cooling coils and drain pans。",
+      "Fan coil units 相關的 cooling coils and drain pans 需 irradiated by ultraviolet lamps。",
+      "Fan coil units 相關的 cooling coils and drain pans 也可 may be opened for inspection for mold growth and cleaned, if necessary。",
+      "Option 2 UV system maintenance and inspection：evidence that ultraviolet lamps have been replaced or maintained according to manufacturer's recommendation。",
+      "UV lamps maintenance evidence 需 submitted annually。"
+    ]
+  }
+]

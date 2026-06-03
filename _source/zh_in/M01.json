@@ -1,0 +1,232 @@
+{
+  "module": "M01",
+  "name": "空氣 Air",
+  "features": [
+    {
+      "code": "A01",
+      "name": "Air Quality",
+      "type": "precondition",
+      "intent": "Provide a basic level of indoor air quality that contributes to the health and well-being of building users.",
+      "summary": "This WELL feature requires projects to provide acceptable air quality levels, as determined by public health authorities.",
+      "parts": [
+        {
+          "title": "Part 1 Meet Thresholds for Particulate Matter",
+          "body": "For All Spaces except Commercial Kitchen Spaces & Industrial: Option 1: Acceptable thresholds The following thresholds are met in occupiable spaces:    a. PM2.5: 15 µg/m3 or lower.8    b. PM10: 50 µg/m3 or lower.9 OR Option 2: Modified thresholds in polluted regions   Note: Projects pursuing this strategy are limited in WELL Certification level to Gold regardless of total points achieved. For projects where the annual average outdoor PM2.5 level is 35 µg/m3 or higher, the following thresholds are met:    a. PM2.5: 25 µg/m3 or lower.10    b. PM10: 50 µg/m3 or lower.10   Note: The World Health Organization’s Global Urban Ambient Air Pollution Database may be consulted to view outdoor air   qua"
+        },
+        {
+          "title": "Part 2 Meet Thresholds for Organic Gases",
+          "body": "For All Spaces: Option 1: Laboratory-based VOC tests The following thresholds are met in occupiable spaces:    a. Benzene (CAS 71-43-2): 10 µg/m³ or lower.11    b. Formaldehyde (CAS 50-00-0): 50 µg/m³ or lower.12    c. Toluene (CAS 108-88-3): 300 µg/m³ or lower.13 OR Option 2: VOC monitoring The following requirements are met:    a. Sensors to measure total VOC at least once per hour (with accuracy 20 µg/m³ + 20% of reading at values       between 150 and 2000 µg/m³) are installed with a density of at least one per every 3,500 ft2(325 m2).    b. Data covering at least the previous one month demonstrate total VOC levels of 500 µg/m³ or lower for at least       90% of regularly occupied hours "
+        },
+        {
+          "title": "Part 3 Meet Thresholds for Inorganic Gases",
+          "body": "For All Spaces except Commercial Kitchen Spaces & Industrial: The following thresholds are met in occupiable spaces:    a. Carbon monoxide: 10 mg/m³ [9 ppm] or lower.8    b. Ozone: 100 µg/m³ [51 ppb] or lower. 10 For Commercial Kitchen Spaces & Industrial: The following thresholds are met:    a. Carbon monoxide: 34 mg/m³ [30 ppm] or lower.14    b. Ozone: 100 µg/m³ [51 ppb] or lower. 10   Note: Multifamily residential projects may achieve WELL Certification at the Bronze or Silver level without testing in   dwelling units, but cannot achieve Gold or Platinum without testing in dwelling units. See Sampling Rates for Multifamily   Residential in the WELL Performance Verification Guidebook for f"
+        },
+        {
+          "title": "Part 4 Meet Thresholds for Radon",
+          "body": "For All Spaces: For regularly occupied spaces at or below grade, one of the following requirements is met:    a. The radon is 0.15 Bq/L [4 pCi/L] or lower, as tested by a professional demonstrated not to have a conflict of       interest with the WELL project. One test is conducted per 25,000 ft2(2300 m2) of regularly occupied space at or       below grade.    b. All regularly occupied spaces at or below grade meet Feature A03, Part 1, Option 1.   WELL Core Guidance:   Meet these requirements in non-leased spaces provided, this areas comprises at least 2.5% of the total project area.   Otherwise, meet these requirements in non-leased space plus sufficient leased space to sum to 2.5% of the t"
+        },
+        {
+          "title": "Part 5 Monitor Air Parameters",
+          "body": "For All Spaces except Dwelling Units: The following requirements are met:    a. The pollutants listed in Parts 1-3 of this feature are monitored in regularly occupied spaces at intervals no longer       than once per year, and the results are submitted annually through the WELL digital platform.    b. The number and location of sampling points for on-going monitoring complies with the requirements outlined in       the Performance Verification Guidebook.   Note: Projects are not required to use devices that comply with the requirements described in the Performance Verification   Guidebook. Projects may monitor total VOCs, instead of the individual VOCs listed in Part 2: Meet Thresholds for O"
+        }
+      ]
+    },
+    {
+      "code": "A02",
+      "name": "Smoke-Free Environment",
+      "type": "precondition",
+      "intent": "Deter smoking, minimize occupant exposure to secondhand smoke and reduce smoke pollution.",
+      "summary": "This WELL feature requires projects to ban indoor smoking and ban or restrict outdoor smoking within its boundaries.",
+      "parts": [
+        {
+          "title": "Part 1 Prohibit Indoor Smoking",
+          "body": "For All Spaces: The following requirement is met:    a. Smoking and the use of e-cigarettes is prohibited in interior spaces within the project boundary.12   WELL Core Guidance:   Meet these requirements in the whole building."
+        },
+        {
+          "title": "Part 2 Prohibit Outdoor Smoking",
+          "body": "For All Spaces: Smoking and the use of e-cigarettes is prohibited in the following areas, with signage present to clearly communicate the ban:    a. Outdoors at ground level within 25 ft(7.5 m) (or the maximum extent allowable by local codes) of all entrances,       operable windows and building air intakes.13 Signage is present to clearly communicate the ban. In outdoor       areas within the project boundary that allow smoking (if any), signs are placed along walkways (not more than       100 ft(30 m) between signs) that describe the hazards of smoking.14    b. On decks, patios, balconies, rooftops and other occupiable outdoor areas above ground level.   WELL Core Guidance:   Meet these re"
+        }
+      ]
+    },
+    {
+      "code": "A03",
+      "name": "Ventilation Design",
+      "type": "precondition",
+      "intent": "Minimize indoor air quality issues through the provision of adequate ventilation.",
+      "summary": "This WELL feature requires projects to bring in fresh air from the outside through mechanical and/or natural means in order to dilute human- and product-generated air pollutants.",
+      "parts": [
+        {
+          "title": "Part 1 Ensure Adequate Ventilation",
+          "body": "For All Spaces: Option 1: Mechanically ventilated spaces For mechanically ventilated projects, one of the following requirements is met:    a. Newly installed ventilation systems are designed to meet the supply and exhaust rates set in one or more of the       following ventilation guidelines, which must describe ventilation rates for at least 90% of the project area. The       ventilation system is scheduled to be tested and balanced after project occupancy:           1. ASHRAE 62.1-2010 or any more recent versions (Ventilation Rate Procedure or IAQ Procedure).12           2. ASHRAE 62.2-2016.13           3. EN 16798-1 (for Category IV buildings).14           4. AS 1668.2-2012 or any more r"
+        }
+      ]
+    },
+    {
+      "code": "A04",
+      "name": "Construction Pollution Management",
+      "type": "precondition",
+      "intent": "Minimize the introduction of construction-related pollutants into indoor air, remediate construction-related indoor air contamination for human health and protect building products from degradation.",
+      "summary": "This WELL feature requires projects to protect indoor air quality during building construction and renovation through a combination of strategies, such as envelope protection, moisture and dust management, filter replacement, air flush and proper equipment selection.",
+      "parts": [
+        {
+          "title": "Part 1 Mitigate Construction Pollution",
+          "body": "For All Spaces: For construction occurring after project registration, the following requirements are met:    a. Ducts are maintained per one of the below:           1. Ducts are sealed and protected from possible contamination during construction.5           2. Ducts are cleaned prior to installing registers, grills and diffusers.    b. If permanently installed ventilation system is operating during construction, filters must meet the following:           1. Media filters with a PM10 removal rating of at least 70% (e.g., MERV 8) are used to filter return air.6           2. All filters are replaced prior to occupancy.5    c. The project implements the following moisture and dust management p"
+        }
+      ]
+    },
+    {
+      "code": "A05",
+      "name": "Enhanced Air Quality",
+      "type": "optimization",
+      "intent": "Encourage and recognize buildings with enhanced levels of indoor air quality that promote the health and well-being of people.",
+      "summary": "This WELL feature requires projects to go beyond current guidelines to provide enhanced air quality levels that have been linked to improved human health and performance.1,2",
+      "parts": [
+        {
+          "title": "Part 1 Meet Enhanced Thresholds for Particulate Matter",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt For All Spaces: The following requirement is met:    a. Projects comply with the thresholds specified in the table below:                                            Particulate Matter Thresholds                                  Points                                              PM2.5: 12 µg/m³ or lower.8                                      1                                               PM10: 30 µg/m³ or lower.9                                              PM2.5: 10 µg/m³ or lower.9                                      2                                               PM10:   20 µg/m³ or lower.9   WELL Core Guidance: Meet these requirements in the w"
+        },
+        {
+          "title": "Part 2 Meet Enhanced Thresholds for Organic Gases",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: The following thresholds are met in occupiable spaces:    a. Acetaldehyde: 140 µg/m³ or lower. 10    b. Acrylonitrile: 5 µg/m³ or lower.10    c. Benzene: 3 µg/m³ or lower.10    d. Caprolactam: 2.2 µg/m³ or lower.10    e. Formaldehyde: 9 µg/m³ or lower.10     f. Naphthalene: 9 µg/m³ or lower.10    g. Toluene: 300 µg/m³ or lower.10   WELL Core Guidance:    Meet these requirements in the whole building. Achievement requires access to at least 10% of leased space for testing as    identified by the project."
+        },
+        {
+          "title": "Part 3 Meet Enhanced Thresholds for Inorganic Gases",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: The following thresholds are met:    a. Carbon monoxide: 7 mg/m³ [6 ppm] or lower.11    b. Nitrogen dioxide: 40 µg/m³ [21 ppb] or lower. 11   WELL Core Guidance:   Meet these requirements in the whole building. Achievement requires access to at least 10% of leased space for testing as   identified by the project. References    1. Klepeis NE, Nelson WC, Ott WR, et al. The National Human Activity Pattern Survey (NHAPS): A resource for       assessing exposure to environmental pollutants. J Expo Anal Environ Epidemiol. 2001;11(3):231-252.       doi:10.1038/sj.jea.7500165    2. Joshi S. The sick building syndrome. Indian J Occup Environ "
+        }
+      ]
+    },
+    {
+      "code": "A06",
+      "name": "Enhanced Ventilation Design",
+      "type": "optimization",
+      "intent": "Expel internally generated pollutants and improve air quality in the breathing zone through an increased supply of outdoor air or increased ventilation efficiency.",
+      "summary": "This WELL feature requires implementation of advanced ventilation strategies that can achieve higher air quality levels and thus benefit human health and productivity.",
+      "parts": [
+        {
+          "title": "Part 1 Increase Outdoor Air Supply",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces: Option 1: Increased air supply For mechanically ventilated projects, the following requirement is met in all occupiable spaces:    a. Exceed outdoor air supply rates described in ASHRAE 62.1-2010 by the percentages shown in the table below:                                           Thresholds                                                    Points                                                30%                                                          1(2 )                                                60%                                                          2(3) OR Option 2: Demand control ventilation For mechanically venti"
+        },
+        {
+          "title": "Part 2 Improve Ventilation Effectiveness",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Displacement ventilation system The project uses a displacement ventilation system in at least 90% of regularly occupied spaces, with one of the following as a basis for design:    a. ASHRAE Guidelines RP-949.9    b. ASHRAE 62.1-2019, \"Stratified Air Distribution Systems (Section 6.2.1.2.1).10    c. REHVA Guidebook No. 01 (Displacement Ventilation in non-industrial premises).11 OR Option 2: Personalized ventilation system For at least 50% of workstations, the following requirements are met:    a. Outdoor air is supplied in the breathing zone, with an airspeed of no greater than 50 fpm(0.25 m/s) at the       occupant's head."
+        }
+      ]
+    },
+    {
+      "code": "A07",
+      "name": "Operable Windows",
+      "type": "optimization",
+      "intent": "Increase the supply of high-quality outdoor air and promote a connection to the outdoor environment, by encouraging building users to open windows when outdoor air quality is acceptable.",
+      "summary": "This WELL feature requires buildings with operable windows to increase the supply of high-quality outdoor air and promote a connection to the outdoor environment, by encouraging building users to open windows when outdoor air quality is acceptable.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Operable Windows",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt   Note: Projects where the average outdoor PM2.5 level is 35 µg/m³ or higher may only achieve Part 1: Provide Operable   Windows in conjunction with Part 2: Manage Window Use. The World Health Organization’s Global Urban Ambient Air   Pollution Database may be consulted to view outdoor air quality levels, available at   http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/. For All Spaces: The following requirement is met:    a. Project meets one of the below:           1. At least 75% of the regularly occupied spaces have operable windows that provide access to outdoor air.           2. For each floor, the openable window area is at "
+        },
+        {
+          "title": "Part 2 Manage Window Use",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt   Note:   Projects may only achieve this part if Part 1 is also achieved. For All Spaces: Option 1: Outdoor air measurement The following requirement is met:    a. Outdoor levels of PM2.5, temperature and humidity are monitored at intervals of at least once per hour, based on       a data-gathering station located within 2.5 mi(4 km) of the building. This monitoring system may be operated by       the project or by another entity (e.g., a government). Option 2: Window operation Indicator lights at windows (at least one per room with windows) cue occupants when the conditions outside are suitable for opening windows:    a. PM2.5: 15 µg/m³ or lower.  "
+        }
+      ]
+    },
+    {
+      "code": "A08",
+      "name": "Air Quality Monitoring And Awareness",
+      "type": "optimization",
+      "intent": "Monitor indoor air quality issues, as well as inform and educate individuals on the quality of the indoor environment.",
+      "summary": "This WELL feature requires the ongoing measurement of contaminant data to educate and empower occupants about their environmental quality.",
+      "parts": [
+        {
+          "title": "Part 1 Install Indoor Air Monitors",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Sensor requirements The following requirements are met:    a. The project deploys monitors that measure at least three of the following parameters:           1. PM2.5 or PM10 (accuracy 25% at 50 µg/m³).           2. Carbon dioxide (accuracy 10% at 750 ppm).           3. Carbon monoxide (accuracy 1 ppm at values between 0 and 10 ppm).           4. Ozone (accuracy 10 ppb at values between 0 and 100 ppb).           5. Nitrogen dioxide (accuracy 20 ppb at values between 0 and 100 ppb).           6. Total VOCs (accuracy 25% at 500 µg/m³).           7. Formaldehyde (accuracy 20 ppb at values between 0 and 100 ppb).    b. Monito"
+        },
+        {
+          "title": "Part 2 Promote Air Quality Awareness",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces:   Note: Projects may only receive points for this part, if Part 1 is also achieved Information about the air quality measured in Part 1 of this feature is made available to occupants as follows:    a. Data are presented through one of the following:           1. Display screens prominently positioned at a height of 3.6–5.6 ft(1.1–1.7 m) with at least one display per              3500 ft2(325 m2) of regularly occupied space.           2. Hosted on a website or phone application accessible to occupants. Signs are present indicating where the              data may be accessed at a density of at least one sign per 3500 ft2(325 m2) of reg"
+        }
+      ]
+    },
+    {
+      "code": "A09",
+      "name": "Pollution Infiltration Management",
+      "type": "optimization",
+      "intent": "Minimize the introduction of pollutants into indoor air through the building envelope and at building entrances.",
+      "summary": "This WELL feature requires projects to reduce transmission of air and pollutants from outdoors to indoors through the building envelope and entrance.",
+      "parts": [
+        {
+          "title": "Part 1 Design Healthy Entryways",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Building entry design The following requirements are met:    a. All regularly used entrances to the building that open to a pedestrian network include an entryway system       composed of grilles, grates, slots or rollout mats or removable carpet tiles that are at least the width of the       entrance and 10 ft(3 m) long in the primary direction of travel (sum of indoor and outdoor length).7    b. One of the below is in place to slow the movement of air from outdoors to indoors:           1. Building entry vestibule with two typically closed doorways.           2. Revolving entrance doors. Option 2: Building entry maintenan"
+        },
+        {
+          "title": "Part 2 Perform Envelope Commissioning",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: For projects undergoing design and construction, the following requirements are met:    a. The project uses a façade engineer that is responsible for defining the building envelope performance metrics       (including materials, components, assemblies and systems) at the concept design stage.    b. The building envelope performance requirements are included in the Basis of Design document and reflect the       Owner's Project Requirements.    c. The commissioning process includes envelope commissioning for air infiltration and leakage, which is reflected        in the specification and commissioning plan.    d. The envelope commissio"
+        }
+      ]
+    },
+    {
+      "code": "A10",
+      "name": "Combustion Minimization",
+      "type": "optimization",
+      "intent": "Reduce human exposure to combustion-related air pollution from heating and transportation sources.",
+      "summary": "This WELL feature requires projects to utilize low-emission combustion products or eliminate combustion- based products entirely.",
+      "parts": [
+        {
+          "title": "Part 1 Manage Combustion",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces except Commercial Kitchen Spaces: Option 1: Appliance and heater combustion ban The following requirement is met:    a. Combustion-based fireplaces, stoves, space heaters, ranges and ovens are not used in occupiable spaces.6 Option 2: Low-emission combustion sources Equipment used in the project for heating, cooling, water heating, process heating or power generation (including back-up, if used for more than 200 hours per year) within the building or project site meet some combination of the following requirements:    a. Comply with California’s South Coast Air Quality Management District emission rules for pollution.7    b. Are elect"
+        }
+      ]
+    },
+    {
+      "code": "A11",
+      "name": "Source Separation",
+      "type": "optimization",
+      "intent": "Preserve indoor air quality and maximize olfactory comfort in occupied spaces through the isolation and proper ventilation of indoor pollution sources and chemical storage areas.",
+      "summary": "This WELL feature requires strategies that isolate key sources of odors, germs, pollution or humidity through doors or dedicated exhaust.",
+      "parts": [
+        {
+          "title": "Part 1 Manage Pollution and Exhaust",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces except Dwelling Units: For all bathrooms, kitchens, rooms for cleaning and chemical storage, rooms with high-volume printers and copiers and high-humidity areas, the following requirements are met:    a. Meet one of the following:           1. Are separated from all adjacent regularly occupied spaces with self-closing doors and/or vestibules.           2. Are negatively pressurized compared with adjacent regularly occupied spaces.    b. Utilize exhaust fans such that the return air is vented outdoors and not recirculated.9,10 For Commercial Kitchen Spaces: The following requirements are met:    a. Canopy hoods have side or partial p"
+        }
+      ]
+    },
+    {
+      "code": "A12",
+      "name": "Air Filtration",
+      "type": "optimization",
+      "intent": "Reduce indoor and outdoor airborne contaminants through air filtration.",
+      "summary": "This WELL feature requires projects with mechanically ventilated spaces to implement adequate air filtration and document a maintenance protocol for installed filters. For naturally ventilated spaces, this feature requires that outdoor air quality standards are met.",
+      "parts": [
+        {
+          "title": "Part 1 Implement Particle Filtration",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Filtration levels The following requirement is met:    a. Media filters are used in the ventilation system to filter outdoor air supplied to the space, in accordance with       thresholds specified in the table below:5,6                Annual Average Outdoor PM 2.5Threshold                               Minimum Air Filtration Level (PM2.5 removal)                               23 µg/m³ or less                                              ≥80% (e.g., MERV 12 or M6)                                 24–39 µg/m³                                                 ≥90% (e.g., MERV 14 or F8)                             40 µg/m³ or gre"
+        }
+      ]
+    },
+    {
+      "code": "A13",
+      "name": "Enhanced Supply Air",
+      "type": "optimization",
+      "intent": "Mitigate risks from indoor contamination and pollution sources, such as infectious disease particles and volatile organic compounds (VOC).",
+      "summary": "This WELL feature requires the projects to use supply air that is not recirculated or that is treated with carbon filters, media filters and/or Ultraviolet Germicidal Irradiation (UVGI).",
+      "parts": [
+        {
+          "title": "Part 1 Improve Supply Air",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Air supply requirements All occupiable spaces utilize one of the following strategies:    a. 100% outdoor air (i.e., supply air has not recirculated from within the building).    b. Partially recirculated air which has been treated with the following:           1. Activated carbon filter.           2. At least one of the following: (i) Media filter with PM2.5 removal of ≥90% (e.g., MERV 14 or F8), (ii) UVGI              within the ducts to treat the moving air, or (iii) upper-room UVGI.    c. Partially recirculated air and include air purification/cleaning devices within the space (with a quantity       appropriate to the r"
+        }
+      ]
+    },
+    {
+      "code": "A14",
+      "name": "Microbe And Mold Control",
+      "type": "optimization",
+      "intent": "Reduce mold and bacteria growth within the building mechanical system.",
+      "summary": "This WELL feature requires projects to utilize UVGI systems and/or conduct regular inspections on components of the cooling system to reduce or eliminate growth of microbes and mold.",
+      "parts": [
+        {
+          "title": "Part 1 Implement Ultraviolet Air Treatment",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: UV system design The following requirements are met:    a. All central air handling units use ultraviolet lamps to irradiate the surfaces of the cooling coils and drain pans.10    b. All cooling coils and drain pans associated with fan coil units either:           1. Are irradiated by ultraviolet lamps.           2. May be opened for inspection for mold growth and cleaned, if necessary. Option 2: UV system maintenance and inspection The following requirements are met:    a. Evidence that the ultraviolet lamps have been replaced or maintained, according to manufacturer's       recommendation is submitted annually through the"
+        }
+      ]
+    }
+  ]
+}

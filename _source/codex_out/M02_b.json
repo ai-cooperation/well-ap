@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M02_Q26",
+    "stem": "Feature W09 β: Onsite Non-Potable Water Reuse of the WELL Building Standard states that a project can help decrease water use by what percent by installing non-potable water reuse and capture systems?",
+    "framework": "M02_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "50%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "85%",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "75%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "35%",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "W09 β Onsite Non-Potable Water Reuse, Part 1 Implement Safety Plan for Non-Potable Water Capture and Reuse 要求建立 safety plan，涵蓋 sources、treatment、points of use、exposure control、monitoring 與 annual documentation。其 Solutions 明確指出，妥善管理 non-potable water reuse and capture systems 可在 new buildings 降低 water use up to 75%。",
+    "diagnosis": {
+      "A": {
+        "gap": "把節水潛力低估為中等成效，未連到 W09 的 up to 數值。",
+        "followup": "W09 β 的 Solutions 說 non-potable water reuse 在 new buildings 可降低多少 water use？"
+      },
+      "B": {
+        "gap": "把節水潛力誤判為過高，超出 W09 overview 的 stated impact。",
+        "followup": "若 W09 只說 up to 某百分比，考試中看到更高數字時應如何回到原文核對？"
+      },
+      "D": {
+        "gap": "把保守節水估計當成標準數字，忽略 reuse 系統的最大潛力。",
+        "followup": "W09 Part 1 要求 safety plan 的目的，是小幅節水，還是支撐較高比例的 non-potable reuse？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q27",
+    "stem": "To help support effective handwashing practice in a building for Part 3: Support Effective Handwashing of Feature W08: Hygiene Support, what is one requirement that must be addressed?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proper signage is displayed for locations of handwashing stations.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "The faucet is designed for water to flow directly down the drain.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "The water column is at minimum 3 inches away from the edge of the sink.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Splash guards are installed.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "W08 Hygiene Support, Part 3 Support Effective Handwashing 要求 newly installed sinks 的水柱設計符合三項參數，其中 water column 必須 at least 3 inches away from any edge of the sink。這是降低 splash 與周邊污染風險的具體 sink design requirement。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 handwashing signage 誤當成 Part 3 的 sink geometry 要求。",
+        "followup": "W08 Part 3 問的是 sink 與 water column 設計；signage 是 W08 哪一個 Part 的要求？"
+      },
+      "B": {
+        "gap": "把水流直接入排水孔當成好設計，方向與防濺水要求相反。",
+        "followup": "W08 Part 3 為何要求 faucet design 防止 water column 直接流入 drain？"
+      },
+      "D": {
+        "gap": "用一般防濺概念取代原文指定的水柱距離與尺寸參數。",
+        "followup": "W08 Part 3 列出的 newly installed sinks 三個設計參數中，有沒有要求 splash guards？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q28",
+    "stem": "According to the WELL Building Standard Feature W07: Moisture Management overview, what percentage of buildings are affected by excess moisture and dampness in Europe, Canada, and the US?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "20%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "30%",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "40%",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "W07 Moisture Management, Part 1 Design Envelope for Moisture Protection 的 Issue 說 excess moisture and dampness 影響 Europe、Canada 與 U.S. about 20% of buildings。Part 1 進一步要求 envelope design 透過 drainage、air tightness、vapor pressure 與 drainage plane 等策略降低 moisture intrusion and accumulation。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估潮濕建築比例，未抓到 W07 Issue 的 about 20%。",
+        "followup": "W07 overview 提到 Europe、Canada、U.S. 的 dampness 影響比例，是一成還是約五分之一？"
+      },
+      "C": {
+        "gap": "把潮濕建築比例高估，可能與其他健康比例混淆。",
+        "followup": "W07 同段還提到 U.S. asthma cases 的 one fifth；這與 buildings affected 的比例是否相同？"
+      },
+      "D": {
+        "gap": "把問題規模誇大為四成，超出 W07 overview 的描述。",
+        "followup": "當題目問 buildings affected 而非 illness burden 時，W07 原文的百分比是哪一個？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q29",
+    "stem": "The Water concept in the WELL Building Standard does NOT aim to improve which of the following?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase proper hydration in the building occupants.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Reduce health risk associated with contaminated water and excessive moisture in buildings.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Provide adequate sanitation through better infrastructure design.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Provide access to better water quality by promoting bottle water.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W06 Drinking Water Promotion, Part 1 Ensure Drinking Water Access 要求 dispenser within 100 ft walking distance、piped or refillable-container supply，且新設 fountains 可供 bottle-refilling。Water concept 的目標是 hydration、降低 contaminated water 與 excessive moisture 風險、改善 sanitation，並不是推廣 bottled water。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Water concept 的核心 hydration 目標誤認為不屬於此概念。",
+        "followup": "W06 Part 1 如何透過 dispenser availability 支持 occupants 的 adequate hydration？"
+      },
+      "B": {
+        "gap": "忽略 Water concept 明確包含 contaminated water 與 excessive moisture 風險。",
+        "followup": "W07 Moisture Management 與 W02 Drinking Water Quality 分別對應哪些健康風險？"
+      },
+      "C": {
+        "gap": "忽略 bathroom 與 handwashing infrastructure 也是 Water concept 的一部分。",
+        "followup": "W08 Hygiene Support 的 bathroom accommodations 為何能被歸在 Water concept 的 sanitation 目標中？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q30",
+    "stem": "Access to good quality water not only helps with sanitation and hygiene but it can also reduce the risk of acquiring what kind of diseases?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Digestive",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Immune",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Nervous",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Respiratory",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W08 Hygiene Support, Part 1 Provide Bathroom and Handwashing Accommodations 要求提供 handwashing support，例如 fragrance-free liquid soap、hand drying method 與 proper hand washing signage。Water concept overview 說 well-designed bathrooms 與 appropriate hand washing 可降低 poor hygiene practices 相關的 enteric and respiratory diseases 風險。",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到 enteric disease，漏掉題目要問的 respiratory disease 面向。",
+        "followup": "Water overview 同時列出 enteric and respiratory diseases；若選項只問其中一類，哪個也明確被提到？"
+      },
+      "B": {
+        "gap": "把易感族群或免疫狀態誤當成水與衛生可降低的疾病類型。",
+        "followup": "W08 Part 1 的 handwashing support 是針對傳播途徑，還是直接改善 immune disease？"
+      },
+      "C": {
+        "gap": "將 lead 等水污染神經風險混入 sanitation and hygiene 題意。",
+        "followup": "若題幹聚焦 sanitation、hygiene 與 handwashing，應回到 W08 還是 W02 的 neurodevelopment 例子？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q31",
+    "stem": "A project team is working to earn the optimization Part 3: Support Effecting Handwashing of Feature W08: Hygiene support which aims to help improve the surrounding environment of handwashing areas reduce the risk of bacteria developing. Which of the following would help aid in this?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Have the handwashing sinks be separate from the bathrooms.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Have a faucet design that prevents water from flowing directly into the drain.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Continuously top off the soap dispensers to prevent it from running out.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Posting proper handwashing signage.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "W08 Hygiene Support, Part 3 Support Effective Handwashing 要求 faucet design prevents the water column from flowing directly into the drain，或安裝 sink drain stopper，且水龍頭全開時 water does not splash outside the sink。這對應 overview 中 water splashing from the drain may spread bacteria 的風險。",
+    "diagnosis": {
+      "A": {
+        "gap": "把空間分離當成細菌控制策略，未對應 Part 3 的 faucet/drain 設計。",
+        "followup": "W08 Part 3 的要求是改變 handwashing sink 本身，還是把 sinks 移到 bathroom 外？"
+      },
+      "C": {
+        "gap": "知道 soap 污染風險，卻忽略 Part 3 聚焦 drain splash 與 sink geometry。",
+        "followup": "W08 overview 確實提醒 soap dispensers 不宜 topped off，但 Part 3 的 faucet 要求是什麼？"
+      },
+      "D": {
+        "gap": "混淆 handwashing signage 與降低 sink 周邊細菌散布的設計要求。",
+        "followup": "若目標是避免 drain splash spread bacteria，W08 Part 3 指向 signage 還是 faucet flow path？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q32",
+    "stem": "A new WELL project is going to have an onsite cafeteria for its employees. In order to meet the requirements in Part 1: Provide Bathroom and Handwashing Accommodations of Feature W08: Hygiene Support for proper handwashing accommodations for this commercial kitchen and dining space, what must be done?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Have handwashing stations at every entrance.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Have 5 or more handwashing stations available.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Post clear signage to the nearest handwashing location at the entrance to all food prep and consumption areas.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "There are no special requirements for commercial spaces.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "W08 Hygiene Support, Part 1 Provide Bathroom and Handwashing Accommodations 對 Commercial Kitchen Spaces & Commercial Dining Spaces 要求，在所有 food preparation and consumption areas 的入口設置 clear signage directing toward the nearest handwashing location。這是商業廚房與用餐空間的額外 signage requirement。",
+    "diagnosis": {
+      "A": {
+        "gap": "把入口 signage 誤解為每個入口都要設置 handwashing station。",
+        "followup": "W08 Part 1 商業廚房條款要求 entrance 有什麼資訊，是 station 本身還是指向最近位置的 signage？"
+      },
+      "B": {
+        "gap": "憑空加入固定數量門檻，原文沒有五座 handwashing stations 要求。",
+        "followup": "W08 Part 1 對 commercial dining spaces 有列出 handwashing station 數量，還是要求清楚指引？"
+      },
+      "D": {
+        "gap": "忽略 commercial kitchen/dining spaces 有獨立的 handwashing signage 條款。",
+        "followup": "W08 Part 1 在 For Commercial Kitchen Spaces & Commercial Dining Spaces 下新增了哪個要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q33",
+    "stem": "To ensure the drinking water of a building is within the threshold for organics and pesticides, routine on-site testing can be done, according to Part 2: Meet Thresholds for Organics and Pesticides of Feature W02: Drinking Water Quality. What is a requirement that must be met?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Drinking water dispensers provide water that meets the threshold for at least two pesticides and three organic contaminants.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "The test must show no traces of any pesticides or organic contaminants.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Any pesticides or organic contaminants are okay as long as they are under the threshold.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Tested water shows no trace of either pesticides OR organic contaminants.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "W02 Drinking Water Quality, Part 2 Meet Thresholds for Organics and Pesticides 的 Option 2 On-site testing 要求 all drinking water dispensers provide water that meets thresholds for at least two pesticides and three organic contaminants，且測試者不得與 WELL project 有 conflict of interest。重點是指定數量的 contaminants 達到 thresholds，不是完全零檢出。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 meet thresholds 誤解為所有 pesticides 與 organics 都必須零檢出。",
+        "followup": "W02 Part 2 Option 2 說的是 no traces，還是 at least two pesticides and three organic contaminants meet thresholds？"
+      },
+      "C": {
+        "gap": "忽略 Part 2 只允許指定 contaminants 在 threshold 以下，不是任何污染物皆可。",
+        "followup": "若 municipal report 顯示某 pesticide 超標，W02 Part 2 的 Note 要 project 優先選哪些項目測試？"
+      },
+      "D": {
+        "gap": "把 AND 的最低測項要求誤讀成 pesticides 或 organics 其中一類零檢出。",
+        "followup": "W02 Part 2 onsite testing 同時要求 pesticides 和 organic contaminants，兩類各至少幾項？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q34",
+    "stem": "Part 1: Meet Chemical Thresholds of Feature W02: Drinking Water Quality of Feature W02: Drinking Water Quality stipulates that a Project must provide at least one drinking water dispenser plus how many water dispensers per dwelling unit?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "4",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "3",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "2",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "1",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W02 Drinking Water Quality, Part 1 Meet Chemical Thresholds 要求 project provides at least one drinking water dispenser, plus one drinking water dispenser per dwelling unit。這是 Part 1 的 dispenser availability requirement，之後才要求所有 dispensers 符合化學參數 thresholds。",
+    "diagnosis": {
+      "A": {
+        "gap": "把每戶 dispenser 數量誇大到四台，超出 W02 Part 1 要求。",
+        "followup": "W02 Part 1 的文字是 plus one drinking water dispenser per dwelling unit，還是每戶多台？"
+      },
+      "B": {
+        "gap": "憑住宅單元需求推高數量，未回到原文的 one per dwelling unit。",
+        "followup": "題目問 per dwelling unit 時，W02 Part 1 的 minimum quantity 是以哪個數字表達？"
+      },
+      "C": {
+        "gap": "把至少一台專案總量與每戶一台規則相加錯讀。",
+        "followup": "W02 Part 1 中 at least one drinking water dispenser 與 per dwelling unit 的要求分別指什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q35",
+    "stem": "Legionella bacteria naturally occur in water at low concentrations but may colonize in recirculating water systems. If contaminated water aerosols are inhaled it can lead to many health issues and even death. In Part 2: Implement Legionella Management Plan of Feature W03: Basic Water Management, in order to prevent the colonization of Legionella, a proper management plan must be put into place. Which of the following isn't included in the items that need to be addressed?",
+    "framework": "M02_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cooling Towers.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Hot water systems.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Commercial Kitchen Appliances.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Decorative Fountains.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "W03 Basic Water Management, Part 2 Implement Legionella Management Plan 要求 plan addresses hot water systems, cooling towers, decorative fountains and any other project-controlled devices or spaces where water is recirculated and aerosolized。Commercial Kitchen Appliances 並未列為這個 Legionella plan 的指定項目。",
+    "diagnosis": {
+      "A": {
+        "gap": "把明列的 cooling towers 誤當成不需納入 Legionella plan。",
+        "followup": "W03 Part 2 在第一句列出的 systems 中，cooling towers 是否屬於需 address 的水資產？"
+      },
+      "B": {
+        "gap": "忽略 hot water systems 是 Legionella colonization 的核心風險系統。",
+        "followup": "Legionella 常在 recirculating water systems colonize；W03 Part 2 是否明列 hot water systems？"
+      },
+      "D": {
+        "gap": "將 decorative fountains 排除，但原文明確列入 aerosolized water 風險。",
+        "followup": "W03 Part 2 對 decorative fountains 的要求，和 cooling towers 是否同樣需要被 plan address？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q36",
+    "stem": "A Legionella Management Plan must document monitoring results, corrective actions, and any sample results and submit them through the WELL digital platform. As part of Part 2: Implement Legionella Management Plan of Feature W03: Basic Water Management, how often must projects submit this documentation?",
+    "framework": "M02_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monthly.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Twice a Year.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Quarterly.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Yearly.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W03 Basic Water Management, Part 2 Implement Legionella Management Plan 的 Option 2 要求 project submits annually through the WELL digital platform documentation of monitoring results, corrective actions and Legionella sample results, if any。提交頻率是 annually。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Legionella documentation 提交頻率誤設為過度頻繁的 monthly。",
+        "followup": "W03 Part 2 Option 2 用哪個詞描述 WELL digital platform 的提交頻率？"
+      },
+      "B": {
+        "gap": "把 annual submission 誤讀為半年一次，未對準原文頻率。",
+        "followup": "如果管理計畫內可有不同 monitoring schedule，提交 documentation 到平台是否也是半年一次？"
+      },
+      "C": {
+        "gap": "混淆季度水質監測與 Legionella plan documentation 的年度提交。",
+        "followup": "W05 Part 1 有 quarterly testing；W03 Part 2 的 Legionella documentation 是不是同一頻率？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q37",
+    "stem": "A new office project is not only concerned about the health-based concerns in the drinking water, but with the water aesthetics as well. What filtration system can help with the taste and visual appearances of the building drinking water, as found in Feature W04: Enhanced Water Quality?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ion Exchange System.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "UV filtration System.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Filtration with carbon media.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Inline sand filtration system.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "W04 Enhanced Water Quality, Part 1 Meet Thresholds for Drinking Water Taste 管理影響 taste, odor and appearance 的 aesthetic chemicals，例如 chloride、iron、TDS 與 free chlorine thresholds。W04 Solutions 指出 treatment options include filtration with carbon media and reverse osmosis，用於改善 nuisance chemicals。",
+    "diagnosis": {
+      "A": {
+        "gap": "把可處理特定離子的 ion exchange 誤當成 W04 overview 例示方案。",
+        "followup": "W04 Solutions 明確列出的兩種 treatment options 是 filtration with carbon media 和哪一種？"
+      },
+      "B": {
+        "gap": "把 disinfection 的 UV filtration 混入 taste and appearance 的處理策略。",
+        "followup": "W04 Part 1 關注 chloride、iron、TDS 等美觀口感參數；UV 主要解決哪類問題？"
+      },
+      "D": {
+        "gap": "把一般懸浮物過濾想成飲水 taste aesthetics 的標準方案。",
+        "followup": "W04 overview 面對 nuisance chemicals 時，原文有提 inline sand filtration system 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q38",
+    "stem": "How is drinking water taste verified, in Feature W04: Enhanced Water Quality?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "By Performance Testing",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "By Technical Document",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "By On-going Data Report",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "By Policy and/or Operations Schedule",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "W04 Enhanced Water Quality, Part 1 Meet Thresholds for Drinking Water Taste 要求 project water for human consumption meets measured thresholds，例如 TDS ≤ 500 mg/L、chloride ≤ 250 mg/L、iron ≤ 0.3 mg/L 與 free chlorine ≤ 1.25 mg/L。因為合規取決於現場水質濃度是否達標，drinking water taste 以 Performance Testing 驗證。",
+    "diagnosis": {
+      "B": {
+        "gap": "把水質濃度實測誤當成只需文件證明的設計項目。",
+        "followup": "W04 Part 1 要確認 TDS、chloride、iron 等數值達標，Technical Document 能取代現場採樣嗎？"
+      },
+      "C": {
+        "gap": "混淆 ongoing monitoring report 與初次驗證 taste thresholds 的方式。",
+        "followup": "W04 Part 1 是一次性 threshold verification，還是 W05 那種定期監測資料提交？"
+      },
+      "D": {
+        "gap": "把操作政策或排程誤認為能證明 drinking water taste threshold。",
+        "followup": "若要求 free chlorine ≤ 1.25 mg/L，Policy Schedule 能否直接證明水樣濃度？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q39",
+    "stem": "A 2-story first-time registered project is testing the drinking water quality in its building. Where does Part 1: Assess and Maintain Drinking Water Quality of Feature W05: Drinking Water Quality Management state is the best place to take the sample from?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "From the water dispenser that is closest to the water source.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "From every water dispenser on a single floor.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "From the water dispenser that is farthest away from the water source.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "All drinking water dispensers should be tested.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "W05 Drinking Water Quality Management, Part 1 Assess and Maintain Drinking Water Quality 的 Option 1 要求 first-time registered projects pre-test water，採樣點包含 closest to the pipe that delivers water into the project 的 dispenser。只有 projects with more than two floors 才另外加入 highest floor 與 farthest dispenser。",
+    "diagnosis": {
+      "B": {
+        "gap": "把單層多點採樣誤認為兩層建築的 pre-test location 規則。",
+        "followup": "W05 Part 1 Option 1 的 location 條款，是按每層全部取樣，還是指定 closest pipe location？"
+      },
+      "C": {
+        "gap": "把超過兩層才需的 farthest dispenser 規則套到 2-story project。",
+        "followup": "W05 Part 1 何時才要求取 highest floor 與 farthest dispenser 的水樣？"
+      },
+      "D": {
+        "gap": "把 pre-test sampling 擴大成所有 dispensers 逐一測試。",
+        "followup": "W05 Part 1 的 sampling locations 是代表性點位，還是要求 all drinking water dispensers should be tested？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q40",
+    "stem": "A new WELL project is concerned with being transparent with the tenants about the building's drinking water quality. In order to comply with Part 2: Promote Drinking Water Transparency of Feature W05: Drinking Water Quality Management, a couple of things must prominently be displayed near the sources of drinking. One of those items is the most recent test results for water quality, which includes the date and compliance with thresholds. What is the other item that must be posted?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "The last date of maintenance for the drinking dispenser.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "What chemicals are being used to enhance the drinking water.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Treatment technologies of the filters used, plus the recent date of maintenance or replacement.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "The cleaning scheduled for the water drinking dispenser.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "W05 Drinking Water Quality Management, Part 2 Promote Drinking Water Transparency 要求 near sources of drinking water 或 occupant website 顯示兩類資訊：最近 water quality sampling results，以及若使用 filters or treatment units，顯示 treatment technologies 與最近 maintenance 或 filter cartridge replacement date。",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到 maintenance date，漏掉 treatment technologies 與 filter replacement。",
+        "followup": "W05 Part 2 對 filters or treatment units 要顯示的是單純日期，還是技術與維護/更換日期？"
+      },
+      "B": {
+        "gap": "把 treatment technologies 誤解成列出用來強化水質的 chemicals。",
+        "followup": "W05 Part 2 使用的是 treatment technologies 這個詞，是否要求公開投加 chemicals 清單？"
+      },
+      "D": {
+        "gap": "混淆飲水機清潔排程與透明揭露的水質/濾材維護資訊。",
+        "followup": "W05 Part 2 要 occupants 看到 cleaning schedule，還是 filter maintenance or cartridge replacement date？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q41",
+    "stem": "Feature W06: Drinking Water Promotion details dispenser availability and dispenser maintenance. According to this feature, which option does not aid in drinking water promotion?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Newly installed water fountains are designed for water bottle refilling.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "The water that supplies the dispensers is piped through the buildings water supply or stored in refillable containers.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "At least one water dispenser is located within a 100 ft walking distance from all regularly occupied floor and dining areas.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Post the cleaning schedules of the water dispensers within view when standing at the dispenser.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W06 Drinking Water Promotion, Part 1 Ensure Drinking Water Access 要求至少一台 dispenser within 100 ft walking distance、供水直接由 building supply piping 或 refillable containers 提供，且 newly installed fountains 支援 bottle-refilling。Dispenser maintenance 的 requirement 是 mouthpieces、guards、aerators、basins and touch points cleaned daily，並非張貼 cleaning schedules。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 W06 明列的 bottle-refilling fountain 誤認為無助飲水推廣。",
+        "followup": "W06 Part 1 Option 1 對 newly installed drinking water fountains 的 bottle-refilling 設計有何要求？"
+      },
+      "B": {
+        "gap": "忽略 piped supply 或 refillable containers 是 dispenser availability 條款之一。",
+        "followup": "W06 Part 1 要 water delivered by dispensers 來自哪些可接受來源？"
+      },
+      "C": {
+        "gap": "把 100 ft walking distance 的核心 accessibility requirement 誤排除。",
+        "followup": "W06 Part 1 如何用 100 ft walking distance 支持 regularly occupied areas 的 drinking water access？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q42",
+    "stem": "The WELL Building Standard seeks to manage water quality in buildings. As part of this, Feature W07: Moisture Management details the issue of excess moisture and dampness in buildings. How many of the asthma cases in the U.S. are linked to excess moisture and dampness in a building?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "20%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "50%",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "33%",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "W07 Moisture Management, Part 1 Design Envelope for Moisture Protection 的 Issue 說 U.S. asthma cases 中約 one fifth are caused by excess moisture and dampness in buildings。這支撐 W07 透過 moisture intrusion、condensation 與 leaks 管理來降低 respiratory health risk。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 excess moisture 對 asthma cases 的歸因比例。",
+        "followup": "W07 overview 提到 one fifth of asthma cases；換成百分比大約是多少？"
+      },
+      "C": {
+        "gap": "把 asthma 歸因比例誇大為一半，超出 W07 原文。",
+        "followup": "W07 Issue 說的是 one fifth，與 50% 這種 half 的表述是否一致？"
+      },
+      "D": {
+        "gap": "把三分之一與 one fifth 混淆，未精確轉換比例。",
+        "followup": "當 WELL 用 one fifth 描述 asthma cases，應對應 20% 還是 33%？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q43",
+    "stem": "A 10-story new office complex in New Orleans, LA is working on the interior of the building. Since New Orleans receives a large amount of annual rainfall, the project team is taking measures to protect against any moisture and mold issues. In Part 2: Design Interiors for Moisture Management of Feature W07: Moisture Management, besides addressing condensation issues, what is another issue that needs to be addressed?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Water leak control in fixtures.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Installed an evaporation system.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Proper drainage for moisture build up.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "None of the above.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "W07 Moisture Management, Part 2 Design Interiors for Moisture Management 包含 Option 1 condensation and liquid water management，以及 Option 2 Water leak control in fixtures。Option 2 要求 hard-piped fixtures 有 labeled, readily accessible single-throw manual shut-off 或 automatic shut-off at point-of-connection，並要求 water treatment devices 的 waste line 固定且具 backflow preventor。",
+    "diagnosis": {
+      "B": {
+        "gap": "憑空加入 evaporation system，未對應 Part 2 的 condensation 或 leak control。",
+        "followup": "W07 Part 2 是要求安裝 evaporation system，還是管理 cold surfaces condensation 與 hard-piped fixtures leaks？"
+      },
+      "C": {
+        "gap": "抓到排水概念但未對準 interiors Part 2 的 fixtures leak control。",
+        "followup": "W07 Part 1 談 site drainage；題目問 Part 2 interiors 時，另一個 option 名稱是什麼？"
+      },
+      "D": {
+        "gap": "忽略 Part 2 明確提供 Water leak control in fixtures 作為另一項路徑。",
+        "followup": "W07 Part 2 除了 condensation and liquid water management，是否還有 Option 2？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q44",
+    "stem": "A project designer is focusing their efforts on creating a bathroom design that will accommodate for enhanced hygiene support. Which of the following features would not aid in their design according to Part 2: Enhance Bathroom Accommodations of Feature W08: Hygiene Support?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Toilets equipped with hands-free flushing.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Providing single use hand drying cloths that can be washed and reused.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "A method to exit the bathroom hands free.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Contactless soap dispensers.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "W08 Hygiene Support, Part 2 Enhance Bathroom Accommodations 要求 all bathrooms 具備 hands-free flushing、contactless soap dispensers and hand drying、hands-free exit，以及符合條件的 sensor-activated faucets。Reusable single-use hand drying cloths 並不是 Part 2 的 bathroom enhancement requirement；fabric towel rolls 是 Part 1 handwashing support 的另一種 hand drying method。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Part 2 明列的 hands-free flushing 誤當成無助 hygiene design。",
+        "followup": "W08 Part 2 第一項 bathroom requirement 是否就是 toilets equipped with hands-free flushing？"
+      },
+      "C": {
+        "gap": "忽略 hands-free exit 是 Part 2 降低接觸點的核心要求。",
+        "followup": "W08 Part 2 為何要求 users can exit the bathroom hands-free？"
+      },
+      "D": {
+        "gap": "把 contactless soap dispensers 排除，但原文明確列入 Part 2。",
+        "followup": "W08 Part 2 對 soap dispensers and hand drying 的 contactless 要求是什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q45",
+    "stem": "What is required to be submitted annually through the WELL digital platform for a safety plan for Non-Potable water capture and reuse?",
+    "framework": "M02_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Documents of start up procedure, maintenance logs, results from testing.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "List of key team members, maintenance logs, emergency operations.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Testing results, maintenance logs, chemicals used to treat odors.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Emergency operations, a description of the system, maintenance logs.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "W09 β Onsite Non-Potable Water Reuse, Part 1 Implement Safety Plan for Non-Potable Water Capture and Reuse 要求 projects submit annually documentation of the startup procedure, maintenance logs, verification test results when applicable, and third-party inspections through the WELL digital platform。這是 safety plan implementation 的 annual submission requirement。",
+    "diagnosis": {
+      "B": {
+        "gap": "混入 team roles 與 emergency operations，漏掉 startup procedure 與 verification tests。",
+        "followup": "W09 Part 1 annual submission 要交的是 key team members，還是 startup procedure 與測試/inspection 文件？"
+      },
+      "C": {
+        "gap": "把 odor control chemicals 誤當成年度提交內容，且漏掉 startup procedure。",
+        "followup": "W09 Part 1 safety plan 會描述 odor control strategies，但 annual documentation 條款列出哪些文件？"
+      },
+      "D": {
+        "gap": "把 safety plan 內容清單與 annual documentation 提交清單混淆。",
+        "followup": "W09 Part 1 的 emergency operations 與 system description 屬於 plan 內容，是否就是每年提交清單？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q46",
+    "stem": "When testing the water quality, what temperature should the water be when tested?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hot",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Cold",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Lukewarm",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Any temperature will work",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "W05 Drinking Water Quality Management, Part 1 Assess and Maintain Drinking Water Quality 要求 first-time registered projects pre-test drinking water parameters before Performance Verification，且採樣點依 dispenser location 決定。提供的 WELL v2 standard text 未列出採樣水溫程序；來源解析稱 sample water should be taken from the cold water fixture，若無法調整水溫則記錄條件。",
+    "diagnosis": {
+      "A": {
+        "gap": "把熱水採樣誤認為飲用水水質測試的標準條件。",
+        "followup": "W05 Part 1 測的是 drinking water dispensers；若程序要求 cold fixture，熱水會引入哪些非飲用狀態變因？"
+      },
+      "C": {
+        "gap": "把折衷溫度當成標準，未區分 cold fixture 與例外記錄。",
+        "followup": "若採樣程序有指定 cold water fixture，無法調整水溫時應直接改 lukewarm 還是記錄條件？"
+      },
+      "D": {
+        "gap": "忽略採樣條件會影響 disinfectants 與水質參數讀值。",
+        "followup": "在 W05 的 water quality testing 情境中，為何採樣條件不應被視為 any temperature？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "提供的 wellv2-standard.txt 未包含 cold water fixture 採樣溫度程序，無法用指定 grounding 驗證。"
+    }
+  },
+  {
+    "id": "M02_Q47",
+    "stem": "A WELL Certified office building is testing the building's water supply for levels of disinfectants. In order to obtain a proper sample, how long must the water be running before gathering a sample?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 Seconds",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "20 Seconds",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "30 Seconds",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "40 Seconds",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "W05 Drinking Water Quality Management, Part 1 Assess and Maintain Drinking Water Quality 要求測試 total chlorine、residual free chlorine 等 parameters，W03 Basic Water Management, Part 1 也要求 residual chlorine 至少 annually monitoring。提供的 WELL v2 standard text 未列出 disinfectants 採樣前需放水的秒數；來源解析稱除非緊接前一個樣本，取樣前水需 run for at least 30 seconds。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 disinfectants 採樣前 flush 時間，可能取到停滯水樣。",
+        "followup": "若要量 residual chlorine，放水時間太短會不會反映 fixture 內停滯水而非供水狀態？"
+      },
+      "B": {
+        "gap": "接近但仍少於來源程序的 30 seconds requirement。",
+        "followup": "題目問 disinfectants sample 前的固定秒數，來源解析中的 minimum 是 20 還是 30 seconds？"
+      },
+      "D": {
+        "gap": "把取樣前放水時間拉長，未對準來源程序的 minimum。",
+        "followup": "若程序寫 at least 30 seconds，考題通常要選 minimum requirement 還是更長時間？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "提供的 wellv2-standard.txt 未包含 run water 30 seconds 的採樣程序，無法用指定 grounding 驗證。"
+    }
+  },
+  {
+    "id": "M02_Q48",
+    "stem": "What type of verification is needed for Part 1: Design Envelope for Moisture Protection of Feature W07: Moisture Management?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Letter of Assurance.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "On-going Maintenance Report.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "On-site Photographs.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Professional Narrative.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W07 Moisture Management, Part 1 Design Envelope for Moisture Protection 是設計敘述型要求，需說明 drainage and storm water management、air tightness testing、vapor pressure differentials、entryway strategies、continuous drainage plane 與 capillary break methods 等 envelope moisture protection strategies。這類合規重點在設計策略說明，因此以 Professional Narrative 驗證。",
+    "diagnosis": {
+      "A": {
+        "gap": "把設計敘事型 moisture envelope 策略誤當成單一責任方保證。",
+        "followup": "W07 Part 1 要說明多項 envelope strategies，Letter of Assurance 是否足以呈現完整設計邏輯？"
+      },
+      "B": {
+        "gap": "混淆持續維護報告與設計階段的 envelope moisture protection。",
+        "followup": "W07 Part 3 才涉及 inspections results annual submission；Part 1 問的是哪一類設計證明？"
+      },
+      "C": {
+        "gap": "以為現場照片能取代 moisture intrusion 與 vapor control 的策略說明。",
+        "followup": "W07 Part 1 的 adverse vapor pressure differentials 與 capillary breaks，是否只靠照片即可完整證明？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q49",
+    "stem": "A building is using reclaimed water for the urinals and toilets through the building's bathrooms. How often does the reclaimed water quality need to be tested?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monthly",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Quarterly",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Yearly",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Never",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W01 Water Quality Indicators, Part 1 Verify Water Quality Indicators applies to water intended for human contact，例如 drinking、cooking、handwashing、showering or bathing，並要求 turbidity ≤ 1.0 NTU/FTU/FNU 與 coliforms not detected in any 100 ml sample。Reclaimed water used only for urinals and toilets is not listed as intended for human contact under this water quality indicator requirement。",
+    "diagnosis": {
+      "A": {
+        "gap": "把非接觸用途誤套成高頻水質測試義務。",
+        "followup": "W01 Part 1 的適用範圍是所有建築用水，還是 likely to come in contact with occupants 的水？"
+      },
+      "B": {
+        "gap": "混淆 W05 quarterly drinking water monitoring 與廁所 reclaimed water 用途。",
+        "followup": "W05 Part 1 quarterly testing 是針對 drinking water dispensers；urinal/toilet reclaimed water 是否屬於同一類？"
+      },
+      "C": {
+        "gap": "把年度水質提交概念套到不屬 human contact 的 reclaimed water。",
+        "followup": "W03 或 W05 的 annual submission 條款是否自動適用於 urinals and toilets 的 reclaimed water？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q50",
+    "stem": "How frequently in the building does signage indicating the water quality results need to be placed according to Part 2: Promote Drinking Water Transparency of Feature W05: Drinking Water Quality Management?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "At every drinking fountain.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "At 1 drinking fountain per floor.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "The amount is at the discretion of the project team.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "At the drinking fountains close to every exit/entrance.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "W05 Drinking Water Quality Management, Part 2 Promote Drinking Water Transparency 要求 water quality results 與 filter/treatment maintenance information prominently displayed near sources of drinking water or on a website available to occupants。原文沒有指定每層、每座或出入口旁的固定張貼密度，而是以有效告知 occupants 為原則。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 near sources 誤解成 every drinking fountain 的固定頻率。",
+        "followup": "W05 Part 2 的文字是 prominently displayed near sources，是否明定每一座 fountain 都要貼？"
+      },
+      "B": {
+        "gap": "自行加入每層一處的數量規則，原文沒有 floor-based density。",
+        "followup": "W05 Part 2 是用 per floor 來規定 signage 數量，還是允許用 occupant website？"
+      },
+      "D": {
+        "gap": "把出入口導向邏輯混入飲水水質透明揭露位置要求。",
+        "followup": "W05 Part 2 要資訊靠近 drinking water sources，還是靠近 building exits/entrances？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

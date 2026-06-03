@@ -1,3 +1,10 @@
-_source/wellv2-standard.pdf
+# raw copyrighted source material — kept out of the repo (build inputs only)
+_source/WELL-*.zip
+_source/WELL_extracted/
+_source/*.pdf
+_source/wellv2-standard.txt
+_source/wellap-handbook.txt
+
+# os / deps
 .DS_Store
 node_modules/

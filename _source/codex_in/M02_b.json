@@ -1,0 +1,679 @@
+{
+  "module": "M02",
+  "frameworks": [
+    {
+      "id": "M02_F1",
+      "name": "飲用水與接觸水指標",
+      "desc": "W01 Water Quality Indicators 與 W02 Drinking Water Quality 分別處理 turbidity、coliforms 與 chemical composition 等水質門檻，W01 要求 Turbidity is less than or equal to 1.0 NTU, FTU or FNU。",
+      "covers": [
+        "W01 Water Quality Indicators",
+        "W02 Drinking Water Quality",
+        "Turbidity <= 1.0 NTU",
+        "coliforms",
+        "chemical composition"
+      ]
+    },
+    {
+      "id": "M02_F2",
+      "name": "Legionella 與水安全管理",
+      "desc": "W03 Basic Water Management 要透過 testing、monitoring 與 Legionella management plan 降低水質劣化與 Legionella colonization 風險。",
+      "covers": [
+        "W03 Basic Water Management",
+        "Legionella management plan",
+        "recirculating hot water systems",
+        "water safety and management plans"
+      ]
+    },
+    {
+      "id": "M02_F3",
+      "name": "飲水可近性與補水行為",
+      "desc": "W04 Enhanced Water Quality、W05 Drinking Water Quality Management 與 W06 Drinking Water Promotion 將 treatment、display、dispensers 與 hydration promotion 連成從水質到行為的策略。",
+      "covers": [
+        "W04 Enhanced Water Quality",
+        "W05 Drinking Water Quality Management",
+        "W06 Drinking Water Promotion",
+        "drinking water dispensers",
+        "hydration"
+      ]
+    },
+    {
+      "id": "M02_F4",
+      "name": "濕氣管理與衛生支援",
+      "desc": "W07 Moisture Management 與 W08 Hygiene Support 對應 moisture infiltration、condensation、bathrooms、hand washing stations 與 hygiene amenities。",
+      "covers": [
+        "W07 Moisture Management",
+        "W08 Hygiene Support",
+        "moisture management",
+        "bathroom accommodations",
+        "hand washing stations"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M02_Q26",
+      "stem": "Feature W09 β: Onsite Non-Potable Water Reuse of the WELL Building Standard states that a project can help decrease water use by what percent by installing non-potable water reuse and capture systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50%"
+        },
+        {
+          "key": "B",
+          "text": "85%"
+        },
+        {
+          "key": "C",
+          "text": "75%"
+        },
+        {
+          "key": "D",
+          "text": "35%"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "By properly managing and controlling non-potable water reuse and capture systems, \nprojects can help maintain occupant health and safety, while contributing to \ndecreased water use by up to 75% in new buildings.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q27",
+      "stem": "To help support effective handwashing practice in a building for Part 3: Support Effective Handwashing of Feature W08: Hygiene Support, what is one requirement that must be addressed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proper signage is displayed for locations of handwashing stations."
+        },
+        {
+          "key": "B",
+          "text": "The faucet is designed for water to flow directly down the drain."
+        },
+        {
+          "key": "C",
+          "text": "The water column is at minimum 3 inches away from the edge of the sink."
+        },
+        {
+          "key": "D",
+          "text": "Splash guards are installed."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q28",
+      "stem": "According to the WELL Building Standard Feature W07: Moisture Management overview, what percentage of buildings are affected by excess moisture and dampness in Europe, Canada, and the US?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10%"
+        },
+        {
+          "key": "B",
+          "text": "20%"
+        },
+        {
+          "key": "C",
+          "text": "30%"
+        },
+        {
+          "key": "D",
+          "text": "40%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "20% of buildings in Europe, Canada, and the U.S deal will excess moisture.",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q29",
+      "stem": "The Water concept in the WELL Building Standard does NOT aim to improve which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increase proper hydration in the building occupants."
+        },
+        {
+          "key": "B",
+          "text": "Reduce health risk associated with contaminated water and excessive moisture in buildings."
+        },
+        {
+          "key": "C",
+          "text": "Provide adequate sanitation through better infrastructure design."
+        },
+        {
+          "key": "D",
+          "text": "Provide access to better water quality by promoting bottle water."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "This is not part of the Water Feature.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q30",
+      "stem": "Access to good quality water not only helps with sanitation and hygiene but it can also reduce the risk of acquiring what kind of diseases?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Digestive"
+        },
+        {
+          "key": "B",
+          "text": "Immune"
+        },
+        {
+          "key": "C",
+          "text": "Nervous"
+        },
+        {
+          "key": "D",
+          "text": "Respiratory"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Read the Water concept overview in the WELL Building Standard.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q31",
+      "stem": "A project team is working to earn the optimization Part 3: Support Effecting Handwashing of Feature W08: Hygiene support which aims to help improve the surrounding environment of handwashing areas reduce the risk of bacteria developing. Which of the following would help aid in this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Have the handwashing sinks be separate from the bathrooms."
+        },
+        {
+          "key": "B",
+          "text": "Have a faucet design that prevents water from flowing directly into the drain."
+        },
+        {
+          "key": "C",
+          "text": "Continuously top off the soap dispensers to prevent it from running out."
+        },
+        {
+          "key": "D",
+          "text": "Posting proper handwashing signage."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "A sink drain stopper could also be installed as a strategy here. \nFeature W08: Hygiene Support overview states that \"Water splashing from the drain \nmay spread bacteria to surrounding areas.\"",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q32",
+      "stem": "A new WELL project is going to have an onsite cafeteria for its employees. In order to meet the requirements in Part 1: Provide Bathroom and Handwashing Accommodations of Feature W08: Hygiene Support for proper handwashing accommodations for this commercial kitchen and dining space, what must be done?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Have handwashing stations at every entrance."
+        },
+        {
+          "key": "B",
+          "text": "Have 5 or more handwashing stations available."
+        },
+        {
+          "key": "C",
+          "text": "Post clear signage to the nearest handwashing location at the entrance to all food prep and consumption areas."
+        },
+        {
+          "key": "D",
+          "text": "There are no special requirements for commercial spaces."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q33",
+      "stem": "To ensure the drinking water of a building is within the threshold for organics and pesticides, routine on-site testing can be done, according to Part 2: Meet Thresholds for Organics and Pesticides of Feature W02: Drinking Water Quality. What is a requirement that must be met?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Drinking water dispensers provide water that meets the threshold for at least two pesticides and three organic contaminants."
+        },
+        {
+          "key": "B",
+          "text": "The test must show no traces of any pesticides or organic contaminants."
+        },
+        {
+          "key": "C",
+          "text": "Any pesticides or organic contaminants are okay as long as they are under the threshold."
+        },
+        {
+          "key": "D",
+          "text": "Tested water shows no trace of either pesticides OR organic contaminants."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M02_F1"
+    },
+    {
+      "id": "M02_Q34",
+      "stem": "Part 1: Meet Chemical Thresholds of Feature W02: Drinking Water Quality of Feature W02: Drinking Water Quality stipulates that a Project must provide at least one drinking water dispenser plus how many water dispensers per dwelling unit?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M02_F1"
+    },
+    {
+      "id": "M02_Q35",
+      "stem": "Legionella bacteria naturally occur in water at low concentrations but may colonize in recirculating water systems. If contaminated water aerosols are inhaled it can lead to many health issues and even death. In Part 2: Implement Legionella Management Plan of Feature W03: Basic Water Management, in order to prevent the colonization of Legionella, a proper management plan must be put into place. Which of the following isn't included in the items that need to be addressed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cooling Towers."
+        },
+        {
+          "key": "B",
+          "text": "Hot water systems."
+        },
+        {
+          "key": "C",
+          "text": "Commercial Kitchen Appliances."
+        },
+        {
+          "key": "D",
+          "text": "Decorative Fountains."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M02_F2"
+    },
+    {
+      "id": "M02_Q36",
+      "stem": "A Legionella Management Plan must document monitoring results, corrective actions, and any sample results and submit them through the WELL digital platform. As part of Part 2: Implement Legionella Management Plan of Feature W03: Basic Water Management, how often must projects submit this documentation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monthly."
+        },
+        {
+          "key": "B",
+          "text": "Twice a Year."
+        },
+        {
+          "key": "C",
+          "text": "Quarterly."
+        },
+        {
+          "key": "D",
+          "text": "Yearly."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Documentation only needs to be submitted once a year.",
+      "framework_hint": "M02_F2"
+    },
+    {
+      "id": "M02_Q37",
+      "stem": "A new office project is not only concerned about the health-based concerns in the drinking water, but with the water aesthetics as well. What filtration system can help with the taste and visual appearances of the building drinking water, as found in Feature W04: Enhanced Water Quality?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ion Exchange System."
+        },
+        {
+          "key": "B",
+          "text": "UV filtration System."
+        },
+        {
+          "key": "C",
+          "text": "Filtration with carbon media."
+        },
+        {
+          "key": "D",
+          "text": "Inline sand filtration system."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Read the overview for Feature W04: Enhanced Water Quality.  Treatment options \ninclude filtration with carbon media and reverse osmosis.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q38",
+      "stem": "How is drinking water taste verified, in Feature W04: Enhanced Water Quality?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By Performance Testing"
+        },
+        {
+          "key": "B",
+          "text": "By Technical Document"
+        },
+        {
+          "key": "C",
+          "text": "By On-going Data Report"
+        },
+        {
+          "key": "D",
+          "text": "By Policy and/or Operations Schedule"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q39",
+      "stem": "A 2-story first-time registered project is testing the drinking water quality in its building. Where does Part 1: Assess and Maintain Drinking Water Quality of Feature W05: Drinking Water Quality Management state is the best place to take the sample from?",
+      "options": [
+        {
+          "key": "A",
+          "text": "From the water dispenser that is closest to the water source."
+        },
+        {
+          "key": "B",
+          "text": "From every water dispenser on a single floor."
+        },
+        {
+          "key": "C",
+          "text": "From the water dispenser that is farthest away from the water source."
+        },
+        {
+          "key": "D",
+          "text": "All drinking water dispensers should be tested."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "In addition to the closest water dispenser, for building more than 2 floors, samples \nshould be taken from the highest floor, and the water dispenser located the farthest \nfrom the source. If the building is 12 or more stories, samples need to be taken from \none additional drinking water dispenser for every 10 floors.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q40",
+      "stem": "A new WELL project is concerned with being transparent with the tenants about the building's drinking water quality. In order to comply with Part 2: Promote Drinking Water Transparency of Feature W05: Drinking Water Quality Management, a couple of things must prominently be displayed near the sources of drinking. One of those items is the most recent test results for water quality, which includes the date and compliance with thresholds. What is the other item that must be posted?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The last date of maintenance for the drinking dispenser."
+        },
+        {
+          "key": "B",
+          "text": "What chemicals are being used to enhance the drinking water."
+        },
+        {
+          "key": "C",
+          "text": "Treatment technologies of the filters used, plus the recent date of maintenance or replacement."
+        },
+        {
+          "key": "D",
+          "text": "The cleaning scheduled for the water drinking dispenser."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q41",
+      "stem": "Feature W06: Drinking Water Promotion details dispenser availability and dispenser maintenance. According to this feature, which option does not aid in drinking water promotion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Newly installed water fountains are designed for water bottle refilling."
+        },
+        {
+          "key": "B",
+          "text": "The water that supplies the dispensers is piped through the buildings water supply or stored in refillable containers."
+        },
+        {
+          "key": "C",
+          "text": "At least one water dispenser is located within a 100 ft walking distance from all regularly occupied floor and dining areas."
+        },
+        {
+          "key": "D",
+          "text": "Post the cleaning schedules of the water dispensers within view when standing at the dispenser."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "This is not one of the methods to help promote drinking water.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q42",
+      "stem": "The WELL Building Standard seeks to manage water quality in buildings. As part of this, Feature W07: Moisture Management details the issue of excess moisture and dampness in buildings. How many of the asthma cases in the U.S. are linked to excess moisture and dampness in a building?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10%"
+        },
+        {
+          "key": "B",
+          "text": "20%"
+        },
+        {
+          "key": "C",
+          "text": "50%"
+        },
+        {
+          "key": "D",
+          "text": "33%"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q43",
+      "stem": "A 10-story new office complex in New Orleans, LA is working on the interior of the building. Since New Orleans receives a large amount of annual rainfall, the project team is taking measures to protect against any moisture and mold issues. In Part 2: Design Interiors for Moisture Management of Feature W07: Moisture Management, besides addressing condensation issues, what is another issue that needs to be addressed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Water leak control in fixtures."
+        },
+        {
+          "key": "B",
+          "text": "Installed an evaporation system."
+        },
+        {
+          "key": "C",
+          "text": "Proper drainage for moisture build up."
+        },
+        {
+          "key": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "All hard piped fixtures must have a readily accessible single-throw manual shut off or \nautomatically shut off at the point of connection. Also, all water treatment devices \nmust have a waste line fixed in place with a backflow preventer.",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q44",
+      "stem": "A project designer is focusing their efforts on creating a bathroom design that will accommodate for enhanced hygiene support. Which of the following features would not aid in their design according to Part 2: Enhance Bathroom Accommodations of Feature W08: Hygiene Support?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Toilets equipped with hands-free flushing."
+        },
+        {
+          "key": "B",
+          "text": "Providing single use hand drying cloths that can be washed and reused."
+        },
+        {
+          "key": "C",
+          "text": "A method to exit the bathroom hands free."
+        },
+        {
+          "key": "D",
+          "text": "Contactless soap dispensers."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "This is not one of the methods mentioned. Having a contactless hand dryer would be \na better option.",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q45",
+      "stem": "What is required to be submitted annually through the WELL digital platform for a safety plan for Non-Potable water capture and reuse?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Documents of start up procedure, maintenance logs, results from testing."
+        },
+        {
+          "key": "B",
+          "text": "List of key team members, maintenance logs, emergency operations."
+        },
+        {
+          "key": "C",
+          "text": "Testing results, maintenance logs, chemicals used to treat odors."
+        },
+        {
+          "key": "D",
+          "text": "Emergency operations, a description of the system, maintenance logs."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Projects submit annually through the WELL digital platform documentation of the \nstartup procedure, maintenance logs, results from verification tests (when \napplicable), and third-party inspections.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q46",
+      "stem": "When testing the water quality, what temperature should the water be when tested?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hot"
+        },
+        {
+          "key": "B",
+          "text": "Cold"
+        },
+        {
+          "key": "C",
+          "text": "Lukewarm"
+        },
+        {
+          "key": "D",
+          "text": "Any temperature will work"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Sample water should be taken from the cold water fixture. However, if conditions \nexist preventing adjustment of the water temperature, perform the testing at the \ntemperature of the water provided and make note of conditions.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q47",
+      "stem": "A WELL Certified office building is testing the building's water supply for levels of disinfectants. In order to obtain a proper sample, how long must the water be running before gathering a sample?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 Seconds"
+        },
+        {
+          "key": "B",
+          "text": "20 Seconds"
+        },
+        {
+          "key": "C",
+          "text": "30 Seconds"
+        },
+        {
+          "key": "D",
+          "text": "40 Seconds"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Run the water for at least 30 seconds before gathering a water sample (unless the \nsample is drawn immediately following a previous sample).",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q48",
+      "stem": "What type of verification is needed for Part 1: Design Envelope for Moisture Protection of Feature W07: Moisture Management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Letter of Assurance."
+        },
+        {
+          "key": "B",
+          "text": "On-going Maintenance Report."
+        },
+        {
+          "key": "C",
+          "text": "On-site Photographs."
+        },
+        {
+          "key": "D",
+          "text": "Professional Narrative."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q49",
+      "stem": "A building is using reclaimed water for the urinals and toilets through the building's bathrooms. How often does the reclaimed water quality need to be tested?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monthly"
+        },
+        {
+          "key": "B",
+          "text": "Quarterly"
+        },
+        {
+          "key": "C",
+          "text": "Yearly"
+        },
+        {
+          "key": "D",
+          "text": "Never"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Water is used in situations that do not lead to human contact are not required to \nmeet the water quality requirements.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q50",
+      "stem": "How frequently in the building does signage indicating the water quality results need to be placed according to Part 2: Promote Drinking Water Transparency of Feature W05: Drinking Water Quality Management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "At every drinking fountain."
+        },
+        {
+          "key": "B",
+          "text": "At 1 drinking fountain per floor."
+        },
+        {
+          "key": "C",
+          "text": "The amount is at the discretion of the project team."
+        },
+        {
+          "key": "D",
+          "text": "At the drinking fountains close to every exit/entrance."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "The project team is encouraged to consider how to most effectively inform the \noccupants of the water quality results when determining the placement and density \nof such displays.",
+      "framework_hint": "M02_F3"
+    }
+  ]
+}

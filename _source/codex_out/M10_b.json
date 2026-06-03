@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "M10_Q26",
+    "stem": "Acme Corp is building a new office in Atlanta, GA. In order to earn a point for Feature C11: Civic Engagement, they must include an indoor or outdoor space to be used by the community. Which space type is best suitable for this credit?",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "A board room that is 2,000 sq. ft..",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "A small meeting room that can accommodate 5 adults.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "An outdoor classroom/quad with enough tables to accommodate 10-20 adults.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "A presentation hall that is available every other week.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "C11 Civic Engagement, Part 2 Provide Community Space 允許採用 meeting space：project boundary 內一個或多個 indoor/outdoor spaces 可免費供公眾使用，capacity 至少 10 people，且至少 weekly 可用；戶外 classroom/quad 容納 10-20 adults 最符合此路徑。",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到 2,000 ft2，忽略 public use 與空間性質。",
+        "followup": "C11 Part 2 的 community space 除面積外，還要求 public access、seating 與 navigability；board room 是否自然符合？"
+      },
+      "B": {
+        "gap": "忽略 meeting space 至少容納 10 people 的門檻。",
+        "followup": "若採 C11 Part 2 的 meeting space 路徑，capacity 是至少 5 people 還是至少 10 people？"
+      },
+      "D": {
+        "gap": "混淆活動空間大小與每週可用頻率要求。",
+        "followup": "C11 Part 2 對 meeting space 的 availability 是 weekly minimum；every other week 是否達標？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q27",
+    "stem": "A project wishes to submit a program to be considered for inclusion with regard to Feature C12: Diversity and Inclusion. All of the following with the exception of _____ must be included.",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Diversity, inclusion and/or non-discrimination policy.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Pay equity and transparency (e.g., compensation scale equity, living wage, gender and ethnic pay equity).",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Protocol that eliminates C-suite and creates a company co-op.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Non-discrimination, including discrimination and harassment reporting procedures.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "C12 Diversity and Inclusion, Part 1 Promote Diversity and Inclusion 的 custom program 列出 diversity/non-discrimination policy、wage equity policy、reporting procedures、training、ERG、annual reports 與 executive-level responsibility；並未要求消除 C-suite 或改成 company co-op。",
+    "diagnosis": {
+      "A": {
+        "gap": "把標準明列的 diversity policy 誤判為非必要。",
+        "followup": "C12 Part 1 custom program 的政策清單中，diversity、inclusion、non-discrimination policy 是否被明列？"
+      },
+      "B": {
+        "gap": "忽略 wage equity 與 pay transparency 是可採要求。",
+        "followup": "C12 Part 1 的 wage equity policy 至少可包含哪些項目，living wage 與 salary range 是否在內？"
+      },
+      "D": {
+        "gap": "未辨識 discrimination reporting 是政策核心要求。",
+        "followup": "C12 Part 1 對 anonymous reporting 與 harassment/discrimination follow-up review 有何要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q28",
+    "stem": "A project in San Francisco, California wants to maximize their diversity and inclusion points via a custom program. To receive the maximum three points for this effort, how many requirements from this list must they implement?  Gender (assigned, identity and/or expression).  Sexual orientation.  Race/Ethnicity.  Age.  Socioeconomic background.  Level of ability.  Other metric(s) as identified by the project or organization.",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "3",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "4",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "5",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "7",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "C12 Diversity and Inclusion, Part 1 Promote Diversity and Inclusion 的 custom program 計分表規定：達成 Three requirements 得 1 point、Four 得 2 points、Five 得 3 points；最高 three points 需要達成 five requirements。",
+    "diagnosis": {
+      "A": {
+        "gap": "把最低得分門檻誤認為最高得分門檻。",
+        "followup": "C12 Part 1 custom program 的表格中，Three requirements 對應幾 points，而最高 three points 對應幾項？"
+      },
+      "B": {
+        "gap": "停在 2 points 門檻，未上推到最高點數。",
+        "followup": "若 Four requirements 只拿 2 points，C12 custom program 要拿 3 points 還差幾項？"
+      },
+      "D": {
+        "gap": "把 diversity types 數量誤當 custom requirements 數量。",
+        "followup": "題幹列的是 diversity types；C12 Part 1 計分表計的是 requirements achieved，兩者是否相同？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q29",
+    "stem": "XYZ Corp has offices across the United States. They ask a long-time employee from their Atlanta office to relocate to Los Angeles to help establish their new outfit. They plan to pay for the employee's relocation and provided a $ 1,000.00 increase in pay. The employee has family on the West Coast they will live with upon arriving and expressed how excited they are for this new adventure. Is XYZ Corp in compliance with the standards set forth in Feature C12: Diversity and Inclusion?",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, because XYZ covered the costs of the move and the employee is satisfied.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "No, because XYZ needs to provide a living wage, determined by the local cost of living.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Yes, because the employee will not incur the cost of living increase, as a result of living with family.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "No, because XYZ corp needs to provide a merit raise, promotional raise, and a signing bonus for the new role.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C12 Diversity and Inclusion, Part 1 Promote Diversity and Inclusion 的 wage equity policy 可包含 provision of a living wage to all employees, determined based on local cost of living；搬遷補助或員工主觀滿意不能替代 local living wage 判定。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 relocation reimbursement 與 living wage 合規混為一談。",
+        "followup": "C12 Part 1 wage equity 看的是所有 employees 的 local cost of living，搬家費補助是否等於 living wage？"
+      },
+      "C": {
+        "gap": "用個人住宿安排取代標準要求的當地生活工資。",
+        "followup": "即使員工暫住家人處，C12 的 living wage 是否仍按 local cost of living 判定？"
+      },
+      "D": {
+        "gap": "加入標準未要求的 merit raise、bonus 條件。",
+        "followup": "C12 Part 1 wage equity policy 有要求 promotion raise 或 signing bonus，還是要求 pay equity/living wage 等政策？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The marked concept matches C12 living wage language, but the scenario gives no actual wage or local living-wage benchmark to prove non-compliance."
+    }
+  },
+  {
+    "id": "M10_Q30",
+    "stem": "A new corporate headquarters for Salesforce is being built in Austin, TX. The design team wanted the office to fit into the Austin culture and has created every part of the office to be unique, creative, and very bright and bold. The initial employee feedback has been overwhelmingly positive, however, some employees find the loud color schemes to be distracting and overload their senses. Which strategy in Feature C13: Accessibility and Universal Design should Salesforce have consulted before this design language was chosen?",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Section A (Physical Access)",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Section B (Development and intellection health)",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Section C (Wayfinding)",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Section D (Operation)",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C13 Accessibility and Universal Design, Part 1 Integrate Universal Design 要在 developmental and intellectual health 類別納入使用 color、texture、images 與 multi-sensory visually perceptible information，以 accommodate sensory requirements of neurodiverse individuals；過度明亮大膽的色彩造成 sensory overload 正落在此類別。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 sensory overload 誤歸為 physical access 問題。",
+        "followup": "C13 Part 1 的 physical access 是入口、出口、操作點；loud color schemes 比較像哪一類 sensory requirement？"
+      },
+      "C": {
+        "gap": "混淆視覺刺激管理與 wayfinding 導引策略。",
+        "followup": "C13 Part 1 的 wayfinding 著重 signage、tactile maps、symbols；題幹是否在問導航困難？"
+      },
+      "D": {
+        "gap": "把設計前的感官包容誤認為營運政策問題。",
+        "followup": "C13 Part 1 operations 例子是 flexible work hours 等政策；色彩與 multi-sensory design 應歸哪類？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q31",
+    "stem": "John started working for LMN Corp in California. John suffers from heart complications, and sometimes has issues where he requires immediate medical attention. John usually takes public transit as his main form of transport, but as a result of wildfires, there have been public transportation shutdowns. John has relied on Uber and Lyft as a main transit option. How much should John be reimbursed by LMN Corp for his new expenditures on his transit costs?",
+    "framework": "M10_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least 10%",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "At least 25%",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "At least 50%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "At least 75%",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "C14 Emergency Resources, Part 1 Promote Emergency Resources 的 emergency resources 清單包含 rides subsidized by at least 50% to destination of need for emergency situations，包括 public transit shutdown 時從 home to work 的需要。",
+    "diagnosis": {
+      "A": {
+        "gap": "大幅低估 emergency ride subsidy 的最低比例。",
+        "followup": "C14 Part 1 對 emergency rides subsidy 寫的是 at least 10% 還是 at least 50%？"
+      },
+      "B": {
+        "gap": "把補助比例停在半數門檻以下。",
+        "followup": "John 因 wildfire transit shutdown 需改搭 Uber/Lyft，C14 Part 1 的 rides subsidy 最低是多少？"
+      },
+      "D": {
+        "gap": "把最低要求誤放大為更高的自願補助。",
+        "followup": "WELL 的 C14 Part 1 要求是 minimum threshold；75% 是否是標準明列的最低值？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q32",
+    "stem": "The intent of Feature C18 β: Support for Victims of Domestic Violence is to increase availability and access to support services, resources, and care for victims of domestic abuse. As part of the domestic violence policy, how must paid time off be available to an employee who is a victim of domestic violence?",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least 10 days and is distinct from other paid time off.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "10 days of sick leave.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "No additional days are given.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "8 days of leave.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "C18 β Support for Victims of Domestic Violence, Part 1 Support Victims of Domestic Violence 要求政策提供 at least ten days of leave，paid at full salary or wages，且 leave must be distinct from paid time off, sick leave and family leave。",
+    "diagnosis": {
+      "B": {
+        "gap": "混淆 domestic violence leave 與一般 sick leave。",
+        "followup": "C18 β Part 1 明定 leave must be distinct from 哪些既有 leave 類型？"
+      },
+      "C": {
+        "gap": "忽略標準明列至少十天有薪專屬假。",
+        "followup": "C18 β Part 1 對 victims of domestic violence 的 paid leave 是否允許完全不新增天數？"
+      },
+      "D": {
+        "gap": "低估 paid leave 天數，且未確認 distinct 要求。",
+        "followup": "C18 β Part 1 寫的是 at least eight days 還是 at least ten days，薪資替代率又是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q33",
+    "stem": "Which of the following does NOT need to be included in Opioid Response training?",
+    "framework": "M10_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "General information about opioid use and naloxone.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Recognizing the signs of an overdose and immediate steps to take.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "How to safely administer naloxone and steps to take following administration.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Calling 911 and informing HR your co-worker may be using banned substances.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C14 Emergency Resources, Part 2 Provide Opioid Response Kit and Training 要求 opioid emergency training 涵蓋 opioid use and naloxone、recognizing overdose signs and immediate steps、以及 safely administer naloxone and follow-up steps；向 HR 指稱同事使用 banned substances 不是訓練要求。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 naloxone 基礎知識誤判為訓練外項目。",
+        "followup": "C14 Part 2 的 opioid response training 是否第一項就要求 general information about opioid use and naloxone？"
+      },
+      "B": {
+        "gap": "忽略辨識 overdose signs 是訓練核心。",
+        "followup": "C14 Part 2 要 regular occupants 學會 recognizing signs of overdose，以及哪些 immediate steps？"
+      },
+      "C": {
+        "gap": "誤以為 naloxone administration 不屬於訓練。",
+        "followup": "C14 Part 2 是否明列 how to safely administer naloxone and steps following administration？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q34",
+    "stem": "Green Co. has created a Business Continuity Plan in place in the event there were ever a natural disaster or other events that impacted business. At a minimum, how often does the business continuity team need to meet to revise and discuss the plan that is currently in place for Green Co.?",
+    "framework": "M10_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Annually",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "2 times annually",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Quarterly",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Monthly",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C15 β Emergency Resilience and Recovery, Part 1 Promote Business Continuity 規定 business continuity plan 必須列出 team roles/responsibilities，並讓 business continuity team convene twice annually at minimum to review, test and update the plan。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 annual review 誤當 team meeting 最低頻率。",
+        "followup": "C15 β Part 1 對 business continuity team 用的是 annually 還是 twice annually at minimum？"
+      },
+      "C": {
+        "gap": "把最低頻率提高成 quarterly，超出標準門檻。",
+        "followup": "若題目問 at minimum，C15 β Part 1 的表述是否要求每季都 convene？"
+      },
+      "D": {
+        "gap": "把營運最佳實務誤作 WELL 最低要求。",
+        "followup": "C15 β Part 1 要 review, test and update BCP；標準有寫 monthly meeting 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q35",
+    "stem": "Business continuity planning is critical to help manage business disruption during emergencies. Cola Corp. is constructing an office in Tempe, AZ. Part 1: Promote Buiness Continuity of Feature C15 β: Emergency Resilience and Recovery details that a business continuity plan address at minimum:",
+    "framework": "M10_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Determines critical business functions, processes, supporting resources and dependencies (e.g., email, internet connectivity, third-party suppliers or service providers, interdependent departments).",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Implements a business impact analysis.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Conducts a remote work readiness assessment.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "All of the above.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C15 β Emergency Resilience and Recovery, Part 1 Promote Business Continuity 要求 BCP 至少包含 critical business functions/dependencies、business impact analysis、remote work readiness assessment，並加上 team roles、continuity strategies 等項目。",
+    "diagnosis": {
+      "A": {
+        "gap": "只選中 BCP 的單一必要項，漏看其他要求。",
+        "followup": "C15 β Part 1 的 BCP minimum list 是否只包含 critical functions，還包括 BIA 與 remote work readiness？"
+      },
+      "B": {
+        "gap": "把 business impact analysis 當成唯一最低要求。",
+        "followup": "C15 β Part 1 除 business impact analysis 外，還要求哪些 business continuity planning elements？"
+      },
+      "C": {
+        "gap": "只抓到 remote work readiness，忽略 BCP 全套內容。",
+        "followup": "C15 β Part 1 的 remote work readiness assessment 是 BCP 的一部分，是否足以單獨滿足 at minimum？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q36",
+    "stem": "Part 2: Provide Opioid Response Kit and Training of Feature C14: Emergency Resources details requirements for opioid response kits. What must all emergency preparedness or first aid kits include:",
+    "framework": "M10_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Naloxone rescue kits",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Benedryl",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Over the counter medications",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Band aids",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "C14 Emergency Resources, Part 2 Provide Opioid Response Kit and Training 要求 all emergency preparedness or first aid kits include naloxone rescue kits，並附 naloxone preparation/administration instructions 與受訓人員清單。",
+    "diagnosis": {
+      "B": {
+        "gap": "把一般過敏藥誤認為 opioid response kit 要件。",
+        "followup": "C14 Part 2 的 opioid response kits 明列的是 naloxone rescue kits，還是 antihistamine 類藥品？"
+      },
+      "C": {
+        "gap": "把泛稱 OTC medications 當成特定 naloxone 要求。",
+        "followup": "標準要求 all emergency preparedness or first aid kits include 哪一種 opioid overdose reversal resource？"
+      },
+      "D": {
+        "gap": "混淆一般 first aid supplies 與 opioid response 要件。",
+        "followup": "C14 Part 2 關心 opioid emergency；band aids 是否能替代 naloxone rescue kits？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q37",
+    "stem": "Feature C14: Emergency Resources provides resources, personnel and training to help organizations respond to diverse emergency situations. In Part 1: Promote Emergency Resources, are project owners required to make tenants participate in practice drills for emergency preparedness and response?",
+    "framework": "M10_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "No, practice drills and emergency preparedness are the responsibility of the HR Department for each tenant.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Project owners must mandate all tenants to take place and participate.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Project owners must provide opportunities for all tenants to participate in drills and emergency, but do not have to mandate tenant participation.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "All staff and tenants must be involved in every drill.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "C03 Emergency Preparedness, Part 1 Develop Emergency Preparedness Plan 要求 regular occupants receive education/training and annual practice drills or exercises for high-risk hazards；C14 Part 1 則是 emergency resources/training availability，並未寫成強制每位 tenant 參與每次 drill。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 building-level emergency preparedness 推給各 tenant HR。",
+        "followup": "C03 Part 1 的 WELL Core guidance 是 whole building；project owner 是否能只說由各 tenant HR 負責？"
+      },
+      "B": {
+        "gap": "把提供 drills/training 誤讀為強制所有 tenant 參與。",
+        "followup": "標準要求 practice drills or exercises be conducted；這是否等同 mandate every tenant participant？"
+      },
+      "D": {
+        "gap": "把演練覆蓋範圍誇大成每次全員必到。",
+        "followup": "C03 Part 1 說 regular occupants receive education/training，但是否規定 all staff and tenants in every drill？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The drill requirement appears under C03 Emergency Preparedness, not C14 Part 1; the marked answer is directionally reasonable but the cited feature is wrong."
+    }
+  },
+  {
+    "id": "M10_Q38",
+    "stem": "Feature C15 β: Emergency Resilience and Recovery seeks assist organizations to maintain business function, during and after emergencies. In the case of extended remote work, office closures, or other extreme events requiring a delayed and/or staggered return to the office, how long do projects have to implement the post-occupancy survey?",
+    "framework": "M10_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Within 1 month after returning to the workplace.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Within 3 months after returning to the workplace.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Within 6 months after returning to the workplace.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Within 1 year after returning to the workplace.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C15 β Emergency Resilience and Recovery, Part 3 Facilitate Healthy Re-entry requires consultation with regular occupants prior to and just after re-entry, plus inspection, policy adjustment and communications; the standard text provided does not state a post-occupancy survey deadline such as three months. ",
+    "diagnosis": {
+      "A": {
+        "gap": "選了過短期限，但標準未列此 survey deadline。",
+        "followup": "C15 β Part 3 寫的是 re-entry consultation and communications；是否看到 within 1 month survey requirement？"
+      },
+      "C": {
+        "gap": "把未列明的六個月期限套進 re-entry 要求。",
+        "followup": "C15 β Part 3 對 re-entry plan 的條列項目中，有沒有出現 post-occupancy survey within 6 months？"
+      },
+      "D": {
+        "gap": "把 annual survey 概念混入 C15 re-entry plan。",
+        "followup": "C15 β Part 3 是 emergency re-entry plan；一年期限是否來自 C04 occupant survey 的 annual cadence？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "No post-occupancy survey deadline is visible in C15 Part 3 of the provided WELL v2 standard; only consultation prior to and just after re-entry is specified."
+    }
+  },
+  {
+    "id": "M10_Q39",
+    "stem": "How many lactation rooms are needed for a project to comply with Feature C09: New Mother Support?",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least 1 onsite Lactation room.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "1 located on every other floor.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "A lactation room on every floor.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "There are no specific requirements, this is left up to the project team to determine how to best establish the appropriate quantity base on their project's unique circumstances.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C09 New Mother Support, Part 2 Design Lactation Room requires at least one dedicated lactation room and also says the quantity must meet current and anticipated employee demand; therefore WELL gives a minimum room presence plus a demand-based quantity rule, not a fixed per-floor count. ",
+    "diagnosis": {
+      "A": {
+        "gap": "只看到 at least one，漏掉 demand-based quantity。",
+        "followup": "C09 Part 2 除了 at least one dedicated lactation room，是否還要求 quantity meets current and anticipated demand？"
+      },
+      "B": {
+        "gap": "套用每兩層一間的標準外推規則。",
+        "followup": "C09 Part 2 有寫 one located on every other floor，還是用 employee demand 決定數量？"
+      },
+      "C": {
+        "gap": "把每層配置誤當 lactation room 明文要求。",
+        "followup": "若標準要求 quantity meets current and anticipated employee demand，是否必然等於 every floor one room？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The standard does require at least one dedicated lactation room, plus quantity based on current and anticipated demand; option D overstates “no specific requirements.”",
+      "corrected_correct": "A"
+    }
+  },
+  {
+    "id": "M10_Q40",
+    "stem": "A new residential tower is being constructed in Minneapolis. For the project to receive the maximum number of points (2) in Feature C16 β: Housing Equity, how many of the units need to be allocated for tenants whose incomes are at or below an income limit relative to local median household income?",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "40%",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "50%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "100%",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C16 β Housing Equity, Part 1 Allocate Affordable Units 的計分表規定，若要取得 2 points，需將 100% units allocated 給 income at 0-80% of local median 的 tenants；20% 或 40% allocated 只對應 1 point。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 1 point 的 20% 配置誤認為最高分。",
+        "followup": "C16 β Part 1 表格中，20% or more allocated 對應幾 points，而 2 points 對應多少 units？"
+      },
+      "B": {
+        "gap": "停在另一個 1 point 門檻，未看最高分列。",
+        "followup": "C16 β Housing Equity 對 40% or more allocated 的 income band 與 points 是什麼？"
+      },
+      "C": {
+        "gap": "選了表格未列的中間比例。",
+        "followup": "C16 β Part 1 的 units allocated 表格是否有 50% 這一列，還是只有 20%、40%、100%？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q41",
+    "stem": "Part 1: Allocate Affordable Units of Feature C16 β: Housing Equity requires projects to assign a percentage of units is allocated for tenant show incomes are at or below an income limit. Total annual housing costs (defined as rent and utilities) paid by affordable unit tenants must be less than what percent of the income limit selected in the requirement?",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "25%",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "30%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "45%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "50%",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C16 β Housing Equity, Part 1 Allocate Affordable Units 要求 affordable unit tenants paid total annual housing costs, defined as rent and utilities, less than 30% of the income limit selected in requirement (a)。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 housing cost burden 上限低估為 25%。",
+        "followup": "C16 β Part 1 requirement b 對 rent and utilities 的上限，是 less than 25% 還是 30%？"
+      },
+      "C": {
+        "gap": "把可負擔住房成本上限放寬到標準以上。",
+        "followup": "若 total annual housing costs 達 income limit 的 45%，是否仍符合 C16 β 的 less than 30%？"
+      },
+      "D": {
+        "gap": "混淆 income eligibility band 與 housing cost burden。",
+        "followup": "C16 β Part 1 的 50% 常出現在 income limit band，是否等於 rent and utilities 上限？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q42",
+    "stem": "Affordable housing is a problem globally with families forced to spend a significant share of their income in housing cots making it hard for them to cover basic needs. In projects with 10 or more affordable housing units, at least ___ of allocated units must have two or more bedrooms and at least ___ of allocated units must have three or more bedrooms.",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "60% and 15%",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "40% and 20%",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "50% and 10%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "100% and 25%",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "C16 β Housing Equity, Part 1 Allocate Affordable Units 規定，在 projects with 10 or more affordable housing units 中，至少 50% of allocated units must have two or more bedrooms，且至少 10% must have three or more bedrooms。",
+    "diagnosis": {
+      "A": {
+        "gap": "高估二房與三房比例，未按標準門檻。",
+        "followup": "C16 β Part 1 requirement e 對 two or more bedrooms 與 three or more bedrooms 分別是多少？"
+      },
+      "B": {
+        "gap": "把二房比例低估、三房比例高估。",
+        "followup": "若有 10+ affordable units，C16 β 要求至少半數具 two or more bedrooms，三房比例是否為 20%？"
+      },
+      "D": {
+        "gap": "把所有 affordable units 都需多房化，過度推論。",
+        "followup": "C16 β Part 1 是否要求 100% allocated units 都有 two or more bedrooms？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q43",
+    "stem": "Part 1: Disclose Labor Practices of Feature C17 β: Responsible Labor Practices requires a comprehensive mapping of the project or organization’s structure, operations, and supply chains is conducted annually for Tier 1 suppliers in the following sectors with the exception of:",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Construction",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Cleaning",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Security",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "IT Support",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C17 β Responsible Labor Practices, Part 1 Disclose Labor Practices 要求 annual mapping of Tier 1 suppliers in construction, cleaning, catering, security and maintenance sectors as applicable；IT Support 不在明列 sector 清單內。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 construction 這個明列高風險 sector 排除。",
+        "followup": "C17 β Part 1 的 Tier 1 supplier mapping 清單第一項是否就是 Construction？"
+      },
+      "B": {
+        "gap": "忽略 cleaning sector 被標準明列為 mapping 範圍。",
+        "followup": "C17 β Issue 特別提到 cleaning sector 風險；Part 1 清單是否包含 Cleaning？"
+      },
+      "C": {
+        "gap": "把 security 誤判為未列入供應商 sector。",
+        "followup": "C17 β Part 1 的 five sectors 中，Security 是否與 Maintenance 一起被列出？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q44",
+    "stem": "The intent of Feature C17 β: Responsible Labor Practices is to promote organizational commitment to responsible labor practices in order to address modern slavery in the supply chain and support human rights. The Global Slavery Index estimates that in 2016 there were over 40 million victims of modern slavery worldwide. How many people are forced labor globally.",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 Million",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "15.5 Million",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "24.9 Million",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "69 Million",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "C17 β Responsible Labor Practices 的 Issue 說 Global Slavery Index 估計 2016 年有 over 40 million victims of modern slavery worldwide，其中 24.9 million were in forced labor；此數字支撐 Part 1 Disclose Labor Practices 的 modern slavery risk assessment。",
+    "diagnosis": {
+      "A": {
+        "gap": "大幅低估 forced labor 人數，未對上 Issue 數字。",
+        "followup": "C17 β Issue 同一句區分 modern slavery total 與 forced labor；forced labor 是 10 million 嗎？"
+      },
+      "B": {
+        "gap": "選了未被標準列出的中間估計值。",
+        "followup": "C17 β Issue 寫 over 40 million victims，其中 forced labor 的具體數字是多少 million？"
+      },
+      "D": {
+        "gap": "把 forced labor 人數誇大且超過 total estimate。",
+        "followup": "若 modern slavery victims worldwide 是 over 40 million，forced labor 是否可能是 69 million？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q45",
+    "stem": "Feature C10: Family Support requires employers to provide this option to eligible employees:",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use paid sick time or personal days for the care of a spouse, domestic partner, child, dependent, parent, parent-in- law, grandparent, grandchild or sibling.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Use unpaid days for the care of a spouse, domestic partner, child, dependent, parent, parent-in- law, grandparent, grandchild or sibling.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Use paid sick time or personal days for the care of a spouse or child only.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Use paid sick time or personal days for the care of anyone.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "C10 Family Support, Part 2 Offer Family Leave 要求 eligible employees 有 option to use paid sick time or personal days for care of spouse, domestic partner, child, dependent, parent, parent-in-law, grandparent, grandchild or sibling。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 paid sick/personal days 錯換成 unpaid days。",
+        "followup": "C10 Part 2 requirement b 寫的是 paid sick time or personal days，還是 unpaid leave？"
+      },
+      "C": {
+        "gap": "把 family member 範圍過度縮小為 spouse/child。",
+        "followup": "C10 Part 2 列出的 family relations 是否只限 spouse or child，還包括 parent、sibling 等？"
+      },
+      "D": {
+        "gap": "把明列親屬範圍擴張成 anyone。",
+        "followup": "C10 Part 2 是列舉 spouse、dependent、grandparent 等對象，還是開放 care of anyone？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q46",
+    "stem": "This WELL feature requires paid parental leave for primary and non-primary caregivers and supportive resources for parents returning to work.",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature C09: New Mother Support",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature C08: New Parent Support",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Feature C10: Family Support",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Feature C06: Health Services and Benefits",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C08 New Parent Support, Part 1 Offer New Parent Leave 要求 paid parental leave for primary and non-primary caregivers，並透過 parental support policies 提供 return-to-work resources；這正是題幹描述的 feature。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 breastfeeding/lactation 支援與 parental leave。",
+        "followup": "C09 New Mother Support 重點是 lactation rooms、pumping breaks；paid parental leave 是哪個 feature？"
+      },
+      "C": {
+        "gap": "把 broader family caregiving leave 誤當 new parent leave。",
+        "followup": "C10 Family Support 處理 childcare、family leave、bereavement；C08 Part 1 是否才處理 primary/non-primary caregiver parental leave？"
+      },
+      "D": {
+        "gap": "把 health services/flu/sick leave 誤連到育嬰假。",
+        "followup": "C06 Summary 是否談 essential health services and sick leave，而非 paid parental leave for caregivers？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q47",
+    "stem": "Feature C09: New Mother support requires that a project must provide at least one dedicated lactation room for employees that:",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Includes a work surface.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Is at least 7 ft x 7 ft",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Includes a reasonably comfortable chair.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Has at least four electrical outlets",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C09 New Mother Support, Part 2 Design Lactation Room requires at least one dedicated lactation room that is at least 7 ft x 7 ft and includes a work surface, comfortable chair and at least two electrical outlets; several listed amenities are true requirements, while four outlets is not. ",
+    "diagnosis": {
+      "A": {
+        "gap": "此項其實也是必要 amenity，題目單選設計有問題。",
+        "followup": "C09 Part 2 的 minimum amenities 是否包括 work surface and comfortable chair，以及房間尺寸要求？"
+      },
+      "C": {
+        "gap": "此項同樣是明列要求，不應視為錯誤。",
+        "followup": "C09 Part 2 requirement b 是否把 comfortable chair 與 work surface 一起列為 minimum？"
+      },
+      "D": {
+        "gap": "把 at least two electrical outlets 誤記成 four outlets。",
+        "followup": "C09 Part 2 對 electrical outlets 的最低數量是多少，two 還是 four？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "A, B and C are all true C09 Part 2 requirements; the item is not uniquely answerable as a single-correct question."
+    }
+  },
+  {
+    "id": "M10_Q48",
+    "stem": "This WELL feature requires projects to provide access to essential and on-demand health services, paid sick leave, and seasonal influenza (flu) immunizations.",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature C07: Enhanced Health and Wellness Promotion",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Feature C01: Health and Wellness Promotion",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Feature C13: Accessibility and Universal Design",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Feature C06: Health Services and Benefits",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C06 Health Services and Benefits 的 Summary 明定此 feature requires access to essential and on-demand health services, paid sick leave and seasonal influenza immunizations；其 Parts 分別為 Promote Health Benefits、Offer On-Demand Health Services、Offer Sick Leave。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 health promotion culture 與 health services benefits。",
+        "followup": "C07 Enhanced Health and Wellness Promotion 強調 communications 和 culture；題幹的 on-demand health services 屬於哪個 feature？"
+      },
+      "B": {
+        "gap": "把 WELL feature guide 與 health services benefit 混在一起。",
+        "followup": "C01 Part 1 是 WELL Feature Guide；是否要求 paid sick leave and flu immunizations？"
+      },
+      "C": {
+        "gap": "將 universal design/accessibility 誤連到醫療服務。",
+        "followup": "C13 Part 1 是 universal design categories；essential health services 和 paid sick leave 是否在 C13？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q49",
+    "stem": "Feature C02: Integrative Design is a WELL feature that requires project teams to facilitate an inclusive and collaborative planning and orientation process and to establish __________.",
+    "framework": "M10_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "A health-oriented project mission.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "An organized project mission.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "A viable project mission.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "A clear project mission.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "C02 Integrative Design, Part 2 Promote Health-Oriented Mission requires the project to establish a health-oriented mission that outlines health promotion objectives, connects occupant health to organizational objectives, incorporates charrette goals and the ten WELL concepts。",
+    "diagnosis": {
+      "B": {
+        "gap": "只抓到 mission 形式，漏掉 health-oriented 核心。",
+        "followup": "C02 Part 2 的 mission 是一般 organized project mission，還是要直接連到 health promotion objectives？"
+      },
+      "C": {
+        "gap": "把可行性語彙誤當標準指定措辭。",
+        "followup": "C02 Summary 與 Part 2 使用的是 viable mission，還是 health-oriented mission？"
+      },
+      "D": {
+        "gap": "接近但少了 health-oriented 的必要限定。",
+        "followup": "C02 Part 2 要 mission 清楚即可，還是必須連結 occupant health 與 ten WELL concepts？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q50",
+    "stem": "This WELL feature requires projects to go above and beyond accessibility laws and/or codes by integrating universal design principles to accommodate diverse needs and create a fully inclusive environment.",
+    "framework": "M10_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature C10: Family Support",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Feature C11: Civic Engagement",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Feature C13: Accessibility and Universal Design",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Feature C16: β Housing Equity",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "C13 Accessibility and Universal Design 的 Summary 說此 feature requires projects to go above and beyond accessibility laws and/or codes by integrating universal design principles；Part 1 Integrate Universal Design 進一步要求在 physical access、developmental and intellectual health、wayfinding、operations、technology、safety 各類別至少一項策略。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 family support policies 與 universal design。",
+        "followup": "C10 Family Support 是 childcare/family leave/bereavement；題幹說 above and beyond accessibility laws 應對應哪個 feature？"
+      },
+      "B": {
+        "gap": "把 civic engagement 的公共空間誤認為 accessibility feature。",
+        "followup": "C11 Civic Engagement 重點是 volunteerism/community space；是否處理 universal design principles？"
+      },
+      "D": {
+        "gap": "把 housing affordability 與 accessibility/universal design 混淆。",
+        "followup": "C16 β Housing Equity 處理 affordable units；題幹中的 diverse needs and inclusive environment 屬於哪一 feature？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

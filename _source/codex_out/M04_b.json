@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M04_Q26",
+    "stem": "What sort of fixtures would have a UGR?",
+    "framework": "M04_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "HVAC",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Lighting",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Refrigerators",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Faucets",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L04 Electric Light Glare Control - Part 1 Manage Glare from Electric Lighting uses Unified Glare Rating (UGR) to classify luminaires or spaces, with limits such as UGR ≤16 for most regularly occupied spaces and UGR ≤19 for industrial spaces. UGR is therefore a lighting fixture and glare-control metric, not a building service or plumbing metric.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 HVAC 設備與照明眩光評估混在一起。",
+        "followup": "L04 的 UGR 控制 electric lighting；HVAC 會被列為 luminaire 嗎？"
+      },
+      "C": {
+        "gap": "把家電產品誤當成 L04 luminaire。",
+        "followup": "UGR 評估 light-source glare；refrigerator 是否是 L04 燈具？"
+      },
+      "D": {
+        "gap": "混淆 Water fixture 與 Light fixture。",
+        "followup": "L04 管 electric light glare；faucet 需要 UGR 分級嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q27",
+    "stem": "Fluctuating light levels impact which of the following?",
+    "framework": "M04_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Productivity of employees",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Visual comfort of occupants",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Occupant morale",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Ability to sleep",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L07 Visual Balance - Part 1 Balance Visual Lighting addresses fluctuating light levels because sudden increases and decreases in brightness can cause visual discomfort and eye fatigue. The requirement controls visual balance through luminance ratios, illuminance uniformity, 10-minute transitions for lighting changes, and consistent CCT.",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到 productivity 結果，卻錯過直接影響。",
+        "followup": "L07 先說 fluctuating light levels impact 哪種 comfort？"
+      },
+      "C": {
+        "gap": "把 occupant morale 當成 L07 視覺平衡核心。",
+        "followup": "L07 Part 1 的 uniformity 與 CCT 主要保護哪種 comfort？"
+      },
+      "D": {
+        "gap": "把 circadian sleep 問題套到 L07。",
+        "followup": "Ability to sleep 接近 L03；L07 的 fluctuating brightness 影響什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q28",
+    "stem": "According to Feature L08: Electric Light Quality, light fixtures with higher color rendering do what?",
+    "framework": "M04_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Emit light that is brighter and more cost efficient.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Emit light that gives off less heat.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Emit light that show colors unrealistically.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Emit light that show colors realistically.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature L08 Electric Light Quality - Part 1 Enhance Color Rendering Quality requires luminaires to meet color rendering thresholds such as CRI ≥90, CRI ≥80 with R9 ≥50, or specified IES TM-30 values. The feature explains that higher color rendering helps colors appear realistic and supports accurate perception of surroundings.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 color rendering 誤解成亮度或效率。",
+        "followup": "L08 的 CRI、R9 是量 brightness，還是 color appearance？"
+      },
+      "B": {
+        "gap": "把燈具熱量與 color rendering 混淆。",
+        "followup": "CRI ≥90 描述 heat output，還是顏色呈現品質？"
+      },
+      "C": {
+        "gap": "把高 color rendering 理解成顏色失真。",
+        "followup": "L08 要 enhance color rendering；高 CRI 會讓顏色更真實嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q29",
+    "stem": "A project team working on a university research building is preparing documentation for WELL Certification. What should they include to demonstrate compliance with Feature L06: Daylight Simulation?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Policy document",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Modeling report",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Performance test results",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Letter of assurance",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L06 Daylight Simulation - Part 1 Conduct Daylight Simulation requires the project to demonstrate compliance through computer simulations, such as sDA300,50% or 300 lux targets over daylit hours. In the WELL verification appendix, modeling reports are a Technical Document type used to show digital simulation compliance.",
+    "diagnosis": {
+      "A": {
+        "gap": "把政策文件誤當成 daylight simulation 證明。",
+        "followup": "L06 要 computer simulations；policy 能呈現 sDA 結果嗎？"
+      },
+      "C": {
+        "gap": "混淆模擬文件與現場 performance test。",
+        "followup": "L06 compliance 是 simulation report，還是現場 performance test？"
+      },
+      "D": {
+        "gap": "誤以為簽署保證即可證明 simulation 達標。",
+        "followup": "sDA 或 300 lux target 應由 letter 還是 modeling report 佐證？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q30",
+    "stem": "Age-related visual issues are caused all of the following except:",
+    "framework": "M04_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Smaller pupil size",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Loss of moisture",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Yellowing of the lenses",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Increased light absorption by the lenses",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L02 Visual Lighting Design - Part 1 Provide Visual Acuity notes age-related eye changes including increased light absorption by the lenses, smaller pupil size, increased scattering from thicker lenses, and yellowing of the lenses. Loss of moisture is not listed as one of the visual acuity drivers in this WELL requirement.",
+    "diagnosis": {
+      "A": {
+        "gap": "把標準明列的 smaller pupil size 當例外。",
+        "followup": "L02 Issue 是否明列 smaller pupil size 為 aging eye change？"
+      },
+      "C": {
+        "gap": "忽略 yellowing of lenses 是明列變化。",
+        "followup": "L02 為何考慮 age groups？yellowing lenses 是否降低視覺能力？"
+      },
+      "D": {
+        "gap": "忽略 increased light absorption 是明列原因。",
+        "followup": "L02 說 lens transmission 降低；absorption 是否是原因？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q31",
+    "stem": "In Feature L07: Visual Balance, lighting is designed by a lighting professional to take into account the following considerations except?",
+    "framework": "M04_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Changes in lighting characteristics",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Color temperature of lights used",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Appropriate style of fixture",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Illuminance uniformity on horizontal task planes",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature L07 Visual Balance - Part 1 Balance Visual Lighting, Option 2 requires a lighting professional to consider luminance ratios, illuminance uniformity on horizontal task planes, changes in lighting characteristics, and color temperature. Fixture style is not one of the listed design considerations for this Part.",
+    "diagnosis": {
+      "A": {
+        "gap": "把明列的 lighting changes 誤認非必要。",
+        "followup": "L07 Option 2 是否要求考慮 light level、color、distribution changes？"
+      },
+      "B": {
+        "gap": "忽略 color temperature 是 L07 明列項目。",
+        "followup": "L07 Option 2 是否列出 color temperature of lights used？"
+      },
+      "D": {
+        "gap": "把 task-plane uniformity 誤排除。",
+        "followup": "L07 Option 2 是否要求 task-plane illuminance uniformity？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q32",
+    "stem": "What documentation should be submitted for verification of L04: Electric Light Glare Control?",
+    "framework": "M04_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Policy and/or Operations Schedule",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Technical Document",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Performance Test",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Professional Narrative",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L04 Electric Light Glare Control - Part 1 Manage Glare from Electric Lighting verifies glare control through technical evidence such as luminaire UGR classification, luminance limits, or space UGR calculations. WELL verification guidance classifies such product specifications or calculations under Technical Document rather than policy or narrative-only documentation.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 L04 技術證明誤當成營運政策文件。",
+        "followup": "UGR 或 luminance limits 能用 policy schedule 直接證明嗎？"
+      },
+      "C": {
+        "gap": "混淆 performance test 與技術文件。",
+        "followup": "L04 luminaire UGR classification 通常靠現場測試還是產品文件？"
+      },
+      "D": {
+        "gap": "誤以為 narrative 可取代 UGR 技術數據。",
+        "followup": "UGR ≤16/≤19 或 6,000 cd/m2 需 narrative 還是 technical evidence？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q33",
+    "stem": "Points in which feature fulfill the requirements of L01: Light Exposure?",
+    "framework": "M04_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature L02: Visual Lighting Design",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature L03: Circadian Lighting Design",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Feature L06: Daylight Simulation",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Feature L07: Visual Balance",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L01 Light Exposure - Part 1 Provide Indoor Light includes Option 4 Circadian lighting design, which requires the project to achieve at least one point in Feature L03 Circadian Lighting Design. Therefore L03 points can fulfill L01 through that explicit pathway.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 L02 誤認為 L01 的替代得分路徑。",
+        "followup": "L01 Option 4 指名哪個 circadian lighting feature？"
+      },
+      "C": {
+        "gap": "把 L06 誤當成 L01 的 points 替代條款。",
+        "followup": "L01 明確用 points fulfill 的 pathway 是 L03 還是 L06？"
+      },
+      "D": {
+        "gap": "混淆視覺平衡與 indoor light exposure 要求。",
+        "followup": "L07 管 visual balance；L01 Option 4 要哪個 feature 得分？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q34",
+    "stem": "A project team is pursuing Feature LO5: Daylight Design Strategies. To obtain the maximum points for Part 2: Integrated Solar Shading, windows should?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Have automated shading to prevent glare.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Have shading that can be opened every day.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Be smaller than larger than 0. 55 m2 (6 ft2) to minimize light.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Have external shading fins.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature L05 Daylight Design Strategies - Part 2 Integrate Solar Shading gives the higher point tier when all vertical transparent envelope glazing has shading that is automated to prevent glare. Manual shading opened daily is the lower tier, while the Part does not require external fins specifically.",
+    "diagnosis": {
+      "B": {
+        "gap": "只記得 manual shading，未分辨最高 tier。",
+        "followup": "L05 Part 2 較高 tier 是 manual，還是 automated glare control？"
+      },
+      "C": {
+        "gap": "把縮小窗戶誤當成 shading 策略。",
+        "followup": "L05 Part 2 是否要求窗戶小於 0.55 m2 才能得分？"
+      },
+      "D": {
+        "gap": "把 external shading fins 誤當成唯一要求。",
+        "followup": "L05 Part 2 最高 tier 強調 automated，還是特定 external fins？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q35",
+    "stem": "If a team wants to earn 2 points in Feature L04: Electric Light Glare Control for their new industrial manufacturing center, they must choose fixtures with what maximum UGR?",
+    "framework": "M04_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "16",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "17",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "18",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "19",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature L04 Electric Light Glare Control - Part 1 Manage Glare from Electric Lighting sets the industrial pathway at Unified Glare Rating (UGR) of 19 or lower for luminaires or spaces. The stricter UGR ≤16 threshold applies to all spaces except industrial.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 industrial UGR 上限記得過嚴。",
+        "followup": "L04 industrial spaces 是否允許 UGR ≤19，而非一般空間 ≤16？"
+      },
+      "B": {
+        "gap": "記得低 UGR，但誤記 industrial 數值。",
+        "followup": "L04 industrial pathway 的 maximum UGR 是 17 還是 19？"
+      },
+      "C": {
+        "gap": "接近但未抓到 industrial UGR ≤19。",
+        "followup": "題目是 industrial manufacturing center；L04 最大允許 UGR 是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q36",
+    "stem": "How far away should supplemental lighting be installed from the front edge of a workstation in Part 2: Provide Supplemental Lighting of Feature L09: Occupant Lighting Control?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "7 inches",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "8 inches",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "9 inches",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "12 inches",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature L09 Occupant Lighting Control - Part 2 Provide Supplemental Lighting requires the supplemental light fixture to be installed at least 9 in (23 cm) from the front edge of the workstation or other work surface, unless manufacturer instructions specify otherwise. This distance is intended to minimize visual discomfort while increasing task-surface light levels.",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 supplemental lighting 的前緣距離。",
+        "followup": "L09 Part 2 明列 at least 9 in；7 inches 是否達標？"
+      },
+      "B": {
+        "gap": "接近正確但仍少於 L09 的前緣距離要求。",
+        "followup": "距 workstation front edge 至少 9 in；8 inches 還差多少？"
+      },
+      "D": {
+        "gap": "把較保守距離誤認為 WELL 明定最低值。",
+        "followup": "L09 Part 2 的 specific minimum 是 9 in 還是 12 in？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q37",
+    "stem": "Which feature lists acceptable lighting reference guidelines?",
+    "framework": "M04_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature L01: Light Exposure",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Feature L02: Visual Lighting Design",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Feature L03: Circadian Lighting Design",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Feature L07: Visual Balance",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L02 Visual Lighting Design - Part 1 Provide Visual Acuity lists acceptable lighting reference guidelines, including IES Lighting Handbook 10th Edition, EN 12464-1:2011, ISO 8995-1, GB50034-2013, and CIBSE SLL Code for Lighting. These guidelines set illuminance thresholds based on tasks and occupant age groups.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 light exposure 誤當成 guideline 清單來源。",
+        "followup": "哪個 feature 列 IES、EN、ISO 等 visual lighting guidelines？"
+      },
+      "C": {
+        "gap": "混淆 circadian EML 與 visual guidelines。",
+        "followup": "L03 用 EML thresholds；guideline 清單是否在 L02？"
+      },
+      "D": {
+        "gap": "把視覺平衡參數誤當成 reference guideline。",
+        "followup": "L07 管 ratios；guidelines 在哪個 visual acuity feature？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q38",
+    "stem": "Which of the following is NOT one of the elements of lighting that occupants may control under Part 1: Enhance Occupant Controllability of Feature L09: Occupant Lighting Control?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Color",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Color Temperature",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Direction",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Distribution of light by controlling different groups of lights or through preset scenes.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature L09 Occupant Lighting Control - Part 1 Enhance Occupant Controllability allows lighting systems to change at least one of color, color temperature, or distribution of light through groups of lights or preset scenes. Direction is not listed among the controllable elements in this Part.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 L09 明列的 Color 誤判為例外。",
+        "followup": "L09 Part 1 是否列出 Color 作為可改變項目？"
+      },
+      "B": {
+        "gap": "忽略 Color Temperature 是明列選項。",
+        "followup": "L09 Part 1 是否同時列 Color 與 Color temperature？"
+      },
+      "D": {
+        "gap": "把 distribution of light 明文要求誤排除。",
+        "followup": "L09 是否允許用 light groups 或 scenes 控制 distribution？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q39",
+    "stem": "The impact of light on the circadian system can be measured using a metric called?",
+    "framework": "M04_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Equivalent Melanopic Lux",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Equivalent Biopic Lux",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Comparable Luminance",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Balanced Melanopic Lux",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "Appendix L1 states that the impact of light on the circadian system can be measured using Equivalent Melanopic Lux (EML), calculated as photopic lux multiplied by the melanopic ratio. Feature L03 Circadian Lighting Design - Part 1 then uses EML/M-EDI thresholds such as at least 150 EML or 240 EML for day-active people.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 melanopic 誤寫成 biopic。",
+        "followup": "Appendix L1 的 EML 是 melanopic，還是 biopic metric？"
+      },
+      "C": {
+        "gap": "把 luminance 概念誤當成 circadian 指標。",
+        "followup": "L03 Part 1 使用 EML/M-EDI，還是 Comparable Luminance？"
+      },
+      "D": {
+        "gap": "抓到 melanopic 字根但誤造名稱。",
+        "followup": "WELL 使用 Equivalent Melanopic Lux，還是 Balanced Melanopic Lux？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q40",
+    "stem": "Which of the following features sets the minimum distances from windows to regularly occupied spaces?",
+    "framework": "M04_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature L01 Light Exposure",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Feature L05 Daylight Design Strategies",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Feature L03 Circadian Lighting Design",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Feature L07 Visual Balance",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature L01 Light Exposure - Part 1 Provide Indoor Light includes an Interior layout option requiring at least 30% of regularly occupied area within 20 ft (6 m) of envelope glazing, or 70% of common-space seating within 16 ft (5 m). These minimum distances connect window access to indoor light exposure.",
+    "diagnosis": {
+      "B": {
+        "gap": "被 L05 距離門檻吸引，忽略 L01。",
+        "followup": "哪個 precondition 要 30% area within 20 ft of glazing？"
+      },
+      "C": {
+        "gap": "混淆節律照明 thresholds 與 window distance。",
+        "followup": "L03 設 EML at eye level；它有規定到窗戶距離嗎？"
+      },
+      "D": {
+        "gap": "把 visual balance 誤當成日光距離要求。",
+        "followup": "L07 管 uniformity；window distance 是 L01 哪個 option？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q41",
+    "stem": "Which of the following terms refers to windows and/or glazing in the outdoor envelope of a building?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Luminance",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Reflectance",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Fenestration",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Defenestration",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature L06 Daylight Simulation - Part 1 Conduct Daylight Simulation describes simulations used to inform choices for fenestration and shading. In WELL Light requirements, fenestration refers to windows and glazing in the building envelope that shape daylight access.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 luminance 亮度量誤認為窗系統。",
+        "followup": "Fenestration 是光亮度，還是 envelope glazing？"
+      },
+      "B": {
+        "gap": "混淆 reflectance 與外殼窗洞系統。",
+        "followup": "Surface reflectance 與 windows/glazing in envelope 是同一物嗎？"
+      },
+      "D": {
+        "gap": "被 defenestration 相似字形誤導，選到錯誤詞。",
+        "followup": "Daylight simulation 要優化 fenestration；defenestration 是該術語嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q42",
+    "stem": "Which of the following features outlines design parameters for windows to optimize the quantity and quality of daylight while minimizing unwanted glare?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature L04: Electric Light Glare Control",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature L05: Daylight Design Strategies",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Feature L02: Visual Lighting Design",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Feature L07: Visual Balance",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L05 Daylight Design Strategies - Part 1 Implement Daylight Plan sets design parameters for daylight access through workstation distance to transparent envelope glazing, envelope glazing area, and VLT >40%. Part 2 then integrates solar shading to prevent glare while maintaining daylight quality.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 electric glare control 誤當成日光窗戶設計。",
+        "followup": "L04 管 electric light glare；哪個 feature 管 glazing、VLT、shading？"
+      },
+      "C": {
+        "gap": "把 electric illuminance 誤連到窗戶設計。",
+        "followup": "L02 管 work-plane illuminance；daylight window strategy 在哪裡？"
+      },
+      "D": {
+        "gap": "把視覺平衡誤認為 fenestration design 要求。",
+        "followup": "L07 管 ratios 與 CCT；它是否規定 envelope glazing？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q43",
+    "stem": "A new corporate headquarters building is being constructed in a dense urban area. During the design phase, lighting simulations demonstrate that 40% of regularly occupied space receives at least 300 lux (28fc) for over 50% of operating hours each year. What should the designers change to earn 2 points in Feature L01: Light Exposure?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase window area to ensure that 50% of regularly occupied space is reached by natural light.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Introduce light shelves to increase minimum lux received to 400 lux.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Include light wells to ensure that 75% of regularly occupied space is reached by natural light.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Change building orientation to ensure that natural light reaches regularly occupied space for more than 60% of operating hours each year.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "題幹標示可能有誤；Feature L06 Daylight Simulation - Part 1 Conduct Daylight Simulation gives the higher tier when average sDA300,50% is achieved for more than 75% of regularly occupied floor area, or when 300 lux is achieved for more than 50% plus 100 lux for more than 95% over 50% of daylit hours. Feature L01 is a precondition and does not award 2 points.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 50% 面積誤當成 L06 higher tier。",
+        "followup": "L06 higher tier 要 >75%；50% regularly occupied space 足夠嗎？"
+      },
+      "B": {
+        "gap": "把門檻改成 400 lux，忽略 300 lux。",
+        "followup": "L06 target 是 300 lux over daylit hours，還是 400 lux？"
+      },
+      "D": {
+        "gap": "誤改 operating hours，未抓到面積不足。",
+        "followup": "題幹已有 over 50% hours；L06 higher tier 還缺哪個 area threshold？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "題幹寫 L01 且稱 2 points，但 L01 是 precondition；所列 2-point threshold 屬於 L06 Part 1。"
+    }
+  },
+  {
+    "id": "M04_Q44",
+    "stem": "DALY is an acronym for what?",
+    "framework": "M04_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disability adjusted life years",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Daily accumulated light years",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Deferred adjusted life years",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Detailed annual life years",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature L08 Electric Light Quality - Part 2 Manage Flicker discusses flicker-associated conditions and notes that migraines accounted for millions of disability adjusted life years (DALYs). This acronym appears in the health-impact context for flicker, not as a lighting calculation metric.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 DALY 誤當成 daily light exposure 累積量。",
+        "followup": "L08 提到 migraines and DALYs；這是在量健康負擔嗎？"
+      },
+      "C": {
+        "gap": "混淆 adjusted life years 的公共衛生術語。",
+        "followup": "DALY 中的 adjusted 對應 disability，還是 deferred？"
+      },
+      "D": {
+        "gap": "把 DALY 誤解成 annual detail 統計。",
+        "followup": "L08 flicker health burden 的 DALY 是 annual report term 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q45",
+    "stem": "Many features in the WELL Building Standard require performance testing to verify the feature. For Part 1: Provide Visual Acuity of Feature L02: Visual Lighting Design, a Visual Lighting performance test is required. What are the 5 parts of performance tests for feature verification?",
+    "framework": "M04_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Test Locations & Conditions, Test Method, Test Quantity, Reporting & Compliance, Device Requirements.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Test Parameters, Test Quality, Reporting Metrics, Device Options.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Reporting, Physical Samples, Photographic Evidence, Compliance, Conditions.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Test, Locations, Method, Quantity, Compliance.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature L02 Visual Lighting Design - Part 1 Provide Visual Acuity is a performance-tested precondition, and WELL Performance Verification protocols organize tests by Test Locations & Conditions, Test Method, Test Quantity, Reporting & Compliance, and Device Requirements. These categories structure how visual lighting measurements are verified against illuminance thresholds.",
+    "diagnosis": {
+      "B": {
+        "gap": "漏掉 location、method 與 compliance 架構。",
+        "followup": "Visual Lighting test 是否需 Test Locations、Method、Compliance？"
+      },
+      "C": {
+        "gap": "把文件審查素材當成 performance test 架構。",
+        "followup": "L02 驗 illuminance；photos 或 samples 能替代 test method 嗎？"
+      },
+      "D": {
+        "gap": "只抓到簡化字眼，未列 performance test 完整分類。",
+        "followup": "Performance test 是否包含 Reporting、Compliance、Device 要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q46",
+    "stem": "Humans are diurnal, meaning that we are prone to wakefulness during the day and sleepiness at night. What system in our bodies does light exposure stimulate?",
+    "framework": "M04_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Natural day-night cycle",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Circadian Rhythms",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Circadian Phase Disruption",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Desynchronized Circadian Rhythms",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L01 Light Exposure - Part 1 Provide Indoor Light explains that light is the main driver of the circadian system, which controls body processes and aligns humans with the natural day-night cycle. Feature L03 then sets EML/M-EDI thresholds to support circadian health for day-active people.",
+    "diagnosis": {
+      "A": {
+        "gap": "把外在 day-night cue 當成體內系統。",
+        "followup": "L01 說 light 是 main driver；它驅動哪個 body system？"
+      },
+      "C": {
+        "gap": "把負面 disruption 當成正常系統。",
+        "followup": "L03 把 phase disruption 列為風險；健康目標是哪種 rhythms？"
+      },
+      "D": {
+        "gap": "把失同步狀態誤當成光曝露要刺激的體內系統。",
+        "followup": "L03 是 support circadian health，還是製造 desynchronized rhythms？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q47",
+    "stem": "Electric lighting used indoors has a low frequency of flicker that are not present in daylight. What health conditions has Flicker been associated with?",
+    "framework": "M04_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Migraines",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Immune Disorders",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Respiratory Illness",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Cardiovascular Conditions",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature L08 Electric Light Quality - Part 2 Manage Flicker states that flicker has been associated with eye strain, headaches, migraines, and epileptic seizures. The Part manages this through requirements such as reduced flicker operation, IEEE 1789-2015 recommended practices, or Pst LM ≤1.0 and SVM ≤1.6.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 flicker 影響誤連到免疫疾病。",
+        "followup": "L08 Part 2 列 migraines、headaches；有列 immune disorders 嗎？"
+      },
+      "C": {
+        "gap": "混淆 Air 健康風險與 lighting flicker。",
+        "followup": "Respiratory illness 屬 Air 概念；L08 flicker 主要造成什麼？"
+      },
+      "D": {
+        "gap": "把 flicker 健康負擔泛化到心血管疾病。",
+        "followup": "L08 flicker evidence 指向 migraines，還是 cardiovascular disease？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q48",
+    "stem": "What is an AAP?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Applied Access Protocols",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Ambient Auditory Pollution",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Association of Audio Professionals",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Alternative Adherence Pathway",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL certification guidance uses AAP for Alternative Adherence Pathway, a route for demonstrating an alternative way to meet intent when standard feature requirements are not followed exactly. The provided WELL v2 standard excerpt does not define the acronym directly, so this is a certification-process term rather than a Light feature threshold.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 AAP 誤解成 access protocol 或流程協定。",
+        "followup": "AAP 是 access protocol，還是 alternative adherence route？"
+      },
+      "B": {
+        "gap": "被 auditory pollution 字樣誤導。",
+        "followup": "AAP 處理替代合規；是否代表 ambient auditory pollution？"
+      },
+      "C": {
+        "gap": "把 professional association 誤當認證路徑。",
+        "followup": "AAP 是 project compliance pathway，還是 audio professionals 組織？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "提供的 WELL v2 standard text 未直接定義 AAP；答案符合 WELL 認證常用術語，但非本 Light 章條文。"
+    }
+  },
+  {
+    "id": "M04_Q49",
+    "stem": "Projects may use spreadsheets published by IWBI to calculate what?",
+    "framework": "M04_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Luminance Threshold",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Visual Glare",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Equivalent Melanopic Lux",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Visual Acuity Myopathy",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Appendix L1 states that Equivalent Melanopic Lux (EML) is calculated by multiplying photopic lux by the melanopic ratio, and that projects may use spreadsheets published by the journal authors or IWBI for this calculation. Feature L03 Circadian Lighting Design - Part 1 relies on EML/M-EDI thresholds for circadian lighting compliance.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 spreadsheet 誤連到 luminance threshold。",
+        "followup": "Appendix L1 公式 EML = L × R，是算哪個 metric？"
+      },
+      "B": {
+        "gap": "混淆 visual glare 與 circadian EML 工具。",
+        "followup": "L04 用 UGR 管 glare；IWBI spreadsheet 算的是什麼？"
+      },
+      "D": {
+        "gap": "選到不存在且混合 visual acuity 的術語。",
+        "followup": "Appendix L1 的 spreadsheet 是否用來算 Visual Acuity Myopathy？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M04_Q50",
+    "stem": "What is the intent of Feature L09: Occupant Lighting Control?",
+    "framework": "M04_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximize personal responsibility in regards to electricity.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Provide individuals with access to customizable lighting environments.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "To allow for personal style in individual workspaces.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Improving workgroup satisfaction and retention.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature L09 Occupant Lighting Control states its Intent is to provide individuals with access to customizable lighting environments. Part 1 implements this through lighting zones and control systems, while Part 2 provides supplemental lighting to meet individual task needs.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 lighting control 誤解成用電責任。",
+        "followup": "L09 Intent 是 personal control，還是 electricity responsibility？"
+      },
+      "C": {
+        "gap": "把 customizable lighting 誤讀成個人風格裝飾。",
+        "followup": "L09 zones/scenes 是為 personal style，還是 customizable lighting？"
+      },
+      "D": {
+        "gap": "抓到滿意度結果，卻誤當 feature intent。",
+        "followup": "L09 Intent 是 retention，還是 access to customizable lighting？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

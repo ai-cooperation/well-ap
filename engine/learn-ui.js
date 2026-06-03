@@ -827,7 +827,7 @@ function answerQ(qid, chosen){
   } else {
     var diag = q.diagnosis ? q.diagnosis[chosen] : null;
     var hasDiag = diag && diag.gap && diag.gap !== '';
-    var lectureLinks = TQE.getLectureLinks(state.moduleId, q.framework);
+    var lectureLinks = TQE.getLectureLinks(state.moduleId, q.framework, q);
     var fw = mod.frameworks.find(function(f){ return f.id === q.framework; });
     var correctText = q.options.find(function(o){ return o.key === q.correct; })?.text || '';
     var chosenText = q.options.find(function(o){ return o.key === chosen; })?.text || '';

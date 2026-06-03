@@ -1,0 +1,680 @@
+{
+  "module": "M01",
+  "frameworks": [
+    {
+      "id": "M01_F1",
+      "name": "室內空氣品質門檻",
+      "desc": "掌握 indoor air contaminants 的來源、健康影響與 A01 Air Quality 的 performance threshold，例如 PM2.5: 15 µg/m³ or lower、PM10: 50 µg/m³ or lower。",
+      "covers": [
+        "A01 Air Quality",
+        "PM2.5: 15 µg/m³ or lower",
+        "PM10: 50 µg/m³ or lower",
+        "VOCs",
+        "carbon monoxide"
+      ]
+    },
+    {
+      "id": "M01_F2",
+      "name": "通風稀釋與新風設計",
+      "desc": "理解 A03 Ventilation Design 與 A06 Enhanced Ventilation Design 如何用 mechanical ventilation、natural ventilation 與 ASHRAE 62.1 稀釋人員與產品產生的污染物。",
+      "covers": [
+        "A03 Ventilation Design",
+        "A06 Enhanced Ventilation Design",
+        "mechanical ventilation",
+        "natural ventilation",
+        "ASHRAE 62.1-2010"
+      ]
+    },
+    {
+      "id": "M01_F3",
+      "name": "污染源控制與隔離",
+      "desc": "把 A02 Smoke-Free Environment、A04 Construction Pollution Management、A10 Combustion Minimization 與 A11 Source Separation 視為源頭移除、施工期管理與高污染空間隔離的組合。",
+      "covers": [
+        "A02 Smoke-Free Environment",
+        "A04 Construction Pollution Management",
+        "A10 Combustion Minimization",
+        "A11 Source Separation",
+        "secondhand smoke"
+      ]
+    },
+    {
+      "id": "M01_F4",
+      "name": "監測過濾與微生物風險",
+      "desc": "A08 Air Quality Monitoring and Awareness、A12 Air Filtration、A13 Enhanced Supply Air 與 A14 Microbe and Mold Control 要把監測、過濾、non-recirculated or treated supply air、UVGI 與 mold control 串成運維閉環。",
+      "covers": [
+        "A08 Air Quality Monitoring and Awareness",
+        "A12 Air Filtration",
+        "A13 Enhanced Supply Air",
+        "A14 Microbe and Mold Control",
+        "UVGI"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M01_Q26",
+      "stem": "To earn points toward Part 1: Increase Outdoor Air Supply of Feature A06: Enhanced Ventilation Design, minimum fresh air supply rates should exceed ASHRAE by what amount?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10% or 15%"
+        },
+        {
+          "key": "B",
+          "text": "20% or 40%"
+        },
+        {
+          "key": "C",
+          "text": "30% or 60%"
+        },
+        {
+          "key": "D",
+          "text": "50% or 80%"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M01_F2"
+    },
+    {
+      "id": "M01_Q27",
+      "stem": "What feature uses displacement ventilation to improve indoor air quality by delivering fresh outdoor air at floor level?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature A06: Enhanced Ventilation Design."
+        },
+        {
+          "key": "B",
+          "text": "Feature A01: Air Quality."
+        },
+        {
+          "key": "C",
+          "text": "Feature A09: Pollution Infiltration Management."
+        },
+        {
+          "key": "D",
+          "text": "Feature A03: Ventilation Design."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature A06: Enhanced Ventilation Design requires implementation of advanced \nventilation strategies that can achieve higher air quality levels and thus benefit \nhuman health and productivity. One strategy is displacement ventilation which \nimproves indoor air quality, by delivering fresh outdoor air at the floor level, leaving \nwarmer polluted indoor air, such as CO2 to be extracted above the height of the \nventilation zone.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q28",
+      "stem": "Ensuring interior rooms that may contain sources of air pollution are isolated from adjacent spaces with self-closing doors is a criteria for which of the following WELL Features?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature A01: Air Quality"
+        },
+        {
+          "key": "B",
+          "text": "Feature A11: Air Source Separation"
+        },
+        {
+          "key": "C",
+          "text": "Feature A06: Enhanced Ventilation Design"
+        },
+        {
+          "key": "D",
+          "text": "Feature A13: Enhanced Supply Air"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q29",
+      "stem": "The Property Manager for a Johannesburg office building is installing lobby signage to display real-time data on indoor environmental quality. Which of the following is NOT a required parameter for this display to meet Feature A08: Air Quality Monitoring and Awareness requirements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Humidity"
+        },
+        {
+          "key": "B",
+          "text": "Carbon Monoxide"
+        },
+        {
+          "key": "C",
+          "text": "Carbon Dioxide"
+        },
+        {
+          "key": "D",
+          "text": "Total VOC's"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M01_F4"
+    },
+    {
+      "id": "M01_Q30",
+      "stem": "Which of the following are ongoing requirements for indoor air monitoring in Feature A08: Air Quality Monitoring and Awareness?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Record data at hourly intervals; Send monthly reports to IWBI."
+        },
+        {
+          "key": "B",
+          "text": "Data is analyzed 24 hours and submitted monthly through WELL Online."
+        },
+        {
+          "key": "C",
+          "text": "Data are analyzed for regularly occupied hours and submitted to annually through WELL Online."
+        },
+        {
+          "key": "D",
+          "text": "Data are analyzed and submitted to IWBI."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M01_F4"
+    },
+    {
+      "id": "M01_Q31",
+      "stem": "A property management company is considering submitting its portfolio of 9 urban office properties for WELL Certification. The property teams are reviewing the requirements for air data record keeping. What should the property teams plan to provide in the WELL application for this feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An Operations Schedule."
+        },
+        {
+          "key": "B",
+          "text": "A written policy for each property, including corrective action steps."
+        },
+        {
+          "key": "C",
+          "text": "Results from flow hood testing that confirm compliance with ASHRAE 62.1 ventilation calculations."
+        },
+        {
+          "key": "D",
+          "text": "On-site Photographs, Letter of Assurance – Engineer"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature A08: Air Quality Monitoring and Awareness.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q32",
+      "stem": "For Feature A07: Operable Windows, what requirement must be met before integrating operable windows into a building design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "At least 75% of regularly occupied spaces have operable windows that provide access to outdoor air."
+        },
+        {
+          "key": "B",
+          "text": "At least 25% of regularly occupied spaces have operable windows that provide access to outdoor air."
+        },
+        {
+          "key": "C",
+          "text": "All windows in regularly occupied spaces have operable windows that provide access to outdoor air."
+        },
+        {
+          "key": "D",
+          "text": "No windows in regularly occupied spaces have operable windows."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q33",
+      "stem": "A project team in Montreal is designing a new hospital wing for administrative offices. During the schematic design phase, the team has an opportunity to plan for a data-gathering station to measure outdoor air parameters. Where should the team locate the devices to comply with Feature A07: Operable Windows?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Within 3 m (30ft) of the main building entrance."
+        },
+        {
+          "key": "B",
+          "text": "On the roof."
+        },
+        {
+          "key": "C",
+          "text": "Within 4 km (2.5 mi) of the building."
+        },
+        {
+          "key": "D",
+          "text": "On the building exterior, halfway between the ground level and the roof."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q34",
+      "stem": "Which of the following does NOT describe an advantage of displacement ventilation systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Air is not delivered and pushed through the return air path (often the dirtiest portion of the air stream)."
+        },
+        {
+          "key": "B",
+          "text": "The airflow tends to concentrate pollutants near the ceiling, out of the breathing zone."
+        },
+        {
+          "key": "C",
+          "text": "Air is delivered at very low velocity, preventing occupant discomfort due to air speed."
+        },
+        {
+          "key": "D",
+          "text": "Air can be delivered slightly cooler or warmer than the desired space temperature because registers are at raised floor height."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature A06: Enhanced Ventilation Design.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q35",
+      "stem": "A developer is planning a new convention center, including over 30 conference rooms of all sizes. The team is interested in pursuing WELL Certification and is considering a displacement ventilation system for the conference rooms. In Part 2: Improve Ventilation Effectiveness of Feature A06: Enhanced Ventilation Design, what must be used as a basis for design for this system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ANSI approved"
+        },
+        {
+          "key": "B",
+          "text": "ASHRAE Guidelines RP-949 or REHVA Guidebook No. 1"
+        },
+        {
+          "key": "C",
+          "text": "ASHRAE 90.1"
+        },
+        {
+          "key": "D",
+          "text": "ASHRAE 62.1"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M01_F2"
+    },
+    {
+      "id": "M01_Q36",
+      "stem": "What is the primary reason to introduce activated carbon filters to the main air ducts of an existing building?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce VOCs in the indoor air."
+        },
+        {
+          "key": "B",
+          "text": "To reduce HVAC noise from vibration."
+        },
+        {
+          "key": "C",
+          "text": "To reduce energy demand."
+        },
+        {
+          "key": "D",
+          "text": "To increase thermal comfort."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Overview for Feature A13: Enhanced Supply Air.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q37",
+      "stem": "Ultraviolet Germicidal Irradiation (UVGI) is one method for treating recirculated air in Feature A13: Enhanced Air Supply. What is another approved treatment method according to this feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hepa filter"
+        },
+        {
+          "key": "B",
+          "text": "Advanced charcoal filter"
+        },
+        {
+          "key": "C",
+          "text": "Carbon filter"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Overview of Feature A13: Enhanced Supply Air.",
+      "framework_hint": "M01_F4"
+    },
+    {
+      "id": "M01_Q38",
+      "stem": "In buildings that use forced-air cooling systems, which are strategies to implement air sanitation in Feature A14: Microbe and Mold Control?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ultraviolet germicidal irradiation and carbon filters."
+        },
+        {
+          "key": "B",
+          "text": "Ultraviolet lamps (UVGI)"
+        },
+        {
+          "key": "C",
+          "text": "Photocatalytic oxidation and MERV 13 filters."
+        },
+        {
+          "key": "D",
+          "text": "Carbon filters and photocatalytic oxidation."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M01_F4"
+    },
+    {
+      "id": "M01_Q39",
+      "stem": "What regular documentation is required for WELL project teams to demonstrate that air purification strategies are in property operation for Feature A13: Enhanced Supply Air?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Evidence of filter maintenance is submitted annually through WELL Online."
+        },
+        {
+          "key": "B",
+          "text": "Monthly records of filtration/sanitation maintenance."
+        },
+        {
+          "key": "C",
+          "text": "Annual letters from third party inspectors that air filtration/sanitation systems are in place."
+        },
+        {
+          "key": "D",
+          "text": "Monthly letters from third party inspectors that air filtration/sanitation systems are in place."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M01_F4"
+    },
+    {
+      "id": "M01_Q40",
+      "stem": "Under what circumstance should combustion-based space heaters be allowed in regularly occupied spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When they have automatic shut-off timers with a maximum of 15 minute cycles."
+        },
+        {
+          "key": "B",
+          "text": "Combustion-based space heaters should never be allowed in regularly occupied spaces."
+        },
+        {
+          "key": "C",
+          "text": "When they are located within 7.5 m (25ft) of an exterior door."
+        },
+        {
+          "key": "D",
+          "text": "When they are located on an exterior wall and directly vented to the outside."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q41",
+      "stem": "Which substance has 210 times the binding affinity for hemoglobin compared to oxygen and is toxic to humans?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nickel"
+        },
+        {
+          "key": "B",
+          "text": "Chlorine"
+        },
+        {
+          "key": "C",
+          "text": "Carbon Monoxide"
+        },
+        {
+          "key": "D",
+          "text": "Methane"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q42",
+      "stem": "An office building is located where the annual average ambient PM 2.5 level is 35 ug/m3 or higher. What threshold must be met for the project to meet the standards for Feature A01: Fundamental Air Quality?",
+      "options": [
+        {
+          "key": "A",
+          "text": "PM 2.5 equal to 60% of the 24- or 48- hour average of outdoor levels on days of performance testing."
+        },
+        {
+          "key": "B",
+          "text": "PM 10 equal to 25% of the 24- or 48- hour average of outdoor levels on days of performance testing."
+        },
+        {
+          "key": "C",
+          "text": "PM 2.5 equal to 10% of the 24- or 48- hour average of outdoor levels on days of performance testing."
+        },
+        {
+          "key": "D",
+          "text": "PM 2.5 equal to 30% of the 24- or 48- hour average of outdoor levels on days of performance testing."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M01_F1"
+    },
+    {
+      "id": "M01_Q43",
+      "stem": "A new library would like to meet the standards for Feature A05: Enhanced Air Quality. What threshold must be met for organic gases to achieve this feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formaldehyde less than 13 µg/m³ or lower"
+        },
+        {
+          "key": "B",
+          "text": "Formaldehyde 9 µg/m³ or lower"
+        },
+        {
+          "key": "C",
+          "text": "Formaldehyde less than 25 µg/m³ or lower"
+        },
+        {
+          "key": "D",
+          "text": "Formaldehyde less than 50 µg/m³ or lower"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q44",
+      "stem": "What is the intent of Feature A01: Air Quality?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a basic understanding of indoor air pollutants."
+        },
+        {
+          "key": "B",
+          "text": "To provide a humidity control panel to occupants."
+        },
+        {
+          "key": "C",
+          "text": "To provide a basic level of indoor air quality that contributes to the health and well-being of building users."
+        },
+        {
+          "key": "D",
+          "text": "To provide a basic understanding of the role the building envelope plays in indoor air quality."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M01_F1"
+    },
+    {
+      "id": "M01_Q45",
+      "stem": "Which feature is a precondition of the Air concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature A02: Smoke-Free Environment"
+        },
+        {
+          "key": "B",
+          "text": "Feature A05: Enhanced Air Quality"
+        },
+        {
+          "key": "C",
+          "text": "Feature A08: Air Quality Monitoring and Awareness"
+        },
+        {
+          "key": "D",
+          "text": "Feature A10: Combustion Management"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M01_Q46",
+      "stem": "A nonprofit is renovating floors 4 through 6 of an office building. How will Part 4: Meet Thresholds for Radon of Feature A01: Air Quality impact this project?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The project will need to test for radon to ensure it is 0.15 Bq/L or lower."
+        },
+        {
+          "key": "B",
+          "text": "This will not impact this project because this requirement is only for regularly occupied spaces at or below grade."
+        },
+        {
+          "key": "C",
+          "text": "The project will need to have a professional test for radon to ensure it is 0.15 Bq/L or lower."
+        },
+        {
+          "key": "D",
+          "text": "The project will need one test per 25,000 ft2 of regularly occupied space at or below grade."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M01_F1"
+    },
+    {
+      "id": "M01_Q47",
+      "stem": "In order to achieve the optimization, Feature A12: Air Filtration, what is the verification method for filter maintenance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Technical Document"
+        },
+        {
+          "key": "B",
+          "text": "Purchase Order"
+        },
+        {
+          "key": "C",
+          "text": "On-going Maintenance Report"
+        },
+        {
+          "key": "D",
+          "text": "On-site inspection by WELL Assessor"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M01_F4"
+    },
+    {
+      "id": "M01_Q48",
+      "stem": "Feature A11: Source Separation preserves indoor air quality and maximizes olfactory comfort in occupied spaces through the isolation and proper ventilation of indoor air pollution sources and chemical storage areas. What requirements must be met for dwelling units, all ovens, cooking burners and stovetop cooking appliances that use a range hood?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Exhaust air is vented to the space between apartments."
+        },
+        {
+          "key": "B",
+          "text": "Exhaust air outlet are separated from any air intakes by at least 3ft."
+        },
+        {
+          "key": "C",
+          "text": "There is no requirement for exhaust air in dwelling units."
+        },
+        {
+          "key": "D",
+          "text": "Exhaust air is vented directly to the outdoors."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M01_F3"
+    },
+    {
+      "id": "M01_Q49",
+      "stem": "To achieve Part 1: Implement Ultraviolet Air Treatment of Feature A14: Microbe and Mold Control, what are the two UV System areas the requirements are based on?",
+      "options": [
+        {
+          "key": "A",
+          "text": "UV system design and UV system maintenance and inspection."
+        },
+        {
+          "key": "B",
+          "text": "Humidity control monitor and UV system design."
+        },
+        {
+          "key": "C",
+          "text": "Ultraviolet lamps and irradiation."
+        },
+        {
+          "key": "D",
+          "text": "UV system and air filtration."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "The growth of microorganisms and mold can be prevented and mitigated through a \ncombination of regular mold inspections and placement of microbe inactivation \ntechniques, such as Ultraviolet Germicidal Irradiation (UVGI) systems.",
+      "framework_hint": "M01_F4"
+    },
+    {
+      "id": "M01_Q50",
+      "stem": "An advertising firm in Albany wants to allow for operable windows in their offices. What do the indicator lights at windows need to cue occupants?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When conditions outside are not suitable for opening windows."
+        },
+        {
+          "key": "B",
+          "text": "When conditions outside are suitable for opening windows."
+        },
+        {
+          "key": "C",
+          "text": "When PM 2.5 is 50 ug/m3 or lower."
+        },
+        {
+          "key": "D",
+          "text": "When relative humidity is 85% or lower."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Part 2: Manage Window Use of Feature A07: Operable Windows.",
+      "framework_hint": ""
+    }
+  ]
+}

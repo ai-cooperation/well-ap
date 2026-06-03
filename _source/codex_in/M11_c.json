@@ -1,0 +1,93 @@
+{
+  "module": "M11",
+  "frameworks": [
+    {
+      "id": "M11_F1",
+      "name": "認證流程與角色分工",
+      "desc": "掌握 WELL Certification 的 registration process、eligibility criteria、timeline、WELL project administrator、owner、WELL AP 與 WELL Coaching support team 的角色責任。",
+      "covers": [
+        "WELL Certification",
+        "registration process",
+        "eligibility criteria",
+        "WELL project administrator",
+        "WELL Coaching support team"
+      ]
+    },
+    {
+      "id": "M11_F2",
+      "name": "計分等級與必備門檻",
+      "desc": "WELL v2 是 points-based system，每個 project scorecard 有 110 points available；certification levels 包含 WELL Bronze 40 pts、WELL Silver 50 pts、WELL Gold 60 pts、WELL Platinum 80 pts。",
+      "covers": [
+        "110 points available",
+        "WELL Bronze 40 pts",
+        "WELL Silver 50 pts",
+        "WELL Gold 60 pts",
+        "WELL Platinum 80 pts"
+      ]
+    },
+    {
+      "id": "M11_F3",
+      "name": "文件、Performance Verification 與補救",
+      "desc": "認證管理要能處理 WELL digital platform submissions、Performance Verification、non-passing performance verification results 與 corrective actions。",
+      "covers": [
+        "WELL digital platform",
+        "Performance Verification",
+        "WELL Performance Testing Agent",
+        "corrective actions",
+        "documentation process"
+      ]
+    },
+    {
+      "id": "M11_F4",
+      "name": "AAP、等同性與 Innovation",
+      "desc": "考試會測 Alternative Adherence Paths (AAP)、equivalencies、precertification、recertification 及 Innovation；WELL v2 另可在 Innovation concept 追求 additional ten points，I01-I05 包含 Innovate WELL 與 WELL AP。",
+      "covers": [
+        "Alternative Adherence Paths",
+        "equivalencies",
+        "precertification",
+        "recertification",
+        "I01 Innovate WELL",
+        "I02 WELL Accredited Professional"
+      ]
+    },
+    {
+      "id": "M11_F5",
+      "name": "WELL Portfolio 範疇與評分",
+      "desc": "WELL Portfolio Program 要理解 portfolio scope、eligibility requirements、scales of documentation、review process 與 factors that influence the WELL Portfolio score。",
+      "covers": [
+        "WELL Portfolio",
+        "portfolio scope",
+        "eligibility requirements",
+        "scales of documentation",
+        "WELL Portfolio score"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M11_Q51",
+      "stem": "During feature review, when can project documents and performance testing results be uploaded for the WELL Portfolio?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Once all documents have been coordinated."
+        },
+        {
+          "key": "B",
+          "text": "At the end of the first six months."
+        },
+        {
+          "key": "C",
+          "text": "Once the project reaches 50% occupancy."
+        },
+        {
+          "key": "D",
+          "text": "At any time."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "During feature review, the WELL Reviewer will conduct an examination of \ndocumentation and performance testing results to confirm compliance with the \nWELL feature requirements. \nProject documents and performance testing results may be uploaded at any time.",
+      "framework_hint": ""
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "module": "M08",
+  "frameworks": [
+    {
+      "id": "M08_F1",
+      "name": "限制高風險材料",
+      "desc": "X01 Material Restrictions 限制 asbestos、mercury、lead 等已知 hazardous ingredients；例如部分產品類別不可含超過 1,000 ppm asbestos，mercury 不超過 0.1% (1000 ppm) by weight。",
+      "covers": [
+        "X01 Material Restrictions",
+        "asbestos",
+        "mercury",
+        "lead",
+        "1000 ppm"
+      ]
+    },
+    {
+      "id": "M08_F2",
+      "name": "既有危害與場址風險管理",
+      "desc": "X02 Interior Hazardous Materials Management、X03 CCA and Lead Management 與 X04 Site Remediation 要處理既有建築 asbestos、lead、PCBs、CCA 與 contaminated sites。",
+      "covers": [
+        "X02 Interior Hazardous Materials Management",
+        "X03 CCA and Lead Management",
+        "X04 Site Remediation",
+        "PCBs",
+        "CCA"
+      ]
+    },
+    {
+      "id": "M08_F3",
+      "name": "VOCs 與材料透明",
+      "desc": "X05 Enhanced Material Restrictions、X06 VOC Restrictions、X07 Materials Transparency 與 X08 Materials Optimization 把 product documentation、ingredient transparency、emission thresholds 與第三方評估串在一起。",
+      "covers": [
+        "X05 Enhanced Material Restrictions",
+        "X06 VOC Restrictions",
+        "X07 Materials Transparency",
+        "X08 Materials Optimization",
+        "VOCs"
+      ]
+    },
+    {
+      "id": "M08_F4",
+      "name": "廢棄物、害蟲與清潔政策",
+      "desc": "X09 Waste Management、X10 Pest Management and Pesticide Use 與 X11 Cleaning Products and Protocols 對應 hazardous waste、IPM、pesticides、cleaning products 與 maintenance practices。",
+      "covers": [
+        "X09 Waste Management",
+        "X10 Pest Management and Pesticide Use",
+        "X11 Cleaning Products and Protocols",
+        "integrated pest management",
+        "cleaning protocols"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M08_Q01",
+      "stem": "According to Part 3: Restrict Lead of Feature X01: Material Restrictions, what is the allowable limit for added lead in drinking water pipes, fittings, and solder intended for drinking water distribution and delivery?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0 ppm; there is no acceptable limit for added lead in newly-installed building materials"
+        },
+        {
+          "key": "B",
+          "text": "0.25% weighted wetted average for products"
+        },
+        {
+          "key": "C",
+          "text": "0.05% weighted wetted average for products"
+        },
+        {
+          "key": "D",
+          "text": "Products can contain no more than 300 ppm (0.3%) of lead by weight"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "It is acceptable for a product to have a weighted wetted average of 0.25% of lead or \nless, that is verified by a third party, or is labeled as ANSI/NSF 372-compliant.",
+      "framework_hint": "M08_F1"
+    },
+    {
+      "id": "M08_Q02",
+      "stem": "In order to comply with Part 3: Restrict Lead of Feature X01: Material Restrictions, what is the allowable limit of lead in all newly installed fire alarms, meters, sensors, relays, thermostats, and load break switches?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0 ppm; there is no acceptable limit for added lead in newly-installed building materials"
+        },
+        {
+          "key": "B",
+          "text": "0.25% weighted wetted average for products"
+        },
+        {
+          "key": "C",
+          "text": "0.05% weighted wetted average for products"
+        },
+        {
+          "key": "D",
+          "text": "Products can contain no more than 100 ppm (0.1%) of lead by weight"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "It is acceptable for fire alarms, meters, sensors, relays, thermostats, and load break \nswitches to contain no more than 100 ppm (0.1%) of lead by weight.",
+      "framework_hint": "M08_F1"
+    },
+    {
+      "id": "M08_Q03",
+      "stem": "According to Part 1: Restrict Asbestos of Feature X01: Material Restrictions, what is the allowable limit of asbestos for acoustic treatments, joint protection, and ceiling product categories?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0 ppm; there is no acceptable limit for added asbestos in newly-installed or applied products within the project boundary"
+        },
+        {
+          "key": "B",
+          "text": "0.25% weighted wetted average for all product categories"
+        },
+        {
+          "key": "C",
+          "text": "0.05% weighted wetted average for all products categories"
+        },
+        {
+          "key": "D",
+          "text": "Product categories cannot contain over 1,000 ppm of asbestos by weight or area"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "The following product categories cannot contain over 1,000 ppm of asbestos by \nweight or area: Thermal protection, including all insulation (lagging), applied to pipes, \nfittings, boilers, tanks and ducts, acoustic treatments, sheathing, roofing and siding, \nfire and smoke protection, joint protection, plaster and gypsum board, ceilings, and \nresilient flooring.",
+      "framework_hint": "M08_F1"
+    },
+    {
+      "id": "M08_Q04",
+      "stem": "To comply with Part 2: Restrict Mercury of Feature X01: Material Restrictions, what is the allowable limit of mercury for newly installed fire alarms, meters, sensors, relays, thermostats, and load break switches?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0 ppm; there is no acceptable limit for added mercury in newly-installed building materials"
+        },
+        {
+          "key": "B",
+          "text": "Products contain no more than 0.1% (1000 ppm) of mercury by weight"
+        },
+        {
+          "key": "C",
+          "text": "0.05% weighted wetted average for all products categories"
+        },
+        {
+          "key": "D",
+          "text": "0.25% weighted wetted average for all product categories"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Newly installed fire alarms, meters, sensors, relays, thermostats, and load break \nswitch products can contain no more than 0.1% (1000ppm) of mercury by weight.",
+      "framework_hint": "M08_F1"
+    },
+    {
+      "id": "M08_Q05",
+      "stem": "To comply with Feature X02: Interior Hazardous Materials Management, a project manager who is overseeing a museum renovation needs to manage exposure risks for asbestos and lead. What other hazardous material must be managed if it is present in the building?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mercury"
+        },
+        {
+          "key": "B",
+          "text": "PVC (polyvinyl chloride)"
+        },
+        {
+          "key": "C",
+          "text": "PCB (polychlorinated biphenyl)"
+        },
+        {
+          "key": "D",
+          "text": "Formaldehyde"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "This WELL feature requires the application of practices to manage exposure risks of \nthe hazardous building materials asbestos, lead, and polychlorinated biphenyls \n(PCBs). This is because some materials that were commonly used in construction due \nto their mechanical, chemical, or visual properties have shown to be toxic, and are \nnow banned or confined to limited production across the world. However, their \nubiquitous presence still haunts our built and natural environments and can cause \ndisease upon exposure.",
+      "framework_hint": "M08_F2"
+    },
+    {
+      "id": "M08_Q06",
+      "stem": "To comply with Part 1: Manage Asbestos Hazards of Feature X02: Interior Hazardous Materials Management, an investigation of the project space must be conducted by an inspector certified under local regulation or a qualified professional with demonstrable experience where no local regulations apply. At a minimum, what discovery from the investigation must they provide?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confirmation of the presence of asbestos is performed through Polarized Light Microscopy (PLM) or Transmission Electron Microscopy (TEM) testing."
+        },
+        {
+          "key": "B",
+          "text": "MSDS sheet listing potential hazards"
+        },
+        {
+          "key": "C",
+          "text": "A list of locations where mercury and formaldehyde are located"
+        },
+        {
+          "key": "D",
+          "text": "A building permit waiver from the local municipality for the limited use of asbestos"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "A. Confirmation of the presence of asbestos is performed through Polarized Light \nMicroscopy (PLM) or Transmission Electron Microscopy (TEM) testing. \nB. MSDS sheet listing potential hazards \nC. A list of locations where mercury and formaldehyde are located \nD. A building permit waiver from the local municipality for the limited use of asbestos",
+      "framework_hint": "M08_F2"
+    },
+    {
+      "id": "M08_Q07",
+      "stem": "To comply with Part 1: Manage Pests of Feature X10: Pest Management and Pesticide Use, which of these elements must be included with a management plan for pest control that is based on integrated pest management (IPM) principles?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Records of pest monitoring data, pest events, pesticide applications, control actions and emergency responses"
+        },
+        {
+          "key": "B",
+          "text": "Records of pest tolerance thresholds with data supporting pesticide application"
+        },
+        {
+          "key": "C",
+          "text": "Pest management flow chart accessible to all occupants"
+        },
+        {
+          "key": "D",
+          "text": "List of identified pests accessible to all occupants"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "A management plan for pest control must contain the following elements:",
+      "framework_hint": "M08_F4"
+    },
+    {
+      "id": "M08_Q08",
+      "stem": "According to Part 3: Manage Polychlorinated Biphenyl (PCB) Hazards of Feature X02: Interior Hazardous Materials Management, if the caulk is to be disturbed or removed, analysis of the presumably PCB-containing material must follow protocols. How are the protocols mandated?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A verified letter of assurance"
+        },
+        {
+          "key": "B",
+          "text": "A verified technical document"
+        },
+        {
+          "key": "C",
+          "text": "By state legislative representatives or by specific US EPA or ISO testing methods"
+        },
+        {
+          "key": "D",
+          "text": "By local laws or, in absence of local laws, by any applicable US EPA or ISO testing methods"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "The protocols are mandated by local laws or, in absence of local laws, by any \napplicable US EPA or ISO testing methods.",
+      "framework_hint": "M08_F2"
+    },
+    {
+      "id": "M08_Q09",
+      "stem": "According to Part 1: Manage Exterior CCA H azards of Feature X03: CCA and Lead Management, if the exterior of a structure was built before laws instituting restrictions on the use of CCA (Chromium Copper Arsenate) and it's found, what can the project team do to comply?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provide a verified letter of assurance so wood structures containing CCA can be left in place"
+        },
+        {
+          "key": "B",
+          "text": "Dispose of CCA-containing woods following applicable laws, without incinerating nor wood chipping"
+        },
+        {
+          "key": "C",
+          "text": "Replace all wood structures containing CCA in accordance with the United States Environmental Protection Agency (EPA)"
+        },
+        {
+          "key": "D",
+          "text": "Project team can choose to remediate only CCA infused materials that are within the project boundary where human presence is expected"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "If CCA (Chromium Copper Arsenate) is found a project team must dispose of \nCCA-containing woods following applicable laws, without incinerating nor wood \nchipping.",
+      "framework_hint": "M08_F2"
+    },
+    {
+      "id": "M08_Q10",
+      "stem": "According Feature X03: CCA and Lead Management, when is a lead assessment not applicable for a project undergoing WELL v2 Certification??",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project has accounted for heat island effect."
+        },
+        {
+          "key": "B",
+          "text": "Project does not have artificial turf."
+        },
+        {
+          "key": "C",
+          "text": "Project has loose-fill rubber from recycled tires present on playgrounds."
+        },
+        {
+          "key": "D",
+          "text": "Project has paint peeling on existing playground equipment."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "A project needs to remediate synthetic turf fibers if the total lead concentration of \nsynthetic turf fibers is greater than 136 mg/lb, performed by dust-wipe testing per \nEPA, ISO, or locally accepted protocol for dust-wipe testing.",
+      "framework_hint": "M08_F2"
+    },
+    {
+      "id": "M08_Q11",
+      "stem": "A project has conducted a wipe test for lead loadings of synthetic turf fibers, if found what is the µg/ft2 limit for lead that will make this remediated according to Part 2: Manage Lead Hazards of Feature X03: CCA and Lead Management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "No wipe testing is necessary"
+        },
+        {
+          "key": "B",
+          "text": "If the wipe-testing results show lead loadings greater than 40 µg/ft2 replace with turf containing lead concentrations less than 136 mg/kg it must be remediated"
+        },
+        {
+          "key": "C",
+          "text": "If the wipe-testing results show lead loadings greater than 140 µg/ft2 replace with turf containing lead concentrations less than 136 mg/kg it must be remediated"
+        },
+        {
+          "key": "D",
+          "text": "If the wipe-testing results show lead loadings greater than 80 µg/ft2 replace with turf containing lead concentrations less than 300 mg/kg it must be remediated"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "If the wipe-testing results show total lead loadings greater than 40 µg/ft2, replace \nwith turf containing lead concentrations less than 136 mg/lb.",
+      "framework_hint": "M08_F2"
+    },
+    {
+      "id": "M08_Q12",
+      "stem": "A WELL project is assessing the paint on existing playground equipment. What percentage of lead, if found, will require the abatement process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "30 ppm"
+        },
+        {
+          "key": "B",
+          "text": "60 ppm"
+        },
+        {
+          "key": "C",
+          "text": "90 ppm"
+        },
+        {
+          "key": "D",
+          "text": "120 ppm"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Part 2: Manage Lead Hazards of Feature X03: CCA and Lead Management.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q13",
+      "stem": "Lead is an existing external hazard that must be identified and remediated on a project. Where may lead be present on a project site?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Furniture placed in the offices."
+        },
+        {
+          "key": "B",
+          "text": "Flooring used in a commercial kitchen."
+        },
+        {
+          "key": "C",
+          "text": "Paints used on outdoor structures and playgrounds."
+        },
+        {
+          "key": "D",
+          "text": "LED lighting used throughout a project."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q14",
+      "stem": "The requirement for managing product emissions of newly applied adhesives, sealants, paints, and coatings to meet the California Department of Public Health (CDPH) Standard Method v1.2 can be found in which WELL Feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature: X06 VOC Restrictions"
+        },
+        {
+          "key": "B",
+          "text": "Feature: X02 Interior Hazardous Materials Management"
+        },
+        {
+          "key": "C",
+          "text": "Feature: X11 Cleaning Products and Protocols"
+        },
+        {
+          "key": "D",
+          "text": "Feature: X01 Material Restrictions"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q15",
+      "stem": "In Feature X06: VOC Restrictions, if a project is in full compliance of both product categories, by Cost or Surface Area, how many points could they achieve?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q16",
+      "stem": "Which of the following standards establishes limits for the VOC content of furniture for Feature X06: VOC Restrictions?  CDPH  ANSI/BIFMA  SCAQMD  SMACNA",
+      "options": [
+        {
+          "key": "A",
+          "text": "3 only"
+        },
+        {
+          "key": "B",
+          "text": "1 and 2"
+        },
+        {
+          "key": "C",
+          "text": "1, 3, and 4"
+        },
+        {
+          "key": "D",
+          "text": "2 and 3"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q17",
+      "stem": "A Fortune 500 company is leasing 5 floors of an existing building. The Business Manager has approved new desks and chairs for 62 employees on one of the floors. The VOC content of at least what percentage (by cost) of the new desks and chairs must meet ANSI/BIFMA e3-2014?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10%"
+        },
+        {
+          "key": "B",
+          "text": "30%"
+        },
+        {
+          "key": "C",
+          "text": "50%"
+        },
+        {
+          "key": "D",
+          "text": "75%"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Part 2: Restrict VOC Emissions from Furniture, Architectural and Interior Products of \nFeature X06: VOC Restrictions.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q18",
+      "stem": "The presence of pests in indoor environments can have negative health implications for humans. While pesticides can manage insects and rodents, they also bring with them inherent toxicity. What childhood disease have studies shown an increase as a result of pesticide exposure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chronic Obstructive Pulmonary Disease in children."
+        },
+        {
+          "key": "B",
+          "text": "Fatigue in children."
+        },
+        {
+          "key": "C",
+          "text": "Asthma in children."
+        },
+        {
+          "key": "D",
+          "text": "Cancer in children."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Overview of Feature X10: Pest Management and Pesticide Use.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q19",
+      "stem": "An integrated pest management plan (IPM) is a way to limit the use of pesticides in and around buildings. If there is any pesticide application within the project, what must be available to occupants and owners?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Photographs of pests"
+        },
+        {
+          "key": "B",
+          "text": "Safety Data Sheets (SDSs) of pesticides"
+        },
+        {
+          "key": "C",
+          "text": "Data sheets on pests"
+        },
+        {
+          "key": "D",
+          "text": "Scientific name of pests"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature x10: Pest Management and Pesticide Use.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q20",
+      "stem": "The phthalates (plasticizers) DEHP, DBP, BBP, DINP, DIDP, and DNOP are limited to 0.01% (100 ppm) in flooring and wall coverings according to which of the following features?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature X08: Materials Optimization"
+        },
+        {
+          "key": "B",
+          "text": "Feature X06: VOC Restrictions"
+        },
+        {
+          "key": "C",
+          "text": "Feature X02: Interior Hazardous Materials Management"
+        },
+        {
+          "key": "D",
+          "text": "Feature X05: Enhanced Material Restrictions"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q21",
+      "stem": "Part 1: Select Compliant Interior Furnishings of Feature X05: Enhanced Material Restrictions gives 1 point if, at minimum, 50% by cost of newly installed furniture, millwork, and fixtures contain halogenated flame retardants at less than _____?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 ppm"
+        },
+        {
+          "key": "B",
+          "text": "100 ppm"
+        },
+        {
+          "key": "C",
+          "text": "1000 ppm"
+        },
+        {
+          "key": "D",
+          "text": "2000 ppm"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q22",
+      "stem": "Feature X05: Enhanced Material Restrictions highlights the concerns of orthophthlates, halogenated flame retardants and ______?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Per-fluorinated compounds (PFCs)"
+        },
+        {
+          "key": "B",
+          "text": "Lead"
+        },
+        {
+          "key": "C",
+          "text": "Chromated copper arsenate"
+        },
+        {
+          "key": "D",
+          "text": "Nitrate"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q23",
+      "stem": "Part 1: Select Compliant Interior Furnishings of Feature X05: Enhanced Material Restrictions sets a standard for textiles and plastics in furniture. We also see a standard set for electrical and electronic products. What must newly installed electrical and electronic products must be compliant to?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ASHRAE 55"
+        },
+        {
+          "key": "B",
+          "text": "SCAQMD Rule 1168"
+        },
+        {
+          "key": "C",
+          "text": "RoHS restrictions"
+        },
+        {
+          "key": "D",
+          "text": "Cradle to Cradle"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q24",
+      "stem": "Which of the following chemicals found in Textiles and Plastics must be limited to a maximum of 100 ppm in newly installed furniture, millwork, and fixtures, according to Feature X05: Enhanced Material Restrictions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Asbestos"
+        },
+        {
+          "key": "B",
+          "text": "Pesticides"
+        },
+        {
+          "key": "C",
+          "text": "Halogenated Flame Retardants (HFR)"
+        },
+        {
+          "key": "D",
+          "text": "Formaldehyde"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Feature X05: Enhanced Material Restrictions.",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q25",
+      "stem": "Which of the following is NOT an acceptable third-party verification that demonstrates Part 3: Select Products with Third-Party Verified Ingredients of Feature X07: Materials Transparency?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cradle to Cradle™ Material Health Certificate"
+        },
+        {
+          "key": "B",
+          "text": "GreenScreen® Benchmark"
+        },
+        {
+          "key": "C",
+          "text": "A Health Product Declaration (HPD)"
+        },
+        {
+          "key": "D",
+          "text": "Declare Label: Living Building Challenge"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    }
+  ]
+}

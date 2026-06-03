@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M01_Q01",
+    "stem": "What are the acceptable thresholds for particulate matter for all spaces except Commercial Kitchens and Industrial spaces in unpolluted regions in Part 1: Meet Thresholds for Particulate Matter of Feature A01: Air Quality?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "PM2.5: 50 ug/M or lower and PM10: 15 ug/m or lower.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "PM2.5: 10 ug/M or lower and PM10: 2.5 ug/m or lower.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "PM2.5: 15 ug/M or lower and PM10: 50 ug/m or lower.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "PM2.5: 25 ug/M or lower and PM10: 75 ug/m or lower.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "A01 Air Quality, Part 1 Meet Thresholds for Particulate Matter 要求一般 occupiable spaces 在未採 polluted region modified path 時達到 PM2.5 15 µg/m³ or lower 與 PM10 50 µg/m³ or lower。Commercial Kitchen Spaces 與 Industrial 另有 PM2.5 35 µg/m³ 的規則，不能混用。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 PM2.5 與 PM10 的嚴格程度顛倒，誤認粗細懸浮微粒門檻。",
+        "followup": "在 A01 Part 1 的一般空間門檻中，哪一種粒徑較小、因此應有較低的 µg/m³ 上限？"
+      },
+      "B": {
+        "gap": "套用了過度嚴格且不存在的 PM10 數值，混淆 enhanced threshold。",
+        "followup": "A01 Part 1 是 precondition 門檻；若看到 PM2.5 10 µg/m³，你會先想到 A01 還是 A05？"
+      },
+      "D": {
+        "gap": "混入 polluted region 的 PM2.5 25 門檻，又錯放 PM10 上限。",
+        "followup": "A01 Part 1 modified thresholds 適用於年均 outdoor PM2.5 多高的地區，PM10 是否變成 75？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q02",
+    "stem": "In Feature A01: Air Quality, what is the acceptable threshold for particulate matter in commercial kitchens?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "PM 2.5: 15 ug/M or lower",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "PM 2.5: 35 ug/M or lower",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "PM 2.5: 25 ug/M or lower",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "PM 10: 35 ug/M or lower",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "A01 Air Quality, Part 1 Meet Thresholds for Particulate Matter 對 Commercial Kitchen Spaces & Industrial 的 acceptable threshold 是 PM2.5 35 µg/m³ or lower。這不是一般空間的 PM2.5 15 µg/m³ 門檻。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 commercial kitchen 誤套一般 occupiable spaces 的 PM2.5 門檻。",
+        "followup": "A01 Part 1 在 Commercial Kitchen Spaces & Industrial 下，是否仍使用一般空間的 PM2.5 15 µg/m³？"
+      },
+      "C": {
+        "gap": "混淆 polluted region modified threshold 與 commercial kitchen 規則。",
+        "followup": "PM2.5 25 µg/m³ 是哪個 A01 Part 1 路徑的數值，與商業廚房條件有何不同？"
+      },
+      "D": {
+        "gap": "抓到 35 數字卻選錯污染物，忽略商業廚房列的是 PM2.5。",
+        "followup": "A01 Part 1 的 Commercial Kitchen Spaces & Industrial 欄位列出的是 PM2.5 還是 PM10？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q03",
+    "stem": "What is the verification method for Part 1: Meet Thresholds for Particulate Matter, Option 1 of Feature A01: Air Quality in all spaces except commercial kitchens and industrial spaces?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Performance Test",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Technical Document",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "On-going Data Report",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Letter of Assurance from Owner",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "A01 Air Quality, Part 1 Meet Thresholds for Particulate Matter is performance-based: occupiable spaces must demonstrate PM2.5 15 µg/m³ or lower and PM10 50 µg/m³ or lower. Because the requirement is measured indoor contaminant concentration, the verification method is a Performance Test by the WELL Performance Testing process.",
+    "diagnosis": {
+      "B": {
+        "gap": "把實測污染物濃度誤當成設計文件或規格書審查。",
+        "followup": "A01 Part 1 要證明 PM2.5 與 PM10 已低於門檻，單靠 Technical Document 能反映現場濃度嗎？"
+      },
+      "C": {
+        "gap": "混淆年度監測資料提交與初次 performance verification。",
+        "followup": "A01 Part 5 才要求 pollutants annual monitoring；Part 1 Option 1 的現場門檻應如何驗？"
+      },
+      "D": {
+        "gap": "誤以為 owner 聲明可取代現場空氣品質測試。",
+        "followup": "當題目問 PM2.5 15 µg/m³ 與 PM10 50 µg/m³ 是否達標時，誰需要量測現場數值？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q04",
+    "stem": "In a project with regularly occupied spaces at or below grade, where should the radon test be performed for Feature A01: Air Quality?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "In the lowest occupied level.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "In the highest occupied level.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "In the lowest unoccupied level.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "At or below grade.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "A01 Air Quality, Part 4 Meet Thresholds for Radon applies to regularly occupied spaces at or below grade. It requires radon to be 0.15 Bq/L [4 pCi/L] or lower, with one test per 25,000 ft² of regularly occupied space at or below grade.",
+    "diagnosis": {
+      "A": {
+        "gap": "過度限縮為最低樓層，忽略所有 at or below grade 占用空間。",
+        "followup": "A01 Part 4 說的是 lowest occupied level，還是 regularly occupied spaces at or below grade？"
+      },
+      "B": {
+        "gap": "選到與 radon 風險位置相反的高樓層，忽略 below-grade 條件。",
+        "followup": "Radon 測試在 A01 Part 4 為何特別限定 at or below grade 的 regularly occupied spaces？"
+      },
+      "C": {
+        "gap": "把 below grade 理解成任何地下空間，忽略 regularly occupied。",
+        "followup": "A01 Part 4 的測試面積基準是 unoccupied basement，還是 regularly occupied space？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q05",
+    "stem": "At an existing office building campus, signage indicating an outdoor smoking ban is posted at all building entrances. The signs indicate the ban on smoking within 7.5 m (25 ft) of all building entrances, operable windows, building air intakes and regularly occupied exterior building spaces. What signage must be added to the courtyard areas more than 7.5 m (25 ft) from building entrances to meet the requirements of Part 2: Prohibit Outdoor Smoking of Feature A02: Smoke-Free Environment?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "The local municipal ordinance on smoking in exterior public areas, posted every 15 m (50 ft) along the edge of the no smoking area.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Contact information for a smoking cessation program, posted every 15 m (50 ft) along the edge of the no smoking area.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "The location of designated smoking areas, posted every 30 m (100 ft) along walkways.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "The hazards of smoking, posted at ground level every 30 m (100 ft) along walkways.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "A02 Smoke-Free Environment, Part 2 Prohibit Outdoor Smoking requires that if any outdoor areas within the project boundary allow smoking, signs along walkways must be no more than 100 ft [30 m] apart and describe the hazards of smoking. The 25 ft [7.5 m] ban around entrances, operable windows and air intakes is a separate minimum exclusion zone.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 WELL signage requirement 誤解為張貼地方禁菸法規。",
+        "followup": "A02 Part 2 對允許吸菸的戶外區域，要求標示內容是 municipal ordinance 還是 smoking hazards？"
+      },
+      "B": {
+        "gap": "混淆健康促進資源與禁菸邊界內必要警示標示。",
+        "followup": "A02 Part 2 的 walkway signage 是要提供戒菸聯絡資訊，還是描述 smoking 的危害？"
+      },
+      "C": {
+        "gap": "只注意指定吸菸區位置，漏掉標示必須描述吸菸危害。",
+        "followup": "若 courtyard 仍允許 smoking，A02 Part 2 要每 100 ft 內的 signs 傳達哪一類資訊？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q06",
+    "stem": "An office building's air quality test has met the minimum requirement for ozone in Part 3: Inorganic Gases of Feature A01: Air Quality. What other minimum standard is also required in Part 3 of that feature for WELL Certification?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Carbon Monoxide: 10 ug/m or lower",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "PM 2.5: 15ug/m or lower",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Formaldehyde: 50ug/m or lower",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "PM 10: 35ug/m or lower",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "A01 Air Quality, Part 3 Meet Thresholds for Inorganic Gases pairs ozone with carbon monoxide for all spaces except Commercial Kitchen Spaces & Industrial. The standard threshold is carbon monoxide 10 mg/m³ [9 ppm] or lower, while ozone is 100 µg/m³ [51 ppb] or lower.",
+    "diagnosis": {
+      "B": {
+        "gap": "混淆 Part 1 particulate matter 與 Part 3 inorganic gases。",
+        "followup": "A01 Part 3 標題是 Inorganic Gases；PM2.5 是 gas 還是 particulate matter？"
+      },
+      "C": {
+        "gap": "把 Part 2 organic gas 的 formaldehyde 門檻放到 inorganic gases。",
+        "followup": "Formaldehyde 50 µg/m³ 在 A01 中屬於 Part 2 Organic Gases，為何不屬於 Part 3？"
+      },
+      "D": {
+        "gap": "同時誤選 PM10 與不存在的 35 門檻，未分清污染物類型。",
+        "followup": "A01 Part 3 與 ozone 同列的另一項是 CO，還是 PM10 這類 particulate matter？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Marked concept is carbon monoxide, but the option unit contradicts the standard: it should be 10 mg/m³ [9 ppm], not 10 ug/m."
+    }
+  },
+  {
+    "id": "M01_Q07",
+    "stem": "A new office building in Seattle is in its post-occupancy performance test phase by a WELL Performance Testing Agent. What is the minimum threshold for formaldehyde in Part 2: Meet Thresholds for Organic Gases of Feature A01: Air Quality?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 ug/m3 or lower",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "50 ug/m3 or lower",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "150 ug/m3 or lower",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "300 ug/m3 or lower",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "A01 Air Quality, Part 2 Meet Thresholds for Organic Gases requires laboratory-based VOC thresholds in occupiable spaces, including formaldehyde 50 µg/m³ or lower. The same Part also lists benzene 10 µg/m³ and toluene 300 µg/m³, which are different pollutants.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 benzene 的 10 µg/m³ 門檻誤套到 formaldehyde。",
+        "followup": "A01 Part 2 同列 benzene 與 formaldehyde；兩者的 µg/m³ 門檻分別是多少？"
+      },
+      "C": {
+        "gap": "選到標準未列的寬鬆數值，低估 formaldehyde 控制要求。",
+        "followup": "在 A01 Part 2 的 organic gases 表中，formaldehyde 是否允許到 150 µg/m³？"
+      },
+      "D": {
+        "gap": "把 toluene 300 µg/m³ 門檻誤認為 formaldehyde。",
+        "followup": "A01 Part 2 中 300 µg/m³ 對應哪一種 VOC，而 formaldehyde 的門檻是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q08",
+    "stem": "Which of the following features from the Air concept is a precondition for WELL Certification?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature A02: Smoke-Free Environment",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Feature A05: Enhanced Air Quality",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Feature A06: Enhanced Ventilation Design",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Feature A10: Combustion Minimization",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "A02 Smoke-Free Environment is listed as a WELL v2 Air precondition, and its Parts require indoor smoking prohibition plus outdoor smoking restrictions and signage. A05, A06 and A10 are optimizations with point values rather than required preconditions.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 enhanced performance optimization 誤認為 certification precondition。",
+        "followup": "A05 Enhanced Air Quality 有 points；在 WELL Air 清單中它標示為 precondition 還是 optimization？"
+      },
+      "C": {
+        "gap": "混淆 A03 基本通風 precondition 與 A06 enhanced ventilation optimization。",
+        "followup": "Ventilation Design 中哪個 feature 是基本 precondition，哪個是增加 outdoor air 的 optimization？"
+      },
+      "D": {
+        "gap": "把 combustion source control 類 optimization 誤判為必要門檻。",
+        "followup": "A10 Part 1 Manage Combustion 有 point value；這表示它是必做前提還是加分項？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q09",
+    "stem": "An office building has several balconies and a rooftop accessible by building occupants. According to Part 2: Prohibit Outdoor Smoking of Feature A02: Smoke-Free Environment, there must be signage at all outdoor areas in the project's boundary. What is the verification method required for this feature?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Technical Document",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "On-going Data Report",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "On-site Photographs",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Policy and/or Operations Schedule",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "A02 Smoke-Free Environment, Part 2 Prohibit Outdoor Smoking requires smoking and e-cigarettes to be prohibited on decks, patios, balconies, rooftops and other occupiable outdoor areas above ground level, with signage clearly communicating the ban. Because the requirement is visible site signage, compliance is verified with On-site Photographs.",
+    "diagnosis": {
+      "A": {
+        "gap": "把可視化 signage 證據誤當成一般技術文件提交。",
+        "followup": "A02 Part 2 要證明 balconies 與 rooftop 已設禁菸標示，哪種證據最能呈現現場狀態？"
+      },
+      "B": {
+        "gap": "誤以為禁菸標示需要持續數據報告，混淆監測型 feature。",
+        "followup": "A02 Part 2 是 signage 與 policy 行為要求，是否涉及 pollutants 的 ongoing sensor data？"
+      },
+      "D": {
+        "gap": "只想到政策排程，忽略題目問 signage 的現場照片證據。",
+        "followup": "如果要確認 rooftop 實際有禁菸 signage，Policy Schedule 與 On-site Photographs 哪個更直接？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q10",
+    "stem": "What is the maximum level of carbon monoxide for all spaces in Part 3: Meet Threshold for Inorganic Gases of Feature A05: Enhanced Air Quality?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "140 ug/m3 or lower",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "7 mg/m3 or lower",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "40 ug/m3 or lower",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "25 mg/m3 or lower",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "A05 Enhanced Air Quality, Part 3 Meet Enhanced Thresholds for Inorganic Gases requires carbon monoxide 7 mg/m³ [6 ppm] or lower for all spaces. The same Part also lists nitrogen dioxide 40 µg/m³ [21 ppb] or lower, which uses different units.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 organic gas acetaldehyde 數值混進 inorganic gases 題目。",
+        "followup": "A05 Part 3 只列 CO 與 nitrogen dioxide；140 µg/m³ 在 A05 Part 2 對應哪個污染物？"
+      },
+      "C": {
+        "gap": "把 nitrogen dioxide 門檻誤認為 carbon monoxide 門檻。",
+        "followup": "A05 Part 3 中 40 µg/m³ 是 nitrogen dioxide；CO 使用的單位和數值是什麼？"
+      },
+      "D": {
+        "gap": "選到過寬且不存在的 CO 上限，未區分 enhanced threshold。",
+        "followup": "A05 是 Enhanced Air Quality；它的 CO 門檻會比 A01 的 10 mg/m³ 更嚴還是更鬆？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q11",
+    "stem": "In mechanically ventilated spaces, ventilation systems are designed to meet supply and exhaust rates set in one or more of the following verification guidelines:",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "ASHRAE 62.1-2010, ASHRAE 62.2-2016",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "CIBSE AM10 , ASHRAE 62.2-2016",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "AS 1668.4-2012, CIBSE AM10",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "ASHRAE 55, AS 1668.4-2012",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "A03 Ventilation Design, Part 1 Ensure Adequate Ventilation requires mechanically ventilated projects to meet supply and exhaust rates from listed ventilation guidelines covering at least 90% of project area. The listed mechanical paths include ASHRAE 62.1-2010 or newer and ASHRAE 62.2-2016.",
+    "diagnosis": {
+      "B": {
+        "gap": "混入 CIBSE AM10，誤把 natural ventilation 指南用於 mechanical path。",
+        "followup": "A03 Part 1 中 CIBSE AM10 出現在 naturally ventilated Option，還是 mechanically ventilated Option？"
+      },
+      "C": {
+        "gap": "選到自然通風常見指南組合，未對準 mechanical ventilation。",
+        "followup": "題目指定 mechanically ventilated spaces；A03 Part 1 機械通風清單是否以 ASHRAE 62 系列為核心？"
+      },
+      "D": {
+        "gap": "把 thermal comfort 標準 ASHRAE 55 誤當通風量標準。",
+        "followup": "ASHRAE 55 主要處理 thermal comfort，A03 Part 1 要的是 ventilation rates 還是熱舒適？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q12",
+    "stem": "In naturally ventilated spaces with no mechanical ventilation, what requirements must be met for at least 90% of the project?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "ASHRAE 63",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "CIBSE AM10",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "AS 1669.2-2012",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "ASHRAE 55",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "A03 Ventilation Design, Part 1 Ensure Adequate Ventilation says naturally ventilated projects with no mechanical ventilation must use design criteria describing ventilation rates for at least 90% of project area. One accepted reference is CIBSE AM10: Natural Ventilation in Non-Domestic Buildings, Section 2.4 and Chapter 4.",
+    "diagnosis": {
+      "A": {
+        "gap": "選到非 A03 列名的 ASHRAE 編號，缺乏標準對應。",
+        "followup": "A03 Part 1 自然通風清單列的是 ASHRAE 62.1 Natural Ventilation Procedure，還是 ASHRAE 63？"
+      },
+      "C": {
+        "gap": "接近 AS 1668.4-2012 但編號錯誤，混淆澳洲標準。",
+        "followup": "A03 Part 1 的 Australian natural ventilation reference 是 AS 1668.4-2012 還是 AS 1669.2-2012？"
+      },
+      "D": {
+        "gap": "把 thermal comfort 標準誤當自然通風設計計算指南。",
+        "followup": "A03 Part 1 要描述 ventilation rates，ASHRAE 55 是否是 ventilation rate design criterion？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q13",
+    "stem": "The use of UVGI is required for which of the following features?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature A14: Microbe and Mold Control",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Feature A06: Enhanced Ventilation Design",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature A01: Air Quality",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Feature A12: Air Filtration",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "A14 Microbe and Mold Control, Part 1 Implement Ultraviolet Air Treatment requires UV system design or maintenance strategies for cooling coils and drain pans. Central air handling units use ultraviolet lamps to irradiate cooling coil and drain pan surfaces.",
+    "diagnosis": {
+      "B": {
+        "gap": "把提高通風效率與 UVGI 微生物控制混為一談。",
+        "followup": "A06 Part 2 著重 displacement 或 personalized ventilation；哪個 A14 Part 1 元件要用 ultraviolet lamps？"
+      },
+      "C": {
+        "gap": "把基本空氣品質測試門檻誤認為設備型 UVGI 要求。",
+        "followup": "A01 是污染物 threshold feature；它是否要求 cooling coils 與 drain pans 的 UVGI？"
+      },
+      "D": {
+        "gap": "混淆 particle filtration media filters 與 UVGI 空氣處理。",
+        "followup": "A12 Part 1 的核心是 MERV/M6/F8 過濾等級，UVGI 是哪個 feature 的 Part 名稱？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q14",
+    "stem": "Which of the following is NOT a part of Feature A04: Construction Pollution Management?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Duct Protection",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Filter Replacement",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Envelope Commissioning",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Moisture & Dust Management",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "A04 Construction Pollution Management, Part 1 Mitigate Construction Pollution includes duct protection, filter replacement when permanent ventilation operates during construction, and moisture and dust management. Envelope commissioning belongs to A09 Pollution Infiltration Management, Part 2 Perform Envelope Commissioning.",
+    "diagnosis": {
+      "A": {
+        "gap": "未辨認 duct sealing/cleaning 是 A04 施工污染管理要求。",
+        "followup": "A04 Part 1 的第一組要求是否要求 ducts during construction 被保護或清潔？"
+      },
+      "B": {
+        "gap": "忽略施工期間使用永久通風系統時的 filter replacement 條款。",
+        "followup": "A04 Part 1 若永久 ventilation system 施工中運轉，filters 在 occupancy 前要如何處理？"
+      },
+      "D": {
+        "gap": "把 moisture and dust management 誤判為非施工污染策略。",
+        "followup": "A04 Part 1 是否列出 absorptive materials 保護、隔離作業區與 walk-off mats 等 dust procedures？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q15",
+    "stem": "What are the minimum dimensions required for entryway walk-off systems?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least the width of the doorway and 2m (6ft) long in the direction of travel.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "At least 2m (6ft) wide and 3m (10ft) long in the direction of travel.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "At least the width of the doorway and 3m (10ft) long in the direction of travel.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "At least 2m (6ft) wide and 4m (12ft) long in the direction of travel.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "A09 Pollution Infiltration Management, Part 1 Design Healthy Entryways requires entryway systems at regularly used entrances to be at least the width of the entrance and 10 ft [3 m] long in the primary direction of travel. The length may be the sum of indoor and outdoor portions.",
+    "diagnosis": {
+      "A": {
+        "gap": "抓對 doorway width 但低估 required travel length 為 2m。",
+        "followup": "A09 Part 1 對 walk-off system 的 primary direction of travel 要求是 6 ft 還是 10 ft？"
+      },
+      "B": {
+        "gap": "抓對 3m 長度但把寬度固定為 2m，忽略 entrance width。",
+        "followup": "A09 Part 1 的寬度基準是固定 2m，還是至少等於 actual entrance width？"
+      },
+      "D": {
+        "gap": "選到比標準更長且固定寬度的不存在尺寸要求。",
+        "followup": "A09 Part 1 是否要求 4m 長，還是只要求 10 ft [3 m] 並至少入口同寬？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q16",
+    "stem": "An office space is being constructed on the 5th floor of a downtown tower. According to Feature A03: Ventilation Design, when is the ideal time to perform testing and balancing on the HVAC system in this project?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Before occupancy.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "After project occupancy.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "After commissioning.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Before substantial completion.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "A03 Ventilation Design, Part 1 Ensure Adequate Ventilation states that newly installed mechanically ventilated systems must be designed to meet listed supply and exhaust rates and are scheduled to be tested and balanced after project occupancy. Existing systems instead must have been tested and balanced within the last five years.",
+    "diagnosis": {
+      "A": {
+        "gap": "套用一般交屋前測試直覺，忽略 A03 明定 after occupancy。",
+        "followup": "A03 Part 1 對 newly installed ventilation systems 的 testing and balancing 時點寫在 occupancy 前還是後？"
+      },
+      "C": {
+        "gap": "把 commissioning 流程節點誤當成 A03 指定測平衡時點。",
+        "followup": "題目問 A03 Ventilation Design；條文是否使用 after commissioning，或明確說 after project occupancy？"
+      },
+      "D": {
+        "gap": "把施工完成前程序誤認為可代表 occupied condition 下的平衡測試。",
+        "followup": "A03 Part 1 為何會要求在 project occupancy 後安排 ventilation system testing and balancing？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q17",
+    "stem": "In Part 2: Meet Enhanced Thresholds for Organic Gases of Feature A05: Enhanced Air Quality, which thresholds are to be met?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Formaldehyde 9 ug/m3 or lower & Toluene 300 ug/m3 or lower.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Formaldehyde 9ug/m3 or lower & PM 2.5 12 ug/m3 or lower.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "PM 2.5 12 ug/m3 or lower & Toluene 300 ug/m3 or lower.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Formaldehyde 9 ug/m3 or lower & PM10 20ug/m3 or lower.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "A05 Enhanced Air Quality, Part 2 Meet Enhanced Thresholds for Organic Gases requires several VOC thresholds, including formaldehyde 9 µg/m³ or lower and toluene 300 µg/m³ or lower. PM2.5 and PM10 thresholds belong to A05 Part 1, not the organic gases Part.",
+    "diagnosis": {
+      "B": {
+        "gap": "混入 particulate matter PM2.5，未聚焦 organic gases 清單。",
+        "followup": "A05 Part 2 的 Organic Gases 是否包含 PM2.5，還是 PM2.5 在 Part 1 particulate matter？"
+      },
+      "C": {
+        "gap": "抓到 toluene 但搭配了錯誤的 PM2.5 threshold 類別。",
+        "followup": "若題目限定 Organic Gases，A05 Part 2 應同時選 VOC 名稱，還是可混入 PM thresholds？"
+      },
+      "D": {
+        "gap": "混入 PM10 20 µg/m³ 這個 enhanced particulate threshold。",
+        "followup": "A05 Part 1 的 2-point particulate threshold 有 PM10 20 µg/m³；它是否屬於 Part 2？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q18",
+    "stem": "For naturally ventilated spaces, it is necessary to ensure that adequate outdoor air quality & _____________ are met.",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "PM 2.5",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Thermal comfort",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Noise levels",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Regular maintenance",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "A03 Ventilation Design states in its natural ventilation rationale that naturally ventilated spaces must ensure adequate outdoor air quality and noise levels. In Part 1 Ensure Adequate Ventilation, natural ventilation paths also require design criteria for at least 90% of project area and outdoor PM thresholds such as PM2.5 less than 15 µg/m³ under the standard path.",
+    "diagnosis": {
+      "A": {
+        "gap": "選到 outdoor air quality 的一個參數，未補上並列的 noise levels。",
+        "followup": "A03 的自然通風說明已提 outdoor air quality；空格要補的是另一個環境條件，PM2.5 是否重複？"
+      },
+      "B": {
+        "gap": "把熱舒適議題帶入自然通風要求，偏離 A03 文字。",
+        "followup": "A03 Ventilation Design 的自然通風概述明說 outdoor air quality 與哪一項條件需同時滿足？"
+      },
+      "D": {
+        "gap": "把 mechanical systems 的維護重點誤套到自然通風條件。",
+        "followup": "A03 對 mechanically ventilated projects 提到 maintenance；naturally ventilated spaces 特別還要考慮什麼環境干擾？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q19",
+    "stem": "Since it is difficult to test for every potential pollutant in the indoor air of a building, what easily detectable pollutant serves as a proxy for other indoor pollutants?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Carbon Monoxide",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "PM 2.5",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Humidity",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Carbon Dioxide",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "A06 Enhanced Ventilation Design explains that because testing every potential pollutant is difficult, carbon dioxide is easy to detect and serves as a proxy for other indoor pollutants. In Part 1 Increase Outdoor Air Supply, DCV paths use CO2 thresholds such as 900 ppm or 500 ppm above outdoor levels.",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 CO 中毒污染物與 CO2 作為通風稀釋 proxy 的角色。",
+        "followup": "A06 Part 1 的 demand-controlled ventilation 監測 threshold 是 carbon monoxide 還是 carbon dioxide？"
+      },
+      "B": {
+        "gap": "把 particulate matter 指標誤認為 occupancy-related ventilation proxy。",
+        "followup": "PM2.5 能代表戶外粒狀污染；A06 用哪個 gas 來推估人員與室內污染累積？"
+      },
+      "C": {
+        "gap": "把濕度舒適或霉菌風險參數誤當污染物 proxy。",
+        "followup": "A06 的 CO2 proxy 與 DCV 控制有關；humidity 是否用於 900 ppm 這類門檻？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q20",
+    "stem": "In Tokyo, a new mixed-use complex is being planned to replace a retired railyard. The ambient air has a high concentration of small particulates. According to Feature A12: Air Filtration, what is the project team required to install in order to protect the building occupants from exposure to the particulates?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adequate media filters based on the annual average PM 2.5 of the area.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "MERV 10 or M5 filters",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Carbon filters",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "MERV 16 or E10 filters",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "A12 Air Filtration, Part 1 Implement Particle Filtration requires media filters in the ventilation system to filter outdoor air supplied to the space according to annual average outdoor PM2.5. The table scales minimum PM2.5 removal from at least 80% for 23 µg/m³ or less to at least 95% for 40 µg/m³ or greater.",
+    "diagnosis": {
+      "B": {
+        "gap": "選到低於 A12 表格最低例示等級的 filter，不符合 PM2.5 removal。",
+        "followup": "A12 Part 1 的最低表格列是 ≥80% PM2.5 removal，例示為 MERV 12/M6 還是 MERV 10/M5？"
+      },
+      "C": {
+        "gap": "把 VOC/ozone 的 activated carbon 誤當 particle filtration 主策略。",
+        "followup": "A12 Part 1 要降低 small particulates，應看 media filter 的 PM2.5 removal 還是 carbon filter？"
+      },
+      "D": {
+        "gap": "直接選最高等級，忽略依年均 PM2.5 分級選型的要求。",
+        "followup": "A12 Part 1 是否永遠要求 MERV 16/E10，還是依 annual average outdoor PM2.5 threshold 分級？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q21",
+    "stem": "A new office building in San Diego has an average annual PM 2.5 of 21 ug/m. What type of filter is required to meet Part 1: Implement Particle Filtration of Feature A12: Air Filtration?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "MERV 8 or G4",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "MERV 10 or M5",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "MERV 12 or M6",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "MERV 14 or F8",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "A12 Air Filtration, Part 1 Implement Particle Filtration sets the minimum filtration level by annual average outdoor PM2.5. At 23 µg/m³ or less, the required level is at least 80% PM2.5 removal, illustrated as MERV 12 or M6; 21 µg/m³ falls in this bracket.",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 A12 最低 filtration level，把施工期 MERV 8 類概念混入。",
+        "followup": "A12 Part 1 表格中 annual PM2.5 23 µg/m³ or less 的例示等級是 MERV 8 還是 MERV 12？"
+      },
+      "B": {
+        "gap": "選到仍低於表格最低例示值的 filter 等級。",
+        "followup": "當 annual PM2.5 為 21 µg/m³，A12 Part 1 要求 ≥80% removal；MERV 10/M5 是否達到例示等級？"
+      },
+      "D": {
+        "gap": "把 24–39 µg/m³ 區間的較高等級套用到 21 µg/m³。",
+        "followup": "A12 Part 1 中 MERV 14/F8 對應 annual PM2.5 哪個區間，21 µg/m³ 是否落入？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q22",
+    "stem": "A new medical office building is being constructed in a suburban campus setting. The 2-story building is planned to hold 6 tenants, and the main lobby will host a 24-hour security desk and a daily parking attendant. The owner would like to pursue WELL Certification for the building. Which of the following would qualify as an adequate building entry design?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 sets of normally-closed doors in a series: the main building doors, and the tenant suite doors.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "2 sets of normally-closed doors in a series: the main building doors and the individual office doors.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "3 sets of normally-closed doors in series: the main building doors, the first floor elevator door, and the second floor elevator door.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "An entryway vestibule with 2 sets of normally-closed doors.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "A09 Pollution Infiltration Management, Part 1 Design Healthy Entryways requires all regularly used entrances that open to a pedestrian network to include an entryway system and a measure to slow outdoor-to-indoor air movement. One accepted measure is a building entry vestibule with two typically closed doorways.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 tenant suite doors 當成 building entry vestibule，位置不在入口空氣緩衝。",
+        "followup": "A09 Part 1 要在 building entrance 減緩 outdoor-to-indoor air movement，tenant suite doors 是否能替代 vestibule？"
+      },
+      "B": {
+        "gap": "把個別辦公室門誤作入口氣鎖，未處理主入口污染滲入。",
+        "followup": "若污染從 main building doors 進入，individual office doors 是否符合 A09 的 entryway vestibule 要求？"
+      },
+      "C": {
+        "gap": "堆疊 elevator doors 但未形成入口 vestibule 或 revolving door 策略。",
+        "followup": "A09 Part 1 接受的是 vestibule with two typically closed doorways 或 revolving doors，elevator doors 是否列名？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q23",
+    "stem": "In an urban high-rise building, a contractor is preparing to begin construction on a 10,000 ft2 (930m2) tenant suite. The team is preparing to use a combination of strategies during construction to mitigate the risk of construction pollution to the tenant suite. Envelope protection and filter replacement are some of the strategies that can be used. What is another strategy that can be used during construction to reduce the risk of construction pollution?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Moisture and dust management",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Retrocommissioning",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Envelope sizing",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Humidity management",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "A04 Construction Pollution Management, Part 1 Mitigate Construction Pollution requires construction-phase strategies including duct protection, filter replacement if permanent ventilation operates, and moisture and dust management. The moisture and dust procedures include protecting absorptive materials, isolating active work areas and using walk-off mats.",
+    "diagnosis": {
+      "B": {
+        "gap": "把既有系統再調適流程誤當施工污染控制策略。",
+        "followup": "A04 Part 1 的施工期條款列的是 retrocommissioning，還是 ducts、filters、moisture and dust procedures？"
+      },
+      "C": {
+        "gap": "選到不存在的 envelope sizing，混淆 envelope protection 與尺寸設計。",
+        "followup": "題目已提 envelope protection；A04 Part 1 另列的施工管理策略是否叫 envelope sizing？"
+      },
+      "D": {
+        "gap": "只抓濕度字面，漏掉 A04 規範的 moisture and dust 成套程序。",
+        "followup": "A04 Part 1 的 requirement 是單純 humidity management，還是 moisture and dust management procedures？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q24",
+    "stem": "Feature A09: Pollution Infiltration Management's intent is to minimize the introduction of pollutants into indoor air through the building envelope and at building entrances. One strategy is to design healthy entryways. What else can we do to minimize pollutants in our buildings?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Air flush",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Retrocommissioning",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "IAQ test",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Envelope Commissioning",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "A09 Pollution Infiltration Management includes Part 1 Design Healthy Entryways and Part 2 Perform Envelope Commissioning. Part 2 requires envelope commissioning for air infiltration and leakage, reflected in the specification, commissioning plan and O&M Manual.",
+    "diagnosis": {
+      "A": {
+        "gap": "把施工後空氣沖洗概念誤套到 envelope infiltration 管理。",
+        "followup": "A09 的第二個 Part 是 air flush，還是針對 air infiltration and leakage 的 envelope commissioning？"
+      },
+      "B": {
+        "gap": "把既有建築系統再調適誤認為 A09 指定策略。",
+        "followup": "A09 Part 2 要 façade engineer 與 commissioning plan，這與 retrocommissioning 是否相同？"
+      },
+      "C": {
+        "gap": "把結果性 IAQ 測試誤當阻止污染滲入的設計策略。",
+        "followup": "A09 的 intent 是減少污染 through envelope and entrances；IAQ test 是否能直接改善 envelope leakage？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q25",
+    "stem": "For which Feature in the WELL Building Standard™ (WELL™) is envelope commissioning required?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature A04: Construction Pollution Management",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature A06: Enhanced Ventilation Design",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature A09: Pollution Infiltration Management",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Feature A13 - Enhanced Air Supply",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "A09 Pollution Infiltration Management, Part 2 Perform Envelope Commissioning requires the commissioning process to include envelope commissioning for air infiltration and leakage. The plan must be reflected in specifications, executed as planned and included in the O&M Manual.",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 construction pollution management 與 envelope leakage commissioning。",
+        "followup": "A04 Part 1 管的是 ducts、filters、moisture and dust；envelope commissioning 在哪個 A09 Part？"
+      },
+      "B": {
+        "gap": "把 enhanced ventilation 設計加分項誤認為建築外殼調適要求。",
+        "followup": "A06 主要增加 outdoor air 或提升 ventilation effectiveness；是否列出 façade engineer 與 envelope metrics？"
+      },
+      "D": {
+        "gap": "把 supply air treatment feature 誤認為 envelope infiltration feature。",
+        "followup": "A13 Part 1 是 100% outdoor air、carbon filter、media filter 或 UVGI；哪個 feature 管 envelope commissioning？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

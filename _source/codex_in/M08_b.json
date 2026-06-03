@@ -1,0 +1,680 @@
+{
+  "module": "M08",
+  "frameworks": [
+    {
+      "id": "M08_F1",
+      "name": "限制高風險材料",
+      "desc": "X01 Material Restrictions 限制 asbestos、mercury、lead 等已知 hazardous ingredients；例如部分產品類別不可含超過 1,000 ppm asbestos，mercury 不超過 0.1% (1000 ppm) by weight。",
+      "covers": [
+        "X01 Material Restrictions",
+        "asbestos",
+        "mercury",
+        "lead",
+        "1000 ppm"
+      ]
+    },
+    {
+      "id": "M08_F2",
+      "name": "既有危害與場址風險管理",
+      "desc": "X02 Interior Hazardous Materials Management、X03 CCA and Lead Management 與 X04 Site Remediation 要處理既有建築 asbestos、lead、PCBs、CCA 與 contaminated sites。",
+      "covers": [
+        "X02 Interior Hazardous Materials Management",
+        "X03 CCA and Lead Management",
+        "X04 Site Remediation",
+        "PCBs",
+        "CCA"
+      ]
+    },
+    {
+      "id": "M08_F3",
+      "name": "VOCs 與材料透明",
+      "desc": "X05 Enhanced Material Restrictions、X06 VOC Restrictions、X07 Materials Transparency 與 X08 Materials Optimization 把 product documentation、ingredient transparency、emission thresholds 與第三方評估串在一起。",
+      "covers": [
+        "X05 Enhanced Material Restrictions",
+        "X06 VOC Restrictions",
+        "X07 Materials Transparency",
+        "X08 Materials Optimization",
+        "VOCs"
+      ]
+    },
+    {
+      "id": "M08_F4",
+      "name": "廢棄物、害蟲與清潔政策",
+      "desc": "X09 Waste Management、X10 Pest Management and Pesticide Use 與 X11 Cleaning Products and Protocols 對應 hazardous waste、IPM、pesticides、cleaning products 與 maintenance practices。",
+      "covers": [
+        "X09 Waste Management",
+        "X10 Pest Management and Pesticide Use",
+        "X11 Cleaning Products and Protocols",
+        "integrated pest management",
+        "cleaning protocols"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M08_Q26",
+      "stem": "In Part 1: Select Compliant Interior Furnishings of Feature X05: Enhanced Material Restrictions, how much Halogenated flame retardants (HFR) can be found in the textiles and plastics in newly installed furniture, millwork, and fixtures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "15 ppm"
+        },
+        {
+          "key": "B",
+          "text": "100 ppm"
+        },
+        {
+          "key": "C",
+          "text": "450 ppm"
+        },
+        {
+          "key": "D",
+          "text": "55 ppm"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Textiles (i.e., fabrics including upholstery) and plastics in products can contain 100 \nppm (0.01%) by weight or less of the below compounds and chemical classes unless \nhigher amounts are mandated by local codes.",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q27",
+      "stem": "In Part 1: Select Compliant Interior Furnishings of Feature X05: Enhanced Material Restrictions, (max 1 Point), newly installed furnishings, built-in furniture, interior finishes, and finish materials must comply by at least what percent compliance by cost to fulfill the requirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50%"
+        },
+        {
+          "key": "B",
+          "text": "25%"
+        },
+        {
+          "key": "C",
+          "text": "45%"
+        },
+        {
+          "key": "D",
+          "text": "55%"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q28",
+      "stem": "Which of the following WELL features promotes the use of products that have been independently verified to be free of many suspected hazards?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature X05: Enhanced Material Precaution"
+        },
+        {
+          "key": "B",
+          "text": "Feature X01: Material Restrictions"
+        },
+        {
+          "key": "C",
+          "text": "Feature X03: CCA and Lead Management"
+        },
+        {
+          "key": "D",
+          "text": "Feature X12: Contact Reduction"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q29",
+      "stem": "An urban development has recently completed construction, and new tenants are moving in. The project team is tabulating all products (including furnishings, furniture, and finishes) to report for Feature X05: Enhanced Material Restrictions. What metric should the project team use to report compliance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Either weight or cost"
+        },
+        {
+          "key": "B",
+          "text": "Weight"
+        },
+        {
+          "key": "C",
+          "text": "Volume"
+        },
+        {
+          "key": "D",
+          "text": "Cost"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q30",
+      "stem": "Feature X11: Cleaning Products and Protocols requires a project develops and implements a cleaning plan. What must this plan detail?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Instructions for sweeping."
+        },
+        {
+          "key": "B",
+          "text": "Extent and frequency of cleaning."
+        },
+        {
+          "key": "C",
+          "text": "The time each cleaning function takes to complete"
+        },
+        {
+          "key": "D",
+          "text": "Green cleaning products from regular cleaning products"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M08_F4"
+    },
+    {
+      "id": "M08_Q31",
+      "stem": "According to Part 1: Improve Cleaning Practices of Feature X11: Cleaning Products and Protocols in the WELL Building Standard™ (WELL™), the cleaning plan must outline a training program. Who is the training delivered to?",
+      "options": [
+        {
+          "key": "A",
+          "text": "All regular occupants"
+        },
+        {
+          "key": "B",
+          "text": "Full-time employees"
+        },
+        {
+          "key": "C",
+          "text": "All relevant personnel"
+        },
+        {
+          "key": "D",
+          "text": "Management staff and board of directors"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M08_F4"
+    },
+    {
+      "id": "M08_Q32",
+      "stem": "A janitorial company is beginning work at a WELL Certified building, and several requirements related to the WELL Building Standard are written into the contract. Since the project has achieved Feature X11: Cleaning Products and Protocols, which of the following requirements must be met?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Walk-off mats should be wet cleaned every day."
+        },
+        {
+          "key": "B",
+          "text": "Mops, rags and dusters used to clean all non-porous surfaces must consist of microfiber with a denier no higher than 1.5."
+        },
+        {
+          "key": "C",
+          "text": "Cleaning products, soaps, shampoos, disinfection and sanitization products are not manufactured with ingredients classified under the Globally Harmonized System (GHS)."
+        },
+        {
+          "key": "D",
+          "text": "Vacuum cleaners contain MERV 8 filters."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M08_F4"
+    },
+    {
+      "id": "M08_Q33",
+      "stem": "Part 2: Select Compliant Architectural and Interior Products in Feature X05: Enhanced Material Restrictions gives 1 point if, at minimum, 50% by cost of flooring components contain halogenated flame retardants at less than",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 ppm"
+        },
+        {
+          "key": "B",
+          "text": "100 ppm"
+        },
+        {
+          "key": "C",
+          "text": "1000 ppm"
+        },
+        {
+          "key": "D",
+          "text": "2000 ppm"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q34",
+      "stem": "Feature X07: Material Transparency includes Part 3: Select Products with Third-Party Verified Ingredients. What verification method is required through IWBI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Letter of Assurance - Engineer"
+        },
+        {
+          "key": "B",
+          "text": "On-site Photos"
+        },
+        {
+          "key": "C",
+          "text": "Technical Document"
+        },
+        {
+          "key": "D",
+          "text": "On-going Report"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q35",
+      "stem": "In order to achieve optimization Feature X07: Materials Transparency, at least 50% by count or 25 distinct, permanently installed products and furniture ingredients are disclosed by the manufacturer, a disclosure organization, or a third party through which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Petals Certification"
+        },
+        {
+          "key": "B",
+          "text": "LEED"
+        },
+        {
+          "key": "C",
+          "text": "Living Building Challenge"
+        },
+        {
+          "key": "D",
+          "text": "A Declare Label"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q36",
+      "stem": "In order to fulfill the requirement of Feature X10: Pest Management and Pesticide Use, how are pests primarily managed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Through an IPM plan"
+        },
+        {
+          "key": "B",
+          "text": "Using pesticide only outdoors"
+        },
+        {
+          "key": "C",
+          "text": "Finalizing a pest control use listing"
+        },
+        {
+          "key": "D",
+          "text": "There is no active management of pests"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M08_F4"
+    },
+    {
+      "id": "M08_Q37",
+      "stem": "The intent of Feature X12: Contact Reduction is",
+      "options": [
+        {
+          "key": "A",
+          "text": "to implement strategies to prevent minor impact injuries."
+        },
+        {
+          "key": "B",
+          "text": "to implement strategies to streamline movement through common areas."
+        },
+        {
+          "key": "C",
+          "text": "to implement strategies to reduce human contact with respiratory particles and surfaces that may carry pathogens."
+        },
+        {
+          "key": "D",
+          "text": "to implement strategies to reduce the risk of airborne disease."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q38",
+      "stem": "What are some of the design features that can be implemented to meet the requirements of Feature X12: Contact Reduction?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Design and implement physical barriers in the project to prevent respiratory particles."
+        },
+        {
+          "key": "B",
+          "text": "Establish a corporate cleaning schedule."
+        },
+        {
+          "key": "C",
+          "text": "Require corporate HR policies around mandatory sick days."
+        },
+        {
+          "key": "D",
+          "text": "Facial tissues provided in all common areas."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q39",
+      "stem": "All of these are policies in Part 1: Reduce Respiratory Particle Exposure that can be implemented to meet the requirements of Feature X12: Contact Reduction except",
+      "options": [
+        {
+          "key": "A",
+          "text": "Marks to Increase Distance Between People"
+        },
+        {
+          "key": "B",
+          "text": "Installing screens and protective furnishings"
+        },
+        {
+          "key": "C",
+          "text": "Encourage use of many entrances/exists whenever possible to avoid clustering"
+        },
+        {
+          "key": "D",
+          "text": "Create self service systems to control ingress and egress"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q40",
+      "stem": "Regarding Part 2: Address Surface Hand Touch of Feature X12: Contact Reduction, the requirements for hands-free operation must be met for the following functions, except",
+      "options": [
+        {
+          "key": "A",
+          "text": "Handlebars"
+        },
+        {
+          "key": "B",
+          "text": "Regularly used pedestrian doors."
+        },
+        {
+          "key": "C",
+          "text": "Elevators"
+        },
+        {
+          "key": "D",
+          "text": "Water bottle fillers, water faucets and dispensers."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q41",
+      "stem": "Which material selection process does not promote the selection of products that have been audited to minimize impacts on human and environmental health as listed in Feature X08: Materials Optimization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Living Building Challenge's Red List v4.0"
+        },
+        {
+          "key": "B",
+          "text": "US EPA 40 CFR Part 273"
+        },
+        {
+          "key": "C",
+          "text": "Cradle to Cradle Basic Level restricted Substances List v4"
+        },
+        {
+          "key": "D",
+          "text": "REACH Restriction, Authorization and SHVC list"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M08_F3"
+    },
+    {
+      "id": "M08_Q42",
+      "stem": "Why should a project team ensure a waste stream plan is created and followed for a Battery company in Sarasota, Florida that wants to obtain a WELL Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To comply with the requirements of Feature: X04 Site Remediation."
+        },
+        {
+          "key": "B",
+          "text": "To improve the recycling rate by occupant."
+        },
+        {
+          "key": "C",
+          "text": "To comply with the requirements of Feature X09: Waste Management."
+        },
+        {
+          "key": "D",
+          "text": "To meet the minimum recycling space required."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q43",
+      "stem": "During a renovation of a project in Sarasota, FL, is demonstration prior remediation of lead paint in the building. What does Feature X02: Interior Hazardous Materials Management require to verify this prior remediation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "On-site photographs"
+        },
+        {
+          "key": "B",
+          "text": "Letter of Assurance - Owner"
+        },
+        {
+          "key": "C",
+          "text": "Professional Narrative"
+        },
+        {
+          "key": "D",
+          "text": "Technical Document"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Part 2: Manage Lead Paint Hazards of Feature X02: Interior Hazardous Materials \nManagement.",
+      "framework_hint": "M08_F2"
+    },
+    {
+      "id": "M08_Q44",
+      "stem": "Which of the following actions taken by the project team does not follow the intent of Feature X09: Waste Management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Identify sources of waste and create strategies to minimize waste generation."
+        },
+        {
+          "key": "B",
+          "text": "Creating a recycling and materials recovery plan."
+        },
+        {
+          "key": "C",
+          "text": "Making the building owner purchase trash bins 30 lb or larger."
+        },
+        {
+          "key": "D",
+          "text": "Establishing and Identifying Roles and Responsibilities for a Waste Management Plan."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M08_F4"
+    },
+    {
+      "id": "M08_Q45",
+      "stem": "A project team is working on a building in Orlando that was constructed prior to any applicable laws banning or restricting lead and asbestos. How often are they required to revisit strategies for managing existing hazards?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Never"
+        },
+        {
+          "key": "B",
+          "text": "Every year"
+        },
+        {
+          "key": "C",
+          "text": "Every three years"
+        },
+        {
+          "key": "D",
+          "text": "Every five years"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Feature X02: Interior Hazardous Materials Management.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q46",
+      "stem": "A team in Sarasota is renovating an old Fuel Station into a WELL Certified farm-to-table restaurant. What standard must be used for the site assessment, prior to construction?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Soil Quality Guidance on Sustainable Remediation Standard"
+        },
+        {
+          "key": "B",
+          "text": "Phase I and Phase II Environmental"
+        },
+        {
+          "key": "C",
+          "text": "San Francisco Reduce Risk Pesticide List"
+        },
+        {
+          "key": "D",
+          "text": "Both A and B"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q47",
+      "stem": "An office building in Minneapolis is working to comply with Part 2: Restrict Mercury of Feature X01: Materials Restrictions. For all spaces, what restrictions are detailed for newly installed fire alarms, meters, sensors, relays, thermostats, and load break switches?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Contains no mercury"
+        },
+        {
+          "key": "B",
+          "text": "RoSS restrictions"
+        },
+        {
+          "key": "C",
+          "text": "ASHRAE 55"
+        },
+        {
+          "key": "D",
+          "text": "Contains no more than 0.1% (1000 ppm) of mercury by weight"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M08_F1"
+    },
+    {
+      "id": "M08_Q48",
+      "stem": "What is the intent of the Materials Concept within a building?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce human exposure to chemicals that may impact health during construction, remodeling, furnishing and operation of buildings."
+        },
+        {
+          "key": "B",
+          "text": "To minimize the impact of volatile organic compounds (VOCs) emitted by products on indoor air quality."
+        },
+        {
+          "key": "C",
+          "text": "To mitigate environmental contamination and associated exposure to hazards present in certain wastes."
+        },
+        {
+          "key": "D",
+          "text": "To achieve high levels of indoor air quality across a building's lifetime."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Read the overview for the Mind Concept.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M08_Q49",
+      "stem": "An office building in Jacksonville does not include exterior areas, bare soil, artificial turf, playgrounds, or surfaces containing loose-fill rubber within the project boundary. What verification method would the project team use to document compliance with Part 1: Manage Exterior CCA Hazards of Feature X03: CCA and Lead Management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "On-going Report"
+        },
+        {
+          "key": "B",
+          "text": "On-site Photographs"
+        },
+        {
+          "key": "C",
+          "text": "Technical Document"
+        },
+        {
+          "key": "D",
+          "text": "Professional Narrative"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M08_F2"
+    },
+    {
+      "id": "M08_Q50",
+      "stem": "WELL Feature X04: Site Remediation requires site assessment, testing, and remediation for the development of contaminated sites. What verification method is required to satisfy the requirements of this feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Technical Document"
+        },
+        {
+          "key": "B",
+          "text": "Performance Test"
+        },
+        {
+          "key": "C",
+          "text": "On-site Photographs"
+        },
+        {
+          "key": "D",
+          "text": "Letter of Assurance – Owner"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M08_F2"
+    }
+  ]
+}

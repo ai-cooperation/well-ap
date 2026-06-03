@@ -1,0 +1,119 @@
+[
+  {
+    "code": "T01",
+    "zh_name": "熱舒適性能",
+    "zh_summary": "建立多數使用者可接受的 indoor thermal environment，讓 regularly occupied spaces 在溫度、濕度、風速與平均輻射溫度等條件下維持舒適。此 feature 是 Thermal Comfort 的 precondition，重點在於用 PMV 條件與定期監測確認空間不是只靠設計宣稱，而是能持續提供可接受熱環境。",
+    "zh_specs": [
+      "適用 For All Spaces except Commercial Kitchen Spaces。",
+      "Option 1: Performance verified environmental conditions，mechanically conditioned regularly occupied spaces 需符合 PMV 條件。",
+      "PMV Range +/- 0.5：For at least 90% Occupied Hours，且 At least 90% Regularly Occupied Spaces。",
+      "PMV Range +/- 1.0：For at least 98% Occupied Hours，且 At least 95% Regularly Occupied Spaces。",
+      "Part 2 適用 For All Spaces except Dwelling Units；dry-bulb temperature、relative humidity、air speed（only for projects that use elevated air speed method）與 mean radiant temperature 需監測。",
+      "監測頻率為 intervals no less than twice a year，including once in June, July or August and once in December, January or February，並 annually through the WELL digital platform 提交結果。"
+    ]
+  },
+  {
+    "code": "T02",
+    "zh_name": "熱舒適驗證",
+    "zh_summary": "透過 post-occupancy survey 確認使用者實際感受到的 thermal comfort，而不是只看設備或設計參數。此 optimization 強調 occupant satisfaction，目標是讓 substantial majority of building users 對熱環境感到可接受，並用定期調查形成管理回饋。",
+    "zh_specs": [
+      "WELL Certification: 3 Pt | WELL Core: 3 Pt。",
+      "適用 For All Spaces。",
+      "post-occupancy survey 需 administered at least twice a year。",
+      "調查需 including once in June, July or August and once in December, January or February。",
+      "調查時間需 at least six months after occupancy。",
+      "All regular occupants are invited to participate in the anonymous survey；Number of Regular Occupants More than 45 時，Minimum Number of Responses 為 35% of those regular occupants。"
+    ]
+  },
+  {
+    "code": "T03",
+    "zh_name": "熱分區",
+    "zh_summary": "透過 thermal zoning 提升使用者對局部熱環境的控制能力，讓不同區域或不同人群可依需求調整溫度。考點在於控制方式可以是實體 thermostat 或 digital interface，且 thermal zone 大小有上限，避免一個控制區涵蓋過多使用者。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 3 Pt。",
+      "適用 For All Spaces。",
+      "Part 1 要求 at least 90% of regularly occupied spaces 達成 thermostat control 條件。",
+      "Control over temperature 可透過 Thermostats present within the thermal zone 或 A digital interface accessible to occupants on a computer or phone。",
+      "The maximum size of each thermal zone is 650 ft²(60 m²) or 10 occupants, whichever is larger。",
+      "Projects earn points based on the number of thermal zones；One per 650 ft²(60 m²) 作為 zone 數量基準。"
+    ]
+  },
+  {
+    "code": "T04",
+    "zh_name": "個人熱控制",
+    "zh_summary": "讓 regular occupants 能依個人偏好進行 cooling、heating 或穿著調整，降低單一空調設定無法滿足所有人的問題。此 feature 的重點是個人層級的 thermal comfort devices 與 flexible dress code，且個人設備不得明顯改變其他人的熱環境。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 0.5 Pt；適用 For All Spaces except Dwelling Units。",
+      "Personal cooling 可使用 user-adjustable thermostat、desk fan or ceiling fan、chair with mechanical cooling system，或 any other solution capable of affecting a PMV change of -0.5 within 15 minutes from activation。",
+      "由 thermostat 控制的 room or thermal zone may not be regularly occupied by more than one person；風扇不得 increase air speed for other occupants。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 0.5 Pt；適用 For All Spaces except Commercial Kitchen Spaces & Dwelling Units。",
+      "Personal heating 可使用 user-adjustable thermostat、Electric parabolic space heater、Electric heated chair or footwarmers、Blankets, which are washed at least weekly，或 any other solution capable of affecting a PMV change of +0.5 within 15 minutes from activation。",
+      "Part 3: WELL Certification: 1 Pt | WELL Core: 0.5 Pt；需有 flexible dress code policy，allows regular occupants to dress for individual thermal preferences。"
+    ]
+  },
+  {
+    "code": "T05",
+    "zh_name": "輻射熱舒適",
+    "zh_summary": "使用 radiant heating 與 radiant cooling 系統，讓空間以輻射方式提供熱舒適，並降低完全依賴送風系統造成的限制。此 feature 關注 regularly occupied project area 中輻射系統的覆蓋比例，以及 radiant panels 是否真正覆蓋足夠牆面或天花面積。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 2 Pt；適用 For All Spaces。",
+      "At least 50% of the regularly occupied project area is heated with radiant ceilings, walls or floors。",
+      "Radiant heating 也可使用 Radiant panels which cover at least half of the wall or ceiling to which they are attached；does not include steam radiators。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 2 Pt；適用 For All Spaces。",
+      "At least 50% of the regularly occupied project area is cooled with radiant ceilings, walls or floors。",
+      "WELL Core Guidance: Meet these requirements in the whole building；Up to 10% of the total area occupied by tenants can be excluded from the feature scope。"
+    ]
+  },
+  {
+    "code": "T06",
+    "zh_name": "熱舒適監測",
+    "zh_summary": "透過 sensors 持續監測 thermal comfort parameters，讓 building managers 與使用者能及早發現不可接受的熱舒適狀態。此 feature 強調感測器位置、密度、量測頻率與 WELL Performance Verification 的 device requirements，避免監測資料不具代表性。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "適用 For All Spaces；Option 1: Thermal comfort monitors 需監測 dry-bulb temperature and relative humidity。",
+      "Sensors are located in occupiable areas；3.6-5.6 ft(1.1-1.7 m) above the floor。",
+      "Sensors 需 at least 3.3 ft(1 m) away from exterior walls, doors, direct sunlight, air supply/exhausts, mechanical fans, heaters or any other significant source of heat or cold。",
+      "A minimum of one sensor per 3,500 ft2(325 m2) of occupiable floor area。",
+      "Measurements are taken at least once every 15 minutes；Sensors comply with the Device Requirements listed in the WELL Performance Verification。"
+    ]
+  },
+  {
+    "code": "T07",
+    "zh_name": "濕度控制",
+    "zh_summary": "維持適當 relative humidity，以降低 pathogen growth、減少 off-gassing，並支持 thermal comfort。此 feature 允許以 mechanical humidity control、humidity modeling 或 long-term humidity data 證明空間濕度管理能力，核心門檻是讓經常使用區域維持在健康且舒適的濕度範圍。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "適用 For All Spaces。",
+      "Option 1: Mechanical humidity control 適用 all regularly occupied areas, except high-humidity areas。",
+      "Mechanical system 需 capable of maintaining relative humidity between 30% and 60% at all times by adding or removing moisture from the air。",
+      "Option 2: Humidity modeling 適用 all regularly occupied areas, except high-humidity spaces。",
+      "Modeled relative humidity levels in the space are between 30% and 60% for at least 98% of all business hours of the year；Option 3 為 Long-term humidity data。"
+    ]
+  },
+  {
+    "code": "T08",
+    "zh_name": "強化可開窗",
+    "zh_summary": "透過具多種開啟模式的 operable windows，在增加 outdoor air supply 的同時降低熱不適風險。此 feature 與 A07 Part 1 連動，考點是窗戶開口高度、最小開口尺寸與每個有可開窗房間的配置要求。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Projects may only achieve this part if Feature A07 Part 1 is also achieved。",
+      "適用 For All Spaces；Option 1: Window design。",
+      "Operable windows may be opened according to multiple opening mode requirements；windows which may be opened in both modes may count for both requirements a and b。",
+      "At least 70% of operable windows may be opened such that at least half of the opening is not more than 5.9 ft(1.8 m) above the finished floor。",
+      "Opening is at least 1 ft(0.3 m) in the smallest dimension；At least one such window is present in each room with operable windows。"
+    ]
+  },
+  {
+    "code": "T09",
+    "zh_name": "戶外熱舒適",
+    "zh_summary": "針對專案外部空間處理 elevated temperatures 與 excessive wind，讓行人動線、入口、停車與聚集空間更可使用。此 beta feature 以遮蔭、computational fluid dynamic model 與 outdoor nature access 的組合，評估戶外熱環境是否支持使用者停留與通行。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 2 Pt；適用 For All Spaces。",
+      "Outdoor shading：指定區域需 shaded for more than half of daylight hours each day by tree canopies, awnings, or other structures。",
+      "At least 50% of pedestrian pathways and building entrances 需遮蔭；At least 25% of parking spaces (if present) 需遮蔭。",
+      "Between 25% and 75% of all plazas, seating areas and other outdoor areas of congregation 需遮蔭。",
+      "Part 2: computational fluid dynamic model 需 takes into account at least one day per season (i.e., per quarter)。",
+      "Winds are not expected to exceed 11 mph(5 m/s) for more than 5% of hours in the year in seating areas or 10% of hours on paths and parking lots；也不得 exceed 33 mph(15 m/s) on paths, parking lots or seating areas for more than 0.05% of hours in the year。"
+    ]
+  }
+]

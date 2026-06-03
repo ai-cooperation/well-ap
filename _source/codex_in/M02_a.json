@@ -1,0 +1,679 @@
+{
+  "module": "M02",
+  "frameworks": [
+    {
+      "id": "M02_F1",
+      "name": "飲用水與接觸水指標",
+      "desc": "W01 Water Quality Indicators 與 W02 Drinking Water Quality 分別處理 turbidity、coliforms 與 chemical composition 等水質門檻，W01 要求 Turbidity is less than or equal to 1.0 NTU, FTU or FNU。",
+      "covers": [
+        "W01 Water Quality Indicators",
+        "W02 Drinking Water Quality",
+        "Turbidity <= 1.0 NTU",
+        "coliforms",
+        "chemical composition"
+      ]
+    },
+    {
+      "id": "M02_F2",
+      "name": "Legionella 與水安全管理",
+      "desc": "W03 Basic Water Management 要透過 testing、monitoring 與 Legionella management plan 降低水質劣化與 Legionella colonization 風險。",
+      "covers": [
+        "W03 Basic Water Management",
+        "Legionella management plan",
+        "recirculating hot water systems",
+        "water safety and management plans"
+      ]
+    },
+    {
+      "id": "M02_F3",
+      "name": "飲水可近性與補水行為",
+      "desc": "W04 Enhanced Water Quality、W05 Drinking Water Quality Management 與 W06 Drinking Water Promotion 將 treatment、display、dispensers 與 hydration promotion 連成從水質到行為的策略。",
+      "covers": [
+        "W04 Enhanced Water Quality",
+        "W05 Drinking Water Quality Management",
+        "W06 Drinking Water Promotion",
+        "drinking water dispensers",
+        "hydration"
+      ]
+    },
+    {
+      "id": "M02_F4",
+      "name": "濕氣管理與衛生支援",
+      "desc": "W07 Moisture Management 與 W08 Hygiene Support 對應 moisture infiltration、condensation、bathrooms、hand washing stations 與 hygiene amenities。",
+      "covers": [
+        "W07 Moisture Management",
+        "W08 Hygiene Support",
+        "moisture management",
+        "bathroom accommodations",
+        "hand washing stations"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M02_Q01",
+      "stem": "Nearly two-thirds of the human body is composed of water and a good majority of the global population is under hydrated. Depending on age, sex and pregnancy status, what are the recommended values of daily water consumption by adults?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Between 49-125 oz daily."
+        },
+        {
+          "key": "B",
+          "text": "Between 49-125 oz weekly."
+        },
+        {
+          "key": "C",
+          "text": "Between 25 an 72 oz daily."
+        },
+        {
+          "key": "D",
+          "text": "8 glasses of water daily."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Review the Water Concept, Overview.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q02",
+      "stem": "The project team for an existing building is pursuing WELL Certification. All water being delivered to the project has been tested, and the turbidity level was found to be less than 1.0 NTU. What other test must be passed to achieve Feature W01: Water Quality Indicators?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The pH is level is a neutral level of 7"
+        },
+        {
+          "key": "B",
+          "text": "Quarterly testing for inorganic metals is done"
+        },
+        {
+          "key": "C",
+          "text": "An active carbon filter is installed on all water meant for human contact"
+        },
+        {
+          "key": "D",
+          "text": "Total coliforms are not detected in any 100 ml sample"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M02_F1"
+    },
+    {
+      "id": "M02_Q03",
+      "stem": "Which of the following building systems deal with turbidity limits?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Performance Test"
+        },
+        {
+          "key": "B",
+          "text": "Technical Document"
+        },
+        {
+          "key": "C",
+          "text": "On-going Data Report"
+        },
+        {
+          "key": "D",
+          "text": "Letter of Assurance from Owner"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q04",
+      "stem": "A tenant buildout project in Sarasota Florida is concerned with the water quality in the building. After testing some of the water they discovered the water had a salty taste. What chemical can cause this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Aluminum"
+        },
+        {
+          "key": "B",
+          "text": "Iron"
+        },
+        {
+          "key": "C",
+          "text": "Chloride"
+        },
+        {
+          "key": "D",
+          "text": "Copper"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Refer to Feature W04: Enhanced Water Quality.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q05",
+      "stem": "According to Part 1: Verify Water Quality Indicators of Feature W01: Water Quality Indicators, water delivered to the project and intended for human contact must not exceed what maximum thresholds for nephelometric turbidity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.3 NTU"
+        },
+        {
+          "key": "B",
+          "text": "1.0 NTU"
+        },
+        {
+          "key": "C",
+          "text": "0.4 NTU"
+        },
+        {
+          "key": "D",
+          "text": "0.8 NTU"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Water delivered to the project and intended for human contact (e.g., drinking, \ncooking and dishwashing, handwashing, showering, or bathing) meets the following \nthresholds: \na. Turbidity is less than or equal to 1.0 NTU, FTU, or FNU (nephelometric turbidity, \nformazin turbidity, or formazin nephelometric units, respectively). \nb. Coliforms are not detected in any 100 ml sample.",
+      "framework_hint": "M02_F1"
+    },
+    {
+      "id": "M02_Q06",
+      "stem": "According to Feature W04: Enhanced Water Quality, all water being delivered to the project area for human consumption must meet which of the following maximum limit for Iron?",
+      "options": [
+        {
+          "key": "A",
+          "text": "≤ 0.2 mg/L"
+        },
+        {
+          "key": "B",
+          "text": "≤ 1 mg/L"
+        },
+        {
+          "key": "C",
+          "text": "≤ 0.3 mg/L"
+        },
+        {
+          "key": "D",
+          "text": "≤ 0.05 mg/L"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Refer to Part 1 of Feature W04: Enhanced Water Quality.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q07",
+      "stem": "Many people are inadequately hydrated, and often reach for sugar-sweetened beverages instead of water because of what reason?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Will only drink bottled water."
+        },
+        {
+          "key": "B",
+          "text": "You do not need to drink a lot of water."
+        },
+        {
+          "key": "C",
+          "text": "They don't like water."
+        },
+        {
+          "key": "D",
+          "text": "Mistrust in the safety of drinking water."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Even where safe water is usually at the tap, many people often mistrust the safety of \ntheir water.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q08",
+      "stem": "While there have been drastic improvements in the drinking water quality over the years, there has been an increasing risk from industrial, agricultural, and pharmaceutical sources. According to the WELL Building Standard™ (WELL™), what contaminants derived from this issue can lead to impaired oxygen transport in infants and impair neurodevelopment in children?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lead & Mercury"
+        },
+        {
+          "key": "B",
+          "text": "Copper & Nitrates"
+        },
+        {
+          "key": "C",
+          "text": "Nitrates & Lead"
+        },
+        {
+          "key": "D",
+          "text": "Iron & Lead"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Review the Water Concept, Overview",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q09",
+      "stem": "In order to meet the requirements of Part 2: Meet Thresholds for Organics and Pesticides of Feature W02: Drinking Water Quality, what two options are available to the project for this precondition?",
+      "options": [
+        {
+          "key": "A",
+          "text": "On-site testing."
+        },
+        {
+          "key": "B",
+          "text": "Drinking water quality report."
+        },
+        {
+          "key": "C",
+          "text": "Drinking water sampling."
+        },
+        {
+          "key": "D",
+          "text": "Drinking water quality report or on-site testing."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M02_F1"
+    },
+    {
+      "id": "M02_Q10",
+      "stem": "In Part 1: Assess and Maintain Drinking Water Quality of Feature W05: Drinking Water Quality Management, how often should the drinking water be tested in order to assess and maintain drinking water quality?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Annually"
+        },
+        {
+          "key": "B",
+          "text": "Weekly"
+        },
+        {
+          "key": "C",
+          "text": "Quarterly"
+        },
+        {
+          "key": "D",
+          "text": "Monthly"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Located in Part 1 of Feature W05: Drinking Water Quality Management.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q11",
+      "stem": "How often are water testing results submitted to the WELL digital platform to satisfy Part 1: Assess and Maintain Drinking Water Quality of Feature W05: Drinking Water Quality Management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monthly"
+        },
+        {
+          "key": "B",
+          "text": "After every test is completed"
+        },
+        {
+          "key": "C",
+          "text": "Every Quarter"
+        },
+        {
+          "key": "D",
+          "text": "Annually"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "This WELL feature requires pre-testing of water quality parameters to determine \ntreatment needs, monitoring at a more frequent interval, and disclosure of water \nresults. All test results are submitted annually through the WELL digital platform.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q12",
+      "stem": "Legionnaire’s disease especially affects which of the following:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immunocompromised people"
+        },
+        {
+          "key": "B",
+          "text": "Smokers"
+        },
+        {
+          "key": "C",
+          "text": "People Over 50"
+        },
+        {
+          "key": "D",
+          "text": "All of the Above"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Read the Overview for Feature W03: Basic Water Management.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q13",
+      "stem": "In Part 1: Assess and Maintain Drinking Water Quality for Feature W05: Drinking Water Quality Management, for all spaces, what contaminates must be tested for quarterly at the point of dispensing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lead, Copper, Mercury, Arsenic"
+        },
+        {
+          "key": "B",
+          "text": "Lead, Copper, Turbidity, Coliforms"
+        },
+        {
+          "key": "C",
+          "text": "Copper, Turbidity, Mercury, Nickel"
+        },
+        {
+          "key": "D",
+          "text": "Coliforms, Turbidity, Mercury, Nickel"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Found in Part 1: Assess and Maintain Drinking Water Quality of Feature W05: \nDrinking Water Quality Management.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q14",
+      "stem": "A project in Miami, Florida is working on completing the requirements for Feature W02: Drinking Water Quality. In Part 1: Meet Chemical Thresholds, what parameters do all drinking water dispensers meet?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Residual (free) chlorine does not exceed 10mg/L3."
+        },
+        {
+          "key": "B",
+          "text": "Residual (free) chlorine does not exceed 7mg/L3."
+        },
+        {
+          "key": "C",
+          "text": "Residual (free) chlorine does not exceed 1mg/L3."
+        },
+        {
+          "key": "D",
+          "text": "Residual (free) chlorine does not exceed 4mg/L3."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M02_F1"
+    },
+    {
+      "id": "M02_Q15",
+      "stem": "According to WELL, building-scale interventions can improve water quality depending on the contaminants that need to be removed. Which system is not able to capture water contaminants?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hepa Filter."
+        },
+        {
+          "key": "B",
+          "text": "Ion Exchange Resins."
+        },
+        {
+          "key": "C",
+          "text": "Reverse Osmosis (RO)."
+        },
+        {
+          "key": "D",
+          "text": "Activated Carbon Filters."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Found in Feature W02: Drinking Water Quality overview.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q16",
+      "stem": "Lead, arsenic, antimony, mercury, nickel, copper, cadmium, and Chromium are all examples of which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Contaminants that impact water quality."
+        },
+        {
+          "key": "B",
+          "text": "Disinfectant byproducts"
+        },
+        {
+          "key": "C",
+          "text": "Microorganisms"
+        },
+        {
+          "key": "D",
+          "text": "Organic pollutants"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Read overview to Feature W02: Drinking Water Quality.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M02_Q17",
+      "stem": "To promote proper hydration, what is the maximum distance all parts of regularly occupied floor space should be from water dispensers in Feature W06: Drinking Water Promotion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Every 10m (32ft)"
+        },
+        {
+          "key": "B",
+          "text": "Every 30m (100ft)"
+        },
+        {
+          "key": "C",
+          "text": "Every 50m (165ft)"
+        },
+        {
+          "key": "D",
+          "text": "Every 100m (330ft)"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "At least one drinking water dispenser (minimum one per floor) is located within 30 m \n[100 ft] walk distance of all regularly occupied floor area and in all dining areas.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q18",
+      "stem": "As part of dispenser maintenance for Feature W06: Drinking Water Promotion, how often should the mouthpieces/outlets, protective guards and basins of drinking water fountains and dispensers be cleaned?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Twice weekly"
+        },
+        {
+          "key": "B",
+          "text": "Every day"
+        },
+        {
+          "key": "C",
+          "text": "Every-other day"
+        },
+        {
+          "key": "D",
+          "text": "Weekly"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Found in W06: Drinking Water Promotion.",
+      "framework_hint": "M02_F3"
+    },
+    {
+      "id": "M02_Q19",
+      "stem": "A software company is building a new 100,000 sq ft office building in San Francisco. The client is concerned with microbial growth in the building's internal water supply. Which of the following filtration system would help prevent microbial growth in the potable water according to Feature W02: Drinking Water Quality?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inline Sand filter"
+        },
+        {
+          "key": "B",
+          "text": "Alkaline water ionizer"
+        },
+        {
+          "key": "C",
+          "text": "Reverse osmosis system with a carbon filter"
+        },
+        {
+          "key": "D",
+          "text": "UV Filtration system"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M02_F1"
+    },
+    {
+      "id": "M02_Q20",
+      "stem": "What bathroom accommodations can be implemented within a business office to help support hygiene in order to meet the requirements of Part 1: Provide Bathroom and Handwashing Accommodations of Feature W08: Hygiene Support?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Install a hook or shelf for storage support"
+        },
+        {
+          "key": "B",
+          "text": "Provide access to menstrual products at no cost"
+        },
+        {
+          "key": "C",
+          "text": "Include trash cans in womens and single user bathrooms"
+        },
+        {
+          "key": "D",
+          "text": "All Of The Above"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q21",
+      "stem": "A business office provides an onsite daycare facility for working parents. They include access to family bathrooms for those employees. What would the bathroom need to include in Part 1: Provide Bathroom and Handwashing Accommodations for Feature W08: Hygiene Support?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Children's Sinks and toilets, or accommodation to use the adult size options."
+        },
+        {
+          "key": "B",
+          "text": "Stalls just for children to use."
+        },
+        {
+          "key": "C",
+          "text": "Carpet to reduce slipping."
+        },
+        {
+          "key": "D",
+          "text": "Light switches reachable by children."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Family bathrooms must contain the following: \n \n Changing table for infants. \n Children’s toilet facilities or accommodations for child use of adult size toilet. \n Children’s sinks or accommodations for child use of adult size sink \n Motion sensor lights. \n Skid resistant floors. \n Safety grab bars. \n At least one designated location for bags",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q22",
+      "stem": "A new construction building in a rainy climate is aiming for WELL certification. Excess moisture and dampness in a building is often a problem in this area. This can lead to health problems for the building's occupants. According to Part 1: Design Envelope for Moisture Protection of Feature W07: Moisture Management, which of the following is not a strategy that must be implemented to prevent moisture?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Install a continuous drainage plane."
+        },
+        {
+          "key": "B",
+          "text": "Perform Air tightness testing."
+        },
+        {
+          "key": "C",
+          "text": "Management of site drainage and storm water during construction."
+        },
+        {
+          "key": "D",
+          "text": "Install porous mats at all entry ways to prevent tracking in water."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "This is not a method for moisture protection listed in Part 1: Design Envelope for \nMoisture Protection of Feature W07: Moisture Management.",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q23",
+      "stem": "Feature W07: Moisture Management of the WELL Building Standard stipulates that in order to control the moisture of the interior of a building you must put into place a plan that addresses the following:",
+      "options": [
+        {
+          "key": "A",
+          "text": "The replacement of moisture-sensitive building materials."
+        },
+        {
+          "key": "B",
+          "text": "Condensation on cold surfaces, such as basements, slab-on-grade floors, the inside of exterior walls and glazing."
+        },
+        {
+          "key": "C",
+          "text": "Putting a water drainage plan into place."
+        },
+        {
+          "key": "D",
+          "text": "Installing a dehumidifier system."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Along protection of moisture-sensitive building materials and selection of \nmoisture-resistant materials, you must implement measures to address the \ncondensation on cold surfaces such as basements, slab-on-grade floors, the inside of \nexterior walls and glazing.",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q24",
+      "stem": "A WELL project is implementing a Mold and Moisture Management Plan. Which of the following would not be found on this plan in Part 3: Implement Mold and Moisture Management Plan of Feature W07: Moisture Management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Submit quarterly mold and leaks inspection report."
+        },
+        {
+          "key": "B",
+          "text": "Implement a system to periodically check for water pipe leaks."
+        },
+        {
+          "key": "C",
+          "text": "Create system for occupants and tenants to report mold or water damage."
+        },
+        {
+          "key": "D",
+          "text": "Create a schedule to inspect for water damage or pooling, discoloration and mold on ceilings, walls, floors and HVAC equipment."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Reports only need to be submitted annually through the WELL digital platform.",
+      "framework_hint": "M02_F4"
+    },
+    {
+      "id": "M02_Q25",
+      "stem": "A new office complex wants to help reduce demand on its city's water supply by installing a non-potable water capture and reuse system. However, they are worried about cross-contamination. In Feature W09 β: Onside Non -Potable Water Reuse, what does not need to be included in the safety plan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A list of all applicable local codes and regulation for where the system is being installed."
+        },
+        {
+          "key": "B",
+          "text": "A blueprint of the building where the system is being installed."
+        },
+        {
+          "key": "C",
+          "text": "A list of the key team roles for design, operations, maintenance and third party inspections."
+        },
+        {
+          "key": "D",
+          "text": "A flow diagram that displays the non-potable water sources, conveyances, storage units, treatment devices and points of use."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "This is not one of the requirements listed for the safety plan.",
+      "framework_hint": ""
+    }
+  ]
+}

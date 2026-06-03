@@ -1,0 +1,49 @@
+[
+  {
+    "id": "M11_Q51",
+    "stem": "During feature review, when can project documents and performance testing results be uploaded for the WELL Portfolio?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Once all documents have been coordinated.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "At the end of the first six months.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Once the project reaches 50% occupancy.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "At any time.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "feature review 期間，WELL Portfolio 的 project documents 與 performance testing results 可在任何時間（at any time）上傳。",
+    "framework": "M11_F5",
+    "diagnosis": {
+      "A": {
+        "gap": "誤加上協調完成的前提",
+        "followup": "標準是否要求所有文件協調完成後才能上傳？"
+      },
+      "B": {
+        "gap": "誤加上時間點限制",
+        "followup": "上傳是否被限制在前六個月結束時？"
+      },
+      "C": {
+        "gap": "誤把占用率當上傳條件",
+        "followup": "50% occupancy 是否為文件上傳的前提？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

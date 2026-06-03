@@ -1,0 +1,118 @@
+[
+  {
+    "code": "W01",
+    "zh_name": "水質指標",
+    "zh_summary": "確認所有可能接觸人體的用水具備基本安全與清澈度，包括飲用、烹調、洗手與淋浴用水。重點是用現場測試驗證 turbidity 與 coliforms，避免水質失控影響健康。",
+    "zh_specs": [
+      "適用於 delivered to the project 且 intended for human contact 的用水，如 drinking, cooking and dishwashing, handwashing, showering or bathing。",
+      "Turbidity is less than or equal to 1.0 NTU, FTU or FNU。",
+      "Coliforms are not detected in any 100 ml sample。",
+      "以 on-site tests 驗證水質 performance。",
+      "Multifamily residential projects 可在不測 dwelling units 下達 Bronze or Silver，但 Gold or Platinum 需測 dwelling units。"
+    ]
+  },
+  {
+    "code": "W02",
+    "zh_name": "飲用水品質",
+    "zh_summary": "確保飲用水符合健康導向的化學成分限制，並涵蓋部分有機物與 pesticides 風險。考點在於 drinking water dispenser 的配置，以及各項金屬、氮化物與農藥門檻需達標。",
+    "zh_specs": [
+      "至少提供 one drinking water dispenser，且每個 dwelling unit 另需 one drinking water dispenser per dwelling unit。",
+      "Arsenic ≤ 0.01 mg/L；Cadmium ≤ 0.003 mg/L；Chromium (total) ≤ 0.05 mg/L。",
+      "Copper ≤ 2 mg/L；Fluoride ≤ 1.5 mg/L；Lead ≤ 0.01 mg/L；Mercury (total) ≤ 0.006 mg/L；Nickel ≤ 0.07 mg/L。",
+      "Nitrate ≤ 50 mg/L as Nitrate (11 mg/L as Nitrogen)；Nitrite ≤ 3 mg/L as Nitrite (0.9 mg/L as Nitrogen)。",
+      "municipal water quality report 需 issued not more than one year before project registration，且 covers at least two of the pesticides below。",
+      "pesticides 門檻例：Aldrin and Dieldrin (combined): 0.00003 mg/L or less；Atrazine: 0.1 mg/L or less；Carbofuran: 0.007 mg/L or less；Chlordane: 0.0002 mg/L or less；2,4-Dichlorophenoxyacetic acid (2,4-D): 0.03 mg/L or less；DDT and metabolites: 0.001 mg/L or less。"
+    ]
+  },
+  {
+    "code": "W03",
+    "zh_name": "基礎水管理",
+    "zh_summary": "要求專案主動監測飲用水的化學與生物指標，並建立 Legionella 管理計畫。重點是定期抽樣、追蹤接近 W02 門檻的參數，以及管理會循環並霧化的水系統。",
+    "zh_specs": [
+      "水質參數 sampled at intervals of no less than once per year。",
+      "年度監測項目包含 Turbidity、pH、Residual (free) chlorine。",
+      "Total coliforms 只在 residual chlorine is below detection limits 時檢測。",
+      "任何水質參數達 W02 Part 1 門檻的 80% or above，需在該位置 at least annually 追蹤。",
+      "Legionella management plan 需涵蓋 hot water systems, cooling towers, decorative fountains，以及 project 控制下 water is recirculated and aerosolized 的設備或空間。",
+      "Legionella plan 需包含 roles、water system inventory 與 process flow diagrams of systems within the project boundary。"
+    ]
+  },
+  {
+    "code": "W04",
+    "zh_name": "加強水質",
+    "zh_summary": "聚焦飲用水的味道、氣味與外觀，降低影響接受度的 aesthetic chemicals。WELL AP 準備時要記得這是 optimization，核心是 human consumption 用水的 taste-related thresholds。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Aluminum ≤ 0.2 mg/L；Chloride ≤ 250 mg/L；Copper ≤ 1 mg/L。",
+      "Manganese ≤ 0.05 mg/L；Iron ≤ 0.3 mg/L；Silver≤ 0.1 mg/L。",
+      "Sodium ≤ 270 mg/L；Sulfate ≤ 250 mg/L；Sulfide ≤ 0.05 mg/L；Zinc ≤5 mg/L。",
+      "Total Dissolved Solids (TDS) ≤ 500 mg/L；Free Chlorine ≤ 1.25 mg/L。",
+      "WELL Core Guidance 要在 whole building 達成，並從 non-leased spaces sampling。"
+    ]
+  },
+  {
+    "code": "W05",
+    "zh_name": "飲用水品質管理",
+    "zh_summary": "將飲用水品質從一次性達標提升為持續管理，包括 Performance Verification 前預測試、定期維護與結果透明揭露。重點是讓 occupants 能看到最新 sampling 結果與處理設備資訊。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 2 Pt 可透過 Water quality pre-test 評估與維持水質。",
+      "first-time registered projects 需 at least one month before Performance Verification 預測試。",
+      "pre-test 參數包含 Turbidity、Coliforms、pH、Total Dissolved Solids (TDS)、Total Chlorine、Residual (free) chlorine、Arsenic、Lead、Copper、Nitrate、Benzene。",
+      "Sampling 時若有 filters or other water treatment devices，需 removed, if present。",
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt 可透過 Promote Drinking Water Transparency 取得。",
+      "飲水來源附近或 occupant 可用網站需 prominent display 最近 sampling 的 water quality results、date of testing、WELL thresholds compliance，以及 treatment technologies 和最近 maintenance/filter cartridge replacement 日期。"
+    ]
+  },
+  {
+    "code": "W06",
+    "zh_name": "飲用水推廣",
+    "zh_summary": "透過容易取得且維護良好的飲水設備，鼓勵 occupants 以飲用水取代較不健康的飲料選擇。考點是 dispenser 的可及距離、每層配置與補水瓶設計。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "適用於 All Spaces except Dwelling Units。",
+      "At least one drinking water dispenser，且 minimum one per floor。",
+      "drinking water dispenser 位於所有 regularly occupied floor area 與 all dining areas 的 100 ft(30 m) walk distance 內。",
+      "dispenser 供水需 directly piped through the building’s water supply，或 stored in containers designed for refilling。",
+      "All newly installed drinking water fountains are designed for water bottle-refilling。"
+    ]
+  },
+  {
+    "code": "W07",
+    "zh_name": "濕氣管理",
+    "zh_summary": "降低建築中因滲水、冷凝或內部漏水造成 bacteria 與 mold 生長的風險。此 feature 從 building envelope、interior materials 到營運期 moisture management plan 建立完整防線。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 2 Pt，building envelope 需 minimize moisture intrusion and accumulation。",
+      "construction occurs after registration 的專案需驗證 site drainage and storm water management during building construction phase。",
+      "需進行 Air tightness testing to assess water vapor transfer。",
+      "Entryway design 至少納入 at least three strategies 以減少水進入或滲透建築。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 2 Pt，interior spaces 需處理 moisture-sensitive building materials、moisture-resistant materials or finishes，以及 cold surfaces condensation。",
+      "Part 3: WELL Certification: 1 Pt | WELL Core: 2 Pt，moisture management plan 需包含 periodic inspections、water pipe leaks inspection protocol，以及 occupants and tenants 通報 mold or water damage 的系統。"
+    ]
+  },
+  {
+    "code": "W08",
+    "zh_name": "衛生支持",
+    "zh_summary": "確保廁所與洗手設施能支持不同使用者需求，並透過減少接觸點提升 hygiene。重點包含 menstrual products、hands-free 設備、感應式 faucet 與有效洗手所需的 sink 尺寸。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 2 Pt | WELL Core: 2 Pt，適用於 All Spaces except Dwelling Units。",
+      "women’s and single-user bathrooms 的 stalls 需提供 trash receptacles；若 toilet paper cannot be flushed down toilets，all bathroom stalls 都需 trash receptacles。",
+      "women’s and single-user bathrooms 需提供 sanitary pads, tampons and/or other menstrual products，at no cost 或 subsidized by at least 50%。",
+      "每個 toilet stall 需提供 hook, shelf or equivalent storage support。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 1 Pt，toilets 需 hands-free flushing，並提供 contactless soap dispensers and hand drying，users can exit the bathroom hands-free。",
+      "Part 3: newly installed sinks 的 sink basin 至少 9 inches(23 cm) in width and length，water column from the sink to the basin 至少 6 inches(15 cm)。"
+    ]
+  },
+  {
+    "code": "W09",
+    "zh_name": "現場非飲用水再利用",
+    "zh_summary": "鼓勵以 onsite non-potable water reuse 節約水資源，同時避免污染 potable water lines 或造成口腔、呼吸暴露風險。核心要求是建立安全計畫，清楚定義角色、法規、流程與系統邊界。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 2 Pt。",
+      "專案需 implement a safety plan for non-potable water capture and reuse。",
+      "安全計畫需列出 design, operations, maintenance and third-party inspection 的 key team roles。",
+      "安全計畫需列出 jurisdiction 內 applicable codes and regulations，涵蓋 design, commissioning, and approval of operation。",
+      "需提供 process flow diagram，顯示 non-potable water sources, conveyances, storage units, treatment。",
+      "目的在於 conserve water，同時不 compromising the health of the building occupants。"
+    ]
+  }
+]

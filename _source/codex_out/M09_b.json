@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M09_Q26",
+    "stem": "Alcohol and drug use contribute to the global burden of disease. What is the estimated percentage of people living with disability?",
+    "framework": "M09_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "18%",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "22%",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "32%",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL Mind concept overview states that mental health and substance use conditions account for an estimated 32% of years lived with disability; M11 Substance Use Services, Part 2 Provide Substance Use and Addiction Services then requires access to screening, counseling, outpatient/inpatient treatment and medication-assisted treatment.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 disability burden 大幅低估，未連到 Mind overview 的 32%。",
+        "followup": "若題幹問 years lived with disability，Mind overview 給的是個位數、十幾趴，還是三成以上？"
+      },
+      "B": {
+        "gap": "混淆 18% 十二個月盛行率與 disability burden 指標。",
+        "followup": "18% 在 Mind overview 是 adults 12-month condition prevalence，是否等於 years lived with disability？"
+      },
+      "C": {
+        "gap": "選了接近但未出現的比例，忽略 overview 明列數值。",
+        "followup": "在 Mind overview 同一句中，global burden of disease 與 years lived with disability 各是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Stem says alcohol and drug use, but the 32% figure in the standard applies to mental health and substance use conditions collectively, as years lived with disability."
+    }
+  },
+  {
+    "id": "M09_Q27",
+    "stem": "Mental health conditions are common among the global population and over _____% of adults will experience a mental health condition during their lifetime?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "30%",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "25%",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "53%",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "17%",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being is grounded in the Issue statement that common mental health conditions affect 18% of adults over 12 months and 30% of adults over their lifetime.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 lifetime prevalence 低估成未列明的 25%。",
+        "followup": "M01 的 Issue 同時列 12-month 與 lifetime 數字，哪一個才是 over lifetime？"
+      },
+      "C": {
+        "gap": "把 lifetime prevalence 誤放大到標準未支持的比例。",
+        "followup": "M01 Issue 是否說超過半數 adults lifetime 會經歷 mental health condition？"
+      },
+      "D": {
+        "gap": "混淆 18% 十二個月數值，且選項又略改成 17%。",
+        "followup": "題目問 lifetime，而 M01 Issue 的 18% 是哪一個時間尺度的估計？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q28",
+    "stem": "What is the intent of Feature M01: Mental Health Promotion?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Screen for mental health issues before rewarding employees additional responsibility.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "To provide programs, policies, and resources that support and promote occupant health.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "To gamify activities shown to prevent mental health issues.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Mandate breaks every 2 hours to maximize employee restoration.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "M01 Mental Health Promotion, Intent and Part 1 Promote Mental Health and Well-being require supportive programs, policies and resources that support and promote occupant mental health, including no-cost education, trainings, restorative programming, working-hour policy or restoration space.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 promotion 誤解成篩檢與績效管理用途。",
+        "followup": "M01 Part 1 是提供 supportive resources，還是用篩檢結果決定員工責任？"
+      },
+      "C": {
+        "gap": "把 mental health promotion 縮小成遊戲化活動，忽略 policy/resource 要求。",
+        "followup": "M01 Part 1 列出的策略是 gamification，還是教育、training、policy 與 restorative support？"
+      },
+      "D": {
+        "gap": "混淆 M01 支持性政策與 M06/M07 的休息恢復策略。",
+        "followup": "M01 Intent 是否要求每兩小時強制 break，還是提供多種 mental health supports？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q29",
+    "stem": "The United Nations Sustainable Development Goals are advancing through the WELL Building Standard. How many SDGs are a part of the 2030 Agenda for Sustainable Development?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "10",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "22",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "17",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "5",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being illustrates WELL’s SDG-linked policy and program approach; the UN 2030 Agenda referenced by WELL contains 17 Sustainable Development Goals, which is an external alignment fact rather than a WELL feature threshold.",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 SDGs 總數，將 2030 Agenda 記成較小集合。",
+        "followup": "若 WELL 引用的是 UN 2030 Agenda，該 Agenda 的 SDGs 是十個還是十七個？"
+      },
+      "B": {
+        "gap": "把 SDGs 數量誤加到 22，混淆目標與細項 targets。",
+        "followup": "UN 2030 Agenda 中 goals 和 targets 是同一層級嗎？題目問的是哪一層？"
+      },
+      "D": {
+        "gap": "把全球永續目標數量過度簡化，忽略完整 Agenda。",
+        "followup": "WELL 對齊的 2030 Agenda 是五大主題，還是明列多個 Sustainable Development Goals？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q30",
+    "stem": "A college is in the process of certifying its largest building and looking to complete the requirements for M01: Mental Health Promotion. What verification method is required to submit the details of this feature?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Professional Narrative",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Technical Document",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "On-Site Photographs",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Policy and/or Operations Schedule",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being requires policies, programs, schedules and annual/onboarding communications; Appendix 1 defines Policy and/or Operations Schedule as documents communicating enacted policies, programs or event cadence to occupants or staff.",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆敘述性說明與正式政策或活動時程文件。",
+        "followup": "M01 Part 1 要證明 quarterly、annual 或 weekly cadence 時，單純 narrative 是否足夠？"
+      },
+      "B": {
+        "gap": "把技術圖說或規格文件誤套到政策型 feature。",
+        "followup": "M01 的 no-cost programs 和 annual communications 是 technical product spec，還是 policy/schedule？"
+      },
+      "C": {
+        "gap": "把現場照片當成政策與溝通流程的主要證據。",
+        "followup": "對 M01 Part 1 的 benefits communication，照片能否證明全年 policy 或 operations cadence？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q31",
+    "stem": "A corporate campus in Boise is applying for WELL certification of an office building. Their campus is large, but in order to receive credit for M09: Enhanced Access to Nature, regular occupants will have to walk to a nearby green space. What is the required walk distance from the project boundary in order to fulfill the requirements of this feature?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "within 650 ft",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "within 825 ft",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "within 250 ft",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "within 333 ft",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M09 Enhanced Access to Nature, Part 2 Provide Nature Access Outdoors requires at least one green space or blue space within a 650 ft (200 m) walk distance from the project boundary and available during open hours, with combined green space at least 1.25 acre.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 nearby nature 的步行距離放寬到標準未列的 825 ft。",
+        "followup": "M09 Part 2 的 nearby nature access 是 650 ft 還是比 200 m 更遠的距離？"
+      },
+      "C": {
+        "gap": "把 M09 的 nearby nature 距離誤縮短成其他近距離門檻。",
+        "followup": "題目問 project boundary 到 green/blue space，M09 Part 2 是否要求只有 250 ft？"
+      },
+      "D": {
+        "gap": "選了非 WELL 條文數字，未對照 200 m 換算。",
+        "followup": "M09 Part 2 將 200 m 換算成英制時，標準寫的是哪個 walk distance？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q32",
+    "stem": "Peter is working on the design of a designated restorative space for the building he manages. Peter is looking at different options to add sound to the environment. What types of sound would provide for a restorative environment according to Feature M07: Restorative Spaces?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Running or falling water.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Water features, natural sounds, or sound masking.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Natural sounds only.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Dampening noise from machinery, traffic, electronics, etc..",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M07 Restorative Spaces, Part 1 Provide Restorative Space requires the restorative environment to consider at least five elements, and lists Sound examples as water feature, natural sounds or sound masking.",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到 water sound，漏掉 natural sounds 與 sound masking。",
+        "followup": "M07 Part 1 的 Sound 範例是否只有 running water，還包含哪些聲音策略？"
+      },
+      "C": {
+        "gap": "把聲音要求過度限縮成 natural sounds only。",
+        "followup": "M07 Part 1 對 Sound 的括號範例是否允許 sound masking 作為 restorative element？"
+      },
+      "D": {
+        "gap": "把降噪控制誤當成 restorative sound 元素本身。",
+        "followup": "M07 Part 1 的 Sound 是列水景、自然聲與 masking，還是要求消除機械噪音？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q33",
+    "stem": "Connection to place is a precondition for Mind and part of Feature M02 Nature and Place. What must the design elements address to fulfill this requirement?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Narrative of building history.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Pictures of famous international buildings.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Celebration of culture.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Pictures of local wildlife and environments.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "M02 Nature and Place, Part 2 Provide Connection to Place requires design elements addressing celebration of culture, celebration of place, integration of art and human delight.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 connection to place 縮成建築史敘事，漏掉 culture 要求。",
+        "followup": "M02 Part 2 列的是 building history narrative，還是 celebration of culture/place/art/delight？"
+      },
+      "B": {
+        "gap": "混淆地方感與國際知名建築展示，偏離 project identity。",
+        "followup": "M02 Part 2 強調 local identity 與 culture，展示 international buildings 是否能直接滿足？"
+      },
+      "D": {
+        "gap": "把自然意象誤當成 connection to place 的完整要求。",
+        "followup": "M02 Part 2 的 place connection 是否只靠 local wildlife images，還需要哪些設計面向？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q34",
+    "stem": "According to the WELL Building Standard Mind concept, worldwide spending on mental health is less than $2 per person. In low-and middle-income countries, what percentage of people living with mental health conditions do not receive the necessary treatment?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "40 - 60%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "25 - 30%",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "55 - 68%",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "76 - 85%",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "M03 Mental Health Services, Part 2 Offer Mental Health Services is grounded in the treatment-gap issue statement: in low- and middle-income countries, 76-85% of people living with mental health conditions do not receive necessary treatment.",
+    "diagnosis": {
+      "A": {
+        "gap": "低估低中收入國家的 treatment gap，混到高收入國家情境。",
+        "followup": "M03 Issue 對 high-income 和 low-/middle-income countries 的 no-treatment ranges 是否相同？"
+      },
+      "B": {
+        "gap": "把 treatment gap 誤記成很低比例，忽略標準說差距更大。",
+        "followup": "若 worldwide spending less than $2/person，M03 Issue 對低中收入國家治療缺口給多高？"
+      },
+      "C": {
+        "gap": "選了接近但仍低於標準明列範圍的數字。",
+        "followup": "M03 Issue 寫的是 55-68%，還是 76-85% 未獲必要治療？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q35",
+    "stem": "What are the preconditions of the Mind concept?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mental Health Promotion and Nature and Place.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Mental Health Services and Mental Health Education.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Stress Management and Restorative Opportunities.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Restorative Spaces and Restorative Programming.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "The WELL feature list identifies M01 Mental Health Promotion and M02 Nature and Place as Mind concept preconditions; M01 Part 1 covers supportive mental health programs/policies/resources, while M02 Part 1 and Part 2 require connection to nature and place.",
+    "diagnosis": {
+      "B": {
+        "gap": "把兩個 optimization 誤認為 Mind preconditions。",
+        "followup": "M03 和 M04 在 WELL feature list 是標示 P，還是 O？哪兩個 Mind features 才是 P？"
+      },
+      "C": {
+        "gap": "混淆 restoration 類 optimization 與 certification 必備條件。",
+        "followup": "M05/M06 是否是 Mind preconditions，還是取得額外 points 的 optimization？"
+      },
+      "D": {
+        "gap": "把 restorative feature 組合誤當成最低必備項。",
+        "followup": "M07/M08 在 feature list 的狀態是 optimization；precondition 欄位列的是哪些 feature？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q36",
+    "stem": "What is an example of an optimization in the Mind concept?",
+    "framework": "M09_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Smoke-Free Environment",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Tobacco Cessation",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Active Buildings and Communities",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Health Services and Benefits",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "The WELL Mind concept feature list marks M10 Tobacco Cessation as an optimization, and M10 Part 1 Provide Tobacco Cessation Resources requires incentive programs or individual cessation resources for eligible employees.",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 Air concept 的 smoke-free requirement 與 Mind optimization。",
+        "followup": "Smoke-Free Environment 屬於哪個 WELL concept？它是否在 Mind feature list 的 M10/M11 中？"
+      },
+      "C": {
+        "gap": "把 Movement concept 的 active design feature 誤放進 Mind concept。",
+        "followup": "Active Buildings and Communities 是 Movement feature，還是 Mind 的 tobacco/substance service optimization？"
+      },
+      "D": {
+        "gap": "混淆 Community health benefits feature 與 Mind 的 tobacco cessation。",
+        "followup": "Health Services and Benefits 支援 healthcare access，但它在標準中屬於哪個 concept？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q37",
+    "stem": "As an employee of a company who achieved the optimization Feature M06: Restorative Opportunities, you would receive a minimum of _____ days per year as paid time off, not including sick or paid holidays?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "20",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "18",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "22",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "15",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M06 Restorative Opportunities, Part 1 Support Healthy Working Hours, Option 2 Paid time off requires eligible employees to receive paid time off with a minimum of 20 days per calendar year, excluding designated sick days or standard paid holidays.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 PTO minimum 少記兩天，未排除 sick days/holidays。",
+        "followup": "M06 Part 1 Option 2 的 paid time off minimum 是 18 還是 20 calendar-year days？"
+      },
+      "C": {
+        "gap": "把最低要求誤加嚴到標準未要求的 22 天。",
+        "followup": "若專案提供 22 days 可合規，但 M06 Part 1 的最低門檻實際是多少？"
+      },
+      "D": {
+        "gap": "低估 restorative opportunities 對 PTO 的最低要求。",
+        "followup": "M06 Part 1 Option 2 是否允許只有 15 days paid time off 且仍拿分？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q38",
+    "stem": "For a school who achieves Feature M06: Restorative Opportunities, what is the requirement for start time of students in secondary schools?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "No earlier than 8:00 am",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "No earlier than 8:30 am",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "No earlier than 8:45 am",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "No earlier than 7:45 am",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M06 Restorative Opportunities, Part 1 Support Healthy Working Hours, Option 3 Student start times requires secondary school students’ school day to start no earlier than 8:30 a.m.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 secondary school start time 提早了半小時。",
+        "followup": "M06 Part 1 Option 3 的 no earlier than 門檻是 8:00 還是 8:30 a.m.？"
+      },
+      "C": {
+        "gap": "把最低要求誤延後，選了比標準更嚴的時間。",
+        "followup": "若標準說 no earlier than 8:30，8:45 是必要門檻還是更晚的做法？"
+      },
+      "D": {
+        "gap": "忽略 adolescent sleep 支持策略，選了標準禁止的更早時間。",
+        "followup": "M06 Part 1 對 secondary schools 是否允許 7:45 a.m. 作為合規 start time？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q39",
+    "stem": "An employee of your company is interested in mental health services to support recovery from a traumatic event. An in-person service may be offered if it is within _______ of the project boundary?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Within 0.25 mi (0.4 km)",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Within 0.5 mi (0.8 km)",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "WIthin 1 mi (1.6 km)",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "On-site services only offered.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M03 Mental Health Services, Part 4 beta Support Mental Health Recovery requires traumatic-event recovery services at no cost or subsidized, on-site, in-person within 0.25 mi (400 m) of the project boundary or virtually, including at least three listed supports.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 in-person service 的距離放寬到標準未列的 0.5 mi。",
+        "followup": "M03 Part 4 對 traumatic-event recovery services 的 in-person boundary distance 是 0.25 mi 還是 0.5 mi？"
+      },
+      "C": {
+        "gap": "把服務可及距離放寬到 1 mi，超過 Part 4 門檻。",
+        "followup": "M03 Part 4 是否允許 1 mi 內都算 in-person access，還是只到 400 m？"
+      },
+      "D": {
+        "gap": "忽略 Part 4 允許虛擬或鄰近 in-person 服務。",
+        "followup": "M03 Part 4 是否只接受 on-site services，還包含 project boundary 0.25 mi 內或 virtual？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q40",
+    "stem": "What natural elements have been linked with health-promoting benefits including decreased levels of depression and anxiety and increased psychological well being?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Water Features",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Plants and Daylight",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Natural Air Ventilation",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Nature Sounds",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "M02 Nature and Place, Issue for Part 1 Provide Connection to Nature states that natural elements such as plants and daylight are linked with decreased depression and anxiety, increased attentional capacity and increased psychological well-being.",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到水元素，漏掉題目所指 plants 與 daylight。",
+        "followup": "M02 Issue 明列的 natural elements 是 plants and daylight，還是只說 water features？"
+      },
+      "C": {
+        "gap": "把通風策略誤當成 Mind 自然元素效益。",
+        "followup": "Natural air ventilation 主要屬於 Air/ventilation 議題，M02 Issue 直接列出的元素是什麼？"
+      },
+      "D": {
+        "gap": "混淆自然聲音與更廣泛的 plants/daylight 健康效益。",
+        "followup": "M02 Part 1 可以用 sounds，但題目問 linked benefits 時，Issue 舉了哪兩個 natural elements？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q41",
+    "stem": "Company X is supporting and promoting occupant mental health. Which of the following should be available to employees at no cost?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mental well-being Trainings and Education.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "A policy that establishes healthy working hours.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Providing a napping room for new mothers.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Providing a party room.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being requires at least two supports be available to all employees and students at no cost, including trainings or courses related to mental health and well-being offered annually.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 healthy working hours policy 當成唯一 no-cost training item。",
+        "followup": "M01 Part 1 確實列 working-hours policy，但題目問 available at no cost 的 training/education 時是哪一項？"
+      },
+      "C": {
+        "gap": "混淆 restoration space 或 lactation support 與 M01 mental well-being training。",
+        "followup": "M01 Part 1 的 dedicated restoration space 是否等同於 napping room for new mothers？"
+      },
+      "D": {
+        "gap": "選了與 mental health promotion 無關的娛樂空間。",
+        "followup": "M01 Part 1 列出的 no-cost supports 是否包含 party room，還是 mental health education/training/programming？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q42",
+    "stem": "An IT company wants to create an outdoor restorative space to allow their employees to benefit from fresh air and a connection to nature. Because this will be the only restorative space for the project, how can weather affect accessibility?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "The space must be open during business hours.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "The space may be closed during times of inclement weather.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "The space must be open and functional year-round.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Geographic location determines open hours.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "M07 Restorative Spaces, Part 1 Provide Restorative Space notes that if restorative space is provided only outdoors, it must be functional year-round, so weather cannot make the only restorative space seasonally unusable.",
+    "diagnosis": {
+      "A": {
+        "gap": "只考慮營業時間開放，漏掉 year-round functional 條件。",
+        "followup": "M07 Part 1 對 only outdoor restorative space 的 note 是 business hours，還是 year-round functionality？"
+      },
+      "B": {
+        "gap": "誤以為惡劣天氣可關閉唯一 restorative space。",
+        "followup": "若室外空間是唯一 restorative space，M07 Part 1 note 是否允許 inclement weather 使其不可用？"
+      },
+      "D": {
+        "gap": "把地理位置當成開放規則來源，忽略條文明確要求。",
+        "followup": "M07 Part 1 的 accessibility 是由 geographic location 自訂，還是由 year-round functional note 控制？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q43",
+    "stem": "An office building that includes a customer service call center is trying to achieve WELL Certification. In order to receive credit for Part 2: Provide Nap Policy and Space of Feature M06: Restorative Opportunities, can the customer service call center schedule nap and/or rest breaks for a specific time per employee in order to ensure proper coverage in calls?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Individual companies within the building can determine company protocols.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Yes, companies are able to schedule employee time freely.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Employees can decide to accept specific nap or rest breaks.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "No, scheduling or designating specific times for the nap or rest break does not meet the feature requirement.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "M06 Restorative Opportunities, Part 2 Provide Nap Policy and Space, Option 1 Nap policy requires eligible employees to be allowed at least one nap or rest break of at least 30 minutes during the workday, not combined with meal breaks.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 WELL feature requirement 誤交給各公司自行決定。",
+        "followup": "M06 Part 2 是各 tenant 自訂 protocol，還是對 all eligible employees 有共同 minimum？"
+      },
+      "B": {
+        "gap": "誤以為雇主可完全自由排定休息，忽略 employee allowance。",
+        "followup": "M06 Part 2 的 wording 強調 employees are allowed，這是否等於公司可任意指定唯一時段？"
+      },
+      "C": {
+        "gap": "把員工接受指定時段誤當成 feature 合規核心。",
+        "followup": "M06 Part 2 要求的是至少 30-minute nap/rest break allowance，還是接受指定排班本身？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Full standard text confirms a 30-minute nap/rest break allowance but does not explicitly state that scheduling specific times fails the feature requirement."
+    }
+  },
+  {
+    "id": "M09_Q44",
+    "stem": "Workplace stress is incredibly common globally. Highly stressed employees are at risk for a number of negative outcomes, including decreased productivity, greater absenteeism and higher overall medical expenditures. Introducing mindfulness into the workplace has been shown to lower employee stress as well as improve focus, clarity of thinking and emotional intelligence. What interventions for employees have been found to reduce work-associated stress, depression and anxiety?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Meditation",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Yoga",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Healthy Eating",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Sound Therapy",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "M08 Restorative Programming, Part 1 Provide Restorative Programming is based on evidence that meditation interventions targeting workers reduce work-associated stress, depression and anxiety; compliant programming includes mindfulness training, weekly guided meditation/yoga or digital mindfulness offerings.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 yoga 視為唯一實證介入，未抓到題目所問 meditation。",
+        "followup": "M08 Solutions 說 meditation interventions 有效；yoga 在 Part 1 中是 mindfulness programming 的例子還是主述研究？"
+      },
+      "C": {
+        "gap": "把一般健康飲食誤放入 restorative programming。",
+        "followup": "M08 Part 1 的 programming 是 mindfulness/meditation/yoga，是否包含 healthy eating 作為核心介入？"
+      },
+      "D": {
+        "gap": "混淆聲音環境與 M08 的 mindfulness-based programming。",
+        "followup": "Sound strategy 比較屬於 M07 restorative space；M08 Solutions 說哪種 intervention 降低 stress/depression/anxiety？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q45",
+    "stem": "Which United Nations sustainable development goals are part of Feature M01: Mental Health Promotion?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "End Poverty and Life on Land",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Reduced Inequalities and Good Health and Well-being",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Climate Action and Reduced Inequalities",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Gender Equality and Quality Education",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being requires mental health supports and communications that advance health access and equity; the WELL feature metadata aligns this feature with Good Health and Well-being and Reduced Inequalities.",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆環境/貧窮目標與 M01 的 mental health equity 重點。",
+        "followup": "M01 Part 1 的 no-cost mental health resources 較直接對應健康與平等，還是 Life on Land？"
+      },
+      "C": {
+        "gap": "抓到 inequalities 但誤加入 climate action，偏離 M01 內容。",
+        "followup": "M01 Mental Health Promotion 的策略是 climate mitigation，還是 mental health access and equity？"
+      },
+      "D": {
+        "gap": "把教育/性別目標誤當成 M01 的主要 SDG 對應。",
+        "followup": "M01 Part 1 雖含 training，但 feature 的 SDG alignment 是否以 health 與 inequalities 為核心？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q46",
+    "stem": "Which Mind concept features are preconditions for WELL Certification?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mental Health Services and Mental Health Education",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Restorative Opportunities and Restorative Spaces",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Mental Health Promotion and Nature and Place",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Tobacco Cessation and Substance Use Services",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "The WELL Mind feature list marks M01 Mental Health Promotion and M02 Nature and Place as preconditions; M01 Part 1 requires mental health supports, while M02 Part 1 and Part 2 require connection to nature and place.",
+    "diagnosis": {
+      "A": {
+        "gap": "把服務與教育類 optimization 誤認成 certification preconditions。",
+        "followup": "M03/M04 在 Mind concept list 是 O 還是 P？哪兩個 feature 才列為 P？"
+      },
+      "B": {
+        "gap": "混淆 restorative opportunities/spaces 與必備 preconditions。",
+        "followup": "M06/M07 是取得 points 的 optimization，還是所有 WELL Certification 必做 precondition？"
+      },
+      "D": {
+        "gap": "把成癮與物質使用支援誤當成 Mind 的最低門檻。",
+        "followup": "M10/M11 在 feature list 是 optimization；precondition 欄列的是哪些 feature codes？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q47",
+    "stem": "A company in Baltimore is looking to design their new office building with Feature M09: Enhanced Access to Nature in mind. How will building occupants benefit from workday nature contact?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increased anxiety.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Decreased job stress.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Healthy eating increases.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "No change is reported from workday nature contact.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "M09 Enhanced Access to Nature, Part 2 Provide Nature Access Outdoors is supported by the Issue/Solutions text that as workday nature contact increases, perceived job stress, subjective health complaints and sickness absence decrease.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 nature contact 的效果反向理解成增加焦慮。",
+        "followup": "M09 Issue 說 outdoor green spaces 與 workday nature contact 對 anxiety/job stress 是增加還是降低？"
+      },
+      "C": {
+        "gap": "把 nature access 效益誤轉成 nutrition behavior。",
+        "followup": "M09 Part 2 強調 green/blue space access；它直接說明的是 eating，還是 job stress/health complaints？"
+      },
+      "D": {
+        "gap": "忽略 M09 Solutions 明確描述 dose-response health benefits。",
+        "followup": "M09 Solutions 是否說 workday nature contact 無變化，還是 perceived job stress 會下降？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q48",
+    "stem": "A manufacturing company in Boise is looking at ways to promote mental health and well-being for its employees. Part 1: Promote Mental Health and Well-being of Feature MO1: Mental Health Promotion requires annual communication to all regular occupants as well as new employees. What should be part of this communication?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "General health insurance benefit information.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Specific information about dental and vision insurance.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Mental health and well-being benefits offered by the organization.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "All third-party mental health resources.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being requires annual communication to all regular occupants and onboarding communication to new employees specifically addressing all mental health and well-being benefits, resources and programs available through the project or organization.",
+    "diagnosis": {
+      "A": {
+        "gap": "把一般保險資訊誤當成 M01 指定的 mental health communication。",
+        "followup": "M01 Part 1.b 要 annual communication 說明 general insurance，還是 mental health benefits/resources/programs？"
+      },
+      "B": {
+        "gap": "把牙科視力福利誤放入 mental health promotion 溝通要求。",
+        "followup": "M01 Part 1.b 的 scope 是否包含 dental/vision details，還是聚焦 mental health and well-being？"
+      },
+      "D": {
+        "gap": "把所有第三方資源誤當成必要內容，忽略組織可用福利。",
+        "followup": "M01 Part 1.b 要說明的是 all project/organization mental health benefits，是否限於第三方資源？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q49",
+    "stem": "There is evidence to support that buildings can support occupants by decreasing stress and mental fatigue with connection to nature strategies. In Feature M02: Nature and Place, what are the three pathways that can allow occupants to benefit from access to nature in their spaces?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Direct, indirect and representational.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Sunshine, plants and paintings.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Windows, fountains and textiles.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Textiles, sunshine and water.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M02 Nature and Place, Solutions for Part 1 Provide Connection to Nature explains that benefits of nature access can be achieved through direct, indirect or representational pathways, such as plants, window views or photographs.",
+    "diagnosis": {
+      "B": {
+        "gap": "列出元素例子但漏掉 WELL 定義的三種 pathways。",
+        "followup": "M02 Solutions 問的是 pathway taxonomy，sunshine/plants/paintings 是分類名稱還是例子？"
+      },
+      "C": {
+        "gap": "把具體設計元件誤當成 direct/indirect/representational 三分法。",
+        "followup": "Windows、fountains、textiles 可是策略元素；M02 Solutions 的三個 pathway 名稱是什麼？"
+      },
+      "D": {
+        "gap": "選了零散元素且缺少 indirect/representational 概念。",
+        "followup": "M02 Solutions 是否把 textiles/sunshine/water 列為三大 pathway，還是列 direct/indirect/representational？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q50",
+    "stem": "When focusing on human health, the built environment is a powerful tool that can help to mitigate adverse mental health outcomes. What steps should be looked at for these mitigation tools?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Through meetings, and stakeholder buy in.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Through policies, programs and designs.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Through features and the overall standard.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Through consistency and openness.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "The WELL Mind concept overview states that the built environment can mitigate adverse mental health outcomes through policies, programs and design; M01 Part 1 illustrates this with supportive programs, policies, resources and communications for mental health promotion.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 mitigation 工具誤縮成會議與利害關係人支持。",
+        "followup": "Mind overview 說 built environment 的 mitigation tools 是 meetings，還是 policies/programs/design？"
+      },
+      "C": {
+        "gap": "把 WELL 的章節結構誤當成實際介入工具。",
+        "followup": "Features and the overall standard 是分類架構；Mind overview 指出的介入類型是什麼？"
+      },
+      "D": {
+        "gap": "選了抽象態度詞，未連到標準明列三類工具。",
+        "followup": "Mind overview 是否用 consistency/openness 作為 mitigation steps，還是列 policy、program、design？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

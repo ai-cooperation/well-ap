@@ -1,0 +1,185 @@
+{
+  "module": "M09",
+  "name": "心理 Mind",
+  "features": [
+    {
+      "code": "M01",
+      "name": "Mental Health Promotion",
+      "type": "precondition",
+      "intent": "Promote mental health and well-being through the provision of supportive programs, policies and resources.",
+      "summary": "This WELL feature requires projects to provide programs, policies and resources that support and promote occupant mental health.",
+      "parts": [
+        {
+          "title": "Part 1 Promote Mental Health and Well-being",
+          "body": "For All Spaces: The following requirements are met:    a. At least two of the following are available to all employees and students at no cost:           1. Education or awareness efforts on mental health and well-being, offered quarterly, either in-person or              virtually (e.g., webcast on stress management, presentation on mindfulness, email on healthy sleep              habits).14,15           2. Trainings or courses related to mental health and well-being, offered annually, either in-person or virtually              (e.g., Mental Health First Aid, stress management training).14,15           3. Mindfulness or restorative programming, offered weekly, either in-person or virtually "
+        }
+      ]
+    },
+    {
+      "code": "M02",
+      "name": "Nature And Place",
+      "type": "precondition",
+      "intent": "Support occupant well-being by incorporating the natural environment throughout the project and integrating design that celebrates the project’s unique identity.",
+      "summary": "This WELL feature requires the integration of nature throughout the project, as well as design that celebrates the project’s unique identity and inspires human delight.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Connection to Nature",
+          "body": "For All Spaces: The project integrates the following throughout the space, including common circulation routes, shared seating areas and rooms (e.g., conference rooms, common spaces) and workstations (as applicable):    a. Natural materials, patterns, shapes, colors, images or sounds.9,15    b. At least one of the following:           1. Plants (e.g., potted plants, plant beds, plant walls).9,15           2. Water (e.g., fountain).9,15           3. Nature views (e.g., outdoor views, simulated views).9,15   WELL Core Guidance: Meet these requirements in non-leased spaces."
+        },
+        {
+          "title": "Part 2 Provide Connection to Place",
+          "body": "For All Spaces: The project integrates design elements that address the following:    a. Celebration of culture (e.g., culture of occupants, workplace, surrounding community).16    b. Celebration of place (e.g., local architecture, materials, flora, artists).16    c. Integration of art.16    d. Human delight.16   WELL Core Guidance: Meet these requirements in non-leased spaces. References    1. World Health Organization. Mental health: strengthening our response. WHO.       http://www.who.int/mediacentre/factsheets/fs220/en/. Published 2016. Accessed January 11, 2018.    2. Vigo D, Thornicroft G, Atun R. Estimating the true global burden of mental illness. The Lancet Psychiatry.       2016;3"
+        }
+      ]
+    },
+    {
+      "code": "M03",
+      "name": "Mental Health Services",
+      "type": "optimization",
+      "intent": "To increase awareness of mental health conditions, as well as offer supportive workplace services and accommodations for those living with such conditions.",
+      "summary": "This WELL feature requires projects to support occupant mental health through the provision of programs and resources.",
+      "parts": [
+        {
+          "title": "Part 1 Offer Mental Health Screening",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: A clinical screening or self-assessment screening tool for common mental health conditions is made available to all employees and students at no cost and meets the following requirements:    a. Addresses, at minimum, stress, depression, anxiety and substance use.    b. Provided confidentially, either in-person or virtually, through a licensed mental health professional, third party       organization, online screening or health insurance offering.    c. Includes directed feedback and/or guidance on interpretation of results and provides next steps for those who       screen positive or at-risk.6,15   WELL Core Guidance: Meet these "
+        },
+        {
+          "title": "Part 2 Offer Mental Health Services",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: The following requirements are met for all eligible employees:    a. Mental health services are available at no cost or subsidized and include the following at a minimum:           1. Clinical screening and referral to licensed mental health professionals and support resources.6           2. Inpatient treatment (e.g., residential programs, hospitalization).6           3. Outpatient treatment, including telemental health services (e.g., in-person therapy, online therapy).6,16           4. Prescription medication coverage that allows for proper use of prescribed medications.6    b. Organizational commitment to mental health parity in"
+        },
+        {
+          "title": "Part 3 Offer Workplace Support",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Supportive workplace accommodations are clearly described and available for all employees, without a need to disclose the underlying health reason, including the following:    a. Sick leave may be used for mental health needs (e.g., appointments).12,17,18    b. Short- or long-term leave or disability for mental health needs, with the option of phased return to work after       returning from leave.18,19    c. Increased interpersonal support (e.g., manager support with prioritizing and managing workloads, increased       frequency of one-on-one check-ins).12    d. Adjustment of work schedule to support mental health needs (e.g., app"
+        },
+        {
+          "title": "Part 4 β Support Mental Health Recovery",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Projects offer mental health services and resources to support recovery from a traumatic event to all employees at no cost or subsidized, on-site, in-person within 0.25 mi(400 m) of the project boundary or virtually, including at least three of the following:    a. Crisis counseling or trauma-focused psychotherapy with qualified mental health professionals.    b. Psychological first aid (PFA) training offered to all employees and/or required for manager-level employees.20    c. Bereavement counseling and materials on coping with grief, including resources for returning to work after a       loss.    d. Information on benefits cover"
+        }
+      ]
+    },
+    {
+      "code": "M04",
+      "name": "Mental Health Education",
+      "type": "optimization",
+      "intent": "Promote mental health awareness and education through the provision of mental health-focused training or education offerings.",
+      "summary": "This WELL feature requires projects to provide education and training to employees and managers to help them better understand how to manage their own mental health and support others.",
+      "parts": [
+        {
+          "title": "Part 1 Offer Mental Health Education",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Trainings (in the form of education seminars, workshops or classes) are offered at least twice per year to regular occupants and meet the following requirements:    a. Address at least two of the following topics:           1. Managing personal mental health and well-being, covering topics such as developing mentally healthy              habits and self-care practices, fostering relationships and social connections and managing mental health              at work.6           2. Common mental health conditions or concerns, covering, at minimum, depression, anxiety, substance use,              stress, and burnout, and loneliness and s"
+        },
+        {
+          "title": "Part 2 Offer Mental Health Education for Managers",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: All managers undergo annual mental health training (in the form of education seminars, workshops or classes) that meets the following requirements:    a. Addresses at least three of the following topics:           1. Identifying and reducing workplace stress–related issues (e.g., conducting performance reviews, effective              communication skills, personnel management, conflict resolution).7           2. Recognizing common mental health conditions or concerns, covering, at a minimum, depression, anxiety,              substance use, stress and burnout, and loneliness and social isolation.7           3. Supporting employee me"
+        }
+      ]
+    },
+    {
+      "code": "M05",
+      "name": "Stress Management",
+      "type": "optimization",
+      "intent": "Identify areas of stress within the workplace and create a plan for stress management.",
+      "summary": "This WELL feature requires projects to assess stress within the organization and create a plan for relieving or modifying sources of stress.",
+      "parts": [
+        {
+          "title": "Part 1 Develop Stress Management Plan",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: The project develops a stress management plan through completion of the following:    a. Assess at least three of the organization- or project-wide metrics below:           1. Frequency of employees working more than 48 hours per seven-day period.8           2. Frequency of absenteeism, use of sick days and personal days or leave due to disability or illness.           3. Frequency of employees not using allocated paid time off.           4. Frequency of performance issues.           5. Employee retention and turnover rates.           6. Employee survey responses.    b. Identify opportunities to address employee stress, covering the "
+        }
+      ]
+    },
+    {
+      "code": "M06",
+      "name": "Restorative Opportunities",
+      "type": "optimization",
+      "intent": "Support employee well-being by providing opportunities for recovery and restoration within and outside the workplace.",
+      "summary": "This WELL feature requires projects to support recovery and restoration from work and to encourage a healthy work- life balance by providing opportunities for sleep, breaks throughout the workday and sufficient paid time off.",
+      "parts": [
+        {
+          "title": "Part 1 Support Healthy Working Hours",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Working hours The following requirements are met for all employees:    a. A minimum of 11 consecutive hours off from work per 24-hour period.13,14    b. A minimum of 24 consecutive hours off from work per 7-day period.14    c. For employees who engage in shift work:           1. Work and communications are expected only for the duration of the employee's shift.13           2. Employees are provided a minimum 48-hour advance notice of shift changes.15    d. For employees who do not engage in shift work, work and communications are expected only during the       organization’s business hours in the local time zone.13,16 Opt"
+        },
+        {
+          "title": "Part 2 Provide Nap Policy and Space",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Nap policy The following requirement is met for all eligible employees:    a. Employees are allowed to engage in at least one nap or rest break of at least 30 minutes during the workday (not       to be combined with designated time for meal breaks).13,18 Option 2: Nap space The following requirements are met for all eligible employees:    a. Access to at least one acoustically and visually separated environment located in a designated quiet zone.    b. At least one fully reclining furniture option (e.g., bed, daybed, couch, chair, cushioned roll-out mat, nap pod) for       every 100 eligible employees.13,18   Note:   Pro"
+        }
+      ]
+    },
+    {
+      "code": "M07",
+      "name": "Restorative Spaces",
+      "type": "optimization",
+      "intent": "Support access to spaces that promote restoration and relief from mental fatigue or stress.",
+      "summary": "This WELL feature requires projects to provide spaces that promote a restorative environment and encourage relief from mental fatigue and stress.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Restorative Space",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Restorative space At least one designated restorative space is available to all regular occupants. The space may be indoor or outdoor and may be made up of a single space or multiple spaces that meet the following requirements:    a. Is designated for relaxation and restoration. Space may be multi-purpose but is not to be used for work.    b. Totals at least 75 ft²(7 m²) plus 1 ft²(0.1 m²) per regular occupant, up to a maximum of 2,000 ft²(186 m²).    c. Provides a restorative environment that considers at least five of the following:           1. Lighting (e.g., dimmable light levels for indoor spaces).           2. Sound "
+        }
+      ]
+    },
+    {
+      "code": "M08",
+      "name": "Restorative Programming",
+      "type": "optimization",
+      "intent": "Support access to programs that promote restoration and relief from mental fatigue or stress.",
+      "summary": "This WELL feature requires projects to develop ongoing programming for occupants that is focused on relaxation, restoration or mindfulness, such as meditation or mindful movement.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Restorative Programming",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: At least two of the following are offered to all eligible employees at no cost or subsidized by at least 50%:    a. Mindfulness training course (e.g., eight-week mindfulness-based stress reduction course (MBSR)) offered live,       either in-person or virtually, by a qualified mindfulness instructor at least twice a year, that meets the following:           1. Defines mindfulness and its component parts.           2. Covers relevant research on mindfulness.           3. Teaches both formal practices (e.g., mindfulness meditation, yoga postures) and informal practices (e.g.,              mindful eating, mindful listening) that can b"
+        }
+      ]
+    },
+    {
+      "code": "M09",
+      "name": "Enhanced Access To Nature",
+      "type": "optimization",
+      "intent": "Support access to nature beyond M02: Access to Nature and Beauty, by further incorporating nature through interior design, exterior design and access to nearby nature.",
+      "summary": "This WELL feature requires the integration of nature and natural elements into the interior and exterior of the project, as well as the provision of nature views and nearby nature, such as green and blue spaces.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Nature Access Indoors",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: The project provides a combination of indoor plants (e.g., potted plants, plant beds, plant walls), water feature(s) and/or view(s) comprising of natural areas, such as green spaces (e.g., park, forest) or blue spaces (e.g., ocean, lake) that meet a combination of the following requirements:    a. Within direct line of sight of at least 75% of all workstations and seats within conference rooms, lecture halls or       classrooms.    b. Within 33 ft(10 m) of all workstations and seats within conference rooms, lecture halls or classrooms.   Note: Water features that may produce water aerosols (e.g., decorative fountains) cannot be insta"
+        },
+        {
+          "title": "Part 2 Provide Nature Access Outdoors",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Outdoor nature One of the following requirements is met:    a. Outdoor nature access facilitated by the conditions below:           1. Outdoor space of an area of at least 5% of the project interior area must be accessible to all regular              occupants.           2. At least 70% of the accessible outdoor space as viewed from above must include plants or natural elements,              including tree canopies.    b. Nearby nature access facilitated by the conditions below:           1. At least one green space or blue space is within a 650 ft(200 m) walk distance from the project boundary              and available to"
+        }
+      ]
+    },
+    {
+      "code": "M10",
+      "name": "Tobacco Cessation",
+      "type": "optimization",
+      "intent": "Reduce the use of tobacco through interventions that support tobacco cessation and prevent the sale and advertisement of tobacco products.",
+      "summary": "This WELL feature requires projects that sell retail goods to restrict sale and marketing of tobacco products and supports employee access to tobacco cessation support programs.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Tobacco Cessation Resources",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Incentive program The project implements a tobacco cessation program for all eligible employees that meets the following requirements:    a. Focused on increasing or improving motivation or action to quit, or maintaining quit effort.8,11    b. Includes incentives or rewards (e.g., direct financial payments, lottery for prizes) provided for participation in quit       effort or success in abstaining from tobacco use.8,11 Option 2: Individual cessation resources Tobacco cessation resources are available to all eligible employees at no cost or are subsidized and meet the following requirements:    a. Resources referring tobacc"
+        },
+        {
+          "title": "Part 2 Limit Tobacco Availability",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For Retail Spaces: The following requirements are met for projects where retail products are sold on a daily basis within the building site:    a. Sale of tobacco products (including e-cigarettes) is prohibited within the building site.11    b. Tobacco products (including e-cigarettes) are not marketed or promoted.12   WELL Core Guidance: Meet these requirements in the whole building. References    1. World Health Organization. Mental health: strengthening our response. WHO.       http://www.who.int/mediacentre/factsheets/fs220/en/. Published 2016. Accessed January 11, 2018.    2. Vigo D, Thornicroft G, Atun R. Estimating the true global burden of m"
+        }
+      ]
+    },
+    {
+      "code": "M11",
+      "name": "Substance Use Services",
+      "type": "optimization",
+      "intent": "Increase availability and access to substance abuse and addiction support services, resources and care and prevent the development of substance abuse and addiction among occupants.",
+      "summary": "This WELL feature requires projects to outline policies regarding drug and alcohol use in the workplace, provide education on substance use and addiction and support access to substance use services.",
+      "parts": [
+        {
+          "title": "Part 1 Offer Substance Use Education",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Substance use policy The following requirement is met:    a. A policy is in place regarding the use of alcohol and legal, recreational drugs on-site and is clearly       communicated to all regular occupants.7 Option 2: Substance use education Trainings (in the form of education seminars, workshops or classes) are offered at least once per year to regular occupants and meet the following requirements:    a. Address the following topics:           1. Management of personal substance use, covering, at minimum, safe substance use habits, signs of              dependency or addiction and short- and long-term health risks asso"
+        },
+        {
+          "title": "Part 2 Provide Substance Use and Addiction Services",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: The following requirements are met for all eligible employees:    a. Substance use and addiction services are available at no cost or subsidized and include at a minimum:           1. Clinical screening and referral to licensed mental health professionals and support resources. 7           2. Counseling services, including telemental health services (e.g., online behavioral therapy).7           3. Outpatient treatment (e.g., day programs).7           4. Inpatient treatment (e.g., residential programs, hospitalization).7           5. Medication-assisted treatment (e.g., methadone treatment).7    b. Organizational commitment to menta"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M03_Q26",
+    "stem": "Beverly, the wellness program manager for an office building wants to include Nutrition Education as part of their wellness programming. In order to fulfill the requirement of N07: Nutrition Education, what is an acceptable nutrition education opportunity?",
+    "framework": "M03_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gardening or planting workshops focused on edible plants that integrate hands-on learning opportunities.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Tours of local grocery stores with emphasis on healthy eating.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Organize a health-focused dinner club with regular occupants.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Bring in plant-based food trucks once a month for regular occupants.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "N07 Nutrition Education, Part 1 Provide Nutrition Education 要求至少一種 nutrition education opportunity 免費、每季至少一次提供給 regular occupants；其中明列 edible plants 的 gardening or planting workshops，且需整合 hands-on learning opportunities。",
+    "diagnosis": {
+      "B": {
+        "gap": "把健康食物可近性活動誤認為正式 nutrition education。",
+        "followup": "N07 Part 1 列出的教育機會是否包含 grocery store tours，還是要求由特定教學形式或專業人員提供？"
+      },
+      "C": {
+        "gap": "混淆 communal dining 與具學習目標的 food literacy 教育。",
+        "followup": "如果是 dinner club，它是否滿足 N07 對 cooking skills、nutrition sessions 或 hands-on learning 的明確要求？"
+      },
+      "D": {
+        "gap": "把提供食物選項誤當成 nutrition education programming。",
+        "followup": "N07 Part 1 關注的是教育活動；plant-based food trucks 有提供每季免費的教學內容嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q27",
+    "stem": "Feature N08: Mindful Eating dictates that spaces must have a dedicated eating space and that eligible employees must be provided with daily meal breaks. What verification method is required to submit the documentation for the dedicated eating space to IWBI?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interior Design Drawing",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "On-Site Photographs",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Technical Document",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Policy and/or Operations Schedule",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "N08 Mindful Eating, Part 1 Support Mindful Eating 的 dedicated eating space 需位於 project boundary 650 ft(200 m) walk distance 內，並滿足座位、環境保護與 seating types；提供的 WELL v2 標準文字可核對空間要求，但未列出 IWBI 文件提交的 verification method。",
+    "diagnosis": {
+      "A": {
+        "gap": "把空間設計圖面誤認為此題指定的提交方法。",
+        "followup": "N08 dedicated eating space 要證明 650 ft 與 seating capacity 時，題目詢問的是設計圖還是 IWBI 文件類型？"
+      },
+      "B": {
+        "gap": "把現場照片當成足以取代正式文件提交。",
+        "followup": "照片能顯示 tables and chairs，但是否能完整證明 25% peak occupancy 與 walk distance？"
+      },
+      "D": {
+        "gap": "混淆 daily meal breaks 的營運政策與 eating space 文件。",
+        "followup": "N08 Part 1 同時有 dedicated eating space 與 daily meal breaks；哪一項才需要 policy 或 schedule？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Provided WELL v2 text verifies N08 spatial requirements but does not specify IWBI verification method; cannot confirm C from the standard excerpt."
+    }
+  },
+  {
+    "id": "M03_Q28",
+    "stem": "An office building in Vancouver wants to provide a dedicated eating space outside of the cafeteria. In order for this space to fit the requirements for Feature N08: Mindful Eating, what must the dedicated eating space provide?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "A silverware and condiment station.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Seating for 25% of the regular occupants of the building.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Protection from environmental elements (direct sunlight, rain, wind).",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "A water and coffee station.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "N08 Mindful Eating, Part 1 Support Mindful Eating 要求 dedicated eating space 提供 protection from environmental elements，例如 direct sunlight、rain、wind，或位於 climate-controlled space；同一 Part 也要求 650 ft(200 m) walk distance 與 seating capacity。",
+    "diagnosis": {
+      "A": {
+        "gap": "把用餐便利配備誤當成 N08 的空間性能要求。",
+        "followup": "N08 dedicated eating space 的條文列出 tables、chairs、環境保護與 seating types；是否提到 condiment station？"
+      },
+      "B": {
+        "gap": "記得 25% 座位門檻，但忽略題目問必備空間條件。",
+        "followup": "25% peak occupancy 確實是 N08 要求之一；本題哪個選項直接對應 environmental elements？"
+      },
+      "D": {
+        "gap": "把茶水服務誤認為 mindful eating 的必要設施。",
+        "followup": "N08 Part 1 的 dedicated eating space 是否要求 water and coffee，或是要求能避免日曬雨風？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q29",
+    "stem": "The World Allergy Organization reports that the prevalence of food allergies is ____________ in countries around the world.",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increasing",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Decreasing",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Plateauing",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Highly variable",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "N09 Special Diets 的 Issue 明確指出 World Allergy Organization reports that the prevalence of food allergies is increasing in countries around the world；這支撐 Part 1 Accommodate Special Diets 與 Part 2 Label Food Allergens 的需求。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 food allergy 的全球趨勢方向完全判反。",
+        "followup": "N09 Issue 為何要強調 special diets 與 allergen labeling？如果盛行率下降，這個風險論述會成立嗎？"
+      },
+      "C": {
+        "gap": "誤以為 food allergy 盛行率已進入穩定平台期。",
+        "followup": "回到 N09 Issue 的用語，它描述 prevalence 是 plateauing，還是用 increasing 來建立需求？"
+      },
+      "D": {
+        "gap": "把地區差異當成標準引用的主要趨勢。",
+        "followup": "即使各國差異存在，N09 引用 World Allergy Organization 時強調的是哪個整體變化方向？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q30",
+    "stem": "In order to accommodate special diets, main dish options must be available that meet which of the following criteria?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Peanut-free",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Gluten-free",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Dairy-Free",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "All of the above.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N09 Special Diets, Part 1 Accommodate Special Diets 要求 meals sold or provided 包含 main dish options，且需涵蓋不含 peanut、gluten、dairy、egg、animal/seafood/dairy products 等多種 criteria；單一條件不足以完整滿足 Part 1。",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到 peanut-free，忽略 N09 要求多類特殊飲食。",
+        "followup": "N09 Part 1 的 main dish options 除了不含 peanut，還列出 gluten、dairy 與哪些其他限制？"
+      },
+      "B": {
+        "gap": "只記得 gluten-free，沒有涵蓋完整 special diets 清單。",
+        "followup": "如果只提供 gluten-free 主菜，能否同時滿足 N09 對 dairy、egg 與 animal products 的 criteria？"
+      },
+      "C": {
+        "gap": "把 dairy-free 當作唯一需要 accommodation 的飲食限制。",
+        "followup": "N09 Part 1 為何用 meet each criteria，而不是只要求一種 dairy-free main dish？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q31",
+    "stem": "Feature N09: Special Diets lays out the requirements for the labeling of food allergens. What common allergens must be labeled on packaged food?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hazelnuts, beef, pork, cheese and black beans.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Peanuts, fish, shellfish, soy, milk, wheat, egg, tree nuts and gluten.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Redskin peanuts, scallops, oats, garlic and onions.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "None of the above.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "N09 Special Diets, Part 2 Label Food Allergens 要求 foods and beverages 在 point-of-decision 標示是否含 peanut、fish、shellfish、soy、milk、egg、wheat、tree nuts 與 gluten 等 common food allergens。",
+    "diagnosis": {
+      "A": {
+        "gap": "把部分食物類別與肉類誤認為 common allergen 清單。",
+        "followup": "N09 Part 2 的 allergen list 是否包含 beef、pork 或 black beans，還是聚焦 peanut、shellfish、milk 等？"
+      },
+      "C": {
+        "gap": "混入過度具體或未列名食材，偏離標準 allergen list。",
+        "followup": "N09 Part 2 要標的是 broad common allergens；scallops、garlic、onions 是否在條文明列？"
+      },
+      "D": {
+        "gap": "忽略 N09 明確列出需標示的 common food allergens。",
+        "followup": "若標準已列 peanut、fish、shellfish、soy、milk 等，為何不能選擇 none of the above？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q32",
+    "stem": "Feature N10: Food Preparation requires a food preparation area, storage area and amenities like cold storage and microwaves. What space types are required to have these features?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "All Spaces except Dwelling Units and Commercial Kitchen Spaces",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Dwelling Units",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Commercial Kitchen Spaces",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "All of the above.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N10 Food Preparation, Part 1 Provide Meal Support 分別列出 All Spaces except Dwelling Units & Commercial Kitchen Spaces、Dwelling Units 與 Commercial Kitchen Spaces 的要求；各類空間的 amenities 不同，但都在同一 Part 內被涵蓋。",
+    "diagnosis": {
+      "A": {
+        "gap": "只看到一般空間條文，漏掉 dwelling units 與 kitchen spaces。",
+        "followup": "N10 Part 1 在一般空間後，是否還有獨立列出 dwelling units 與 commercial kitchen spaces 的要求？"
+      },
+      "B": {
+        "gap": "把住宅單元要求誤當成 N10 的全部適用範圍。",
+        "followup": "Dwelling units 需要 stove 和 refrigerator，但 N10 是否也要求一般工作空間提供 reheating 與 storage？"
+      },
+      "C": {
+        "gap": "把商業廚房條文視為唯一必須符合的空間類型。",
+        "followup": "N10 Part 1 對 primary and secondary schools 的 commercial kitchen 要求之外，還列出哪些空間類型？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q33",
+    "stem": "The WELL Building Standard™ (WELL™) recognizes that responsible sourcing practices and policies can help to promote sustainable, ethical and socially responsible food purchase and promote animal welfare. To implement responsible sourcing for Feature N11: Responsible Food Sourcing, what two items are required?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustainable sourcing and sustainable labeling",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Sustainable sourcing and allergen labeling",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Organic sourcing and kosher certification",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "NON GMO Project verified and organic sourcing",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "N11 Responsible Food Sourcing, Part 1 Implement Responsible Sourcing 提供兩個路徑：Option 1 Sustainable sourcing 與 Option 2 Sustainable labeling；sourcing 包含 certified organic produce 與 certified animal products，labeling 則在 point-of-decision 推廣 certified organic、sustainable 或 local sources。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 N09/N02 的 allergen labeling 混入 N11 sourcing。",
+        "followup": "N11 Part 1 的第二個 option 是 sustainable labeling，還是 food allergen labeling？兩者服務的風險是否不同？"
+      },
+      "C": {
+        "gap": "誤把 kosher certification 當成 responsible sourcing 要件。",
+        "followup": "N11 要求 animal product line 可用哪些 certified organic、Certified Humane 或 seafood certification？有列 kosher 嗎？"
+      },
+      "D": {
+        "gap": "把 non-GMO 與 organic 當成 N11 唯一採購框架。",
+        "followup": "N11 的 sustainable sourcing 是否只看 NON GMO，還是同時設定 produce 與 animal product line 百分比？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q34",
+    "stem": "Providing gardening space to regular occupants of buildings and dwelling units can encourage consumption of fruits and vegetables and advance toward what other goal?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower the need for purchasing outside food.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Encourage connection to the broader community.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Have occupants collaborate on common activity.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Increase physical activity.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "N12 Food Production 的 Solutions 說明 gardening 除了提升 fruit and vegetable consumption，也可 fortify social cohesion and community involvement；Part 1 Provide Gardening Space 則要求永久、可及的 food production space。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 gardening space 的目的縮小成替代外購食物。",
+        "followup": "N12 Solutions 強調 gardens 的社會效益；它主要是在降低採購需求，還是促進 community involvement？"
+      },
+      "C": {
+        "gap": "抓到協作活動，但未連到 broader community 的目標。",
+        "followup": "共同種植可以是手段；N12 對 community gardening 更大的 social benefit 是什麼？"
+      },
+      "D": {
+        "gap": "只看到 physical activity，忽略題目問的 broader goal。",
+        "followup": "N12 確實提到 physical activity；但在 fruits and vegetables 之外，哪個目標更貼近 community connection？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q35",
+    "stem": "Ensuring local food access can have a profound impact on the building occupants' health and well-being. Feature N13: Local Food Environment gives us 3 options for providing local food access. Which of these fulfills the requirement of this feature?",
+    "framework": "M03_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "A seasonal farmer's market that operates weekly at certain times every year.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Discounted transportation to nearby green grocers.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "A supermarket or store with fresh fruits and vegetables located with 0.25 mi walk distance.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "A farmer's market located within 0.10 mi walk distance.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "N13 Local Food Environment, Part 1 Ensure Local Food Access 的 Option 1 Supportive environment 要求 project 位於 supermarket or store with a fresh fruit and vegetable section 的 0.25 mi(400 m) walk distance 內，或符合指定 farmers' market 條件。",
+    "diagnosis": {
+      "A": {
+        "gap": "少了 N13 對 farmers' market 距離與營運月數的條件。",
+        "followup": "N13 Option 1 對 farmers' market 是否只說 seasonal weekly，還要求 0.25 mi 與至少四個月？"
+      },
+      "B": {
+        "gap": "把 discounted transportation 誤當成 no-cost transportation。",
+        "followup": "N13 Option 3 Supportive transportation 要求交通是 discounted，還是 no-cost between project and fresh food venues？"
+      },
+      "D": {
+        "gap": "距離看似更近，但缺少每週與四個月營運條件。",
+        "followup": "N13 對 farmers' market 不只看 walk distance；它還要求 open at least once a week 多久？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q36",
+    "stem": "According to the World Health Organization, processed meat has been classified as carcinogenic and red meat is classified as probably carcinogenic. Providing plant-based meat alternatives can decrease the overall consumption of red and processed meats globally. What is the requirement for food that is sold or provided on a daily basis for Feature N14: Red and Processed Meats?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least one plant-based options is available at each food outlet.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "A single serving of red meat is no more than 6 oz.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Meat-alternatives are placed at the beginnign of the self-serve food lines.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Meat-alternatives are listed prominently on the menu.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "N14 Red and Processed Meats, Part 1 Limit Red and Processed Meats 要求若 commercial dining spaces 每日銷售或提供食物，each food outlet 至少有 one plant-based option；同 Part 也把 red meat serving 限為 no more than 4 oz(115 g) cooked weight。",
+    "diagnosis": {
+      "B": {
+        "gap": "記得 red meat portion limit，但數值誤用為 6 oz。",
+        "followup": "N14 Part 1 對 red meat 的 single portion 是 6 oz，還是 4 oz(115 g) cooked weight？"
+      },
+      "C": {
+        "gap": "把應降低 prominence 的對象誤套到 meat alternatives。",
+        "followup": "N14 要放在 self-serve line 結尾的是 plant-based alternatives，還是 red and processed meats？"
+      },
+      "D": {
+        "gap": "把 menu prominence 策略方向顛倒為強調替代肉。",
+        "followup": "N14 Part 1 要求 listed last 的是哪些 meat products？plant-based option 的要求是否是每 outlet 至少一項？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q37",
+    "stem": "Providing Gardening Space is an important aspect of providing opportunities for on-site food production. For dwelling units, what size gardening space is the project required per dwelling unit?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "8 ft2",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "10 ft2",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "12 ft2",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "15 ft2",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N12 Food Production, Part 1 Provide Gardening Space 對 Dwelling Units 要求 food production space 至少 15 ft2(1.4 m2) per dwelling unit，且總面積上限 1,500 ft2、下限 200 ft2，計算的是實際 growing area。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 dwelling units 的 per-unit growing area 門檻。",
+        "followup": "N12 Part 1 對 dwelling units 的數值是否比一般 occupant 1 ft2 更高？明列是多少 ft2？"
+      },
+      "B": {
+        "gap": "把 gardening space 面積記成接近但未達標的數值。",
+        "followup": "若每戶只提供 10 ft2，是否達到 N12 對 dwelling units 的 15 ft2 per dwelling unit？"
+      },
+      "C": {
+        "gap": "接近正確面積，但仍低於 N12 明定門檻。",
+        "followup": "N12 的 dwelling unit 計算是 12 ft2 還是 15 ft2，且是否有 200 ft2 最小總面積？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q38",
+    "stem": "What is the intent of Feature N13: Local Food Environment?",
+    "framework": "M03_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "To increase access to fresh, local and seasonal fruits and vegetables by reducing environmental barriers.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "To increase access to locally sourced meat and dairy.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "To increase access to local farmers and food producers.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "To increase access to locally produced food, regardless of ingredient origin.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "N13 Local Food Environment 的 Intent 是 increase access to fresh, local and seasonal fruits and vegetables by reducing environmental barriers；Part 1 Ensure Local Food Access 透過 supportive environment、programming 或 transportation 實作此意圖。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 N13 的蔬果可近性誤解為 meat and dairy sourcing。",
+        "followup": "N13 Intent 中明確說的是 fruits and vegetables，還是 locally sourced meat and dairy？"
+      },
+      "C": {
+        "gap": "只抓到 local producers，漏掉 fresh seasonal fruits and vegetables。",
+        "followup": "N13 的重點是接觸農民本身，還是減少取得 fresh local seasonal produce 的環境障礙？"
+      },
+      "D": {
+        "gap": "忽略 N13 對 fresh、seasonal 與蔬果類別的限定。",
+        "followup": "如果 locally produced food 不限成分來源，是否符合 N13 對 fruits and vegetables 的 intent？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q39",
+    "stem": "An apartment building is looking to ensure that the kitchen it provides in the individual units fits the requirements of Feature N10: Food Preparation. What is an example of an amenity that the project needs to provide occupants in the kitchen?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Toaster Oven and microwave.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Stove with hood vented directly to the outdoors.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Water tap fitted with a reverse osmosis system.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Chest freezer.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "N10 Food Preparation, Part 1 Provide Meal Support 對 Dwelling Units 要求 countertop surface、sink、refrigerator、cabinets，以及 stove with hood vented directly to the outdoors；toaster oven 或 microwave 屬於一般非住宅空間的 reheating device 示例。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆一般 dedicated eating area 與 dwelling unit 廚房要求。",
+        "followup": "N10 Part 1 在一般空間列出 reheating device；dwelling units 的清單是否改列 stove with outdoor-vented hood？"
+      },
+      "C": {
+        "gap": "把飲用水處理設備誤認為 N10 food preparation amenity。",
+        "followup": "N10 dwelling unit kitchen 要求的是 sink、refrigerator、cabinets 與 stove；reverse osmosis 是否在清單中？"
+      },
+      "D": {
+        "gap": "把額外冷凍設備當成標準要求的 refrigerator。",
+        "followup": "N10 對 dwelling units 明列 refrigerator，但是否要求 chest freezer 這種額外設備？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q40",
+    "stem": "Which feature is a precondition in the Nourishment Concept?",
+    "framework": "M03_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature N03: Refined Ingredients",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature N09: Special Diets",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature N02: Nutritional Transparency",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Feature N04: Food Advertising",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "Nourishment concept table lists N02 Nutritional Transparency as a PRECONDITION, along with N01 Fruits and Vegetables；N03 Refined Ingredients、N04 Food Advertising 與 N09 Special Diets are OPTIMIZATION features。",
+    "diagnosis": {
+      "A": {
+        "gap": "把常考的 refined ingredients 誤記成 precondition。",
+        "followup": "在 Nourishment feature table 中，N03 的狀態是 PRECONDITION，還是 WELL Certification 2 Pt 的 optimization？"
+      },
+      "B": {
+        "gap": "把 Special Diets 的重要性誤等同於 precondition 等級。",
+        "followup": "N09 Special Diets 雖與包容性相關，但在 Nourishment table 中標示的是哪一種 feature type？"
+      },
+      "D": {
+        "gap": "把 Food Advertising 誤認為必要前置條件。",
+        "followup": "N04 Food Advertising 在 Nourishment table 是 optimization；兩個 preconditions 分別是哪兩個 Feature？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q41",
+    "stem": "In Part 1: Provide Nutrition Education of Feature N07: Nutrition Education, to achieve 1 Pt, what is the session requirement if choosing the option of nutrition or dietary education sessions?",
+    "framework": "M03_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sessions are led by a local plant-based chef.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Sessions are sponsored by a local Farmer's Market.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Sessions are provided bi-annually.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Sessions are led by an accredited dietician or nutritionist.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N07 Nutrition Education, Part 1 Provide Nutrition Education 要求 nutrition or dietary education sessions 由 accredited dietitian 或 accredited nutritionist 帶領，並且至少每季、免費提供給 regular occupants；bi-annually 不符合 minimum quarterly basis。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 chef-led cooking demonstrations 與 nutrition education sessions。",
+        "followup": "N07 中 chef-instructors 對應的是 cooking demonstrations；nutrition sessions 需要哪種 accredited professional？"
+      },
+      "B": {
+        "gap": "把贊助來源誤當成教育 session 的人員資格。",
+        "followup": "N07 Part 1 對 nutrition or dietary education sessions 要求 sponsor，還是要求 accredited dietitian/nutritionist？"
+      },
+      "C": {
+        "gap": "注意到頻率，但把 quarterly minimum 誤記成 bi-annually。",
+        "followup": "N07 Part 1 要求至少 quarterly；一年兩次的 bi-annually 是否達到 minimum frequency？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q42",
+    "stem": "What two options are available for Feature N05: Artificial Ingredients?",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Artificial ingredient phase out or artificial ingredient restriction.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Artificial ingredient phase out or artificial ingredient labeling.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Artificial ingredient labeling or artificial ingredient restriction.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Artificial ingredient restriction or artificial ingredient education.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "N05 Artificial Ingredients, Part 1 Limit Artificial Ingredients 提供兩個合規路徑：Option 1 Artificial ingredient phase out，最多三年內淘汰並標示 listed artificial ingredients；或 Option 2 Artificial ingredient restriction，要求每日供應的 foods and beverages 不含清單中的人工成分。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 phase out 內含的 labeling 誤當成獨立 option。",
+        "followup": "N05 Part 1 的 Option 1 是否包含 labeling requirement？它本身是否命名為 artificial ingredient labeling？"
+      },
+      "C": {
+        "gap": "漏掉 phase out，將 labeling 提升為主要合規路徑。",
+        "followup": "N05 明列的兩個 option 名稱是什麼？labeling 是哪個 option 的附帶要求？"
+      },
+      "D": {
+        "gap": "把 education 加進 N05，但標準沒有此 option。",
+        "followup": "N05 是限制人工成分的採購與供應要求；條文中是否有 artificial ingredient education option？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q43",
+    "stem": "In Feature N03: Refined Ingredients, whole grains must be present in _____ of sold and provided foods:",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "at least 25% of grain-based foods.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "at least 50% of grain-based foods.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "100% of breads.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "at least 35% of the granola bars.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "N03 Refined Ingredients, Part 2 Promote Whole Grains 要求至少 50% of grain-based foods 中 whole grain 是 first ingredient；grain-based foods 指 grain flour 為第一成分或含 ≥30% grain ingredients 的食品。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 whole grain 門檻低估為 25%。",
+        "followup": "N03 Part 2 的 50% calculation 是針對 grain-based foods；你是否把它和無糖飲料 25% 混淆？"
+      },
+      "C": {
+        "gap": "把標準誤解為只管 bread 且要求 100%。",
+        "followup": "N03 Part 2 是要求所有 breads，還是所有 grain-based foods 中至少半數以 whole grain 為第一成分？"
+      },
+      "D": {
+        "gap": "把任意食品類別 granola bars 誤當成計算基準。",
+        "followup": "N03 的 calculation 是按 grain-based foods 計算；granola bars 是否是條文明列的獨立百分比？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q44",
+    "stem": "Reducing sugar content in foods and beverages is a central theme in the Nourishment concept. Standard menu items may not contain more than _______g of sugar per serving.",
+    "framework": "M03_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "10g",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "18g",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "25g",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "32g",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "N02 Nutritional Transparency, Part 3 Label Sugar Content 針對 Commercial Dining Spaces 要求 standard menu items 不超過 25 g sugar per serving，或在 point-of-decision 標示/提示超過 25 g 的項目；N03 Part 1 也對每日供應的食品飲料使用 25 g sugar 門檻。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 sugar threshold 記得過低，未對應 WELL 條文。",
+        "followup": "N02 Part 3 與 N03 Part 1 都使用哪個 sugar grams per serving/container 門檻？"
+      },
+      "B": {
+        "gap": "選了接近健康建議但非 WELL 明定數值。",
+        "followup": "題目問 standard menu items 的 WELL threshold；條文是 18 g 還是 25 g per serving？"
+      },
+      "D": {
+        "gap": "高估允許糖量，超出 WELL 的 25 g 控制線。",
+        "followup": "若 standard menu item 有 32 g sugar，N02 Part 3 是否要求標示或用 icon 另外提示？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q45",
+    "stem": "For projects with commercial dining spaces, at least 50% of available food options are fruits and __________",
+    "framework": "M03_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Starches",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Non-fried chicken",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Plant-based meat alternative",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Non-fried vegetables",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N01 Fruits and Vegetables, Part 1 Provide Fruits and Vegetables 對 Commercial Dining Spaces 要求至少四種 fruits 與四種 non-fried vegetables，或至少 50% of available food options are fruits containing no added sugar and/or non-fried vegetables。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 general starches 誤認為 N01 的 healthy food category。",
+        "followup": "N01 Part 1 的 50% food options 是 fruits and/or 哪一類 vegetables？starches 是否被列入？"
+      },
+      "B": {
+        "gap": "將 non-fried 的修飾語套到 chicken 而非 vegetables。",
+        "followup": "N01 強調 fruits and non-fried vegetables；non-fried chicken 是否屬於 Part 1 的計算類別？"
+      },
+      "C": {
+        "gap": "混淆 N01 蔬果供應與 N14 plant-based options。",
+        "followup": "Plant-based meat alternatives 是 N14 的重點；N01 Part 1 的 commercial dining 50% 門檻要算什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q46",
+    "stem": "An insurance company in Flagstaff is planning on providing daily food for their staff. The building will have an eating area on-site, but all food will be prepared off-site. Are the WELL Nourishment requirements applicable here?",
+    "framework": "M03_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, this concept is required regardless of where food is prepared.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Yes, but only Feature N10: Food Production is applicable.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "No, this concept does not have any requirements for outside food or food vendors.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "No, this concept only applies for food produced on-site.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 Foods and Beverages scope states that projects selling or providing food daily by, or under contract with, the project owner, including catering, are within Nourishment precondition scope; N01 Fruits and Vegetables, Part 1 also applies when foods are sold or provided on a daily basis by the owner or contracted vendor.",
+    "diagnosis": {
+      "B": {
+        "gap": "誤稱 N10 為 Food Production，且把適用性限縮到單一 feature。",
+        "followup": "Daily catered food 是否會觸發 N01/N02 等 Nourishment preconditions，而不只是某一個 food preparation feature？"
+      },
+      "C": {
+        "gap": "忽略 contracted vendors 與 catering 也屬於 owner-provided food。",
+        "followup": "WELL Foods and Beverages scope 是否明說 under contract with project owner, including catering？"
+      },
+      "D": {
+        "gap": "把 on-site preparation 誤當成整個 Nourishment concept 的前提。",
+        "followup": "哪些 dining-space features 需要 on-site preparation？Nourishment preconditions 是否也涵蓋 off-site catering？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q47",
+    "stem": "What is the intent of Feature N11: Responsible Food Sourcing?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "To ensure that only organic and non-gmo fruits and vegetables are provided to buidling occupants.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "To reduce dietary exposure to pesticides, hormones and antibiotics, limit environmental degradation and promote humane livestock practices.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "To promote healthier eating choices at work.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "To highlight the problems in the industrial food system and look for ways to purchase more locally sustainable foods.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "N11 Responsible Food Sourcing 的 Intent 是 reduce dietary exposure to pesticides, hormones and antibiotics, limit environmental degradation and promote humane livestock practices；Part 1 Implement Responsible Sourcing 再以 certified organic、Certified Humane 與 sustainable labeling 實作。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 N11 過度縮小為 organic/non-GMO produce 規則。",
+        "followup": "N11 Intent 除了 produce sourcing，是否也涵蓋 hormones、antibiotics、animal welfare 與 environmental degradation？"
+      },
+      "C": {
+        "gap": "描述太泛，混同整體 Nourishment 目標而非 N11 intent。",
+        "followup": "Promote healthier choices 可以描述多個 Nourishment features；N11 特別鎖定哪些農業與畜牧風險？"
+      },
+      "D": {
+        "gap": "抓到 sustainability，但漏掉 pesticide、hormone 與 humane practices。",
+        "followup": "N11 是否只是 locally sustainable purchasing，還明確要求降低 dietary exposure 與促進 livestock welfare？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q48",
+    "stem": "A library in Seattle will be providing one dedicated eating area. In order to fulfill the requirements of Feature N10: Food Production, the dedicated eating area must be provided within what distance of the project boundary?",
+    "framework": "M03_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "150 ft walk distance.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "375 ft walk distance.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "650 ft walk distance.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "725 ft walk distance.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "N10 Food Preparation, Part 1 Provide Meal Support 要求 supportive amenities 至少設於一個 dedicated eating area，且該 eating area 位於 project boundary 650 ft(200 m) walk distance 內；題幹中的 Feature title 與標準名稱不一致。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 650 ft walk distance 門檻大幅低估。",
+        "followup": "N10 Part 1 的 dedicated eating area 距離是 150 ft，還是 650 ft(200 m) from project boundary？"
+      },
+      "B": {
+        "gap": "選了中間距離，但不是 N10 明定數值。",
+        "followup": "回看 N10 Provide Meal Support，supportive amenities 要在多少 ft walk distance 內的 dedicated eating area？"
+      },
+      "D": {
+        "gap": "高估可接受距離，超過 N10 的 650 ft 要求。",
+        "followup": "如果 dedicated eating area 在 725 ft，是否仍位於 N10 要求的 650 ft(200 m) walk distance 內？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Stem says Feature N10: Food Production, but N10 is Food Preparation; 650 ft matches N10 Part 1 Provide Meal Support."
+    }
+  },
+  {
+    "id": "M03_Q49",
+    "stem": "The WELL Nourishment concept seeks to promote the consumption of fruits and vegetables by increasing availability and accessibility. Around the world, most individuals do not meet the daily recommended ________ servings of fruits and vegetables.",
+    "framework": "M03_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "5",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "3",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "8",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "12",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "N01 Fruits and Vegetables 的 Issue 說明 most individuals around the world do not meet the daily recommended five servings (400 g)；Part 1 Provide Fruits and Vegetables 因此要求提升 fruits and non-fried vegetables 的 availability。",
+    "diagnosis": {
+      "B": {
+        "gap": "低估 N01 引用的每日蔬果建議份數。",
+        "followup": "N01 Issue 中五份對應 400 g；如果只記成三份，是否符合條文的 recommended servings？"
+      },
+      "C": {
+        "gap": "高估 recommended servings，混入其他膳食建議印象。",
+        "followup": "N01 引用的是 daily recommended five servings；你是否把更高的個別指南數字帶入 WELL？"
+      },
+      "D": {
+        "gap": "把每日建議份數誇大到非 WELL 條文數值。",
+        "followup": "N01 Issue 是否有提到 12 servings，還是明確寫 five servings (400 g)？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M03_Q50",
+    "stem": "Nutritional Transparency is a critical feature of the WELL Nourishment concept. In commercial dining spaces, what staff positions are required to have annual food allergen training?",
+    "framework": "M03_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Managers",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Servers",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Kitchen Staff",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "All of the above.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "N02 Nutritional Transparency, Part 2 Address Food Allergens 的 Option 1 Food allergy training 要求 all food service staff，包括 managers、servers 與 kitchen staff，每年提供 food allergy training，並且營業時至少一名過去一年受訓人員在場處理問題。",
+    "diagnosis": {
+      "A": {
+        "gap": "只選 managers，漏掉所有 food service staff 的範圍。",
+        "followup": "N02 Part 2 是否只要求 managers 受訓，還明列 servers and kitchen staff 也包含在內？"
+      },
+      "B": {
+        "gap": "只看前場 servers，忽略 managers 與 kitchen staff。",
+        "followup": "All food service staff 在 N02 food allergy training 中包括哪些職位？只訓練 servers 足夠嗎？"
+      },
+      "C": {
+        "gap": "只聚焦 kitchen staff，忽略服務與管理職位。",
+        "followup": "Food allergen questions 可能由誰接觸顧客？N02 為何要求 managers、servers、kitchen staff 都受訓？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

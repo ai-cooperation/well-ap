@@ -1,0 +1,1179 @@
+[
+  {
+    "id": "M02_Q01",
+    "stem": "Nearly two-thirds of the human body is composed of water and a good majority of the global population is under hydrated. Depending on age, sex and pregnancy status, what are the recommended values of daily water consumption by adults?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Between 49-125 oz daily.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Between 49-125 oz weekly.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Between 25 an 72 oz daily.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "8 glasses of water daily.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL Water concept Overview 指出，依 age、sex 與 pregnancy status，成人 daily water consumption guideline 約為 49-125 oz，包含食物中水分與直接飲水。W06 Drinking Water Promotion, Part 1 Ensure Drinking Water Access 則把這個 hydration 目標轉成飲水可近性要求。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 daily intake 誤讀成 weekly，忽略水分每日流失需補充。",
+        "followup": "Water concept Overview 說成人 49-125 oz 是用來抵消 respiration、perspiration 與 excretion 的哪一種時間尺度？"
+      },
+      "C": {
+        "gap": "低估成人建議攝水範圍，混淆特定族群與整體成人範圍。",
+        "followup": "題幹提到 age、sex 與 pregnancy status 會改變攝水量，標準給的是單一低值還是成人範圍？"
+      },
+      "D": {
+        "gap": "套用常見八杯水口訣，未回到 WELL 引用的 oz 範圍。",
+        "followup": "若 WELL Water overview 已給 49-125 oz，為何固定 8 glasses 無法涵蓋不同成人狀態？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q02",
+    "stem": "The project team for an existing building is pursuing WELL Certification. All water being delivered to the project has been tested, and the turbidity level was found to be less than 1.0 NTU. What other test must be passed to achieve Feature W01: Water Quality Indicators?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "The pH is level is a neutral level of 7",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Quarterly testing for inorganic metals is done",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "An active carbon filter is installed on all water meant for human contact",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Total coliforms are not detected in any 100 ml sample",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W01 Water Quality Indicators, Part 1 Verify Water Quality Indicators 要求 human contact water 同時達到 turbidity ≤ 1.0 NTU/FTU/FNU，且 total coliforms are not detected in any 100 ml sample。題目已滿足 turbidity，因此還需通過 coliforms 指標。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 pH 中性誤當 W01 指標，混淆 W03/W05 監測項目。",
+        "followup": "W01 Part 1 列出的是 turbidity 與 coliforms；pH 是在哪些水質管理功能中才被監測？"
+      },
+      "B": {
+        "gap": "把金屬季檢套到 W01，忽略此題問 easy-to-test indicators。",
+        "followup": "若 W01 Part 1 只用兩個 indicator 判斷 human contact water，inorganic metals 屬於哪類水質要求？"
+      },
+      "C": {
+        "gap": "把處理設備當成合規指標，未核對性能測試門檻。",
+        "followup": "W01 要求的是安裝特定 filter，還是水樣必須達到 turbidity 與 coliforms 的結果門檻？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q03",
+    "stem": "Which of the following building systems deal with turbidity limits?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Performance Test",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Technical Document",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "On-going Data Report",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Letter of Assurance from Owner",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "W01 Water Quality Indicators, Part 1 Verify Water Quality Indicators 設定 turbidity ≤ 1.0 NTU/FTU/FNU，且該 feature summary 說明以 on-site tests 驗證 performance。題目標示的回應更像 W03/W05 的 ongoing monitoring/reporting，與 W01 turbidity limit 的驗證語境不完全一致。",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到 W01 on-site test 線索，但未對齊題庫標示的回報型態。",
+        "followup": "如果題目其實在問 W01 turbidity limit 的驗證，on-site tests 與 ongoing report 哪個更貼近 Part 1？"
+      },
+      "B": {
+        "gap": "把水質限值誤認為提交技術文件即可，忽略水樣結果。",
+        "followup": "W01 Part 1 的 turbidity ≤ 1.0 NTU 是設計文件承諾，還是需要水質測試結果支持？"
+      },
+      "D": {
+        "gap": "誤以為 owner assurance 可取代水質測試或持續資料。",
+        "followup": "對 turbidity 這類可量測指標，WELL 通常要求誰提供可驗證數據，而不是單純保證？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "Stem is vague; for W01 turbidity limits the standard points to on-site performance testing, not an ongoing data report.",
+      "corrected_correct": "A"
+    }
+  },
+  {
+    "id": "M02_Q04",
+    "stem": "A tenant buildout project in Sarasota Florida is concerned with the water quality in the building. After testing some of the water they discovered the water had a salty taste. What chemical can cause this?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aluminum",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Iron",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Chloride",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Copper",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "W04 Enhanced Water Quality, Part 1 Meet Thresholds for Drinking Water Taste 說明 high levels of chloride contribute to a salty taste，並設定 Chloride ≤ 250 mg/L。Iron 則主要與 reddish appearance 相關。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 aesthetic contaminants 混為一談，未連結 salty taste 與 chloride。",
+        "followup": "W04 Part 1 的 taste concern 中，哪個參數有 250 mg/L 上限並被標準描述為鹹味來源？"
+      },
+      "B": {
+        "gap": "抓到常見水質金屬，但誤把 iron 的紅色外觀當鹹味。",
+        "followup": "W04 overview 同時提到 chloride 與 iron；哪一個造成 salty taste，哪一個造成 reddish appearance？"
+      },
+      "D": {
+        "gap": "把 copper 門檻記成味覺來源，忽略題幹的 salty clue。",
+        "followup": "W04 Part 1 對 copper 設 1 mg/L，但標準是否把 copper 描述為 salty taste 的來源？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q05",
+    "stem": "According to Part 1: Verify Water Quality Indicators of Feature W01: Water Quality Indicators, water delivered to the project and intended for human contact must not exceed what maximum thresholds for nephelometric turbidity?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.3 NTU",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "1.0 NTU",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "0.4 NTU",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "0.8 NTU",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "W01 Water Quality Indicators, Part 1 Verify Water Quality Indicators 要求 human contact water 的 turbidity is less than or equal to 1.0 NTU, FTU or FNU。這是 W01 的 maximum threshold，並與 100 ml sample 中不得檢出 coliforms 並列。",
+    "diagnosis": {
+      "A": {
+        "gap": "套用過度嚴格的濁度值，未依 W01 precondition 門檻。",
+        "followup": "W01 Part 1 的 turbidity threshold 是 1.0 還是更接近高階處理設備的低濁度要求？"
+      },
+      "C": {
+        "gap": "選了不存在的中間值，可能把其他標準濁度門檻混入。",
+        "followup": "在 W01 Part 1 條文中，NTU、FTU、FNU 三種單位前面的共同數值是多少？"
+      },
+      "D": {
+        "gap": "接近正確數值但低估上限，未精確記住 1.0 NTU。",
+        "followup": "W01 Part 1 寫的是 less than or equal to 哪個整數濁度值，而不是 0.x 的值？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q06",
+    "stem": "According to Feature W04: Enhanced Water Quality, all water being delivered to the project area for human consumption must meet which of the following maximum limit for Iron?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "≤ 0.2 mg/L",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "≤ 1 mg/L",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "≤ 0.3 mg/L",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "≤ 0.05 mg/L",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "W04 Enhanced Water Quality, Part 1 Meet Thresholds for Drinking Water Taste 對 human consumption water 設定 Iron ≤ 0.3 mg/L。這屬於 taste、odor and appearance 的 aesthetic threshold。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 aluminum 的 0.2 mg/L 門檻誤套到 iron。",
+        "followup": "W04 Part 1 中 Aluminum 與 Iron 都有 mg/L 上限；哪一個對應 0.3 mg/L？"
+      },
+      "B": {
+        "gap": "把 copper 的 1 mg/L 門檻套到 iron，混淆不同金屬。",
+        "followup": "若 W04 Part 1 對 Copper 設 1 mg/L，Iron 的紅色外觀相關門檻是多少？"
+      },
+      "D": {
+        "gap": "把 manganese 或 sulfide 的低門檻誤認為 iron 上限。",
+        "followup": "W04 Part 1 裡 0.05 mg/L 常見於哪些參數，是否為 Iron 的要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q07",
+    "stem": "Many people are inadequately hydrated, and often reach for sugar-sweetened beverages instead of water because of what reason?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Will only drink bottled water.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "You do not need to drink a lot of water.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "They don't like water.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Mistrust in the safety of drinking water.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL Water concept Overview 指出，people who mistrust the safety of their water can have lower plain water intake and higher sugar-sweetened beverage intake。W06 Drinking Water Promotion, Part 1 Ensure Drinking Water Access 以 verified quality 與可近性降低這類 hydration barrier。",
+    "diagnosis": {
+      "A": {
+        "gap": "只看到 bottled water 行為，未指出背後的 tap water safety mistrust。",
+        "followup": "W06 overview 提到 bottled water adoption 被什麼 public perception 催化，而不只是個人偏好？"
+      },
+      "B": {
+        "gap": "否定補水需求，與 WELL 對 inadequate hydration 的問題設定相反。",
+        "followup": "Water concept Overview 為何強調成人 daily water consumption guideline 與許多人 hydration 不足？"
+      },
+      "C": {
+        "gap": "把行為歸因於不喜歡水，忽略安全感知才是標準引用重點。",
+        "followup": "題幹問為何轉向 sugar-sweetened beverages；標準引用的是 taste dislike 還是 safety perception？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q08",
+    "stem": "While there have been drastic improvements in the drinking water quality over the years, there has been an increasing risk from industrial, agricultural, and pharmaceutical sources. According to the WELL Building Standard™ (WELL™), what contaminants derived from this issue can lead to impaired oxygen transport in infants and impair neurodevelopment in children?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lead & Mercury",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Copper & Nitrates",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Nitrates & Lead",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Iron & Lead",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL Water concept Overview 說明 high nitrate levels can impair oxygen transport in infants，lead exposure can impair neurodevelopment in children。W02 Drinking Water Quality, Part 1 Meet Chemical Thresholds 也分別設定 Nitrate ≤ 50 mg/L as Nitrate 與 Lead ≤ 0.01 mg/L。",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到 lead 的神經發展危害，但把 nitrate 誤換成 mercury。",
+        "followup": "Water overview 對嬰兒 oxygen transport 指向哪個農業 runoff 常見污染物，而不是 mercury？"
+      },
+      "B": {
+        "gap": "抓到 nitrate 卻錯配 copper，忽略兒童神經發展的 lead。",
+        "followup": "W02 Part 1 同列 copper 與 lead，但哪一個在 overview 中連到 child neurodevelopment？"
+      },
+      "D": {
+        "gap": "把 iron 外觀問題與 lead 健康危害混在一起。",
+        "followup": "W04 提到 iron 主要影響 appearance；Water overview 的 infant oxygen transport 對應哪個 nitrogen compound？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q09",
+    "stem": "In order to meet the requirements of Part 2: Meet Thresholds for Organics and Pesticides of Feature W02: Drinking Water Quality, what two options are available to the project for this precondition?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "On-site testing.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Drinking water quality report.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Drinking water sampling.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Drinking water quality report or on-site testing.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W02 Drinking Water Quality, Part 2 Meet Thresholds for Organics and Pesticides 提供兩條 compliance path：Option 1 Drinking water quality report，或 Option 2 On-site testing。兩者都要涵蓋指定 pesticides 與 organic contaminants threshold。",
+    "diagnosis": {
+      "A": {
+        "gap": "只記住 on-site testing，漏掉 municipal report 路徑。",
+        "followup": "W02 Part 2 在 Option 1 是否允許使用一年內 municipal water quality report 來證明門檻？"
+      },
+      "B": {
+        "gap": "只記住 water quality report，漏掉現場測試替代路徑。",
+        "followup": "若 municipal report 未完整涵蓋 pesticides/organics，W02 Part 2 還提供哪個現場驗證選項？"
+      },
+      "C": {
+        "gap": "用籠統 sampling 描述取代條文中的兩個正式選項。",
+        "followup": "W02 Part 2 的標題下，正式列出的兩個 Option 名稱分別是什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q10",
+    "stem": "In Part 1: Assess and Maintain Drinking Water Quality of Feature W05: Drinking Water Quality Management, how often should the drinking water be tested in order to assess and maintain drinking water quality?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Annually",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Weekly",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Quarterly",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Monthly",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "W05 Drinking Water Quality Management, Part 1 Assess and Maintain Drinking Water Quality, Option 2 Water quality monitoring 要求 piped water delivered to drinking water dispensers be tested quarterly。若樣本超標，remediation and re-testing 必須在一個月內完成。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 annual submission 誤當 testing frequency，混淆測試與上傳。",
+        "followup": "W05 Part 1 同時有 quarterly testing 與 annual submission，題幹問的是哪一個動作的頻率？"
+      },
+      "B": {
+        "gap": "高估測試頻率，未依 W05 monitoring 的季度要求。",
+        "followup": "W05 Part 1 是否要求每週測水，還是只在超標後一個月內 remediation and re-testing？"
+      },
+      "D": {
+        "gap": "把超標後一個月內重測誤認為常規測試頻率。",
+        "followup": "W05 Part 1 中 one month 出現在哪個情境，是常規 monitoring 還是超標後補救？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q11",
+    "stem": "How often are water testing results submitted to the WELL digital platform to satisfy Part 1: Assess and Maintain Drinking Water Quality of Feature W05: Drinking Water Quality Management?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monthly",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "After every test is completed",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Every Quarter",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Annually",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W05 Drinking Water Quality Management, Part 1 Assess and Maintain Drinking Water Quality 要求 water is tested quarterly，但 all test results are submitted annually through the WELL digital platform。測試頻率與提交流程不能混淆。",
+    "diagnosis": {
+      "A": {
+        "gap": "把提交頻率縮短為每月，未依 digital platform 年度提交。",
+        "followup": "W05 Part 1 的測試是 quarterly；但條文說 test results 送到 WELL digital platform 的頻率為何？"
+      },
+      "B": {
+        "gap": "誤以為每次測試後即時提交，忽略年度彙整要求。",
+        "followup": "若每季測水一次，W05 Part 1 是否要求每次測完立即提交，還是 annually submission？"
+      },
+      "C": {
+        "gap": "把季度測試頻率直接套用到結果提交頻率。",
+        "followup": "W05 Part 1 中 quarterly 修飾的是 water testing，還是 WELL digital platform submission？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q12",
+    "stem": "Legionnaire’s disease especially affects which of the following:",
+    "framework": "M02_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Immunocompromised people",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Smokers",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "People Over 50",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "All of the Above",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W03 Basic Water Management, overview 指出 Legionnaire’s disease especially affects the immunocompromised, smokers and those over age 50。Part 2 Implement Legionella Management Plan 要求針對 recirculated/aerosolized water systems 建立管理計畫以降低暴露風險。",
+    "diagnosis": {
+      "A": {
+        "gap": "只記住免疫低下族群，漏掉吸菸者與高齡族群。",
+        "followup": "W03 overview 對 Legionnaire’s disease 的高風險族群是否只列 immunocompromised people？"
+      },
+      "B": {
+        "gap": "只抓到 smoking risk，忽略標準列出的其他易感族群。",
+        "followup": "除了 smokers，W03 overview 還列出哪些族群 especially affected by Legionnaire’s disease？"
+      },
+      "C": {
+        "gap": "只記住 over 50 年齡條件，漏掉健康狀態與吸菸因素。",
+        "followup": "W03 overview 把 age over 50 與哪些條件並列，作為 Legionella 暴露後較高風險族群？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q13",
+    "stem": "In Part 1: Assess and Maintain Drinking Water Quality for Feature W05: Drinking Water Quality Management, for all spaces, what contaminates must be tested for quarterly at the point of dispensing?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lead, Copper, Mercury, Arsenic",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Lead, Copper, Turbidity, Coliforms",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Copper, Turbidity, Mercury, Nickel",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Coliforms, Turbidity, Mercury, Nickel",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "W05 Drinking Water Quality Management, Part 1 Assess and Maintain Drinking Water Quality, Option 2 Water quality monitoring 要求 quarterly testing 並列出 turbidity、coliforms、lead 與 copper 等 dispenser threshold。Lead ≤ 10 µg/L、Copper ≤ 2 mg/L，且 coliforms 在特定情況下不得於 100 ml sample 檢出。",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到 lead/copper，卻混入 mercury/arsenic 而漏掉 indicators。",
+        "followup": "W05 Part 1 的 quarterly monitoring 是否把 turbidity 與 coliforms 作為 drinking water dispenser 指標？"
+      },
+      "C": {
+        "gap": "保留 turbidity/copper 但漏掉 lead/coliforms，混入非本題項目。",
+        "followup": "在 W05 Part 1 Option 2 中，哪兩個金屬與 turbidity、coliforms 同列為監測門檻？"
+      },
+      "D": {
+        "gap": "只抓到 indicators，卻錯把 mercury/nickel 當季度監測項。",
+        "followup": "W05 Part 1 的金屬監測門檻列 Lead 與 Copper，是否列 Mercury 或 Nickel？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q14",
+    "stem": "A project in Miami, Florida is working on completing the requirements for Feature W02: Drinking Water Quality. In Part 1: Meet Chemical Thresholds, what parameters do all drinking water dispensers meet?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Residual (free) chlorine does not exceed 10mg/L3.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Residual (free) chlorine does not exceed 7mg/L3.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Residual (free) chlorine does not exceed 1mg/L3.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Residual (free) chlorine does not exceed 4mg/L3.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W02 Drinking Water Quality, Part 1 Meet Chemical Thresholds 要求 all drinking water dispensers 的 residual (free) chlorine does not exceed 4 mg/L。這與同 Part 中 total chlorine ≤ 5 mg/L 是不同參數。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 residual chlorine 上限誇大，未區分消毒劑安全門檻。",
+        "followup": "W02 Part 1 對 residual (free) chlorine 與 total chlorine 分別設定多少 mg/L 上限？"
+      },
+      "B": {
+        "gap": "選了不存在的 7 mg/L，上限記憶不精確。",
+        "followup": "在 W02 Part 1 的 dispenser parameters 中，residual chlorine 是否高於 total chlorine 的 5 mg/L？"
+      },
+      "C": {
+        "gap": "混入 W04 free chlorine taste 門檻，誤套到 W02 health threshold。",
+        "followup": "W04 的 taste threshold 與 W02 的 chemical threshold 都提 chlorine；題幹指定的是哪個 feature？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q15",
+    "stem": "According to WELL, building-scale interventions can improve water quality depending on the contaminants that need to be removed. Which system is not able to capture water contaminants?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hepa Filter.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Ion Exchange Resins.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Reverse Osmosis (RO).",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Activated Carbon Filters.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "W02 Drinking Water Quality, Solutions 說明能 capture water contaminants 的 typical technologies 包括 activated carbon filters、ion exchange resins 與 reverse osmosis systems。HEPA filter 是空氣過濾或 W08 hand dryer 的語境，不是 W02 的飲水污染物捕捉系統。",
+    "diagnosis": {
+      "B": {
+        "gap": "把標準列出的有效水處理技術誤判為無效。",
+        "followup": "W02 Solutions 是否明確把 ion exchange resins 列為能 capture contaminants 的 typical technology？"
+      },
+      "C": {
+        "gap": "誤排除 reverse osmosis，忽略其在 W02 中的污染物捕捉角色。",
+        "followup": "W02 Solutions 對 reverse osmosis systems 的描述，是可捕捉 contaminants 還是與水處理無關？"
+      },
+      "D": {
+        "gap": "誤認 activated carbon filters 不能處理飲水污染物。",
+        "followup": "W02 Solutions 和 W04 Solutions 都提到 carbon media；它在水質改善中扮演什麼角色？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q16",
+    "stem": "Lead, arsenic, antimony, mercury, nickel, copper, cadmium, and Chromium are all examples of which of the following?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Contaminants that impact water quality.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Disinfectant byproducts",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Microorganisms",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Organic pollutants",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "W02 Drinking Water Quality, Part 1 Meet Chemical Thresholds 列出 arsenic、cadmium、chromium、copper、lead、mercury、nickel 等 drinking water chemical thresholds。這些屬於影響 drinking water quality 的 contaminants，而非 microorganisms。",
+    "diagnosis": {
+      "B": {
+        "gap": "把金屬污染物誤認為 disinfectant byproducts，混淆污染來源。",
+        "followup": "W02 Part 1 中 THMs/HAA5 才是 disinfectant byproducts；lead、arsenic、mercury 屬於哪類參數？"
+      },
+      "C": {
+        "gap": "把化學金屬污染物誤當微生物，忽略 chemical threshold。",
+        "followup": "W02 的 Part 1 標題是 Meet Chemical Thresholds；這些金屬是否屬於 biological indicators？"
+      },
+      "D": {
+        "gap": "混淆 metals 與 organic pollutants，未分清 W02 Part 1 與 Part 2。",
+        "followup": "W02 Part 2 才列 benzene、toluene 等 organics；題幹這些元素主要出現在哪個 Part？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q17",
+    "stem": "To promote proper hydration, what is the maximum distance all parts of regularly occupied floor space should be from water dispensers in Feature W06: Drinking Water Promotion?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Every 10m (32ft)",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Every 30m (100ft)",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Every 50m (165ft)",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Every 100m (330ft)",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "W06 Drinking Water Promotion, Part 1 Ensure Drinking Water Access, Option 1 Dispenser availability 要求至少一個 drinking water dispenser 位於所有 regularly occupied floor area 的 100 ft (30 m) walk distance 內，且每層至少一個。Dining areas 也必須有飲水機。",
+    "diagnosis": {
+      "A": {
+        "gap": "把距離要求記得過度嚴格，低估 W06 可近性半徑。",
+        "followup": "W06 Part 1 的 walk distance 是 10 m 還是 30 m，並且是否要求每層至少一台？"
+      },
+      "C": {
+        "gap": "把允許距離放得太遠，削弱 regularly occupied area 可近性。",
+        "followup": "若飲水機距離放到 50 m，還能符合 W06 Part 1 的 100 ft walk distance 嗎？"
+      },
+      "D": {
+        "gap": "嚴重高估允許距離，忽略飲水可近性是 hydration 核心。",
+        "followup": "W06 要 remove barriers to accessibility；100 m 的距離是否仍符合 Part 1 的 dispenser availability？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q18",
+    "stem": "As part of dispenser maintenance for Feature W06: Drinking Water Promotion, how often should the mouthpieces/outlets, protective guards and basins of drinking water fountains and dispensers be cleaned?",
+    "framework": "M02_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Twice weekly",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Every day",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Every-other day",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Weekly",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "W06 Drinking Water Promotion, Part 1 Ensure Drinking Water Access, Option 2 Dispenser maintenance 要求 mouthpieces/outlets、protective guards、aerators、basins and touch points are cleaned on a daily basis。這是維持飲水機可用與衛生的明確頻率。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估清潔頻率，以每週兩次取代 daily maintenance。",
+        "followup": "W06 Part 1 Option 2 對飲水機 outlet、guard、basin 的要求是 daily 還是 weekly-based？"
+      },
+      "C": {
+        "gap": "把清潔週期放寬為隔日，未達 daily basis 要求。",
+        "followup": "若 mouthpieces 每隔一天清潔，是否符合 W06 對 all drinking water dispensers 的維護文字？"
+      },
+      "D": {
+        "gap": "把每日接觸點清潔誤降為每週，忽略 touch points。",
+        "followup": "W06 Part 1 為何把 touch points 與 basins 一起列入 daily cleaning，而不是 weekly cleaning？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q19",
+    "stem": "A software company is building a new 100,000 sq ft office building in San Francisco. The client is concerned with microbial growth in the building's internal water supply. Which of the following filtration system would help prevent microbial growth in the potable water according to Feature W02: Drinking Water Quality?",
+    "framework": "M02_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inline Sand filter",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Alkaline water ionizer",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Reverse osmosis system with a carbon filter",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "UV Filtration system",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "W02 Drinking Water Quality, Solutions 將 reverse osmosis (RO) systems 與 activated carbon filters 列為能 capture contaminants 的 typical technologies；但微生物控制本身在 W01 Solutions 中更明確連到 ultraviolet (UV) light killing coliforms and pathogenic microbes。若題意重點是 prevent microbial growth，標準依據與標示答案不完全一致。",
+    "diagnosis": {
+      "A": {
+        "gap": "把沉砂或顆粒過濾誤當成微生物控制策略。",
+        "followup": "W01 Solutions 對 coliforms/pathogenic microbes 提到的是低 turbidity 後的 UV，還是 sand filter？"
+      },
+      "B": {
+        "gap": "把 alkaline ionizer 當成 WELL 認可的微生物水處理技術。",
+        "followup": "在 W02 Solutions 的 typical technologies 中，有沒有列 alkaline water ionizer 作為污染物控制方式？"
+      },
+      "D": {
+        "gap": "其實抓到微生物控制線索，但與題庫標示的 W02 RO 語境不同。",
+        "followup": "若問題明確問 killing coliforms and pathogenic microbes，W01 Solutions 對 UV light 的描述會如何影響判斷？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "W02 supports RO/carbon for capturing contaminants, but microbial control is more directly supported by UV in W01 Solutions.",
+      "corrected_correct": "D"
+    }
+  },
+  {
+    "id": "M02_Q20",
+    "stem": "What bathroom accommodations can be implemented within a business office to help support hygiene in order to meet the requirements of Part 1: Provide Bathroom and Handwashing Accommodations of Feature W08: Hygiene Support?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Install a hook or shelf for storage support",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Provide access to menstrual products at no cost",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Include trash cans in womens and single user bathrooms",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "All Of The Above",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W08 Hygiene Support, Part 1 Provide Bathroom and Handwashing Accommodations, Option 1 Bathroom Accommodations 要求 stalls 提供 hook/shelf storage support、women’s and single-user bathrooms 提供 menstrual products at no cost or at least 50% subsidized，並在 women’s and single-user stalls 設 trash receptacles。題目列出的措施都屬於此 Part 的 bathroom accommodations。",
+    "diagnosis": {
+      "A": {
+        "gap": "只記住 storage support，漏掉 menstrual products 與 trash receptacles。",
+        "followup": "W08 Part 1 Option 1 是否只要求 hook/shelf，還是同時處理月經用品與垃圾桶配置？"
+      },
+      "B": {
+        "gap": "只看到月經用品，忽略其他 bathroom accommodation 條目。",
+        "followup": "除了 menstrual products，W08 Part 1 對 toilet stall 還要求哪些 storage 或 disposal 支援？"
+      },
+      "C": {
+        "gap": "只抓到 trash cans，漏掉儲物與月經用品支援。",
+        "followup": "W08 Part 1 的 women’s and single-user bathroom 要求是否只限 trash receptacles？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q21",
+    "stem": "A business office provides an onsite daycare facility for working parents. They include access to family bathrooms for those employees. What would the bathroom need to include in Part 1: Provide Bathroom and Handwashing Accommodations for Feature W08: Hygiene Support?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Children's Sinks and toilets, or accommodation to use the adult size options.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Stalls just for children to use.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Carpet to reduce slipping.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Light switches reachable by children.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "W08 Hygiene Support, Part 1 Provide Bathroom and Handwashing Accommodations, Option 2 Family bathrooms 要求 family bathrooms 包含 children’s toilet facilities or accommodations for child use of adult size toilet，以及 children’s sinks or accommodations for child use of adult size sink。它也列出 motion sensor lights、skid resistant floors、safety grab bars 等配套。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 child accommodation 縮小成兒童專用隔間，未涵蓋 sink/toilet。",
+        "followup": "W08 Part 1 Option 2 要求的是 stalls for children，還是 children’s toilet/sink facilities or accommodations？"
+      },
+      "C": {
+        "gap": "誤把 carpet 當防滑策略，與 skid resistant floors 要求不同。",
+        "followup": "Family bathroom 條文說 skid resistant floors；carpet 在潮濕浴廁中是否等同於該要求？"
+      },
+      "D": {
+        "gap": "把兒童可及開關誤認為條文，混淆 motion sensor lights。",
+        "followup": "W08 Part 1 Option 2 提到 lighting 時，是要求 children reachable switches 還是 motion sensor lights？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q22",
+    "stem": "A new construction building in a rainy climate is aiming for WELL certification. Excess moisture and dampness in a building is often a problem in this area. This can lead to health problems for the building's occupants. According to Part 1: Design Envelope for Moisture Protection of Feature W07: Moisture Management, which of the following is not a strategy that must be implemented to prevent moisture?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Install a continuous drainage plane.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Perform Air tightness testing.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Management of site drainage and storm water during construction.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Install porous mats at all entry ways to prevent tracking in water.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "W07 Moisture Management, Part 1 Design Envelope for Moisture Protection 要求 site drainage and storm water management during construction、air tightness testing、entryway design strategies、continuous drainage plane 與 capillary break methods。Porous mats at all entryways 並不是 Part 1 條列的必備 moisture protection strategy。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤把 continuous drainage plane 排除，但它是 envelope 明列策略。",
+        "followup": "W07 Part 1 是否要求在 exterior cladding 內側設 continuous drainage plane 與 flashing integration？"
+      },
+      "B": {
+        "gap": "誤排除 air tightness testing，忽略水蒸氣轉移評估。",
+        "followup": "W07 Part 1 中 air tightness testing 的目的，是不是用來 assess water vapor transfer？"
+      },
+      "C": {
+        "gap": "誤排除施工期排水與 storm water 管理要求。",
+        "followup": "對 construction after registration 的專案，W07 Part 1 是否要求驗證 site drainage/storm water management？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q23",
+    "stem": "Feature W07: Moisture Management of the WELL Building Standard stipulates that in order to control the moisture of the interior of a building you must put into place a plan that addresses the following:",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "The replacement of moisture-sensitive building materials.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Condensation on cold surfaces, such as basements, slab-on-grade floors, the inside of exterior walls and glazing.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Putting a water drainage plan into place.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Installing a dehumidifier system.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "W07 Moisture Management, Part 2 Design Interiors for Moisture Management, Option 1 Condensation and liquid water management 要求室內濕氣措施至少處理 condensation on cold surfaces，例如 basements、slab-on-grade floors、inside of exterior walls and glazing。它也要求保護 moisture-sensitive materials 與選用耐濕 finishes。",
+    "diagnosis": {
+      "A": {
+        "gap": "把材料保護理解成替換材料，忽略 condensation 也必須處理。",
+        "followup": "W07 Part 2 要求 protection/selection of materials 之外，還明列哪種 cold surface condensation 問題？"
+      },
+      "C": {
+        "gap": "把 envelope drainage plan 誤套到 interior moisture management。",
+        "followup": "題幹說 control moisture of interior；W07 Part 2 與 Part 1 drainage plane 的焦點有何不同？"
+      },
+      "D": {
+        "gap": "把設備方案當成條文必列計畫內容，過度具體化。",
+        "followup": "W07 Part 2 是否指定必須安裝 dehumidifier，還是要求措施能 address condensation and liquid water？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q24",
+    "stem": "A WELL project is implementing a Mold and Moisture Management Plan. Which of the following would not be found on this plan in Part 3: Implement Mold and Moisture Management Plan of Feature W07: Moisture Management?",
+    "framework": "M02_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Submit quarterly mold and leaks inspection report.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Implement a system to periodically check for water pipe leaks.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Create system for occupants and tenants to report mold or water damage.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Create a schedule to inspect for water damage or pooling, discoloration and mold on ceilings, walls, floors and HVAC equipment.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "W07 Moisture Management, Part 3 Implement Mold and Moisture Management Plan 要求 schedule of periodic inspections、periodic leak assessment protocol，以及 occupant/tenant notification system；inspection results are submitted annually through the WELL digital platform。Quarterly mold and leaks inspection report 不是條文要求的提交頻率。",
+    "diagnosis": {
+      "B": {
+        "gap": "誤排除 pipe leak inspection protocol，但這是 plan 核心內容。",
+        "followup": "W07 Part 3 Option 1 是否要求 system or inspection protocol to periodically assess water pipe leaks？"
+      },
+      "C": {
+        "gap": "誤排除 occupant reporting system，忽略使用者通報機制。",
+        "followup": "W07 Part 3 對 occupants and tenants reporting mold or water damage 有沒有明確要求？"
+      },
+      "D": {
+        "gap": "誤排除週期性檢查清單，未抓到 ceilings/walls/HVAC。",
+        "followup": "W07 Part 3 的 inspection schedule 要檢查哪些水損、pooling、discoloration 或 mold 位置？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M02_Q25",
+    "stem": "A new office complex wants to help reduce demand on its city's water supply by installing a non-potable water capture and reuse system. However, they are worried about cross-contamination. In Feature W09 β: Onside Non -Potable Water Reuse, what does not need to be included in the safety plan?",
+    "framework": "M02_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "A list of all applicable local codes and regulation for where the system is being installed.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "A blueprint of the building where the system is being installed.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "A list of the key team roles for design, operations, maintenance and third party inspections.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "A flow diagram that displays the non-potable water sources, conveyances, storage units, treatment devices and points of use.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "W09 beta Onsite Non-Potable Water Reuse, Part 1 Implement Safety Plan for Non-Potable Water Capture and Reuse 要求 safety plan 包含 applicable codes/regulations、key team roles，以及 process flow diagram showing sources, conveyances, storage, treatment devices and points of use。條文沒有要求提交整棟 building blueprint。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤排除法規清單，但 jurisdictional codes 是 safety plan 必備。",
+        "followup": "W09 Part 1 safety plan 為何要列 applicable local codes and regulations，與系統核准有何關係？"
+      },
+      "C": {
+        "gap": "誤排除團隊角色清單，忽略設計與維運責任界定。",
+        "followup": "W09 Part 1 要求 key team roles 涵蓋 design、operations、maintenance 與哪一類 inspection？"
+      },
+      "D": {
+        "gap": "誤排除 process flow diagram，未理解交叉污染控制需要流程圖。",
+        "followup": "W09 Part 1 的 flow diagram 要顯示哪些 non-potable water sources、storage 與 points of use？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

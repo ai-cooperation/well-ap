@@ -1,0 +1,680 @@
+{
+  "module": "M04",
+  "frameworks": [
+    {
+      "id": "M04_F1",
+      "name": "日夜節律與光曝露",
+      "desc": "L01 Light Exposure 與 L03 Circadian Lighting Design 對應 circadian photoentrainment、daylight、electric light 與 Equivalent Melanopic Lux，目標是降低 circadian phase disruption。",
+      "covers": [
+        "L01 Light Exposure",
+        "L03 Circadian Lighting Design",
+        "circadian photoentrainment",
+        "Equivalent Melanopic Lux",
+        "M-EDI(D65)"
+      ]
+    },
+    {
+      "id": "M04_F2",
+      "name": "視覺照明與工作面需求",
+      "desc": "L02 Visual Lighting Design 要依 space types、activities 與 work planes 提供適當 illuminance，支援 visual comfort 與 visual acuity。",
+      "covers": [
+        "L02 Visual Lighting Design",
+        "illuminance",
+        "work planes",
+        "visual acuity",
+        "lighting guidelines"
+      ]
+    },
+    {
+      "id": "M04_F3",
+      "name": "眩光、平衡與電光品質",
+      "desc": "L04 Electric Light Glare Control、L07 Visual Balance 與 L08 Electric Light Quality 關注 glare、visual balance、color rendering 與 flicker。",
+      "covers": [
+        "L04 Electric Light Glare Control",
+        "L07 Visual Balance",
+        "L08 Electric Light Quality",
+        "color rendering",
+        "flicker"
+      ]
+    },
+    {
+      "id": "M04_F4",
+      "name": "日光設計與模擬決策",
+      "desc": "L05 Daylight Design Strategies、L06 Daylight Simulation 與 L09 Occupant Lighting Control 要把 daylight access、simulation reports、outdoor views 與 occupant preferences 納入設計判斷。",
+      "covers": [
+        "L05 Daylight Design Strategies",
+        "L06 Daylight Simulation",
+        "L09 Occupant Lighting Control",
+        "daylight simulation",
+        "outdoor views"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M04_Q01",
+      "stem": "Part 1: Provide Indoor Light of Feature L01: Light Exposure provides requirements in Option 2: Interior layout for envelope glazing. Which of the following is one of the requirements a project may choose?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The envelope glazing area is no less than 20% of the regularly occupied floor area."
+        },
+        {
+          "key": "B",
+          "text": "At least 30% of the regularly occupied area is within a 20 ft(6 m) horizontal distance of envelope glazing."
+        },
+        {
+          "key": "C",
+          "text": "Common spaces must have unassigned seating and task lighting at each available seat."
+        },
+        {
+          "key": "D",
+          "text": "There are no opaque obstructions higher than 3. 2 ft within 50 ft of the transparent envelope glazing."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Option 2: Interior layout \nOne of the following requirements is met: \na. At least 30% of the regularly occupied area is within a 20 ft(6 m) horizontal \ndistance of envelope glazing in each \nfloor and/or in each individual unit. \nb. Common spaces have unassigned seating and can accommodate at least 15% of \nregular occupants at any given \ntime. At least 70% of all seating in the spaces is within a 16 ft(5 m) horizontal \ndistance of envelope glazing.",
+      "framework_hint": "M04_F1"
+    },
+    {
+      "id": "M04_Q02",
+      "stem": "Which of the following disorders related to light exposure are associated with increased risk of obesity, diabetes, depression, and hypertension?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chronic sleep deprivation"
+        },
+        {
+          "key": "B",
+          "text": "Seasonal affective disorder (SAD)"
+        },
+        {
+          "key": "C",
+          "text": "Photoentrainment"
+        },
+        {
+          "key": "D",
+          "text": "Photosensitivity"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q03",
+      "stem": "The circadian rhythm is an internal clock in humans and animals that synchronize physiological functions on a cycle of what duration?",
+      "options": [
+        {
+          "key": "A",
+          "text": "6 hours"
+        },
+        {
+          "key": "B",
+          "text": "24 hours"
+        },
+        {
+          "key": "C",
+          "text": "12 hours"
+        },
+        {
+          "key": "D",
+          "text": "1 hour"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q04",
+      "stem": "Light exposure in the late afternoon/early night will shift circadian rhythms in what way?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Circadian rhythms would not be affected by late afternoon/early night exposure to light."
+        },
+        {
+          "key": "B",
+          "text": "Phase advance"
+        },
+        {
+          "key": "C",
+          "text": "Phase delay"
+        },
+        {
+          "key": "D",
+          "text": "Phase compensation"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Light exposure in the late afternoon/early night will shift our rhythms back (phase \ndelay)",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q05",
+      "stem": "How many options are available to fulfill Feature L02: Visual Lighting Design for all spaces except dwellings?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M04_F2"
+    },
+    {
+      "id": "M04_Q06",
+      "stem": "How does the human body sense light?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Photosensetive cells located in the eyes and on the skin."
+        },
+        {
+          "key": "B",
+          "text": "Emissions are projected from the eye and bounce back when they detect light."
+        },
+        {
+          "key": "C",
+          "text": "Light enters the eye and is sensed by photoreceptors in the retina."
+        },
+        {
+          "key": "D",
+          "text": "Light-sensitive tissues on the exterior of the eye, called the 'pupil'."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q07",
+      "stem": "A minimum lighting intensity of at least 30fc at task surface is required in which space type for Part 1: Provide Visual Acuity of Feature L02: Visual Lighting Design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Offices and classrooms"
+        },
+        {
+          "key": "B",
+          "text": "All regularly occupied areas"
+        },
+        {
+          "key": "C",
+          "text": "Staircases"
+        },
+        {
+          "key": "D",
+          "text": "Reception areas"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature L02: Visual Lighting Design, Option 2 Offices and Classrooms : minimum 30fc \nat task surface",
+      "framework_hint": "M04_F2"
+    },
+    {
+      "id": "M04_Q08",
+      "stem": "What WELL feature requires projects to provide appropriate illuminances on work planes for regular users of all age groups, as required for the tasks performed in the space?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature L03: Circadian Lighting Design"
+        },
+        {
+          "key": "B",
+          "text": "Feature L04: Low-Glare Workstation Design"
+        },
+        {
+          "key": "C",
+          "text": "Feature L02: Visual Lighting Design"
+        },
+        {
+          "key": "D",
+          "text": "Feature L09: Occupant Lighting Control"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q09",
+      "stem": "What is flicker?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A sign that a light is malfunctioning."
+        },
+        {
+          "key": "B",
+          "text": "A way to measure eye strain."
+        },
+        {
+          "key": "C",
+          "text": "A variance of sound, measured by decibels."
+        },
+        {
+          "key": "D",
+          "text": "A variance of luminance in time, measured by hertz."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q10",
+      "stem": "What verification methods are required to demonstrate that Feature L03: Circadian Lighting Design has been achieved?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An on-site spot measurement by the WELL Assessor"
+        },
+        {
+          "key": "B",
+          "text": "Letter of assurance from the MEP"
+        },
+        {
+          "key": "C",
+          "text": "Letter of assurance from the Architect"
+        },
+        {
+          "key": "D",
+          "text": "A commissioning report"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M04_F1"
+    },
+    {
+      "id": "M04_Q11",
+      "stem": "Feature L08: Electric Light Quality stipulates that projects who achieve this optimization understand how electric light is used in a space. For instance, color Rendering Index (CRI) and IES TM-30-15 are commonly used metrics used to determine?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Glare-related hue diffraction."
+        },
+        {
+          "key": "B",
+          "text": "The color rendering properties of a light source."
+        },
+        {
+          "key": "C",
+          "text": "Differential color saturation."
+        },
+        {
+          "key": "D",
+          "text": "Selective chromatic flicker."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M04_F3"
+    },
+    {
+      "id": "M04_Q12",
+      "stem": "In an apartment building new construction project, which of the following is provided to all tenants in Part 1: Provide Visual Acuity of Feature L02: Visual Lighting Design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Illuminance thresholds for common tasks conducted in spaces."
+        },
+        {
+          "key": "B",
+          "text": "A minimum of 50% glazed envelope area in living space."
+        },
+        {
+          "key": "C",
+          "text": "Low-demand electric appliances."
+        },
+        {
+          "key": "D",
+          "text": "Task lights at each work area."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M04_F2"
+    },
+    {
+      "id": "M04_Q13",
+      "stem": "A new employee has requested more lighting at their workstation. How quickly must the request for supplemental lighting be fulfilled under the WELL Building Standard™ Feature L09: Occupant Lighting Control?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Within 2 weeks"
+        },
+        {
+          "key": "B",
+          "text": "Within 4 weeks"
+        },
+        {
+          "key": "C",
+          "text": "Within 6 weeks"
+        },
+        {
+          "key": "D",
+          "text": "Within 8 weeks"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M04_F4"
+    },
+    {
+      "id": "M04_Q14",
+      "stem": "What is the term for excessive brightness of the light source, excessive brightness-contrast and excessive quantity of light?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Melanopic Lux"
+        },
+        {
+          "key": "B",
+          "text": "Photoentrainment"
+        },
+        {
+          "key": "C",
+          "text": "Glare"
+        },
+        {
+          "key": "D",
+          "text": "Light intensity"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Feature L04: Electric Light Glare defines glare as excessive brightness of the light -source, excessive \nbrightness-contrasts and excessive quantity of light and is an integral part of lighting design. Reducing \nglare improves the visual experience of the occupants in the space. Glare has been associated with a \nhost of health issues that range from visual discomfort and eye fatigue to headaches and migraines. \nStudies have also shown that glare can lead to visual impairment and discomfort, which can cause \naccidents in the workplace. Individuals under the age of 50 are more sensitive to glare. Since a \nsubstantial section of the workforce falls into this age group, it is important to address glare to avoid \nvisual fatigue and glare-induced headaches.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q15",
+      "stem": "What role does the age of the occupants play in lighting design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Younger occupants may need more light."
+        },
+        {
+          "key": "B",
+          "text": "65+ year old occupants may need more light."
+        },
+        {
+          "key": "C",
+          "text": "Age is not a factor in lighting design."
+        },
+        {
+          "key": "D",
+          "text": "Occupants 25 - 65 year old need more light."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q16",
+      "stem": "Which of the following Light Concept feature addresses minimize glare caused by electric light.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature L05: Daylight Design Strategies"
+        },
+        {
+          "key": "B",
+          "text": "Feature L02: Visual Lighting Design"
+        },
+        {
+          "key": "C",
+          "text": "Feature L09: Occupant Light Control"
+        },
+        {
+          "key": "D",
+          "text": "Feature L04: Electric Light Glare Control"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q17",
+      "stem": "In order to minimize glare at workstations and desks, bare lamps and luminaire surfaces more than 50 degrees above the center of view must have luminance of what intensity, according to Part 1: Manage Glare from Electric Lighting of Feature L04: Electric Glare Control?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Less than 8,000 cd/m2"
+        },
+        {
+          "key": "B",
+          "text": "Less than 6,000 cd/m2"
+        },
+        {
+          "key": "C",
+          "text": "More than 8,000 cd/m2"
+        },
+        {
+          "key": "D",
+          "text": "More than 6,000 cd/m2"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M04_F3"
+    },
+    {
+      "id": "M04_Q18",
+      "stem": "Light is the main driver of which system(s)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Circadian and Visual"
+        },
+        {
+          "key": "B",
+          "text": "Metabolic and Visual"
+        },
+        {
+          "key": "C",
+          "text": "Visual Only"
+        },
+        {
+          "key": "D",
+          "text": "Appetitive and Visual"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q19",
+      "stem": "Which of the following is not a common source of glare in buildings?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shielded light"
+        },
+        {
+          "key": "B",
+          "text": "Direct sunlight hitting the eye"
+        },
+        {
+          "key": "C",
+          "text": "Reflective surfaces"
+        },
+        {
+          "key": "D",
+          "text": "Unshielded light"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q20",
+      "stem": "Where can you find a retina?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A camera"
+        },
+        {
+          "key": "B",
+          "text": "A lightbulb"
+        },
+        {
+          "key": "C",
+          "text": "An eye"
+        },
+        {
+          "key": "D",
+          "text": "A plant"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q21",
+      "stem": "The WELL Light concept aims to provide a lighting environment that?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Causes circadian phase disruption to align with modern working hours."
+        },
+        {
+          "key": "B",
+          "text": "Prevents all circadian phase disruption."
+        },
+        {
+          "key": "C",
+          "text": "Increases sleep quality and lower needed sleeping hours."
+        },
+        {
+          "key": "D",
+          "text": "Reduces circadian phase disruption."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q22",
+      "stem": "Which is one of the preconditions of the WELL Light concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Visual Balance"
+        },
+        {
+          "key": "B",
+          "text": "Circadian Light Design"
+        },
+        {
+          "key": "C",
+          "text": "Visual Light Design"
+        },
+        {
+          "key": "D",
+          "text": "Visual Acuity"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q23",
+      "stem": "Studies have shown that students perform better when they?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Have standing desks."
+        },
+        {
+          "key": "B",
+          "text": "Have soundproof rooms."
+        },
+        {
+          "key": "C",
+          "text": "Have new textbooks."
+        },
+        {
+          "key": "D",
+          "text": "Have windows that can open."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q24",
+      "stem": "What is the basic intent of Feature L04: Electric Light Glare Control?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To set limits on glare based on measures of luminous intensity."
+        },
+        {
+          "key": "B",
+          "text": "To minimize excessive brightness of a light source."
+        },
+        {
+          "key": "C",
+          "text": "To reduce overhead lighting levels."
+        },
+        {
+          "key": "D",
+          "text": "To increase background lighting and provide less of a contrast between ambient light and direct sunlight."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M04_F3"
+    },
+    {
+      "id": "M04_Q25",
+      "stem": "ompared to spaces without any light exposure, indoor spaces with daylight exposure have been shown to?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Have fewer visual comfort complaints by occupants."
+        },
+        {
+          "key": "B",
+          "text": "Have fewer maintenance issues."
+        },
+        {
+          "key": "C",
+          "text": "Have fewer bacteria."
+        },
+        {
+          "key": "D",
+          "text": "Have fewer airborne illnesses."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    }
+  ]
+}

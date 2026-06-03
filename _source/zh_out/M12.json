@@ -1,0 +1,60 @@
+[
+  {
+    "code": "I01",
+    "zh_name": "創新 WELL",
+    "zh_summary": "鼓勵專案提出 WELL v2 尚未涵蓋的新介入策略，以新的方式支持 occupants 的 health and well-being。重點是創新不能只是一個想法，必須有既有 scientific, medical and/or industry research 支撐，並符合相關法規與建築設計、營運的 leading practices。",
+    "zh_specs": [
+      "WELL Certification: 10 Pt | WELL Core: 10 Pt。",
+      "For All Spaces：提交符合要求的 innovation proposal。",
+      "提案需以 WELL v2 未涵蓋的 novel way 正向影響 project occupants，支持 health and well-being。",
+      "提案需由 existing scientific, medical and/or industry research substantiated。",
+      "提案需 consistent with applicable laws and regulations and leading practices in building design and operations。"
+    ]
+  },
+  {
+    "code": "I02",
+    "zh_name": "WELL AP",
+    "zh_summary": "認可專案團隊納入 WELL Accredited Professional (WELL AP)，以支持 WELL application and certification process。WELL AP 代表對 WELL 與建築健康福祉的專業理解，可協助專案規劃、文件準備與認證推進更順暢。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "For All Spaces：At least one member of the project team 需符合條件。",
+      "該 team member 需 has achieved the WELL Accredited Professional credential。",
+      "該 team member 需 maintains accreditation until project’s initial certification is achieved。"
+    ]
+  },
+  {
+    "code": "I03",
+    "zh_name": "體驗 WELL 認證",
+    "zh_summary": "透過 free, public tours 與教育內容，讓 occupants 與 visitors 理解 WELL features 如何影響健康與福祉。此 feature 聚焦把 WELL Certified space 作為實地學習場域，提升對建築健康策略的認知。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "For All Spaces：提供 free, public tours of the WELL Certified space，可依 pre-determined schedule 或 upon request。",
+      "Tours offered at least six times per year。",
+      "Tours attended by at least 50 people per year。",
+      "Tours listed in the public directory of tours for WELL Certified spaces。",
+      "Tours include at least one destination per WELL concept，並透過 at least one publicly accessible channel 宣傳。"
+    ]
+  },
+  {
+    "code": "I04",
+    "zh_name": "健康福祉入口",
+    "zh_summary": "認可專案已透過第三方健康與福祉 program 或 initiative，踏出更深入投入 health and well-being 的步驟。此 feature 強調組織可用不同路徑建立健康文化，但需完成可被辨識與認可的 wellness effort。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "For All Spaces：需符合 Part 1 Complete Health and Wellness Programs。",
+      "Within the last three years，project has completed an independent health and wellness program。",
+      "或完成 an initiative approved by IWBI and listed on IWBI's website (Reference)。"
+    ]
+  },
+  {
+    "code": "I05",
+    "zh_name": "綠建築評級系統",
+    "zh_summary": "認可專案取得 leading green building rating systems 的 certification，並把 environmental sustainability 與 human health 放在同一個脈絡中。此 feature 強調降低建築環境影響也能在建築與社區尺度支持健康，讓 people and planet 同時受益。",
+    "zh_specs": [
+      "WELL Certification: 5 Pt | WELL Core: 5 Pt。",
+      "For All Spaces：project is certified in a green building rating system approved by IWBI and listed on IWBI's website (Reference)。",
+      "Projects receive the full five points in Innovation for pursuing a green building rating system。",
+      "Projects cannot receive more than five points for pursuing additional green building rating programs。"
+    ]
+  }
+]

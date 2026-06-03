@@ -1,0 +1,208 @@
+{
+  "module": "M03",
+  "name": "飲食 Nourishment",
+  "features": [
+    {
+      "code": "N01",
+      "name": "Fruits And Vegetables",
+      "type": "precondition",
+      "intent": "Promote the consumption of fruits and vegetables by increasing the availability and accessibility of fruits and vegetables.",
+      "summary": "This WELL feature requires the provision and promotion of fruits and vegetables, if food is sold or provided on a daily basis.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Fruits and Vegetables",
+          "body": "For All Spaces except Commercial Dining Spaces: If foods are sold or provided on a daily basis by (or under contract with) the project owner, each food outlet meets one of the following requirements:    a. The selection includes at least two varieties of fruits (containing no added sugar) and at least two varieties of       non-fried vegetables.9    b. At least 50% of available food options are fruits (containing no added sugar) and/or non-fried vegetables. For Commercial Dining Spaces: One of the following requirements is met:    a. The selection includes at least four varieties of fruits (containing no added sugar) and at least four varieties of       non-fried vegetables.10    b. At least"
+        },
+        {
+          "title": "Part 2 Promote Fruit and Vegetable Visibility",
+          "body": "For All Spaces: Option 1: Fruit and vegetable promotion If foods are sold or provided on a daily basis by (or under contract with) the project owner, fruits and vegetables meet one of the following requirements:    a. Placed at eye-level or just below eye-level.9,11,12    b. Displayed on the countertop, table or other visible surface.13    c. Placed at point-of-sale or point-of-purchase.9,11,12    d. Placed at the end of aisles.9,11,12    e. Placed at the beginning of food service lines.9,11,12     f. Visible from the food outlet entrance.14 For Commercial Dining Spaces: Option 1: Healthy menu design If foods are sold or provided on a daily basis by (or under contract with) the project owner"
+        }
+      ]
+    },
+    {
+      "code": "N02",
+      "name": "Nutritional Transparency",
+      "type": "precondition",
+      "intent": "Help individuals make informed food choices through nutritional labeling and allergy information.",
+      "summary": "This WELL feature requires the provision of detailed nutritional information, calorie labeling for standard menu items and sugar content labeling for all foods and beverages sold or provided on a daily basis.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Nutritional Information",
+          "body": "For All Spaces: If packaged foods and beverages, including items in vending machines and self-service bulk foods, are sold or provided on a daily basis by (or under contract with) the project owner, the following nutrition information is clearly displayed at point-of-decision on packaging or adjacent signage:    a. Total calories per serving or package.    b. Macronutrient content (total protein, total fat and total carbohydrate) in weight and/or as a percent of the       estimated daily requirements (daily values) per serving or package.    c. Total sugar content per serving or package. For Commercial Dining Spaces: For standard menu items sold or provided by (or under contract with) the pr"
+        },
+        {
+          "title": "Part 2 Address Food Allergens",
+          "body": "For Commercial Dining Spaces: Option 1: Food allergy training If food is prepared on-site on a daily basis by (or under contract with) the project owner, the following requirements are met:    a. All food service staff (including managers, servers and kitchen staff) are offered annual food allergy training that       covers, at a minimum, the following topics:8           1. Overview of food allergies           2. Anaphylaxis           3. Emergency response           4. Communications protocols           5. Reducing risk for cross-contact           6. Use of recipes and ingredient disclosure           7. Knowledge test    b. During hours of operation, at least one staff member with food aller"
+        },
+        {
+          "title": "Part 3 Label Sugar Content",
+          "body": "For Commercial Dining Spaces: For standard menu items sold or provided by (or under contract with) the project owner, one of the following requirements is met:    a. Standard menu items do not contain more than 25 g of sugar per serving.    b. The total sugar content for each standard menu item, as usually prepared and offered for sale, is clearly displayed       at the point-of-decision on menus and menu boards (in addition to calories as required in Part 1 of this feature).    c. Standard menu items containing more than 25 g of sugar per serving are identified by an icon on menus and       menu boards. An explanation of the icon and the health risks of high sugar intake is available at the"
+        }
+      ]
+    },
+    {
+      "code": "N03",
+      "name": "Refined Ingredients",
+      "type": "optimization",
+      "intent": "Help individuals avoid highly processed foods and refined ingredients.",
+      "summary": "This WELL feature requires adequately limiting sugar and refined grains in all foods and beverages.",
+      "parts": [
+        {
+          "title": "Part 1 Limit Total Sugars",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Foods and beverages sold or provided on a daily basis by (or under contract with) the project owner meet the following requirements:    a. Beverages do not contain more than 25 g of sugar per container or serving.2    b. At least 25% of beverages contain no sugar per container or serving, or drinking water is available at no cost.    c. No non-beverage food item (except whole fruit) contains more than 25 g of sugar per serving.2   WELL Core Guidance: Meet these requirements in non-leased spaces."
+        },
+        {
+          "title": "Part 2 Promote Whole Grains",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Foods and beverages sold or provided on a daily basis by (or under contract with) the project owner meet the following requirements:    a. In at least 50% of grain-based foods (foods that have a grain flour as the first ingredient or that contain ≥30%       grain ingredients), a whole grain is the first ingredient.7    b. If both whole grain and refined grain options are available, whole grain options do not cost more than their       refined grain counterparts (i.e., brown rice does not cost more than white rice).   Note: Projects must have at least one whole grain option at each food outlet (if grain-based foods are sold or provide"
+        }
+      ]
+    },
+    {
+      "code": "N04",
+      "name": "Food Advertising",
+      "type": "optimization",
+      "intent": "Encourage the selection and consumption of healthier food choices through advertising and messaging.",
+      "summary": "This WELL feature requires healthy food advertising and nutritional messaging.",
+      "parts": [
+        {
+          "title": "Part 1 Optimize Food Advertising",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Food advertising If foods and beverages are sold or provided on a daily basis by (or under contract with) the project owner, the following requirements are met:    a. Sugar-sweetened beverages are not advertised or promoted.12    b. Deep-fried food options are not advertised or promoted.13    c. Deep-fried food options are not displayed under heat lamps. Option 2: Nutritional messaging All dedicated eating areas and points of sale contain at least two different instances of messaging that promote one of the following:    a. The consumption of fruits and vegetables.13    b. The consumption of drinking water.14,15   WELL Core"
+        }
+      ]
+    },
+    {
+      "code": "N05",
+      "name": "Artificial Ingredients",
+      "type": "optimization",
+      "intent": "Help individuals avoid artificial colors, flavors, sweeteners and preservatives in foods and beverages.",
+      "summary": "This WELL feature requires projects to label and phase out or restrict artificial ingredients.",
+      "parts": [
+        {
+          "title": "Part 1 Limit Artificial Ingredients",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Artificial ingredient phase out The following requirements are met:    a. The project phases out (over a maximum of three years) the use, sale and provision of foods and beverages       containing artificial ingredients listed in the table below:         Colorings          Blue 1 (E133), Blue 2 (E132), Green 3, Orange B, Citrus Red 2, Red 3 (E127), Red 40 (E129),                            Yellow 5 (E102), Yellow 6 (E110), carmine, cochineal, caramel coloring         Sweeteners         acesulfame-potassium (acesulfame-k), advantame, aspartame, calcium saccharin, saccharin,                            sucralose, cyclamate, ne"
+        }
+      ]
+    },
+    {
+      "code": "N06",
+      "name": "Portion Sizes",
+      "type": "optimization",
+      "intent": "Promote healthy portion sizes and reduce unintended overconsumption and food waste.",
+      "summary": "This WELL feature requires reduced-size food options when food is sold or provided and limits dishware sizes when food is self-serve.",
+      "parts": [
+        {
+          "title": "Part 1 Promote Healthy Portions",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For Commercial Dining Spaces: If foods and beverages are sold or provided on a daily basis by (or under contract with) the project owner, the following requirements are met:    a. All standard menu items do not contain more than 650 Cal(650 kCal), or a version or portion of the standard       menu item is available at a smaller size and lower cost for at least 50% of all standard menu items containing       more than 650 Cal(650 kCal).    b. Where food is self-serve (e.g., buffet), dishware does not exceed the following sizes per occupant type:         Dishware                                     Primary School Students        Secondary School Stude"
+        }
+      ]
+    },
+    {
+      "code": "N07",
+      "name": "Nutrition Education",
+      "type": "optimization",
+      "intent": "Support a healthy eating pattern by increasing nutritional knowledge and food literacy.",
+      "summary": "This WELL feature requires the provision of nutrition education.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Nutrition Education",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: At least one of the following is offered in-person or virtually to regular occupants at no cost on a quarterly basis at minimum:    a. Cooking demonstrations led by chef-instructors that include fruits and/or vegetables, demonstrate cooking skills       and integrate hands-on learning opportunities.    b. Nutrition or dietary education sessions led by an accredited dietitian or accredited nutritionist.    c. Individual nutrition consultations led by an accredited dietitian or accredited nutritionist.    d. Gardening or planting workshops focused on edible plants that integrate hands-on learning opportunities.   WELL Core Guidance: Me"
+        }
+      ]
+    },
+    {
+      "code": "N08",
+      "name": "Mindful Eating",
+      "type": "optimization",
+      "intent": "Encourage mindful eating behaviors and communal dining opportunities.",
+      "summary": "This WELL feature requires dedicated eating space that contains tables and chairs and the provision of daily meal breaks.",
+      "parts": [
+        {
+          "title": "Part 1 Support Mindful Eating",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces except Dwelling Units: Option 1: Dedicated eating space A dedicated eating space is located within a 650 ft(200 m) walk distance of the project boundary and meets the following requirements:    a. Contains tables and chairs to accommodate at least 25% of regular occupants at peak occupancy. If multiple       dedicated eating spaces are present, the combined seating space must accommodate at least 25% of regular       occupants at peak occupancy.    b. Provides protection from environmental elements (e.g., direct sunlight, rain, wind) or is in a climate-controlled       space.    c. Accommodates a variety of seating types, including sm"
+        }
+      ]
+    },
+    {
+      "code": "N09",
+      "name": "Special Diets",
+      "type": "optimization",
+      "intent": "Provide alternative food choices to individuals with dietary restrictions, food allergies or intolerances, and label common food allergens.",
+      "summary": "This WELL feature requires the provision of meal alternatives and food allergen labeling.",
+      "parts": [
+        {
+          "title": "Part 1 Accommodate Special Diets",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Meals sold or provided by (or under contract with) the project owner include main dish options that meet each of the following criteria:    a. Do not contain peanut.    b. Do not contain gluten.    c. Do not contain dairy.    d. Do not contain egg.    e. Do not contain animal, seafood or dairy products.     f. Do not contain animal or seafood products, except for eggs and dairy.   WELL Core Guidance: Meet these requirements in non-leased spaces."
+        },
+        {
+          "title": "Part 2 Label Food Allergens",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Foods and beverages sold or provided by (or under contract with) the project owner are clearly labeled at point-of- decision on packaging, menus or signage to indicate if they contain the following common food allergens:    a. Peanut.6    b. Fish.6    c. Shellfish.6    d. Soy.6    e. Milk. 6     f. Egg.6    g. Wheat.6    h. Tree nuts.6     i. Gluten.6   WELL Core Guidance: Meet these requirements in non-leased spaces. References    1. Afshin A, Sur PJ, Fay KA, et al. Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for       the Global Burden of Disease Study 2017. Lancet. 2019;393(10184):1958-1972. "
+        }
+      ]
+    },
+    {
+      "code": "N10",
+      "name": "Food Preparation",
+      "type": "optimization",
+      "intent": "Provide space and supportive amenities for the preparation of meals on-site.",
+      "summary": "This WELL feature requires a food preparation area, storage space and other amenities to support the reassembly or reheating of meals on-site.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Meal Support",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces except Dwelling Units & Commercial Kitchen Spaces: The following supportive amenities are provided in a quantity that meets employee demand in at least one dedicated eating area within a 650 ft(200 m) walk distance of the project boundary:    a. Cold storage.    b. Countertop surface.    c. Sink and amenities for dish and hand washing.    d. Device for reheating food (e.g., toaster oven, microwave).    e. Dedicated cabinets or storage units available for employee use.     f. Reusable, non-plastic plates, bowls, cups and utensils, including spoons, forks and knives.    g. Cans/bins for garbage, recycling and/or compost. For Dwelling "
+        }
+      ]
+    },
+    {
+      "code": "N11",
+      "name": "Responsible Food Sourcing",
+      "type": "optimization",
+      "intent": "Reduce dietary exposure to pesticides, hormones and antibiotics, limit environmental degradation and promote humane livestock practices.",
+      "summary": "This WELL feature requires sourcing and labeling certified organic and certified sustainable foods.",
+      "parts": [
+        {
+          "title": "Part 1 Implement Responsible Sourcing",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Sustainable sourcing If foods and beverages are sold or provided on a daily basis by (or under contract with) the project owner, the total product line meets the following criteria:    a. At least 50% of the total produce line (fruits and vegetables) is certified organic.10    b. At least 25% of the total animal product line (meat, seafood, egg and dairy products) is certified organic, Certified       Humane® or certified by a GSSI-recognized Seafood Certification Scheme.9,10 Option 2: Sustainable labeling Sustainable and humane agriculture is promoted through the following, as applicable:    a. Certified organic and sustai"
+        }
+      ]
+    },
+    {
+      "code": "N12",
+      "name": "Food Production",
+      "type": "optimization",
+      "intent": "Provide opportunities for on-site food production and increase food access.",
+      "summary": "This WELL feature requires the provision of space, infrastructure and tools for on-site food production.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Gardening Space",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces except Dwelling Units: A permanent and accessible space for food production is located within a 0.25 mi(400 m) walk distance of the project boundary and meets the following requirements:    a. The space includes at least one of the following:           1. Garden or greenhouse with food-bearing plants.7           2. Edible landscaping (e.g., fruit trees, herbs).7           3. Hydroponic or aeroponic farming system.    b. The space is open to regular occupants during regular building hours and is accessible the majority of the days in       the operating year. Foods grown are made available to regular occupants.    c. The space is at le"
+        }
+      ]
+    },
+    {
+      "code": "N13",
+      "name": "Local Food Environment",
+      "type": "optimization",
+      "intent": "Increase access to fresh, local and seasonal fruits and vegetables by reducing environmental barriers.",
+      "summary": "This WELL feature requires projects to take into consideration the local food environment during site selection or programming.",
+      "parts": [
+        {
+          "title": "Part 1 Ensure Local Food Access",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Supportive environment The project is located within a 0.25 mi(400 m) walk distance of one of the following:    a. Supermarket or store with a fresh fruit and vegetable section.10    b. Farmers' market that is open at least once a week and operates for at least four months of the year.11 OR Option 2: Supportive programming One of the following requirements is met:    a. The project serves as a distribution point for a community-based agriculture program that delivers fruits and       vegetables to regular occupants at least twice a month for at least four months of the year.11    b. The project hosts the weekly sale of frui"
+        }
+      ]
+    },
+    {
+      "code": "N14",
+      "name": "Red And Processed Meats",
+      "type": "optimization",
+      "intent": "Increase the availability of plant-based food options and reposition red and processed meat products to decrease their prominence at point-of-decision.",
+      "summary": "This WELL feature requires providing plant-based food options, limiting the portion size of red meat and decreasing the prominence of red and processed meats.",
+      "parts": [
+        {
+          "title": "Part 1 Limit Red and Processed Meats",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For Commercial Dining Spaces: The following requirements are met if food is sold or provided on a daily basis by (or under contract with) the project owner, as applicable:    a. At least one plant-based option is available at each food outlet.8    b. A single portion or serving of red meat, if sold or provided, is no more than 4 oz(115 g) cooked weight.7    c. Red and processed meats, if sold or provided, are placed at the end of self-serve food service lines.6    d. Red and processed meats, if sold or provided, are listed last in each menu section or listed on a separate menu       and/or menu board.9   Note: All projects are required to submit the"
+        }
+      ]
+    }
+  ]
+}

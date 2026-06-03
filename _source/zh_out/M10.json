@@ -1,0 +1,235 @@
+[
+  {
+    "code": "C01",
+    "zh_name": "健康與福祉推廣",
+    "zh_summary": "要求專案把已達成的 WELL features 與健康導向設計意圖清楚傳達給 occupants。重點是讓使用者理解建築設計、營運與政策如何影響 health, well-being and comfort，並知道可用的健康資源與方案。",
+    "zh_specs": [
+      "For All Spaces：可採 Option 1: WELL feature guide 或 Option 2: Communications。",
+      "WELL feature guide 需為 physical or digital，且 prominently displayed and/or made widely available to all occupants。",
+      "Guide 需描述 WELL features achieved by the project。",
+      "Guide 需說明已達成 WELL features 如何影響 occupant health, well-being and comfort，並支持 C02 Part 2 的 health-oriented mission。",
+      "Option 2 需發送 Quarterly communications（例如 emails, modules, trainings）給 regular occupants，並提供 onboarding communications。"
+    ]
+  },
+  {
+    "code": "C02",
+    "zh_name": "整合設計",
+    "zh_summary": "要求專案在早期規劃階段透過 stakeholder charrette 對齊健康、福祉與永續目標。此 feature 也要求建立 health-oriented mission，把 occupant health 連結到組織任務與 WELL 十大概念。",
+    "zh_specs": [
+      "Part 1：Early in the planning process 進行 collaborative discussion。",
+      "Stakeholders 可包含 owner, manager, facilities management team, architects, engineers, employees, occupants, residents, contractors and community members。",
+      "討論至少涵蓋 health and well-being goals，包括 occupant health and well-being needs 與 project’s objectives for health promotion。",
+      "Part 2：建立 health-oriented mission，說明 project’s objectives for health promotion。",
+      "Health-oriented mission 需納入 ten WELL concepts: Air, Water, Nourishment, Light, Movement, Thermal Comfort, Sound, Materials, Mind and Community。",
+      "Health-oriented mission 需 made available to all occupants，並納入 C01 Part 1 的 WELL Feature Guide。"
+    ]
+  },
+  {
+    "code": "C03",
+    "zh_name": "緊急應變準備",
+    "zh_summary": "要求專案先做 risk assessment，再建立 emergency management plan，以面對自然、人為、科技與健康相關緊急事件。核心是辨識高風險危害、照顧較脆弱族群，並教育 occupants 理解應變流程。",
+    "zh_specs": [
+      "For All Spaces：需完成 risk assessment 與 emergency management plan。",
+      "Risk assessment 至少 identify project assets（例如 employees, facilities）。",
+      "需建立 pathway，讓較 vulnerable 的 occupants or groups 可 confidentially identify emergency-specific needs。",
+      "需 evaluate potential impacts of relevant hazards and identify high-risk hazards。",
+      "需 determine emergency management planning priorities。",
+      "Emergency management plan 需 outline response in the case of emergencies。"
+    ]
+  },
+  {
+    "code": "C04",
+    "zh_name": "使用者問卷",
+    "zh_summary": "要求專案定期蒐集 building users 對健康、福祉、滿意度與 WELL strategies 的回饋。考點是可用第三方或自訂問卷，但必須保護受訪者身分、由合格專業者分析，並 annually 回報結果。",
+    "zh_specs": [
+      "Part 1 Option 1：For projects with ten or more eligible employees，選用 pre-approved survey providers。",
+      "Pre-approved survey providers 包含 Occupant Indoor Environmental Quality (IEQ) SurveyTM、BUS Wellbeing Survey、SHE survey、SPEQ 等。",
+      "Part 2 Option 1：All eligible employees are invited to participate in the survey annually。",
+      "需 regular reminders 給 eligible employees 完成 survey。",
+      "Survey 需用 anonymous reporting、safe data storage 等措施保護 participant-identifying data。",
+      "Analysis of responses 需由 qualified survey professional 執行；結果需 annually 透過 WELL digital platform 提交。"
+    ]
+  },
+  {
+    "code": "C05",
+    "zh_name": "強化使用者問卷",
+    "zh_summary": "在 C04 基礎上，要求更深入、客製化地評估 occupants 的健康、福祉與環境滿意度。重點包含 enhanced survey、pre- and post-occupancy survey、改善行動計畫，以及 annual qualitative research。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；For Office Spaces。",
+      "Enhanced survey administration 適用 projects with ten or more eligible employees，且需 meet Feature C04 Part 1 using Option 1。",
+      "需針對 Appendix C2 至少 at least one topic，加入 at minimum three additional survey questions。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；pre-occupancy survey 與 C04 Part 1 post-occupancy survey 使用 same provider。",
+      "Part 3：建立並執行 action plan，包含 aspirational satisfaction thresholds 與 strategies for improving unmet satisfaction thresholds。",
+      "Part 4：annually conducts stakeholder interviews, focus groups and/or observation，並由 professional experienced in qualitative research 執行與分析。"
+    ]
+  },
+  {
+    "code": "C06",
+    "zh_name": "健康服務與福利",
+    "zh_summary": "要求專案提供 comprehensive health benefits、on-demand health services 與 paid sick leave。目的在於讓 eligible employees 與 designated dependents 可取得基本醫療、心理健康、性與生殖健康等支持，並在生病時能安心休假。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 2 Pt | WELL Core: 1 Pt；health benefits plan 需 available to all eligible employees and their designated dependents at no cost or subsidized。",
+      "Health benefits plan 至少包含 Medical care、Dental care、Vision care、Mental health and substance use services、Sexual and reproductive health services。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；health services 可 on-site、in-person within 0.25 mi(400 m) of the project boundary，或透過 telemedicine provider / digital health platform。",
+      "On-demand health services 需由 experienced and qualified healthcare providers 提供 confidential medical treatment。",
+      "需有 scheduling system，允許 drop-ins and/or appointment booking。",
+      "Part 3：至少 At least 10 days of sick leave，paid at 50% or higher，during any 12-month period，且 distinct from paid time off and family leave。"
+    ]
+  },
+  {
+    "code": "C07",
+    "zh_name": "強化健康與福祉推廣",
+    "zh_summary": "要求組織以溝通、健康促進方案與高階領導角色建立 culture of health。考點是定期 communication、WELL 十大概念相關教育，以及 executive-level employee 對健康策略的責任。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "需提供 Monthly digital communications 給 employees and/or regular occupants。",
+      "Monthly digital communications 需 reinforce culture of health、market health promotion policies and programs、highlight occupant stories。",
+      "教育內容需涵蓋 at least two topics within the ten WELL concepts。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "Project 需有 at least one dedicated executive-level employee，主要負責規劃與監督 physical, mental and emotional health and well-being 策略；可為 Chief Wellness Officer。"
+    ]
+  },
+  {
+    "code": "C08",
+    "zh_name": "新手父母支持",
+    "zh_summary": "要求專案以 parental leave policy 支持新手父母在懷孕、出生、收養或安置後照顧孩子。重點是提供 primary caregiver and/or birthing parent 足夠長度的 leave，並依原文表格提供部分 paid parental leave。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 3 Pt | WELL Core: 1.5 Pt。",
+      "Policy 需適用 all eligible employees。",
+      "At least 40 weeks of parental leave are offered to the designated primary caregiver and/or the birthing parent。",
+      "Parental leave 可 during any 12-month period 使用，且可 non-consecutively during pregnancy or within the first three years of a child’s life。",
+      "At least some portion of the primary caregiver’s and/or the birthing parent’s parental leave is paid per the table below。",
+      "Paid parental leave 需 offered to the designated primary caregiver during any 12-month period during pregnancy, after birth or placement。"
+    ]
+  },
+  {
+    "code": "C09",
+    "zh_name": "新手媽媽支持",
+    "zh_summary": "要求專案以哺乳休息時間、補助、諮詢與 lactation room 支持 breastfeeding。核心是讓員工能在工作場所安全、隱私且有設備地 pumping，並降低回職場後維持哺乳的阻力。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "Paid break times for pumping：at least 15-20 minutes every 2-3 hours，或 2-3 pumping sessions per eight-hour workday。",
+      "Portable breast pump 需 one-time coverage or a subsidy of at least 50%，或提供 hospital-grade electric pump for multiple users。",
+      "Postpartum lactation counseling 與 back-to-work lactation counseling 需 offered at no cost or subsidized by at least 50%。",
+      "Part 2：WELL Certification: 2 Pt | WELL Core: 1 Pt；提供 at least one dedicated lactation room。",
+      "Lactation room 至少 7 ft x 7 ft(2.1 m × 2.1 m)，並包含 work surface、comfortable chair、at least two electrical outlets、user-operated lock with occupancy indicator 與 booking system。"
+    ]
+  },
+  {
+    "code": "C10",
+    "zh_name": "家庭支持",
+    "zh_summary": "要求專案提供 childcare support、family leave 與 bereavement support，降低員工照顧家庭成員時的工作壓力。重點在於以補助、休假與明確程序支持照護、重大疾病與喪親情境。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；childcare support 需提供 at least three of the listed options。",
+      "Childcare options 包含 on-site childcare centers，或 subsidies of at least 50% for off-site or at-home childcare。",
+      "Back-up childcare coverage 需 at no cost or subsidized by at least 50%。",
+      "Part 2：At least 12 weeks of leave，paid at 75% or higher，during any 12-month period，用於照顧 spouse, domestic partner, child, dependent, parent, parent-in-law, grandparent, grandchild, sibling or other designated relation。",
+      "Part 3：Bereavement support 至少包含 protocol for notifying employers of the loss。",
+      "Bereavement leave 至少 At least 20 days；其中 at least five days of paid leave 用於 child, spouse, parent or dependent；at least three days paid at 75% or higher 用於 family member, colleague or friend。"
+    ]
+  },
+  {
+    "code": "C11",
+    "zh_name": "公民參與",
+    "zh_summary": "要求專案透過 volunteerism、charitable activities 與 public community space 促進 occupants 與周邊社區的連結。考點是至少選擇指定數量的 community engagement 措施，或提供符合條件的公共空間。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 0.5 Pt；至少 At least two of the listed requirements are met。",
+      "可提供 volunteer activities 的 paid time off：at least 16 hours of paid time annually，且 separate from vacation, sick or other paid time off。",
+      "可提供 volunteer opportunities list，至少 at least one opportunity per month，並由 employer 組織 at least eight hours for a registered charity or non-profit。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "Community space 需 made available to the public at no cost，且至少 2,000 ft2(186 m2)。",
+      "Community space 需 open at all times，除非因 security purposes 或 special events 關閉，並以 signage or other communication 標示開放時間與 public use。"
+    ]
+  },
+  {
+    "code": "C12",
+    "zh_name": "多元與共融",
+    "zh_summary": "要求專案透過第三方 certification/reporting program 或 custom internal program 推動 diversity and inclusion。核心是公開揭露成果、定期檢視政策與訓練，並移除 identified areas of bias。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 3 Pt | WELL Core: 3 Pt。",
+      "Option 1: Third-party program 可得 1 point。",
+      "Option 1 需參與 approved third-party certification or reporting program listed on IWBI’s website。",
+      "Option 1 結果需 made publicly available on-site and/or on the organization's website。",
+      "Option 2: Custom program 需 meets at least three of the listed requirements per the table below。",
+      "Custom internal program 需 annually reviewing policies and trainings to remove identified areas of bias。"
+    ]
+  },
+  {
+    "code": "C13",
+    "zh_name": "可及性與通用設計",
+    "zh_summary": "要求專案超越最低 accessibility laws and/or codes，以 universal design accommodate diverse abilities and needs。考點是把通用設計落實在 physical access、developmental and intellectual health 等類別，而不只是符合法規。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 2 Pt | WELL Core: 3 Pt。",
+      "For All Spaces：需考量 best practices in universal design。",
+      "需在每個指定類別中至少 implement at minimum one design, operations or policy strategy。",
+      "Physical access 類別涵蓋 entry, exit and key interaction points，支持 inclusive entrance 與 flexible usability。",
+      "Physical access 例子包含 stair-free entrances、step-free egress、operable windows、automatic doors。",
+      "Developmental and intellectual health 類別包含使用 color, texture, images 等策略支持不同認知需求。"
+    ]
+  },
+  {
+    "code": "C14",
+    "zh_name": "緊急資源",
+    "zh_summary": "要求專案準備 emergency response resources、opioid response kits 與相關訓練，以提升緊急事件當下的應變能力。核心包括 first aid kit、AEDs、視聽警示系統、naloxone 與受訓人員資訊。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 2 Pt；Emergency resources 需包含 at least three of the listed resources。",
+      "可提供 emergency procedures information 給 all guests upon entrance to the building。",
+      "可提供 building emergency notification system，含 auditory and visual indicators of emergency。",
+      "需 at least one first aid kit per floor meeting requirements of Appendix C3。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 2 Pt；All emergency preparedness or first aid kits include Naloxone rescue kits。",
+      "Opioid response kit 需含 naloxone preparation/administer instructions、immediate next steps，以及 on-site 已受 opioid response training 人員與 contact information。"
+    ]
+  },
+  {
+    "code": "C15",
+    "zh_name": "緊急韌性與復原",
+    "zh_summary": "要求專案建立 business continuity plan、emergency resilience 支持與 post-emergency re-entry plan。重點是維持組織關鍵功能、支援 occupants 在緊急事件中的基本需要，並安全恢復建築使用。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 1 Pt；需 implement a business continuity plan (BCP)。",
+      "BCP 需 determine critical business functions, processes, supporting resources and dependencies。",
+      "Business continuity team 需 convenes twice annually (at minimum) to review, test and update the plan。",
+      "Part 2：WELL Certification: 1 Pt | WELL Core: 1 Pt；至少 implement at least one listed resilience strategy。",
+      "Employee assistance fund 可用於 at least two critical scenarios，例如 sheltering from domestic violence or abuse、quarantine due to infectious disease exposure、damage to employee housing from a disaster。",
+      "Part 3：re-entry plan 需包含 consultation with regular occupants、water/mechanical/electrical/ventilation/life safety systems inspections，以及 responsible roles。"
+    ]
+  },
+  {
+    "code": "C16",
+    "zh_name": "住宅公平",
+    "zh_summary": "要求住宅專案配置 affordable housing units，讓低收入租戶能以較可負擔方式入住健康住宅。核心是依 local median household income 或 Area Median Income (AMI) 設定 income limit，並以 allocated units 比例換取分數。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 2 Pt | WELL Core: 2 Pt。",
+      "For Dwelling Units：需配置一定 percentage of units 給 incomes are at or below an income limit 的 tenants。",
+      "Income limit 需 relative to local median household income [e.g., Area Median Income (AMI)]，並 adjusted for family size。",
+      "表格條件包含 Units Allocated、Income Limit Selected、Points。",
+      "20% or more units allocated 對應 0 - 50% of local median，Points: 1。",
+      "40% or more units allocated 對應 51 - 80% of local median。"
+    ]
+  },
+  {
+    "code": "C17",
+    "zh_name": "負責任勞動實務",
+    "zh_summary": "要求專案辨識並揭露 operations and supply chain 中與 modern slavery 相關的不公平勞動風險。接著必須以 annual targets 與 action plan 推動 anti-slavery、responsible procurement 等策略。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "需 annually 針對 Tier 1 suppliers 進行 comprehensive mapping of structure, operations and supply chains。",
+      "適用 sectors 包含 Construction、Cleaning、Catering、Security、Maintenance。",
+      "需 annually conduct risk assessment，評估 operations and Tier 1 suppliers (at minimum) 的 modern slavery 相關風險。",
+      "Part 2：WELL Certification: 2 Pt | WELL Core: 2 Pt；Projects may only achieve this part if Part 1 is also achieved。",
+      "Action plan 需 establish annual targets，並納入 Anti-slavery and -human trafficking policies、Responsible procurement 等策略。"
+    ]
+  },
+  {
+    "code": "C18",
+    "zh_name": "家暴受害者支持",
+    "zh_summary": "要求專案建立 domestic violence policy，提供受害員工休假、隱私保護與資源教育。核心是讓 victims of domestic violence 能在不增加工作風險的情況下取得時間與支援。",
+    "zh_specs": [
+      "Part 1：WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "Domestic violence policy 需 provides at least ten days of leave。",
+      "Leave 需 paid at the employee’s full salary or wages，during any 12-month period。",
+      "Leave 用於 employees who are victims of domestic violence，且 distinct from paid time off, sick leave and family leave。",
+      "若 requiring incident disclosure for employees to qualify，需 protect employee privacy and encourage reporting。",
+      "Policy 不得 require a minimum qualifying period of employment before eligibility。"
+    ]
+  }
+]

@@ -1,0 +1,680 @@
+{
+  "module": "M09",
+  "frameworks": [
+    {
+      "id": "M09_F1",
+      "name": "心理健康政策與服務",
+      "desc": "M01 Mental Health Promotion、M03 Mental Health Services 與 M04 Mental Health Education 透過 supportive programs、policies、resources、training 與 services 支援 mental well-being。",
+      "covers": [
+        "M01 Mental Health Promotion",
+        "M03 Mental Health Services",
+        "M04 Mental Health Education",
+        "mental well-being",
+        "mental health training"
+      ]
+    },
+    {
+      "id": "M09_F2",
+      "name": "自然、地方感與美感",
+      "desc": "M02 Nature and Place 與 M09 Enhanced Access to Nature 要把 natural environment、culture、place、art、beauty 與 access to nature 整合到專案。",
+      "covers": [
+        "M02 Nature and Place",
+        "M09 Enhanced Access to Nature",
+        "biophilia",
+        "culture",
+        "place"
+      ]
+    },
+    {
+      "id": "M09_F3",
+      "name": "壓力管理與恢復",
+      "desc": "M05 Stress Management、M06 Restorative Opportunities、M07 Restorative Spaces 與 M08 Restorative Programming 針對 stress sources、restoration、quiet zones 與 restorative programming。",
+      "covers": [
+        "M05 Stress Management",
+        "M06 Restorative Opportunities",
+        "M07 Restorative Spaces",
+        "M08 Restorative Programming",
+        "stress management"
+      ]
+    },
+    {
+      "id": "M09_F4",
+      "name": "成癮與物質使用介入",
+      "desc": "M10 Tobacco Cessation 與 M11 Substance Use Services 關注 tobacco cessation、substance abuse and addiction support services、workplace policies 與 access to resources。",
+      "covers": [
+        "M10 Tobacco Cessation",
+        "M11 Substance Use Services",
+        "tobacco cessation",
+        "substance use services",
+        "addiction support"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M09_Q01",
+      "stem": "A non-profit is working on their WELL Certification for their outreach facility. What sort of mental health promotion program must the organization offer to all regular occupants in order to support their mental health and well-being?",
+      "options": [
+        {
+          "key": "A",
+          "text": "At least one program."
+        },
+        {
+          "key": "B",
+          "text": "At least two programs."
+        },
+        {
+          "key": "C",
+          "text": "At least one quarterly program."
+        },
+        {
+          "key": "D",
+          "text": "At least one weekly program."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature M01: Mental Health Promotion.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q02",
+      "stem": "Projects seeking points in Part 1: Promote Mental Health and Well-being of Feature M01: Mental Health Promotion lists requirements that support and promote occupant mental health. What is one of these requirements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Education or awareness efforts on mental health and well-being, offered quarterly, either in-person or virtually."
+        },
+        {
+          "key": "B",
+          "text": "Offer work-breaks every morning that include wellness quotes and quick health tips."
+        },
+        {
+          "key": "C",
+          "text": "Send daily emails with inspirational quotes and simple health tips."
+        },
+        {
+          "key": "D",
+          "text": "Encourage employees to sign up for a library card along with a list of pre-approved book recommendations."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Projects seeking points in Part 1: Promote Mental Health and Well-being need at \nleast two of the following to be available to all employees and students at no cost:",
+      "framework_hint": "M09_F1"
+    },
+    {
+      "id": "M09_Q03",
+      "stem": "Mental health awareness is emerging as an important workplace topic. Failure to address mental health in the workplace contributes to the following:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lower cohesion in employee collaboration projects."
+        },
+        {
+          "key": "B",
+          "text": "Higher employee productivity, but with greater health risks."
+        },
+        {
+          "key": "C",
+          "text": "High turnover, absenteeism and increased possibility of accidents."
+        },
+        {
+          "key": "D",
+          "text": "Although important, no measurable drawbacks are associated with not addressing mental health in the workplace."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Feature M01: Mental Health Promotion Overview.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q04",
+      "stem": "Alice is tired from working late nights on a project at work and her office has a space provided for short naps. In Feature M06: Restorative Opportunities, which of the following furniture options should her office have available in the in the space for employees to relax?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A comfortable mattress on a cot."
+        },
+        {
+          "key": "B",
+          "text": "At least one fully reclining furniture option."
+        },
+        {
+          "key": "C",
+          "text": "A couch measuring at least 1.8m (6 ft) between the armrests."
+        },
+        {
+          "key": "D",
+          "text": "An empty space with a sleeping bag and mat."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q05",
+      "stem": "A WELL building in California knows employee health is one of the most important aspects of the WELL Building Standard™ because it impacts aspects of work including productivity, concentration and even the health of coworkers. Which of the following should be offered to employees in accordance with Feature M03: Mental Health Services?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A licensed counselor on-site for each 60 employees."
+        },
+        {
+          "key": "B",
+          "text": "Workplace policies that encourage ill employees to stay home or work remotely."
+        },
+        {
+          "key": "C",
+          "text": "Mental health days in addition to sick days."
+        },
+        {
+          "key": "D",
+          "text": "Mental health screening for common mental health conditions."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M09_F1"
+    },
+    {
+      "id": "M09_Q06",
+      "stem": "Feature M05: Stress Management requires projects to assess stress within the organization and create a plan for relieving or modifying sources of stress. What is Part 1 of this WELL feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Develop Stress Management Plan."
+        },
+        {
+          "key": "B",
+          "text": "Identify Opportunities to Address Employee Stress."
+        },
+        {
+          "key": "C",
+          "text": "Addressing Employee Stress."
+        },
+        {
+          "key": "D",
+          "text": "Organizational Decisions By Employees."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Part 1: Develop Stress Management Plan of Feature M05: Stress Management \nrequires a project to develop a stress management plan for this feature.",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q07",
+      "stem": "A company in Portland knows connection to nature can allow for relief of stress. What can this company do to fulfill the requirements of Feature M02: Nature and Place?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Incorporate a water feature on each floor of the building."
+        },
+        {
+          "key": "B",
+          "text": "Integrate natural materials, plants, water and views of nature."
+        },
+        {
+          "key": "C",
+          "text": "Subsidize desk plants and instructions on their care."
+        },
+        {
+          "key": "D",
+          "text": "Nature-themed wallpaper and decoration."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q08",
+      "stem": "A building manager in Washington wants to increase the morale and mood of her employees. In Feature M02: Nature and Place, which of the following areas should she incorporate nature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Parking deck"
+        },
+        {
+          "key": "B",
+          "text": "Restrooms"
+        },
+        {
+          "key": "C",
+          "text": "Common circulation routes"
+        },
+        {
+          "key": "D",
+          "text": "Elevators"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q09",
+      "stem": "How is mental health defined by the WELL Building Standard?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A state of and base understanding of physical, mental and social well-being and not merely the absence of disease or infirmity."
+        },
+        {
+          "key": "B",
+          "text": "The degree to which individuals can obtain, process and understand the basic health information and services they need to make appropriate health decisions."
+        },
+        {
+          "key": "C",
+          "text": "Any combination of learning experiences designed to help individuals and communities improve their health, by increasing their knowledge or influencing their attitudes."
+        },
+        {
+          "key": "D",
+          "text": "A state of well-being in which every individual realizes his or her own potential, can cope with the normal stresses of life, can work productively and fruitfully and is able to make a contribution to her or his community."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Mind concept overview.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q10",
+      "stem": "An office building in New York is planning an initiative to include mental health education in their WELL portfolio. Which of the following would fulfill the requirement of Feature M04: Mental Health Education?",
+      "options": [
+        {
+          "key": "A",
+          "text": "In-person or virtual trainings on common mental health conditions, including signs and symptoms of mental health distress."
+        },
+        {
+          "key": "B",
+          "text": "In-person only trainings on mental health awareness."
+        },
+        {
+          "key": "C",
+          "text": "Links to a virtual mental health resource library distributed by email."
+        },
+        {
+          "key": "D",
+          "text": "Off-site trainings on common mental health conditions."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M09_F1"
+    },
+    {
+      "id": "M09_Q11",
+      "stem": "What are some of the common mental health conditions or concerns that mental health education should cover?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Personality disorders and other less-recognizable stigmatizing conditions."
+        },
+        {
+          "key": "B",
+          "text": "Depression, anxiety, substance use, stress and social isolation."
+        },
+        {
+          "key": "C",
+          "text": "Generalized anxiety and bipolar depression."
+        },
+        {
+          "key": "D",
+          "text": "Chronic disease caused by stress."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature M04: Mental Health Education.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q12",
+      "stem": "A sustainability manager is developing a stress management plan for Feature M05: Stress Management. What outline will the plan require for implementation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Why, Space and Amenities."
+        },
+        {
+          "key": "B",
+          "text": "Desk, Dining, Decompress and Disperse."
+        },
+        {
+          "key": "C",
+          "text": "Who, What, Where, When and Availability."
+        },
+        {
+          "key": "D",
+          "text": "Employee Representative, Building Owner and Project Manager."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q13",
+      "stem": "According to the WELL Building Standard, employees need sufficient opportunities to psychologically detach and recover during non-work hours. What requirements must be met for all employees in Feature M06: Restorative Opportunities?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A minimum of 60 hours off spread across each work week."
+        },
+        {
+          "key": "B",
+          "text": "A minimum of 4 hours off per 11-hour period."
+        },
+        {
+          "key": "C",
+          "text": "A minimum of 11 hours off per 24-hour period."
+        },
+        {
+          "key": "D",
+          "text": "There is no minimum time off requirement."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q14",
+      "stem": "Restorative spaces are designed to promote restoration and relief from mental fatigue or stress. How should a restorative space be designated for Feature M07: Restorative Spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "As a napping room."
+        },
+        {
+          "key": "B",
+          "text": "For community and place."
+        },
+        {
+          "key": "C",
+          "text": "For meditation."
+        },
+        {
+          "key": "D",
+          "text": "For relaxation."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q15",
+      "stem": "Workday breaks are a way to encourage employees to use restorative breaks. What is another way to encourage the use of restorative spaces in Feature M07: Restorative Spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paid breaks away from workstations."
+        },
+        {
+          "key": "B",
+          "text": "15-minute walking break."
+        },
+        {
+          "key": "C",
+          "text": "Paid breaks from staff meetings."
+        },
+        {
+          "key": "D",
+          "text": "Two paid breaks in an 8-hour workday."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q16",
+      "stem": "A library in Orlando is looking to satisfy the M07: Restorative Spaces. How much space is required for a restorative space designation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "At least one 10 ft x 10 ft room."
+        },
+        {
+          "key": "B",
+          "text": "At least 75 ft2 plus 1 ft2 per regular occupant, up to 2,000 ft2."
+        },
+        {
+          "key": "C",
+          "text": "At least 50 ft2 plus 3 ft2 per regular occupant, up to 3,500 ft2."
+        },
+        {
+          "key": "D",
+          "text": "At least 25 ft2 plus 25 ft2 per regular occupant, up to 3,500 ft2."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q17",
+      "stem": "George is trying to satisfy Feature M08: Restorative Programming by providing restorative programming to his employees. At least two offerings are required from the following: mindfulness training course, mindfulness programming or digital mindfulness offerings. What is the cost to employees for this programming?",
+      "options": [
+        {
+          "key": "A",
+          "text": "No cost to all employees."
+        },
+        {
+          "key": "B",
+          "text": "Subsidized by 75% for eligible employees."
+        },
+        {
+          "key": "C",
+          "text": "No cost or subsidized by at least 50% to eligible employees."
+        },
+        {
+          "key": "D",
+          "text": "No cost for eligible employees."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q18",
+      "stem": "Feature M02: Nature and Place requires the integration of nature throughout the project, as well as design that celebrates the project’s unique identity and inspires human delight. Natural elements such as plants and daylight have been linked with health-promoting benefits, including:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decreased irritation in the work space."
+        },
+        {
+          "key": "B",
+          "text": "Improved air quality of a space."
+        },
+        {
+          "key": "C",
+          "text": "Sense of achievement when caring for a desk plant."
+        },
+        {
+          "key": "D",
+          "text": "Better recovery from job stress and illness."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Natural elements, such as plants and daylight, have been linked with \nhealth-promoting benefits, including decreased levels of depression and anxiety, \nincreased attentional capacity, better recovery from job stress and illness, increased \npain tolerance, and increased psychological well-being.",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q19",
+      "stem": "In order to provide nature access indoors as required for M09: Enhanced Access to Nature, what percentage of workstations should have a direct line of sight to an indoor plant/water feature or an outdoor view of a natural area?",
+      "options": [
+        {
+          "key": "A",
+          "text": "25%"
+        },
+        {
+          "key": "B",
+          "text": "45%"
+        },
+        {
+          "key": "C",
+          "text": "75%"
+        },
+        {
+          "key": "D",
+          "text": "100%"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q20",
+      "stem": "In order to provide nature access indoors, what distance from an interior plant or water feature or an external natural area is required to receive the points for M09: Enhanced Access to Nature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Within 33ft."
+        },
+        {
+          "key": "B",
+          "text": "Within 50ft."
+        },
+        {
+          "key": "C",
+          "text": "Within 75ft."
+        },
+        {
+          "key": "D",
+          "text": "Within 82ft."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q21",
+      "stem": "Tobacco cessation is a feature in which category?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nourishment"
+        },
+        {
+          "key": "B",
+          "text": "Air"
+        },
+        {
+          "key": "C",
+          "text": "Mind"
+        },
+        {
+          "key": "D",
+          "text": "Community"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q22",
+      "stem": "A retail building in Seattle wants to limit tobacco availability in their building. What requirements need to be met for feature M10: Tobacco Cessation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prohibit the sale of cigarettes."
+        },
+        {
+          "key": "B",
+          "text": "Prohibit the sale of e-cigarettes."
+        },
+        {
+          "key": "C",
+          "text": "Add additional cancer awareness labeling to tobacco products."
+        },
+        {
+          "key": "D",
+          "text": "Prohibit the sale of all tobacco products, including e-cigarettes."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M09_F4"
+    },
+    {
+      "id": "M09_Q23",
+      "stem": "The use of alcohol is a leading global risk factor, accounting for how many deaths per year?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.3 million deaths per year"
+        },
+        {
+          "key": "B",
+          "text": "5.8 million deaths per year"
+        },
+        {
+          "key": "C",
+          "text": "4.5 million deaths per year"
+        },
+        {
+          "key": "D",
+          "text": "1.2 million deaths per year"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature M11: Substance Use Services.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q24",
+      "stem": "Feature M11: Substance Use Services requires that a substance abuse policy is in place and clearly communicated to all regular occupants. What does this policy need to cover to fulfill the requirement of this feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "On-site illegal drug use."
+        },
+        {
+          "key": "B",
+          "text": "Alcohol use and the use of legal recreational drugs on-site."
+        },
+        {
+          "key": "C",
+          "text": "Only on-site alcohol use."
+        },
+        {
+          "key": "D",
+          "text": "The use of prescription medication on-site."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F4"
+    },
+    {
+      "id": "M09_Q25",
+      "stem": "Substance abuse education is part of Feature M11: Substance Use Services. This requirement provides for training to address the following topics: management of personal substance use, prescription opioid education and________?",
+      "options": [
+        {
+          "key": "A",
+          "text": "How to report substance abuse in coworkers."
+        },
+        {
+          "key": "B",
+          "text": "Who to contact about substance abuse suspicions."
+        },
+        {
+          "key": "C",
+          "text": "How to appropriately respond to a peer struggling with substance abuse."
+        },
+        {
+          "key": "D",
+          "text": "How to respond to alcohol abuse."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M09_F4"
+    }
+  ]
+}

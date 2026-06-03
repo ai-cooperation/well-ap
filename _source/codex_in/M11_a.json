@@ -1,0 +1,693 @@
+{
+  "module": "M11",
+  "frameworks": [
+    {
+      "id": "M11_F1",
+      "name": "認證流程與角色分工",
+      "desc": "掌握 WELL Certification 的 registration process、eligibility criteria、timeline、WELL project administrator、owner、WELL AP 與 WELL Coaching support team 的角色責任。",
+      "covers": [
+        "WELL Certification",
+        "registration process",
+        "eligibility criteria",
+        "WELL project administrator",
+        "WELL Coaching support team"
+      ]
+    },
+    {
+      "id": "M11_F2",
+      "name": "計分等級與必備門檻",
+      "desc": "WELL v2 是 points-based system，每個 project scorecard 有 110 points available；certification levels 包含 WELL Bronze 40 pts、WELL Silver 50 pts、WELL Gold 60 pts、WELL Platinum 80 pts。",
+      "covers": [
+        "110 points available",
+        "WELL Bronze 40 pts",
+        "WELL Silver 50 pts",
+        "WELL Gold 60 pts",
+        "WELL Platinum 80 pts"
+      ]
+    },
+    {
+      "id": "M11_F3",
+      "name": "文件、Performance Verification 與補救",
+      "desc": "認證管理要能處理 WELL digital platform submissions、Performance Verification、non-passing performance verification results 與 corrective actions。",
+      "covers": [
+        "WELL digital platform",
+        "Performance Verification",
+        "WELL Performance Testing Agent",
+        "corrective actions",
+        "documentation process"
+      ]
+    },
+    {
+      "id": "M11_F4",
+      "name": "AAP、等同性與 Innovation",
+      "desc": "考試會測 Alternative Adherence Paths (AAP)、equivalencies、precertification、recertification 及 Innovation；WELL v2 另可在 Innovation concept 追求 additional ten points，I01-I05 包含 Innovate WELL 與 WELL AP。",
+      "covers": [
+        "Alternative Adherence Paths",
+        "equivalencies",
+        "precertification",
+        "recertification",
+        "I01 Innovate WELL",
+        "I02 WELL Accredited Professional"
+      ]
+    },
+    {
+      "id": "M11_F5",
+      "name": "WELL Portfolio 範疇與評分",
+      "desc": "WELL Portfolio Program 要理解 portfolio scope、eligibility requirements、scales of documentation、review process 與 factors that influence the WELL Portfolio score。",
+      "covers": [
+        "WELL Portfolio",
+        "portfolio scope",
+        "eligibility requirements",
+        "scales of documentation",
+        "WELL Portfolio score"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M11_Q01",
+      "stem": "What is the minimum points per concept that an existing two-story retail building must earn in the Mind Concept to qualify for WELL Platinum certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q02",
+      "stem": "The WELL Building Standard was pioneered by which group?",
+      "options": [
+        {
+          "key": "A",
+          "text": "USGBC"
+        },
+        {
+          "key": "B",
+          "text": "Cleveland Clinic"
+        },
+        {
+          "key": "C",
+          "text": "Delos"
+        },
+        {
+          "key": "D",
+          "text": "International WELL Building Institute (IWBI)"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q03",
+      "stem": "For a new office building project, failure to meet the requirements of which feature would prevent the project from earning WELL certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature A07.1 Provide Operable windows"
+        },
+        {
+          "key": "B",
+          "text": "Feature W02.1 Meet Chemical Thresholds"
+        },
+        {
+          "key": "C",
+          "text": "Feature T05.2 Implement Radiant Cooling"
+        },
+        {
+          "key": "D",
+          "text": "Feature C08.1 Offer New Parent Leave’"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q04",
+      "stem": "What percentage of the total building floor must be available for performance testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.5%"
+        },
+        {
+          "key": "B",
+          "text": "5%"
+        },
+        {
+          "key": "C",
+          "text": "25%"
+        },
+        {
+          "key": "D",
+          "text": "50%"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q05",
+      "stem": "Who is responsible for completing a test after occupancy that confirms the project meets minimum air quality requirements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "General Contractor"
+        },
+        {
+          "key": "B",
+          "text": "Commissioning Authority"
+        },
+        {
+          "key": "C",
+          "text": "WELL Assessor"
+        },
+        {
+          "key": "D",
+          "text": "MEP Engineer"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q06",
+      "stem": "Projects must achieve all preconditions. How many points per concept must a project achieve to reach Silver Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q07",
+      "stem": "How many preconditions are there that a project must meet?",
+      "options": [
+        {
+          "key": "A",
+          "text": "18"
+        },
+        {
+          "key": "B",
+          "text": "24"
+        },
+        {
+          "key": "C",
+          "text": "48"
+        },
+        {
+          "key": "D",
+          "text": "52"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q08",
+      "stem": "To verify that the building continues to perform in accordance with the WELL Building Standard, New and Existing Building projects must apply for recertification how often?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Every 3 years"
+        },
+        {
+          "key": "B",
+          "text": "Every 5 years"
+        },
+        {
+          "key": "C",
+          "text": "Every 4 years"
+        },
+        {
+          "key": "D",
+          "text": "Re-certification is not applicable"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q09",
+      "stem": "A project team is anticipating that their project will earn a score of 60. What award level does this score correspond to?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Silver"
+        },
+        {
+          "key": "B",
+          "text": "Platinum"
+        },
+        {
+          "key": "C",
+          "text": "Gold"
+        },
+        {
+          "key": "D",
+          "text": "Bronze"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q10",
+      "stem": "Tobacco Cessation is a feature in which category?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nourishment"
+        },
+        {
+          "key": "B",
+          "text": "Air"
+        },
+        {
+          "key": "C",
+          "text": "Mind"
+        },
+        {
+          "key": "D",
+          "text": "Community"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q11",
+      "stem": "How many WELL concept advisors participated in creating WELL v2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50+"
+        },
+        {
+          "key": "B",
+          "text": "112+"
+        },
+        {
+          "key": "C",
+          "text": "150+"
+        },
+        {
+          "key": "D",
+          "text": "275+"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q12",
+      "stem": "How many possible points may a project pursue in the Innovation Concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "18"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q13",
+      "stem": "How many concepts are there in WELL v2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q14",
+      "stem": "From the date of registration, how long do projects teams utilizing WELL have to complete documentation submission and schedule Performance Verification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 years from the date of registration"
+        },
+        {
+          "key": "B",
+          "text": "3 years from the date of registration"
+        },
+        {
+          "key": "C",
+          "text": "2 years from the date of the on-site Performance Verification"
+        },
+        {
+          "key": "D",
+          "text": "3 years from the date of the on-site Performance Verification"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q15",
+      "stem": "Which of the following is NOT a type of licensed professional that can sign a Letter of Assurance for a WELL Feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Architects"
+        },
+        {
+          "key": "B",
+          "text": "Contractors"
+        },
+        {
+          "key": "C",
+          "text": "Property Managers"
+        },
+        {
+          "key": "D",
+          "text": "Engineers"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q16",
+      "stem": "Which of the following are types of annotated documents that must be turned in for a WELL certification application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Floor plans and lighting specifications"
+        },
+        {
+          "key": "B",
+          "text": "Lighting drawings and floor plans"
+        },
+        {
+          "key": "C",
+          "text": "Design drawings and operations schedules"
+        },
+        {
+          "key": "D",
+          "text": "Furniture plans and equipment schedules"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q17",
+      "stem": "An existing building is ready to begin the WELL certification process. They have registered the project and are gathering project documentation. At what point should the project team schedule the Performance Verification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "As soon as possible"
+        },
+        {
+          "key": "B",
+          "text": "After the Documentation Review phase is marked approved in WELL Online"
+        },
+        {
+          "key": "C",
+          "text": "Once the project has 12 months of 100% occupied data"
+        },
+        {
+          "key": "D",
+          "text": "As soon as the WELL Assessor has been assigned to the project"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q18",
+      "stem": "Which of the following conditions must be met for a new building project team to schedule the WELL Performance Verification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4 months since the spaces certificate of occupancy was issued and 50% occupancy achieved."
+        },
+        {
+          "key": "B",
+          "text": "Commissioning complete and documentation submitted."
+        },
+        {
+          "key": "C",
+          "text": "Documentation approved, at least one month since certificate of occupancy issued, and 50% occupancy achieved."
+        },
+        {
+          "key": "D",
+          "text": "One month since the certificate of occupancy issued and commissioning complete."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q19",
+      "stem": "If a project is so expansive that a single WELL Assessor cannot complete the Performance Verification in a reasonable amount of time, what alternative path is available to the WELL Assessors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add up to 1 additional WELL Assessor"
+        },
+        {
+          "key": "B",
+          "text": "Request 1 additional WELL Assessor for every 9,300 m2 (100,100 ft2) of project area"
+        },
+        {
+          "key": "C",
+          "text": "Employ a pre-qualified testing organization that the WELL Assessor oversees"
+        },
+        {
+          "key": "D",
+          "text": "Extend the time that the assigned WELL Assessor is scheduled to perform the Performance Verification"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q20",
+      "stem": "At which website should a project team register their WELL Building project?",
+      "options": [
+        {
+          "key": "A",
+          "text": "projects.wellcertified.com"
+        },
+        {
+          "key": "B",
+          "text": "wellcertified.com"
+        },
+        {
+          "key": "C",
+          "text": "wellbuilding.com"
+        },
+        {
+          "key": "D",
+          "text": "wellcertified.com/well"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q21",
+      "stem": "What are the WELL certification levels a project can be awarded?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bronze, Silver, or Gold"
+        },
+        {
+          "key": "B",
+          "text": "Bronze or Silver"
+        },
+        {
+          "key": "C",
+          "text": "Silver or Gold"
+        },
+        {
+          "key": "D",
+          "text": "Bronze, Silver, Gold, or Platinum"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Projects must achieve all preconditions, as well as a certain number of points \ntowards either a Bronze, Silver, Gold, or Platinum Certification.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q22",
+      "stem": "All preconditions are required to be met for WELL v2. How many features is that?",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "18"
+        },
+        {
+          "key": "C",
+          "text": "24"
+        },
+        {
+          "key": "D",
+          "text": "28"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q23",
+      "stem": "After the WELL certification award, which of the following would a project team NOT be required to provide reports on to maintain its status as a WELL Certified project?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Results of occupancy surveys."
+        },
+        {
+          "key": "B",
+          "text": "Proof of maintenance (e.g., logs of cleaning schedules and filter replacement)."
+        },
+        {
+          "key": "C",
+          "text": "New tenant move-in drawings."
+        },
+        {
+          "key": "D",
+          "text": "Ongoing monitoring of environmental parameters (e.g., air and water quality)."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "In order to maintain status as a WELL Certified project, project teams must adhere to \nannual reporting requirements. Certain WELL features require projects to submit \nannual reports via WELL Online regarding the following: \nA. Results of occupancy surveys \nB. Proof of maintenance (e.g., logs of cleaning schedules and filter replacement) \nC. Ongoing monitoring of environmental parameters (e.g., air and water quality)",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q24",
+      "stem": "Which WELL concept requires that in addition to proper HVAC system design, mechanically ventilated projects perform regular system maintenance since inadequate maintenance is associated with reduced ventilation performance and a deterioration in indoor air quality and thermal conditions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thermal Comfort"
+        },
+        {
+          "key": "B",
+          "text": "Air"
+        },
+        {
+          "key": "C",
+          "text": "Movement"
+        },
+        {
+          "key": "D",
+          "text": "Sound"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature A03 Ventilation Design of the WELL Air concept requires projects to bring in \nfresh air from the outside through mechanical and/or natural means in order to \ndilute human- and product-generated air pollutants. With proper HVAC system \ndesign, mechanically ventilated projects need to perform regular system \nmaintenance, since inadequate maintenance is associated with reduced ventilation \nperformance and a deterioration in indoor air quality and thermal conditions.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M11_Q25",
+      "stem": "How many optimizations are available for a WELL v2 project?",
+      "options": [
+        {
+          "key": "A",
+          "text": "76"
+        },
+        {
+          "key": "B",
+          "text": "86"
+        },
+        {
+          "key": "C",
+          "text": "98"
+        },
+        {
+          "key": "D",
+          "text": "115"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "There are 98 optimizations available, 24 preconditions are required, and there are 11 \nconcepts for WELL projects.",
+      "framework_hint": ""
+    }
+  ]
+}

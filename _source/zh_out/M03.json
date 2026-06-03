@@ -1,0 +1,180 @@
+[
+  {
+    "code": "N01",
+    "zh_name": "蔬果供應",
+    "zh_summary": "透過提高水果與非油炸蔬菜的可見度與可取得性，鼓勵 occupants 做出更健康的飲食選擇。只要專案每日販售或提供食物，就需確保 food outlet 有足夠蔬果選項，並把蔬果放在容易被看到與選到的位置。",
+    "zh_specs": [
+      "All Spaces except Commercial Dining Spaces：每日販售或提供食物時，每個 food outlet 至少提供 at least two varieties of fruits (containing no added sugar) 與 at least two varieties of non-fried vegetables。",
+      "All Spaces except Commercial Dining Spaces 可替代達標：At least 50% of available food options are fruits (containing no added sugar) and/or non-fried vegetables。",
+      "Commercial Dining Spaces：至少提供 at least four varieties of fruits (containing no added sugar) 與 at least four varieties of non-fried vegetables。",
+      "蔬果需符合至少一種 visibility 策略：eye-level or just below eye-level、countertop/table/visible surface、point-of-sale or point-of-purchase、end of aisles、beginning of food service lines 或 visible from the food outlet entrance。",
+      "Commercial Dining Spaces 可用 Healthy menu design 作為蔬果推廣路徑。"
+    ]
+  },
+  {
+    "code": "N02",
+    "zh_name": "營養透明",
+    "zh_summary": "讓 occupants 在 point-of-decision 能看懂食物的熱量、營養成分、糖含量與過敏原資訊，以支持知情選擇。Commercial Dining Spaces 還需處理 standard menu items 的 calorie labeling、food allergy training 與高糖標示。",
+    "zh_specs": [
+      "包裝食品、飲料、vending machines 與 self-service bulk foods 每日販售或提供時，需在 packaging or adjacent signage 清楚顯示 nutrition information。",
+      "營養資訊至少包含 Total calories per serving or package、Macronutrient content（total protein, total fat and total carbohydrate）與 Total sugar content per serving or package。",
+      "Commercial Dining Spaces 若每日現場備餐，all food service staff 需 annual food allergy training，主題含 Overview of food allergies、Anaphylaxis、Emergency response、Communications protocols、Reducing risk for cross-contact、Use of recipes and ingredient disclosure、Knowledge test。",
+      "Standard menu items 若 do not contain more than 25 g of sugar per serving，可符合 sugar content 要求。",
+      "Standard menu items 也可在 point-of-decision 顯示 total sugar content，或將 containing more than 25 g of sugar per serving 的品項以 icon 標示並提供 icon 說明與 high sugar intake 風險。"
+    ]
+  },
+  {
+    "code": "N03",
+    "zh_name": "精製成分",
+    "zh_summary": "限制高糖食品與飲料，並提高 whole grains 在穀物食品中的比例，協助 occupants 避免高度加工與精製成分。考點集中在 25 g sugar 門檻、25% 無糖飲料或免費飲水，以及 50% grain-based foods 的 whole grain 要求。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "Beverages do not contain more than 25 g of sugar per container or serving。",
+      "At least 25% of beverages contain no sugar per container or serving，或 drinking water is available at no cost。",
+      "No non-beverage food item (except whole fruit) contains more than 25 g of sugar per serving。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "In at least 50% of grain-based foods（grain flour as the first ingredient 或 contain ≥30% grain ingredients），a whole grain is the first ingredient；若 whole grain 與 refined grain 同時供應，whole grain options do not cost more。"
+    ]
+  },
+  {
+    "code": "N04",
+    "zh_name": "食物廣告",
+    "zh_summary": "透過限制不健康食品的促銷與增加健康訊息，影響 point-of-decision 的選擇環境。重點是不得廣告或促銷 sugar-sweetened beverages 與 deep-fried food options，或在用餐區與銷售點提供營養訊息。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "Option 1：Sugar-sweetened beverages are not advertised or promoted。",
+      "Option 1：Deep-fried food options are not advertised or promoted。",
+      "Option 1：Deep-fried food options are not displayed under heat lamps。",
+      "Option 2：All dedicated eating areas and points of sale contain at least two different instances of messaging。",
+      "Nutritional messaging 需 promote the consumption of fruits and vegetables 或 the consumption of drinking water。"
+    ]
+  },
+  {
+    "code": "N05",
+    "zh_name": "人工成分",
+    "zh_summary": "要求專案標示並逐步淘汰或限制人工色素、甜味劑、香料與防腐劑等 artificial ingredients。核心是以最長 three years 的 phase out 管理食物與飲料中列名人工成分的使用、販售與提供。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "Option 1: Artificial ingredient phase out，需在 a maximum of three years 內 phase out 含 listed artificial ingredients 的 foods and beverages。",
+      "Colorings 例：Blue 1 (E133), Blue 2 (E132), Green 3, Orange B, Citrus Red 2, Red 3 (E127), Red 40 (E129), Yellow 5 (E102), Yellow 6 (E110), carmine, cochineal, caramel coloring。",
+      "Sweeteners 例：acesulfame-potassium (acesulfame-k), advantame, aspartame, calcium saccharin, saccharin, sucralose, cyclamate。",
+      "要求範圍包含 use, sale and provision of foods and beverages。"
+    ]
+  },
+  {
+    "code": "N06",
+    "zh_name": "份量大小",
+    "zh_summary": "透過較小份量選項與自助餐具尺寸限制，降低非預期過量攝取與 food waste。Commercial Dining Spaces 每日販售或提供食物時，需控制 standard menu items 的熱量或提供較小、較低價的版本。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "適用於 Commercial Dining Spaces，且 food is sold or provided on a daily basis by (or under contract with) the project owner。",
+      "All standard menu items do not contain more than 650 Cal(650 kCal)。",
+      "若 standard menu item 超過 650 Cal(650 kCal)，至少 at least 50% of all standard menu items containing more than 650 Cal(650 kCal) 需提供 smaller size and lower cost 的版本或 portion。",
+      "Where food is self-serve (e.g., buffet)，dishware does not exceed specified sizes per occupant type。"
+    ]
+  },
+  {
+    "code": "N07",
+    "zh_name": "營養教育",
+    "zh_summary": "以定期教育提升 regular occupants 的 nutrition knowledge 與 food literacy。專案需免費提供烹飪示範、營養課程、個別諮詢或可食植物工作坊等活動，且至少每季一次。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "At least one 教育活動 offered in-person or virtually to regular occupants at no cost。",
+      "活動頻率為 on a quarterly basis at minimum。",
+      "Cooking demonstrations 需由 chef-instructors 帶領，include fruits and/or vegetables、demonstrate cooking skills 並 integrate hands-on learning opportunities。",
+      "Nutrition or dietary education sessions 或 individual nutrition consultations 需由 accredited dietitian or accredited nutritionist 帶領。",
+      "Gardening or planting workshops 需 focused on edible plants 並 integrate hands-on learning opportunities。"
+    ]
+  },
+  {
+    "code": "N08",
+    "zh_name": "正念飲食",
+    "zh_summary": "鼓勵 occupants 在合適空間用餐、休息與社交，避免在工作位置匆忙進食。重點是提供 dedicated eating space，並確保座位、遮蔽或空調環境與不同 seating types 能支持日常用餐。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "適用於 All Spaces except Dwelling Units。",
+      "Dedicated eating space 位於 within a 650 ft(200 m) walk distance of the project boundary。",
+      "Eating space 需 contains tables and chairs to accommodate at least 25% of regular occupants at peak occupancy；多個空間可 combined seating space 達標。",
+      "提供 protection from environmental elements（e.g., direct sunlight, rain, wind）或位於 climate-controlled space。",
+      "需 accommodates a variety of seating types。"
+    ]
+  },
+  {
+    "code": "N09",
+    "zh_name": "特殊飲食",
+    "zh_summary": "為有 dietary restrictions、food allergies 或 intolerances 的使用者提供主餐替代選項，並清楚標示常見過敏原。此 feature 同時考主餐需涵蓋多種限制飲食，以及 foods and beverages 在 point-of-decision 的 allergen labeling。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "Meals sold or provided 需 include main dish options，且分別可滿足：Do not contain peanut、Do not contain gluten、Do not contain dairy、Do not contain egg。",
+      "主餐替代也需涵蓋 Do not contain animal, seafood or dairy products。",
+      "主餐替代也需涵蓋 Do not contain animal or seafood products, except for eggs and dairy。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "Foods and beverages 需在 packaging, menus or signage 的 point-of-decision 清楚標示是否含 Peanut, Fish, Shellfish, Soy, Milk, Egg, Wheat, Tree nuts, Gluten。"
+    ]
+  },
+  {
+    "code": "N10",
+    "zh_name": "備餐支持",
+    "zh_summary": "提供現場重新組裝、保存或加熱餐點所需的空間與設備，讓 occupants 能自備餐食。All Spaces except Dwelling Units & Commercial Kitchen Spaces 需在指定距離內的 dedicated eating area 配置足量支持性 amenities。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "適用於 All Spaces except Dwelling Units & Commercial Kitchen Spaces。",
+      "Supportive amenities 需 in a quantity that meets employee demand，且位於 at least one dedicated eating area within a 650 ft(200 m) walk distance of the project boundary。",
+      "需提供 Cold storage、Countertop surface、Sink and amenities for dish and hand washing。",
+      "需提供 Device for reheating food（e.g., toaster oven, microwave）與 Dedicated cabinets or storage units available for employee use。",
+      "需提供 Reusable, non-plastic plates, bowls, cups and utensils（including spoons, forks and knives）以及 Cans/bins for garbage, recycling and/or compost。"
+    ]
+  },
+  {
+    "code": "N11",
+    "zh_name": "責任食材採購",
+    "zh_summary": "透過 certified organic、Certified Humane® 與永續海鮮認證，降低 pesticide、hormone、antibiotic 暴露並支持 humane livestock practices。專案可選擇以採購比例達標，或透過標示推廣永續與人道農業。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "Option 1: Sustainable sourcing 適用於 foods and beverages are sold or provided on a daily basis by (or under contract with) the project owner。",
+      "At least 50% of the total produce line (fruits and vegetables) is certified organic。",
+      "At least 25% of the total animal product line (meat, seafood, egg and dairy products) is certified organic, Certified Humane® or certified by a GSSI-recognized Seafood Certification Scheme。",
+      "Option 2: Sustainable labeling 需 promoted sustainable and humane agriculture。",
+      "標示範圍包含 certified organic and sustainable 相關食品。"
+    ]
+  },
+  {
+    "code": "N12",
+    "zh_name": "食物生產",
+    "zh_summary": "提供可永久使用且可到達的 onsite food production 空間，增加 occupants 接觸與取得食物的機會。空間可以是 garden、greenhouse、edible landscaping 或 hydroponic/aeroponic farming system，且產出需提供給 regular occupants。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "適用於 All Spaces except Dwelling Units。",
+      "Permanent and accessible space for food production 需位於 within a 0.25 mi(400 m) walk distance of the project boundary。",
+      "空間至少包含 Garden or greenhouse with food-bearing plants、Edible landscaping（e.g., fruit trees, herbs）或 Hydroponic or aeroponic farming system 之一。",
+      "空間需 open to regular occupants during regular building hours。",
+      "空間需 accessible the majority of the days in the operating year，且 foods grown are made available to regular occupants。"
+    ]
+  },
+  {
+    "code": "N13",
+    "zh_name": "在地食物環境",
+    "zh_summary": "在選址或營運規劃中提高 occupants 取得 fresh, local and seasonal fruits and vegetables 的機會。專案可透過靠近超市或 farmers' market，或提供 community-based agriculture 與定期蔬果販售活動達標。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "Option 1: Supportive environment，project 位於 within a 0.25 mi(400 m) walk distance of supermarket or store with a fresh fruit and vegetable section。",
+      "Option 1 也可位於 within a 0.25 mi(400 m) walk distance of Farmers' market。",
+      "Farmers' market 需 open at least once a week and operates for at least four months of the year。",
+      "Option 2: project serves as a distribution point for a community-based agriculture program，delivers fruits and vegetables to regular occupants at least twice a month for at least four months of the year。",
+      "Option 2 也可 project hosts the weekly sale of fruits and vegetables。"
+    ]
+  },
+  {
+    "code": "N14",
+    "zh_name": "紅肉與加工肉",
+    "zh_summary": "提高 plant-based options 的可得性，並降低 red and processed meats 在 point-of-decision 的顯著性。Commercial Dining Spaces 每日供餐時，需提供植物性選項、限制 red meat 單份份量，並在自助線與菜單排序上把紅肉與加工肉放到較不突出的位置。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 1 Pt。",
+      "適用於 Commercial Dining Spaces，且 food is sold or provided on a daily basis by (or under contract with) the project owner。",
+      "At least one plant-based option is available at each food outlet。",
+      "A single portion or serving of red meat, if sold or provided, is no more than 4 oz(115 g) cooked weight。",
+      "Red and processed meats, if sold or provided, are placed at the end of self-serve food service lines。",
+      "Red and processed meats, if sold or provided, are listed last in each menu section or listed on a separate menu and/or menu board。"
+    ]
+  }
+]

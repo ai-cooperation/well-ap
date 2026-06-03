@@ -386,9 +386,11 @@ function answerL2(qid, chosen){
         '這兩者的關鍵差異在哪？打字告訴我你的想法，AI 會根據你的回應分析。';
     }
 
+    var l2Lectures = TQE.getLectureLinks(state.moduleId, q.framework, q);
     fb.innerHTML =
       '<div class="info red"><strong>答案是 ' + q.correct + '</strong>。' + (q.explanation || '') + '</div>' +
       (diag ? '<div class="info gold" style="margin-top:.5rem;"><strong>你的盲區：</strong>' + diag.gap + '</div>' : '') +
+      (l2Lectures ? '<div class="info blue" style="margin-top:.5rem;"><strong>去這裡補強：</strong>' + l2Lectures + '</div>' : '') +
       (fw ? '<div style="margin-top:.5rem;font-size:.9rem;color:var(--g600);">→ 回顧' + term('framework') + '「' + fw.name + '」：' + fw.desc + '</div>' : '') +
       '<div class="tqe-chat" id="l2chat-' + qid + '">' +
       '<div class="tqe-chat-header">AI 追問引擎</div>' +

@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M01_Q26",
+    "stem": "To earn points toward Part 1: Increase Outdoor Air Supply of Feature A06: Enhanced Ventilation Design, minimum fresh air supply rates should exceed ASHRAE by what amount?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "10% or 15%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "20% or 40%",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "30% or 60%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "50% or 80%",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 A06 Enhanced Ventilation Design, Part 1 Increase Outdoor Air Supply 要求 mechanically ventilated projects 的 outdoor air supply rates 超過 ASHRAE 62.1-2010 表定值，門檻分別是 30% 與 60%。這兩個百分比對應可取得的不同 point level。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 enhanced ventilation 誤記成低幅度加成，低估 A06 的加強門檻。",
+        "followup": "如果 A06 Part 1 是要 exceed ASHRAE 62.1，表格中兩個 point thresholds 分別是多少？"
+      },
+      "B": {
+        "gap": "知道需要高於 ASHRAE，但把 30%/60% 與其他常見比例混淆。",
+        "followup": "A06 Part 1 的 increased air supply table 是以哪些百分比換取 1 point 與 2 points？"
+      },
+      "D": {
+        "gap": "將加強新風量想得過高，忽略 WELL 表格列出的實際可行門檻。",
+        "followup": "在 A06 Part 1 中，標準是否要求 80% 這種超高增量，還是只列兩個固定 thresholds？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q27",
+    "stem": "What feature uses displacement ventilation to improve indoor air quality by delivering fresh outdoor air at floor level?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature A06: Enhanced Ventilation Design.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Feature A01: Air Quality.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature A09: Pollution Infiltration Management.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Feature A03: Ventilation Design.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 A06 Enhanced Ventilation Design, Part 2 Improve Ventilation Effectiveness 明列 displacement ventilation system，要求至少 90% regularly occupied spaces 使用此系統並以 ASHRAE RP-949、ASHRAE 62.1-2019 stratified air distribution 或 REHVA Guidebook No. 01 為設計基礎。其原理是從 floor level 供應 fresh outdoor air，讓較暖且污染的空氣往上排出。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 performance threshold 型 feature 誤認為通風系統設計策略。",
+        "followup": "A01 主要是在驗 PM、VOC、CO 等濃度，哪個 A06 Part 才談 displacement ventilation？"
+      },
+      "C": {
+        "gap": "混淆 building envelope infiltration 控制與室內送風分層策略。",
+        "followup": "A09 管的是入口與 envelope 污染滲入；floor-level fresh air delivery 屬於哪個 ventilation effectiveness Part？"
+      },
+      "D": {
+        "gap": "把基本 adequate ventilation 與 enhanced ventilation effectiveness 混在一起。",
+        "followup": "A03 要符合基本 ventilation rates；哪個 A06 Part 才要求 displacement ventilation basis of design？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q28",
+    "stem": "Ensuring interior rooms that may contain sources of air pollution are isolated from adjacent spaces with self-closing doors is a criteria for which of the following WELL Features?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature A01: Air Quality",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Feature A11: Air Source Separation",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Feature A06: Enhanced Ventilation Design",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Feature A13: Enhanced Supply Air",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL v2 A11 Source Separation, Part 1 Manage Pollution and Exhaust 要求 bathrooms、kitchens、cleaning and chemical storage rooms、high-volume printer/copier rooms 與 high-humidity areas 與相鄰 regularly occupied spaces 以 self-closing doors/vestibules 分隔，或相對負壓，並將 exhaust vented outdoors。",
+    "diagnosis": {
+      "A": {
+        "gap": "只看到 air quality 結果，忽略本題問的是污染源隔離手段。",
+        "followup": "A01 驗證濃度是否達標；哪個 feature 直接規定污染源房間要 self-closing doors 或負壓？"
+      },
+      "C": {
+        "gap": "把隔離污染源誤當作提高 outdoor air supply 或 ventilation effectiveness。",
+        "followup": "A06 是增加新風或改善 ventilation effectiveness；隔離 chemical storage room 應看哪個 Part？"
+      },
+      "D": {
+        "gap": "混淆 supply air 處理與污染源房間的物理隔離要求。",
+        "followup": "A13 處理 recirculated supply air；self-closing doors 保護相鄰空間是 A11 哪個要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q29",
+    "stem": "The Property Manager for a Johannesburg office building is installing lobby signage to display real-time data on indoor environmental quality. Which of the following is NOT a required parameter for this display to meet Feature A08: Air Quality Monitoring and Awareness requirements?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Humidity",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Carbon Monoxide",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Carbon Dioxide",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Total VOC's",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 A08 Air Quality Monitoring and Awareness, Part 1 Install Indoor Air Monitors 要求 monitors 至少量測 PM2.5/PM10、carbon dioxide、carbon monoxide、ozone、nitrogen dioxide、total VOCs、formaldehyde 中三項；Part 2 顯示 Part 1 量測到的 air quality data。Humidity 不在這個 A08 indoor air pollutant parameter list 內。",
+    "diagnosis": {
+      "B": {
+        "gap": "忽略 carbon monoxide 是 A08 可監測污染物之一，且有精度要求。",
+        "followup": "A08 Part 1 的七個 monitor parameters 中，carbon monoxide 是否列有 0-10 ppm 的 accuracy？"
+      },
+      "C": {
+        "gap": "把 CO2 當成舒適性資料，忘記它是 A08 明列監測項目。",
+        "followup": "A08 Part 1 對 carbon dioxide sensor 的 750 ppm accuracy 要求，是否代表它可用於顯示？"
+      },
+      "D": {
+        "gap": "未辨識 total VOCs 是 A08 monitor parameter，而非額外選配資料。",
+        "followup": "A08 Part 1 是否把 total VOCs 與 formaldehyde 一起列入可選的監測污染物清單？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q30",
+    "stem": "Which of the following are ongoing requirements for indoor air monitoring in Feature A08: Air Quality Monitoring and Awareness?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Record data at hourly intervals; Send monthly reports to IWBI.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Data is analyzed 24 hours and submitted monthly through WELL Online.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Data are analyzed for regularly occupied hours and submitted to annually through WELL Online.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Data are analyzed and submitted to IWBI.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 A08 Air Quality Monitoring and Awareness, Part 1 Install Indoor Air Monitors requires measurements at intervals of no longer than 10 minutes for carbon dioxide and no longer than one hour for other pollutants, with data submitted annually through the WELL digital platform. Monthly submission is not the stated ongoing pathway.",
+    "diagnosis": {
+      "A": {
+        "gap": "只記到部分 hourly interval，卻把提交頻率誤寫成 monthly。",
+        "followup": "A08 Part 1 對 CO2 與其他 pollutants 的 interval 不同；提交到 WELL digital platform 的頻率是多少？"
+      },
+      "B": {
+        "gap": "把即時監測解讀成全天分析與每月提交，混淆 operation 與 reporting。",
+        "followup": "A08 Part 1 的 reporting & maintenance 是 monthly 還是 annually？標準是否要求 24-hour analysis？"
+      },
+      "D": {
+        "gap": "說法過於籠統，漏掉 A08 對提交頻率與平台的明確要求。",
+        "followup": "若要證明 A08 ongoing compliance，資料應透過哪個 digital platform、多久提交一次？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "A08 requires annual submission through the WELL digital platform, but the standard text does not state analysis for regularly occupied hours for this feature."
+    }
+  },
+  {
+    "id": "M01_Q31",
+    "stem": "A property management company is considering submitting its portfolio of 9 urban office properties for WELL Certification. The property teams are reviewing the requirements for air data record keeping. What should the property teams plan to provide in the WELL application for this feature?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "An Operations Schedule.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "A written policy for each property, including corrective action steps.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Results from flow hood testing that confirm compliance with ASHRAE 62.1 ventilation calculations.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "On-site Photographs, Letter of Assurance – Engineer",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL v2 A08 Air Quality Monitoring and Awareness, Part 1 Install Indoor Air Monitors 要求部署符合參數、密度與位置要求的 monitors；申請文件需能證明設備已設置並符合工程要求。題目所列 documentation 對應 monitor installation and assurance，而不是 ventilation flow testing。",
+    "diagnosis": {
+      "A": {
+        "gap": "把監測設備證明誤認為一般營運時程，未對應 A08 monitor 要求。",
+        "followup": "A08 Part 1 要證明 monitors 的部署、位置與密度；單純 Operations Schedule 能證明哪些設備條件？"
+      },
+      "B": {
+        "gap": "混淆 policy/corrective action 與實際設備安裝佐證文件。",
+        "followup": "本題問 WELL application 的 air data record keeping，A08 是要政策，還是要證明 monitors installed？"
+      },
+      "C": {
+        "gap": "把 A03 ventilation testing 文件套到 A08 air quality monitoring。",
+        "followup": "flow hood testing 驗的是 ASHRAE ventilation rates；A08 monitor density 與 sensor siting 要用什麼文件證明？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q32",
+    "stem": "For Feature A07: Operable Windows, what requirement must be met before integrating operable windows into a building design?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least 75% of regularly occupied spaces have operable windows that provide access to outdoor air.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "At least 25% of regularly occupied spaces have operable windows that provide access to outdoor air.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "All windows in regularly occupied spaces have operable windows that provide access to outdoor air.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "No windows in regularly occupied spaces have operable windows.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 A07 Operable Windows, Part 1 Provide Operable Windows 要求 project meet one of two paths，其中一條是至少 75% regularly occupied spaces 具備可接觸 outdoor air 的 operable windows。另一條是每層 openable window area 至少為 net occupiable floor area 的 4%。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 75% 門檻大幅低估，未掌握 A07 Part 1 的覆蓋比例。",
+        "followup": "A07 Part 1 對 regularly occupied spaces 的 operable windows 覆蓋率，是 25% 還是 75%？"
+      },
+      "C": {
+        "gap": "把 WELL 的比例門檻誤讀成所有空間或所有窗戶皆需可開啟。",
+        "followup": "A07 Part 1 是要求全部 regularly occupied spaces，還是至少 75% 或 4% openable area？"
+      },
+      "D": {
+        "gap": "完全反向理解 operable windows，忽略 feature 的自然通風目標。",
+        "followup": "A07 的 intent 是鼓勵在 outdoor air quality acceptable 時開窗；為何會要求完全沒有 operable windows？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q33",
+    "stem": "A project team in Montreal is designing a new hospital wing for administrative offices. During the schematic design phase, the team has an opportunity to plan for a data-gathering station to measure outdoor air parameters. Where should the team locate the devices to comply with Feature A07: Operable Windows?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Within 3 m (30ft) of the main building entrance.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "On the roof.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Within 4 km (2.5 mi) of the building.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "On the building exterior, halfway between the ground level and the roof.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 A07 Operable Windows, Part 2 Manage Window Use, Option 1 Outdoor air measurement 要求 PM2.5、temperature 與 humidity 至少每小時監測一次，data-gathering station 位於 building 2.5 mi (4 km) 內。該 station 可由 project 或其他 entity 運作。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 outdoor air station 與入口污染控制距離混淆，尺度錯誤。",
+        "followup": "A07 Part 2 允許使用 2.5 mi 範圍內的 station；為何不是入口 3 m 的近距離要求？"
+      },
+      "B": {
+        "gap": "以為設備必須設在屋頂，忽略標準採用距離範圍而非特定位置。",
+        "followup": "A07 Outdoor air measurement 條文要求 station 的高度或屋頂位置，還是要求離 building 的最大距離？"
+      },
+      "D": {
+        "gap": "自行加入外牆高度條件，未回到 A07 對 station location 的明文要求。",
+        "followup": "A07 Part 2 是否提到 halfway between ground and roof，或只指定 within 2.5 mi (4 km)？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q34",
+    "stem": "Which of the following does NOT describe an advantage of displacement ventilation systems?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Air is not delivered and pushed through the return air path (often the dirtiest portion of the air stream).",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "The airflow tends to concentrate pollutants near the ceiling, out of the breathing zone.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Air is delivered at very low velocity, preventing occupant discomfort due to air speed.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Air can be delivered slightly cooler or warmer than the desired space temperature because registers are at raised floor height.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL v2 A06 Enhanced Ventilation Design, Part 2 Improve Ventilation Effectiveness recognizes displacement ventilation because fresh outdoor air is delivered at floor level and warmer polluted indoor air rises above the ventilation zone. The standard does not frame delivery of slightly warmer air from raised-floor registers as an advantage; displacement systems rely on low-level, typically cooler supply air and stratification.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 displacement ventilation 避免混合髒回風的優點誤當錯誤敘述。",
+        "followup": "A06 Part 2 為何強調 floor-level supply 與上方排除 polluted air？這和 return air path 有何關係？"
+      },
+      "B": {
+        "gap": "未掌握熱羽流讓污染物往上離開 breathing zone 的核心機制。",
+        "followup": "displacement ventilation 中 CO2 等 warmer polluted air 會停在 breathing zone，還是往上被排出？"
+      },
+      "C": {
+        "gap": "忽略低速送風是 displacement/personal ventilation 避免 draft discomfort 的設計考量。",
+        "followup": "A06 Part 2 中 personalized ventilation 還限制 head-level airspeed；低速送風為何是舒適性優勢？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q35",
+    "stem": "A developer is planning a new convention center, including over 30 conference rooms of all sizes. The team is interested in pursuing WELL Certification and is considering a displacement ventilation system for the conference rooms. In Part 2: Improve Ventilation Effectiveness of Feature A06: Enhanced Ventilation Design, what must be used as a basis for design for this system?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "ANSI approved",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "ASHRAE Guidelines RP-949 or REHVA Guidebook No. 1",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "ASHRAE 90.1",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "ASHRAE 62.1",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL v2 A06 Enhanced Ventilation Design, Part 2 Improve Ventilation Effectiveness, Option 1 requires a displacement ventilation system in at least 90% of regularly occupied spaces, using ASHRAE Guidelines RP-949、ASHRAE 62.1-2019 Stratified Air Distribution Systems 或 REHVA Guidebook No. 01 as a basis for design. 題目選項中明確列出其中兩個合格依據。",
+    "diagnosis": {
+      "A": {
+        "gap": "把具體 design guide 誤記成泛稱的 ANSI approval，缺少可審查依據。",
+        "followup": "A06 Part 2 Option 1 要求 displacement ventilation 用哪些具名指南作 basis for design？"
+      },
+      "C": {
+        "gap": "把 energy standard ASHRAE 90.1 與 ventilation effectiveness 設計依據混淆。",
+        "followup": "ASHRAE 90.1 主要管能源；A06 displacement ventilation 表中列的是 RP-949、62.1-2019 哪一節或 REHVA？"
+      },
+      "D": {
+        "gap": "知道 ASHRAE 相關，卻未限定到 stratified air distribution 或具體版本。",
+        "followup": "A06 Part 2 不是泛稱 ASHRAE 62.1；它指定 62.1-2019 的哪個 Stratified Air Distribution 內容？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q36",
+    "stem": "What is the primary reason to introduce activated carbon filters to the main air ducts of an existing building?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "To reduce VOCs in the indoor air.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "To reduce HVAC noise from vibration.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "To reduce energy demand.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "To increase thermal comfort.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 A13 Enhanced Supply Air, Part 1 Improve Supply Air requires activated carbon filters when partially recirculated air is treated, paired with media filtration or UVGI. The feature summary and solutions state carbon filters treat VOCs and ozone in recirculated supply air.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 air treatment filter 誤認為機械減振或噪音控制設備。",
+        "followup": "A13 Part 1 的 activated carbon filter 是放在 supply air treatment 中，它要移除哪類污染物？"
+      },
+      "C": {
+        "gap": "把 filtration 目的誤解成節能，忽略其控制污染物的健康目標。",
+        "followup": "A13 的 intent 是 mitigation of contamination and VOCs；哪一項條文提到 carbon filter？"
+      },
+      "D": {
+        "gap": "混淆 thermal comfort 與 air quality treatment，未辨識 carbon 對 VOC 的作用。",
+        "followup": "若主要問題是 VOCs from furnishings and cleaning products，A13 會用 carbon filter 還是溫控策略？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q37",
+    "stem": "Ultraviolet Germicidal Irradiation (UVGI) is one method for treating recirculated air in Feature A13: Enhanced Air Supply. What is another approved treatment method according to this feature?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hepa filter",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Advanced charcoal filter",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Carbon filter",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "None of the above",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 A13 Enhanced Supply Air, Part 1 Improve Supply Air allows partially recirculated air if it is treated with an activated carbon filter plus at least one additional strategy such as media filter with PM2.5 removal ≥90% or UVGI. 因此 carbon filter 是此 feature 明列的 treatment component。",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到 high-efficiency filtration 概念，但標準列的是 media filter ≥90% 而非 Hepa。",
+        "followup": "A13 Part 1 對 particle filtration 寫的是 HEPA，還是 PM2.5 removal ≥90% 的 media filter？"
+      },
+      "B": {
+        "gap": "以近義詞猜測，但未對準標準用語 activated carbon filter。",
+        "followup": "A13 條文使用的正式 filter 名稱是 charcoal，還是 activated carbon filter？"
+      },
+      "D": {
+        "gap": "忽略 A13 明確列出 UVGI 之外仍有 carbon 與 media filtration。",
+        "followup": "A13 Part 1 在 UVGI 之外，還列出哪個必備 filter 來處理 VOCs？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q38",
+    "stem": "In buildings that use forced-air cooling systems, which are strategies to implement air sanitation in Feature A14: Microbe and Mold Control?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ultraviolet germicidal irradiation and carbon filters.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Ultraviolet lamps (UVGI)",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Photocatalytic oxidation and MERV 13 filters.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Carbon filters and photocatalytic oxidation.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL v2 A14 Microbe and Mold Control, Part 1 Implement Ultraviolet Air Treatment requires central air handling units to use ultraviolet lamps to irradiate cooling coil and drain pan surfaces; fan coil cooling coils and drain pans must be irradiated or openable for inspection and cleaning. Carbon filters belong to A13 supply air treatment, not A14 microbe and mold control.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 A13 carbon filter 與 A14 UVGI 混合，加入非 A14 要求。",
+        "followup": "A14 Part 1 處理 cooling coils and drain pans；條文是否提到 carbon filters 作為 sanitation strategy？"
+      },
+      "C": {
+        "gap": "把一般空氣淨化技術套入 A14，忽略其限定 UVGI 與檢查清潔。",
+        "followup": "A14 Part 1 寫的是 photocatalytic oxidation/MERV 13，還是 ultraviolet lamps irradiation？"
+      },
+      "D": {
+        "gap": "完全偏向化學吸附與氧化處理，未對應 mold on cooling coils。",
+        "followup": "若問題是 forced-air cooling system 的 mold growth，A14 要照射哪些 HVAC surfaces？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q39",
+    "stem": "What regular documentation is required for WELL project teams to demonstrate that air purification strategies are in property operation for Feature A13: Enhanced Supply Air?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Evidence of filter maintenance is submitted annually through WELL Online.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Monthly records of filtration/sanitation maintenance.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Annual letters from third party inspectors that air filtration/sanitation systems are in place.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Monthly letters from third party inspectors that air filtration/sanitation systems are in place.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 A13 Enhanced Supply Air, Part 1 Improve Supply Air, Option 2 Filter maintenance requires evidence that filters or other air treatment devices have been replaced or maintained according to the manufacturer recommendation, submitted annually through the WELL digital platform. The standard does not require monthly third-party letters for this item.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 annual WELL submission 誤記成 monthly maintenance record requirement。",
+        "followup": "A13 Option 2 要 submitted annually through WELL digital platform；它是否要求每月提交 records？"
+      },
+      "C": {
+        "gap": "抓到 annual 節奏，但把證據形式誤換成第三方 inspector letters。",
+        "followup": "A13 要的是 manufacturer recommendation 下的 replacement/maintenance evidence，還是第三方年度信？"
+      },
+      "D": {
+        "gap": "同時誤判頻率與文件形式，未回到 A13 filter maintenance 條文。",
+        "followup": "A13 Part 1 Option 2 有提到 monthly letters 嗎？真正要提交的是什麼 evidence？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q40",
+    "stem": "Under what circumstance should combustion-based space heaters be allowed in regularly occupied spaces?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "When they have automatic shut-off timers with a maximum of 15 minute cycles.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Combustion-based space heaters should never be allowed in regularly occupied spaces.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "When they are located within 7.5 m (25ft) of an exterior door.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "When they are located on an exterior wall and directly vented to the outside.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL v2 A10 Combustion Minimization, Part 1 Manage Combustion, Option 1 states that combustion-based fireplaces, stoves, space heaters, ranges and ovens are not used in occupiable spaces. This ban applies to all spaces except commercial kitchen spaces.",
+    "diagnosis": {
+      "A": {
+        "gap": "以操作限制取代禁用要求，忽略 A10 對 space heaters 的明確 ban。",
+        "followup": "A10 Part 1 Option 1 是否允許用 timer 管理 combustion-based space heaters，還是直接不得使用？"
+      },
+      "C": {
+        "gap": "把距離外門的條件誤套到 combustion source 管理，無條文依據。",
+        "followup": "A10 Combustion Minimization 管的是設備使用與排放；條文何處提到 7.5 m exterior door？"
+      },
+      "D": {
+        "gap": "以直接排氣作例外想像，但 A10 occupiable spaces 仍禁止該類設備。",
+        "followup": "即使設備在 exterior wall 並 direct vented，A10 Option 1 對 space heaters 的用語是允許還是 not used？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q41",
+    "stem": "Which substance has 210 times the binding affinity for hemoglobin compared to oxygen and is toxic to humans?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nickel",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Chlorine",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Carbon Monoxide",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Methane",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 A01 Air Quality, Part 3 Meet Thresholds for Inorganic Gases sets a carbon monoxide threshold of 10 mg/m³ [9 ppm] or lower in occupiable spaces, reflecting its toxicity. A10 Combustion Minimization also identifies carbon monoxide as a combustion by-product linked to nausea, loss of consciousness, death and impaired cognition.",
+    "diagnosis": {
+      "A": {
+        "gap": "把金屬污染物與血紅素結合毒性混淆，未辨識 CO 中毒機制。",
+        "followup": "A01 Part 3 特別列出哪個 inorganic gas 的 9 ppm threshold，且與 combustion by-products 有關？"
+      },
+      "B": {
+        "gap": "知道是有毒氣體，卻選到非 A01 Part 3 明列的 hemoglobin affinity 氣體。",
+        "followup": "題幹提到與 oxygen 競爭 hemoglobin；A01 Part 3 的 carbon monoxide threshold 是多少？"
+      },
+      "D": {
+        "gap": "把可燃氣體危害與一氧化碳的血紅素結合毒性混為一談。",
+        "followup": "A10 說 combustion emissions 包含 nitrogen dioxide 與 carbon monoxide；哪一個會造成 CO poisoning？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q42",
+    "stem": "An office building is located where the annual average ambient PM 2.5 level is 35 ug/m3 or higher. What threshold must be met for the project to meet the standards for Feature A01: Fundamental Air Quality?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "PM 2.5 equal to 60% of the 24- or 48- hour average of outdoor levels on days of performance testing.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "PM 10 equal to 25% of the 24- or 48- hour average of outdoor levels on days of performance testing.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "PM 2.5 equal to 10% of the 24- or 48- hour average of outdoor levels on days of performance testing.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "PM 2.5 equal to 30% of the 24- or 48- hour average of outdoor levels on days of performance testing.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL v2 A01 Air Quality, Part 1 Meet Thresholds for Particulate Matter, Option 3 Dynamic thresholds in polluted regions applies when annual average outdoor PM2.5 is 35 µg/m³ or higher. It requires PM2.5 less than or equal to 30% of the 24- or 48-hour average of outdoor levels on the day(s) of performance testing, with a parallel PM10 threshold also at 30%.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 polluted-region dynamic threshold 誤記成較寬鬆的 60%。",
+        "followup": "A01 Part 1 Option 3 在 PM2.5 outdoor annual average ≥35 µg/m³ 時，indoor PM2.5 是 outdoor average 的幾成？"
+      },
+      "B": {
+        "gap": "選到 PM10 且比例錯誤，未對準題目詢問的 PM2.5 threshold。",
+        "followup": "題幹問 PM2.5；A01 Option 3 是否同時列 PM2.5 與 PM10，且兩者比例是否都是 30%？"
+      },
+      "C": {
+        "gap": "把動態門檻壓得過嚴，誤記為 10% 而非標準列值。",
+        "followup": "A01 dynamic thresholds 的限制會影響 certification level；表中 PM2.5 實際比例是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q43",
+    "stem": "A new library would like to meet the standards for Feature A05: Enhanced Air Quality. What threshold must be met for organic gases to achieve this feature?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Formaldehyde less than 13 µg/m³ or lower",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Formaldehyde 9 µg/m³ or lower",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Formaldehyde less than 25 µg/m³ or lower",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Formaldehyde less than 50 µg/m³ or lower",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL v2 A05 Enhanced Air Quality, Part 2 Meet Enhanced Thresholds for Organic Gases requires formaldehyde at 9 µg/m³ or lower in occupiable spaces. The 50 µg/m³ formaldehyde level belongs to A01 Air Quality, Part 2 baseline organic gas threshold, not the enhanced threshold.",
+    "diagnosis": {
+      "A": {
+        "gap": "接近 enhanced threshold，但把 formaldehyde 的數值記成不存在的 13 µg/m³。",
+        "followup": "A05 Part 2 的 formaldehyde enhanced threshold 是 9 µg/m³，還是其他中間值？"
+      },
+      "C": {
+        "gap": "把 enhanced organic gas threshold 放寬，未掌握 A05 比 A01 更嚴。",
+        "followup": "A05 是 enhanced air quality；相較 A01 formaldehyde 50 µg/m³，A05 應降到多少？"
+      },
+      "D": {
+        "gap": "將 A01 baseline formaldehyde threshold 誤套到 A05 enhanced feature。",
+        "followup": "哪個 feature 的 Part 2 是 formaldehyde 50 µg/m³，哪個 feature 才要求 9 µg/m³？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q44",
+    "stem": "What is the intent of Feature A01: Air Quality?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "To provide a basic understanding of indoor air pollutants.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "To provide a humidity control panel to occupants.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "To provide a basic level of indoor air quality that contributes to the health and well-being of building users.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "To provide a basic understanding of the role the building envelope plays in indoor air quality.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 A01 Air Quality states its Intent is to provide a basic level of indoor air quality that contributes to the health and well-being of building users. The feature operationalizes this through thresholds for particulate matter, organic gases, inorganic gases, radon and annual monitoring.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 feature intent 誤解成教育認知，而非實際達成基本 air quality。",
+        "followup": "A01 的 Intent 是讓人理解 pollutants，還是要求室內空氣品質達到基本健康水準？"
+      },
+      "B": {
+        "gap": "把濕度控制與空氣品質門檻混淆，偏離 A01 的污染物範圍。",
+        "followup": "A01 Parts 1-4 列的是 PM、organic gases、inorganic gases、radon；humidity control panel 出現在哪裡？"
+      },
+      "D": {
+        "gap": "把 A09 building envelope infiltration 的重點誤放到 A01 intent。",
+        "followup": "building envelope 對 IAQ 的角色更接近 A09；A01 本身的 basic air quality intent 是什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q45",
+    "stem": "Which feature is a precondition of the Air concept?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature A02: Smoke-Free Environment",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Feature A05: Enhanced Air Quality",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Feature A08: Air Quality Monitoring and Awareness",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Feature A10: Combustion Management",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 Air concept summary lists A01 Air Quality、A02 Smoke-Free Environment、A03 Ventilation Design and A04 Construction Pollution Management as preconditions. A05, A08 and A10 are optimizations in the same concept.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 enhanced optimization 誤認為 Air concept 的必備 precondition。",
+        "followup": "Air concept 表格中 A05 Enhanced Air Quality 標示為 precondition，還是 optimization？"
+      },
+      "C": {
+        "gap": "把監測 awareness 類 optimization 誤當成 certification prerequisite。",
+        "followup": "A08 Air Quality Monitoring and Awareness 在 Air concept 清單中屬於 O 還是 P？"
+      },
+      "D": {
+        "gap": "同時記錯 feature 名稱與狀態，A10 屬 combustion minimization optimization。",
+        "followup": "Air concept 的四個 preconditions 是 A01-A04；A10 Combustion Minimization 排在哪一類？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q46",
+    "stem": "A nonprofit is renovating floors 4 through 6 of an office building. How will Part 4: Meet Thresholds for Radon of Feature A01: Air Quality impact this project?",
+    "framework": "M01_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "The project will need to test for radon to ensure it is 0.15 Bq/L or lower.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "This will not impact this project because this requirement is only for regularly occupied spaces at or below grade.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "The project will need to have a professional test for radon to ensure it is 0.15 Bq/L or lower.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "The project will need one test per 25,000 ft2 of regularly occupied space at or below grade.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL v2 A01 Air Quality, Part 4 Meet Thresholds for Radon applies to regularly occupied spaces at or below grade. A renovation on floors 4 through 6 does not include such spaces, so the radon testing path of 0.15 Bq/L [4 pCi/L] or lower and one test per 25,000 ft² at/below grade is not triggered by the stated scope.",
+    "diagnosis": {
+      "A": {
+        "gap": "記得 radon threshold，卻忽略適用範圍限定在 at or below grade。",
+        "followup": "A01 Part 4 的 0.15 Bq/L radon threshold 是所有樓層都適用，還是只適用特定樓層？"
+      },
+      "C": {
+        "gap": "抓到 professional test 要求，但未先判斷樓層是否在適用範圍。",
+        "followup": "在要求 professional radon test 前，A01 Part 4 先問的是 project 是否有哪類 regularly occupied spaces？"
+      },
+      "D": {
+        "gap": "誤套 test density 要求，未注意 floors 4-6 不屬 at/below grade。",
+        "followup": "one test per 25,000 ft² 的規則只計算哪些 regularly occupied spaces？本案有那些空間嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q47",
+    "stem": "In order to achieve the optimization, Feature A12: Air Filtration, what is the verification method for filter maintenance?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Technical Document",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Purchase Order",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "On-going Maintenance Report",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "On-site inspection by WELL Assessor",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "WELL v2 A12 Air Filtration, Part 1 Implement Particle Filtration, Option 2 Filter maintenance requires evidence that the filter has been replaced according to the manufacturer recommendation, submitted annually through the WELL digital platform. This is an ongoing maintenance proof requirement rather than a one-time purchase or inspection item.",
+    "diagnosis": {
+      "A": {
+        "gap": "把設計技術文件與持續 filter replacement evidence 混淆。",
+        "followup": "A12 Option 2 要證明 filter 按 manufacturer recommendation 更換；這比較像 technical document 還是 maintenance report？"
+      },
+      "B": {
+        "gap": "以購買紀錄代替維護證據，無法證明濾網按建議更換。",
+        "followup": "purchase order 只能證明買過 filter；A12 要 annually submit 的 evidence 還需要顯示什麼維護行為？"
+      },
+      "D": {
+        "gap": "誤認為 WELL Assessor 現場檢查，而非專案每年提交維護證據。",
+        "followup": "A12 Option 2 的 compliance route 是 on-site inspection，還是 annual WELL digital platform submission？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q48",
+    "stem": "Feature A11: Source Separation preserves indoor air quality and maximizes olfactory comfort in occupied spaces through the isolation and proper ventilation of indoor air pollution sources and chemical storage areas. What requirements must be met for dwelling units, all ovens, cooking burners and stovetop cooking appliances that use a range hood?",
+    "framework": "M01_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Exhaust air is vented to the space between apartments.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Exhaust air outlet are separated from any air intakes by at least 3ft.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "There is no requirement for exhaust air in dwelling units.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Exhaust air is vented directly to the outdoors.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL v2 A11 Source Separation, Part 1 Manage Pollution and Exhaust states that for dwelling units, ovens, cooking burners and stovetop cooking appliances using a range hood must vent exhaust air directly to the outdoors. It also requires exhaust outlets to be separated from air intakes by at least 10 ft (3 m), unless local code says otherwise.",
+    "diagnosis": {
+      "A": {
+        "gap": "完全違反 source separation，將 cooking exhaust 排入相鄰住戶間隙。",
+        "followup": "A11 dwelling unit 的 range hood exhaust 是要 recirculate 到建築內，還是 vented directly outdoors？"
+      },
+      "B": {
+        "gap": "抓到與 air intake 分離概念，但把 10 ft (3 m) 誤記成 3 ft。",
+        "followup": "A11 對 exhaust outlets 與 air intakes 的 separation distance 是 3 ft，還是 10 ft (3 m)？"
+      },
+      "C": {
+        "gap": "忽略 dwelling units 仍有 range hood exhaust 的明確要求。",
+        "followup": "A11 Part 1 是否專門列出 For Dwelling Units？其中對 ovens and stovetop appliances 要求什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q49",
+    "stem": "To achieve Part 1: Implement Ultraviolet Air Treatment of Feature A14: Microbe and Mold Control, what are the two UV System areas the requirements are based on?",
+    "framework": "M01_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "UV system design and UV system maintenance and inspection.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Humidity control monitor and UV system design.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Ultraviolet lamps and irradiation.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "UV system and air filtration.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 A14 Microbe and Mold Control, Part 1 Implement Ultraviolet Air Treatment is organized into Option 1 UV system design and Option 2 UV system maintenance and inspection. Design covers ultraviolet lamps for cooling coils and drain pans, while maintenance covers annual evidence of lamp replacement/maintenance and quarterly inspection of unirradiated coils if applicable.",
+    "diagnosis": {
+      "B": {
+        "gap": "把 mold risk 的濕度背景誤當成 A14 Part 1 的 UV option 架構。",
+        "followup": "A14 Part 1 的兩個 option 標題是 humidity monitor，還是 UV system design 與 maintenance/inspection？"
+      },
+      "C": {
+        "gap": "只描述 UV 技術本身，未回答條文分成設計與維護檢查兩塊。",
+        "followup": "ultraviolet lamps 是設計要求的一部分；A14 還要求哪個 maintenance and inspection option？"
+      },
+      "D": {
+        "gap": "把 A12/A13 air filtration 混入 A14，忽略本 Part 聚焦 UV 與 mold inspection。",
+        "followup": "A14 Microbe and Mold Control 的 Part 1 有列 air filtration，還是列 UV system maintenance and inspection？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M01_Q50",
+    "stem": "An advertising firm in Albany wants to allow for operable windows in their offices. What do the indicator lights at windows need to cue occupants?",
+    "framework": "M01_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "When conditions outside are not suitable for opening windows.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "When conditions outside are suitable for opening windows.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "When PM 2.5 is 50 ug/m3 or lower.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "When relative humidity is 85% or lower.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "WELL v2 A07 Operable Windows, Part 2 Manage Window Use, Option 2 Window operation requires indicator lights at windows, at least one per room with windows, to cue occupants when outside conditions are suitable for opening windows. Suitability includes PM2.5 at 15 µg/m³ or lower, dry-bulb temperature within 15 °F (8 °C) of indoor setpoint and relative humidity 65% or lower.",
+    "diagnosis": {
+      "A": {
+        "gap": "反向理解 indicator light 的 cue，將鼓勵開窗誤讀成禁止開窗。",
+        "followup": "A07 Part 2 的文字是 cue occupants when conditions are suitable，還是 only warn when unsuitable？"
+      },
+      "C": {
+        "gap": "抓到 PM2.5 判斷因子，但把 threshold 從 15 誤記為 50 µg/m³。",
+        "followup": "A07 window operation 的 PM2.5 suitability threshold 是 A01 的 PM10 50，還是 PM2.5 15 µg/m³？"
+      },
+      "D": {
+        "gap": "知道 humidity 是條件之一，但把 relative humidity threshold 記得過高。",
+        "followup": "A07 Part 2 對 relative humidity 的 suitable threshold 是 65% or lower，還是 85%？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

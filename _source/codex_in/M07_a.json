@@ -1,0 +1,680 @@
+{
+  "module": "M07",
+  "frameworks": [
+    {
+      "id": "M07_F1",
+      "name": "聲學分區與聲音地圖",
+      "desc": "S01 Sound Mapping 要識別 noise sources、quiet zones、mixed zones 與 acoustic zone labels，作為後續隔音、吸音與背景聲策略的基礎。",
+      "covers": [
+        "S01 Sound Mapping",
+        "acoustical plan",
+        "acoustic zone labels",
+        "quiet zones",
+        "mixed zones"
+      ]
+    },
+    {
+      "id": "M07_F2",
+      "name": "背景噪音與聲音干擾",
+      "desc": "S02 Maximum Noise Levels 與 S06 Minimum Background Sound 分別處理 ambient background noise 的上限與 speech privacy 所需的 dedicated artificial sound。",
+      "covers": [
+        "S02 Maximum Noise Levels",
+        "S06 Minimum Background Sound",
+        "ambient background noise",
+        "speech privacy",
+        "background sound"
+      ]
+    },
+    {
+      "id": "M07_F3",
+      "name": "隔音與語音私密",
+      "desc": "S03 Sound Barriers 關注 enclosed spaces 之間的 sound isolation 與 speech privacy，牆與門需達到最低 acoustic separation。",
+      "covers": [
+        "S03 Sound Barriers",
+        "sound isolation",
+        "speech privacy",
+        "Sound Transmission Class",
+        "STC"
+      ]
+    },
+    {
+      "id": "M07_F4",
+      "name": "混響與吸音材料",
+      "desc": "S04 Reverberation Time 與 S05 Sound Reducing Surfaces 要用 reverberation time thresholds、sound reducing surfaces 與 acoustic materials 支援 speech intelligibility。",
+      "covers": [
+        "S04 Reverberation Time",
+        "S05 Sound Reducing Surfaces",
+        "reverberation time thresholds",
+        "speech intelligibility",
+        "acoustic materials"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M07_Q01",
+      "stem": "In Part 1: Label Acoustic Zones of Feature S01: Sound Mapping, a new office project labels what acoustic zones as part of its sound mapping plan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Noisy, Mixed, Equipment and Quiet zones"
+        },
+        {
+          "key": "B",
+          "text": "Noisy, Quiet, Mixed and Circulation zones"
+        },
+        {
+          "key": "C",
+          "text": "Loud, Quiet, Mixed and Circulation zones"
+        },
+        {
+          "key": "D",
+          "text": "Loud, Quiet, Equipment and Circulation zones"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Loud, Quiet, Mixed and Circulation zones must be mapped. Note: If a loud zone \ndirectly borders a quiet zone there must be a plan for mitigating the sound \ntransmission between the two zones.",
+      "framework_hint": "M07_F1"
+    },
+    {
+      "id": "M07_Q02",
+      "stem": "A cafeteria, a Category 3 space, is part of the build-out. What is the maximum sound pressure level (SPL) in dBAs for this space if you want to achieve the maximum number of points according to Part 1: Limit Background Noise Levels of Feature SO2: Maximum Noise Levels.",
+      "options": [
+        {
+          "key": "A",
+          "text": "50 dBA"
+        },
+        {
+          "key": "B",
+          "text": "45 dBA"
+        },
+        {
+          "key": "C",
+          "text": "55 dBA"
+        },
+        {
+          "key": "D",
+          "text": "60 Dba"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q03",
+      "stem": "According to Part 2: Achieve Sound Isolation at Walls of Feature S03: Sound Barriers, what is the minimum Noise Isolation Class (NIC) or Weighted Difference Level (Dw) between rooms for concentration and other regularly occupied spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "40"
+        },
+        {
+          "key": "C",
+          "text": "55"
+        },
+        {
+          "key": "D",
+          "text": "60"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M07_F3"
+    },
+    {
+      "id": "M07_Q04",
+      "stem": "According to Part 1: Design for Sound Isolation at Walls and Doors of Feature S03: Sound Barriers, what minimums are required for the doors that connect two occupiable rooms and doors to mechanical equipment rooms?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doors must have a non-hollow core, a minimum STC/Rw of 40 and seals at the head, jamb and base."
+        },
+        {
+          "key": "B",
+          "text": "Doors must have a non-hollow core and seals at the head, jamb and base."
+        },
+        {
+          "key": "C",
+          "text": "Doors must have a non-hollow core, a minimum STC/Rw of 30 and seals at the head, jamb and base."
+        },
+        {
+          "key": "D",
+          "text": "Doors must have a non-hollow core, a minimum STC/Rw of 35 and seals at the head, jamb and base."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Doors must have a non-hollow core, a minimum STC/Rw of 30, seals at the head, \njamb and base.",
+      "framework_hint": "M07_F3"
+    },
+    {
+      "id": "M07_Q05",
+      "stem": "The WELL Sound concept aims to bolster which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Calmness and occupant productivity"
+        },
+        {
+          "key": "B",
+          "text": "Social interaction and fitness"
+        },
+        {
+          "key": "C",
+          "text": "Occupant Health and well-being"
+        },
+        {
+          "key": "D",
+          "text": "Occupant satisfaction and profitability"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "The WELL Sound concept aims to bolster occupant health and well-being through the \nidentification and mitigation of acoustical comfort parameters that shape occupant \nexperiences in the built environment.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q06",
+      "stem": "In Feature S02: Maximum Noise Levels studies have shown exposure to traffic noise can lead to an increased risk of what health issues?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anxiety and headaches"
+        },
+        {
+          "key": "B",
+          "text": "Hypertension and anxiety"
+        },
+        {
+          "key": "C",
+          "text": "Diabetes, strokes and hypertension"
+        },
+        {
+          "key": "D",
+          "text": "Chronic stress and heart attacks"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Studies have shown that exposure to traffic noise can lead to increased risk of \ncardiovascular system issues, diabetes, hypertension, stroke, depression and high \nblood pressure.",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q07",
+      "stem": "One solution for interior noise as specified in Feature S02: Maximum Noise Levels is?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insulating the equipment room."
+        },
+        {
+          "key": "B",
+          "text": "Selecting HVAC equipment with lower sound ratings."
+        },
+        {
+          "key": "C",
+          "text": "Providing occupants with noise reducing headphones."
+        },
+        {
+          "key": "D",
+          "text": "Using sound reducing windows."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Interior noise sources can be controlled by selecting HVAC equipment with lower \nsound ratings and by designing the system to reduce sound within ducts. Exterior \nnoise can be controlled by providing sound reduction at the building façade, \nwindows and any exterior penetrations.",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q08",
+      "stem": "In order to meet the minimum requirements of Part 1: Implement Sound Reducing Surfaces of Feature S05: Sound Reducing Surfaces, open workspaces must meet which of the following minimum NRC/aw at ceiling values?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.90 for all available ceiling area"
+        },
+        {
+          "key": "B",
+          "text": "0.75 for at least 50% of available ceiling area"
+        },
+        {
+          "key": "C",
+          "text": "0.75 for at least 75% of available ceiling area"
+        },
+        {
+          "key": "D",
+          "text": "0.75 for all available ceiling area"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "The Minimum NRC/aw for open workspaces is 0.75 for at least 75% of available \nceiling area.",
+      "framework_hint": "M07_F4"
+    },
+    {
+      "id": "M07_Q09",
+      "stem": "Which WELL feature requires projects to strategize an acoustical plan that identifies sources of noise that can negatively impact interior spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Part 2: Provide Acoustic Design Plan"
+        },
+        {
+          "key": "B",
+          "text": "Feature S01: Acoustical Plan"
+        },
+        {
+          "key": "C",
+          "text": "Feature S01: Sound Mapping"
+        },
+        {
+          "key": "D",
+          "text": "Feature S01: Sound Planning"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Feature S01: Sound Mapping requires projects to strategize an acoustical plan that \nidentifies sources of noise that can negatively impact interior spaces.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q10",
+      "stem": "According to Part 1: Limit Background Noise Levels of Feature S02: Maximum Noise Levels, to earn 3 Points, what is the maximum Sound Pressure Level (SPL) dBA measurement of an open dining area (a Category 3 space)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "55 dBA"
+        },
+        {
+          "key": "B",
+          "text": "45 dBA"
+        },
+        {
+          "key": "C",
+          "text": "60 dBC"
+        },
+        {
+          "key": "D",
+          "text": "50 dbc"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Please review Part 1: Limit Background Noise Levels of Feature S02: Maximum Noise \nLevels.",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q11",
+      "stem": "Feature S04: Reverberation Time states that reverberation time is the length of time taken for a sound to decay by __ dB from an initial impulse level.",
+      "options": [
+        {
+          "key": "A",
+          "text": "55 dB"
+        },
+        {
+          "key": "B",
+          "text": "60 dB"
+        },
+        {
+          "key": "C",
+          "text": "50 dB"
+        },
+        {
+          "key": "D",
+          "text": "45 Db"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Reverberation time is the length of time taken for a sound to decay by 60 dB from an \ninitial impulse level.",
+      "framework_hint": "M07_F4"
+    },
+    {
+      "id": "M07_Q12",
+      "stem": "A new WELL project is concerned with having the proper sound barriers to protect the privacy of the buildings occupants. If choosing Option 2: Speech privacy in Part 2: Achieve Sound Isolation at Walls of Feature S03: Sound Barriers, what is the minimum NIC + NC or Dw + LAeq for an enclosed office?",
+      "options": [
+        {
+          "key": "A",
+          "text": "90"
+        },
+        {
+          "key": "B",
+          "text": "80"
+        },
+        {
+          "key": "C",
+          "text": "70"
+        },
+        {
+          "key": "D",
+          "text": "20"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "The sum of the measured Noise Isolation Class (NIC) or Weighted Difference Level \n(Dw) combined with the Noise Criteria Rating (NC) or A-weighted Sound Pressure \nLevel (LAeq) within a room for an enclosed Quiet zone which includes enclosed \noffices the minimum NIC + NC or Dw + LAeq is 80.",
+      "framework_hint": "M07_F3"
+    },
+    {
+      "id": "M07_Q13",
+      "stem": "In Feature S04: Reverberation Time, a solution to reduce reverberation time is?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use furniture that is made of wood."
+        },
+        {
+          "key": "B",
+          "text": "Purchase telecommunication/AV equipment that enhances speech intelligibility."
+        },
+        {
+          "key": "C",
+          "text": "Add reflective surfaces such as glass or stone."
+        },
+        {
+          "key": "D",
+          "text": "Add absorptive surface finishes at ceiling and walls."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Reverberation time can be controlled by adding absorptive surface finishes at ceilings, \nwalls and furniture. Projects that can alter room geometry can change layouts and \nroom dimensions to support optimal reverberation times, as needed. Reducing \nreflective surfaces, such as glass, drywall, stone or similar, will also reduce reflected \nsound energy, which increases reverberation time.",
+      "framework_hint": "M07_F4"
+    },
+    {
+      "id": "M07_Q14",
+      "stem": "To achieve points for Option 1: Reverberation time, design in Part 1: Achieve Reverberation Time Thresholds of Feature S04: Reverberation Time, what is the maximum reverberation time in areas for speech?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.5 ≤ t ≤ 0.8^9"
+        },
+        {
+          "key": "B",
+          "text": "0.6 ≤ t ≤ 1.0^9"
+        },
+        {
+          "key": "C",
+          "text": "0.8 ≤ t ≤ 1.0^9"
+        },
+        {
+          "key": "D",
+          "text": "1.0 ≤ t ≤ 1.4^9"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M07_F4"
+    },
+    {
+      "id": "M07_Q15",
+      "stem": "A number of studies have indicated that ________________________________ is a major cause of complaint and results in occupant dissatisfaction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bad tasting water"
+        },
+        {
+          "key": "B",
+          "text": "Internally generated noise"
+        },
+        {
+          "key": "C",
+          "text": "Not enough parking"
+        },
+        {
+          "key": "D",
+          "text": "Not enough bathrooms"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q16",
+      "stem": "In Part 1: Provide Minimum Background Sound of Feature S06: Minimum Background Sound, a sound masking system must be commissioned so that the sound pressure levels (SPL) do not exceed ______ in enclosed rooms labeled as Quiet zones.",
+      "options": [
+        {
+          "key": "A",
+          "text": "42 dBA."
+        },
+        {
+          "key": "B",
+          "text": "38 dBA."
+        },
+        {
+          "key": "C",
+          "text": "48 dBA."
+        },
+        {
+          "key": "D",
+          "text": "46 dBA."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "The sound masking system is commissioned such that the following sound pressure \nlevels are not exceeded:",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q17",
+      "stem": "Interior walls must have a minimum Sound Transmission Class (STC) between adjacent Quiet zones per Part 1: Design for Sound Isolation at Walls and Doors of Feature: SO3 Sound Barriers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50"
+        },
+        {
+          "key": "B",
+          "text": "45"
+        },
+        {
+          "key": "C",
+          "text": "60"
+        },
+        {
+          "key": "D",
+          "text": "40"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Interior walls meet the following sound transmission class (STC) or weighted sound \nreduction (Rw) values. If an interior wall meets multiple categories listed, use the \nhighest (i.e., more stringent) STC/Rw value listed.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q18",
+      "stem": "When noise from internal or external sources is increased in a space, occupants have been found to be?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Easily distracted, hearing impaired and less collaborative."
+        },
+        {
+          "key": "B",
+          "text": "Easily distracted, less productive and susceptible to burnout."
+        },
+        {
+          "key": "C",
+          "text": "Less productive, less collaborative and depressed."
+        },
+        {
+          "key": "D",
+          "text": "Anxious, less productive and depressed."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Architectural trends, such as open workspaces, lightweight construction and \nexposed finishes or HVAC foster acoustically uncomfortable environments. When \nnoise from internal or external sources is increased in a space, occupants have been \nfound to be easily distracted, less productive and susceptible to burnout. In office \nenvironments, employees care about privacy and collaboration. In one study from \nthe United Kingdom, 99% of employees reported that their concentration was \nimpaired by poor acoustical comfort in the workplace. Similar conditions are \nreported in workplaces worldwide. Some reports have shown that occupants are less \nlikely to help others under high noise conditions, reducing collaboration in the \nworkplace.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q19",
+      "stem": "A 10-story office building in downtown New York City is aiming for WELL Certification. Due to the location, they are worried about the noise levels from the streets that could travel into the building's interior spaces. To help with this issue, the project team needs to design the floor plans with intent and use in mind. For example, a typical office can be categorized into what four key types of programming?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Concentration, collaboration, socialization, learning"
+        },
+        {
+          "key": "B",
+          "text": "Collaboration, concentration, socialization and teaching"
+        },
+        {
+          "key": "C",
+          "text": "Concentration, socialization, teaching and break rooms"
+        },
+        {
+          "key": "D",
+          "text": "Break rooms, teaching, collaboration and socialization"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "To address noise, floor plans should be designed with intent and use in mind. For \nexample, a typical office can be categorized into four key types of programming: \nspaces for concentration, collaboration, socialization and learning. Location is \nimportant since noise from social or collaborative spaces impacts spaces intended for \nconcentration or learning.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q20",
+      "stem": "A suggested solution to exterior noise as specified in Feature S02: Maximum Noise Levels is?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insulating the equipment room."
+        },
+        {
+          "key": "B",
+          "text": "Selecting HVAC equipment with lower sound ratings."
+        },
+        {
+          "key": "C",
+          "text": "Providing occupants with noise reducing headphones."
+        },
+        {
+          "key": "D",
+          "text": "Using sound reducing windows."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Interior noise sources can be controlled by selecting HVAC equipment with lower \nsound ratings and by designing the system to reduce sound within ducts. Exterior \nnoise can be controlled by providing sound reduction at the building façade, \nwindows and any exterior penetrations.",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q21",
+      "stem": "In Part 1: Limit Background Noise Levels of Feature S02: Maximum Noise Levels, a new apartment complex must test the background noise levels in the bedrooms to make sure they do not exceed an average of 35 dBA. What minimum period of time must the background noise be measured?",
+      "options": [
+        {
+          "key": "A",
+          "text": "6 hour period at any given time of the day"
+        },
+        {
+          "key": "B",
+          "text": "12 hour period that includes the hours from 10 pm to 7 am"
+        },
+        {
+          "key": "C",
+          "text": "24 hour period"
+        },
+        {
+          "key": "D",
+          "text": "Testing must occur for 12 hours between 8 pm to 8 am"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "For dwelling units, an average background noise levels in bedrooms, when measured \nover a 12-hour minimum time period (which must include the hours of 10 pm to 7 \nam), should not exceed 35 dBA (Leq).",
+      "framework_hint": "M07_F2"
+    },
+    {
+      "id": "M07_Q22",
+      "stem": "In Feature S03: Sound Barriers, there is evidence that links noise annoyance in multi-story housing to what health issues?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Depression and anxiety"
+        },
+        {
+          "key": "B",
+          "text": "Poor mental health and perceived stress"
+        },
+        {
+          "key": "C",
+          "text": "Memory loss and depression"
+        },
+        {
+          "key": "D",
+          "text": "Anxiety and perceived stress"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Sound that transmits from one room to another through walls or doors can be \ndistracting or annoying and also disturb sleep. There is evidence that links noise \nannoyance in multi-story housing to poor mental health and perceived stress in \nresidents.",
+      "framework_hint": "M07_F3"
+    },
+    {
+      "id": "M07_Q23",
+      "stem": "An area mapped as part of the project includes a conference room for collaboration. For this area to comply with Part 1: Design for Sound Isolation at Walls and Doors of Feature S03: Sound Barriers, what is the minimum STC or RW requirement of the conference room?",
+      "options": [
+        {
+          "key": "A",
+          "text": "45"
+        },
+        {
+          "key": "B",
+          "text": "50"
+        },
+        {
+          "key": "C",
+          "text": "60"
+        },
+        {
+          "key": "D",
+          "text": "55"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Interior walls meet the following sound transmission class (STC) or weighted sound \nreduction (Rw) values. If an interior wall meets multiple categories listed, use the \nhighest (i.e., more stringent) STC/Rw value listed.",
+      "framework_hint": "M07_F3"
+    },
+    {
+      "id": "M07_Q24",
+      "stem": "The length of reverberation time is a function of what?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sound absorbing properties, room height and number of doors"
+        },
+        {
+          "key": "B",
+          "text": "Room height, surface areas and sound absorbing properties of surface finishes"
+        },
+        {
+          "key": "C",
+          "text": "Room size, surface areas and sound absorbing properties of surface finishes"
+        },
+        {
+          "key": "D",
+          "text": "Room size, surface areas and number of doors"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Feature S04: Reverberation Time states that the length of reverberation time is a \nfunction of room size, surface area and sound-absorbing properties of surface \nfinishes. Spaces with longer reverberation times may be larger in volume with hard \nsurfaces that reflect sound. Spaces with shorter reverberation may be smaller with \nsofter surfaces that absorb sound.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M07_Q25",
+      "stem": "Feature S04: Reverberation Time review studies showing high reverberation times in classrooms can link to many negative effects. Which of the following is not one of the many effects?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loss of hearing"
+        },
+        {
+          "key": "B",
+          "text": "Reduce cognition"
+        },
+        {
+          "key": "C",
+          "text": "Reduce memory retention"
+        },
+        {
+          "key": "D",
+          "text": "Reduces speech intelligibility among hard of hearing a non-native speaking populations"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Studies have shown that high reverberation times in classrooms increase auditory \nworkload in students and reduce cognition, memory retention and concentration. \nSimilarly, studies have shown that high reverberation reduces speech intelligibility \namong hard of hearing and non-native speaking populations.",
+      "framework_hint": "M07_F4"
+    }
+  ]
+}

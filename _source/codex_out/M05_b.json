@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M05_Q26",
+    "stem": "Studies have shown that an ergonomics program can reduce claims by up to 45% and provide an ROI of?",
+    "framework": "M05_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "3:1",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "10:1",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "6:1",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "12:1",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V11 Ergonomics Programming - Part 1 Implement an Ergonomics Program 說明 macro-ergonomics intervention 在 5 年內使 claims 減少 45%，並計算出 ROI of 10:1。這也是 V02 Ergonomic Workstation Design 背後的人體工學效益依據之一。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 ergonomics program 的投資回報，把 ROI 數值記得過保守。",
+        "followup": "V11 Part 1 的案例同時提到 claims 減少 45%；它接著給出的 ROI 是幾比幾？"
+      },
+      "C": {
+        "gap": "抓到 ROI 概念但混淆了標準中引用的具體比例。",
+        "followup": "回到 V11 Part 1 的 macro-ergonomics intervention，ROI 是用 compensation costs 與 program costs 算到多少？"
+      },
+      "D": {
+        "gap": "把 ergonomics 的 ROI 效益誇大到標準未列出的數值。",
+        "followup": "WELL 在 V11 Part 1 引用的是 45% claims reduction；原文是否有高於 10:1 的 ROI？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q27",
+    "stem": "Which of the following is NOT a contributor to growing physical inactivity rates around the world?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modern transportation.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Labor Saving Devices.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Longer lifespans.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Sedentary jobs.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V01 Active Buildings and Communities - Part 1 Design Active Buildings and Communities 的 Issue 指出 homes, schools, workplaces, communities, jobs and transportation systems 被設計成需要更少 movement、更多 sedentary activities。標準並未把 longer lifespans 列為造成 inactivity rates 增長的建築或社會環境因素。",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略 transportation systems 正是標準列出的 sedentary 設計因素。",
+        "followup": "V01 Part 1 的 Issue 如何描述 transportation systems 對日常 movement demand 的影響？"
+      },
+      "B": {
+        "gap": "未連結省力化環境與 movement demand 下降的因果關係。",
+        "followup": "若環境與工作流程越來越 labor-saving，V01 想用 active design 補回什麼日常活動機會？"
+      },
+      "D": {
+        "gap": "把 sedentary jobs 誤判為無關，忽略 workplaces 是核心場域。",
+        "followup": "V01 Issue 同時提到 jobs 和 workplaces；這些場域如何增加 sedentary activities？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q28",
+    "stem": "A project team has decided to pursue V07: Active Furnishings with several desk-top height adjustment stands. To what other WELLv2 feature could this contribute?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature V06: Physical Activity Opportunitites",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Feature V04: Facilities for Active Occupants",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Feature V02: Ergonomic Workstation Design",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Feature V03: Circulation Network",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V02 Ergonomic Workstation Design - Part 2 Provide Height-Adjustable Work Surfaces allows supplemental solutions that raise or lower the work surface, monitor and input devices to seated and standing heights, with at least 25% of all workstations adjustable. Desktop height adjustment stands therefore can support both V07 active workstation intent and V02 seated/standing ergonomic requirements.",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 activity programming 與 workstation furniture 的合規路徑。",
+        "followup": "V06 Part 1 要的是 no-cost programming；desk-top height adjustment stands 是否屬於課程或活動機會？"
+      },
+      "B": {
+        "gap": "把工作站設備誤連到 active commuting 的 bike 與 shower 設施。",
+        "followup": "V04 Part 1 和 Part 2 要 bike parking、showers、lockers；桌面升降架符合哪一項？"
+      },
+      "D": {
+        "gap": "看到 movement 就聯想到樓梯動線，未辨識 workstation ergonomics。",
+        "followup": "V03 的 focus 是 stair use、signage、visibility；desk-top stands 更接近 V02 哪個 Part？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q29",
+    "stem": "The average adult is reported to be sedentary about how many hours every day?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "1-3 Hours per day.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "6-14 Hours per day.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "3-9 Hours per day.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "2-5 Hours per day.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "The WELL Movement concept overview reports that a 2011 study found self-reported time spent sitting ranged from 3-9 hours per day among adults globally. This context supports features such as V07 Active Furnishings - Part 1 Provide Active Workstations, which aims to reduce prolonged sitting.",
+    "diagnosis": {
+      "A": {
+        "gap": "低估全球成人 sitting time，忽略 sedentary behavior 的規模。",
+        "followup": "Movement overview 說 sedentary behavior 正在上升；成人自陳 sitting time 的完整範圍是多少？"
+      },
+      "B": {
+        "gap": "把範圍上限誇大，未對準 WELL 引用的 2011 study。",
+        "followup": "若 V07 要減少 prolonged sitting，標準前言引用的 sitting range 是否高到 14 hours？"
+      },
+      "D": {
+        "gap": "記住了部分低端範圍，但漏掉標準列出的較高上限。",
+        "followup": "Movement concept overview 的 sitting range 從 3 hours 延伸到幾 hours per day？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q30",
+    "stem": "Which of the following is NOT considered sedentary behavior?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Driving a car.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Playing fast-paced games at a computer.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Waiting in line.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Sitting at a desk.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "The WELL Movement concept defines sedentary behavior as very low-intensity, low-effort activities such as sitting, and Feature V09 Physical Activity Promotion - Part 1 includes TV viewing, recreational computer or smartphone use and gaming as sedentary behaviors to reduce. Waiting in line is not the sitting-based or screen-based sedentary behavior described there.",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略 V05 把 driving 明確描述為偏向 sedentary 的活動。",
+        "followup": "V05 Site Planning 為何要提升 walkability？它如何把 driving 與 sedentary activities 連起來？"
+      },
+      "B": {
+        "gap": "被 fast-paced 誤導，未看到 computer gaming 仍屬 screen-based sedentary behavior。",
+        "followup": "V09 Part 1 要減少 recreational computer use 與 gaming；速度快是否改變其久坐本質？"
+      },
+      "D": {
+        "gap": "未掌握 sedentary behavior 的核心例子就是 sitting。",
+        "followup": "Movement overview 用哪個典型動作說明 very low-intensity sedentary behavior？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q31",
+    "stem": "Which of the following is NOT mentioned as an active furnishing according to Feature V07: Active Furnishings?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adjustable height standing desk",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Treadmill desk",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Wellness ball chair",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Portable desk pedal",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V07 Active Furnishings - Part 1 Provide Active Workstations lists manual or electric height adjustable desks, supplemental raise/lower solutions, treadmill desks, bicycle desks and stepper machines. Wellness ball chair is not included in that enumerated active workstation list.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 V07 明列的 height adjustable desk 誤認為未被提到。",
+        "followup": "V07 Part 1 的第一類 active workstation 是否就是可調 seated/standing height 的 desk？"
+      },
+      "B": {
+        "gap": "忽略 treadmill desk 是 V07 明確列出的 active workstation。",
+        "followup": "V07 Part 1 在 supplemental solutions 後，還列出哪些帶運動形式的 desks？"
+      },
+      "D": {
+        "gap": "未把 portable pedal 對應到 bicycle desk 類型的 active workstation。",
+        "followup": "V07 Part 1 提到 bicycle desk；portable desk pedal 和這個類型有何相似？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q32",
+    "stem": "Two types of exercise equipment should be provided in a quantity that would allow use by what percentage of regular building occupants in Part 1: Provide Indoor Activity Spaces of Feature V08: Physical Activity Spaces and Equipment?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "7%",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "5%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "3%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "1%",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V08 Physical Activity Spaces and Equipment - Part 1 Provide Indoor Activity Spaces, Option 1 requires at least two types of exercise equipment in quantities that allow use by at least 5% of regular occupants at any time. This threshold applies to an on-site physical activity space provided at no cost.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 V08 equipment capacity 門檻提高到標準未要求的比例。",
+        "followup": "V08 Part 1 Option 1 對 regular occupants 的 use capacity 是 at least 幾 percent？"
+      },
+      "C": {
+        "gap": "低估 V08 對室內運動設備可用量的最低要求。",
+        "followup": "若 fitness facility 要讓 occupants at any time 使用，V08 Part 1 的最低比例是多少？"
+      },
+      "D": {
+        "gap": "將 activity space 規模想得過小，未符合 V08 的占用門檻。",
+        "followup": "V08 Part 1 為何要求 two types of equipment 還要足夠多少 regular occupants 同時使用？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q33",
+    "stem": "A project may provide access to off-site fitness facilities in Part 1: Provide Indoor Activity Spaces of Feature V08: Physical Activity Spaces and Equipment. What distance from the project boundary is acceptable for an off-site fitness facility?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "150 m (495 ft)",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "200 m (650 ft)",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "250 m (825 ft)",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "100 m (330 ft)",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V08 Physical Activity Spaces and Equipment - Part 1 Provide Indoor Activity Spaces, Option 2 requires access to a fitness facility within a 650 ft (200 m) walk distance of the project boundary at no cost. The distance is measured from the WELL project boundary, not merely from an entrance.",
+    "diagnosis": {
+      "A": {
+        "gap": "選了較嚴格但非標準指定的 off-site facility 距離。",
+        "followup": "V08 Part 1 Option 2 對 off-site fitness facility 的 walk distance 是 150 m 還是 200 m？"
+      },
+      "C": {
+        "gap": "把可接受距離放寬，超過 V08 對 proximity 的限制。",
+        "followup": "若 facility 離 project boundary 有 250 m，是否仍在 V08 Part 1 的 650 ft 範圍內？"
+      },
+      "D": {
+        "gap": "將 V08 的 650 ft threshold 誤縮成 100 m。",
+        "followup": "V08 Part 1 的 off-site pathway 寫的是 650 ft；換算成 metric 是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q34",
+    "stem": "To earn points for Part 1: Design Aesthetic Staircases of Feature V03: Circulation Network, a project team would use what to promote the use of stairs?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fire alarms located in the stairwells.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Air fresheners in the stairwells.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Limit elevator operating hours.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Adding plants and artwork.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V03 Circulation Network - Part 1 Design Aesthetic Staircases requires at least one open staircase serving all floors to include at least two aesthetic elements on each floor, such as artwork and natural design elements including plants. These enhancements are intended to encourage everyday stair use.",
+    "diagnosis": {
+      "A": {
+        "gap": "把生命安全設備誤當成 V03 的 aesthetic stair prompt。",
+        "followup": "V03 Part 1 列的是 music、artwork、light、daylight、nature、gamification；fire alarms 屬於哪類要求？"
+      },
+      "B": {
+        "gap": "把氣味改善誤認為標準列舉的樓梯美化元素。",
+        "followup": "V03 Part 1 是否列出 air fresheners，還是列出 artwork 與 natural design elements？"
+      },
+      "C": {
+        "gap": "混淆鼓勵 stair use 與限制 elevator 使用的強制策略。",
+        "followup": "V03 的策略是 aesthetic design 和 prompts；限制 elevator hours 是否出現在 Part 1 清單？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q35",
+    "stem": "At an office building, occupants are discouraged by high gym member fees. According to Feature V09: Physical Activity Promotion, what should be offered to building occupants to encourage participation in fitness programs?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reductions in health care premiums based on physical activity engagement.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Free fitness education courses each quarter.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Treadmill desks for every employee.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "The option of a standing bike desk or treadmill desk for each employee.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature V09 Physical Activity Promotion - Part 1 Offer Physical Activity Incentives lists reductions in health care premiums based on physical activity engagement as one eligible incentive, alongside rewards, subsidies, flexible work hours and paid time off. The requirement is about incentive programs that promote participation, not furnishing every workstation.",
+    "diagnosis": {
+      "B": {
+        "gap": "混淆 education programming 與 V09 指定的 physical activity incentives。",
+        "followup": "V09 Part 1 要至少兩種 incentives；quarterly education course 是否列在 eligible employee incentive 清單中？"
+      },
+      "C": {
+        "gap": "把 active furnishings 當作解決 gym cost barrier 的 incentive。",
+        "followup": "Treadmill desks 屬於 V07 active workstations；V09 Part 1 對高 gym fee 提供什麼 financial incentive？"
+      },
+      "D": {
+        "gap": "誤把 workstation choice 視為 V09 的 fitness program participation incentive。",
+        "followup": "V09 Part 1 關注 rewards、subsidies、premium reductions；standing bike desk 是哪個 feature 的語境？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q36",
+    "stem": "Which of the following is an indirect benefit of regular physical activity?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improved job performance.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Weight management.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Chronic disease prevention.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Fitness maintenance.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Feature V06 Physical Activity Opportunities - Part 1 Offer Physical Activity Opportunities cites workplace program benefits such as reduced healthcare costs, reduced disability costs and days lost, reduced absenteeism and increased productivity. Improved job performance is therefore an indirect organizational benefit, while the other choices are more direct health or fitness outcomes.",
+    "diagnosis": {
+      "B": {
+        "gap": "把直接身體健康效果誤當成 workplace indirect benefit。",
+        "followup": "V06 的 workplace program evidence 除了健康外，還提到哪些 productivity 或 absenteeism 相關效益？"
+      },
+      "C": {
+        "gap": "混淆 regular activity 的疾病預防效果與間接工作效益。",
+        "followup": "V01 Issue 確實提 chronic disease；但 V06 提到的 workplace economic benefit 是什麼？"
+      },
+      "D": {
+        "gap": "把維持 fitness 本身當作間接效益，未區分 outcome 層級。",
+        "followup": "如果 V06 的活動機會改善 fitness，對雇主端間接可能反映在哪些工作表現指標？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q37",
+    "stem": "What is the estimated price of physical inactivity on the healthcare system globally?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "$34 Billion",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "$34 Million",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "$54 Million",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "$54 Billion",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "The WELL Movement concept overview states that in 2013 physical inactivity cost healthcare systems globally about $54 billion and contributed nearly $14 billion in productivity losses. This economic burden is part of the rationale for V01 Active Buildings and Communities - Part 1.",
+    "diagnosis": {
+      "A": {
+        "gap": "記得是 billion 級成本，但低估了 WELL 引用的金額。",
+        "followup": "Movement overview 同一句還提 nearly $14 billion productivity losses；healthcare system cost 是多少 billion？"
+      },
+      "B": {
+        "gap": "把全球 healthcare burden 的量級從 billion 誤降為 million。",
+        "followup": "WELL 用全球 healthcare systems 說明 inactivity 成本；million 級是否足以對應該段脈絡？"
+      },
+      "C": {
+        "gap": "抓到數字 54 但誤判單位，嚴重低估公共健康成本。",
+        "followup": "Movement concept overview 的 estimate 是 $54 million 還是 $54 billion？它還提到多少 productivity losses？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q38",
+    "stem": "Which one of these is considered an environmental barrier to physical activity?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Injury",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Cost",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Travel conditions.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Lack of bike lanes.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V06 Physical Activity Opportunities - Part 1 Offer Physical Activity Opportunities identifies environmental barriers such as availability of sidewalks, parks and bicycle lanes. Lack of bike lanes directly matches that built-environment barrier category.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 personal health risk 誤歸類為 environmental barrier。",
+        "followup": "V06 Issue 同時列 fear of injury 和 environmental barriers；bike lanes 屬於哪一邊？"
+      },
+      "B": {
+        "gap": "把 financial barrier 與 built-environment barrier 混為一談。",
+        "followup": "成本可能影響參與，但 V06 所稱 environmental barriers 舉了 sidewalks、parks 還有什麼？"
+      },
+      "C": {
+        "gap": "把一般 travel constraints 誤認為具體環境設施缺口。",
+        "followup": "V06 Issue 列 travel 和 environmental barriers；缺少 bicycle lanes 比 travel conditions 更具體在哪裡？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q39",
+    "stem": "A company wants to encourage its staff to use fitness trackers. Which of the following would help them earn 1 point under Feature V10: Self-Monitoring?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Offering a choice of colors to employees.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Subsidizing part of the cost of any such device.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Making the device free to employees.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Making individual fitness data available to all staff.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V10 Self-Monitoring - Part 1 Provide Self-Monitoring Tools requires devices such as wearable fitness trackers to be available at no cost or subsidized by at least 50%, while allowing users to monitor their own metrics over time. Providing the device free to employees satisfies the cost requirement without raising the privacy concern of exposing individual data.",
+    "diagnosis": {
+      "A": {
+        "gap": "把使用偏好選項誤當成 V10 的 self-monitoring compliance requirement。",
+        "followup": "V10 Part 1 要看 cost、metrics、dashboard；device color choice 是否影響這些要求？"
+      },
+      "B": {
+        "gap": "只記得 subsidy 方向，漏掉至少 50% 的明確門檻。",
+        "followup": "V10 Part 1 不是任意補助即可；subsidy 需要至少達到多少比例？"
+      },
+      "D": {
+        "gap": "誤解 self-monitoring 為公開個資，違背 user-owned metrics 脈絡。",
+        "followup": "V10 Part 1 要 users monitor their own metrics；把 individual fitness data 給全體 staff 是否符合？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q40",
+    "stem": "A new office building's main entrance is located on a wide, well-used sidewalk. What other design elements should the building incorporate under Part 1: Select Sites with Pedestrian-friendly Streets of Feature V05: Site Planning and Selection?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "All weather seating.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Community bulletin board.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Bike Racks.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Planters.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V05 Site Planning and Selection - Part 1 Select Sites with Pedestrian-friendly Streets includes buffer protections along sidewalks such as benches, trees and planters, and also recognizes biophilic design elements on the street-level facade. Planters therefore fit the pedestrian-friendly streetscape strategy.",
+    "diagnosis": {
+      "A": {
+        "gap": "接近 benches 概念但選到標準未如此表述的 seating 類型。",
+        "followup": "V05 Part 1 的 sidewalk buffer examples 包含 benches、trees、planters；all weather seating 是否被明列？"
+      },
+      "B": {
+        "gap": "把社區資訊設施誤當作 pedestrian-friendly streetscape design element。",
+        "followup": "V05 Part 1 強調 sidewalk buffers 和 facade design；community bulletin board 對 walkability 有哪個條文支持？"
+      },
+      "C": {
+        "gap": "混淆 V04 bike parking 與 V05 pedestrian-friendly street elements。",
+        "followup": "Bike racks 更接近 V04 cycling infrastructure；V05 Part 1 的 sidewalk buffer examples 有哪些？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q41",
+    "stem": "Beth is a new employee at a company in a WELL building. Which of the following is Beth likely to see at her new workstation?",
+    "framework": "M05_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "A chair without adjustable arms.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "An adjustable height desk.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "A welcome letter from the CEO.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Recycled notebooks and pens.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V02 Ergonomic Workstation Design - Part 2 Provide Height-Adjustable Work Surfaces requires at least 25% of all workstations to be user-adjustable for both seated and standing work. The same feature also requires ergonomic orientation and chair adjustability, making adjustable workstation furniture the relevant WELL item.",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略 V02 Part 3 要 workstation seating 具備 adjustability。",
+        "followup": "V02 Part 3 對 chair adjustability 包含 seat height、seat depth，還有哪類 armrest 或 backrest 調整？"
+      },
+      "C": {
+        "gap": "把一般 onboarding 禮貌流程誤當作 WELL workstation requirement。",
+        "followup": "Beth 的 workstation 要對應 V02；welcome letter 與 ergonomic workstation design 有哪個 Part 連結？"
+      },
+      "D": {
+        "gap": "把 sustainability office supplies 誤認為 Movement concept 的人體工學要求。",
+        "followup": "V02 關心 neutral posture 和 adjustable furnishings；recycled notebooks 是否改善 seated/standing work fit？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q42",
+    "stem": "Besides safety issues, what other 2 reasons are given for not choosing to bike to work?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bad weather and no bike parking.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "No bike parking and no changing facilities.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "No changing facilities and too expensive.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Bad weather and poor road conditions.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V04 Facilities for Active Occupants - Part 1 Provide Cycling Infrastructure states that, besides safety concerns and car-culture norms, lack of bike parking and post-commute facilities are key reasons people do not cycle to work. Part 2 then addresses showers, lockers and changing facilities to remove that barrier.",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到 bike parking，但把 post-commute facilities 誤換成 weather。",
+        "followup": "V04 Issue 在 bike parking 之外，還提到哪種通勤後設施會影響 cycling to workplace？"
+      },
+      "C": {
+        "gap": "抓到 changing facilities，但把 bike parking 漏成成本因素。",
+        "followup": "V04 Summary 要同時提供 bike storage、showers、changing facilities；缺哪個會直接阻礙 cycling？"
+      },
+      "D": {
+        "gap": "把一般戶外條件當成 V04 明列的 workplace facility barrier。",
+        "followup": "V04 的解方是 bike parking、showers、lockers；bad weather 和 road conditions 是否是這個 Part 的主軸？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q43",
+    "stem": "A new construction project will have 3 floors with stairwells servicing all floors. According to Part 2: Integrate Point-of-Decision Signage of Feature V03: Circulation Network, which one of these is not the best area to place signage to encourage stair use?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Near the elevator.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Near the front door.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Near the parking deck.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Near the base of each stairwell.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V03 Circulation Network - Part 2 Integrate Point-of-Decision Signage requires signage near the main building entrance or reception desk, at elevator or escalator banks on each floor and at the base of stairs and stairwell re-entry points on each floor. A parking deck is not one of the specified point-of-decision signage locations.",
+    "diagnosis": {
+      "A": {
+        "gap": "誤把 elevator bank 這個 required signage location 排除掉。",
+        "followup": "V03 Part 2 為何要求在 elevator or escalator banks on each floor 放 signage？"
+      },
+      "B": {
+        "gap": "未把 front door 對應到 main building entrance 的 signage 要求。",
+        "followup": "V03 Part 2 第一個 signage location 是 main building entrance 或 reception desk；front door 接近哪一項？"
+      },
+      "D": {
+        "gap": "忽略 stair base 和 re-entry points 是 V03 明定位置。",
+        "followup": "V03 Part 2 對 stairs 的 signage 是只在入口，還是也在 base of stairs and re-entry points？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q44",
+    "stem": "How close must the shower and changing facilities be to the project boundary under Part 2: Provide Showers, Lockers and Changing Facilities of Feature V04: Facilities for Active Occupants?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "450 ft walk distance.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "1,000 ft walk distance.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "650 ft walk distance.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "750 ft walk distance.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V04 Facilities for Active Occupants - Part 2 Provide Showers, Lockers and Changing Facilities requires showers with changing facilities to be available within a 650 ft (200 m) walk distance of the project boundary. It also requires at least five lockers for every shower, co-located with shower facilities.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 V04 shower distance 誤縮成標準未使用的 450 ft。",
+        "followup": "V04 Part 2 的 showers with changing facilities 應在 project boundary 幾 ft walk distance 內？"
+      },
+      "B": {
+        "gap": "把可接受步行距離放寬到超過 V04 的 proximity limit。",
+        "followup": "若 shower facilities 離 boundary 有 1,000 ft，是否仍符合 V04 Part 2 的 650 ft requirement？"
+      },
+      "D": {
+        "gap": "接近但仍高估 V04 對 shower/changing facilities 的距離門檻。",
+        "followup": "V04 多個 proximity 條文使用 650 ft；Part 2 是否允許 750 ft walk distance？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q45",
+    "stem": "Which of the following is NOT a design-based optimization to satisfy Feature V01: Active Buildings and Communities?",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature V03: Circulation Network",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature V05: Site Planning and Selection",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature V08: Physical Activity Spaces and Equipment",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Feature V09: Physical Activity Promotion.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V01 Active Buildings and Communities - Part 1 Design Active Buildings and Communities requires at least one point in V03 Circulation Network, V04 Facilities for Active Occupants, V05 Site Planning and Selection or V08 Physical Activity Spaces and Equipment. V09 Physical Activity Promotion is a separate incentive program feature and is not listed as a V01 design-based optimization pathway.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 V01 明列的 Circulation Network pathway 誤當成非設計優化。",
+        "followup": "V01 Part 1 的第一個可選 feature 是否就是 V03 Circulation Network？"
+      },
+      "B": {
+        "gap": "忽略 Site Planning and Selection 是 V01 的列舉 pathway。",
+        "followup": "V01 Part 1 是否把 V05 納入 design-based optimizations，並用 walkability 支援 movement？"
+      },
+      "C": {
+        "gap": "未辨識 physical activity spaces 也被 V01 納入設計型路徑。",
+        "followup": "V01 Part 1 列出的四個 features 中，是否包含 V08 Physical Activity Spaces and Equipment？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q46",
+    "stem": "Gamification is...",
+    "framework": "M05_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "A way to improve morale.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "A way to encourage healthy behaviors.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "A way to lessen productivity.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "A way to have fun in the workplace.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V03 Circulation Network - Part 1 Design Aesthetic Staircases lists gamification as an eligible stair enhancement, and the V03 Solutions text defines it as leveraging game elements to encourage desired behaviors. In that feature, the desired behavior is healthier movement such as stairclimbing.",
+    "diagnosis": {
+      "A": {
+        "gap": "把可能的附帶情緒效果誤當成 gamification 的 WELL 定義。",
+        "followup": "V03 Solutions 說 gamification leverages game elements；它要鼓勵的是 morale 還是 stairclimbing behavior？"
+      },
+      "C": {
+        "gap": "完全反向理解 gamification，誤以為它會降低 productive behavior。",
+        "followup": "V03 將 gamification 放在鼓勵 stair use 的策略中；這與 lessening productivity 有何關係？"
+      },
+      "D": {
+        "gap": "只看到 fun，漏掉其目的在於 behavior change。",
+        "followup": "V03 的 gamification 可以 fun，但 WELL 關注它鼓勵哪種 healthy behavior？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q47",
+    "stem": "Which is not a good way to calculate the number of peak visitors?",
+    "framework": "M05_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Actual figures.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Requiring visitors badges.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Institutional knowledge.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Using default occupancy assumptions.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Feature V04 Facilities for Active Occupants - Part 1 Provide Cycling Infrastructure uses peak visitors to size short-term bike parking at at least 2.5% of peak visitors, with minimum spaces. Actual figures, institutional knowledge and default occupancy assumptions are calculation bases, while visitor badges are an access-control practice rather than a calculation method.",
+    "diagnosis": {
+      "A": {
+        "gap": "誤排除 actual figures，忽略真實訪客數是可用估算依據。",
+        "followup": "V04 Part 1 要用 peak visitors 算 2.5% bike parking；若已有 actual figures，為何不能用？"
+      },
+      "C": {
+        "gap": "低估 institutional knowledge 在 visitor peak estimation 中的用途。",
+        "followup": "若沒有完整 visitor counts，熟悉營運模式的 institutional knowledge 如何幫助估 peak visitors？"
+      },
+      "D": {
+        "gap": "把 default occupancy assumptions 誤當成不可用的估算方式。",
+        "followup": "V04 需要 peak visitor 數量；沒有實測資料時，default occupancy assumptions 可提供什麼基準？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q48",
+    "stem": "When is a smartphone app considered a self monitoring device according to Feature V10: Self-Monitoring?",
+    "framework": "M05_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "When the smart phone is supplied by the company.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "When the app is supplied by the company's insurance provider.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "When both the app and the monitoring device are subsidized by the company.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "A smart phone app is never acceptable for Feature V10.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "Feature V10 Self-Monitoring - Part 1 Provide Self-Monitoring Tools requires devices to be provided at no cost or subsidized by at least 50%, and to let users monitor their own metrics over time, including at least two physical activity metrics and one additional health behavior. A smartphone app can support the pathway when it is tied to a subsidized monitoring device that satisfies these measurement requirements.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 smartphone ownership 誤當成 V10 對 monitoring tool 的核心要求。",
+        "followup": "V10 Part 1 要的是 metrics monitoring 和 subsidy；company-supplied phone 本身能量測兩種 activity metrics 嗎？"
+      },
+      "B": {
+        "gap": "誤以為供應者身份比 device subsidy 與 measurement capability 更重要。",
+        "followup": "V10 Part 1 有要求 insurance provider 供應 app，還是要求 no cost/50% subsidy 和 metrics？"
+      },
+      "D": {
+        "gap": "過度排除 app，忽略 V10 Issue/Solutions 提到 wearable or app tracking。",
+        "followup": "V10 的背景提到 wearable or app tracking；app 在什麼條件下能與 monitoring device 一起符合 Part 1？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q49",
+    "stem": "One of the top drivers of global disability in 2016 is?",
+    "framework": "M05_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Air Pollution.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Vitamin Deficiency.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Cardiovascular disease.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Musculoskeletal disorders.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V02 Ergonomic Workstation Design - Part 1 Support Visual Ergonomics states in its Issue section that in 2016 musculoskeletal disorders ranked among the top drivers of global disability. This is the health basis for reducing physical strain through ergonomic workstation design.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Air concept 的污染風險誤帶入 Movement ergonomics 題目。",
+        "followup": "V02 的 Issue 聚焦 workstation strain；它列為 global disability driver 的是哪類 disorders？"
+      },
+      "B": {
+        "gap": "把營養缺乏類問題誤認為 V02 引用的 disability driver。",
+        "followup": "V02 Ergonomic Workstation Design 與 vitamin deficiency 有何關聯？標準提到的是哪種身體系統問題？"
+      },
+      "C": {
+        "gap": "混淆 inactivity 的 chronic disease 與 ergonomics 的 disability driver。",
+        "followup": "V01 會提 cardiovascular disease；但 V02 Issue 為何特別談 musculoskeletal disorders？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M05_Q50",
+    "stem": "To support remote work ergonomics, a company can do any of the following except?",
+    "framework": "M05_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pre-approve Direct Purchases.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Subsidize Purchases.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Offer employee reimbursement.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Ask for an inspection of the home office area.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Feature V11 Ergonomics Programming - Part 3 Support Remote Work Ergonomics requires the ergonomics program to support remote scenarios and make ergonomic furnishings available through pre-approved direct purchases, reimbursement or subsidies. It does not require an inspection of the home office area as one of the listed support mechanisms.",
+    "diagnosis": {
+      "A": {
+        "gap": "誤排除 Part 3 明列的 pre-approved direct-purchases 支援方式。",
+        "followup": "V11 Part 3 說 ergonomic furnishings 可透過哪些三種購買或補助方式提供？"
+      },
+      "B": {
+        "gap": "忽略 subsidies 是 remote ergonomic furnishings 的合規提供方式。",
+        "followup": "如果 remote worker 需要 ergonomic chair，V11 Part 3 是否允許 company 用 subsidy 支援？"
+      },
+      "C": {
+        "gap": "把 reimbursement 誤認為不合規，但它是條文列出的方式。",
+        "followup": "V11 Part 3 在 pre-approved direct-purchases 之外，是否還明列 reimbursement？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

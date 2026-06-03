@@ -1,0 +1,680 @@
+{
+  "module": "M04",
+  "frameworks": [
+    {
+      "id": "M04_F1",
+      "name": "日夜節律與光曝露",
+      "desc": "L01 Light Exposure 與 L03 Circadian Lighting Design 對應 circadian photoentrainment、daylight、electric light 與 Equivalent Melanopic Lux，目標是降低 circadian phase disruption。",
+      "covers": [
+        "L01 Light Exposure",
+        "L03 Circadian Lighting Design",
+        "circadian photoentrainment",
+        "Equivalent Melanopic Lux",
+        "M-EDI(D65)"
+      ]
+    },
+    {
+      "id": "M04_F2",
+      "name": "視覺照明與工作面需求",
+      "desc": "L02 Visual Lighting Design 要依 space types、activities 與 work planes 提供適當 illuminance，支援 visual comfort 與 visual acuity。",
+      "covers": [
+        "L02 Visual Lighting Design",
+        "illuminance",
+        "work planes",
+        "visual acuity",
+        "lighting guidelines"
+      ]
+    },
+    {
+      "id": "M04_F3",
+      "name": "眩光、平衡與電光品質",
+      "desc": "L04 Electric Light Glare Control、L07 Visual Balance 與 L08 Electric Light Quality 關注 glare、visual balance、color rendering 與 flicker。",
+      "covers": [
+        "L04 Electric Light Glare Control",
+        "L07 Visual Balance",
+        "L08 Electric Light Quality",
+        "color rendering",
+        "flicker"
+      ]
+    },
+    {
+      "id": "M04_F4",
+      "name": "日光設計與模擬決策",
+      "desc": "L05 Daylight Design Strategies、L06 Daylight Simulation 與 L09 Occupant Lighting Control 要把 daylight access、simulation reports、outdoor views 與 occupant preferences 納入設計判斷。",
+      "covers": [
+        "L05 Daylight Design Strategies",
+        "L06 Daylight Simulation",
+        "L09 Occupant Lighting Control",
+        "daylight simulation",
+        "outdoor views"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M04_Q26",
+      "stem": "What sort of fixtures would have a UGR?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HVAC"
+        },
+        {
+          "key": "B",
+          "text": "Lighting"
+        },
+        {
+          "key": "C",
+          "text": "Refrigerators"
+        },
+        {
+          "key": "D",
+          "text": "Faucets"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q27",
+      "stem": "Fluctuating light levels impact which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Productivity of employees"
+        },
+        {
+          "key": "B",
+          "text": "Visual comfort of occupants"
+        },
+        {
+          "key": "C",
+          "text": "Occupant morale"
+        },
+        {
+          "key": "D",
+          "text": "Ability to sleep"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q28",
+      "stem": "According to Feature L08: Electric Light Quality, light fixtures with higher color rendering do what?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Emit light that is brighter and more cost efficient."
+        },
+        {
+          "key": "B",
+          "text": "Emit light that gives off less heat."
+        },
+        {
+          "key": "C",
+          "text": "Emit light that show colors unrealistically."
+        },
+        {
+          "key": "D",
+          "text": "Emit light that show colors realistically."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Identifying and utilizing lighting fixtures that emit a high quality of light and do not display signs of \nflicker contributes to a comfortable and healthy space. Light fixtures with higher color rendering emit \nlight that show colors realistically. Color Rendering Index (CRI) and IES TM-30-15 are commonly \nused metrics used to determine the color rendering properties of a light source.",
+      "framework_hint": "M04_F3"
+    },
+    {
+      "id": "M04_Q29",
+      "stem": "A project team working on a university research building is preparing documentation for WELL Certification. What should they include to demonstrate compliance with Feature L06: Daylight Simulation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Policy document"
+        },
+        {
+          "key": "B",
+          "text": "Modeling report"
+        },
+        {
+          "key": "C",
+          "text": "Performance test results"
+        },
+        {
+          "key": "D",
+          "text": "Letter of assurance"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M04_F4"
+    },
+    {
+      "id": "M04_Q30",
+      "stem": "Age-related visual issues are caused all of the following except:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Smaller pupil size"
+        },
+        {
+          "key": "B",
+          "text": "Loss of moisture"
+        },
+        {
+          "key": "C",
+          "text": "Yellowing of the lenses"
+        },
+        {
+          "key": "D",
+          "text": "Increased light absorption by the lenses"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q31",
+      "stem": "In Feature L07: Visual Balance, lighting is designed by a lighting professional to take into account the following considerations except?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Changes in lighting characteristics"
+        },
+        {
+          "key": "B",
+          "text": "Color temperature of lights used"
+        },
+        {
+          "key": "C",
+          "text": "Appropriate style of fixture"
+        },
+        {
+          "key": "D",
+          "text": "Illuminance uniformity on horizontal task planes"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M04_F3"
+    },
+    {
+      "id": "M04_Q32",
+      "stem": "What documentation should be submitted for verification of L04: Electric Light Glare Control?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Policy and/or Operations Schedule"
+        },
+        {
+          "key": "B",
+          "text": "Technical Document"
+        },
+        {
+          "key": "C",
+          "text": "Performance Test"
+        },
+        {
+          "key": "D",
+          "text": "Professional Narrative"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M04_F3"
+    },
+    {
+      "id": "M04_Q33",
+      "stem": "Points in which feature fulfill the requirements of L01: Light Exposure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature L02: Visual Lighting Design"
+        },
+        {
+          "key": "B",
+          "text": "Feature L03: Circadian Lighting Design"
+        },
+        {
+          "key": "C",
+          "text": "Feature L06: Daylight Simulation"
+        },
+        {
+          "key": "D",
+          "text": "Feature L07: Visual Balance"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M04_F1"
+    },
+    {
+      "id": "M04_Q34",
+      "stem": "A project team is pursuing Feature LO5: Daylight Design Strategies. To obtain the maximum points for Part 2: Integrated Solar Shading, windows should?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Have automated shading to prevent glare."
+        },
+        {
+          "key": "B",
+          "text": "Have shading that can be opened every day."
+        },
+        {
+          "key": "C",
+          "text": "Be smaller than larger than 0. 55 m2 (6 ft2) to minimize light."
+        },
+        {
+          "key": "D",
+          "text": "Have external shading fins."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q35",
+      "stem": "If a team wants to earn 2 points in Feature L04: Electric Light Glare Control for their new industrial manufacturing center, they must choose fixtures with what maximum UGR?",
+      "options": [
+        {
+          "key": "A",
+          "text": "16"
+        },
+        {
+          "key": "B",
+          "text": "17"
+        },
+        {
+          "key": "C",
+          "text": "18"
+        },
+        {
+          "key": "D",
+          "text": "19"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M04_F3"
+    },
+    {
+      "id": "M04_Q36",
+      "stem": "How far away should supplemental lighting be installed from the front edge of a workstation in Part 2: Provide Supplemental Lighting of Feature L09: Occupant Lighting Control?",
+      "options": [
+        {
+          "key": "A",
+          "text": "7 inches"
+        },
+        {
+          "key": "B",
+          "text": "8 inches"
+        },
+        {
+          "key": "C",
+          "text": "9 inches"
+        },
+        {
+          "key": "D",
+          "text": "12 inches"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M04_F4"
+    },
+    {
+      "id": "M04_Q37",
+      "stem": "Which feature lists acceptable lighting reference guidelines?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature L01: Light Exposure"
+        },
+        {
+          "key": "B",
+          "text": "Feature L02: Visual Lighting Design"
+        },
+        {
+          "key": "C",
+          "text": "Feature L03: Circadian Lighting Design"
+        },
+        {
+          "key": "D",
+          "text": "Feature L07: Visual Balance"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q38",
+      "stem": "Which of the following is NOT one of the elements of lighting that occupants may control under Part 1: Enhance Occupant Controllability of Feature L09: Occupant Lighting Control?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Color"
+        },
+        {
+          "key": "B",
+          "text": "Color Temperature"
+        },
+        {
+          "key": "C",
+          "text": "Direction"
+        },
+        {
+          "key": "D",
+          "text": "Distribution of light by controlling different groups of lights or through preset scenes."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M04_F4"
+    },
+    {
+      "id": "M04_Q39",
+      "stem": "The impact of light on the circadian system can be measured using a metric called?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Equivalent Melanopic Lux"
+        },
+        {
+          "key": "B",
+          "text": "Equivalent Biopic Lux"
+        },
+        {
+          "key": "C",
+          "text": "Comparable Luminance"
+        },
+        {
+          "key": "D",
+          "text": "Balanced Melanopic Lux"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q40",
+      "stem": "Which of the following features sets the minimum distances from windows to regularly occupied spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature L01 Light Exposure"
+        },
+        {
+          "key": "B",
+          "text": "Feature L05 Daylight Design Strategies"
+        },
+        {
+          "key": "C",
+          "text": "Feature L03 Circadian Lighting Design"
+        },
+        {
+          "key": "D",
+          "text": "Feature L07 Visual Balance"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "To ensure that daylight is maximized within buildings, this feature sets minimum \ndistances from windows to regularly occupied spaces. - WELL Building Standard, \nFeature L01",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q41",
+      "stem": "Which of the following terms refers to windows and/or glazing in the outdoor envelope of a building?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Luminance"
+        },
+        {
+          "key": "B",
+          "text": "Reflectance"
+        },
+        {
+          "key": "C",
+          "text": "Fenestration"
+        },
+        {
+          "key": "D",
+          "text": "Defenestration"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q42",
+      "stem": "Which of the following features outlines design parameters for windows to optimize the quantity and quality of daylight while minimizing unwanted glare?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature L04: Electric Light Glare Control"
+        },
+        {
+          "key": "B",
+          "text": "Feature L05: Daylight Design Strategies"
+        },
+        {
+          "key": "C",
+          "text": "Feature L02: Visual Lighting Design"
+        },
+        {
+          "key": "D",
+          "text": "Feature L07: Visual Balance"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q43",
+      "stem": "A new corporate headquarters building is being constructed in a dense urban area. During the design phase, lighting simulations demonstrate that 40% of regularly occupied space receives at least 300 lux (28fc) for over 50% of operating hours each year. What should the designers change to earn 2 points in Feature L01: Light Exposure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increase window area to ensure that 50% of regularly occupied space is reached by natural light."
+        },
+        {
+          "key": "B",
+          "text": "Introduce light shelves to increase minimum lux received to 400 lux."
+        },
+        {
+          "key": "C",
+          "text": "Include light wells to ensure that 75% of regularly occupied space is reached by natural light."
+        },
+        {
+          "key": "D",
+          "text": "Change building orientation to ensure that natural light reaches regularly occupied space for more than 60% of operating hours each year."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "For Feature L06 Daylight Simulation, 55% of the space must receive at least 300 lux \n(28fc) of sunlight for at least 50% of operating hours each year for 1 point.",
+      "framework_hint": "M04_F1"
+    },
+    {
+      "id": "M04_Q44",
+      "stem": "DALY is an acronym for what?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Disability adjusted life years"
+        },
+        {
+          "key": "B",
+          "text": "Daily accumulated light years"
+        },
+        {
+          "key": "C",
+          "text": "Deferred adjusted life years"
+        },
+        {
+          "key": "D",
+          "text": "Detailed annual life years"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q45",
+      "stem": "Many features in the WELL Building Standard require performance testing to verify the feature. For Part 1: Provide Visual Acuity of Feature L02: Visual Lighting Design, a Visual Lighting performance test is required. What are the 5 parts of performance tests for feature verification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Test Locations & Conditions, Test Method, Test Quantity, Reporting & Compliance, Device Requirements."
+        },
+        {
+          "key": "B",
+          "text": "Test Parameters, Test Quality, Reporting Metrics, Device Options."
+        },
+        {
+          "key": "C",
+          "text": "Reporting, Physical Samples, Photographic Evidence, Compliance, Conditions."
+        },
+        {
+          "key": "D",
+          "text": "Test, Locations, Method, Quantity, Compliance."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M04_F2"
+    },
+    {
+      "id": "M04_Q46",
+      "stem": "Humans are diurnal, meaning that we are prone to wakefulness during the day and sleepiness at night. What system in our bodies does light exposure stimulate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Natural day-night cycle"
+        },
+        {
+          "key": "B",
+          "text": "Circadian Rhythms"
+        },
+        {
+          "key": "C",
+          "text": "Circadian Phase Disruption"
+        },
+        {
+          "key": "D",
+          "text": "Desynchronized Circadian Rhythms"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q47",
+      "stem": "Electric lighting used indoors has a low frequency of flicker that are not present in daylight. What health conditions has Flicker been associated with?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Migraines"
+        },
+        {
+          "key": "B",
+          "text": "Immune Disorders"
+        },
+        {
+          "key": "C",
+          "text": "Respiratory Illness"
+        },
+        {
+          "key": "D",
+          "text": "Cardiovascular Conditions"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q48",
+      "stem": "What is an AAP?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Applied Access Protocols"
+        },
+        {
+          "key": "B",
+          "text": "Ambient Auditory Pollution"
+        },
+        {
+          "key": "C",
+          "text": "Association of Audio Professionals"
+        },
+        {
+          "key": "D",
+          "text": "Alternative Adherence Pathway"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q49",
+      "stem": "Projects may use spreadsheets published by IWBI to calculate what?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Luminance Threshold"
+        },
+        {
+          "key": "B",
+          "text": "Visual Glare"
+        },
+        {
+          "key": "C",
+          "text": "Equivalent Melanopic Lux"
+        },
+        {
+          "key": "D",
+          "text": "Visual Acuity Myopathy"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M04_Q50",
+      "stem": "What is the intent of Feature L09: Occupant Lighting Control?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maximize personal responsibility in regards to electricity."
+        },
+        {
+          "key": "B",
+          "text": "Provide individuals with access to customizable lighting environments."
+        },
+        {
+          "key": "C",
+          "text": "To allow for personal style in individual workspaces."
+        },
+        {
+          "key": "D",
+          "text": "Improving workgroup satisfaction and retention."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M04_F4"
+    }
+  ]
+}

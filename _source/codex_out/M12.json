@@ -1,0 +1,566 @@
+[
+  {
+    "id": "M12_Q01",
+    "stem": "How long does the WELL Accredited Professional (WELL AP™) need to maintain their accreditation to be earn the innovation point for Feature I02: WELL Accredited Professional WELL AP?",
+    "framework": "M12_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "For three years after initial certification.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Until the project's initial certification is achieved.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Until materials for initial certification have been submitted.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "For six months after initial certification.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "I02 WELL Accredited Professional (WELL AP) – Part 1 Achieve WELL AP 要求至少一名 project team member 已取得 WELL AP credential，並且 maintains accreditation until project’s initial certification is achieved。門檻不是提交文件或認證後再維持固定期間。",
+    "diagnosis": {
+      "A": {
+        "gap": "把維持 WELL AP 認證誤解成 initial certification 後的固定年限。",
+        "followup": "I02 Part 1 的 accreditation 維持要求，是到哪一個 certification milestone 為止，而不是之後再延長多久？"
+      },
+      "C": {
+        "gap": "把文件提交時間點誤當成 WELL AP 認證維持的終點。",
+        "followup": "在 I02 Part 1 中，project team member 的 WELL AP credential 要維持到 submission 還是 initial certification？"
+      },
+      "D": {
+        "gap": "把六個月期限套入 I02，但標準未設定此 post-certification 期間。",
+        "followup": "I02 Part 1 是否出現 six months after certification 這種期限，還是只連到 initial certification achievement？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q02",
+    "stem": "How is the innovation point for Feature I02 verified?",
+    "framework": "M12_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Professional narrative.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Examination by certification authority.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Technical Document",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Third party review.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "I02 WELL Accredited Professional (WELL AP) – Part 1 Achieve WELL AP 的合規重點是證明 project team member 已取得 WELL AP 並維持到 initial certification；此 Innovation feature 的驗證方式為 Technical Document。Technical Document 用來在 documentation review 中提交可證明 credential 狀態的資料。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 Professional Narrative 與證明 WELL AP credential 的文件類型。",
+        "followup": "若要證明 I02 Part 1 的 WELL AP credential 與維持狀態，哪種 documentation type 最能直接呈現證據？"
+      },
+      "B": {
+        "gap": "誤以為 WELL AP 點數需要另由 certification authority 重新考核。",
+        "followup": "I02 已要求 team member 取得 WELL AP；驗證專案合規時，是重新考試還是提交文件證明 credential？"
+      },
+      "D": {
+        "gap": "把 WELL Certification review 泛稱為 third party review，忽略指定驗證方法。",
+        "followup": "WELL 的 verification methods 中，I02 Part 1 要用哪個文件類型，而不是泛稱第三方審查？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q03",
+    "stem": "A project can earn an innovation point for spreading awareness of WELL Certification by providing free, public tours of the WELL Certified space. How often are tours offered to the public?",
+    "framework": "M12_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Annually",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Bi Annually",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Quarterly",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "At least six times per year.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "I03 Experience WELL Certification – Part 1 Offer WELL Educational Tours 要求 free, public tours of the WELL Certified space，且 tours offered at least six times per year。標準同時要求每年至少 50 人參與、列入 WELL Certified spaces public directory，並透過公開渠道宣傳。",
+    "diagnosis": {
+      "A": {
+        "gap": "低估 I03 educational tours 頻率，把年度一次當成達標。",
+        "followup": "I03 Part 1 要求 tours 每年最少幾次？一年一次是否足以支撐 WELL education intent？"
+      },
+      "B": {
+        "gap": "把 bi annually 當成充足頻率，但仍低於六次門檻。",
+        "followup": "若 I03 Part 1 寫的是 at least six times per year，半年一次距離門檻還差幾次？"
+      },
+      "C": {
+        "gap": "接近但仍不足，把 quarterly 四次誤認為符合六次要求。",
+        "followup": "Quarterly tours 一年只有四次；I03 Part 1 的 minimum annual tour count 是否更高？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q04",
+    "stem": "An office building in Houston is looking for innovation points for Feature I05: Green Building Rating Systems. What is an example of a Green Building Rating System that is approved by IWBI?",
+    "framework": "M12_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "LEED (USGBC).",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "BREATHE.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Leaf Certification.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Green Houses.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "I05 Green Building Rating Systems – Part 1 Achieve Green Building Certification 要求 project is certified in a green building rating system approved by IWBI and listed on IWBI's website。LEED (USGBC) 屬於題目所指的 IWBI-approved green building rating system 例子，符合取得 5 Innovation points 的路徑。",
+    "diagnosis": {
+      "B": {
+        "gap": "把健康或空氣導向名稱誤認為 IWBI-approved green building rating system。",
+        "followup": "I05 Part 1 要的是 green building rating system；BREATHE 是否是 IWBI listed 的建築評級系統？"
+      },
+      "C": {
+        "gap": "被綠色名稱吸引，未確認是否為 IWBI 認可建築評級系統。",
+        "followup": "判斷 I05 是否合規時，應看名稱像不像綠建築，還是看 IWBI website approved list？"
+      },
+      "D": {
+        "gap": "把一般綠色建築概念誤當成正式 rating system 名稱。",
+        "followup": "I05 Part 1 要 certification under a rating system；Green Houses 是正式認證系統還是泛稱？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q05",
+    "stem": "In order to earn the 5 points available for Feature I05: Green Building Rating Systems, what must be done?",
+    "framework": "M12_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "The project must have already applied for LEED Certification",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "The project must certify in a green building rating system approved by IWBI",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "The project must apply for atleast 5 different Green Building Certifications",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "All Of the Above",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "I05 Green Building Rating Systems – Part 1 Achieve Green Building Certification 要求 project is certified in a green building rating system approved by IWBI and listed on IWBI's website。標準註明 pursuing a green building rating system 可取得 full five points，但 additional green building rating programs 不能讓 I05 超過 5 points。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 applied 誤當 certified，且把 LEED 當成唯一合規路徑。",
+        "followup": "I05 Part 1 的動詞是 certified 還是 applied？它要求特定 LEED，還是任一 IWBI-approved system？"
+      },
+      "C": {
+        "gap": "誤以為五分需要五個認證，忽略 I05 單一系統即可滿分。",
+        "followup": "I05 note 說 additional green building programs 能否累加超過 five points？為什麼不用五個認證？"
+      },
+      "D": {
+        "gap": "未辨識各選項條件互斥，將錯誤申請要求一併納入。",
+        "followup": "若 I05 Part 1 只要求 certified in an approved system，為何 applied 或五個認證不會同時成立？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q06",
+    "stem": "Which of the following is NOT a requirement for Part 2: Propose Innovation of Feature I01: Innovate WELL?",
+    "framework": "M12_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Must be consistent with applicable laws and regulations and leading practices in building design and operations.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Must demonstrate existing scientific, medical and/or industry research.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Must submit the outline of time and cost of innovation and its overall impact on the project.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Positively impacts project occupants by supporting health and well-being in a novel way that is not covered in WELL v2.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "I01 Innovate WELL – Part 1 Propose Innovations 要求 innovation proposal 正向影響 occupants、以 WELL v2 未涵蓋的 novel way 支持 health and well-being、由 existing scientific, medical and/or industry research substantiated，並符合 laws, regulations and leading practices。標準未要求提交 innovation 的 time and cost outline 作為此 Part 的必要條件。",
+    "diagnosis": {
+      "A": {
+        "gap": "把實際法規與 leading practices 要求誤判為非必要條件。",
+        "followup": "I01 Part 1 條件中是否明列 consistent with applicable laws and regulations and leading practices？"
+      },
+      "B": {
+        "gap": "忽略 innovation proposal 必須有 scientific、medical 或 industry research 佐證。",
+        "followup": "I01 Part 1 為何要求 existing research substantiation？novel intervention 可以只靠創意主張嗎？"
+      },
+      "D": {
+        "gap": "漏掉 I01 的核心：novel way 正向影響 occupants 且 WELL v2 未涵蓋。",
+        "followup": "I01 Part 1 對 novel intervention 的健康影響與 WELL v2 coverage 兩個條件是什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q07",
+    "stem": "What are some ways a project team can earn an innovation point for Feature I04: Gateway to Wellness?",
+    "framework": "M12_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Complete an independent health and wellness program within the last three years.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Conduct an annual wellness survey.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Hire a WELL AP to create a wellness program.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Annual health and wellness program.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "I04 Gateways to Wellness – Part 1 Complete Health and Wellness Programs 要求 within the last three years, the project has completed an independent health and wellness program, or an initiative approved by IWBI and listed on IWBI's website。重點是已完成且在三年內，而不是只做 survey 或聘請 WELL AP。",
+    "diagnosis": {
+      "B": {
+        "gap": "把單次 annual wellness survey 誤當成已完成的 health and wellness program。",
+        "followup": "I04 Part 1 要求 completed independent program；annual survey 是否等同完整且 IWBI 認可的 program？"
+      },
+      "C": {
+        "gap": "混淆 I04 wellness program 與 I02 WELL AP 專業參與點數。",
+        "followup": "聘請 WELL AP 對應哪個 Innovation feature？I04 Part 1 真正要求完成的是什麼類型 program？"
+      },
+      "D": {
+        "gap": "只抓到 wellness program 字樣，漏掉 independent、completed 與三年內條件。",
+        "followup": "I04 Part 1 除了 health and wellness program，還要求它在何時完成、是否需 independent 或 IWBI approved？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q08",
+    "stem": "What is the primary reason that IWBI aligned with Green Building Rating Systems such as LEED and BREEAM?",
+    "framework": "M12_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "To be more attractive to the market.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "To help reduce overall costs to the project.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "To balance sustainability and human health considerations.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "To help reduce greenhouse gasses.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "I05 Green Building Rating Systems 的 Summary 說 WELL aligns with leading green building rating systems to recognize projects that balance environmental sustainability with human health。其核心理由是 balancing sustainability and human health considerations，使 people and planet can thrive。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 I05 alignment 誤解為市場吸引力策略，而非健康與永續平衡。",
+        "followup": "I05 Summary 說 IWBI 對齊 green building systems 是為了 market appeal，還是為了哪兩種考量的平衡？"
+      },
+      "B": {
+        "gap": "將專案成本降低當成 I05 目的，但標準未把 cost reduction 列為主因。",
+        "followup": "I05 Summary 的 rationale 有提到 overall project costs 嗎？它如何連結 sustainability 與 human health？"
+      },
+      "D": {
+        "gap": "只看到環境減排面，漏掉 I05 必須同時連結 human health。",
+        "followup": "Reducing greenhouse gases 可能支持 sustainability，但 I05 Summary 還要求與哪個 human-centered 目標並列？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q09",
+    "stem": "A project team wants to receive an innovation point for their WELL Certified Building. What are some of the ways they can do this?",
+    "framework": "M12_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Offer a public tour that is listed in the WELL Certified spaces directory.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "They can advertise WELL Features and Benefits in the community.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Offer a public tour three times per year.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Offer tours on the buildings website up to 6 times per year.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "I03 Experience WELL Certification – Part 1 Offer WELL Educational Tours 要求 free, public tours of the WELL Certified space，且需 listed in the public directory of tours for WELL Certified spaces。完整門檻還包括 at least six times per year、at least 50 people per year、每個 WELL concept 至少一個 destination，並透過公開渠道宣傳。",
+    "diagnosis": {
+      "B": {
+        "gap": "只抓到公開宣傳概念，漏掉實體 public tours 與 directory 要求。",
+        "followup": "I03 Part 1 的 advertised through public channel 是輔助條件；它還要求 tours 如何被 listed？"
+      },
+      "C": {
+        "gap": "把三次 public tour 當成達標，低於 I03 每年至少六次門檻。",
+        "followup": "I03 Part 1 明列 tours offered at least six times per year；三次是否滿足 minimum frequency？"
+      },
+      "D": {
+        "gap": "混淆網站宣傳與 tour 本身，且把至少六次誤寫成最多六次。",
+        "followup": "I03 Part 1 要 tours offered at least six times per year；up to six 和 at least six 差在哪裡？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q10",
+    "stem": "What feature should a project use to submit innovation proposals?",
+    "framework": "M12_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature I03: Experience WELL Certification",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Feature I01: Innovate WELL",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "You do not need to use a feature in order to submit an innovation proposal.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Innovation proposals are submitted via email to IWBI.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "Innovation concept overview 明確說 projects should use Feature I01: Innovate WELL to submit innovation proposals。I01 – Part 1 Propose Innovations 提供 proposal 必須滿足的要求，包括 novel occupant health impact、research substantiation 與符合法規及 leading practices。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 I03 的 educational tours 與 I01 的 innovation proposal submission。",
+        "followup": "I03 是 pre-approved strategy 還是提交 novel innovation proposal 的 feature？標準 overview 指向哪個 feature？"
+      },
+      "C": {
+        "gap": "忽略 Innovation overview 明確要求透過 I01 提交 innovation proposals。",
+        "followup": "標準說 projects should use which feature to submit innovation proposals？是否允許不透過 feature？"
+      },
+      "D": {
+        "gap": "把行政聯絡方式想像成提交路徑，未依 I01 feature 要求判斷。",
+        "followup": "I01 Part 1 列的是 proposal requirements；標準是否把 email to IWBI 寫成正式 submission feature？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q11",
+    "stem": "How many innovation points can a project receive?",
+    "framework": "M12_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "up to 3 points.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "up to 8 points.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "up to 10 points.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "up to 15 points.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "Innovation concept overview states that projects may receive up to 10 points in Innovation。I01 Innovate WELL 本身也標示 WELL Certification: 10 Pt | WELL Core: 10 Pt，表示 Innovation concept 的最高可得點數為 10。",
+    "diagnosis": {
+      "A": {
+        "gap": "大幅低估 Innovation concept 上限，可能只想到少數預核准策略。",
+        "followup": "Innovation overview 對整個 concept 的 point cap 是多少？I01 頁首列出的 WELL Certification points 為何？"
+      },
+      "B": {
+        "gap": "接近但仍低估上限，未對照 overview 的 explicit cap。",
+        "followup": "若標準明寫 projects may receive up to 10 points in Innovation，八分是來自哪個條文？"
+      },
+      "D": {
+        "gap": "把 Innovation 可得分數高估，忽略 concept cap 限制。",
+        "followup": "I05 雖有 five points，I01 也有多分，但整個 Innovation concept 是否能超過 10 points？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M12_Q12",
+    "stem": "What is the intent of the Innovation Concept?",
+    "framework": "M12_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "to pave the way for projects to do what they want.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "to pave the way for projects to represent different strategies.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "to pave the way for projects to create wellness movements in their facilities.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "to pave the way for projects to develop unique strategies for creating healthy environments.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Innovation concept overview states that Innovation features pave the way for projects to develop unique strategies for creating healthier environments。它進一步說 Innovation features address a novel concept or strategy not already included in WELL features，並以最多 10 points 支持這類策略。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 Innovation 誤解成任意自由發揮，忽略健康、novelty 與審查要求。",
+        "followup": "Innovation concept 是否允許 projects do what they want，還是仍需符合 I01 的 health impact 與 research criteria？"
+      },
+      "B": {
+        "gap": "抓到 strategy 字樣，但漏掉 unique 與 creating healthier environments 的目的。",
+        "followup": "Innovation overview 中 strategies 的目標是 merely different，還是要用 unique approaches 創造 healthier environments？"
+      },
+      "C": {
+        "gap": "把 wellness movement 語感當成標準 intent，未扣回 healthier environments。",
+        "followup": "標準描述 Innovation intent 時，用的是 wellness movements，還是 creating healthier environments？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

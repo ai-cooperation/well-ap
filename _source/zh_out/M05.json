@@ -1,0 +1,145 @@
+[
+  {
+    "code": "V01",
+    "zh_name": "主動式建築與社區",
+    "zh_summary": "透過建築與場域設計促進各類 movement，包含日常身體活動、運動與減少久坐行為。此 precondition 要求專案至少從指定的 Movement design-based optimizations 中取得一點，作為後續主動生活策略的基礎。",
+    "zh_specs": [
+      "適用 For All Spaces。",
+      "The project achieves at least one point in one of the listed features。",
+      "可透過 Feature V03: Circulation Network 達成。",
+      "可透過 Feature V04: Facilities for Active Occupants 達成。",
+      "可透過 Feature V05: Site Planning and Selection 或 Feature V08: Physical Activity Spaces and Equipment 達成。",
+      "WELL Core Guidance: See applicability for chosen optimization。"
+    ]
+  },
+  {
+    "code": "V02",
+    "zh_name": "人體工學工作站設計",
+    "zh_summary": "要求工作站家具與設備能支援 seated and standing work 的中立姿勢，降低身體拉傷與長時間固定姿勢的風險。重點包含螢幕視覺人體工學、可調式桌面、椅子調整性、站立工作支援，以及使用者 orientation。",
+    "zh_specs": [
+      "適用 For Office Spaces 的視覺人體工學：desktop computer monitors 需可由使用者調整 monitor height, viewing angle, horizontal distance。",
+      "laptop computers 需搭配 external keyboard, mouse and stand，或使用符合 Option 1 的 external monitor。",
+      "At least 25% of all workstations 可由使用者調整為 seated and standing work。",
+      "所有 workstation seating 需可調整 Seat height、Seat depth，並再符合一項：Backrest height and lumbar support、Backrest angle 或 Armrest height and distance between armrests。",
+      "regularly required to stand for 50% or more of working hours 的工作站，需納入 at least two 支援策略；Recessed toe space 至少 4 in(10 cm) depth and height 可列入。",
+      "All eligible employees 需接受 workstation orientation，涵蓋 ergonomic and adjustability features、如何依個人需求調整、以及 future reference resources。"
+    ]
+  },
+  {
+    "code": "V03",
+    "zh_name": "動線網絡",
+    "zh_summary": "透過樓梯美學、決策點提示與可見性設計，鼓勵 occupants 在日常動線中選擇樓梯。考點是至少一座 staircase 需開放給 regular occupants、服務專案所有樓層，並依各 Part 取得美學、signage 或位置優勢。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 2 Pt。",
+      "至少一座 staircase open to regular occupants，services all floors of the project，且 each floor 至少包含 two aesthetic elements。",
+      "aesthetic elements 包含 Music、Artwork、Light levels of at least 215 lux(20fc) when in use、Windows or skylights、Natural design elements 或 Gamification。",
+      "Part 2: Point-of-decision signage 需設於 Near the main building entrance or the reception desk、At elevator or escalator banks on each floor、At the base of stairs and stairwell re-entry points on each floor。",
+      "若 stairs are not visible from signage locations，需以 wayfinding signage 引導 occupants 到樓梯。",
+      "Part 3: staircase 需 located physically and/or visibly before elevators/escalators as measured from the main point of entry to the building。"
+    ]
+  },
+  {
+    "code": "V04",
+    "zh_name": "活躍使用者設施",
+    "zh_summary": "透過自行車基礎設施、bike parking、淋浴、更衣與置物設施，支持 active commuting 與日常運動後的使用需求。重點是讓通勤者與 active occupants 能方便抵達、停放、盥洗與更衣。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 2 Pt | WELL Core: 3 Pt；適用 For All Spaces except Dwelling Units & Retail Spaces。",
+      "Cycling network Option: 專案位於 minimum Bike Score® of 50 的 zip or postal code。",
+      "Cycling network Option: 專案位於 650 ft(200 m) walk distance 內既有 cycling network，且該 network 連接至少 10 use types，並位於 project boundary 的 3 mi(4.8 km) cycling distance 內。",
+      "Cycling network Option: 可提出 existing plans for a cycling network that meets requirements a or b。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 2 Pt；適用 For All Spaces except Dwelling Units。",
+      "Showers with changing facilities 需位於 650 ft(200 m) walk distance of the project boundary；0 - 100 regular occupants: One；101 - 999: One plus one for every 150 occupants above 100；1,000 – 4,999: Eight plus one for every 500 occupants above 1,000。"
+    ]
+  },
+  {
+    "code": "V05",
+    "zh_name": "基地規劃與選址",
+    "zh_summary": "透過行人友善街道與大眾運輸可及性，讓建築周邊環境支持 walkability、active living 與日常 movement。考點是至少一個功能性出入口要連接 pedestrian network，並用 Walk Score®、人行道條件或 mass transit 門檻證明位置優勢。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 2 Pt | WELL Core: 3 Pt；適用 For All Spaces。",
+      "至少一個 functional building entrance opens to a pedestrian network。",
+      "可位於 minimum Walk Score® of 70 的 zip or postal code。",
+      "可位於 street with restricted vehicular traffic。",
+      "可在 project boundary 的 0.25 mi(400 m) walk distance 內，達成 90% of the total street length has continuous sidewalks present on both sides，並搭配原文列出的其他條件。",
+      "Part 2: 可位於 minimum Transit Score® of 70；或在 650 ft(200 m) walk distance 內有 bus network，或在 0.25 mi(400 m) walk distance 內有 bus rapid transit stops、rail stations、commuter rail stations 或 ferry services，且提供 at least 72 weekday trips and 30 weekend trips。"
+    ]
+  },
+  {
+    "code": "V06",
+    "zh_name": "身體活動機會",
+    "zh_summary": "要求專案提供 regular occupants 無費用的 physical activity opportunities，並由 qualified physical activity professional 帶領。此 feature 重點在於活動要符合專案族群特性，可現場或 virtual 提供，並避免把活動機會作為懲罰工具。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "適用 For All Spaces。",
+      "No cost physical activity opportunities 需 available to regular occupants。",
+      "Programming 需 appropriate for the project population，例如 age, ability, culture。",
+      "Programming 可 in-person within a 650 ft(200 m) walk distance of the project boundary 或 virtually。",
+      "Programming 需由 qualified physical activity professional 以 in-person 或 virtually 提供；對 early childhood education、primary or secondary school students，不可將 physical activity opportunities withheld as a form of punishment。"
+    ]
+  },
+  {
+    "code": "V07",
+    "zh_name": "動態家具",
+    "zh_summary": "透過 active workstations 鼓勵姿勢切換、movement 與 postural breaks，減少在固定工作站長時間坐著或站著。常見形式包含 sit-stand desk、treadmill desk、bicycle desk 與 stepper machine。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "適用 For Office Spaces。",
+      "Active workstations 需 available to all employees who primarily work at stationary workstations。",
+      "可包含 manual or electric height adjustable desks，讓使用者在 seated and standing positions 自訂 workstation height。",
+      "可包含 supplemental solutions，使 work surface 與 input devices（monitor or screen, keyboard, mouse）可升降至 seated or standing heights。",
+      "可包含 Treadmill desk、Bicycle desk 或 Stepper machine。"
+    ]
+  },
+  {
+    "code": "V08",
+    "zh_name": "身體活動空間與設備",
+    "zh_summary": "要求 regular occupants 能免費使用 indoor 或 outdoor physical activity spaces and equipment，降低運動參與門檻。專案可透過場內健身設施、鄰近室內設施，或 0.25 mi(400 m) 內的戶外活動空間達成。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 0.5 Pt；適用 For All Spaces。",
+      "On-site physical activity spaces 需在 project boundary 內，at no cost to regular occupants。",
+      "Option 1a: 空間需包含 at least two types of exercise equipment，且數量可 allow use by at least 5% of regular occupants at any time。",
+      "Option 1b: 空間需包含 at least two types of exercise equipment，且至少 270 ft2(25m2) plus 1 ft2(0.1 m 2) per regular occupant，up to a maximum of 10,000 ft2(930 m2)。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 2 Pt；至少一個 outdoor physical activity space 位於 0.25 mi(400 m) walk distance of the project boundary，且 at no cost to regular occupants。",
+      "outdoor space 可為 Green space、Blue space、Recreational field or court、Fitness zone with all-weather fitness equipment，或 child occupants 適用的 play space。"
+    ]
+  },
+  {
+    "code": "V09",
+    "zh_name": "身體活動推廣",
+    "zh_summary": "透過 incentive programs 與 promotion programs 鼓勵 occupants 參與 physical activity，並建立可被追蹤的健康促進措施。重點是 eligible employees 至少能取得兩種活動推廣支持，例如獎勵、補助、保費減免、彈性工時或 paid time off。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "適用 For All Spaces。",
+      "Option 1: project offers at least two physical activity promotion programs to eligible employees。",
+      "可提供 Rewards for physical activity engagement，例如 prizes 或 financial rewards。",
+      "可提供 subsidy towards physical activity costs incurred by employees，例如 membership fees or group fitness classes，including business travel。",
+      "可提供 Reductions in health care premiums、Flexible work hours，或 Paid time off for physical activity with a minimum of four days per calendar year。"
+    ]
+  },
+  {
+    "code": "V10",
+    "zh_name": "自我監測",
+    "zh_summary": "透過 wearable fitness tracker 等 self-monitoring tools，提升使用者對 physical activity metrics 與 health behaviors 的自我覺察。專案需免費提供或補助裝置，並讓個人能長期查看自己的 aggregated metrics。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "適用 For All Spaces。",
+      "project provides devices，例如 wearable fitness tracker，to all eligible employees。",
+      "Devices 需 available at no cost or subsidized by at least 50%。",
+      "Devices 需 allow users to monitor their own metrics over time，並提供 dashboard where individual metrics are aggregated。",
+      "Devices 需 measure at least two physical activity metrics，例如 steps, floors climbed, activity minutes，並 measure at least one additional health behavior，例如 mindfulness practice, sleep。"
+    ]
+  },
+  {
+    "code": "V11",
+    "zh_name": "人體工學方案",
+    "zh_summary": "透過 certified ergonomist 或正式 ergonomics program，建立持續改善工作站與工作型態的系統。此 feature 也要求 Part 1 作為後續 ergonomic improvements 與 remote work ergonomics 的基礎，讓人體工學不只停留在家具採購。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 1 Pt；適用 For All Spaces。",
+      "Option 1: project regularly engages with a certified ergonomist，或至少有 one employee who is a certified ergonomist，且其 job description and performance expectations 支持此 feature。",
+      "Option 2: ergonomics program 需 in place，並至少包含 consultation with key stakeholders。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 1 Pt；Projects may only achieve this part if Part 1 is also achieved。",
+      "Informed Ergonomic Design 需描述 Part 1 如何 informed design-decisions within Feature V02: Ergonomics Workstation Design，並 as applicable 影響 Feature V07: Active Furnishings。",
+      "Part 3: remote work 若屬 current organizational practices 或 business continuity plans，ergonomics program 需 tailored to support remote work scenarios，並提供 remote workers 所需的 ergonomic supports，至少包含 ergonomic furnishings。"
+    ]
+  }
+]

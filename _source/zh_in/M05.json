@@ -1,0 +1,193 @@
+{
+  "module": "M05",
+  "name": "運動 Movement",
+  "features": [
+    {
+      "code": "V01",
+      "name": "Active Buildings And Communities",
+      "type": "precondition",
+      "intent": "Facilitate all types of movement, including physical activity and exercise and reduce sedentary behavior through the intentional design of built spaces.",
+      "summary": "This WELL feature requires projects to select from a series of design-based optimizations.",
+      "parts": [
+        {
+          "title": "Part 1 Design Active Buildings and Communities",
+          "body": "For All Spaces: The project achieves at least one point in one of the following features:    a. Feature V03: Circulation Network.    b. Feature V04: Facilities for Active Occupants.    c. Feature V05: Site Planning and Selection.    d. Feature V08: Physical Activity Spaces and Equipment.   WELL Core Guidance: See applicability for chosen optimization. References    1. King AC, Powell KE, Physical Activity Guidelines Advisory Committee, Committee PAGA. 2018 Physical Activity       Guidelines Advisory Committee Scientific Report. 2018. https://health.gov/paguidelines/second-       edition/report.aspx.    2. Centers for Disease Control and Prevention. Facts about Physical Activity.       https:"
+        }
+      ]
+    },
+    {
+      "code": "V02",
+      "name": "Ergonomic Workstation Design",
+      "type": "precondition",
+      "intent": "Reduce the risk of physical strain on the body through ergonomic design at workstations that supports neutral body positions for seated and standing work and provides opportunities to alternate between seated and standing positions.",
+      "summary": "This WELL feature requires projects to provide ergonomic workstation furnishings to accommodate all users, that allow for customized workstation fit and provide user orientation to workstations covering ergonomic workstation design and adjustability features.",
+      "parts": [
+        {
+          "title": "Part 1 Support Visual Ergonomics",
+          "body": "For Office Spaces: Option 1: Desktop computer monitors All computer monitors can be positioned by the user (monitor height, viewing angle, horizontal distance), through one or more of the following:    a. Monitors with built-in height and angle adjustment.10,11    b. Monitor stands or arms that allow height, angle and horizontal adjustment.10,11 Option 2: Laptop computers All laptops meet one of the following requirements:    a. The laptop is paired with an external keyboard, mouse and stand such that the laptop screen can be positioned       by the user (height, viewing angle, horizontal distance).11    b. The laptop is used with an external monitor that meets Option 1.11   WELL Core Guidan"
+        },
+        {
+          "title": "Part 2 Provide Height-Adjustable Work Surfaces",
+          "body": "For Office Spaces: At least 25% of all workstations can be adjusted by the user for both seated and standing work, through one of the following:    a. Manual or electric height-adjustable work surfaces that provide users with the ability to customize workstation       height at both seated and standing positions.10,11    b. Supplemental solutions (e.g., stand) that allow all or part of the work surface, monitor and primary input devices       (e.g., keyboard, mouse) to be raised or lowered to seated or standing heights.10,11   WELL Core Guidance: Meet these requirements in non-leased spaces. To earn an additional point, also meet these   requirements in leased spaces. Projects can either ins"
+        },
+        {
+          "title": "Part 3 Provide Chair Adjustability",
+          "body": "For Office Spaces: All seating at workstations can be adjusted by the user, including the following:    a. Seat height.10,11    b. Seat depth. 10,11    c. One additional adjustability requirement:           1. Backrest height and lumbar support.10,11           2. Backrest angle.10,11           3. Armrest height and distance between armrests.10,11   WELL Core Guidance: Meet these requirements in non-leased spaces. To earn an additional point, also meet these   requirements in leased spaces. Projects can either install amenities or provide a budget to tenants tied to the   implementation of feature requirements."
+        },
+        {
+          "title": "Part 4 Provide Support at Standing Workstations",
+          "body": "For All Spaces: All workstations in which users are regularly required to stand for 50% or more of their working hours (e.g., assembly line station, hotel check-in counter, supermarket check-out counter) incorporate at least two of the following:    a. Anti-fatigue mats, impact reducing flooring or a similar strategy.12    b. Recessed toe space at least 4 in(10 cm) depth and height.13    c. A footrest or footrail.12,14    d. A leaning chair.12,14   WELL Core Guidance: Meet these requirements in non-leased spaces. To earn an additional point, also meet these   requirements in leased spaces. Projects can either install amenities or provide a budget to tenants tied to the   implementation of fe"
+        },
+        {
+          "title": "Part 5 Provide Workstation Orientation",
+          "body": "For All Spaces: The following requirement is met:    a. All eligible employees receive an orientation (e.g., in-person training, interactive education, video or       smartphone-based education with competency verification) to workstations in the space covering, at minimum,       the following:           1. Ergonomic and adjustability features of a given workstation and their benefits.           2. Demonstration on how to make adjustments based on individual needs.           3. Available resources that can be used for future reference and where to access them.   WELL Core Guidance: Meet these requirement in non-leased spaces. References    1. King AC, Powell KE, Physical Activity Guidelines "
+        }
+      ]
+    },
+    {
+      "code": "V03",
+      "name": "Circulation Network",
+      "type": "optimization",
+      "intent": "Encourage stair use through aesthetic design, signage and visibility of staircases.",
+      "summary": "This WELL feature requires projects to design staircases for everyday use and leverage aesthetics, visibility/positioning, and prompts to encourage stair use.",
+      "parts": [
+        {
+          "title": "Part 1 Design Aesthetic Staircases",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: At least one staircase is open to regular occupants, services all floors of the project and is aesthetically designed through the inclusion of at least two of the following on each floor:    a. Music.7    b. Artwork.7    c. Light levels of at least 215 lux(20fc) when in use.7,18    d. Windows or skylights that provide access to daylight.7,18    e. Natural design elements (e.g., plants, water features, images of nature).7     f. Gamification.17   Note: Interiors projects may count base building stairs, which connect the project to the ground floor or lobby towards   feature requirements, even if base building stairs are outside of the"
+        },
+        {
+          "title": "Part 2 Integrate Point-of-Decision Signage",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: At least one staircase is open to regular occupants, services all floors of the project and is supported by the following:    a. Point-of-decision signage is present at the following locations:           1. Near the main building entrance or the reception desk.7           2. At elevator or escalator banks on each floor. 7           3. At the base of stairs and stairwell re-entry points on each floor.7    b. If stairs are not visible from signage locations, wayfinding signage is used to guide occupants to the stairs.7   Note: Interiors projects may count base building stairs, which connect the project to the ground floor or lobby towa"
+        },
+        {
+          "title": "Part 3 Promote Visible Stairs",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: At least one staircase is open to regular occupants, services all floors of the project and meets the following requirement:    a. Located physically and/or visibly before elevators/escalators as measured from the main point of entry to the       building.7,18   Note: Interiors projects may count base building stairs, which connect the project to the ground floor or lobby towards   feature requirements, even if base building stairs are outside of the project boundary.   WELL Core Guidance: Meet these requirements in the whole building. References    1. King AC, Powell KE, Physical Activity Guidelines Advisory Committee, Committee PAG"
+        }
+      ]
+    },
+    {
+      "code": "V04",
+      "name": "Facilities For Active Occupants",
+      "type": "optimization",
+      "intent": "Foster active commuting through facilities that support cycling to the building and active occupants more broadly.",
+      "summary": "This WELL feature requires projects to provide bike storage along with showers, changing facilities and lockers, which support both active commuters and active occupants.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Cycling Infrastructure",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces except Dwelling Units & Retail Spaces: Option 1: Cycling network One of the following requirements is met:    a. The project is located in an area (zip or postal code) with a minimum Bike Score® of 50.14    b. The project is located within a 650 ft(200 m) walk distance of an existing cycling network that connects riders to       at least 10 use types that are within a 3 mi(4.8 km) cycling distance of the project boundary.15 Uses and       restrictions are defined in Appendix V1.16    c. The project demonstrates existing plans for a cycling network that meets requirements a or b. Option 2: Bike parking The following requirements are me"
+        },
+        {
+          "title": "Part 2 Provide Showers, Lockers and Changing Facilities",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces except Dwelling Units: The following requirements are met:    a. Showers with changing facilities are available in a quantity listed below within a 650 ft(200 m) walk distance of       the project boundary:15         Regular Occupants (age 12 or older)                        Required Number of Showers         0 - 100                                                    One         101 - 999                                                  One plus one for every 150 occupants above 100         1,000 – 4,999                                              Eight plus one for every 500 occupants above 1,000         5,000 + occupants           "
+        }
+      ]
+    },
+    {
+      "code": "V05",
+      "name": "Site Planning And Selection",
+      "type": "optimization",
+      "intent": "Promote movement, physical activity and active living through site and nearby amenities that facilitate walkability and provide proximate access to public transportation.",
+      "summary": "This WELL feature requires projects to demonstrate that the area around the building is fostering walkability and that the building is located near public transportation.",
+      "parts": [
+        {
+          "title": "Part 1 Select Sites with Pedestrian-friendly Streets",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces: Option 1: Pedestrian-friendly streets At least one functional building entrance opens to a pedestrian network (i.e., streets where pedestrians travel, featuring at minimum sidewalks) and one of the following requirements is met:    a. The project is located in an area (zip or postal code) with a minimum Walk Score® of 70.13    b. The project is located on a street with restricted vehicular traffic.14    c. Within a 0.25 mi(400 m) walk distance of the project boundary, 90% of the total street length has continuous       sidewalks present on both sides and two of the following:           1. At least eight existing use types are present"
+        },
+        {
+          "title": "Part 2 Select Sites with Access to Mass Transit",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces: One of the following requirements is met:    a. The project is located in an area (zip or postal code) with a minimum Transit Score® of 70.22    b. The project is located within a 650 ft(200 m) walk distance of existing bus network that provide at least 72       weekday trips and 30 weekend trips.22    c. The project is located within a 0.25 mi(400 m) walk distance of existing bus rapid transit stops, light or heavy rail       stations, commuter rail stations or ferry services that provide at least 72 weekday trips and 30 weekend trips.22   WELL Core Guidance: Meet these requirements in the whole building. References    1. King AC, P"
+        }
+      ]
+    },
+    {
+      "code": "V06",
+      "name": "Physical Activity Opportunities",
+      "type": "optimization",
+      "intent": "Encourage physical activity and exercise through no-cost physical activity opportunities for occupants.",
+      "summary": "This WELL feature requires projects to provide no-cost physical activity opportunities led by a qualified physical activity professional.",
+      "parts": [
+        {
+          "title": "Part 1 Offer Physical Activity Opportunities",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: No cost physical activity opportunities are available to regular occupants and meet the following requirements:    a. Programming is appropriate for the project population (e.g., age, ability, culture).    b. Programming is offered in-person within a 650 ft(200 m) walk distance of the project boundary or virtually.    c. Programming is delivered by a qualified physical activity professional either in-person or virtually.    d. As applicable, physical activity opportunities are not withheld as a form of punishment for early childhood       education, primary or secondary school students.9    e. Programming is offered at the following "
+        }
+      ]
+    },
+    {
+      "code": "V07",
+      "name": "Active Furnishings",
+      "type": "optimization",
+      "intent": "Encourage movement, postural breaks and switching and discourage prolonged sitting or standing at stationary workstations through active workstations.",
+      "summary": "This WELL feature requires projects to provide ample active workstations, such as a sit-stand or treadmill desk.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Active Workstations",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For Office Spaces: Active workstations are available to all employees who primarily work at stationary workstations (e.g., desk) and present in quantities described in the table below and may include the following types:    a. Manual or electric height adjustable desks that provide users the ability to customize workstation height at both       seated and standing positions.    b. Supplemental solutions that allow all or part of the work surface and all input devices (monitor or screen,       keyboard, mouse) to be raised or lowered to seated or standing heights.    c. Treadmill desk.    d. Bicycle desk.    e. Stepper machine.                       "
+        }
+      ]
+    },
+    {
+      "code": "V08",
+      "name": "Physical Activity Spaces And Equipment",
+      "type": "optimization",
+      "intent": "Promote physical activity and exercise by providing access to physical activity spaces and equipment at no cost.",
+      "summary": "This WELL feature requires projects to provide access to a physical activity space at no cost through an on- site fitness facility, nearby facility or nearby outdoor spaces, such as a park.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Indoor Activity Spaces",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: On-site physical activity spaces A dedicated fitness facility is available within the project boundary at no cost to regular occupants and is sized according to one of the following requirements:    a. The space includes at least two types of exercise equipment (e.g., free weights, treadmill) in quantities that allow       use by at least 5% of regular occupants at any time.8    b. The space includes at least two types of exercise equipment (e.g., free weights, treadmill) and is at least 270       ft2(25m2) plus 1 ft2(0.1 m 2) per regular occupant, up to a maximum of 10,000 ft2(930 m2).9 OR Option 2: Off-site physical act"
+        },
+        {
+          "title": "Part 2 Provide Outdoor Physical Activity Space",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: At least one of the following outdoor physical activity spaces is within a 0.25 mi(400 m) walk distance of the project boundary and available at no cost to regular occupants:    a. Green space (e.g., park, walking/biking trail).    b. Blue space (e.g., swimming area).    c. Recreational field or court.    d. Fitness zone that includes all-weather fitness equipment.    e. For projects with child occupants, play space geared toward children (e.g., playground).   WELL Core Guidance: Meet these requirements in the whole building. References    1. King AC, Powell KE, Physical Activity Guidelines Advisory Committee, Committee PAGA. 2018 Ph"
+        }
+      ]
+    },
+    {
+      "code": "V09",
+      "name": "Physical Activity Promotion",
+      "type": "optimization",
+      "intent": "Encourage physical activity and exercise, by designing, implementing and monitoring physical activity incentive programs.",
+      "summary": "This WELL feature requires projects to provide physical activity incentives or promotion programs and monitor uptake of offerings.",
+      "parts": [
+        {
+          "title": "Part 1 Offer Physical Activity Incentives",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Incentives for eligible employees The project offers at least two of the following physical activity promotion programs to eligible employees:    a. Rewards for physical activity engagement (e.g., prizes, financial rewards).    b. A subsidy towards physical activity costs incurred by employees (e.g., membership fees or group fitness classes),       including those incurred during business travel.    c. Reductions in health care premiums based on physical activity engagement.    d. Flexible work hours to accommodate physical activity.    e. Paid time off for physical activity with a minimum of four days per calendar year. "
+        }
+      ]
+    },
+    {
+      "code": "V10",
+      "name": "Self-Monitoring",
+      "type": "optimization",
+      "intent": "Promote self-awareness of health behaviors and health metrics through wearable technology.",
+      "summary": "This WELL feature requires projects to provide or subsidize wearables that can monitor physical activity and health behaviors over time.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Self-Monitoring Tools",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: The project provides devices (e.g., wearable fitness tracker) to all eligible employees that meet the following requirements:    a. Available at no cost or subsidized by at least 50%.    b. Allow users to monitor their own metrics over time (i.e., provides a dashboard where individual metrics are       aggregated).    c. Measure at least two physical activity metrics (e.g., steps, floors climbed, activity minutes).    d. Measure at least one additional health behavior (e.g., mindfulness practice, sleep).   WELL Core Guidance: Meet these requirements for building management staff. To earn an additional point, also meet these   requi"
+        }
+      ]
+    },
+    {
+      "code": "V11",
+      "name": "Ergonomics Programming",
+      "type": "optimization",
+      "intent": "Enhance well-being and comfort through comprehensive ergonomics programming.",
+      "summary": "This WELL feature requires projects to work with a certified ergonomist to implement comprehensive ergonomics programming, commit to on-going improvements to ergonomic design and provide ergonomic support for remote workers.",
+      "parts": [
+        {
+          "title": "Part 1 Implement an Ergonomics Program",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Professional ergonomics support One of the following requirements is met:    a. The project regularly engages with a certified ergonomist (consultant, contractor or other third-party) who       supports the project in achieving this feature.    b. The project has at least one employee who is a certified ergonomist and supports the project in achieving this       feature as defined in their job description and performance expectations. Option 2: Ergonomics programming An ergonomics program is in place that includes the following, at a minimum:    a. Consultation with key stakeholders (e.g., human resources, workplace wellnes"
+        },
+        {
+          "title": "Part 2 Commit to Ergonomic Improvements",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt   Note: Projects may only achieve this part if Part 1 is also achieved. For All Spaces: Option 1: Informed Ergonomic Design The following requirement is met:    a. The project describes how Part 1 informed design-decisions within Feature V02: Ergonomics Workstation Design       and, as applicable, Feature V07: Active Furnishings.   Note: All projects are required to submit the WELL beta feature implementation feedback form for every WELL beta feature   pursued during documentation review. More information on WELL v2 beta features can be found   at https://resources.wellcertified.com/articles/introducing-well-beta-features/. OR Option 2: Individual E"
+        },
+        {
+          "title": "Part 3 Support Remote Work Ergonomics",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt   Note: Projects may only achieve this part if Part 1 is also achieved. For All Spaces: For projects where remote work is part of current organizational practices or part of business continuity plans involving temporary or unplanned remote work periods (e.g., office renovation, natural disaster, pandemic), the following requirements are met:    a. The ergonomics program in Part 1 is tailored to support remote work scenarios (e.g., virtual versus in-person       assessments, context-specific education).    b. The project makes ergonomic supports, including, at minimum, ergonomic furnishings available to remote       workers that fit their needs (as i"
+        }
+      ]
+    }
+  ]
+}

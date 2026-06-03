@@ -1,0 +1,679 @@
+{
+  "module": "M03",
+  "frameworks": [
+    {
+      "id": "M03_F1",
+      "name": "健康食物可得性",
+      "desc": "N01 Fruits and Vegetables 與 N13 Local Food Environment 關注健康食物、在地新鮮蔬果與環境可近性；考試會要求把 food access 與健康結果連結。",
+      "covers": [
+        "N01 Fruits and Vegetables",
+        "N13 Local Food Environment",
+        "healthy food access",
+        "fruits and vegetables"
+      ]
+    },
+    {
+      "id": "M03_F2",
+      "name": "營養透明與食物素養",
+      "desc": "N02 Nutritional Transparency 與 N07 Nutrition Education 要用 nutritional labeling、allergy information、calorie labeling 與 food literacy 幫助使用者做 informed food choices。",
+      "covers": [
+        "N02 Nutritional Transparency",
+        "N07 Nutrition Education",
+        "nutritional labeling",
+        "allergy information",
+        "food literacy"
+      ]
+    },
+    {
+      "id": "M03_F3",
+      "name": "避免過度攝取與不良成分",
+      "desc": "N03 Refined Ingredients、N05 Artificial Ingredients 與 N06 Portion Sizes 分別處理 sugar/refined grains、artificial colors/flavors/sweeteners/preservatives 與 portion size。",
+      "covers": [
+        "N03 Refined Ingredients",
+        "N05 Artificial Ingredients",
+        "N06 Portion Sizes",
+        "refined grains",
+        "artificial ingredients"
+      ]
+    },
+    {
+      "id": "M03_F4",
+      "name": "飲食包容與負責任採購",
+      "desc": "N09 Special Diets、N10 Food Preparation、N11 Responsible Food Sourcing 與 N12 Food Production 涵蓋 diverse dietary needs、meal preparation、certified organic、certified sustainable foods 與 on-site food production。",
+      "covers": [
+        "N09 Special Diets",
+        "N10 Food Preparation",
+        "N11 Responsible Food Sourcing",
+        "N12 Food Production",
+        "certified organic and certified sustainable foods"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M03_Q26",
+      "stem": "Beverly, the wellness program manager for an office building wants to include Nutrition Education as part of their wellness programming. In order to fulfill the requirement of N07: Nutrition Education, what is an acceptable nutrition education opportunity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gardening or planting workshops focused on edible plants that integrate hands-on learning opportunities."
+        },
+        {
+          "key": "B",
+          "text": "Tours of local grocery stores with emphasis on healthy eating."
+        },
+        {
+          "key": "C",
+          "text": "Organize a health-focused dinner club with regular occupants."
+        },
+        {
+          "key": "D",
+          "text": "Bring in plant-based food trucks once a month for regular occupants."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F2"
+    },
+    {
+      "id": "M03_Q27",
+      "stem": "Feature N08: Mindful Eating dictates that spaces must have a dedicated eating space and that eligible employees must be provided with daily meal breaks. What verification method is required to submit the documentation for the dedicated eating space to IWBI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Interior Design Drawing"
+        },
+        {
+          "key": "B",
+          "text": "On-Site Photographs"
+        },
+        {
+          "key": "C",
+          "text": "Technical Document"
+        },
+        {
+          "key": "D",
+          "text": "Policy and/or Operations Schedule"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q28",
+      "stem": "An office building in Vancouver wants to provide a dedicated eating space outside of the cafeteria. In order for this space to fit the requirements for Feature N08: Mindful Eating, what must the dedicated eating space provide?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A silverware and condiment station."
+        },
+        {
+          "key": "B",
+          "text": "Seating for 25% of the regular occupants of the building."
+        },
+        {
+          "key": "C",
+          "text": "Protection from environmental elements (direct sunlight, rain, wind)."
+        },
+        {
+          "key": "D",
+          "text": "A water and coffee station."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q29",
+      "stem": "The World Allergy Organization reports that the prevalence of food allergies is ____________ in countries around the world.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increasing"
+        },
+        {
+          "key": "B",
+          "text": "Decreasing"
+        },
+        {
+          "key": "C",
+          "text": "Plateauing"
+        },
+        {
+          "key": "D",
+          "text": "Highly variable"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Overview for Feature N09: Special Diets.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q30",
+      "stem": "In order to accommodate special diets, main dish options must be available that meet which of the following criteria?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Peanut-free"
+        },
+        {
+          "key": "B",
+          "text": "Gluten-free"
+        },
+        {
+          "key": "C",
+          "text": "Dairy-Free"
+        },
+        {
+          "key": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature N09: Special Diets.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q31",
+      "stem": "Feature N09: Special Diets lays out the requirements for the labeling of food allergens. What common allergens must be labeled on packaged food?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hazelnuts, beef, pork, cheese and black beans."
+        },
+        {
+          "key": "B",
+          "text": "Peanuts, fish, shellfish, soy, milk, wheat, egg, tree nuts and gluten."
+        },
+        {
+          "key": "C",
+          "text": "Redskin peanuts, scallops, oats, garlic and onions."
+        },
+        {
+          "key": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q32",
+      "stem": "Feature N10: Food Preparation requires a food preparation area, storage area and amenities like cold storage and microwaves. What space types are required to have these features?",
+      "options": [
+        {
+          "key": "A",
+          "text": "All Spaces except Dwelling Units and Commercial Kitchen Spaces"
+        },
+        {
+          "key": "B",
+          "text": "Dwelling Units"
+        },
+        {
+          "key": "C",
+          "text": "Commercial Kitchen Spaces"
+        },
+        {
+          "key": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q33",
+      "stem": "The WELL Building Standard™ (WELL™) recognizes that responsible sourcing practices and policies can help to promote sustainable, ethical and socially responsible food purchase and promote animal welfare. To implement responsible sourcing for Feature N11: Responsible Food Sourcing, what two items are required?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sustainable sourcing and sustainable labeling"
+        },
+        {
+          "key": "B",
+          "text": "Sustainable sourcing and allergen labeling"
+        },
+        {
+          "key": "C",
+          "text": "Organic sourcing and kosher certification"
+        },
+        {
+          "key": "D",
+          "text": "NON GMO Project verified and organic sourcing"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q34",
+      "stem": "Providing gardening space to regular occupants of buildings and dwelling units can encourage consumption of fruits and vegetables and advance toward what other goal?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lower the need for purchasing outside food."
+        },
+        {
+          "key": "B",
+          "text": "Encourage connection to the broader community."
+        },
+        {
+          "key": "C",
+          "text": "Have occupants collaborate on common activity."
+        },
+        {
+          "key": "D",
+          "text": "Increase physical activity."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature N12: Food Production.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q35",
+      "stem": "Ensuring local food access can have a profound impact on the building occupants' health and well-being. Feature N13: Local Food Environment gives us 3 options for providing local food access. Which of these fulfills the requirement of this feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A seasonal farmer's market that operates weekly at certain times every year."
+        },
+        {
+          "key": "B",
+          "text": "Discounted transportation to nearby green grocers."
+        },
+        {
+          "key": "C",
+          "text": "A supermarket or store with fresh fruits and vegetables located with 0.25 mi walk distance."
+        },
+        {
+          "key": "D",
+          "text": "A farmer's market located within 0.10 mi walk distance."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M03_F1"
+    },
+    {
+      "id": "M03_Q36",
+      "stem": "According to the World Health Organization, processed meat has been classified as carcinogenic and red meat is classified as probably carcinogenic. Providing plant-based meat alternatives can decrease the overall consumption of red and processed meats globally. What is the requirement for food that is sold or provided on a daily basis for Feature N14: Red and Processed Meats?",
+      "options": [
+        {
+          "key": "A",
+          "text": "At least one plant-based options is available at each food outlet."
+        },
+        {
+          "key": "B",
+          "text": "A single serving of red meat is no more than 6 oz."
+        },
+        {
+          "key": "C",
+          "text": "Meat-alternatives are placed at the beginnign of the self-serve food lines."
+        },
+        {
+          "key": "D",
+          "text": "Meat-alternatives are listed prominently on the menu."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q37",
+      "stem": "Providing Gardening Space is an important aspect of providing opportunities for on-site food production. For dwelling units, what size gardening space is the project required per dwelling unit?",
+      "options": [
+        {
+          "key": "A",
+          "text": "8 ft2"
+        },
+        {
+          "key": "B",
+          "text": "10 ft2"
+        },
+        {
+          "key": "C",
+          "text": "12 ft2"
+        },
+        {
+          "key": "D",
+          "text": "15 ft2"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature N12: Food Production.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q38",
+      "stem": "What is the intent of Feature N13: Local Food Environment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase access to fresh, local and seasonal fruits and vegetables by reducing environmental barriers."
+        },
+        {
+          "key": "B",
+          "text": "To increase access to locally sourced meat and dairy."
+        },
+        {
+          "key": "C",
+          "text": "To increase access to local farmers and food producers."
+        },
+        {
+          "key": "D",
+          "text": "To increase access to locally produced food, regardless of ingredient origin."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F1"
+    },
+    {
+      "id": "M03_Q39",
+      "stem": "An apartment building is looking to ensure that the kitchen it provides in the individual units fits the requirements of Feature N10: Food Preparation. What is an example of an amenity that the project needs to provide occupants in the kitchen?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Toaster Oven and microwave."
+        },
+        {
+          "key": "B",
+          "text": "Stove with hood vented directly to the outdoors."
+        },
+        {
+          "key": "C",
+          "text": "Water tap fitted with a reverse osmosis system."
+        },
+        {
+          "key": "D",
+          "text": "Chest freezer."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q40",
+      "stem": "Which feature is a precondition in the Nourishment Concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Feature N03: Refined Ingredients"
+        },
+        {
+          "key": "B",
+          "text": "Feature N09: Special Diets"
+        },
+        {
+          "key": "C",
+          "text": "Feature N02: Nutritional Transparency"
+        },
+        {
+          "key": "D",
+          "text": "Feature N04: Food Advertising"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q41",
+      "stem": "In Part 1: Provide Nutrition Education of Feature N07: Nutrition Education, to achieve 1 Pt, what is the session requirement if choosing the option of nutrition or dietary education sessions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sessions are led by a local plant-based chef."
+        },
+        {
+          "key": "B",
+          "text": "Sessions are sponsored by a local Farmer's Market."
+        },
+        {
+          "key": "C",
+          "text": "Sessions are provided bi-annually."
+        },
+        {
+          "key": "D",
+          "text": "Sessions are led by an accredited dietician or nutritionist."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "At least one of the following is offered in-person or virtually to regular occupants at \nno cost on a quarterly basis at \nminimum: \n \na. Cooking demonstrations led by chef-instructors that include fruits and/or \nvegetables, demonstrate cooking skills and integrate hands-on learning \nopportunities. \nb. Nutrition or dietary education sessions led by an accredited dietitian or accredited \nnutritionist. \nc. Individual nutrition consultations led by an accredited dietitian or accredited \nnutritionist. \nd. Gardening or planting workshops focused on edible plants that integrate hands-on \nlearning opportunities.",
+      "framework_hint": "M03_F2"
+    },
+    {
+      "id": "M03_Q42",
+      "stem": "What two options are available for Feature N05: Artificial Ingredients?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Artificial ingredient phase out or artificial ingredient restriction."
+        },
+        {
+          "key": "B",
+          "text": "Artificial ingredient phase out or artificial ingredient labeling."
+        },
+        {
+          "key": "C",
+          "text": "Artificial ingredient labeling or artificial ingredient restriction."
+        },
+        {
+          "key": "D",
+          "text": "Artificial ingredient restriction or artificial ingredient education."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F3"
+    },
+    {
+      "id": "M03_Q43",
+      "stem": "In Feature N03: Refined Ingredients, whole grains must be present in _____ of sold and provided foods:",
+      "options": [
+        {
+          "key": "A",
+          "text": "at least 25% of grain-based foods."
+        },
+        {
+          "key": "B",
+          "text": "at least 50% of grain-based foods."
+        },
+        {
+          "key": "C",
+          "text": "100% of breads."
+        },
+        {
+          "key": "D",
+          "text": "at least 35% of the granola bars."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M03_F3"
+    },
+    {
+      "id": "M03_Q44",
+      "stem": "Reducing sugar content in foods and beverages is a central theme in the Nourishment concept. Standard menu items may not contain more than _______g of sugar per serving.",
+      "options": [
+        {
+          "key": "A",
+          "text": "10g"
+        },
+        {
+          "key": "B",
+          "text": "18g"
+        },
+        {
+          "key": "C",
+          "text": "25g"
+        },
+        {
+          "key": "D",
+          "text": "32g"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Overview Feature N03: Refined Ingredients.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q45",
+      "stem": "For projects with commercial dining spaces, at least 50% of available food options are fruits and __________",
+      "options": [
+        {
+          "key": "A",
+          "text": "Starches"
+        },
+        {
+          "key": "B",
+          "text": "Non-fried chicken"
+        },
+        {
+          "key": "C",
+          "text": "Plant-based meat alternative"
+        },
+        {
+          "key": "D",
+          "text": "Non-fried vegetables"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature N01: Fruits and Vegetables.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q46",
+      "stem": "An insurance company in Flagstaff is planning on providing daily food for their staff. The building will have an eating area on-site, but all food will be prepared off-site. Are the WELL Nourishment requirements applicable here?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, this concept is required regardless of where food is prepared."
+        },
+        {
+          "key": "B",
+          "text": "Yes, but only Feature N10: Food Production is applicable."
+        },
+        {
+          "key": "C",
+          "text": "No, this concept does not have any requirements for outside food or food vendors."
+        },
+        {
+          "key": "D",
+          "text": "No, this concept only applies for food produced on-site."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature N01: Fruits and Vegetables.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q47",
+      "stem": "What is the intent of Feature N11: Responsible Food Sourcing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that only organic and non-gmo fruits and vegetables are provided to buidling occupants."
+        },
+        {
+          "key": "B",
+          "text": "To reduce dietary exposure to pesticides, hormones and antibiotics, limit environmental degradation and promote humane livestock practices."
+        },
+        {
+          "key": "C",
+          "text": "To promote healthier eating choices at work."
+        },
+        {
+          "key": "D",
+          "text": "To highlight the problems in the industrial food system and look for ways to purchase more locally sustainable foods."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q48",
+      "stem": "A library in Seattle will be providing one dedicated eating area. In order to fulfill the requirements of Feature N10: Food Production, the dedicated eating area must be provided within what distance of the project boundary?",
+      "options": [
+        {
+          "key": "A",
+          "text": "150 ft walk distance."
+        },
+        {
+          "key": "B",
+          "text": "375 ft walk distance."
+        },
+        {
+          "key": "C",
+          "text": "650 ft walk distance."
+        },
+        {
+          "key": "D",
+          "text": "725 ft walk distance."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q49",
+      "stem": "The WELL Nourishment concept seeks to promote the consumption of fruits and vegetables by increasing availability and accessibility. Around the world, most individuals do not meet the daily recommended ________ servings of fruits and vegetables.",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature N01: Fruits and Vegetables.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q50",
+      "stem": "Nutritional Transparency is a critical feature of the WELL Nourishment concept. In commercial dining spaces, what staff positions are required to have annual food allergen training?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Managers"
+        },
+        {
+          "key": "B",
+          "text": "Servers"
+        },
+        {
+          "key": "C",
+          "text": "Kitchen Staff"
+        },
+        {
+          "key": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature N02: Nutritional Transparency.",
+      "framework_hint": ""
+    }
+  ]
+}

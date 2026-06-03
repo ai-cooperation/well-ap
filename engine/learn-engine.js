@@ -563,18 +563,40 @@ function escHtml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>');
 }
 
-function getLectureLinks(moduleId, frameworkId) {
+function _lectureChip(href, label) {
+  return '<a href="' + href + '" target="_blank" ' +
+    'style="display:inline-block;margin:.2rem .3rem .2rem 0;padding:.2rem .6rem;background:var(--white);' +
+    'border:1px solid var(--blue);border-radius:6px;font-size:.85rem;color:var(--blue);text-decoration:none;">' +
+    escHtml(label) + ' →</a>';
+}
+
+// Wrong-answer review links. Prefers per-question feature deep-links
+// (lectures/<page>#<CODE>) derived from question.lectureRefs; falls back to the
+// concept lecture page top. Returns '' if no lecture pages are configured.
+function getLectureLinks(moduleId, frameworkId, question) {
   var module = getModule(moduleId);
   if (!module) return '';
+  var pack = _config.contentPack || {};
+  var base = pack.lectureBaseUrl || module.lectureBaseUrl;
+  if (!base) return '';
+  var pages = pack.lecturePages || {};
+  var refs = (question && question.lectureRefs) || [];
+  var chips = [];
+  refs.forEach(function(code) {
+    var page = pages[code.charAt(0)];
+    if (page) chips.push(_lectureChip(base + page + '#' + code, code + ' 講義'));
+  });
+  if (chips.length) return chips.join('');
+  // fallback: this module's concept lecture page
+  if (module.lecturePage) return _lectureChip(base + module.lecturePage, '本概念講義');
+  // legacy: framework-level lecture links if present
   var fw = module.frameworks.find(function(f) { return f.id === frameworkId; });
-  if (!fw || !fw.lectures || fw.lectures.length === 0) return '';
-  var baseUrl = module.lectureBaseUrl || '/lectures/';
-  return fw.lectures.map(function(l) {
-    return '<a href="' + baseUrl + l.id.toLowerCase() + '/" target="_blank" ' +
-      'style="display:inline-block;margin:.2rem .3rem .2rem 0;padding:.2rem .6rem;background:var(--white);' +
-      'border:1px solid var(--blue);border-radius:6px;font-size:.85rem;color:var(--blue);text-decoration:none;">' +
-      escHtml(l.title) + ' →</a>';
-  }).join('');
+  if (fw && fw.lectures && fw.lectures.length) {
+    return fw.lectures.map(function(l) {
+      return _lectureChip(base + l.id.toLowerCase() + '/', l.title);
+    }).join('');
+  }
+  return '';
 }
 
 // ─── Public API ───

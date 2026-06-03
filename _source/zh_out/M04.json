@@ -1,0 +1,116 @@
+[
+  {
+    "code": "L01",
+    "zh_name": "光曝露",
+    "zh_summary": "透過 daylight 與 electric light 策略，確保室內經常使用空間有足夠光曝露。此 feature 重點在於用 daylight simulation 證明空間能取得基本日光或目標照度，支持日間活動與室內光環境品質。",
+    "zh_specs": [
+      "適用 For All Spaces except Dwelling Units。",
+      "Option 1: Daylight simulation，需透過 computer simulations 證明達成指定條件之一。",
+      "依 IES LM-83-12 計算時，regularly occupied spaces 需達成 Average sDA 200,40% for > 30% of regularly occupied。",
+      "依 Annex A of CEN 17037:2018 計算時，需達成 Target illuminance 19 fc(200 lux) for >30% of individual unit area throughout 50% of d。"
+    ]
+  },
+  {
+    "code": "L02",
+    "zh_name": "視覺照明設計",
+    "zh_summary": "要求工作面與使用空間具備符合任務需求的 electric lighting，提升 visual comfort 與 visual acuity。考點是照度門檻需依活動內容與使用者年齡決定，不能只用單一固定亮度概念理解。",
+    "zh_specs": [
+      "適用 For All Spaces except Dwelling Units。",
+      "Option 1: Visual lighting design，所有 indoor and outdoor spaces（including transition areas）需符合指定 lighting reference guidelines 的 illuminance thresholds。",
+      "可採用 IES Lighting Handbook 10th Edition、EN 12464-1: 2011、ISO 8995-1:2002(E) (CIE S 008/E:2001)、GB50034-2013 或 CIBSE SLL Code for Lighting。",
+      "illuminance thresholds 需考量 occupants 的 tasks and age groups。",
+      "Option 2: Predetermined light levels，原文要求從 More than 50% of the occup 開始描述，需依輸入原文所列條件判讀。"
+    ]
+  },
+  {
+    "code": "L03",
+    "zh_name": "晝夜節律照明設計",
+    "zh_summary": "針對白天使用的 workstations，透過 electric lighting 提供支持 circadian rhythm 的光曝露。重點是 EML 門檻、曝露時間與測量高度，並區分一般專案與 Enhanced Daylight 專案的門檻。",
+    "zh_specs": [
+      "WELL Certification: 3 Pt | WELL Core: 4 Pt。",
+      "適用 For All Spaces except Dwelling Units，對象為 workstations used during the daytime。",
+      "光照門檻需 achieved for at least four hours，且 beginning by noon at the latest。",
+      "評估高度為 18 in(45 cm) above the work-plane，適用 all workstations in regularly occupied spaces。",
+      "一般門檻為 At least 150 EML；Projects with Enhanced Daylight 可達 The project achieves at least 120 EML。",
+      "原文列出 At least 150 EML [136 與 at least 120 EML [109 M- 作為對應表格資訊。"
+    ]
+  },
+  {
+    "code": "L04",
+    "zh_name": "電光眩光控制",
+    "zh_summary": "管理 electric light 造成的 glare，透過燈具規格或空間層級策略降低視覺不適。考點在於燈具需在 regular use 條件下符合 UGR、亮度或出光方向等限制，部分裝飾或隱藏燈具可排除。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 1 Pt。",
+      "適用 For All Spaces except Industrial。",
+      "Option 1: Luminaire considerations，regularly occupied spaces 的每個 luminaire 需符合至少一項要求。",
+      "可符合 100% of light is emitted above the horizontal plane。",
+      "可 classified with Unified Glare Rating (UGR) of 16 or lower。",
+      "可符合 Luminance that does not exceed 6,000 cd/m2 at any angle between 45 and 90 degrees from nadir。"
+    ]
+  },
+  {
+    "code": "L05",
+    "zh_name": "日光設計策略",
+    "zh_summary": "透過 interior layout、façade design 與 solar shading，把 daylight 有效導入室內並控制眩光。此 feature 強調窗邊工作站、透明外殼開窗比例、VLT 與遮陽控制，讓日光成為可用且舒適的照明來源。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 2 Pt | WELL Core: 3 Pt；適用 For All Spaces except Dwelling Units。",
+      "Interior Layout 路徑：70% of all workstations are within 25 ft(7.5 m) of transparent envelope glazing。",
+      "Façade Design 路徑：Envelope glazing is no less than 15% of the regularly occupied floor area or individual unit。",
+      "Part 1 表格列為 1(2 ) Points，並要求 transparent envelope glazing 或 window 的 Visible light transmittance (VLT)。",
+      "Part 2: WELL Certification: 2 Pt | WELL Core: 3 Pt；適用 For All Spaces。",
+      "所有 vertical transparent envelope glazing 需有 shading；Manual shading controllable by occupants at all times 且 Shades are regularly opened once a day for all days that the project is in use 可得 1(2 )，Shading is automated to prevent glare 可得 2(3)。"
+    ]
+  },
+  {
+    "code": "L06",
+    "zh_name": "日光模擬",
+    "zh_summary": "要求專案用 daylight simulation 驗證室內日光曝露，協助決定 fenestration 與 shading 策略。重點是以 IES LM-83-12 或 Annex A of CEN 17037:2018 證明經常使用空間達成日光指標。",
+    "zh_specs": [
+      "WELL Certification: 2 Pt | WELL Core: 3 Pt。",
+      "適用 For All Spaces except Dwelling Units。",
+      "需透過 computer simulations 證明 regularly occupied spaces 達成指定 target。",
+      "依 IES LM-83-12 計算：Average sDA300,50% is achieved for > 55% of regularly occupied floor area。",
+      "依 Annex A of CEN 17037:2018 計算：Target illuminance of 28 fc(300 lux) is achieved for >50% of individual unit area throughout 50% of daylit hours of the year。",
+      "上述門檻對應 1(2 ) Points。"
+    ]
+  },
+  {
+    "code": "L07",
+    "zh_name": "視覺平衡",
+    "zh_summary": "建立更舒適、穩定的 lighting environment，避免亮暗差異、照度不均或自動變化太突兀造成視覺負擔。此 feature 以 ambient lighting 的多項參數來檢查 visual balance。",
+    "zh_specs": [
+      "WELL Certification: 1 Pt | WELL Core: 0.5 Pt。",
+      "適用 For All Spaces。",
+      "Option 1: Parameters for visual balance，all regularly occupied spaces 的 ambient lighting 至少符合 three of the following requirements。",
+      "Horizontal and vertical luminance contrast ratios 在 adjacent independently controlled zones 之間 no more than 10。",
+      "任何 horizontal task plane 需達 Illuminance uniformity ratio of at least 0.4 or 1:2.5 (minimum light level: average light level)。",
+      "Automatic changes in lighting characteristics，例如 light levels、color、distribution，需 take place over a period of 10 minutes。"
+    ]
+  },
+  {
+    "code": "L08",
+    "zh_name": "電光品質",
+    "zh_summary": "要求 electric light 兼顧 color rendering 與 flicker 控制，以提升視覺舒適並降低閃爍造成的不適。考點包括 CRI、IES Rf/Rg/Rcs,h1，以及 California Title 24、IEEE standard 1789-2015 LED、NEMA 77-2017 等 flicker 依據。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 1 Pt | WELL Core: 0.5 Pt；適用 For All Spaces except Circulation Areas。",
+      "所有 luminaires（except decorative fixtures, emergency lights and other special-purpose lighting）至少符合一項 color rendering requirements。",
+      "若使用 tunable white lighting，需在 1,000K intervals from the lower end (with a minimum of 2,700K) to the higher end (with a maximum of 5,000k) 滿足要求。",
+      "可符合 CRI ≥90；或 CRI ≥ 80 with R9 ≥ 50；或 IES Rf ≥ 78, IES Rg ≥ 100, -1% ≤ IES Rcs,h1 ≤ 15%。",
+      "Part 2: WELL Certification: 2 Pt | WELL Core: 1 Pt；適用 For All Spaces。",
+      "flicker 至少符合 “reduced flicker operation” per California Title 24 and Joint Appendix JA-10.8、recommended practices 1, 2 or 3 as defined by IEEE standard 1789-2015 LED，或 Pst LM ≤ 1.0 and SVM ≤ 1.6 for indoor applications per NEMA 77-2017。"
+    ]
+  },
+  {
+    "code": "L09",
+    "zh_name": "使用者照明控制",
+    "zh_summary": "讓 occupants 能調整或補充自身照明環境，回應不同偏好、任務與座位條件。feature 核心是 ambient lighting zones 的分區控制，以及 supplemental lighting 對工作面的加強。",
+    "zh_specs": [
+      "Part 1: WELL Certification: 2 Pt | WELL Core: 1 Pt；適用 For All Spaces。",
+      "Option 1: Lighting zones，all regularly occupied spaces 需依表格配置 lighting zones。",
+      "lighting zones 可採 Number of Zones: One per 650 ft2(60 m2) 或 One per 10 occupants。",
+      "individual rooms smaller than the areas below and/or occupancies less than those listed in the table are considered separate zones。",
+      "Part 2: WELL Certification: 1 Pt | WELL Core: 0.5 Pt；適用 For All Spaces except Dwelling Units。",
+      "supplemental lighting 需讓 task surface light level 增加到 at least twice the recommended light levels based on the reference used to meet Feature L02: Visual Lighting Design, Part 1，且 fixture installed at least 9 in(23 cm) from the front edge of the workstati。"
+    ]
+  }
+]

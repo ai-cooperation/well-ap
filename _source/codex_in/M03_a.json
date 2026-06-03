@@ -1,0 +1,679 @@
+{
+  "module": "M03",
+  "frameworks": [
+    {
+      "id": "M03_F1",
+      "name": "健康食物可得性",
+      "desc": "N01 Fruits and Vegetables 與 N13 Local Food Environment 關注健康食物、在地新鮮蔬果與環境可近性；考試會要求把 food access 與健康結果連結。",
+      "covers": [
+        "N01 Fruits and Vegetables",
+        "N13 Local Food Environment",
+        "healthy food access",
+        "fruits and vegetables"
+      ]
+    },
+    {
+      "id": "M03_F2",
+      "name": "營養透明與食物素養",
+      "desc": "N02 Nutritional Transparency 與 N07 Nutrition Education 要用 nutritional labeling、allergy information、calorie labeling 與 food literacy 幫助使用者做 informed food choices。",
+      "covers": [
+        "N02 Nutritional Transparency",
+        "N07 Nutrition Education",
+        "nutritional labeling",
+        "allergy information",
+        "food literacy"
+      ]
+    },
+    {
+      "id": "M03_F3",
+      "name": "避免過度攝取與不良成分",
+      "desc": "N03 Refined Ingredients、N05 Artificial Ingredients 與 N06 Portion Sizes 分別處理 sugar/refined grains、artificial colors/flavors/sweeteners/preservatives 與 portion size。",
+      "covers": [
+        "N03 Refined Ingredients",
+        "N05 Artificial Ingredients",
+        "N06 Portion Sizes",
+        "refined grains",
+        "artificial ingredients"
+      ]
+    },
+    {
+      "id": "M03_F4",
+      "name": "飲食包容與負責任採購",
+      "desc": "N09 Special Diets、N10 Food Preparation、N11 Responsible Food Sourcing 與 N12 Food Production 涵蓋 diverse dietary needs、meal preparation、certified organic、certified sustainable foods 與 on-site food production。",
+      "covers": [
+        "N09 Special Diets",
+        "N10 Food Preparation",
+        "N11 Responsible Food Sourcing",
+        "N12 Food Production",
+        "certified organic and certified sustainable foods"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M03_Q01",
+      "stem": "A café located in an office building has recently altered its menu to incorporate more nutritious food options. The daily menu currently offers: Ham sandwich Grilled cheese sandwich Hamburger Fried fish Spaghetti Chicken and rice Oranges Apple slices Dried cherries What additional food item(s) should this cafeteria sell to meet the requirements of Feature N01: Fruits and Vegetables?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fried green tomatoes."
+        },
+        {
+          "key": "B",
+          "text": "Nothing, the requirements are already met."
+        },
+        {
+          "key": "C",
+          "text": "Fruit cups with no added sugar."
+        },
+        {
+          "key": "D",
+          "text": "Carrot and celery sticks."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M03_F1"
+    },
+    {
+      "id": "M03_Q02",
+      "stem": "A building owner is overhauling a building’s cafeteria menu to meet the requirements of Feature N03: Refined Ingredients. Which of the following is required of the new cafeteria?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Partially-hydrogenated oil may be included in a maximum of 50% of the food options."
+        },
+        {
+          "key": "B",
+          "text": "No beverages may contain more than 25g of sugar."
+        },
+        {
+          "key": "C",
+          "text": "Wheat flour is banned as the primary ingredient in any food option."
+        },
+        {
+          "key": "D",
+          "text": "All foods containing common allergens must be served in separate vending machines."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M03_F3"
+    },
+    {
+      "id": "M03_Q03",
+      "stem": "A project owner has decided to limit the amount of all highly processed beverages, snacks, and meals. Which of the following ingredient restrictions must be true of all foods, beverages, snacks, and meals sold or distributed for N05: Artificial Ingredients?",
+      "options": [
+        {
+          "key": "A",
+          "text": "No individually sold, single-serving, non-beverage food items containing more than 40 g of sugar."
+        },
+        {
+          "key": "B",
+          "text": "50% of foods must contain no High Fructose Corn syrup and/or another artificial sweetener."
+        },
+        {
+          "key": "C",
+          "text": "Specific colorings (Blue 1, Blue 2, Green 3, Orange B, Citrus Red 2, Red 3, Red 40, Yellow 5, Yellow 6, carmine, cochineal, caramel coloring) are phased out over a maximum of three years."
+        },
+        {
+          "key": "D",
+          "text": "Contains no artificial dyes, or flavorings"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M03_F3"
+    },
+    {
+      "id": "M03_Q04",
+      "stem": "Insufficient fruit and vegetable intake is attributed to ___________ deaths worldwide in 2013, according to Feature N01: Fruits and Vegetables.",
+      "options": [
+        {
+          "key": "A",
+          "text": "5.2 million deaths"
+        },
+        {
+          "key": "B",
+          "text": "52 million deaths"
+        },
+        {
+          "key": "C",
+          "text": "502 million deaths"
+        },
+        {
+          "key": "D",
+          "text": "52 thousand deaths"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F1"
+    },
+    {
+      "id": "M03_Q05",
+      "stem": "Where should the property manager ensure food allergens are clearly labeled for all foods sold/distributed at a WELL Certified property?",
+      "options": [
+        {
+          "key": "A",
+          "text": "At point-of-decision on packaging, menus, or signage"
+        },
+        {
+          "key": "B",
+          "text": "Only on food packaging."
+        },
+        {
+          "key": "C",
+          "text": "On takeout menus."
+        },
+        {
+          "key": "D",
+          "text": "On employee information cards."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Part 1:  Provide Nutritional Information of Feature N02: Nutritional Transparency.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q06",
+      "stem": "What is required for Part 1: Provide Meal Support of N10: Food Preparation for Commercial Kitchen Spaces in primary and secondary schools?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pots, pans, knives and cutting boards."
+        },
+        {
+          "key": "B",
+          "text": "Equipment to serve pre-prepared meals."
+        },
+        {
+          "key": "C",
+          "text": "Equipment to reheat food."
+        },
+        {
+          "key": "D",
+          "text": "The space contains the proper kitchen equipment and infrastructure to prepare and serve meals on-site and on school days, at least one meal is prepared and served on-site"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "For Commerical Kitchen Spaces, the following requirements must be met for primary \nand secondary schools: \na. The space contains the proper kitchen equipment and infrastructure to prepare \nand serve meals on-site. \nb. On school days, at least one meal is prepared and served on-site.",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q07",
+      "stem": "For commercial dining spaces selling or providing food on a daily basis, in order to fulfill the requirement for Feature N01: Fruits and Vegetables, what fruit and vegetable promotion strategies are employed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Digitally highlighted using avatars and comic stars."
+        },
+        {
+          "key": "B",
+          "text": "Listed on a board at the cash register."
+        },
+        {
+          "key": "C",
+          "text": "Visually highlighted through icons, different colors and bolding."
+        },
+        {
+          "key": "D",
+          "text": "Printed on posters and posted around the space."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M03_F1"
+    },
+    {
+      "id": "M03_Q08",
+      "stem": "What is the intent of Feature N05: Artificial Ingredients?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To help building occupants avoid colors, flavors, sweeteners and preservatives in food and beverages."
+        },
+        {
+          "key": "B",
+          "text": "To eliminate artificial ingredients from all foods and beverages sold or distributed on property."
+        },
+        {
+          "key": "C",
+          "text": "To help building occupants avoid refined gluten and chemically rendered oils in food and beverages."
+        },
+        {
+          "key": "D",
+          "text": "To help building occupants follow a paleo diet plan."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F3"
+    },
+    {
+      "id": "M03_Q09",
+      "stem": "Which of the following body systems contain the largest reservoir of bacteria, which can play a role in immune health?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Circulatory system"
+        },
+        {
+          "key": "B",
+          "text": "Integumentary system"
+        },
+        {
+          "key": "C",
+          "text": "Digestive system"
+        },
+        {
+          "key": "D",
+          "text": "Cardiovascular system"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q10",
+      "stem": "A building manager is hosting a lunch for the occupants, and has asked the cafeteria to prepare meals with signage clearly declaring the presence of common allergens. Which of the following does NOT need to be declared in Feature N09: Special Diets?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fish"
+        },
+        {
+          "key": "B",
+          "text": "Caffeine"
+        },
+        {
+          "key": "C",
+          "text": "Soy"
+        },
+        {
+          "key": "D",
+          "text": "Egg"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q11",
+      "stem": "A building occupant purchases a prepared lunch and pre-packed snack from the cafeteria. According to Feature N02: Nutritional Transparency, which of the following is NOT a required label for these foods?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Total Calories"
+        },
+        {
+          "key": "B",
+          "text": "Macronutrient and micronutrient content"
+        },
+        {
+          "key": "C",
+          "text": "Sugar content"
+        },
+        {
+          "key": "D",
+          "text": "If the item contains GMOs (genetically modified organisms)"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M03_F2"
+    },
+    {
+      "id": "M03_Q12",
+      "stem": "A building’s cafeteria recently renovated its signage according to Feature N04: Food Advertising. What foods and beverages are not to be advertised or promoted?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deep-fried food options."
+        },
+        {
+          "key": "B",
+          "text": "Unsweetened beverages with a high sugar content (e.g. apple juice)."
+        },
+        {
+          "key": "C",
+          "text": "Foods with common allergens."
+        },
+        {
+          "key": "D",
+          "text": "Non-locally sourced foods."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q13",
+      "stem": "Which of the following is a goal of Feature N02: Food Advertising?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fully implement only natural, whole food advertising."
+        },
+        {
+          "key": "B",
+          "text": "Discourage purchases of sugary and caffeine-laden drinks."
+        },
+        {
+          "key": "C",
+          "text": "Discourage building occupants from any foods with added sugars."
+        },
+        {
+          "key": "D",
+          "text": "Encourage occupants to select and consume healthier food choices."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M03_F2"
+    },
+    {
+      "id": "M03_Q14",
+      "stem": "In order to meet the requirements in Part 1: Promote Healthy Portions of Feature N06: Portion Sizes, non-circular plates cannot exceed the following size in a Secondary School setting?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total surface area of the plate must not exceed 69 in^2 (445 cm^2)."
+        },
+        {
+          "key": "B",
+          "text": "The total surface area of the plate must not exceed 70 in^2 (450 cm^2)."
+        },
+        {
+          "key": "C",
+          "text": "The total surface area of the plate must not exceed 79 in^2 (507 cm^2)."
+        },
+        {
+          "key": "D",
+          "text": "The total surface area of the plate must not exceed 80 in^2 (516 cm^2)."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Where food is self-serve (e.g., buffet), dishware does not exceed the following sizes \nper occupant type:",
+      "framework_hint": "M03_F3"
+    },
+    {
+      "id": "M03_Q15",
+      "stem": "In order to meet the requirements of Feature N06: Portion Sizes, what must be true of all bowls served to customers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bowls, for adults, must be no larger than 16 oz (473 mL)."
+        },
+        {
+          "key": "B",
+          "text": "Customers have the option of a 8 oz (237 mL) or 16 oz (473 mL) (costs vary)."
+        },
+        {
+          "key": "C",
+          "text": "Bowls must be no larger than 8 oz (237 mL)."
+        },
+        {
+          "key": "D",
+          "text": "Customers have the option of a 16 oz (473 mL) or 20 oz (591 mL) (costs vary)."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F3"
+    },
+    {
+      "id": "M03_Q16",
+      "stem": "In order to meet the requirements of Feature N06: Serving Sizes, what must be true of all non-circular plates served to students in Secondary School?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total surface area of the plate must not exceed 69 in2 (445 cm2)."
+        },
+        {
+          "key": "B",
+          "text": "The total surface area of the plate must not exceed 70 in2 (450 cm2)."
+        },
+        {
+          "key": "C",
+          "text": "The total surface area of the plate must not exceed 79 in2 (507 cm2)."
+        },
+        {
+          "key": "D",
+          "text": "The total surface area of the plate must not exceed 80 in2 (516 cm2)."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M03_F3"
+    },
+    {
+      "id": "M03_Q17",
+      "stem": "The owner of a building has asked the cafeteria to focus on healthy options for the building occupants. In order to reduce the likelihood of unintended overeating and to encourage healthier eating habits, what should the maximum cup size be for beverages served on a daily basis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "296 mL (10 oz)"
+        },
+        {
+          "key": "B",
+          "text": "240 mL (8 oz)"
+        },
+        {
+          "key": "C",
+          "text": "480 mL (16 oz)"
+        },
+        {
+          "key": "D",
+          "text": "355 mL (12 oz)"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Feature N06: Portion Sizes.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q18",
+      "stem": "In order to meet the requirements of Feature N09: Special Diets, what must be true of a catered event?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prior to the catering event, employees and clients must submit all dietary preferences."
+        },
+        {
+          "key": "B",
+          "text": "Main dish options must be available that do not contain the common food allergies."
+        },
+        {
+          "key": "C",
+          "text": "All religious dietary restrictions must be adhered to."
+        },
+        {
+          "key": "D",
+          "text": "All food must be labeled for the most common food allergies."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q19",
+      "stem": "An employee with a food allergy or dietary restriction in a WELL Certified building can request to have any of the following food options according to Feature N09: Special Diets except:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gluten-free option"
+        },
+        {
+          "key": "B",
+          "text": "Sugar-free option"
+        },
+        {
+          "key": "C",
+          "text": "Vegan option"
+        },
+        {
+          "key": "D",
+          "text": "Egg-free option"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q20",
+      "stem": "In order to meet the requirements of Feature N11: Responsible Food Production, which of the following must be true about produce sold or distributed on-site on a daily basis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Must have 50% of total produce and 25% of total meat certified organic."
+        },
+        {
+          "key": "B",
+          "text": "Must be color coded per food labeling laws."
+        },
+        {
+          "key": "C",
+          "text": "Must be labeled with the USDA organic label (country-equivalent) and Free-trade label (country-equivalent)."
+        },
+        {
+          "key": "D",
+          "text": "Must be labeled to indicate the presence of GMOs (genetically modified organisms)."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q21",
+      "stem": "Which of the following labels for all meat, egg, and dairy products sold or distributed on-site are required by Feature N11: Responsible Food Production?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Federally Certified Organic and Fair Trade certified"
+        },
+        {
+          "key": "B",
+          "text": "Fair Trade Certified only"
+        },
+        {
+          "key": "C",
+          "text": "Federally Certified Organic and Humane Certified"
+        },
+        {
+          "key": "D",
+          "text": "Humane Certified only"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Review Feature 49: Responsible Food Production.",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q22",
+      "stem": "For a project to comply with Feature N12: Food Production, garden space or greenhouse of what size and location must be provided for all building occupants?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 ft2 (0.1 m2) per occupant within 0.25 mi (0.4 km) of the project boundary"
+        },
+        {
+          "key": "B",
+          "text": "3 ft2 (0.3 m2) per occupant within 0.25 mi (0.4 km) of the project boundary"
+        },
+        {
+          "key": "C",
+          "text": "5 ft2 (0.5 m2) per occupant within 1 mi (1.6 km) of the project boundary"
+        },
+        {
+          "key": "D",
+          "text": "2 ft2 (0.2 m2) per occupant within 1.5 mi (2.4 km) of the project boundary"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q23",
+      "stem": "According to Feature N12: Food Production, which of the following is NOT provided to grow and maintain a garden space?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Planting medium"
+        },
+        {
+          "key": "B",
+          "text": "Gardening tools"
+        },
+        {
+          "key": "C",
+          "text": "Exterior lighting"
+        },
+        {
+          "key": "D",
+          "text": "Irrigation"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M03_F4"
+    },
+    {
+      "id": "M03_Q24",
+      "stem": "Which of the following WELL Concepts intends to enable people to make more informed choices?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Movement"
+        },
+        {
+          "key": "B",
+          "text": "Nourishment"
+        },
+        {
+          "key": "C",
+          "text": "Nourishment & Light"
+        },
+        {
+          "key": "D",
+          "text": "Light"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M03_Q25",
+      "stem": "What must be true for at least half of the entrée items in a building cafeteria’s menu to meet the requirements of Feature N06: Portion Sizes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A version of an entrée that is 650 calories or less with a lower cost than the larger, regular version."
+        },
+        {
+          "key": "B",
+          "text": "A version of an entrée that is 550 calories or less with a lower cost than the larger, regular version."
+        },
+        {
+          "key": "C",
+          "text": "A version of an entrée that is 575 calories or less and vegetarian."
+        },
+        {
+          "key": "D",
+          "text": "A version of an entrée that is 425 calories or less and vegetarian."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M03_F3"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "module": "M04",
+  "name": "光 Light",
+  "features": [
+    {
+      "code": "L01",
+      "name": "Light Exposure",
+      "type": "precondition",
+      "intent": "Provide indoor light exposure through daylight and electric light strategies.",
+      "summary": "This WELL feature requires projects to provide appropriate light exposure in indoor environments through lighting strategies.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Indoor Light",
+          "body": "For All Spaces except Dwelling Units: Option 1: Daylight simulation The project demonstrates, through computer simulations, that one of the following conditions are achieved:    a. Regularly occupied spaces achieve one of the following targets:         Calculations per IES LM-83-12               Calculations per                                                     Annex A of CEN                                                     17037:2018         Average sDA 200,40% is achieved             OR                         Target illuminance 19 fc(200 lux) is achieved for         for > 30% of regularly occupied                                        >30% of individual unit area throughout 50% of d"
+        }
+      ]
+    },
+    {
+      "code": "L02",
+      "name": "Visual Lighting Design",
+      "type": "precondition",
+      "intent": "Provide visual comfort and enhance visual acuity for all users through electric lighting.",
+      "summary": "This WELL feature requires projects to provide appropriate illuminances on work planes for regular users of all age groups, as required for the tasks performed in the space.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Visual Acuity",
+          "body": "For All Spaces except Dwelling Units: Option 1: Visual lighting design The following requirements are met:    a. All indoor and outdoor spaces (including transition areas) comply with the illuminance thresholds specified in       one of the following lighting reference guidelines:       1. IES Lighting Handbook 10th Edition.3        2.     EN 12464-1: 2011.4        3.     ISO 8995-1:2002(E) (CIE S 008/E:2001).5        4.     GB50034-2013.6        5.     CIBSE SLL Code for Lighting.7    b. The illuminance thresholds take into consideration the tasks and the age groups of the occupants. OR Option 2: Predetermined light levels The following requirements are met:    a. More than 50% of the occup"
+        }
+      ]
+    },
+    {
+      "code": "L03",
+      "name": "Circadian Lighting Design",
+      "type": "optimization",
+      "intent": "Support circadian and psychological health through indoor daylight exposure and outdoor views.",
+      "summary": "This WELL feature requires projects to provide users with appropriate exposure to light for maintaining circadian health and aligning the circadian rhythm with the day-night cycle.",
+      "parts": [
+        {
+          "title": "Part 1 Meet Lighting for Day-Active People",
+          "body": "WELL Certification: 3 Pt | WELL Core: 4 Pt For All Spaces except Dwelling Units: For workstations used during the daytime, electric lighting is used to achieve the following thresholds:    a. The following light levels are achieved for at least four hours (beginning by noon at the latest) at a height of 18       in(45 cm) above the work-plane for all workstations in regularly occupied spaces:         Threshold                   Threshold for Projects with                                Points                                     Enhanced Daylight         At least 150 EML                            OR                    The project achieves at least 120 EML [109 M-            1(2         [136 "
+        }
+      ]
+    },
+    {
+      "code": "L04",
+      "name": "Electric Light Glare Control",
+      "type": "optimization",
+      "intent": "Minimize glare caused by electric light.",
+      "summary": "This WELL feature requires projects to manage glare by using strategies, such as calculation of glare and choosing the appropriate light fixtures for the space.",
+      "parts": [
+        {
+          "title": "Part 1 Manage Glare from Electric Lighting",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces except Industrial: Option 1: Luminaire considerations Each luminaire meets one of the following requirements for regularly occupied spaces at light output representative of regular use conditions. Wall wash fixtures and concealed fixtures, installed as specified by manufacturer’s data, as well as decorative fixtures may be excluded from meeting these requirements:    a. 100% of light is emitted above the horizontal plane.    b. Classified with Unified Glare Rating (UGR) of 16 or lower.    c. Luminance that does not exceed 6,000 cd/m2 at any angle between 45 and 90 degrees from nadir. OR Option 2: Space considerations The following req"
+        }
+      ]
+    },
+    {
+      "code": "L05",
+      "name": "Daylight Design Strategies",
+      "type": "optimization",
+      "intent": "Provide daylight exposure indoors through design strategies.",
+      "summary": "This WELL feature requires projects to design spaces to integrate daylight into indoor environments, so that daylight may be used for visual tasks along with electric lighting. It also provides individuals with a connection to outdoor spaces through windows.",
+      "parts": [
+        {
+          "title": "Part 1 Implement Daylight Plan",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces except Dwelling Units: The following requirement is met:    a. One of the following requirements is met for interior daylight exposure:         Interior Layout                                                 Façade Design                                            Points         70% of all workstations are within 25 ft(7.5              OR    Envelope glazing is no less than 15% of the               1(2 )         m) of transparent envelope glazing. Visible                     regularly occupied floor area or individual unit.         light transmittance (VLT) is greater than                       Visible light transmittance (VLT) of win"
+        },
+        {
+          "title": "Part 2 Integrate Solar Shading",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces: The following requirements are met in regularly occupied spaces:    a. All vertical transparent envelope glazing has shading that meet one of the following:         Type of Shading                                                                                             Points         Manual shading controllable by occupants at all times. Shades are regularly opened once a day for all         1(2 )         days that the project is in use         Shading is automated to prevent glare                                                                         2(3)   WELL Core Guidance: Meet these requirements in the whole building. Proje"
+        }
+      ]
+    },
+    {
+      "code": "L06",
+      "name": "Daylight Simulation",
+      "type": "optimization",
+      "intent": "Ensure indoor daylight exposure through daylight simulation strategies.",
+      "summary": "This WELL feature requires projects to conduct daylight simulation calculations to make informed decisions around fenestration and shading, so as to provide appropriate daylight exposure for occupants.",
+      "parts": [
+        {
+          "title": "Part 1 Conduct Daylight Simulation",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces except Dwelling Units: The project demonstrates, through computer simulations, that the following conditions are achieved:    a. Regularly occupied spaces achieve one of the following targets:         Calculations per IES LM-83-12                     Calculations per Annex A of CEN 17037:2018                       Points         Average sDA300,50% is achieved              OR    Target illuminance of 28 fc(300 lux) is achieved for >50% of       1(2 )         for > 55% of regularly occupied                   individual unit area throughout 50% of daylit hours of the         floor area                                        year         "
+        }
+      ]
+    },
+    {
+      "code": "L07",
+      "name": "Visual Balance",
+      "type": "optimization",
+      "intent": "Create lighting environments that enhance visual comfort.",
+      "summary": "This WELL feature requires projects to develop and implement strategies to create a visually comfortable lighting environment.",
+      "parts": [
+        {
+          "title": "Part 1 Balance Visual Lighting",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Parameters for visual balance Ambient lighting in all regularly occupied spaces meets at least three of the following requirements:    a. Horizontal and vertical luminance contrast ratios for an ambient light system is no more than 10 between       adjacent independently controlled zones.    b. Illuminance uniformity ratio of at least 0.4 or 1:2.5 (minimum light level: average light level) is achieved on any       horizontal task plane within a space.    c. Automatic changes in lighting characteristics, such as light levels, changes in color and distribution take place       over a period of 10 minutes.    d. The Correlat"
+        }
+      ]
+    },
+    {
+      "code": "L08",
+      "name": "Electric Light Quality",
+      "type": "optimization",
+      "intent": "Enhance visual comfort and minimize flicker for electric light.",
+      "summary": "This WELL feature requires projects to take into account characteristics of electric light used in the space, such as color rendering and flicker.",
+      "parts": [
+        {
+          "title": "Part 1 Enhance Color Rendering Quality",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces except Circulation Areas: All luminaires (except decorative fixtures, emergency lights and other special-purpose lighting) meet at least one of the following color rendering requirements. If tunable white lighting is used, the requirements are met at 1,000K intervals from the lower end (with a minimum of 2,700K) to the higher end (with a maximum of 5,000k):    a. CRI ≥90.    b. CRI ≥ 80 with R9 ≥ 50.    c. IES Rf ≥ 78, IES Rg ≥ 100, -1% ≤ IES Rcs,h1 ≤ 15%. For Circulation Areas: All luminaires (except decorative fixtures, emergency lights and other special-purpose lighting) meet at least one of the following color rendering requirem"
+        },
+        {
+          "title": "Part 2 Manage Flicker",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: All luminaires, in combination with the appropriate controls (except decorative lights, emergency lights and other special-purpose lighting), used in regularly occupied spaces meet at least one of the following flicker requirements:    a. Classified as “reduced flicker operation” per California Title 24, when tested according to the requirements in       Joint Appendix JA-10.8    b. Recommended practices 1, 2 or 3 as defined by IEEE standard 1789-2015 LED.9    c. Pst LM ≤ 1.0 and SVM ≤ 1.6 for indoor applications per NEMA 77-2017.10,11   WELL Core Guidance: Meet these requirements in non-leased spaces. To earn an additional point, al"
+        }
+      ]
+    },
+    {
+      "code": "L09",
+      "name": "Occupant Lighting Control",
+      "type": "optimization",
+      "intent": "Provide individuals with access to customizable lighting environments.",
+      "summary": "This WELL feature requires projects to implement innovative lighting strategies that take into account personal preferences of users, as well as their interaction with the physical space.",
+      "parts": [
+        {
+          "title": "Part 1 Enhance Occupant Controllability",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Lighting zones Ambient lighting systems meet the following requirement:    a. All regularly occupied spaces contain lighting zones as shown in the table below (note: individual rooms smaller       than the areas below and/or that have occupancies less than those listed in the table are considered separate       zones):                   Number of Zones                          Number of Zones                 Points                One per 650 ft2(60 m2)                              OR               One per 10 occupants                                                                                                            "
+        },
+        {
+          "title": "Part 2 Provide Supplemental Lighting",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces except Dwelling Units: Option 1: Supplemental lighting requirements The following requirements are met:    a. Occupants are provided supplemental lighting, the light fixtures provided increase the light level on the task       surface to at least twice the recommended light levels based on the reference used to meet Feature L02: Visual       Lighting Design, Part 1.    b. The supplemental light fixture is positioned to create minimal visual discomfort for the occupant or per       manufacturer recommendations for installation.    c. The supplemental light fixture is installed at least 9 in(23 cm) from the front edge of the workstati"
+        }
+      ]
+    }
+  ]
+}

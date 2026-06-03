@@ -1,0 +1,147 @@
+{
+  "module": "M06",
+  "name": "熱舒適 Thermal Comfort",
+  "features": [
+    {
+      "code": "T01",
+      "name": "Thermal Performance",
+      "type": "precondition",
+      "intent": "Provide a thermal environment that the majority of building users find acceptable.",
+      "summary": "This WELL feature requires projects to create indoor thermal environments that provide comfortable thermal conditions to the majority of people in support of their health, well-being and productivity.1,2",
+      "parts": [
+        {
+          "title": "Part 1 Provide Acceptable Thermal Environment",
+          "body": "For All Spaces except Commercial Kitchen Spaces: Option 1: Performance verified environmental conditions The following requirements are met, as applicable:    a. Mechanically conditioned regularly occupied spaces meet one of the following thermal comfort conditions:13           PMV          Percentage of              Percentage of Regularly                           Other Requirements          Range        Occupied Hours                 Occupied Spaces         +/- 0.5        For at least 90%                  At least 90%                                        N/A         +/- 1.0        For at least 98%                  At least 95%                 At least two points in either Feature T03,  "
+        },
+        {
+          "title": "Part 2 Monitor Thermal Parameters",
+          "body": "For All Spaces except Dwelling Units: Option 1: Annual testing Conduct ongoing monitoring according to the following requirements:    a. The dry-bulb temperature, relative humidity, air speed (only for projects that use elevated air speed method) and       mean radiant temperature are monitored in regularly occupied spaces at intervals no less than twice a year       (including once in June, July or August and once in December, January or February), and results are submitted       annually through the WELL digital platform.    b. The number and location of sampling points comply with the requirements outlined in the Performance       Verification Guidebook.   Note: Projects are not required "
+        }
+      ]
+    },
+    {
+      "code": "T02",
+      "name": "Verified Thermal Comfort",
+      "type": "optimization",
+      "intent": "Enhance thermal comfort and promote human productivity, by ensuring that a substantial majority of building users (above 80%) perceive their environment as thermally acceptable",
+      "summary": "This WELL feature requires projects to provide high levels of thermal comfort, by determining occupant satisfaction through a survey.",
+      "parts": [
+        {
+          "title": "Part 1 Survey for Thermal Comfort",
+          "body": "WELL Certification: 3 Pt | WELL Core: 3 Pt For All Spaces: A post-occupancy survey is administered at least twice a year, including once in June, July or August and once in December, January or February, at least six months after occupancy, which satisfies the following conditions:    a. All regular occupants are invited to participate in the anonymous survey, and responses are collected from the       following number ofrespondents:1                       Number of Regular Occupants                                   Minimum Number of Responses                                 More than 45                                        35% of those regular occupants                                   "
+        }
+      ]
+    },
+    {
+      "code": "T03",
+      "name": "Thermal Zoning",
+      "type": "optimization",
+      "intent": "Enhance thermal comfort of people in buildings through the provision of thermal zoning in each",
+      "summary": "This WELL feature requires projects to increase thermal control of the space, by allowing control of either the conditions of a thermal zone or movement between thermal zones.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Thermostat Control",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces: The following requirements are met for at least 90% of regularly occupied spaces:    a. Control over temperature in the space is available through either:        1. Thermostats present within the thermal zone.        2. A digital interface accessible to occupants on a computer or phone.    b. The maximum size of each thermal zone is 650 ft²(60 m²) or 10 occupants, whichever is larger.    c. Projects earn points based on the number of thermal zones:                        Number of Zones                                                Number of Zones       Points                     One per 650 ft²(60 m²)                        OR     "
+        }
+      ]
+    },
+    {
+      "code": "T04",
+      "name": "Individual Thermal Control",
+      "type": "optimization",
+      "intent": "Maximize and personalize thermal comfort among all individuals.",
+      "summary": "This WELL feature requires projects to improve thermal comfort of people in the space through the provision of personal thermal comfort devices and flexible dress codes that support individual thermal preferences.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Personal Cooling Options",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces except Dwelling Units: All regular occupants can cool their individual environment through one or more of the following:    a. A user-adjustable thermostat connected to the building’s mechanical cooling system or to an air conditioning       unit. The room or thermal zone controlled by the thermostat may not be regularly occupied by more than one       person.19    b. Desk fan or ceiling fan that does not increase air speed for other occupants.19    c. Chair with mechanical cooling system.19    d. Any other solution capable of affecting a PMV change of -0.5 within 15 minutes from activation, without       changing the PMV for other "
+        },
+        {
+          "title": "Part 2 Provide Personal Heating Options",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces except Commercial Kitchen Spaces & Dwelling Units: All regular occupants can warm their individual environment through one or more of the following:    a. A user-adjustable thermostat connected to the building’s mechanical heating system. The room or thermal zone       controlled by the thermostat may not be regularly occupied by more than one person.19    b. Electric parabolic space heater.19    c. Electric heated chair or footwarmers.19    d. Blankets, which are washed at least weekly.19    e. Any other solution capable of affecting a PMV change of +0.5 within 15 minutes from activation, without       changing PMV for other occupa"
+        },
+        {
+          "title": "Part 3 Allow Flexible Dress Code",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces except Commercial Kitchen Spaces & Dwelling Units: The following requirement is met:    a. A flexible dress code policy is in place that allows regular occupants to dress for individual thermal       preferences.20   WELL Core Guidance: Meet these requirements for direct staff. References    1. American Society of Heating Refrigerating and Air-Conditioning Engineers. ASHRAE 55-2013: Thermal       Environmental Conditions for Human Occupancy. 2013. https://www.techstreet.com/ashrae/standards/ashrae-       55-2013?product_id=1868610.    2. Nicol JF, Humphreys MA. Adaptive thermal comfort and sustainable thermal standards for buildings"
+        }
+      ]
+    },
+    {
+      "code": "T05",
+      "name": "Radiant Thermal Comfort",
+      "type": "optimization",
+      "intent": "Maximize volume of the space, reduce dust transmission, improve ventilation control and increase thermal comfort by incorporating radiant heat and cooling systems into the building design.",
+      "summary": "This WELL feature requires projects to use radiant systems and independently controlled ventilation systems.",
+      "parts": [
+        {
+          "title": "Part 1 Implement Radiant Heating",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: At least 50% of the regularly occupied project area is heated with one or more of the following:    a. Radiant ceilings, walls or floors.    b. Radiant panels which cover at least half of the wall or ceiling to which they are attached (does not include steam       radiators).   WELL Core Guidance: Meet these requirements in the whole building. Up to 10% of the total area occupied by tenants can   be excluded from the feature scope."
+        },
+        {
+          "title": "Part 2 Implement Radiant Cooling",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: At least 50% of the regularly occupied project area is cooled with one or more of the following:    a. Radiant ceilings, walls or floors.    b. Radiant panels that cover at least half of the wall or ceiling to which they are attached.   WELL Core Guidance: Meet these requirements in the whole building. Up to 10% of the total area occupied by tenants can   be excluded from the feature scope. References    1. American Society of Heating Refrigerating and Air-Conditioning Engineers. ASHRAE 55-2013: Thermal       Environmental Conditions for Human Occupancy. 2013. https://www.techstreet.com/ashrae/standards/ashrae-       55-2013?product_"
+        }
+      ]
+    },
+    {
+      "code": "T06",
+      "name": "Thermal Comfort Monitoring",
+      "type": "optimization",
+      "intent": "Monitor and effectively address unacceptable thermal comfort conditions and inform building managers and users of the thermal comfort parameters of their indoor environment.",
+      "summary": "This WELL feature requires projects to monitor thermal comfort parameters using sensors in their buildings that can be used as feedback for building managers and users to take appropriate actions.",
+      "parts": [
+        {
+          "title": "Part 1 Monitor Thermal Environment",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Thermal comfort monitors The project monitors dry-bulb temperature and relative humidity, satisfying the following requirements:    a. Sensors are located in occupiable areas; 3.6-5.6 ft(1.1-1.7 m) above the floor; and at least 3.3 ft(1 m) away from       exterior walls, doors, direct sunlight, air supply/exhausts, mechanical fans, heaters or any other significant source       of heat or cold.    b. A minimum of one sensor per 3,500 ft2(325 m2) of occupiable floor area.    c. Measurements are taken at least once every 15 minutes.    d. Sensors comply with the Device Requirements listed in the WELL Performance Verification"
+        }
+      ]
+    },
+    {
+      "code": "T07",
+      "name": "Humidity Control",
+      "type": "optimization",
+      "intent": "Limit the growth of pathogens, reduce off-gassing and maintain thermal comfort by providing the appropriate level of humidity.",
+      "summary": "This WELL feature requires projects to maintain optimum relative humidity levels that are conducive to human health and well-being.",
+      "parts": [
+        {
+          "title": "Part 1 Manage Relative Humidity",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Mechanical humidity control The following requirement is met in all regularly occupied areas, except high-humidity areas:    a. The mechanical system has the capability of maintaining relative humidity between 30% and 60% at all times by       adding or removing moisture from the air.10,11 OR Option 2: Humidity modeling The following requirement is met for all regularly occupied areas, except high-humidity spaces:    a. The modeled relative humidity levels in the space are between 30% and 60% for at least 98% of all business hours       of the year. OR Option 3: Long-term humidity data The following requirements are met:   "
+        }
+      ]
+    },
+    {
+      "code": "T08",
+      "name": "Enhanced Operable Windows",
+      "type": "optimization",
+      "intent": "Provide the benefits of increased outdoor air supply while minimizing any resulting thermal discomfort.",
+      "summary": "This WELL feature requires windows that can be opened at different elevations to provide desired air flow at different outdoor temperatures.",
+      "parts": [
+        {
+          "title": "Part 1 Provide Windows with Multiple Opening Modes",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt   Note: Projects may only achieve this part if Feature A07 Part 1 is also achieved. For All Spaces: Option 1: Window design Operable windows may be opened according to the following requirements (windows which may be opened in both modes may count for both requirements a and b):    a. At least 70% of operable windows may be opened such that at least half of the opening is not more than 5.9       ft(1.8 m) above the finished floor and opening is at least 1 ft(0.3 m) in the smallest dimension. At least one such       window is present in each room with operable windows.    b. If project is equipped with heating, at least 30% of operable windows may be"
+        }
+      ]
+    },
+    {
+      "code": "T09",
+      "name": "Outdoor Thermal Comfort",
+      "type": "optimization",
+      "intent": "Address the thermal comfort needs of project occupants in the exterior spaces of the project.",
+      "summary": "This WELL feature requires projects to design outdoor spaces to avoid excessive wind and manage elevated temperatures through shading or other strategies.",
+      "parts": [
+        {
+          "title": "Part 1 Manage Outdoor Heat",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Outdoor shading The following areas (if present) are shaded for more than half of daylight hours each day by tree canopies, awnings, or other structures:    a. At least 50% of pedestrian pathways and building entrances.    b. At least 25% of parking spaces (if present).    c. Between 25% and 75% of all plazas, seating areas and other outdoor areas of congregation.   Note: All projects are required to submit the WELL beta feature implementation feedback form for every WELL beta feature   pursued during documentation review. More information on WELL v2 beta features can be found at   https://resources.wellcertified.com/articl"
+        },
+        {
+          "title": "Part 2 Avoid Excessive Wind",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: A computational fluid dynamic model of the building and any adjacent buildings that takes into account at least one day per season (i.e., per quarter) demonstrates the following:    a. Winds are not expected to exceed 11 mph(5 m/s) for more than 5% of hours in the year in seating areas or 10% of       hours on paths and parking lots.14    b. Winds are not expected to exceed 33 mph(15 m/s) on paths, parking lots or seating areas for more than 0.05% of       hours in the year.14   Note: All projects are required to submit the WELL beta feature implementation feedback form for every WELL beta feature   pursued during documentation revie"
+        },
+        {
+          "title": "Part 3 Support Outdoor Nature Access",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Project achieves the following features:    a. Feature T09β Outdoor Thermal Comfort, Part 1 or Part 2.    b. Feature M09, Part 2: Provide Nature Access Outdoors.   Note: All projects are required to submit the WELL beta feature implementation feedback form for every WELL beta feature   pursued during documentation review. More information on WELL v2 beta features can be found at   https://resources.wellcertified.com/articles/introducing-well-beta-features/.   WELL Core Guidance: Meet the requirements in the whole building. References    1. American Society of Heating Refrigerating and Air-Conditioning Engineers. ASHRAE 55-2013: Therm"
+        }
+      ]
+    }
+  ]
+}

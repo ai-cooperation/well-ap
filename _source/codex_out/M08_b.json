@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "M08_Q26",
+    "stem": "In Part 1: Select Compliant Interior Furnishings of Feature X05: Enhanced Material Restrictions, how much Halogenated flame retardants (HFR) can be found in the textiles and plastics in newly installed furniture, millwork, and fixtures?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "15 ppm",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "100 ppm",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "450 ppm",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "55 ppm",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "X05 Enhanced Material Restrictions, Part 1 Select Compliant Interior Furnishings 要求 textiles 與 plastics 中 HFR、PFAS、lead、cadmium、mercury 等化學類別各自不得超過 100 ppm (0.01%) by weight，除非 local code 要求更高含量。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤把 X05 的 HFR 門檻記得過嚴，忽略 100 ppm。",
+        "followup": "X05 Part 1 明列的 HFR 上限是多少 ppm？是否另有更低值？"
+      },
+      "C": {
+        "gap": "低估 HFR 限制強度，誤以為數百 ppm 仍可合規。",
+        "followup": "若 X05 Part 1 明列 HFR 為受限 chemical class，允許值是否能高到 450 ppm？"
+      },
+      "D": {
+        "gap": "選了未出現在標準中的任意數字，未對照 0.01% 換算。",
+        "followup": "100 ppm 與 0.01% by weight 是同一門檻；55 ppm 在 X05 Part 1 有被列為要求嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q27",
+    "stem": "In Part 1: Select Compliant Interior Furnishings of Feature X05: Enhanced Material Restrictions, (max 1 Point), newly installed furnishings, built-in furniture, interior finishes, and finish materials must comply by at least what percent compliance by cost to fulfill the requirement?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "50%",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "25%",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "45%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "55%",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "X05 Enhanced Material Restrictions, Part 1 Select Compliant Interior Furnishings 要求至少 50% by cost 的 newly installed furniture, millwork and fixtures，且至少 10 distinct products，符合材料限制或不含 textiles and plastic。",
+    "diagnosis": {
+      "B": {
+        "gap": "低估 X05 by cost 門檻，混入其他材料比例。",
+        "followup": "X05 Part 1 合規比例是 50% by cost，還是較低比例？"
+      },
+      "C": {
+        "gap": "選了接近但不存在的比例，未抓到標準採整數 50% 門檻。",
+        "followup": "題幹問 Part 1 的 minimum compliance by cost，標準是否允許 45% 這種中間值？"
+      },
+      "D": {
+        "gap": "把要求誤加嚴，將最低門檻提高到標準未要求的比例。",
+        "followup": "若 WELL 只要求 at least 50% by cost，55% 是合規成果還是最低要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q28",
+    "stem": "Which of the following WELL features promotes the use of products that have been independently verified to be free of many suspected hazards?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Feature X05: Enhanced Material Precaution",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Feature X01: Material Restrictions",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Feature X03: CCA and Lead Management",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Feature X12: Contact Reduction",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "WELL v2 的相近條文是 X05 Enhanced Material Restrictions, Part 1/Part 2，要求限制 HFR、PFAS、heavy metals、orthophthalates 等成分；但「independently verified」與「free of many suspected hazards」更貼近 X08 Materials Optimization 的篩選與認證邏輯。",
+    "diagnosis": {
+      "B": {
+        "gap": "把基礎 hazardous materials 禁限用與進階產品驗證混為一談。",
+        "followup": "X01 是限制 asbestos、mercury、lead，還是要求產品經第三方材料健康優化認證？"
+      },
+      "C": {
+        "gap": "把既有場地風險管理誤當產品成分驗證要求。",
+        "followup": "X03 管 CCA 與 lead 場地風險，是否驗證新產品成分？"
+      },
+      "D": {
+        "gap": "把感染控制策略誤當材料化學危害篩選要求。",
+        "followup": "X12 處理 respiratory particles 與 hand touch，和材料 hazards 有何不同？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "WELL v2 standard names X05 as Enhanced Material Restrictions, not Enhanced Material Precaution; the independently verified hazard-free concept aligns more closely with X08, which is not offered."
+    }
+  },
+  {
+    "id": "M08_Q29",
+    "stem": "An urban development has recently completed construction, and new tenants are moving in. The project team is tabulating all products (including furnishings, furniture, and finishes) to report for Feature X05: Enhanced Material Restrictions. What metric should the project team use to report compliance?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Either weight or cost",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Weight",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Volume",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Cost",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X05 Enhanced Material Restrictions, Part 1 與 Part 2 都以 at least 50% by cost of newly installed products 作為合規比例；ppm by weight 是成分濃度門檻，不是整體產品盤點的回報 metric。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆產品合規比例與化學濃度測量，誤以為兩種 metric 可任選。",
+        "followup": "X05 的 100 ppm by weight 用於材料成分；50% compliance 是按哪個採購或產品統計基準？"
+      },
+      "B": {
+        "gap": "把 ppm by weight 誤作產品盤點 metric。",
+        "followup": "X05 盤點產品合規時，標準寫 by weight 還是 by cost？"
+      },
+      "C": {
+        "gap": "使用標準未採用的 volume metric，忽略成本比例。",
+        "followup": "X05 Part 2 的產品合規比例，有沒有使用 volume 作為基準？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q30",
+    "stem": "Feature X11: Cleaning Products and Protocols requires a project develops and implements a cleaning plan. What must this plan detail?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Instructions for sweeping.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Extent and frequency of cleaning.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "The time each cleaning function takes to complete",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Green cleaning products from regular cleaning products",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "X11 Cleaning Products and Protocols, Part 1 Improve Cleaning Practices 要求 cleaning plan 詳列 extent and frequency of cleaning、清潔責任、可用 supplies 與 adherence documentation process。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 cleaning plan 縮小成單一清掃操作，漏掉完整管理項目。",
+        "followup": "X11 Part 1 要 detail 的是 sweeping 指令，還是整體清潔範圍、頻率與責任分工？"
+      },
+      "C": {
+        "gap": "把清潔工時誤當 WELL 要求，漏看頻率與責任。",
+        "followup": "X11 Part 1 要記錄 cleaning frequency，是否要求逐項工時？"
+      },
+      "D": {
+        "gap": "混淆 cleaning plan 與 preferred products。",
+        "followup": "題目問 cleaning plan，應先看 X11 Part 1 還是 Part 2？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q31",
+    "stem": "According to Part 1: Improve Cleaning Practices of Feature X11: Cleaning Products and Protocols in the WELL Building Standard™ (WELL™), the cleaning plan must outline a training program. Who is the training delivered to?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "All regular occupants",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Full-time employees",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "All relevant personnel",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Management staff and board of directors",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "X11 Cleaning Products and Protocols, Part 1 Improve Cleaning Practices 要求 training delivered to all relevant personnel，包括 building management、building operators 與 contracted cleaning staff，且每年及 protocol 改變時提供。",
+    "diagnosis": {
+      "A": {
+        "gap": "把溝通對象誤當訓練對象，漏掉清潔相關人員。",
+        "followup": "X11 training 是給 regular occupants，還是執行清潔的相關人員？"
+      },
+      "B": {
+        "gap": "把 relevant personnel 限縮成全職員工。",
+        "followup": "若只訓練 full-time employees，contracted cleaning staff 會不會被漏掉？"
+      },
+      "D": {
+        "gap": "誤以為訓練只需高層治理，忽略現場操作人員。",
+        "followup": "X11 的 PPE 與 cloth handling training 應由董事會還是現場人員掌握？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q32",
+    "stem": "A janitorial company is beginning work at a WELL Certified building, and several requirements related to the WELL Building Standard are written into the contract. Since the project has achieved Feature X11: Cleaning Products and Protocols, which of the following requirements must be met?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Walk-off mats should be wet cleaned every day.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Mops, rags and dusters used to clean all non-porous surfaces must consist of microfiber with a denier no higher than 1.5.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Cleaning products, soaps, shampoos, disinfection and sanitization products are not manufactured with ingredients classified under the Globally Harmonized System (GHS).",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Vacuum cleaners contain MERV 8 filters.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "X11 Cleaning Products and Protocols, Part 2 Select Preferred Cleaning Products 要求 cleaning、disinfection and sanitization products 採 low-hazard/safer 認證，或 SDS 依 EU CLP/California SB 258 揭露且 Section 3 不含特定 Category 1、1A、1B GHS hazard codes。",
+    "diagnosis": {
+      "A": {
+        "gap": "把清潔頻率想成固定每日濕洗，非明文要求。",
+        "followup": "X11 Part 1 要說明 extent and frequency，有指定 mats 每日濕洗嗎？"
+      },
+      "B": {
+        "gap": "套用過細的 microfiber 規格，忽略實際條文。",
+        "followup": "X11 對 reusable cloths 要 color-coding，是否列出 denier 1.5？"
+      },
+      "D": {
+        "gap": "混淆 HVAC 濾網等級與 vacuum cleaner 要求。",
+        "followup": "X11 對 vacuum cleaners 寫 HEPA rated filters，是否是 MERV 8？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The marked option is closest to X11 Part 2 but overstates the standard: WELL restricts specific GHS Category 1/1A/1B hazard codes for cleaning, disinfection and sanitization products; it does not broadly ban all GHS-classified ingredients or include soaps/shampoos as written."
+    }
+  },
+  {
+    "id": "M08_Q33",
+    "stem": "Part 2: Select Compliant Architectural and Interior Products in Feature X05: Enhanced Material Restrictions gives 1 point if, at minimum, 50% by cost of flooring components contain halogenated flame retardants at less than",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 ppm",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "100 ppm",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "1000 ppm",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "2000 ppm",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "X05 Enhanced Material Restrictions, Part 2 Select Compliant Architectural and Interior Products 要求至少 50% by cost 的 flooring products 中 HFR、PFAS 與 orthophthalates 各為 100 ppm (0.01%) by weight or less。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 X05 Part 2 門檻誤記為更嚴格的 10 ppm。",
+        "followup": "X05 Part 2 對 flooring HFR 的 ppm 上限是多少？"
+      },
+      "C": {
+        "gap": "混淆 X01 的 1000 ppm 與 X05 的 HFR 門檻。",
+        "followup": "1000 ppm 常見於 legacy restrictions，X05 HFR 是多少 ppm？"
+      },
+      "D": {
+        "gap": "大幅放寬 HFR 限制，未掌握 0.01% by weight 的換算。",
+        "followup": "如果 100 ppm 等於 0.01%，2000 ppm 會比 X05 Part 2 允許值高出多少倍？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q34",
+    "stem": "Feature X07: Material Transparency includes Part 3: Select Products with Third-Party Verified Ingredients. What verification method is required through IWBI?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Letter of Assurance - Engineer",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "On-site Photos",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Technical Document",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "On-going Report",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "X07 Materials Transparency, Part 3 Select Products with Third-Party Verified Ingredients 要求至少 15 distinct permanently installed products and furniture 披露全部 ingredients，且 disclosure 由第三方驗證；這類 ingredient disclosure 與 certification evidence 通常以 Technical Document 提交。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為工程師保證書可取代成分揭露完整證據。",
+        "followup": "X07 Part 3 要第三方驗證成分，Engineer letter 能證明產品證書嗎？"
+      },
+      "B": {
+        "gap": "把現場照片誤當材料透明度文件主要證據來源。",
+        "followup": "On-site Photos 能顯示安裝，但能否證明 Declare 或 HPD 成分資料？"
+      },
+      "D": {
+        "gap": "混淆一次性產品文件審查與營運期持續報告。",
+        "followup": "X07 Part 3 是要提交 product ingredient documentation，還是每年回報運轉數據？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The provided WELL v2 text confirms X07 Part 3 ingredient disclosure and third-party verification requirements, but does not list IWBI verification method in the excerpt; C is plausible but not directly cross-checkable from the supplied standard text."
+    }
+  },
+  {
+    "id": "M08_Q35",
+    "stem": "In order to achieve optimization Feature X07: Materials Transparency, at least 50% by count or 25 distinct, permanently installed products and furniture ingredients are disclosed by the manufacturer, a disclosure organization, or a third party through which of the following?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Petals Certification",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "LEED",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Living Building Challenge",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "A Declare Label",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X07 Materials Transparency, Part 1 Select Products with Disclosed Ingredients 要求至少 50% by count 或 25 distinct permanently installed products and furniture 透過認可方式揭露成分，其中包含 International Living Future Institute 的 Declare label。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 Petals 與 ingredient disclosure 工具。",
+        "followup": "X07 Part 1 清單中有 Petals，還是 Declare label？"
+      },
+      "B": {
+        "gap": "把 LEED 評分系統當成直接成分揭露標籤。",
+        "followup": "X07 要產品層級 ingredient disclosure，LEED 本身是標籤嗎？"
+      },
+      "C": {
+        "gap": "只記得 ILFI，未分清 Challenge 與 Declare label。",
+        "followup": "X07 Part 1 明列的是 Living Building Challenge，還是 Declare？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q36",
+    "stem": "In order to fulfill the requirement of Feature X10: Pest Management and Pesticide Use, how are pests primarily managed?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Through an IPM plan",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Using pesticide only outdoors",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Finalizing a pest control use listing",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "There is no active management of pests",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "X10 Pest Management and Pesticide Use, Part 1 Manage Pests 要求 for all indoor and outdoor spaces 實施 based on integrated pest management (IPM) principles 的 pest control management plan，並列出 objectives、thresholds、records 與低危害 pesticide 條件。",
+    "diagnosis": {
+      "B": {
+        "gap": "誤以為只限制 pesticide 使用地點，漏掉 IPM。",
+        "followup": "X10 Part 1 是禁室內 pesticide，還是室內外都採 IPM？"
+      },
+      "C": {
+        "gap": "只抓到 pesticide listing，漏掉 IPM plan 核心。",
+        "followup": "只有 pesticide listing，能涵蓋 X10 的 objectives 與 thresholds 嗎？"
+      },
+      "D": {
+        "gap": "忽略 X10 要求主動 pest management plan。",
+        "followup": "X10 Part 1 要每年評估 plan effectiveness，能沒有 active management 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q37",
+    "stem": "The intent of Feature X12: Contact Reduction is",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "to implement strategies to prevent minor impact injuries.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "to implement strategies to streamline movement through common areas.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "to implement strategies to reduce human contact with respiratory particles and surfaces that may carry pathogens.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "to implement strategies to reduce the risk of airborne disease.",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "X12 Contact Reduction 的 intent 是以 design and policy strategies 減少與 respiratory particles 及可能帶有 pathogens 的 surfaces 接觸；Part 1 聚焦 respiratory particle exposure，Part 2 聚焦 surface hand touch。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 contact reduction 誤解成碰撞傷害預防。",
+        "followup": "X12 Issue 討論 pathogens 與 fomites，是否關於 minor impact injuries？"
+      },
+      "B": {
+        "gap": "只看到動線策略，漏掉降低暴露的健康目的。",
+        "followup": "X12 的 circulation strategies 服務於哪種 exposure reduction？"
+      },
+      "D": {
+        "gap": "只聚焦 airborne disease，漏掉手觸表面風險。",
+        "followup": "X12 Part 2 為何要處理 surface hand touch？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q38",
+    "stem": "What are some of the design features that can be implemented to meet the requirements of Feature X12: Contact Reduction?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Design and implement physical barriers in the project to prevent respiratory particles.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Establish a corporate cleaning schedule.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Require corporate HR policies around mandatory sick days.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Facial tissues provided in all common areas.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "X12 Contact Reduction, Part 1 Reduce Respiratory Particle Exposure 接受 screens, protective furnishings or other engineering controls，以減少 reception、check-out counters 等高互動位置的 particle exchange。",
+    "diagnosis": {
+      "B": {
+        "gap": "混淆 X11 清潔計畫與 X12 barrier strategy。",
+        "followup": "corporate cleaning schedule 對應 X11；X12 Part 1 要哪些 barrier？"
+      },
+      "C": {
+        "gap": "把 HR 病假政策當作 X12 設計措施。",
+        "followup": "X12 Part 1 列 marks、screens、self-service，含 sick days 嗎？"
+      },
+      "D": {
+        "gap": "把衛生用品提供誤認為 X12 的設計控制。",
+        "followup": "X12 Part 1 的 respiratory particle design feature 是什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q39",
+    "stem": "All of these are policies in Part 1: Reduce Respiratory Particle Exposure that can be implemented to meet the requirements of Feature X12: Contact Reduction except",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Marks to Increase Distance Between People",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Installing screens and protective furnishings",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Encourage use of many entrances/exists whenever possible to avoid clustering",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Create self service systems to control ingress and egress",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "X12 Contact Reduction, Part 1 Reduce Respiratory Particle Exposure 明列 queuing marks、screens/protective furnishings、self-service systems，以及 circulation strategies 中的 separate entry and exit doors；它不是要求泛泛鼓勵使用 many entrances/exits。",
+    "diagnosis": {
+      "A": {
+        "gap": "把正式 distancing strategy 誤判為例外。",
+        "followup": "X12 Part 1 是否明列 queuing marks to increase distance？"
+      },
+      "B": {
+        "gap": "漏看 screens 和 furnishings 是明列策略。",
+        "followup": "X12 Part 1 是否允許 screens 減少 particle exchange？"
+      },
+      "D": {
+        "gap": "未辨認 self-service systems 是明列控制。",
+        "followup": "X12 Part 1 是否包含 self-service systems 控制 ingress 或 egress？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q40",
+    "stem": "Regarding Part 2: Address Surface Hand Touch of Feature X12: Contact Reduction, the requirements for hands-free operation must be met for the following functions, except",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Handlebars",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Regularly used pedestrian doors.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Elevators",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Water bottle fillers, water faucets and dispensers.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "X12 Contact Reduction, Part 2 Address Surface Hand Touch 的 hands-free operation 清單包括 regularly used pedestrian entry doors、elevators、water bottle fillers/water faucets/soap and paper towel dispensers 等；handrails、handlebars 等是 hand hygiene support 的 high-touch surfaces，不屬於 hands-free operation 清單。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 entry doors 誤判為 hands-free 例外。",
+        "followup": "X12 Part 2 是否列 regularly used pedestrian entry doors？"
+      },
+      "C": {
+        "gap": "忽略 elevators 被列為 hands-free 候選項目。",
+        "followup": "Part 2 要至少三項 hands-free，elevators 是否在清單內？"
+      },
+      "D": {
+        "gap": "漏看飲水與水龍頭設備屬於 hands-free 清單。",
+        "followup": "X12 Part 2 是否列 water fillers、faucets 與 dispensers？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q41",
+    "stem": "Which material selection process does not promote the selection of products that have been audited to minimize impacts on human and environmental health as listed in Feature X08: Materials Optimization?",
+    "framework": "M08_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Living Building Challenge's Red List v4.0",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "US EPA 40 CFR Part 273",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Cradle to Cradle Basic Level restricted Substances List v4",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "REACH Restriction, Authorization and SHVC list",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "X08 Materials Optimization, Part 1 Select Materials with Enhanced Chemical Restrictions 接受 Living Building Challenge Red List v4.0、Cradle to Cradle Basic Level Restricted Substances List v4、REACH Restriction/Authorization/SVHC lists 與 LEED v4.1 Advanced Inventory & Assessment；US EPA 40 CFR Part 273 不在此材料選擇清單中。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 X08 明列 Red List 路徑誤認為不合規。",
+        "followup": "X08 Part 1 是否明列 Living Building Challenge Red List v4.0？"
+      },
+      "C": {
+        "gap": "未辨認 Cradle to Cradle RSL v4 是合規路徑。",
+        "followup": "X08 是否允許 Cradle to Cradle Basic Level RSL v4？"
+      },
+      "D": {
+        "gap": "漏看 REACH lists 是 X08 正式合規選項。",
+        "followup": "X08 Part 1 是否接受 REACH Restriction、Authorization 與 SVHC？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q42",
+    "stem": "Why should a project team ensure a waste stream plan is created and followed for a Battery company in Sarasota, Florida that wants to obtain a WELL Certification?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "To comply with the requirements of Feature: X04 Site Remediation.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "To improve the recycling rate by occupant.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "To comply with the requirements of Feature X09: Waste Management.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "To meet the minimum recycling space required.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "X09 Waste Management, Part 1 Implement a Waste Management Plan 要求對 batteries、pesticides、mercury-containing lamps/equipment 與 electrical/electronic equipment 制定並執行 waste management plan，包含 waste sources、collection、spill protocols 與 off-site shipment。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 site remediation 與 hazardous waste。",
+        "followup": "batteries waste stream 屬於 X09，還是 X04 brownfield assessment？"
+      },
+      "B": {
+        "gap": "把 hazardous waste plan 誤解為一般回收率改善。",
+        "followup": "X09 intent 是提高 recycling rate，還是降低 hazardous waste exposure？"
+      },
+      "D": {
+        "gap": "套用一般回收空間概念，漏掉 hazardous waste 管理。",
+        "followup": "X09 要 clearly labeled receptacles，是否只是 recycling space 面積？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q43",
+    "stem": "During a renovation of a project in Sarasota, FL, is demonstration prior remediation of lead paint in the building. What does Feature X02: Interior Hazardous Materials Management require to verify this prior remediation?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "On-site photographs",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Letter of Assurance - Owner",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Professional Narrative",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Technical Document",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "X02 Interior Hazardous Materials Management, Part 2 Manage Lead Paint Hazards 要求在既有建築中識別 lead paint hazards；若 local laws 要求入住前完整移除，project must demonstrate that risk has been addressed by relevant legal documentation, such as certificates of occupancy or remediation reports。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 prior remediation 證明誤認為只需照片。",
+        "followup": "X02 Part 2 prior remediation 能只靠照片，還是需 remediation reports？"
+      },
+      "B": {
+        "gap": "過度依賴 owner assurance，缺少 remediation 證據。",
+        "followup": "證明 lead paint risk 已處理，owner letter 與報告差在哪？"
+      },
+      "D": {
+        "gap": "把 prior remediation 情境誤當一般技術文件提交。",
+        "followup": "X02 prior remediation 要說明已處理風險，還是提交新產品規格？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The supplied WELL v2 text confirms X02 Part 2 prior remediation/legal documentation requirements, but does not specify the IWBI verification method; C cannot be directly confirmed from the provided standard text."
+    }
+  },
+  {
+    "id": "M08_Q44",
+    "stem": "Which of the following actions taken by the project team does not follow the intent of Feature X09: Waste Management?",
+    "framework": "M08_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identify sources of waste and create strategies to minimize waste generation.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Creating a recycling and materials recovery plan.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Making the building owner purchase trash bins 30 lb or larger.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Establishing and Identifying Roles and Responsibilities for a Waste Management Plan.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "X09 Waste Management, Part 1 Implement a Waste Management Plan 要求 identification of roles、sources of waste、strategies to minimize waste generation、separately contained clearly labeled receptacles、spill protocols 與 shipment protocols；標準沒有要求 building owner 購買 30 lb or larger trash bins。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤判 X09 明列的 waste sources 與 minimization。",
+        "followup": "X09 Part 1 b 是否要求 sources of waste 與 minimization？"
+      },
+      "B": {
+        "gap": "把材料回收計畫誤視為偏離 X09 intent。",
+        "followup": "X09 waste plan 是否需要 collection strategies 與 shipment？"
+      },
+      "D": {
+        "gap": "漏看 roles 與 responsibilities 是 plan 必備項。",
+        "followup": "X09 Part 1 a 是否明列 roles、responsibilities and vendors？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q45",
+    "stem": "A project team is working on a building in Orlando that was constructed prior to any applicable laws banning or restricting lead and asbestos. How often are they required to revisit strategies for managing existing hazards?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Never",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Every year",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Every three years",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Every five years",
+        "depth": 2
+      }
+    ],
+    "correct": "C",
+    "explanation": "X02 Interior Hazardous Materials Management 要求若 asbestos-containing materials 以非移除方式管理，follow-up inspection 不得超過三年；Part 2 對留置且穩定化或 enclosure 的 lead-containing paints 也要求至少每三年 re-inspection。",
+    "diagnosis": {
+      "A": {
+        "gap": "忽略既有 hazardous materials 留置時必須定期追蹤完整性。",
+        "followup": "若 ACM 或 lead paint 沒有完全移除，X02 是否允許永遠不再檢查？"
+      },
+      "B": {
+        "gap": "把 X10 年度評估誤套到 X02 hazards。",
+        "followup": "X02 對 asbestos 與 lead re-inspection 是每年還是每三年？"
+      },
+      "D": {
+        "gap": "低估 hazard monitoring 頻率，把三年延為五年。",
+        "followup": "X02 Part 1 f 說 follow-up inspection 不能超過幾年？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q46",
+    "stem": "A team in Sarasota is renovating an old Fuel Station into a WELL Certified farm-to-table restaurant. What standard must be used for the site assessment, prior to construction?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Soil Quality Guidance on Sustainable Remediation Standard",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Phase I and Phase II Environmental",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "San Francisco Reduce Risk Pesticide List",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Both A and B",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X04 Site Remediation, Part 1 Assess and Mitigate Site Hazards 對 fuel station 等 past industrial activities 要先依 local environmental site assessment regulation 或 ASTM E1527-05 Phase I site assessment 評估；若顯示可能有 contaminants，再依 local regulation 或 ASTM E1903-97 Phase II site assessment 量化與判定 remediation needs。",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓 remediation 語意，漏掉 Phase I/II 條文。",
+        "followup": "X04 site assessment 首步明列哪個 ASTM Phase I 標準？"
+      },
+      "B": {
+        "gap": "抓到 Phase I/II，但未區分適用時機。",
+        "followup": "舊 fuel station 是先 Phase I，還是一開始必做 Phase II？"
+      },
+      "C": {
+        "gap": "混淆 pesticide 清單與 site assessment。",
+        "followup": "San Francisco pesticide list 能用於 fuel station assessment 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The WELL v2 text names local environmental site assessment regulation, ASTM E1527-05 Phase I, and if contaminants are indicated ASTM E1903-97 Phase II; it does not name the Soil Quality Guidance option, so 'Both A and B' is not supported.",
+      "corrected_correct": "B"
+    }
+  },
+  {
+    "id": "M08_Q47",
+    "stem": "An office building in Minneapolis is working to comply with Part 2: Restrict Mercury of Feature X01: Materials Restrictions. For all spaces, what restrictions are detailed for newly installed fire alarms, meters, sensors, relays, thermostats, and load break switches?",
+    "framework": "M08_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Contains no mercury",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "RoSS restrictions",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "ASHRAE 55",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Contains no more than 0.1% (1000 ppm) of mercury by weight",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X01 Material Restrictions, Part 2 Restrict Mercury 要求 newly installed fire alarms, meters, sensors, relays, thermostats and load break switches 符合 RoHS restrictions，或 mercury by weight 不超過 0.1% (1000 ppm)。",
+    "diagnosis": {
+      "A": {
+        "gap": "把限制 mercury 含量誤解成完全不得含有 mercury。",
+        "followup": "X01 Part 2 對這類設備是否給了 no more than 0.1% (1000 ppm) 的替代門檻？"
+      },
+      "B": {
+        "gap": "辨認到 RoHS 類似概念但名稱錯誤，且題目選項並非標準文字。",
+        "followup": "標準寫的是 RoHS restrictions；若選項拼成 RoSS，是否仍能精確對應 WELL 條文？"
+      },
+      "C": {
+        "gap": "混入 thermal comfort 標準，與 mercury 限制無關。",
+        "followup": "ASHRAE 55 能否證明 X01 mercury by weight 限制？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q48",
+    "stem": "What is the intent of the Materials Concept within a building?",
+    "framework": "M08_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "To reduce human exposure to chemicals that may impact health during construction, remodeling, furnishing and operation of buildings.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "To minimize the impact of volatile organic compounds (VOCs) emitted by products on indoor air quality.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "To mitigate environmental contamination and associated exposure to hazards present in certain wastes.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "To achieve high levels of indoor air quality across a building's lifetime.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "Materials concept overview 指出，WELL Materials concept aims to reduce human exposure, whether direct or through environmental contamination, to chemicals that may impact health during construction, remodeling, furnishing and operation of buildings；VOCs、waste 與 IAQ 都只是其中部分議題。",
+    "diagnosis": {
+      "B": {
+        "gap": "只抓 VOC 子議題，未涵蓋 Materials concept。",
+        "followup": "Materials overview 除 VOCs 外，還包括 legacy chemicals 與 waste 嗎？"
+      },
+      "C": {
+        "gap": "把 X09 waste intent 誤當 Materials 總體目的。",
+        "followup": "X09 waste exposure 能代表所有建材與營運化學暴露嗎？"
+      },
+      "D": {
+        "gap": "混淆 Air concept 的 IAQ 與 Materials 化學暴露。",
+        "followup": "Materials overview 提到 IAQ，是整體目標還是 VOCs 產品排放脈絡？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M08_Q49",
+    "stem": "An office building in Jacksonville does not include exterior areas, bare soil, artificial turf, playgrounds, or surfaces containing loose-fill rubber within the project boundary. What verification method would the project team use to document compliance with Part 1: Manage Exterior CCA Hazards of Feature X03: CCA and Lead Management?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "On-going Report",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "On-site Photographs",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Technical Document",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Professional Narrative",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "X03 CCA and Lead Management, Part 1 Manage Exterior CCA Hazards applies to existing wood structures outside the building envelope but within the project boundary where human presence is expected；若題述邊界內沒有相關 exterior elements，合規重點是說明不適用範圍，而非提交檢測數值。",
+    "diagnosis": {
+      "A": {
+        "gap": "把不適用說明誤當營運期持續報告要求項目。",
+        "followup": "沒有 exterior CCA 風險時，X03 需要 ongoing data 嗎？"
+      },
+      "B": {
+        "gap": "以為照片足以證明無 exterior hazards。",
+        "followup": "照片能輔助場地，但如何說明無 bare soil、turf 或 playgrounds？"
+      },
+      "C": {
+        "gap": "把無適用範圍的敘述型合規誤當成技術測試文件。",
+        "followup": "若沒有要測 CCA 或 lead 的材料，Technical Document 的測試數據從何而來？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The supplied WELL v2 text confirms X03 Part 1 applicability to exterior CCA wood structures but does not list the IWBI verification method for documenting non-applicability; D is plausible but not directly cross-checkable from the excerpt."
+    }
+  },
+  {
+    "id": "M08_Q50",
+    "stem": "WELL Feature X04: Site Remediation requires site assessment, testing, and remediation for the development of contaminated sites. What verification method is required to satisfy the requirements of this feature?",
+    "framework": "M08_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Technical Document",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Performance Test",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "On-site Photographs",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Letter of Assurance – Owner",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "X04 Site Remediation, Part 1 Assess and Mitigate Site Hazards 要求 environmental site assessment、Phase I/Phase II assessment 或 local regulation、sampling strategy 與 sustainable remediation plan；這些 assessment reports、sampling results 與 remediation documentation 屬於 Technical Document 型證據。",
+    "diagnosis": {
+      "B": {
+        "gap": "誤以為 X04 由現場 performance test 驗證。",
+        "followup": "X04 要 assessment reports，和空氣或水質 Performance Test 有何不同？"
+      },
+      "C": {
+        "gap": "把施工照片當主要證據，漏掉 Phase I/II 評估。",
+        "followup": "On-site Photos 能否證明 ASTM Phase I/II assessment 已完成？"
+      },
+      "D": {
+        "gap": "過度依賴業主聲明，缺少污染評估與技術資料。",
+        "followup": "X04 sampling strategy 與 remediation plan 能只靠 owner letter 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "suspect",
+      "note": "The supplied WELL v2 text confirms X04 technical assessment, testing and remediation requirements, but does not explicitly list the IWBI verification method; A is plausible but not directly cross-checkable from the excerpt."
+    }
+  }
+]

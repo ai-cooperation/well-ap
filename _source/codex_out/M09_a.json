@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M09_Q01",
+    "stem": "A non-profit is working on their WELL Certification for their outreach facility. What sort of mental health promotion program must the organization offer to all regular occupants in order to support their mental health and well-being?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least one program.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "At least two programs.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "At least one quarterly program.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "At least one weekly program.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being 要求至少 two of the listed programs, policies or resources 對 all employees and students 免費提供，並且每年向 regular occupants 溝通可用資源。單一 program 或只記頻率都不足以滿足此 Part 的數量要求。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 M01 Part 1 的 at least two 誤記成單一方案即可。",
+        "followup": "M01 Part 1 列出五類 mental health 支援時，條文要求 project 至少提供幾類給 employees and students？"
+      },
+      "C": {
+        "gap": "只抓到 quarterly awareness 頻率，忽略需從清單選兩項。",
+        "followup": "quarterly education 是 M01 Part 1 清單中的一項；若只提供這一項，是否達到 at least two 的門檻？"
+      },
+      "D": {
+        "gap": "混淆 weekly restorative programming 與整體 mental health promotion 數量。",
+        "followup": "weekly mindfulness programming 在 M01 Part 1 是可選策略之一，還是整個 feature 的唯一最低要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q02",
+    "stem": "Projects seeking points in Part 1: Promote Mental Health and Well-being of Feature M01: Mental Health Promotion lists requirements that support and promote occupant mental health. What is one of these requirements?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Education or awareness efforts on mental health and well-being, offered quarterly, either in-person or virtually.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Offer work-breaks every morning that include wellness quotes and quick health tips.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Send daily emails with inspirational quotes and simple health tips.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Encourage employees to sign up for a library card along with a list of pre-approved book recommendations.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being 明列 education or awareness efforts on mental health and well-being 須 quarterly 提供，且可 in-person 或 virtually。這是 at least two available at no cost 的可選要求之一。",
+    "diagnosis": {
+      "B": {
+        "gap": "把一般 wellness break 當成 M01 明列 mental health program。",
+        "followup": "M01 Part 1 的 awareness effort 是否要求聚焦 mental health and well-being，而不只是早晨短句或健康提示？"
+      },
+      "C": {
+        "gap": "誤把 inspirational email 視為合格教育，缺少 mental health 主題要求。",
+        "followup": "若 email 只是 inspirational quotes，是否符合 M01 Part 1 要求的 mental health and well-being education or awareness？"
+      },
+      "D": {
+        "gap": "將閱讀推薦誤認為標準列出的 mental health 支援資源。",
+        "followup": "M01 Part 1 的五項策略中，有要求 library card 或書單，還是要求 training、policy、restorative programming 等？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q03",
+    "stem": "Mental health awareness is emerging as an important workplace topic. Failure to address mental health in the workplace contributes to the following:",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower cohesion in employee collaboration projects.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Higher employee productivity, but with greater health risks.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "High turnover, absenteeism and increased possibility of accidents.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Although important, no measurable drawbacks are associated with not addressing mental health in the workplace.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "M01 Mental Health Promotion, Part 1 Promote Mental Health and Well-being 回應的 Issue 指出，未處理 workplace mental health 會造成 high turnover、presenteeism and absenteeism、increased accidents and injuries 及 burnout 等成本。此 feature 因此要求提供 supportive programs, policies and resources。",
+    "diagnosis": {
+      "A": {
+        "gap": "只抓到團隊合作層面，漏掉標準列出的營運與安全後果。",
+        "followup": "M01 Issue 描述 failure to address mental health 時，是否只談 collaboration，還是列出 turnover、absenteeism 與 accidents？"
+      },
+      "B": {
+        "gap": "誤以為壓力可提高 productivity，與 M01 的 lost productivity 脈絡相反。",
+        "followup": "M01 背景提到 depression and anxiety 對全球經濟的影響，是提升 productivity 還是造成 lost productivity？"
+      },
+      "D": {
+        "gap": "否認 workplace mental health 缺口有可衡量後果。",
+        "followup": "若 M01 Issue 已列 turnover、absenteeism、sick leave 和 accidents，還能說沒有 measurable drawbacks 嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q04",
+    "stem": "Alice is tired from working late nights on a project at work and her office has a space provided for short naps. In Feature M06: Restorative Opportunities, which of the following furniture options should her office have available in the in the space for employees to relax?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "A comfortable mattress on a cot.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "At least one fully reclining furniture option.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "A couch measuring at least 1.8m (6 ft) between the armrests.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "An empty space with a sleeping bag and mat.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M06 Restorative Opportunities, Part 2 Provide Nap Policy and Space 的 nap space option 要求 designated quiet zone 中，每 100 eligible employees 至少有 one fully reclining furniture option。條文例子包含 bed、daybed、couch、chair、cushioned roll-out mat 或 nap pod，但重點是 fully reclining。",
+    "diagnosis": {
+      "A": {
+        "gap": "抓到可休息家具概念，但誤以為特定 cot mattress 是標準文字。",
+        "followup": "M06 Part 2 是指定 cot mattress，還是要求每 100 eligible employees 有 fully reclining furniture option？"
+      },
+      "C": {
+        "gap": "混入其他空間家具尺寸印象，未對準 nap space 的 reclining 要求。",
+        "followup": "M06 Part 2 的 nap space 條文是否規定 couch 長度，或只要求 furniture 能 fully recline？"
+      },
+      "D": {
+        "gap": "把臨時睡袋鋪設當成合格 nap space，忽略指定家具與 quiet zone。",
+        "followup": "若只有 sleeping bag and mat，是否滿足 M06 Part 2 對 acoustically and visually separated quiet zone 的要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q05",
+    "stem": "A WELL building in California knows employee health is one of the most important aspects of the WELL Building Standard™ because it impacts aspects of work including productivity, concentration and even the health of coworkers. Which of the following should be offered to employees in accordance with Feature M03: Mental Health Services?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "A licensed counselor on-site for each 60 employees.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Workplace policies that encourage ill employees to stay home or work remotely.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Mental health days in addition to sick days.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Mental health screening for common mental health conditions.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "M03 Mental Health Services, Part 1 Offer Mental Health Screening 要求 clinical screening 或 self-assessment screening tool 對 all employees and students 免費提供，至少涵蓋 stress、depression、anxiety and substance use。工具也必須 confidentially 提供，並包含 directed feedback 或 next steps。",
+    "diagnosis": {
+      "A": {
+        "gap": "誤把 access to services 理解成固定比例的 on-site counselor。",
+        "followup": "M03 Part 1 對 screening tool 有要求每 60 人一位 counselor，還是要求 confidential screening 與 next steps？"
+      },
+      "B": {
+        "gap": "混淆感染或病假政策與 M03 的 mental health services。",
+        "followup": "M03 Part 1 要提供的是 common mental health conditions screening；stay home policy 屬於哪種健康風險管理？"
+      },
+      "C": {
+        "gap": "接近 workplace support 脈絡，但不是本題所問的 screening requirement。",
+        "followup": "M03 Part 3 確實提到 sick leave 可用於 mental health needs；但 Part 1 要提供哪種 screening？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q06",
+    "stem": "Feature M05: Stress Management requires projects to assess stress within the organization and create a plan for relieving or modifying sources of stress. What is Part 1 of this WELL feature?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Develop Stress Management Plan.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Identify Opportunities to Address Employee Stress.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Addressing Employee Stress.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Organizational Decisions By Employees.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M05 Stress Management 的 Part 1 名稱是 Develop Stress Management Plan，要求 project assessment 至少三項 organization- or project-wide metrics，辨識 address employee stress 的 opportunities，並 outlining implementation plan。其他選項多半是 Part 1 內部步驟而非 Part name。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 Part 1 內的子要求誤當成整個 Part 的名稱。",
+        "followup": "M05 Part 1 中 identify opportunities 是條文步驟之一；完整 Part title 是否更廣，包含 develop plan？"
+      },
+      "C": {
+        "gap": "用概括性主題取代標準中的正式 Part name。",
+        "followup": "題目問 Feature M05 的 Part 1 名稱，標準是寫 Addressing Employee Stress 還是 Develop Stress Management Plan？"
+      },
+      "D": {
+        "gap": "只看到 employee participation 概念，誤認為 Part 1 主軸。",
+        "followup": "M05 Part 1 確實要找 employee participation opportunities，但這是 implementation plan 的哪一層要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q07",
+    "stem": "A company in Portland knows connection to nature can allow for relief of stress. What can this company do to fulfill the requirements of Feature M02: Nature and Place?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Incorporate a water feature on each floor of the building.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Integrate natural materials, plants, water and views of nature.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Subsidize desk plants and instructions on their care.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Nature-themed wallpaper and decoration.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M02 Nature and Place, Part 1 Provide Connection to Nature 要求 throughout the space 整合 natural materials, patterns, shapes, colors, images or sounds，並至少包含 plants、water 或 nature views 其中之一。完整整合自然材料與 plants/water/views 最貼近條文要求。",
+    "diagnosis": {
+      "A": {
+        "gap": "只選單一 water feature，忽略 M02 要 throughout space 整合多種自然連結。",
+        "followup": "M02 Part 1 是否只要求每層一個 water feature，還是要求在 circulation routes、shared areas、workstations 整合自然元素？"
+      },
+      "C": {
+        "gap": "把個人桌盆栽補助當成專案層級的 spatial design requirement。",
+        "followup": "M02 Part 1 關注 project space 的 nature integration；desk plant subsidy 是否涵蓋 common circulation routes 和 shared rooms？"
+      },
+      "D": {
+        "gap": "把自然主題裝飾誤認為足夠，未包含 plants、water 或 nature views。",
+        "followup": "M02 Part 1 雖可用 images/patterns，但條文還要求 plants、water 或 nature views 至少哪一類？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q08",
+    "stem": "A building manager in Washington wants to increase the morale and mood of her employees. In Feature M02: Nature and Place, which of the following areas should she incorporate nature?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parking deck",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Restrooms",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Common circulation routes",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Elevators",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "M02 Nature and Place, Part 1 Provide Connection to Nature 要求自然元素 throughout the space，並明列 common circulation routes、shared seating areas and rooms 以及 workstations as applicable。common circulation routes 是條文直接列出的適用區域。",
+    "diagnosis": {
+      "A": {
+        "gap": "選到建築附屬交通空間，未對準 M02 明列的室內 common routes。",
+        "followup": "M02 Part 1 條文舉例的是 common circulation routes，還是 parking deck 這類非主要占用空間？"
+      },
+      "B": {
+        "gap": "將 restrooms 當作自然連結重點，忽略標準列出的共享與工作區。",
+        "followup": "若目標是提高 employee morale，M02 Part 1 是否要求自然元素進入 shared seating areas、rooms 與 workstations？"
+      },
+      "D": {
+        "gap": "把垂直交通設備誤認為主要 circulation route 的要求核心。",
+        "followup": "M02 Part 1 的 common circulation routes 是否指一般 occupants 行經空間，而非只在 elevators 內放裝飾？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q09",
+    "stem": "How is mental health defined by the WELL Building Standard?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "A state of and base understanding of physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "The degree to which individuals can obtain, process and understand the basic health information and services they need to make appropriate health decisions.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "Any combination of learning experiences designed to help individuals and communities improve their health, by increasing their knowledge or influencing their attitudes.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "A state of well-being in which every individual realizes his or her own potential, can cope with the normal stresses of life, can work productively and fruitfully and is able to make a contribution to her or his community.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL Mind concept overview 說明 mental health is not simply the absence of a mental health condition，而是能 live to fullest potential、cope with normal stresses、work productively 並 contribute to community 的 state of well-being。M01 Mental Health Promotion, Part 1 的 supportive programs and resources 即是為了支援此定義。",
+    "diagnosis": {
+      "A": {
+        "gap": "混入 WHO 健康總定義，未抓到 WELL 對 mental health 的功能性描述。",
+        "followup": "WELL Mind overview 定義 mental health 時，是否特別提到 coping with normal stresses 和 productive work？"
+      },
+      "B": {
+        "gap": "把 health literacy 定義誤當成 mental health 定義。",
+        "followup": "能 obtain, process and understand health information 是 health literacy；WELL Mind 如何描述 mental well-being？"
+      },
+      "C": {
+        "gap": "把 health education 的定義當成 mental health 本身。",
+        "followup": "learning experiences 可改善健康知識，但 WELL Mind 對 mental health 是否更強調 potential、stress coping 與 community contribution？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q10",
+    "stem": "An office building in New York is planning an initiative to include mental health education in their WELL portfolio. Which of the following would fulfill the requirement of Feature M04: Mental Health Education?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "In-person or virtual trainings on common mental health conditions, including signs and symptoms of mental health distress.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "In-person only trainings on mental health awareness.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Links to a virtual mental health resource library distributed by email.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Off-site trainings on common mental health conditions.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M04 Mental Health Education, Part 1 Offer Mental Health Education 要求 trainings 以 seminars, workshops or classes 形式 at least twice per year 提供，且可 in-person or virtually。內容需至少涵蓋兩項主題，包含 common mental health conditions 或 signs and symptoms of mental health distress 等。",
+    "diagnosis": {
+      "B": {
+        "gap": "知道需要 training，但誤以為 WELL 排除 virtual delivery。",
+        "followup": "M04 Part 1 對 training delivery 是限制 in-person only，還是允許 in-person or virtually？"
+      },
+      "C": {
+        "gap": "把資源連結當成教育訓練，缺少 seminar/workshop/class 形式。",
+        "followup": "M04 Part 1 要的是 trainings；單純 email resource library 是否等同 education seminars、workshops or classes？"
+      },
+      "D": {
+        "gap": "只抓到 common conditions，忽略條文允許的 delivery setting 與合格形式。",
+        "followup": "M04 Part 1 是否要求 off-site，還是可由 vendors、on-site staff 或 qualified programs 以 virtual/in-person 提供？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q11",
+    "stem": "What are some of the common mental health conditions or concerns that mental health education should cover?",
+    "framework": "M09_F1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Personality disorders and other less-recognizable stigmatizing conditions.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Depression, anxiety, substance use, stress and social isolation.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Generalized anxiety and bipolar depression.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Chronic disease caused by stress.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M04 Mental Health Education, Part 1 Offer Mental Health Education 要求 common mental health conditions or concerns 至少涵蓋 depression、anxiety、substance use、stress and burnout，以及 loneliness and social isolation。這些是條文列出的 minimum topics。",
+    "diagnosis": {
+      "A": {
+        "gap": "選到可能相關但非 M04 minimum list 的疾病分類。",
+        "followup": "M04 Part 1 的 minimum topics 是否列 personality disorders，還是列 depression、anxiety、substance use 等常見 concerns？"
+      },
+      "C": {
+        "gap": "只列少數診斷，範圍窄於 M04 要求的 common concerns。",
+        "followup": "M04 Part 1 要涵蓋的 common concerns 是否只有 anxiety/bipolar，還包含 substance use、stress、burnout 與 isolation？"
+      },
+      "D": {
+        "gap": "把壓力造成的慢性病後果當成 mental health education 主題清單。",
+        "followup": "題目問 M04 mental health education 應 cover 的 conditions；chronic disease 是否出現在該 minimum list？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q12",
+    "stem": "A sustainability manager is developing a stress management plan for Feature M05: Stress Management. What outline will the plan require for implementation?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Why, Space and Amenities.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Desk, Dining, Decompress and Disperse.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Who, What, Where, When and Availability.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Employee Representative, Building Owner and Project Manager.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "M05 Stress Management, Part 1 Develop Stress Management Plan 要求 implementation outline 包含 who is leading、what is to be completed、where it will occur and who is impacted、when and how it will be implemented，以及 availability of support from key management or leadership。這些對應 who/what/where/when and availability。",
+    "diagnosis": {
+      "A": {
+        "gap": "把空間設計元素誤套到 stress management implementation plan。",
+        "followup": "M05 Part 1 的 implementation outline 是否要求 Space and Amenities，還是要求 who、what、where、when/how？"
+      },
+      "B": {
+        "gap": "套用與 restorative 或 workplace layout 無關的四項口訣。",
+        "followup": "在 M05 Part 1 中，plan 是描述 desk/dining 類空間，還是描述 stress intervention 的執行責任與時程？"
+      },
+      "D": {
+        "gap": "只列利害關係人角色，漏掉 what、where、when/how 與 leadership support。",
+        "followup": "M05 Part 1 的 who is leading 只是五項 outline 之一；還必須交代哪些 implementation elements？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q13",
+    "stem": "According to the WELL Building Standard, employees need sufficient opportunities to psychologically detach and recover during non-work hours. What requirements must be met for all employees in Feature M06: Restorative Opportunities?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "A minimum of 60 hours off spread across each work week.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "A minimum of 4 hours off per 11-hour period.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "A minimum of 11 hours off per 24-hour period.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "There is no minimum time off requirement.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "M06 Restorative Opportunities, Part 1 Support Healthy Working Hours, Option 1 Working hours 要求 all employees 每 24-hour period 至少 11 consecutive hours off from work，且每 7-day period 至少 24 consecutive hours off。這是心理抽離與恢復的最低 working hours 門檻。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 weekly off-hours 總量化，忽略 daily consecutive rest requirement。",
+        "followup": "M06 Part 1 寫的是每週總共 60 小時，還是每 24 小時必須有 11 consecutive hours off？"
+      },
+      "B": {
+        "gap": "顛倒 11 小時規則，錯把休息時數縮成 4 小時。",
+        "followup": "M06 Part 1 的 ratio 是 11 hours off per 24-hour period，還是 4 hours off per 11-hour period？"
+      },
+      "D": {
+        "gap": "忽略 M06 Part 1 明確設定 working hours 的最低休息門檻。",
+        "followup": "若 M06 Part 1 有 Option 1 Working hours，是否仍可說沒有 minimum time off requirement？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q14",
+    "stem": "Restorative spaces are designed to promote restoration and relief from mental fatigue or stress. How should a restorative space be designated for Feature M07: Restorative Spaces?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "As a napping room.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "For community and place.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "For meditation.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "For relaxation.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "M07 Restorative Spaces, Part 1 Provide Restorative Space 要求至少 one designated restorative space available to all regular occupants，且該空間 must be designated for relaxation and restoration，並不得用於 work。napping 或 meditation 可是用途之一，但標準文字是 relaxation and restoration。",
+    "diagnosis": {
+      "A": {
+        "gap": "混淆 M06 nap space 與 M07 restorative space 的 designation。",
+        "followup": "M07 Part 1 是否要求 napping room，或是要求 designated for relaxation and restoration 且 not used for work？"
+      },
+      "B": {
+        "gap": "把 M02 connection to place 概念套到 M07 空間用途。",
+        "followup": "community and place 更接近 M02 Part 2；M07 Part 1 對 restorative space 的用途怎麼寫？"
+      },
+      "C": {
+        "gap": "把一種可行活動當成標準指定的空間 designation。",
+        "followup": "meditation 可在 restorative space 發生，但 M07 Part 1 是否只限定 meditation，還是更廣的 relaxation and restoration？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q15",
+    "stem": "Workday breaks are a way to encourage employees to use restorative breaks. What is another way to encourage the use of restorative spaces in Feature M07: Restorative Spaces?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Paid breaks away from workstations.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "15-minute walking break.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Paid breaks from staff meetings.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Two paid breaks in an 8-hour workday.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "M07 Restorative Spaces, Part 1 Provide Restorative Space 的 Option 2 Workday breaks 要求 project 透過 paid breaks away from the workstation for all employees 來鼓勵使用 restorative spaces。標準未指定 15 分鐘或每日兩次的數量。",
+    "diagnosis": {
+      "B": {
+        "gap": "把 walking break 當成 M07 條文，且加入未規定的 15 分鐘。",
+        "followup": "M07 Part 1 Option 2 是否要求 walking break，還是只要求 paid breaks away from workstation？"
+      },
+      "C": {
+        "gap": "誤把離開會議當成離開 workstation 的 restorative breaks。",
+        "followup": "M07 Workday breaks 的對象是 staff meetings，還是 all employees away from their workstation？"
+      },
+      "D": {
+        "gap": "加入未出現在 M07 的每日次數與 8 小時班表條件。",
+        "followup": "M07 Part 1 Option 2 有寫 two paid breaks in an 8-hour workday，還是只描述 paid breaks 的性質？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q16",
+    "stem": "A library in Orlando is looking to satisfy the M07: Restorative Spaces. How much space is required for a restorative space designation?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least one 10 ft x 10 ft room.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "At least 75 ft2 plus 1 ft2 per regular occupant, up to 2,000 ft2.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "At least 50 ft2 plus 3 ft2 per regular occupant, up to 3,500 ft2.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "At least 25 ft2 plus 25 ft2 per regular occupant, up to 3,500 ft2.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M07 Restorative Spaces, Part 1 Provide Restorative Space 要求 designated restorative space total 至少 75 ft² plus 1 ft² per regular occupant，最高計到 2,000 ft²。空間可為 single 或 multiple spaces，且可 indoor 或 outdoor。",
+    "diagnosis": {
+      "A": {
+        "gap": "把固定 100 ft² 房間當成公式，忽略 occupant-based area calculation。",
+        "followup": "M07 Part 1 的面積是固定 10 ft x 10 ft，還是 75 ft² 加上每位 regular occupant 1 ft²？"
+      },
+      "C": {
+        "gap": "選到相似公式但基礎面積、每人面積與上限都錯。",
+        "followup": "M07 Part 1 的 cap 是 2,000 ft² 還是 3,500 ft²？每位 regular occupant 要加多少面積？"
+      },
+      "D": {
+        "gap": "大幅誤用 per occupant 係數，將 restorative space 要求膨脹。",
+        "followup": "若每位 occupant 要加 25 ft²，會遠高於 M07 標準；原文的 per occupant 數字是多少？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q17",
+    "stem": "George is trying to satisfy Feature M08: Restorative Programming by providing restorative programming to his employees. At least two offerings are required from the following: mindfulness training course, mindfulness programming or digital mindfulness offerings. What is the cost to employees for this programming?",
+    "framework": "M09_F3",
+    "options": [
+      {
+        "key": "A",
+        "text": "No cost to all employees.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Subsidized by 75% for eligible employees.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "No cost or subsidized by at least 50% to eligible employees.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "No cost for eligible employees.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "M08 Restorative Programming, Part 1 Provide Restorative Programming 要求至少 two offerings 提供給 all eligible employees，成本須 no cost or subsidized by at least 50%。可選 offerings 包含 live mindfulness training course、weekly mindfulness programming 或 digital mindfulness offerings。",
+    "diagnosis": {
+      "A": {
+        "gap": "只記得 no cost，忽略標準允許至少 50% subsidy。",
+        "followup": "M08 Part 1 對 eligible employees 的成本要求是必須完全免費，還是可 subsidized by at least 50%？"
+      },
+      "B": {
+        "gap": "知道 subsidy 概念，但把最低補助門檻誤記成 75%。",
+        "followup": "M08 Part 1 寫的是 at least 50% subsidized；75% 是合規結果還是最低要求？"
+      },
+      "D": {
+        "gap": "漏掉 subsidized 路徑，將可選成本模式縮成免費一種。",
+        "followup": "若 project 對 eligible employees 補助 50% mindfulness programming，M08 Part 1 是否可接受？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q18",
+    "stem": "Feature M02: Nature and Place requires the integration of nature throughout the project, as well as design that celebrates the project’s unique identity and inspires human delight. Natural elements such as plants and daylight have been linked with health-promoting benefits, including:",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decreased irritation in the work space.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Improved air quality of a space.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Sense of achievement when caring for a desk plant.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Better recovery from job stress and illness.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "M02 Nature and Place, Part 1 Provide Connection to Nature 的 Issue 說明 plants and daylight 等 natural elements 與 decreased depression and anxiety、increased attentional capacity、better recovery from job stress and illness、increased pain tolerance 及 psychological well-being 有關。這些 benefits 支撐 throughout the space 的 nature integration requirement。",
+    "diagnosis": {
+      "A": {
+        "gap": "把情緒改善泛化成 irritation，未對準標準列出的 benefit。",
+        "followup": "M02 Issue 列出的 health-promoting benefits 中，有直接寫 decreased irritation，還是 better recovery from job stress and illness？"
+      },
+      "B": {
+        "gap": "把植物可能影響 air quality 的概念誤當成 M02 心理效益重點。",
+        "followup": "M02 Nature and Place 在 Mind concept 中強調 air quality，還是 stress recovery、attention 與 psychological well-being？"
+      },
+      "C": {
+        "gap": "把照顧盆栽的個人成就感當成 WELL 條文列出的研究效益。",
+        "followup": "M02 Issue 是否提到 desk plant care achievement，還是提到 natural elements 對 stress、illness recovery 的連結？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q19",
+    "stem": "In order to provide nature access indoors as required for M09: Enhanced Access to Nature, what percentage of workstations should have a direct line of sight to an indoor plant/water feature or an outdoor view of a natural area?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "25%",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "45%",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "75%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "100%",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "M09 Enhanced Access to Nature, Part 1 Provide Nature Access Indoors 要求 indoor plants、water features 或 natural area views 需 within direct line of sight of at least 75% of all workstations and seats within conference rooms, lecture halls or classrooms。此 Part 另要求距離 within 33 ft(10 m)。",
+    "diagnosis": {
+      "A": {
+        "gap": "大幅低估 M09 Part 1 的 direct line of sight 覆蓋比例。",
+        "followup": "M09 Part 1 要 at least 75% 的 workstations/seats 有自然視線；25% 是否足以代表多數 occupants？"
+      },
+      "B": {
+        "gap": "選到中間比例，但未達 M09 明確的三分之三近似門檻。",
+        "followup": "M09 Part 1 的 line of sight threshold 是 45%，還是 at least 75% of all workstations and seats？"
+      },
+      "D": {
+        "gap": "把 minimum threshold 誤加嚴為所有座位必須直接可見。",
+        "followup": "M09 Part 1 說 at least 75%，是否等於要求 100% workstations 都有 direct line of sight？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q20",
+    "stem": "In order to provide nature access indoors, what distance from an interior plant or water feature or an external natural area is required to receive the points for M09: Enhanced Access to Nature?",
+    "framework": "M09_F2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Within 33ft.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Within 50ft.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Within 75ft.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Within 82ft.",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M09 Enhanced Access to Nature, Part 1 Provide Nature Access Indoors 要求自然元素或 natural area views 位於 all workstations and seats within conference rooms, lecture halls or classrooms 的 33 ft(10 m) 內。這個 distance requirement 與 75% direct line of sight threshold 搭配使用。",
+    "diagnosis": {
+      "B": {
+        "gap": "選到較寬鬆距離，未記住 M09 的 33 ft/10 m 門檻。",
+        "followup": "M09 Part 1 同時寫 33 ft 與 10 m；50 ft 是否出現在 indoor nature access requirement？"
+      },
+      "C": {
+        "gap": "把自然可及距離放寬到標準未允許的 75 ft。",
+        "followup": "若 workstation 距離 plant 75 ft，是否仍符合 M09 Part 1 的 within 33 ft(10 m) requirement？"
+      },
+      "D": {
+        "gap": "可能混淆公制換算，將 10 m 誤換成 82 ft。",
+        "followup": "M09 Part 1 括號中的 10 m 約等於 33 ft；82 ft 對應的公制距離是否合理？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q21",
+    "stem": "Tobacco cessation is a feature in which category?",
+    "framework": "M09_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nourishment",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Air",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Mind",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Community",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "M10 Tobacco Cessation appears under the WELL Mind concept, after M09 Enhanced Access to Nature and before M11 Substance Use Services。M10 Part 1 Provide Tobacco Cessation Resources and Part 2 Limit Tobacco Availability treat tobacco cessation as a Mind intervention supporting mental and behavioral health.",
+    "diagnosis": {
+      "A": {
+        "gap": "把 tobacco use 誤連到飲食營養，忽略其位於 Mind concept。",
+        "followup": "M10 Tobacco Cessation 在 WELL v2 章節順序中，是出現在 Nourishment，還是在 Mind 的 M features 之下？"
+      },
+      "B": {
+        "gap": "因煙霧暴露聯想到 Air，但此 feature 聚焦 cessation services。",
+        "followup": "Air concept 會處理 secondhand smoke exposure；M10 Part 1/2 的 cessation resources 與 tobacco availability 屬於哪個 concept？"
+      },
+      "D": {
+        "gap": "把政策與服務支援誤歸到 Community，而非 Mind 行為健康。",
+        "followup": "M11 Substance Use Services 也在 Mind；M10 Tobacco Cessation 是否與它相鄰於同一 concept？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q22",
+    "stem": "A retail building in Seattle wants to limit tobacco availability in their building. What requirements need to be met for feature M10: Tobacco Cessation?",
+    "framework": "M09_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prohibit the sale of cigarettes.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Prohibit the sale of e-cigarettes.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Add additional cancer awareness labeling to tobacco products.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Prohibit the sale of all tobacco products, including e-cigarettes.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "M10 Tobacco Cessation, Part 2 Limit Tobacco Availability applies to Retail Spaces and requires sale of tobacco products, including e-cigarettes, to be prohibited within the building site。It also requires tobacco products, including e-cigarettes, not be marketed or promoted。",
+    "diagnosis": {
+      "A": {
+        "gap": "只禁 cigarettes，漏掉 M10 明列的 all tobacco products including e-cigarettes。",
+        "followup": "M10 Part 2 的 prohibition 是只針對 cigarettes，還是涵蓋 tobacco products including e-cigarettes？"
+      },
+      "B": {
+        "gap": "只抓到 e-cigarettes，忽略其他 tobacco products 也必須禁止銷售。",
+        "followup": "若 retail space 只禁 e-cigarettes 但仍賣其他 tobacco products，是否滿足 M10 Part 2？"
+      },
+      "C": {
+        "gap": "誤以為加警示標籤可替代禁售與禁止促銷。",
+        "followup": "M10 Part 2 要求 additional cancer labeling，還是要求 no sale and no marketing/promotion within building site？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q23",
+    "stem": "The use of alcohol is a leading global risk factor, accounting for how many deaths per year?",
+    "framework": "M09_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.3 million deaths per year",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "5.8 million deaths per year",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "4.5 million deaths per year",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "1.2 million deaths per year",
+        "depth": 1
+      }
+    ],
+    "correct": "A",
+    "explanation": "M11 Substance Use Services, Issue states harmful use of alcohol is a leading global risk factor, accounting for 3.3 million deaths per year and 5.9% of all deaths。這個背景支持 Part 1 Offer Substance Use Education 與 Part 2 Provide Substance Use and Addiction Services。",
+    "diagnosis": {
+      "B": {
+        "gap": "高估 alcohol deaths，可能混入其他疾病負擔或百分比數字。",
+        "followup": "M11 Issue 同時列 deaths per year 與 5.9% of all deaths；哪個數字對應 3.3 million？"
+      },
+      "C": {
+        "gap": "選到接近但非標準文字的死亡數，未核對 M11 Issue。",
+        "followup": "M11 Substance Use Services 的 Issue 段落中，harmful use of alcohol 的 annual deaths 是 4.5 million 嗎？"
+      },
+      "D": {
+        "gap": "明顯低估 alcohol 作為 global risk factor 的死亡負擔。",
+        "followup": "若 alcohol alone 佔 5.9% of all deaths，M11 Issue 給出的 annual deaths 是否可能只有 1.2 million？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q24",
+    "stem": "Feature M11: Substance Use Services requires that a substance abuse policy is in place and clearly communicated to all regular occupants. What does this policy need to cover to fulfill the requirement of this feature?",
+    "framework": "M09_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "On-site illegal drug use.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Alcohol use and the use of legal recreational drugs on-site.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Only on-site alcohol use.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "The use of prescription medication on-site.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "M11 Substance Use Services, Part 1 Offer Substance Use Education, Option 1 Substance use policy 要求 policy regarding the use of alcohol and legal, recreational drugs on-site，且 clearly communicated to all regular occupants。條文焦點不是 prescription medication 或 illegal drug enforcement alone。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 substance use policy 解讀成 illegal drug enforcement，漏掉 alcohol/legal recreational drugs。",
+        "followup": "M11 Part 1 Option 1 的 policy 原文是 illegal drugs，還是 alcohol and legal, recreational drugs on-site？"
+      },
+      "C": {
+        "gap": "只涵蓋 alcohol，漏掉 legal recreational drugs 也在 policy 範圍。",
+        "followup": "若 policy 只寫 on-site alcohol use，是否完整符合 M11 Part 1 對 legal recreational drugs 的要求？"
+      },
+      "D": {
+        "gap": "把 prescription medication 使用誤認為此 policy 的核心範圍。",
+        "followup": "M11 Part 1 的 substance use policy 是否處理 prescription medication，或是在 education topics 中才談 prescription opioid education？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M09_Q25",
+    "stem": "Substance abuse education is part of Feature M11: Substance Use Services. This requirement provides for training to address the following topics: management of personal substance use, prescription opioid education and________?",
+    "framework": "M09_F4",
+    "options": [
+      {
+        "key": "A",
+        "text": "How to report substance abuse in coworkers.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Who to contact about substance abuse suspicions.",
+        "depth": 1
+      },
+      {
+        "key": "C",
+        "text": "How to appropriately respond to a peer struggling with substance abuse.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "How to respond to alcohol abuse.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "M11 Substance Use Services, Part 1 Offer Substance Use Education, Option 2 Substance use education 要求 annual trainings address 三個主題：management of personal substance use、prescription opioid education，以及 how to appropriately respond to a peer struggling with substance use。該主題至少涵蓋 support a peer's recovery efforts 與 relapse or emergency response。",
+    "diagnosis": {
+      "A": {
+        "gap": "把 peer support 誤讀成舉報 coworker substance abuse。",
+        "followup": "M11 Part 1 的第三項 training topic 是 reporting coworkers，還是 support a peer's recovery efforts？"
+      },
+      "B": {
+        "gap": "把教育重點縮成通報對象，漏掉如何適當回應同儕。",
+        "followup": "若只知道 contact person，是否涵蓋 M11 要求的 relapse 或 substance use emergency response？"
+      },
+      "D": {
+        "gap": "只聚焦 alcohol abuse，未涵蓋 peer struggling with broader substance use。",
+        "followup": "M11 Part 1 第三項主題是否只限 alcohol，還是涵蓋 substance use、relapse and emergency response？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]

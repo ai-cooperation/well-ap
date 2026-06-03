@@ -1,0 +1,680 @@
+{
+  "module": "M09",
+  "frameworks": [
+    {
+      "id": "M09_F1",
+      "name": "心理健康政策與服務",
+      "desc": "M01 Mental Health Promotion、M03 Mental Health Services 與 M04 Mental Health Education 透過 supportive programs、policies、resources、training 與 services 支援 mental well-being。",
+      "covers": [
+        "M01 Mental Health Promotion",
+        "M03 Mental Health Services",
+        "M04 Mental Health Education",
+        "mental well-being",
+        "mental health training"
+      ]
+    },
+    {
+      "id": "M09_F2",
+      "name": "自然、地方感與美感",
+      "desc": "M02 Nature and Place 與 M09 Enhanced Access to Nature 要把 natural environment、culture、place、art、beauty 與 access to nature 整合到專案。",
+      "covers": [
+        "M02 Nature and Place",
+        "M09 Enhanced Access to Nature",
+        "biophilia",
+        "culture",
+        "place"
+      ]
+    },
+    {
+      "id": "M09_F3",
+      "name": "壓力管理與恢復",
+      "desc": "M05 Stress Management、M06 Restorative Opportunities、M07 Restorative Spaces 與 M08 Restorative Programming 針對 stress sources、restoration、quiet zones 與 restorative programming。",
+      "covers": [
+        "M05 Stress Management",
+        "M06 Restorative Opportunities",
+        "M07 Restorative Spaces",
+        "M08 Restorative Programming",
+        "stress management"
+      ]
+    },
+    {
+      "id": "M09_F4",
+      "name": "成癮與物質使用介入",
+      "desc": "M10 Tobacco Cessation 與 M11 Substance Use Services 關注 tobacco cessation、substance abuse and addiction support services、workplace policies 與 access to resources。",
+      "covers": [
+        "M10 Tobacco Cessation",
+        "M11 Substance Use Services",
+        "tobacco cessation",
+        "substance use services",
+        "addiction support"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "M09_Q26",
+      "stem": "Alcohol and drug use contribute to the global burden of disease. What is the estimated percentage of people living with disability?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10%"
+        },
+        {
+          "key": "B",
+          "text": "18%"
+        },
+        {
+          "key": "C",
+          "text": "22%"
+        },
+        {
+          "key": "D",
+          "text": "32%"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Feature M11: Substance Use Services.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q27",
+      "stem": "Mental health conditions are common among the global population and over _____% of adults will experience a mental health condition during their lifetime?",
+      "options": [
+        {
+          "key": "A",
+          "text": "30%"
+        },
+        {
+          "key": "B",
+          "text": "25%"
+        },
+        {
+          "key": "C",
+          "text": "53%"
+        },
+        {
+          "key": "D",
+          "text": "17%"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q28",
+      "stem": "What is the intent of Feature M01: Mental Health Promotion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Screen for mental health issues before rewarding employees additional responsibility."
+        },
+        {
+          "key": "B",
+          "text": "To provide programs, policies, and resources that support and promote occupant health."
+        },
+        {
+          "key": "C",
+          "text": "To gamify activities shown to prevent mental health issues."
+        },
+        {
+          "key": "D",
+          "text": "Mandate breaks every 2 hours to maximize employee restoration."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F1"
+    },
+    {
+      "id": "M09_Q29",
+      "stem": "The United Nations Sustainable Development Goals are advancing through the WELL Building Standard. How many SDGs are a part of the 2030 Agenda for Sustainable Development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "22"
+        },
+        {
+          "key": "C",
+          "text": "17"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "https://www.wellcertified.com/...",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q30",
+      "stem": "A college is in the process of certifying its largest building and looking to complete the requirements for M01: Mental Health Promotion. What verification method is required to submit the details of this feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Professional Narrative"
+        },
+        {
+          "key": "B",
+          "text": "Technical Document"
+        },
+        {
+          "key": "C",
+          "text": "On-Site Photographs"
+        },
+        {
+          "key": "D",
+          "text": "Policy and/or Operations Schedule"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M09_F1"
+    },
+    {
+      "id": "M09_Q31",
+      "stem": "A corporate campus in Boise is applying for WELL certification of an office building. Their campus is large, but in order to receive credit for M09: Enhanced Access to Nature, regular occupants will have to walk to a nearby green space. What is the required walk distance from the project boundary in order to fulfill the requirements of this feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "within 650 ft"
+        },
+        {
+          "key": "B",
+          "text": "within 825 ft"
+        },
+        {
+          "key": "C",
+          "text": "within 250 ft"
+        },
+        {
+          "key": "D",
+          "text": "within 333 ft"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q32",
+      "stem": "Peter is working on the design of a designated restorative space for the building he manages. Peter is looking at different options to add sound to the environment. What types of sound would provide for a restorative environment according to Feature M07: Restorative Spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Running or falling water."
+        },
+        {
+          "key": "B",
+          "text": "Water features, natural sounds, or sound masking."
+        },
+        {
+          "key": "C",
+          "text": "Natural sounds only."
+        },
+        {
+          "key": "D",
+          "text": "Dampening noise from machinery, traffic, electronics, etc.."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q33",
+      "stem": "Connection to place is a precondition for Mind and part of Feature M02 Nature and Place. What must the design elements address to fulfill this requirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Narrative of building history."
+        },
+        {
+          "key": "B",
+          "text": "Pictures of famous international buildings."
+        },
+        {
+          "key": "C",
+          "text": "Celebration of culture."
+        },
+        {
+          "key": "D",
+          "text": "Pictures of local wildlife and environments."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q34",
+      "stem": "According to the WELL Building Standard Mind concept, worldwide spending on mental health is less than $2 per person. In low-and middle-income countries, what percentage of people living with mental health conditions do not receive the necessary treatment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "40 - 60%"
+        },
+        {
+          "key": "B",
+          "text": "25 - 30%"
+        },
+        {
+          "key": "C",
+          "text": "55 - 68%"
+        },
+        {
+          "key": "D",
+          "text": "76 - 85%"
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "Overview, Mind concept.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q35",
+      "stem": "What are the preconditions of the Mind concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mental Health Promotion and Nature and Place."
+        },
+        {
+          "key": "B",
+          "text": "Mental Health Services and Mental Health Education."
+        },
+        {
+          "key": "C",
+          "text": "Stress Management and Restorative Opportunities."
+        },
+        {
+          "key": "D",
+          "text": "Restorative Spaces and Restorative Programming."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q36",
+      "stem": "What is an example of an optimization in the Mind concept?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Smoke-Free Environment"
+        },
+        {
+          "key": "B",
+          "text": "Tobacco Cessation"
+        },
+        {
+          "key": "C",
+          "text": "Active Buildings and Communities"
+        },
+        {
+          "key": "D",
+          "text": "Health Services and Benefits"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q37",
+      "stem": "As an employee of a company who achieved the optimization Feature M06: Restorative Opportunities, you would receive a minimum of _____ days per year as paid time off, not including sick or paid holidays?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20"
+        },
+        {
+          "key": "B",
+          "text": "18"
+        },
+        {
+          "key": "C",
+          "text": "22"
+        },
+        {
+          "key": "D",
+          "text": "15"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q38",
+      "stem": "For a school who achieves Feature M06: Restorative Opportunities, what is the requirement for start time of students in secondary schools?",
+      "options": [
+        {
+          "key": "A",
+          "text": "No earlier than 8:00 am"
+        },
+        {
+          "key": "B",
+          "text": "No earlier than 8:30 am"
+        },
+        {
+          "key": "C",
+          "text": "No earlier than 8:45 am"
+        },
+        {
+          "key": "D",
+          "text": "No earlier than 7:45 am"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q39",
+      "stem": "An employee of your company is interested in mental health services to support recovery from a traumatic event. An in-person service may be offered if it is within _______ of the project boundary?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Within 0.25 mi (0.4 km)"
+        },
+        {
+          "key": "B",
+          "text": "Within 0.5 mi (0.8 km)"
+        },
+        {
+          "key": "C",
+          "text": "WIthin 1 mi (1.6 km)"
+        },
+        {
+          "key": "D",
+          "text": "On-site services only offered."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature M03: Mental Health Services.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q40",
+      "stem": "What natural elements have been linked with health-promoting benefits including decreased levels of depression and anxiety and increased psychological well being?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Water Features"
+        },
+        {
+          "key": "B",
+          "text": "Plants and Daylight"
+        },
+        {
+          "key": "C",
+          "text": "Natural Air Ventilation"
+        },
+        {
+          "key": "D",
+          "text": "Nature Sounds"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Feature M02: Nature and Place.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q41",
+      "stem": "Company X is supporting and promoting occupant mental health. Which of the following should be available to employees at no cost?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mental well-being Trainings and Education."
+        },
+        {
+          "key": "B",
+          "text": "A policy that establishes healthy working hours."
+        },
+        {
+          "key": "C",
+          "text": "Providing a napping room for new mothers."
+        },
+        {
+          "key": "D",
+          "text": "Providing a party room."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature M01: Mental Health Promotion.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q42",
+      "stem": "An IT company wants to create an outdoor restorative space to allow their employees to benefit from fresh air and a connection to nature. Because this will be the only restorative space for the project, how can weather affect accessibility?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The space must be open during business hours."
+        },
+        {
+          "key": "B",
+          "text": "The space may be closed during times of inclement weather."
+        },
+        {
+          "key": "C",
+          "text": "The space must be open and functional year-round."
+        },
+        {
+          "key": "D",
+          "text": "Geographic location determines open hours."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "Feature M07: Restorative Spaces.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q43",
+      "stem": "An office building that includes a customer service call center is trying to achieve WELL Certification. In order to receive credit for Part 2: Provide Nap Policy and Space of Feature M06: Restorative Opportunities, can the customer service call center schedule nap and/or rest breaks for a specific time per employee in order to ensure proper coverage in calls?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Individual companies within the building can determine company protocols."
+        },
+        {
+          "key": "B",
+          "text": "Yes, companies are able to schedule employee time freely."
+        },
+        {
+          "key": "C",
+          "text": "Employees can decide to accept specific nap or rest breaks."
+        },
+        {
+          "key": "D",
+          "text": "No, scheduling or designating specific times for the nap or rest break does not meet the feature requirement."
+        }
+      ],
+      "correct": "D",
+      "source_explanation": "",
+      "framework_hint": "M09_F3"
+    },
+    {
+      "id": "M09_Q44",
+      "stem": "Workplace stress is incredibly common globally. Highly stressed employees are at risk for a number of negative outcomes, including decreased productivity, greater absenteeism and higher overall medical expenditures. Introducing mindfulness into the workplace has been shown to lower employee stress as well as improve focus, clarity of thinking and emotional intelligence. What interventions for employees have been found to reduce work-associated stress, depression and anxiety?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Meditation"
+        },
+        {
+          "key": "B",
+          "text": "Yoga"
+        },
+        {
+          "key": "C",
+          "text": "Healthy Eating"
+        },
+        {
+          "key": "D",
+          "text": "Sound Therapy"
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "Feature M08: Restorative Programming.",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q45",
+      "stem": "Which United Nations sustainable development goals are part of Feature M01: Mental Health Promotion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "End Poverty and Life on Land"
+        },
+        {
+          "key": "B",
+          "text": "Reduced Inequalities and Good Health and Well-being"
+        },
+        {
+          "key": "C",
+          "text": "Climate Action and Reduced Inequalities"
+        },
+        {
+          "key": "D",
+          "text": "Gender Equality and Quality Education"
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F1"
+    },
+    {
+      "id": "M09_Q46",
+      "stem": "Which Mind concept features are preconditions for WELL Certification?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mental Health Services and Mental Health Education"
+        },
+        {
+          "key": "B",
+          "text": "Restorative Opportunities and Restorative Spaces"
+        },
+        {
+          "key": "C",
+          "text": "Mental Health Promotion and Nature and Place"
+        },
+        {
+          "key": "D",
+          "text": "Tobacco Cessation and Substance Use Services"
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q47",
+      "stem": "A company in Baltimore is looking to design their new office building with Feature M09: Enhanced Access to Nature in mind. How will building occupants benefit from workday nature contact?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increased anxiety."
+        },
+        {
+          "key": "B",
+          "text": "Decreased job stress."
+        },
+        {
+          "key": "C",
+          "text": "Healthy eating increases."
+        },
+        {
+          "key": "D",
+          "text": "No change is reported from workday nature contact."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q48",
+      "stem": "A manufacturing company in Boise is looking at ways to promote mental health and well-being for its employees. Part 1: Promote Mental Health and Well-being of Feature MO1: Mental Health Promotion requires annual communication to all regular occupants as well as new employees. What should be part of this communication?",
+      "options": [
+        {
+          "key": "A",
+          "text": "General health insurance benefit information."
+        },
+        {
+          "key": "B",
+          "text": "Specific information about dental and vision insurance."
+        },
+        {
+          "key": "C",
+          "text": "Mental health and well-being benefits offered by the organization."
+        },
+        {
+          "key": "D",
+          "text": "All third-party mental health resources."
+        }
+      ],
+      "correct": "C",
+      "source_explanation": "",
+      "framework_hint": ""
+    },
+    {
+      "id": "M09_Q49",
+      "stem": "There is evidence to support that buildings can support occupants by decreasing stress and mental fatigue with connection to nature strategies. In Feature M02: Nature and Place, what are the three pathways that can allow occupants to benefit from access to nature in their spaces?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Direct, indirect and representational."
+        },
+        {
+          "key": "B",
+          "text": "Sunshine, plants and paintings."
+        },
+        {
+          "key": "C",
+          "text": "Windows, fountains and textiles."
+        },
+        {
+          "key": "D",
+          "text": "Textiles, sunshine and water."
+        }
+      ],
+      "correct": "A",
+      "source_explanation": "",
+      "framework_hint": "M09_F2"
+    },
+    {
+      "id": "M09_Q50",
+      "stem": "When focusing on human health, the built environment is a powerful tool that can help to mitigate adverse mental health outcomes. What steps should be looked at for these mitigation tools?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Through meetings, and stakeholder buy in."
+        },
+        {
+          "key": "B",
+          "text": "Through policies, programs and designs."
+        },
+        {
+          "key": "C",
+          "text": "Through features and the overall standard."
+        },
+        {
+          "key": "D",
+          "text": "Through consistency and openness."
+        }
+      ],
+      "correct": "B",
+      "source_explanation": "Mind concept overview.",
+      "framework_hint": ""
+    }
+  ]
+}

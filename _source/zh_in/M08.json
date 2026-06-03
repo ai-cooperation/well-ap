@@ -1,0 +1,210 @@
+{
+  "module": "M08",
+  "name": "材料 Materials",
+  "features": [
+    {
+      "code": "X01",
+      "name": "Material Restrictions",
+      "type": "precondition",
+      "intent": "To reduce or eliminate human exposure to building materials known to be hazardous.",
+      "summary": "This WELL feature restricts widely known hazardous ingredients in newly installed building materials, specifically asbestos, mercury and lead.",
+      "parts": [
+        {
+          "title": "Part 1 Restrict Asbestos",
+          "body": "For All Spaces: For newly installed or applied products within the project boundary, the following requirement is met:    a. The following product categories do not contain over 1,000 ppm of asbestos by weight or area:           1. Thermal protection, including all insulation (lagging) applied to pipes, fittings, boilers, tanks and ducts.           2. Acoustic treatments.           3. Sheathing.           4. Roofing and siding.           5. Fire and smoke protection.           6. Joint protection.           7. Plaster and gypsum board.           8. Ceilings.           9. Resilient flooring.   WELL Core Guidance: Meet these requirements for the extent of developer buildout."
+        },
+        {
+          "title": "Part 2 Restrict Mercury",
+          "body": "For All Spaces: The following requirements are met:    a. Newly installed fluorescent and sodium lamps, if present, meet one of the following:           1. RoHS restrictions.4           2. The following specifications:5                                Fluorescent Lamp                                     Maximum Mercury Content                            Compact, integral ballast                                         3.5 mg                          Compact, no-integral ballast                                        3.5 mg                                    T-5, circular                                              9 mg                                     T-5, linear                          "
+        },
+        {
+          "title": "Part 3 Restrict Lead",
+          "body": "For All Spaces: Option 1: Paints and electronics The following requirements are met:    a. Newly installed fire alarms, meters, sensors, relays, thermostats and load break switches meet one of the       following:           1. RoHS restrictions.4           2. Products contain no more than 0.01% (100 ppm) of lead by weight.    b. Newly installed paints applied as finishes within the project boundary meet at least one of the following criteria:           1. Paints have a lead concentration of 100 ppm (0.01%) by weight or below.           2. Paints have no added lead carbonates and lead sulfates.           3. Paints are deemed free of lead or with no added lead by an ISO 14024-compliant (Type 1"
+        }
+      ]
+    },
+    {
+      "code": "X02",
+      "name": "Interior Hazardous Materials Management",
+      "type": "precondition",
+      "intent": "Manage risks of human exposure to hazardous materials ubiquitously used in past construction practices.",
+      "summary": "This WELL feature requires the application of practices to manage exposure risks of the hazardous building materials asbestos, lead and polychlorinated biphenyls (PCBs).",
+      "parts": [
+        {
+          "title": "Part 1 Manage Asbestos Hazards",
+          "body": "For All Spaces: Option 1: Asbestos risk assessment For existing buildings constructed or last renovated before the enactment of laws banning the installation of asbestos- containing materials, and for buildings located where there is no local asbestos phase-out regulation, one of the following requirements is met:    a. Project for which all asbestos has been removed in a prior renovation demonstrates that occupancy of the space       is legally allowed.    b. An investigation of the project space is conducted by an inspector certified under local regulation or a qualified       professional with demonstrable experience where no local regulations apply. The investigation must provide the    "
+        },
+        {
+          "title": "Part 2 Manage Lead Paint Hazards",
+          "body": "For All Spaces: Option 1: Identify lead paint hazards For existing buildings constructed or renovated before the enactment of laws banning lead-containing paints for use in interior walls, one of the following requirements is met:    a. If local laws mandate full removal of lead paint before occupancy of the space, project demonstrates that risk       has been addressed by providing relevant legal documentation, such as approved certificates of occupancy or       remediation reports submitted to relevant authorities.    b. An on-site investigation of the space to determine the presence of any lead-based hazards in paint, dust and       soil is conducted. The investigation must be performed b"
+        },
+        {
+          "title": "Part 3 Manage Polychlorinated Biphenyl (PCB) Hazards",
+          "body": "For All Spaces: For buildings constructed or last renovated before the institution of any applicable laws banning or restricting PCBs, or buildings undergoing renovation work that disturbs (i.e., partially or fully removing) materials likely to contain PCBs such as caulking, fluorescent light ballasts and capacitors of appliances fabricated before 1980, the following requirements are met:    a. An inspection strategy for assessing PCB-related risks is implemented and contains the following:           1. Determination of locations where materials potentially containing PCBs may be disturbed.           2. If caulk is to be disturbed or removed, analysis of the presumably PCB-containing materia"
+        }
+      ]
+    },
+    {
+      "code": "X03",
+      "name": "Cca And Lead Management",
+      "type": "precondition",
+      "intent": "Mitigate risks of human exposure to chromate copper arsenate (CCA) and lead.",
+      "summary": "This WELL feature requires addressing risks associated with human exposure to chromate copper arsenate (CCA) in existing wood structures and lead in soil, playground equipment and artificial turf.",
+      "parts": [
+        {
+          "title": "Part 1 Manage Exterior CCA Hazards",
+          "body": "For All Spaces: For all existing wood structures installed before the enactment of laws banning chromated copper arsenate (CCA) which lie outside the building envelope but within the project boundary where human presence is expected (e.g., wooden decks, fences near walkways, playgrounds and outdoor furniture), the following requirements are met:    a. Identify CCA-containing wood through one of the following:           1. Inspection of purchase records.           2. Determination of whether legal bans for CCA apply.           3. Testing for the presence of arsenic in the wood or the soil bearing the wooden structures.    b. Address CCA-containing woods through one of the following:          "
+        },
+        {
+          "title": "Part 2 Manage Lead Hazards",
+          "body": "For All Spaces: The project addresses lead hazards through the following:    a. The top 0.6 in(1.5 cm) layer in all existing outdoor bare soil (outside the building envelope, post-construction,       not covered by grass, vegetation or other landscaping including mulch covered soil) is tested for lead. Each       continuous area of bare soil is sampled at least once. If the lead concentration of any sample surpasses 400 ppm       by weight,8 then the following is performed:           1. A second set of samples is taken at 6 in(15 cm), 12 in(30 cm), 18 in(45 cm) and 24 in(60 cm) deep.9           2. If these samples are above 400 ppm by weight, soil is replaced with soil from another source to"
+        }
+      ]
+    },
+    {
+      "code": "X04",
+      "name": "Site Remediation",
+      "type": "optimization",
+      "intent": "Promote the safer development of potentially contaminated sites by assessing and mitigating hazards.",
+      "summary": "This WELL feature requires site assessment, testing and remediation for the development of contaminated sites.",
+      "parts": [
+        {
+          "title": "Part 1 Assess and Mitigate Site Hazards",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Environmental site assessment For project sites used for past or present industrial activities (e.g. hazardous waste storage, fuel station, manufacturing plant, on-site dry cleaners, automotive repair or brownfields), the following is completed:    a. Assessment of potential contamination in soil or underground water from past uses or surrounding conditions       using one of the following:           1. Local applicable regulation for environmental site assessments.           2. Guidelines provided in the standard ASTM E1527-05 (Phase I site assessments). Option 2: Monitoring and remediation plan If the site investigation e"
+        }
+      ]
+    },
+    {
+      "code": "X05",
+      "name": "Enhanced Material Restrictions",
+      "type": "optimization",
+      "intent": "Minimize the exposure to certain chemicals by limiting their presence in products.",
+      "summary": "This WELL feature requires restricting chemicals found in products commonly installed in buildings.",
+      "parts": [
+        {
+          "title": "Part 1 Select Compliant Interior Furnishings",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Furniture, millwork and fixtures At least 50% by cost of newly installed furniture, millwork and fixtures (minimum 10 distinct products), as defined in Appendix X1, meet one of the following requirements:    a. Textiles (i.e., fabrics including upholstery) and plastics in products contain 100 ppm (0.01%) by weight or less of       the below compounds and chemical classes, unless higher amounts are mandated by local codes. For assessing       compliance of a product, all pieces of each of the two material categories (textiles, plastics) are grouped together       and each material category is assessed independently against t"
+        },
+        {
+          "title": "Part 2 Select Compliant Architectural and Interior Products",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: At least 50% by cost of newly installed products under the classes listed below, as defined by Appendix X1 (minimum 10 distinct products), meet the following requirements, unless higher amounts are mandated by local code:    a. Flooring products contain 100 ppm (0.01%) by weight or less of the following:           1. Halogenated flame retardants (HFR).           2. Per- and polyfluoroalkyl substances (PFAS).           3. Orthophthalates.    b. Insulation products, including thermal and acoustic insulation in walls, ceilings, ducts, tubes and pipes, contain       100 ppm (0.01%) by weight or less of halogenated flame retardants (HFR)."
+        }
+      ]
+    },
+    {
+      "code": "X06",
+      "name": "Voc Restrictions",
+      "type": "optimization",
+      "intent": "Minimize the impact of volatile organic compounds (VOCs) emitted by products on indoor air quality.",
+      "summary": "This WELL feature requires adherence to emission thresholds for materials placed inside the building envelope.",
+      "parts": [
+        {
+          "title": "Part 1 Limit VOCs from Wet-Applied Products",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt For All Spaces: Newly installed interior wet-applied paints, coatings, adhesives, sealants and finished poured floorings used inside the building envelope (minimum 10 distinct products or applied to at least 10% of project area) meet the following:    a. All products are tested by a third-party laboratory to meet testing methods and thresholds established in one of       the following standards and/or regulations for VOC content:           1. SCAQMD Rule 1168 (Adhesives and Sealants, 2017).           2. GB 33372-2020 (Adhesives).           3. 2019 CARB SCM for Architectural Coatings.7           4. EU Ecolabel for indoor and outdoor paints and varnis"
+        },
+        {
+          "title": "Part 2 Restrict VOC Emissions from Furniture, Architectural and Interior Products",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt For All Spaces: Products within one or more categories and corresponding thresholds in Table 1 meet one of the following compliance requirements, earning points as shown in Table 2:Table 1:  Product Category (from Appendix X1)                                                Threshold for Compliance   Flooring                                                                          90% of cost or surface area   Furniture, millwork and fixtures                                                  75% by cost   Insulation, ceiling and wall panels                                               75% by cost or surface area Table 2:                              "
+        }
+      ]
+    },
+    {
+      "code": "X07",
+      "name": "Materials Transparency",
+      "type": "optimization",
+      "intent": "Promote material transparency across building material and product supply chain.",
+      "summary": "This WELL feature requires the compilation and availability of product descriptions, with ingredients evaluated and disclosed through transparency programs.",
+      "parts": [
+        {
+          "title": "Part 1 Select Products with Disclosed Ingredients",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: For at least 50% by count or 25 distinct, permanently installed products (including flooring, insulation, wet-applied products, ceiling and wall assemblies and systems) and furniture, ingredients are disclosed by the manufacturer, a disclosure organization or a third party through one of the following:    a. A Declare label, operated by the International Living Future Institute.3    b. A Health Product Declaration (HPD) published in the HPD Public Repository, operated by the Health Product       Declaration Collaborative.4    c. A Cradle-to-Cradle Certified™ product with a Gold or Platinum level in the Material Health Category, or a "
+        },
+        {
+          "title": "Part 2 Select Products with Enhanced Ingredient Disclosure",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: For at least 15 distinct permanently installed products (including flooring, insulation, wet-applied products, ceiling and wall assemblies and systems) and furniture, the following requirements are met:    a. All ingredients are disclosed down to 100 ppm.    b. All ingredients are publicly disclosed by the manufacturer, a disclosure organization or a third party through one       of the following:           1. A Declare label, operated by the International Living Future Institute.3           2. A Health Product Declaration (HPD) published on the HPD repository.4           3. Manufacturer’s disclosure and/or through a third-party mate"
+        },
+        {
+          "title": "Part 3 Select Products with Third-Party Verified Ingredients",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: For at least 15 distinct permanently installed products (including flooring, insulation, wet-applied products, ceiling and wall assemblies and systems) and furniture, the following requirements are met:    a. All ingredients are disclosed through one of the following:           1. A Declare label, operated by the International Living Future Institute.3           2. A Health Product Declaration (HPD) published in the HPD Public Repository, operated by the Health              Product Declaration Collaborative.4           3. A Cradle-to-Cradle Certified™ product with a Gold or Platinum level in the Material Health Category, or a        "
+        }
+      ]
+    },
+    {
+      "code": "X08",
+      "name": "Materials Optimization",
+      "type": "optimization",
+      "intent": "Promote the selection of products that have been audited to minimize impacts on human and environmental health.",
+      "summary": "This WELL feature requires screening and labeling of products in accordance with programs that audit and restrict the use of hazardous ingredient contents in materials and products.",
+      "parts": [
+        {
+          "title": "Part 1 Select Materials with Enhanced Chemical Restrictions",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Materials selection For at least 25 distinct permanently installed products (including flooring, insulation, wet-applied products, ceiling and wall assemblies and systems) and furniture, the following requirements are met:    a. Have ingredients inventoried to 100 ppm.    b. Meet one of the following:           1. Product is free of compounds listed in the Living Building Challenge’s Red List v.4.0.3           2. Product meets the chemical thresholds in the Cradle to Cradle Basic Level Restricted Substances List,              version 4. 4           3. Product does not contain compounds listed in REACH Restriction, Authoriza"
+        },
+        {
+          "title": "Part 2 Select Optimized Products",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: At least 15 distinct products (furniture, flooring, insulation, wet-applied products, ceiling and wall assemblies and systems), as defined in Appendix X1, are certified under one of the following programs:    a. Cradle to Cradle Certified™ products with a Silver, Gold or Platinum level in the Material Health category or       products with a Silver, Gold or Platinum level Material Health Certificate from the Cradle to Cradle Products       Innovation Institute.6    b. Living Product Challenge, Materials and Health & Happiness Petals or Living Product Certification, operated by       the International Living Future Institute.7   WELL "
+        }
+      ]
+    },
+    {
+      "code": "X09",
+      "name": "Waste Management",
+      "type": "optimization",
+      "intent": "Mitigate environmental contamination and associated exposure to hazards present in certain wastes.",
+      "summary": "This WELL feature requires the safe management and minimization of wastes associated with hazardous chemicals present in commonly used products.",
+      "parts": [
+        {
+          "title": "Part 1 Implement a Waste Management Plan",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: For all batteries, pesticides, lamps that may contain mercury, other mercury-containing equipment (including thermostats and thermometers),5 and electrical and electronic equipment6 present or expected to be present within the project during the building operations, a waste management plan that contains the following is developed and implemented:    a. Identification of roles, responsibilities and vendors for implementing the plan.7    b. Identification of the sources of waste, estimation of rates of generation and strategies to minimize waste       generation.7    c. Strategies for waste collection. Each of the categorized wastes is"
+        }
+      ]
+    },
+    {
+      "code": "X10",
+      "name": "Pest Management And Pesticide Use",
+      "type": "optimization",
+      "intent": "Reduce the presence of pests in buildings primarily through integrated pest management (IPM) principles, favoring non-toxic pest control and the use of pesticides less hazardous to humans.",
+      "summary": "This WELL feature requires using IPM for pest control to reduce the application of pesticides and, when necessary, select low-hazard pesticides accompanied by signage detailing pesticide information at the site of application.",
+      "parts": [
+        {
+          "title": "Part 1 Manage Pests",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: A management plan for pest control based on integrated pest management (IPM) principles is implemented for all indoor and outdoor spaces, addressing the following:    a. Plan contains the following elements:5-7           1. List of roles and responsibilities for the program development, implementation, maintenance and              education.           2. Pest management objectives, including protocols for identification of pests and metrics of progress.           3. Design and operational measures to prevent conditions that may attract pests.           4. Pest tolerance thresholds and control strategies (including methods and respons"
+        }
+      ]
+    },
+    {
+      "code": "X11",
+      "name": "Cleaning Products And Protocols",
+      "type": "optimization",
+      "intent": "Provide cleaning effectiveness by selecting less hazardous products and establishing adequate cleaning protocols and practices.",
+      "summary": "This WELL feature requires the restriction of hazardous or harmful ingredients in cleaning, disinfection and sanitization products, as well as the establishment of a cleaning plan, the maintenance of a cleaning schedule and a program training for staff.",
+      "parts": [
+        {
+          "title": "Part 1 Improve Cleaning Practices",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: The project develops and implements a cleaning plan that meets the following requirements:    a. Details the following:11           1. Extent and frequency of cleaning.           2. Cleaning responsibilities of building occupants and cleaning staff.           3. Cleaning supplies available to building occupants and where they can be accessed.           4. Process to evaluate and document adherence to the cleaning plan.    b. Identifies the following:           1. Surfaces that require disinfection (e.g., high-touch surfaces).           2. Frequency and/or other thresholds (e.g., number of hours, number users of a space, results fro"
+        },
+        {
+          "title": "Part 2 Select Preferred Cleaning Products",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: All cleaning, disinfection and sanitization products are specified in the cleaning plan and meet one of the following requirements:    a. Products are labeled as ‘low-hazard’ or ‘safer’ by an ISO Reference,14 or by a third-party certification recognized       by the local government where the project is located. Hazard criteria must be specific for the product classes       within the scope of this feature.    b. The Safety Data Sheet (SDS) of each product discloses ingredients per EU Regulation 2015/83015 (CLP) or       California State Bill No. 25816 and no ingredients listed in Section 3 of the SDS are classified as Category 1, "
+        }
+      ]
+    },
+    {
+      "code": "X12",
+      "name": "Contact Reduction",
+      "type": "optimization",
+      "intent": "Implement strategies to reduce human contact with respiratory particles and surfaces that may carry pathogens.",
+      "summary": "This WELL feature requires projects to implement design and policy strategies to minimize some instances of contact with contaminated respiratory particles, as well as reduce the number of surfaces that are necessary to touch.",
+      "parts": [
+        {
+          "title": "Part 1 Reduce Respiratory Particle Exposure",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces except Dwelling Units: The following requirements are implemented during periods when higher incidence of respiratory disease is likely:    a. At least one of the following distancing strategies:           1. Queuing marks to increase distance between people while waiting in line (e.g., in elevator lobbies, at              check-out counters) and while using moving sidewalks and escalators, as applicable.           2. Screens, protective furnishings or other engineering controls to reduce particle exchange at security              check-ins, reception areas, check-out counters and other places with frequent interaction between        "
+        },
+        {
+          "title": "Part 2 Address Surface Hand Touch",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces except Dwelling Units: Option 1: Surface touch management The following requirements are met:    a. Project offers hands-free operation (through foot, voice, sensor or personal electronic device) or implements       other design strategies to avoid hand operation for at least three of the following:           1. Regularly used pedestrian entry doors to the project, during regularly occupied hours.           2. Elevators.           3. All water bottle fillers, water faucets, soap and paper towel dispensers.           4. Window blinds and indoor lighting switches and/or controllers.           5. Lids of trash, recycling and reuse bins. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "module": "M10",
+  "name": "社區 Community",
+  "features": [
+    {
+      "code": "C01",
+      "name": "Health And Wellness Promotion",
+      "type": "precondition",
+      "intent": "Promote a deeper occupant understanding of the WELL features pursued by the project and of how building design, operations and policies impact health and well-being.",
+      "summary": "This WELL feature requires projects to provide a guide to occupants that highlights the WELL features pursued by the project, the relationship between health and buildings and available health resources and programs.",
+      "parts": [
+        {
+          "title": "Part 1 Provide WELL Feature Guide",
+          "body": "For All Spaces: Option 1: WELL feature guide A physical or digital WELL feature guide is prominently displayed and/or made widely available to all occupants, meeting the following requirements:    a. Describes the WELL features achieved by the project.    b. Explains how the WELL features achieved by the project impact occupant health, well-being and comfort and       support the project’s health-oriented mission in Part 2: Provide Health-Oriented Mission in Feature C02:       Integrative Design. Option 2: Communications The following requirement is met:    a. Quarterly communications (e.g., emails, modules, trainings) are sent to regular occupants, and onboarding       communications are gi"
+        }
+      ]
+    },
+    {
+      "code": "C02",
+      "name": "Integrative Design",
+      "type": "precondition",
+      "intent": "Facilitate a collaborative project process and support adherence to collective wellness and sustainability goals.",
+      "summary": "This WELL feature requires project teams to facilitate an inclusive and collaborative planning and orientation process and to establish a health-oriented project mission.",
+      "parts": [
+        {
+          "title": "Part 1 Facilitate Stakeholder Charrette",
+          "body": "For All Spaces: Option 1: Stakeholder charrette Early in the planning process, projects facilitate collaborative discussion with key stakeholders, including (as applicable): the owner, manager, facilities management team, architects, engineers, employees, occupants, residents, contractors and community members. The stakeholder discussion must address at minimum the following topics:    a. Health and well-being goals, including:           1. Occupant health and well-being needs.           2. The project’s objectives for health promotion to meet stakeholder needs.    b. Environmental and sustainability goals, including how the project will:           1. Reduce the project’s contribution to glo"
+        },
+        {
+          "title": "Part 2 Promote Health-Oriented Mission",
+          "body": "For All Spaces: The project establishes a health-oriented mission that meets the following requirements:    a. Outlines the project’s objectives for health promotion.5    b. Connects supporting and improving occupant health to the organizational objectives or mission statement.5    c. Incorporates relevant project goals or strategies established during the stakeholder charrette.    d. Incorporates the ten WELL concepts: Air, Water, Nourishment, Light, Movement, Thermal Comfort, Sound,       Materials, Mind and Community.    e. Health-oriented mission is made available to all occupants and is detailed in the WELL Feature Guide established       in Part 1: Provide WELL Feature Guide in Feature"
+        }
+      ]
+    },
+    {
+      "code": "C03",
+      "name": "Emergency Preparedness",
+      "type": "precondition",
+      "intent": "Enable organizations, families and individuals to prepare and respond to diverse emergency situations.",
+      "summary": "This WELL feature requires projects to undertake a risk assessment, create an emergency management plan for natural, human-caused, technological and health-related emergencies and educate occupants on the plan to support emergency preparedness and response.",
+      "parts": [
+        {
+          "title": "Part 1 Develop Emergency Preparedness Plan",
+          "body": "For All Spaces: The following requirements are met:    a. A risk assessment is undertaken to address at minimum the following:           1. Identify project assets (e.g., employees, facilities).           2. Establish a pathway for occupants or groups who may be more vulnerable (e.g., older adults, people with              disabilities, pregnant women, children) to confidentially identify specific needs they may have during an              emergency.13           3. Evaluate potential impacts of relevant hazards and identify high-risk hazards.           4. Determine emergency management planning priorities.    b. An emergency management plan is in place outlining response in the case of emerg"
+        }
+      ]
+    },
+    {
+      "code": "C04",
+      "name": "Occupant Survey",
+      "type": "precondition",
+      "intent": "Evaluate the experience and self-reported health and well-being of building users through occupant surveys.",
+      "summary": "This WELL feature requires projects to collect feedback from building users through third-party or custom surveys on their health, well-being and satisfaction with their environment, particularly on topics related to WELL strategies.",
+      "parts": [
+        {
+          "title": "Part 1 Select Project Survey",
+          "body": "For All Spaces: Option 1: Third-party survey For projects with ten or more eligible employees, the following requirement is met:    a. A survey is selected from one of the following pre-approved survey providers. More details may be found on       IWBI's website (Reference).           1. Occupant Indoor Environmental Quality (IEQ) SurveyTM from the Center for Built Environment at UC              Berkeley.           2. Building Evaluation Survey Use Studies (BUS) Wellbeing Survey.           3. Sustainable and Healthy Environments (SHE) survey from the University of Melbourne.           4. Space Performance Evaluation Questionnaire (SPEQ), High Performance Environments Lab (HiPE),             "
+        },
+        {
+          "title": "Part 2 Administer Survey and Report Results",
+          "body": "For All Spaces: Option 1: Survey administration The following requirements are met:    a. All eligible employees are invited to participate in the survey annually. Regular reminders are sent to eligible       employees to complete the survey.    b. Survey protects all participant-identifying data through appropriate protective measures such as anonymous       reporting and safe data storage. Any communication of results should be on an aggregated basis, such that no       participant can be identified.    c. Analysis of responses is conducted by a qualified survey professional. Option 2: Result reporting Annually, the project submits the following through the WELL digital platform:    a. Pro"
+        }
+      ]
+    },
+    {
+      "code": "C05",
+      "name": "Enhanced Occupant Survey",
+      "type": "optimization",
+      "intent": "Build on minimum occupant survey requirements with enhanced and customized questions to comprehensively evaluate and respond to the experience and self-reported health and well-being of building users.",
+      "summary": "This WELL feature requires projects to build on minimum occupant survey requirements by collecting and responding to more in-depth and customized information from building users on their health, well-being and satisfaction with their environment including topics related to WELL strategies, both before and during occupancy.",
+      "parts": [
+        {
+          "title": "Part 1 Utilize Enhanced Survey",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For Office Spaces: Option 1: Enhanced survey administration For projects with ten or more eligible employees, the following requirements are met:    a. Meet Feature C04 Part 1 using Option 1.    b. Address at least one of the topics listed in Appendix C2 through at minimum three additional survey questions by       working with one of the parties listed below. More details may be found on IWBI's website (Reference).           1. The pre-approved survey provider selected in Feature C04 Part 1.           2. BeWellLeadWell.           3. OHFB-Afriforte.           4. The Thrive XM Index. Option 2: Result analysis and reporting The project meets the fol"
+        },
+        {
+          "title": "Part 2 Utilize Pre- and Post-Occupancy Survey",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Pre-occupancy survey administration The project meets the following requirement:    a. Administer a pre-occupancy survey using one of the following pre-approved survey providers and utilize the       same provider in the post-occupancy survey in Feature C04 Part 1:           1. Occupant Indoor Environmental Quality (IEQ) SurveyTM from the Center for Built Environment at UC              Berkeley.           2. Building Evaluation Survey Use Studies (BUS) Wellbeing Survey.           3. Sustainable and Healthy Environments (SHE) survey from the University of Sydney.           4. Space Performance Evaluation Questionnaire (SPE"
+        },
+        {
+          "title": "Part 3 Implement Action Plan",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: The project creates and implements a plan that addresses the following:    a. Aspirational satisfaction thresholds for post-occupancy survey responses.    b. Strategies for improving unmet satisfaction thresholds.   WELL Core Guidance: Meet these requirements for direct staff."
+        },
+        {
+          "title": "Part 4 Facilitate Interviews, Focus Groups and/or Observation",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Administration of interviews, focus groups and/or observation The project annually conducts stakeholder interviews, focus groups and/or observation to discuss building features and wellness initiatives and their impacts on occupant health and well-being, meeting the following requirements:    a. Interviews, focus groups and/or observation are conducted by a professional experienced in qualitative research.    b. Interviews, focus groups and/or observation protect participant identities.    c. A professional experienced in qualitative research analyzes interview, focus group and/or observation results. Option 2: Result ana"
+        }
+      ]
+    },
+    {
+      "code": "C06",
+      "name": "Health Services And Benefits",
+      "type": "optimization",
+      "intent": "Support the overall health and well-being of individuals and their families by offering comprehensive health benefits, policies and services.",
+      "summary": "This WELL feature requires projects to provide access to essential and on-demand health services, paid sick leave and seasonal influenza (flu) immunizations.",
+      "parts": [
+        {
+          "title": "Part 1 Promote Health Benefits",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Health benefits plan The following requirements are met:    a. A health benefits plan is available to all eligible employees and their designated dependents (e.g., spouse,       domestic partner, child, parent, parent-in-law, grandparent, grandchild, sibling) at no cost or subsidized that       includes the following services:           1. Medical care.           2. Dental care.           3. Vision care.           4. Mental health and substance use services.           5. Sexual and reproductive health services, including obstetrics and gynecology (OB-GYN) services and              sexually transmitted infection (STI) testin"
+        },
+        {
+          "title": "Part 2 Offer On-Demand Health Services",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Health services are provided for all eligible employees at no cost or subsidized, on-site, in-person within 0.25 mi(400 m) of the project boundary or through a telemedicine provider or digital health platform, and meet the following requirements:    a. Experienced and qualified healthcare providers (e.g., physician, nurse practitioner, physician assistant) are       available to provide confidential medical treatment for episodic, recurrent, urgent or other illnesses before,       during and/or after regular business hours.    b. A scheduling system allows for drop-ins and/or appointment booking. If services are only available duri"
+        },
+        {
+          "title": "Part 3 Offer Sick Leave",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Short-term sick leave Employers provide a short-term sick leave policy for all eligible employees, distinct from paid time off and family leave, that includes the following:    a. At least 10 days of sick leave are paid at 50% or higher of the employee’s full salary or wages, offered through a       flat rate or annual accrual, during any 12-month period for an acute, chronic or serious health condition.    b. Statement that discourages employees from coming into work when they feel sick, and from doing work while       on sick leave.22    c. Does not require a note from a medical professional or advance notice to gain ap"
+        }
+      ]
+    },
+    {
+      "code": "C07",
+      "name": "Enhanced Health And Wellness Promotion",
+      "type": "optimization",
+      "intent": "Cultivate a culture that prioritizes and promotes the health and well-being of all individuals.",
+      "summary": "This WELL feature requires projects to cultivate a culture of health through communications, health promotion programs and executive-level leadership.",
+      "parts": [
+        {
+          "title": "Part 1 Promote Culture of Health",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Health promotion strategies Occupant health and well-being is promoted through the following:    a. Monthly digital communications to employees and/or regular occupants (as applicable) that address the       following:           1. Reinforce the project’s culture of health.           2. Market health promotion policies and programs.           3. Highlight stories from regular occupants (as applicable) who exemplify the project’s health culture.           4. Offer education (e.g., tips and resources created by the project or a third party) on at least two topics              within the ten WELL concepts.9    b. Quarterly e"
+        },
+        {
+          "title": "Part 2 Establish Health Promotion Leader",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: The following requirements are met:    a. Project has at least one dedicated executive-level employee whose primary responsibility is to plan and oversee       strategies that promote the physical, mental and emotional health and well-being of all employees (e.g., Chief       Wellness Officer). The individual must be employed at the executive (C-Suite) level or report directly to a       member of the executive (C-Suite) team.    b. Executive-level employee’s job description and performance expectations must include the following:           1. Established metrics or KPIs for promoting organizational health and well-being that are l"
+        }
+      ]
+    },
+    {
+      "code": "C08",
+      "name": "New Parent Support",
+      "type": "optimization",
+      "intent": "Provide support for new parents to properly care for themselves and their children.",
+      "summary": "This WELL feature requires paid parental leave for primary and non-primary caregivers and supportive resources for parents returning to work.",
+      "parts": [
+        {
+          "title": "Part 1 Offer New Parent Leave",
+          "body": "WELL Certification: 3 Pt | WELL Core: 1.5 Pt For All Spaces: Option 1: Parental leave The project provides a policy for all eligible employees that meets the following requirements:    a. At least 40 weeks of parental leave are offered to the designated primary caregiver and/or the birthing parent       during any 12-month period to use non-consecutively during pregnancy or within the first three years of a       child’s life.4,15    b. At least some portion of the primary caregiver’s and/or the birthing parent’s parental leave is paid per the table       below. Paid parental leave is offered to the designated primary caregiver during any 12-month period during       pregnancy, after birth o"
+        }
+      ]
+    },
+    {
+      "code": "C09",
+      "name": "New Mother Support",
+      "type": "optimization",
+      "intent": "Provide spaces and policies that encourage and support breastfeeding.",
+      "summary": "This WELL feature requires the provision of dedicated lactation rooms with supportive amenities, as well as paid break times, travel accommodations and resources to help mothers initiate and sustain breastfeeding.",
+      "parts": [
+        {
+          "title": "Part 1 Offer Workplace Breastfeeding Support",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Option 1: Pumping support The following are in place for eligible employees:    a. Paid break times for pumping, at least 15-20 minutes every 2-3 hours (or 2-3 pumping sessions per eight-hour       workday), with adjustments as necessary to meet the needs of individuals.12    b. One-time coverage or a subsidy of at least 50% for the purchase of a portable breast pump and/or availability of       hospital-grade electric pump for multiple users.13    c. Postpartum lactation counseling, including back-to-work lactation counseling, offered at no cost or subsidized       by at least 50%, to support the transition from leave to work.13 O"
+        },
+        {
+          "title": "Part 2 Design Lactation Room",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: The project provides at least one dedicated lactation room for employees that meets the following requirements:    a. Is at least 7 ft x 7 ft(2.1 m × 2.1 m).12    b. Includes at minimum the following:                                                            12           1. Work surface and comfortable chair. 12           2. At least two electrical outlets.12           3. User-operated lock with occupancy indicator (e.g., signage).12           4. System in place for room booking (designed in consideration of occupant privacy, such as a number system              instead of occupant name).12,13           5. Access to sink, faucet, pa"
+        }
+      ]
+    },
+    {
+      "code": "C10",
+      "name": "Family Support",
+      "type": "optimization",
+      "intent": "Support working parents and caregivers so that they are able to properly care for members of their family.",
+      "summary": "This WELL feature requires projects to offer policies and programs that facilitate childcare and family leave.",
+      "parts": [
+        {
+          "title": "Part 1 Offer Childcare Support",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: The project provides at least three of the following:    a. On-site childcare centers compliant with local childcare licensure, or subsidies of at least 50% for off-site or at-       home childcare, for regular occupants.9    b. Back-up childcare coverage for regular occupants in case of unexpected events, at no cost or subsidized by at       least 50% (e.g., drop-in daycare, overnight childcare, in-home babysitting service, virtual childcare service).10    c. Seasonal childcare programs (e.g., center- or home-based care during school break or winter holidays) for       regular occupants with school-age children.10    d. Policy all"
+        },
+        {
+          "title": "Part 2 Offer Family Leave",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Employers provide the following for all eligible employees:    a. At least 12 weeks of leave, paid at 75% or higher of the employee’s full salary or wages, during any 12-month       period for the care of a spouse, domestic partner, child, dependent, parent, parent-in-law, grandparent,       grandchild, sibling or other designated relation with a chronic or long-term serious health condition, including       an illness, injury, impairment or physical or mental health condition, that involves one of the following:           1. Inpatient care in a hospital, hospice or residential healthcare facility (e.g., stroke, infectious disease,"
+        },
+        {
+          "title": "Part 3 Offer Bereavement Support",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: Employers provide bereavement support for all eligible employees, including, at minimum, the following:    a. Protocol for notifying employers of the loss.    b. At least 20 days of bereavement leave offered as follows:           1. At least five days of paid leave during any 12-month period for the loss of a child, spouse, parent or              dependent. 12,13           2. At least three days of leave, paid at 75% or higher of the employee’s full salary or wages, during any 12-              month period for the loss of a family member, colleague or friend.12,13           3. Additional unpaid weeks of leave during any 12-month pe"
+        }
+      ]
+    },
+    {
+      "code": "C11",
+      "name": "Civic Engagement",
+      "type": "optimization",
+      "intent": "Encourage individuals to become actively involved in and connected to the surrounding community through volunteerism, public spaces and community programming.",
+      "summary": "This WELL feature requires a commitment to civic engagement through charitable activities, designated public spaces and community engagement programs.",
+      "parts": [
+        {
+          "title": "Part 1 Promote Community Engagement",
+          "body": "WELL Certification: 1 Pt | WELL Core: 0.5 Pt For All Spaces: At least two of the following requirements are met:      a. All eligible employees are given the option to take paid time off to participate in volunteer activities for at least 16         hours of paid time annually (separate from vacation, sick or other paid time off).      b. Projects provide a list of volunteer opportunities in the project area and community, with at least one         opportunity per month that would be suitable for employees, and with at least eight hours organized by the         employer for a registered charity or non-profit.      c. Projects contribute annually to a registered charity of employee’s choice t"
+        },
+        {
+          "title": "Part 2 Provide Community Space",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Community space Designated outdoor or indoor space is made available to the public at no cost that meets the following requirements:      a. Is at least 2,000 ft2(186 m2).15      b. Open at all times, unless closed for security purposes (e.g., during nighttime hours) or for special events.15      c. Signage or other communication clearly indicates hours the space is open and the space’s designation for public         use.15                                                                                              15,16    d. Provides quality seating areas and is easily navigable for individuals of all abilities.15,16 OR O"
+        }
+      ]
+    },
+    {
+      "code": "C12",
+      "name": "Diversity And Inclusion",
+      "type": "optimization",
+      "intent": "Promote an equitable culture through the implementation and disclosure of diversity and inclusion policies and initiatives.",
+      "summary": "This WELL feature requires projects to implement and report on internal policies and programs that promote diversity and inclusion, such as anti-discrimination and wage equity policies, anti-bias training and employee resources groups.",
+      "parts": [
+        {
+          "title": "Part 1 Promote Diversity and Inclusion",
+          "body": "WELL Certification: 3 Pt | WELL Core: 3 Pt For All Spaces: Option 1: Third-party program (1 point) Projects meet the following requirements:    a. The project or organization participates in an approved third-party certification or reporting program listed on       IWBI’s website (Reference).    b. Results are made publicly available on-site and/or on the organization's website. OR Option 2: Custom program The project or organization meets at least three of the following requirements per the table below through a custom internal program, reviewing policies and trainings annually to remove identified areas of bias:                                       Number of Requirements Achieved         "
+        }
+      ]
+    },
+    {
+      "code": "C13",
+      "name": "Accessibility And Universal Design",
+      "type": "optimization",
+      "intent": "Provide buildings that are accessible, comfortable and usable for people of all backgrounds and abilities.",
+      "summary": "This WELL feature requires projects to go above and beyond accessibility laws and/or codes by integrating universal design principles to accommodate diverse needs and create a fully inclusive environment.",
+      "parts": [
+        {
+          "title": "Part 1 Integrate Universal Design",
+          "body": "WELL Certification: 2 Pt | WELL Core: 3 Pt For All Spaces: The project considers best practices in universal design to accommodate a diverse range of occupant abilities and needs throughout the project, by implementing at minimum one design, operations or policy strategy in each of the following categories:9    a. Physical access: entry, exit and key interaction points that enable inclusive entrance to the project and strategies       that enable flexible usability of the space to accommodate change as needed (e.g., stair-free entrances, step-       free egress, operable windows, automatic doors).1,7,10    b. Developmental and intellectual health: strategies that use color, texture, images a"
+        }
+      ]
+    },
+    {
+      "code": "C14",
+      "name": "Emergency Resources",
+      "type": "optimization",
+      "intent": "Provide resources, personnel and training to help organizations, families and individuals respond to diverse emergency situations.",
+      "summary": "This WELL feature requires projects to offer resources like first aid kits, automated external defibrillators (AEDs) and opioid response kits, coordinate with emergency response teams and provide emergency preparedness and response trainings.",
+      "parts": [
+        {
+          "title": "Part 1 Promote Emergency Resources",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Emergency resources Resources are in place that support emergency response, including at least three of the following:    a. Information indicating emergency procedures (e.g., evacuation during fire or earthquake, containment and       response strategies for infectious disease outbreaks, shelter-in-place during active shooter) available to all guests       upon entrance to the building.    b. Building emergency notification system with auditory and visual indicators of emergency (e.g., public address       systems, flashing lights).    c. At least one first aid kit per floor meeting requirements of Appendix C3.    d. AEDs "
+        },
+        {
+          "title": "Part 2 Provide Opioid Response Kit and Training",
+          "body": "WELL Certification: 1 Pt | WELL Core: 2 Pt For All Spaces: Option 1: Opioid response kits The following requirements are met:    a. All emergency preparedness or first aid kits include:           1. Naloxone rescue kits. Projects may choose a single dose nasal spray, a multi-step nasal spray, a single step              injection or a multi-step injection.           2. Instructions for how to prepare and administer naloxone, as well as immediate next steps after              administration.           3. A list of who on-site has received opioid response training, and their contact information.    b. Protocol is in place for follow-up after an opioid emergency event, including a plan for:     "
+        }
+      ]
+    },
+    {
+      "code": "C15",
+      "name": "Emergency Resilience And Recovery",
+      "type": "optimization",
+      "intent": "Better enable individuals and communities to maintain health and well-being, and organizations to maintain business function, during and after emergencies.",
+      "summary": "This WELL feature requires projects to create a business continuity plan, establish a re-entry plan and offer supportive resources to facilitate resilience during, and recovery after, an emergency.",
+      "parts": [
+        {
+          "title": "Part 1 Promote Business Continuity",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Projects implement a business continuity plan (BCP) that addresses at minimum the following:16,20    a. Determines critical business functions, processes, supporting resources and dependencies (e.g., email, internet       connectivity, third-party suppliers or service providers, interdependent departments).    b. Includes a list of the roles and responsibilities of the business continuity team and convenes the team twice       annually (at minimum) to review, test and update (as needed) the plan.    c. Implements a business impact analysis to evaluate the likely effects resulting from disruption of normal business       functioning d"
+        },
+        {
+          "title": "Part 2 Support Emergency Resilience",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Projects implement at least one of the following:    a. Designated outdoor or indoor space is made available to emergency responders, relief organizations or other       equivalent institutions at no cost for alternative use in case of emergency (e.g., shelter during a natural disaster,       treatment area during a pandemic).    b. Employee assistance fund provided for emergency use by employees in at least two of the following critical       scenarios:           1. Sheltering from domestic violence or abuse.           2. Quarantine due to infectious disease exposure.           3. Damage to employee housing from a disaster.    c. Sh"
+        },
+        {
+          "title": "Part 3 Facilitate Healthy Re-entry",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: Projects establish a plan for re-entry into the project after an emergency event, addressing at minimum the following:    a. Consultation with regular occupants prior to and just after re-entry to understand their needs and concerns       related to re-entry.    b. Applicable safety, compliance and risk inspections of water, mechanical, electrical, ventilation and life safety       systems, including necessary actions to restart building and facility systems after prolonged shutdown and       approval or clearance for safe re-entry.    c. A list of roles for those who will be responsible for overseeing the re-entry plan. While roles "
+        }
+      ]
+    },
+    {
+      "code": "C16",
+      "name": "Housing Equity",
+      "type": "optimization",
+      "intent": "Promote housing equity through the allocation of healthy affordable housing units.",
+      "summary": "This WELL feature requires projects to designate affordable housing units that are tenure blind, reduce housing costs for low-income tenants and offer multi-bedroom options.",
+      "parts": [
+        {
+          "title": "Part 1 Allocate Affordable Units",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt For Dwelling Units: The following requirements are met:    a. A percentage of units is allocated for tenants whose incomes are at or below an income limit that projects select       relative to local median household income [e.g., Area Median Income (AMI)], adjusted for family size, per the       table below:                     Units Allocated                                       Income Limit Selected                Points                       20% or more                                        0 - 50% of local median                  1                       40% or more                                        51 - 80% of local median               "
+        }
+      ]
+    },
+    {
+      "code": "C17",
+      "name": "Responsible Labor Practices",
+      "type": "optimization",
+      "intent": "Promote organizational commitment to responsible labor practices in order to address modern slavery in the supply chain and support human rights.",
+      "summary": "This WELL feature requires projects to evaluate and disclose unfair labor practices associated with modern slavery in their operations and supply chain, specifically in the areas of construction, cleaning and catering, and to take steps to address modern slavery in the supply chain.",
+      "parts": [
+        {
+          "title": "Part 1 Disclose Labor Practices",
+          "body": "WELL Certification: 1 Pt | WELL Core: 1 Pt For All Spaces: The project or organization meets the following requirements:    a. A comprehensive mapping of the project or organization’s structure, operations and supply chains is conducted       annually for Tier 1 suppliers in the following sectors (as applicable):21           1. Construction.           2. Cleaning.           3. Catering.           4. Security.           5. Maintenance.    b. A risk assessment is conducted annually that evaluates risks in the project or organization’s operations and Tier 1       suppliers (at minimum) in the above sectors for the following practices associated with modern slavery:21,22           1. Worst forms"
+        },
+        {
+          "title": "Part 2 Implement Responsible Labor Practices",
+          "body": "WELL Certification: 2 Pt | WELL Core: 2 Pt   Note: Projects may only achieve this part if Part 1 is also achieved. For All Spaces: The project or organization implements an action plan that meets the following requirements:21,22    a. Establishes annual targets for the prevention and/or mitigation of modern slavery in their operations and supply       chain in the following areas (as applicable):           1. Construction.           2. Cleaning.           3. Catering.           4. Security.           5. Maintenance.    b. Addresses implementation of the following strategies to meet established targets:21,22           1. Anti-slavery and -human trafficking policies.           2. Responsible p"
+        }
+      ]
+    },
+    {
+      "code": "C18",
+      "name": "Support For Victims Of Domestic Violence",
+      "type": "optimization",
+      "intent": "Increase availability and access to support services, resources and care for victims of domestic violence.",
+      "summary": "This WELL feature requires projects to implement a policy that supports victims of domestic violence and to educate employees on the domestic violence resources that are made available by the project.",
+      "parts": [
+        {
+          "title": "Part 1 Support Victims of Domestic Violence",
+          "body": "WELL Certification: 2 Pt | WELL Core: 1 Pt For All Spaces: Option 1: Domestic violence policy The project maintains a policy that meets the following requirements:    a. Provides at least ten days of leave, paid at the employee’s full salary or wages, during any 12-month period for       use by employees who are victims of domestic violence. Leave must meet the following requirements:5,7,8,12           1. Distinct from paid time off, sick leave and family leave.           2. If requiring incident disclosure for employees to qualify, takes steps to protect employee privacy and              encourage reporting.           3. Does not require a minimum qualifying period of employment before whic"
+        }
+      ]
+    }
+  ]
+}

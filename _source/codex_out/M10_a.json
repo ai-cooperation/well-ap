@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "M10_Q01",
+    "stem": "According to Part 1: Facilitate Stakeholder Charrette of Feature C02: Integrative Design, when should a stakeholder charrette take place?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Just after the project has kicked off.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Continuously (monthly).",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Early in the planning process.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "After project completion.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "C02 Integrative Design Part 1 要求 stakeholder charrette 在規劃流程早期進行，讓健康目標在設計定案前就納入決策。",
+    "framework": "M10_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "把 charrette 等同 kick-off 後的單次會議",
+        "followup": "C02 強調的是在「規劃流程早期」介入，這跟專案剛啟動的時點有什麼差別？"
+      },
+      "B": {
+        "gap": "誤以為 charrette 需每月持續舉辦",
+        "followup": "charrette 是一次性密集協作工作坊，這跟 monthly 例會的性質有何不同？"
+      },
+      "D": {
+        "gap": "把協作流程放到專案完成後，已失去設計影響力",
+        "followup": "若在 project completion 後才開 charrette，還能影響哪些 design 決策？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q02",
+    "stem": "According to Feature C02: Integrative Design Process, who must meet with stakeholders prior to the design and programming of a project trying to achieve a WELL Certification?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Engineers and business owner.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Project managers and business owner.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Project managers, business owner, architect.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Architects, owner, facility management team and engineers.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C02 要求在 design and programming 前，由 architects、owner、facility management team 與 engineers 等核心關係人共同會談，確保跨領域整合。",
+    "framework": "M10_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "關係人涵蓋不足，遺漏 owner/FM team",
+        "followup": "C02 的整合精神要納入哪些角色才能涵蓋設計、營運與使用端？"
+      },
+      "B": {
+        "gap": "以 PM 取代設計與工程專業",
+        "followup": "project manager 之外，誰負責把健康策略落到實際 design？"
+      },
+      "C": {
+        "gap": "仍漏掉 facility management team",
+        "followup": "少了 facility management team，後續 operation 階段的健康策略由誰把關？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q03",
+    "stem": "Part 2: Promote Health-Oriented Mission of Feature C02: Integrative Design stipulates that the project establishes a health-oriented mission. Where should the health-oriented mission be detailed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A general notice to all occupants.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "WELL Feature Guide",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Project Checklist",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Project Matrix",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C02 Part 2 要求把 health-oriented mission 明文記載於 WELL Feature Guide，作為團隊共同依循的文件。",
+    "framework": "M10_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為公告即可取代正式文件",
+        "followup": "一般 notice 與需被 review 的正式文件，在 verification 上有何差別？"
+      },
+      "C": {
+        "gap": "混淆 Project Checklist 與 Feature Guide 的用途",
+        "followup": "Project Checklist 記錄的是各 feature 進度，那 health-oriented mission 該寫在哪份文件？"
+      },
+      "D": {
+        "gap": "Project Matrix 並非記載 mission 的指定文件",
+        "followup": "C02 指定的文件名稱是什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q04",
+    "stem": "The WELL Building Standard™ (WELL™) Community concept seeks to establish an inclusive, engaged occupant community. What factors link people within a community?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Social ties.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Shared common perspectives.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Engaging in joint action and experiences in shared settings or locations.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "All Of The Above.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "Community concept overview 指出，社群由 social ties、shared common perspectives 與在共享場域的 joint action and experiences 共同連結，三者皆是。",
+    "framework": "M10_F1",
+    "diagnosis": {
+      "A": {
+        "gap": "只取單一面向，低估社群連結的多重性",
+        "followup": "除了 social ties，還有哪些因素把人連結成一個 community？"
+      },
+      "B": {
+        "gap": "只取單一面向，忽略行動與場域",
+        "followup": "shared perspectives 之外，共享場域中的共同行動是否也算連結因素？"
+      },
+      "C": {
+        "gap": "只取單一面向，忽略既有人際與觀點",
+        "followup": "joint action 之外，既有的 social ties 是否也是連結來源？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q05",
+    "stem": "What are the Social Determinants of Health?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Environmental",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Physical and built conditions",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Mental",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "All of the Above",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "Social Determinants of Health 指影響健康的 physical and built conditions（以及社會經濟環境），WELL Community 以此切入環境對健康的影響。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "只取 environmental 單一面向",
+        "followup": "SDOH 涵蓋的條件是否只有 environmental 一項？"
+      },
+      "C": {
+        "gap": "把 mental 誤列為 SDOH 的定義範疇",
+        "followup": "mental 是健康結果還是決定因素？SDOH 強調的是哪一類條件？"
+      },
+      "D": {
+        "gap": "誤選包山包海而非 WELL 強調的條件",
+        "followup": "WELL 在此最強調的是哪一類 determinant？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q06",
+    "stem": "Which of the following is not a health disparity, according to the WELL Community concept?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gender",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Race",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Ethnicity",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Age",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "WELL Community 列舉的 health disparities 包含 gender、race、ethnicity 等社會群體差異；age 不在其列舉的 disparity 類別。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "把 gender 誤判為非 disparity",
+        "followup": "gender 是否屬於 WELL 列舉的健康不平等面向？"
+      },
+      "B": {
+        "gap": "把 race 誤判為非 disparity",
+        "followup": "race 是否屬於 WELL 列舉的健康不平等面向？"
+      },
+      "C": {
+        "gap": "把 ethnicity 誤判為非 disparity",
+        "followup": "ethnicity 是否屬於 WELL 列舉的健康不平等面向？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q07",
+    "stem": "The U.S. Federal Emergency Management Agency estimates what percent of small businesses permanently close following a disaster due to the lack of a comprehensive disaster preparedness plan with proper mitigation strategies?",
+    "options": [
+      {
+        "key": "A",
+        "text": "75-80%",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "40-60%",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "20-30%",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "43-55%",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "C03 Emergency Preparedness overview 引用 FEMA 估計：約 40-60% 小型企業在缺乏完整防災計畫時，於災後永久歇業。",
+    "framework": "M10_F2",
+    "diagnosis": {
+      "A": {
+        "gap": "高估歇業比例，記成 75-80%",
+        "followup": "FEMA 引用的區間是否高達近八成？"
+      },
+      "C": {
+        "gap": "低估歇業比例",
+        "followup": "缺乏防災計畫的小型企業歇業比例，會低到只有兩三成嗎？"
+      },
+      "D": {
+        "gap": "記成相近但非標準引用的區間",
+        "followup": "標準引用的是哪一個整數區間？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q08",
+    "stem": "How does Part 1: Select Project Survey of Feature C04: Occupant Survey require a project team to collect feedback from building users?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A questionnaire given to the largest building tenant.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Third-party survey from approved IWBI vendor.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "A survey sent out via email.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "A suggestion drop box.",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C04 Occupant Survey Part 1 要求採用 IWBI 核可廠商提供的 third-party survey，以確保方法與比較基準一致。",
+    "framework": "M10_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "誤以為只調查最大租戶即可",
+        "followup": "只問單一最大租戶，能否代表全體 building users？"
+      },
+      "C": {
+        "gap": "誤以為自寄 email 問卷即符合",
+        "followup": "self-administered email 問卷缺少哪一項 C04 要求的條件？"
+      },
+      "D": {
+        "gap": "意見箱無法構成系統化調查",
+        "followup": "suggestion box 能否提供可分析、可比較的調查結果？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q09",
+    "stem": "What can an employer do to support the overall health and well-being of individuals and their families according to Part 1: Promote Health Benefits of Feature C06: Health Services and Benefits?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Allow employees flexible working hours or the opportunity to work remotely a few days a week.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Purchase fitbits or other fitness trackers for those wanting to get healthier.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Offer comprehensive health benefits, policies and services.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Run a marathon with a company team.",
+        "depth": 1
+      }
+    ],
+    "correct": "C",
+    "explanation": "C06 Health Services and Benefits Part 1 要求 employer 提供 comprehensive health benefits、policies and services，以支持員工與家庭整體健康。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "把彈性工時誤當主要健康福利要求",
+        "followup": "彈性工時是加分項，但 C06 Part 1 要求的核心是哪一類 benefits？"
+      },
+      "B": {
+        "gap": "把贈送穿戴裝置當成 comprehensive benefits",
+        "followup": "送 fitness tracker 是否等同提供 comprehensive health benefits？"
+      },
+      "D": {
+        "gap": "把團隊活動誤當制度性健康福利",
+        "followup": "辦馬拉松屬於活動，C06 要求的是制度性的什麼？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q10",
+    "stem": "Which of the following does a property management team need to do when conducting a post-occupancy survey, as stipulated in Part 2: Utilize Pre- and Post-Occupancy Survey of Feature C05: Enhanced Occupant Survey?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use a third party created survey.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Conduct the survey themselves in the building.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Ensure those taking the survey are not forced to do so.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Compare results from the pre-occupancy survey against post-occupancy survey results..",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C05 Enhanced Occupant Survey Part 2 要求進行 pre- 與 post-occupancy 調查，並比對兩者結果以評估介入成效。",
+    "framework": "M10_F3",
+    "diagnosis": {
+      "A": {
+        "gap": "只做第三方問卷而未強調比對",
+        "followup": "C05 的 enhanced 重點是『比對』，單用第三方問卷是否就達標？"
+      },
+      "B": {
+        "gap": "自行施測違反第三方要求",
+        "followup": "自辦調查在客觀性上缺少什麼？"
+      },
+      "C": {
+        "gap": "只談自願性而非比對結果",
+        "followup": "自願參與是基本倫理，但 C05 Part 2 要求比對哪兩次調查？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q11",
+    "stem": "The WELL overview for Feature C06: Health Services and Benefits tells us that 94% of the world's countries mandate paid sick leave. The United States and this country are the only OECD countries that do not mandate paid sick leave.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Japan",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Korea",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Turkey",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Chile",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "C06 overview 指出全球 94% 國家規定 paid sick leave，美國與 Korea 是僅有的兩個未強制的 OECD 國家。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "誤記為日本",
+        "followup": "OECD 中與美國並列未強制 paid sick leave 的是哪一國？"
+      },
+      "C": {
+        "gap": "誤記為土耳其",
+        "followup": "C06 overview 點名的另一個未強制國家是哪一國？"
+      },
+      "D": {
+        "gap": "誤記為智利",
+        "followup": "標準明確點名的是 Korea 還是 Chile？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q12",
+    "stem": "According to Feature C06: Health Services and Benefits, 94% of the world’s countries mandate paid sick leave, the U.S. and Korea are the only OECD countries that do not, and 40% of American employees have no sick leave. Studies estimate that how many Americans go to work sick because they lack sick leave or have only one-day of sick leave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "100,000",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "375,000",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "10,000,000",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "20,000,000",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C06 overview 引用研究：因缺乏或僅有一天病假，估計約有 2,000 萬名美國人帶病上班。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "嚴重低估帶病上班人數",
+        "followup": "10 萬與『數千萬』的量級差距，哪個符合 overview 引用？"
+      },
+      "B": {
+        "gap": "低估帶病上班人數一個量級",
+        "followup": "37.5 萬是否達到 overview 強調的數千萬級？"
+      },
+      "C": {
+        "gap": "接近但少一個量級",
+        "followup": "標準引用的是一千萬還是兩千萬？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q13",
+    "stem": "Studies show that implementing _______ reduces contagion in the workplace and improves employee productivity and reduces employee turnover.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Employer-paid telemedicine visits.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Paid sick leave.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Open concept floor plans.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Healthy lunches paid for by the employer daily.",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "C06 overview 指出實施 paid sick leave 可降低職場傳染、提升生產力並降低離職率。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "telemedicine 是相關但非此處引用的措施",
+        "followup": "overview 在此句強調的具體制度是哪一項？"
+      },
+      "C": {
+        "gap": "開放式空間與傳染率不是此處主題",
+        "followup": "floor plan 與 sick leave 政策何者是 C06 此句重點？"
+      },
+      "D": {
+        "gap": "免費午餐並非降低傳染的引用措施",
+        "followup": "提供午餐與 paid sick leave，哪個對降低 contagion 有直接證據？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q14",
+    "stem": "Successful health promotion programs can improve job satisfaction, according to Feature C07: Enhanced Health and Wellness Promotion. Specifically, medical and absenteeism costs fall by about $3.27 and $2.73, respectively, for every dollar spent on _______.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Quarterly company retreats.",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "Workplace health programs.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Office refreshments.",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "Company matched 401(k).",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "C07 Enhanced Health and Wellness Promotion overview 指出，每投入 1 美元於 workplace health programs，醫療與缺勤成本分別約下降 $3.27 與 $2.73。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "把公司旅遊誤當健康投資標的",
+        "followup": "retreat 與系統化 health program，哪個對應這組投報數據？"
+      },
+      "C": {
+        "gap": "辦公茶點與健康投報數據無關",
+        "followup": "office refreshments 是否是 C07 引用的投資項目？"
+      },
+      "D": {
+        "gap": "把退休金提撥誤當健康促進投資",
+        "followup": "401(k) match 屬於財務福利，與 workplace health program 是同一類嗎？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q15",
+    "stem": "A tech corporation is pursuing WELL Certification for their new corporate headquarters in Austin, Texas. In order to receive 1 Point for Part 2: Offer On-Demand Health Services of Feature: C06 Health Services and Benefits a WELL Certified building must provide _______ ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cafeteria Head Chef",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Onsight Doctor or Nurse Practitioner",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Chief Wellness Officer",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Physical Trainer",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "C06 Part 2 Offer On-Demand Health Services 要求提供 onsite doctor 或 nurse practitioner 等隨需健康服務以得分。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "餐飲主廚與健康服務無關",
+        "followup": "head chef 屬於 nourishment/營運，與 on-demand health services 是同類嗎？"
+      },
+      "C": {
+        "gap": "Chief Wellness Officer 是管理角色而非隨需醫療",
+        "followup": "CWO 負責策略，C06 Part 2 要求的是現場的哪種醫療人員？"
+      },
+      "D": {
+        "gap": "私人教練不等於隨需醫療服務",
+        "followup": "physical trainer 提供的服務與 on-demand health service 有何不同？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q16",
+    "stem": "Part 1: Offer New Parent Leave of Feature C08: New Parent Support requires paid leave to be at ____ or higher of the employee's full salary or wages and cover benefits.",
+    "options": [
+      {
+        "key": "A",
+        "text": "50%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "70%",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "75%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "100%.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "C08 New Parent Support Part 1 要求 paid leave 達員工全薪的 75% 或以上，並涵蓋福利。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "低估給付比例為 50%",
+        "followup": "C08 規定的最低給付比例是否低到只有半薪？"
+      },
+      "B": {
+        "gap": "接近但低於 75% 門檻",
+        "followup": "70% 與標準門檻 75% 之間，哪個才是 C08 要求？"
+      },
+      "D": {
+        "gap": "高估為 100% 全薪",
+        "followup": "C08 要求的是『至少 75%』還是『全額』？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q17",
+    "stem": "At a minimum, WELL Feature C08: New Parent Support promotes how much paid leave for the primary caregiver and non-primary caregiver?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Primary Caregiver at least 2 weeks | Non-Primary Caregiver 5 days.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "Primary Caregiver at least 4 Weeks | Non-Primary At least 2 Weeks.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "Primary Caregiver at least 12 Weeks | Non-Primary 2 Weeks.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "Primary Caregiver at least 30 Weeks | Non-Primary 4 Weeks.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "C08 至少提供 primary caregiver 12 週、non-primary caregiver 2 週的 paid leave。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "週數嚴重低於 C08 門檻",
+        "followup": "primary 2 週與標準的 12 週差距多大？"
+      },
+      "B": {
+        "gap": "primary 週數仍不足",
+        "followup": "primary caregiver 的最低週數是 4 週還是 12 週？"
+      },
+      "D": {
+        "gap": "高估週數，超出 C08 最低標",
+        "followup": "30 週是否為 C08 規定的『最低』要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q18",
+    "stem": "Parental support policies help employees and their families in a variety of ways. Higher rates of breastfeeding and reduced infant mortality are some of the benefits of paid parental leave. Which of the following is not a policy that a project can implement to be WELL compliant?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Coaching programs, counseling or other resources to help employees transition when returning from leave.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Use of virtual assistance to help cover the work load.",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Training for managers to help create a plan for leave and optimal support for returning to work.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Communication to expecting parents about the project or organization’s parental leave policies and supporting resource.",
+        "depth": 3
+      }
+    ],
+    "correct": "B",
+    "explanation": "C08 列舉的合規政策包含返崗過渡支持、主管訓練與政策溝通；以 virtual assistance 代為分擔工作量並非其要求。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "返崗 coaching 其實是合規政策",
+        "followup": "coaching/counseling 是否列於 C08 的支持措施？"
+      },
+      "C": {
+        "gap": "主管訓練其實是合規政策",
+        "followup": "為 manager 提供請假規劃訓練是否屬 C08 範疇？"
+      },
+      "D": {
+        "gap": "向員工溝通政策其實是合規措施",
+        "followup": "向 expecting parents 溝通 leave policy 是否為 C08 要求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q19",
+    "stem": "Part 1: Offer Workplace Breastfeeding Support of Feature C09: New Mother Support provides spaces and policies that encourage and support breastfeeding. How many pumping sessions per eight-hour workday should be allocated for an eligible employee?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1-2",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "2-3",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "5-7",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "4-8",
+        "depth": 2
+      }
+    ],
+    "correct": "B",
+    "explanation": "C09 New Mother Support 要求每八小時工作日提供 2-3 次 pumping sessions（每 2-3 小時 15-20 分鐘）。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "次數低於最低要求",
+        "followup": "每八小時 1-2 次是否達到 C09 的最低頻率？"
+      },
+      "C": {
+        "gap": "次數高於標準範圍",
+        "followup": "5-7 次是否超出 C09 規定的 2-3 次？"
+      },
+      "D": {
+        "gap": "範圍過寬不符標準",
+        "followup": "C09 給的是 2-3 次的明確區間，4-8 次是否符合？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q20",
+    "stem": "A breastfeeding mother is traveling for work. She and her team will be visiting clients and their trip should only last 1 full day and half of the following day (36 hours). What travel accommodations should be made according to Part 1: Offer Workplace Breastfeeding Support of Feature C09: New Mother Support?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A hotel room or other accommodations with refrigerator access.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "An insulated cooler purchased by the employee.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Coverage of express shipping of milk to family back home.",
+        "depth": 2
+      },
+      {
+        "key": "D",
+        "text": "Reschedule return flight home to an earlier flight.",
+        "depth": 2
+      }
+    ],
+    "correct": "A",
+    "explanation": "C09 對出差中的哺乳員工，要求提供具 refrigerator access 的 hotel room 或同等住宿以保存母乳。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "B": {
+        "gap": "自費保冷袋未達雇主提供住宿的要求",
+        "followup": "由員工自費的 cooler 與雇主提供冷藏住宿，哪個符合 C09？"
+      },
+      "C": {
+        "gap": "寄送母乳非標準要求的住宿安排",
+        "followup": "express shipping 是否為 C09 指定的差旅哺乳安排？"
+      },
+      "D": {
+        "gap": "改機票迴避問題而非提供安排",
+        "followup": "提早返程是否解決了出差期間的母乳保存需求？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q21",
+    "stem": "The intent of Feature C10: Family Support is the support working parents and caregivers so that they are able to properly care for members of their families. If a project doesn't have an on-site childcare center, what percentage of off-site or at-home childcare costs should be subsidized for employees?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%",
+        "depth": 2
+      },
+      {
+        "key": "B",
+        "text": "25%",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "50%",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "75%",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "C10 Family Support Part 1 要求若無 on-site childcare，需補貼 off-site 或 at-home childcare 成本至少 50%。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "補貼比例嚴重偏低",
+        "followup": "10% 補貼是否達到 C10 的最低門檻？"
+      },
+      "B": {
+        "gap": "接近但低於 50% 門檻",
+        "followup": "25% 與標準的 50% 之間，哪個是 C10 要求？"
+      },
+      "D": {
+        "gap": "高估補貼比例",
+        "followup": "C10 規定的是『至少 50%』還是更高？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q22",
+    "stem": "Which of the following is NOT included in offering childcare as part of Feature C10: Family Support?",
+    "options": [
+      {
+        "key": "A",
+        "text": "On-site childcare centers compliant with local childcare licensure, or subsidies of at least 50% for off-site or at-home childcare, for regular occupants.",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Back-up childcare coverage for regular occupants in case of unexpected events, at no cost or subsidized by at least 50% (e.g., drop-in daycare, overnight childcare, in-home babysitting service, virtual childcare service).",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Seasonal childcare programs (e.g., center- or home-based care during school break or winter holidays) for regular occupants with school-age children.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Employees are able to bring their children to the office on days their kids are sick.",
+        "depth": 4
+      }
+    ],
+    "correct": "D",
+    "explanation": "C10 的 childcare 支持包含 on-site 中心或≥50% 補貼、back-up 與 seasonal childcare；『讓員工帶生病小孩到辦公室』不屬其列。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "此項其實屬 C10 合規 childcare",
+        "followup": "on-site 中心或 50% 補貼是否列於 C10？"
+      },
+      "B": {
+        "gap": "back-up childcare 其實屬 C10",
+        "followup": "突發狀況的備援托育是否為 C10 選項？"
+      },
+      "C": {
+        "gap": "seasonal childcare 其實屬 C10",
+        "followup": "寒暑假的 seasonal 托育是否列於 C10？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q23",
+    "stem": "An employee needs to take time off to care for their spouse who was diagnosed with cancer. At the very least, how many weeks of paid leave should this employee receive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 weeks of paid leave paid at 50% or higher of employees full salary or wages.",
+        "depth": 1
+      },
+      {
+        "key": "B",
+        "text": "4 weeks of paid leave paid at 70% or higher of employees full salary or wages.",
+        "depth": 2
+      },
+      {
+        "key": "C",
+        "text": "12 weeks of paid leave paid at 75% or higher of employees full salary or wages.",
+        "depth": 4
+      },
+      {
+        "key": "D",
+        "text": "16 weeks of paid leave paid at 75% or higher of employees full salary or wages.",
+        "depth": 3
+      }
+    ],
+    "correct": "C",
+    "explanation": "C10 Part 2 Offer Family Leave 要求為照顧家人提供至少 12 週、給付 75% 或以上的 paid leave。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "週數與給付皆遠低於門檻",
+        "followup": "2 週、50% 與標準的 12 週、75% 差距多大？"
+      },
+      "B": {
+        "gap": "週數與給付皆不足",
+        "followup": "4 週 70% 是否達到 C10 family leave 的最低標？"
+      },
+      "D": {
+        "gap": "週數高於最低要求",
+        "followup": "16 週是否為 C10 規定的『最低』週數？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q24",
+    "stem": "The WELL Building Standard offers family leave in Feature C10: Family Support. When an employee hits the 12 week threshold when receiving 75% pay for being out taking care of a terminal spouse, all of the following with the exception of ____ are options given to employees.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Forced to return or resign.",
+        "depth": 4
+      },
+      {
+        "key": "B",
+        "text": "Use paid sick time or personal days for the care of a spouse.",
+        "depth": 3
+      },
+      {
+        "key": "C",
+        "text": "Arrive late or leave early daily.",
+        "depth": 3
+      },
+      {
+        "key": "D",
+        "text": "Permanently work from home.",
+        "depth": 3
+      }
+    ],
+    "correct": "A",
+    "explanation": "C10 family leave 達 12 週後，員工可用 paid sick/personal days、彈性到離或永久遠距等選項；唯獨『被迫返崗或離職』不在其中。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "B": {
+        "gap": "此為合規選項而非例外",
+        "followup": "用 paid sick/personal days 照顧家人是否屬 C10 提供的選項？"
+      },
+      "C": {
+        "gap": "彈性到離其實是合規選項",
+        "followup": "arrive late/leave early 是否列於 C10 給員工的彈性？"
+      },
+      "D": {
+        "gap": "永久遠距其實是合規選項",
+        "followup": "permanent work from home 是否為 C10 的選項之一？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  },
+  {
+    "id": "M10_Q25",
+    "stem": "Acme Corp is very passionate about its community. Every year they host and are involved in various events to give back and show the community they care. Which of the following are examples of community engagement as it pertains to WELL?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A yearly 5k race and cookout that supports charity",
+        "depth": 3
+      },
+      {
+        "key": "B",
+        "text": "Donation matching charity drives to organization of employee's choosing",
+        "depth": 4
+      },
+      {
+        "key": "C",
+        "text": "Halloween Costume Contest",
+        "depth": 1
+      },
+      {
+        "key": "D",
+        "text": "March Madness Bracket and Prize Pool",
+        "depth": 1
+      }
+    ],
+    "correct": "B",
+    "explanation": "C11 Civic Engagement 認可如 donation matching charity drives 等實質回饋社群的制度化參與。",
+    "framework": "M10_F4",
+    "diagnosis": {
+      "A": {
+        "gap": "慈善路跑偏向活動而非制度化參與",
+        "followup": "一次性的 5k/cookout 與制度化的 donation matching，哪個更符合 civic engagement？"
+      },
+      "C": {
+        "gap": "萬聖節變裝與公民參與無關",
+        "followup": "costume contest 是否屬於回饋社群的 civic engagement？"
+      },
+      "D": {
+        "gap": "賭注式活動非公民參與",
+        "followup": "March Madness 獎金池與社群回饋有何關聯？"
+      }
+    },
+    "verify": {
+      "verdict": "ok",
+      "note": ""
+    }
+  }
+]
