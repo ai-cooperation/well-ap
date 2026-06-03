@@ -599,6 +599,31 @@ function getLectureLinks(moduleId, frameworkId, question) {
   return '';
 }
 
+// Load the question bank from Firebase (login-gated read) and populate
+// module.questions in memory. The static content pack ships with empty
+// questions arrays; the bank lives only in RTDB wellap/question_bank.
+function loadQuestionBank() {
+  if (typeof firebase === 'undefined' || !_fb || !_config.contentPack) {
+    return Promise.resolve(false);
+  }
+  var packId = _config.contentPack.id || 'default';
+  return firebase.database().ref(packId + '/question_bank').once('value').then(function(snap) {
+    var bank = snap.val() || {};
+    var total = 0;
+    _config.contentPack.modules.forEach(function(m) {
+      var mb = bank[m.id];
+      if (mb && typeof mb === 'object') {
+        m.questions = Object.keys(mb).sort().map(function(k) { return mb[k]; });
+        total += m.questions.length;
+      }
+    });
+    return total;
+  }).catch(function(e) {
+    console.error('loadQuestionBank failed', e);
+    return false;
+  });
+}
+
 // ─── Public API ───
 global.ThreeQuestionEngine = {
   // Init
@@ -659,7 +684,8 @@ global.ThreeQuestionEngine = {
 
   // Utility
   escHtml: escHtml,
-  getLectureLinks: getLectureLinks
+  getLectureLinks: getLectureLinks,
+  loadQuestionBank: loadQuestionBank
 };
 
 })(typeof window !== 'undefined' ? window : global);

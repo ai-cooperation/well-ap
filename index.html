@@ -96,12 +96,12 @@
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
 
 <!-- Engine -->
-<script src="engine/learn-engine.js?v=2"></script>
-<script src="engine/learn-ui.js?v=2"></script>
-<script src="engine/learn-layer2.js?v=2"></script>
+<script src="engine/learn-engine.js?v=3"></script>
+<script src="engine/learn-ui.js?v=3"></script>
+<script src="engine/learn-layer2.js?v=3"></script>
 
 <!-- WELL AP Content Pack -->
-<script src="content.js?v=2"></script>
+<script src="content.js?v=3"></script>
 
 <!-- Init -->
 <script>
@@ -111,17 +111,41 @@
     firebase: WELLAP_CONTENT.firebase,
     teacherEmail: WELLAP_CONTENT.teacherEmail
   });
-  TQE_UI.renderEntry();
+  // Login gate: the learning system (3-question + quiz bank) requires Google
+  // login. Standard lectures (lectures/) stay open. Question data is not in
+  // this static file — it loads from Firebase only after login.
+  function renderLoginGate(msg) {
+    var area = document.getElementById('tqeEntryArea');
+    if (!area) return;
+    area.innerHTML =
+      '<div style="max-width:520px;margin:8vh auto;padding:0 20px;text-align:center;">' +
+      '<div style="font-size:42px;font-weight:900;color:var(--blue,#008F7A);letter-spacing:1px;">WELL AP</div>' +
+      '<h1 style="font-size:24px;margin:.4em 0 .2em;">學習系統</h1>' +
+      '<p style="color:var(--text-soft);font-size:16px;line-height:1.8;margin:0 0 1.4em;">' +
+      '登入 Google 帳號以進入<strong>三問法學習與題庫測驗</strong>，系統會記錄你的學習進度與弱項。<br>標準講義無需登入即可閱讀。</p>' +
+      (msg ? '<p style="color:#B4233B;font-size:14px;">' + msg + '</p>' : '') +
+      '<button class="btn btn-primary btn-lg" style="gap:8px;" onclick="ThreeQuestionEngine.googleLogin()">使用 Google 登入</button>' +
+      '<div style="margin-top:18px;"><a href="lectures/index.html" style="color:var(--blue,#008F7A);font-size:15px;font-weight:600;">先看標準講義 →</a></div>' +
+      '</div>';
+  }
+  renderLoginGate();  // default state until auth resolves
   ThreeQuestionEngine.initFirebase(function(user) {
-    TQE_UI.renderEntry();
     var loginBtn = document.getElementById('tqeBtnGoogleLogin');
     var avatar = document.getElementById('tqeUserAvatar');
     if (user) {
       if (loginBtn) loginBtn.style.display = 'none';
       if (avatar) { avatar.style.display = 'grid'; avatar.textContent = (user.displayName || user.email || '').charAt(0); avatar.onclick = function(){ if(confirm('登出？')) ThreeQuestionEngine.googleLogout(); }; }
+      // logged in: load the question bank (login-gated) then show the dashboard
+      var area = document.getElementById('tqeEntryArea');
+      if (area) area.innerHTML = '<p style="text-align:center;margin:10vh auto;color:var(--text-mute);">載入題庫中…</p>';
+      ThreeQuestionEngine.loadQuestionBank().then(function(n) {
+        if (n === false) renderLoginGate('題庫載入失敗，請重新整理或重新登入。');
+        else TQE_UI.renderEntry();
+      });
     } else {
       if (loginBtn) loginBtn.style.display = 'inline-flex';
       if (avatar) avatar.style.display = 'none';
+      renderLoginGate();
     }
   });
 </script>

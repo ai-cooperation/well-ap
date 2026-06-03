@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "wellap": {
+      "question_bank": { ".read": "auth != null", ".write": false },
+      "question_pool": { ".read": "auth != null", ".write": "auth != null" },
+      "analytics": { ".read": "auth != null", ".write": "auth != null" },
+      "users_auth": {
+        "$uid": {
+          ".read": "auth != null && auth.uid === $uid",
+          ".write": "auth != null && auth.uid === $uid"
+        }
+      },
+      "$rest": { ".read": "auth != null", ".write": "auth != null" }
+    }
+  }
+}
