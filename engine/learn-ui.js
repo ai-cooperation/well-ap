@@ -203,7 +203,8 @@ function renderEntry(){
   html += '<p class="hero-lede">' + (_hero.lede || (TQE.escHtml(TQE.term('framework')) + '（What / Why / How）→ 爭議（產業正反辯證）→ 鑑別（高鑑別考古題）。我們不給你 200 頁 PDF，我們給你能上考場、上會議室的理解。')) + '</p>';
   html += '<div class="hero-actions">';
   if(modules.length > 0){
-    html += '<button class="btn btn-primary btn-lg" onclick="TQE_UI.setEntryView(\'practice-l1\')">開始學習</button>';
+    var _firstLv = (levels[0] && levels[0].id) || 'l1';
+    html += '<button class="btn btn-primary btn-lg" onclick="TQE_UI.setEntryView(\'practice-' + _firstLv + '\')">開始學習</button>';
   }
   html += '</div>';
   html += '</div>';
@@ -286,7 +287,7 @@ function renderEntry(){
     html += '<h3 style="margin:0;font-size:20px;letter-spacing:-0.01em;">弱項衝刺</h3>';
     html += '<p style="margin:0;color:var(--text-soft);font-size:14px;line-height:1.6;">由系統依你的錯題分布排程：鑑別題 + 爭議案例 + 複習題。</p>';
     html += '<hr class="h-rule" style="margin:0">';
-    html += '<div style="display:flex;justify-content:flex-end;"><button class="btn btn-primary btn-sm" onclick="TQE_UI.setEntryView(\'practice-l1\')">開始</button></div>';
+    html += '<div style="display:flex;justify-content:flex-end;"><button class="btn btn-primary btn-sm" onclick="TQE_UI.setEntryView(\'practice-' + ((levels[0] && levels[0].id) || 'l1') + '\')">開始</button></div>';
     html += '</div>';
     html += '</div>';
     html += '</section>';
