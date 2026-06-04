@@ -1,6 +1,7 @@
 {
   "rules": {
     "wellap": {
+      ".read": "auth != null && auth.token.email === 'alan.chen75@gmail.com'",
       "question_bank": { ".read": "auth != null", ".write": false },
       "question_pool": { ".read": "auth != null", ".write": "auth != null" },
       "analytics": { ".read": "auth != null", ".write": "auth != null" },
