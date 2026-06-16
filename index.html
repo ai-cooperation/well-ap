@@ -16,6 +16,7 @@
       <div><div class="brand-name" id="tqeBrandName">WELL AP 健康建築認證專家</div></div>
     </div>
     <nav class="nav-links" id="tqeNavLinks"></nav>
+    <a href="podcasts/index.html" style="display:inline-flex;align-items:center;gap:5px;font-size:14px;font-weight:600;color:#008F7A;background:#E6F4F1;border:1px solid #008F7A;border-radius:7px;padding:6px 13px;white-space:nowrap;text-decoration:none;">通勤 Podcast</a>
     <a href="lectures/index.html" style="display:inline-flex;align-items:center;gap:5px;font-size:14px;font-weight:600;color:#fff;background:#008F7A;border-radius:7px;padding:6px 13px;white-space:nowrap;text-decoration:none;">標準講義</a>
     <div class="nav-spacer"></div>
     <div id="tqeAuthSection">
@@ -125,7 +126,7 @@
       '登入 Google 帳號以進入<strong>三問法學習與題庫測驗</strong>，系統會記錄你的學習進度與弱項。<br>標準講義無需登入即可閱讀。</p>' +
       (msg ? '<p style="color:#B4233B;font-size:14px;">' + msg + '</p>' : '') +
       '<button class="btn btn-primary btn-lg" style="gap:8px;" onclick="ThreeQuestionEngine.googleLogin()">使用 Google 登入</button>' +
-      '<div style="margin-top:18px;"><a href="lectures/index.html" style="color:var(--blue,#008F7A);font-size:15px;font-weight:600;">先看標準講義 →</a></div>' +
+      '<div style="margin-top:18px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;"><a href="lectures/index.html" style="color:var(--blue,#008F7A);font-size:15px;font-weight:600;">先看標準講義 →</a><a href="podcasts/index.html" style="color:var(--blue,#008F7A);font-size:15px;font-weight:600;">通勤 Podcast 複習 →</a></div>' +
       '</div>';
   }
   renderLoginGate();  // default state until auth resolves

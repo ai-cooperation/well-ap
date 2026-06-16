@@ -5,6 +5,10 @@ _source/*.pdf
 _source/wellv2-standard.txt
 _source/wellap-handbook.txt
 
+# podcast 音檔產出（大檔，先本地驗證；要上架平台時再另議 hosting）
+_source/podcast_out/
+
 # os / deps
 .DS_Store
 node_modules/
+__pycache__/
