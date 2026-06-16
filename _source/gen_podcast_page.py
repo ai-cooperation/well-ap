@@ -34,6 +34,53 @@ PLAY_SVG = ('<svg class="ep-icon-play" viewBox="0 0 24 24" width="20" height="20
             '<rect x="5" y="3" width="5" height="18" rx="1" fill="currentColor"/>'
             '<rect x="14" y="3" width="5" height="18" rx="1" fill="currentColor"/></svg>')
 
+# Firebase Web config 的單一來源 = content.js 的 WELLAP_CONTENT.firebase。
+# 不在本頁重複寫一份 config（DRY + 避免 secret-scan hook 誤判 Firebase Web apiKey）。
+# Firebase Web config 非 secret（ship 在 browser bundle，安全靠 Auth + Security Rules，見 CONSUMERS.md）。
+FB_SCRIPTS = (
+    '<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>\n'
+    '<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>'
+)
+
+# 未登入時顯示的登入閘；登入後才顯示 #epArea。
+# 注意：這是「介面層」登入閘——音檔仍是公開靜態 URL，非真正內容保護。
+# 真保護需經認證端點發送音檔（Cloudflare Worker + signed URL），屬之後接 cooperation-hub 的工作。
+AUTH_JS = """(function(){
+  if (typeof firebase === 'undefined') return;
+  // config 取自 content.js 的 WELLAP_CONTENT.firebase（單一來源，不重複寫）
+  var cfg = (typeof WELLAP_CONTENT !== 'undefined' && WELLAP_CONTENT.firebase) || null;
+  if (!cfg) { console.error('Firebase config 未載入（content.js?）'); return; }
+  firebase.initializeApp(cfg);
+  var gate = document.getElementById('loginGate');
+  var epArea = document.getElementById('epArea');
+  var authBtn = document.getElementById('authBtn');
+  function login(){
+    var p = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithPopup(p).catch(function(e){
+      if (e && e.code && e.code.indexOf('popup') >= 0) firebase.auth().signInWithRedirect(p);
+    });
+  }
+  function logout(){ firebase.auth().signOut(); }
+  document.querySelectorAll('[data-login]').forEach(function(b){
+    b.addEventListener('click', function(e){ e.preventDefault(); login(); });
+  });
+  firebase.auth().onAuthStateChanged(function(user){
+    if (user){
+      if (gate) gate.hidden = true;
+      if (epArea) epArea.hidden = false;
+      if (authBtn){ authBtn.textContent = '登出'; authBtn.onclick = function(e){ e.preventDefault(); if (confirm('登出？')) logout(); }; }
+    } else {
+      if (gate) gate.hidden = false;
+      if (epArea) epArea.hidden = true;
+      var a = document.getElementById('gp-audio'); if (a) a.pause();
+      var gp = document.getElementById('gp'); if (gp) gp.classList.add('gp--hidden');
+      document.body.classList.remove('gp-active');
+      var rb = document.querySelector('.gp-resume'); if (rb) rb.remove();
+      if (authBtn){ authBtn.textContent = '登入會員'; authBtn.onclick = function(e){ e.preventDefault(); login(); }; }
+    }
+  });
+})();"""
+
 
 def dur_to_sec(d):
     m, s = d.split(":")
@@ -79,25 +126,37 @@ def build():
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>WELL AP Podcast · 12 概念中文複習</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="podcasts.css?v=1">
+<link rel="stylesheet" href="podcasts.css?v=2">
+{FB_SCRIPTS}
 </head>
 <body>
 
 <div class="topbar"><div class="topbar-in">
   <span class="brand"><b>WA</b>WELL AP Podcast</span>
   <span class="sp"></span>
-  <a class="nav on" href="index.html">Podcast</a>
   <a class="nav" href="../lectures/index.html">標準講義</a>
   <a class="nav" href="../index.html">回學習站</a>
+  <a class="nav" id="authBtn" href="#" style="font-weight:700;color:var(--teal-700);">登入會員</a>
 </div></div>
 
 <div class="wrap">
   <h1>Podcast · 中文複習</h1>
   <p class="lede">把 WELL v2 的 12 個概念做成中文對談式 podcast，每集對應一頁標準講義，從考試重點切入：feature 目的、關鍵門檻數值、precondition 與 optimization 的差別。適合通勤時做第一階段的聽覺預習。</p>
-  <div class="note">共 12 集 · 總長約 <b>{total}</b>。內容由 NotebookLM 依標準講義生成，屬學習輔助；正式條文與數值以 IWBI 官方文件為準。點任一集即開始播放，底部播放器支援背景播放、倍速與自動接續下一集。</div>
+  <div class="note">共 12 集 · 總長約 <b>{total}</b>。內容由 NotebookLM 依標準講義生成，屬學習輔助；正式條文與數值以 IWBI 官方文件為準。登入會員後即可收聽，底部播放器支援背景播放、倍速與自動接續下一集。</div>
 
-  <div class="ep-list">
+  <div id="loginGate" class="login-gate">
+    <div class="lg-card">
+      <div class="lg-title">登入會員後即可收聽</div>
+      <p class="lg-sub">這 12 集中文 podcast 為 WELL AP 會員內容。用 Google 帳號登入即解鎖全部單元，支援背景播放與續聽。</p>
+      <button class="lg-btn" data-login>使用 Google 登入</button>
+      <div class="lg-alt"><a href="../lectures/index.html">先看標準講義 →</a></div>
+    </div>
+  </div>
+
+  <div id="epArea" hidden>
+    <div class="ep-list">
 {cards}
+    </div>
   </div>
 </div>
 
@@ -139,6 +198,11 @@ def build():
 {playlist_js()}
 </script>
 <script src="player.js?v=1"></script>
+<!-- content.js 提供 WELLAP_CONTENT.firebase（Firebase config 單一來源） -->
+<script src="../content.js?v=3"></script>
+<script>
+{AUTH_JS}
+</script>
 </body>
 </html>
 """
